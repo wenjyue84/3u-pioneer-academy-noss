@@ -17,6 +17,43 @@
 
 ---
 
+## Soalan Dwibahasa / Bilingual Assessment Questions
+
+**Q1 (MCQ):**
+**EN:** Which Asian BMI classification indicates "Obese I"?
+**BM:** Pengelasan BMI Asia manakah yang menunjukkan "Obes I"?
+A. 18.5–22.9  B. 23.0–24.9  C. 25.0–29.9  D. ≥30.0 | **Answer / Jawapan:** C
+
+**Q2 (MCQ):**
+**EN:** Which of the following is an absolute contraindication for body treatments?
+**BM:** Manakah antara berikut adalah kontraindikasi mutlak bagi rawatan badan?
+A. Mild varicose veins  B. Low blood pressure  C. Contagious skin disease  D. Pregnancy | **Answer / Jawapan:** C
+
+**Q3 (Short Answer / Jawapan Pendek):**
+**EN:** List THREE (3) key items recorded on a body consultation card.
+**BM:** Senaraikan TIGA (3) perkara utama yang direkodkan pada kad konsultasi badan.
+**Answer / Jawapan:** Any 3 from: client name, medical history, contraindications, BMI, body measurements, allergies, medications, previous treatments.
+
+**Q4 (Short Answer / Jawapan Pendek):**
+**EN:** State the THREE (3) somatotypes and one characteristic of each.
+**BM:** Nyatakan TIGA (3) somatotaip dan satu ciri bagi setiap satunya.
+**Answer / Jawapan:** Ectomorph – lean/tall; Mesomorph – muscular/athletic; Endomorph – rounded/wider hips.
+
+**Q5 (Scenario / Senario):**
+**EN:** A client with mild eczema requests a body wrap. Identify the contraindication type and the recommended action.
+**BM:** Seorang pelanggan dengan eczema ringan memohon balutan badan. Kenal pasti jenis kontraindikasi dan tindakan yang disyorkan.
+**Answer / Jawapan:** Relative contraindication. Perform patch test; use hypoallergenic products; avoid affected skin areas; proceed with caution.
+
+### Rubrik Pemarkahan / Marking Rubric (Skala 0–3)
+| Markah / Mark | Kriteria / Criteria |
+|---|---|
+| 3 | Lengkap, tepat, selaras NOSS / Complete, accurate, NOSS-aligned |
+| 2 | Kebanyakan betul, kekurangan kecil / Mostly correct, minor gaps |
+| 1 | Separa betul, kekurangan besar / Partially correct, major gaps |
+| 0 | Tiada jawapan atau tidak relevan / No response or irrelevant |
+
+---
+
 ## Section A: Multiple Choice (20 marks)
 
 Choose the BEST answer for each question. Each question carries 2 marks.

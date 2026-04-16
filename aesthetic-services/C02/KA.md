@@ -7,6 +7,43 @@
 
 ---
 
+## Soalan Dwibahasa / Bilingual Assessment Questions
+
+**Q1 (MCQ):**
+**EN:** What is the primary physiological effect of heat on blood vessels?
+**BM:** Apakah kesan fisiologi utama haba ke atas saluran darah?
+A. Vasoconstriction  B. Vasodilation  C. Coagulation  D. Calcification | **Answer / Jawapan:** B
+
+**Q2 (MCQ):**
+**EN:** Which condition is an absolute contraindication for thermal therapy?
+**BM:** Keadaan manakah merupakan kontraindikasi mutlak bagi terapi haba?
+A. Mild eczema  B. Controlled hypertension  C. Thrombosis  D. Low blood pressure | **Answer / Jawapan:** C
+
+**Q3 (Short Answer / Jawapan Pendek):**
+**EN:** List FOUR (4) physiological effects of heat application.
+**BM:** Senaraikan EMPAT (4) kesan fisiologi aplikasi haba.
+**Answer / Jawapan:** Any 4: Vasodilation, increased perspiration, muscle relaxation, improved lymphatic drainage, pain relief, raised metabolic rate.
+
+**Q4 (Short Answer / Jawapan Pendek):**
+**EN:** Describe TWO (2) differences between sauna and steam cabinet therapy.
+**BM:** Huraikan DUA (2) perbezaan antara terapi sauna dan kabinet stim.
+**Answer / Jawapan:** Sauna: dry heat, 50–70°C; Steam cabinet: moist heat, 40–50°C. (Accept any 2 valid differences.)
+
+**Q5 (Scenario / Senario):**
+**EN:** A hypertensive client on controlled medication requests steam therapy. What action would you take and why?
+**BM:** Seorang pelanggan hipertensi dengan ubat terkawal memohon terapi stim. Apakah tindakan anda dan mengapa?
+**Answer / Jawapan:** Relative contraindication. Proceed with caution; reduce temperature and duration; monitor client closely; ensure hydration.
+
+### Rubrik Pemarkahan / Marking Rubric (Skala 0–3)
+| Markah / Mark | Kriteria / Criteria |
+|---|---|
+| 3 | Lengkap, tepat, selaras NOSS / Complete, accurate, NOSS-aligned |
+| 2 | Kebanyakan betul, kekurangan kecil / Mostly correct, minor gaps |
+| 1 | Separa betul, kekurangan besar / Partially correct, major gaps |
+| 0 | Tiada jawapan atau tidak relevan / No response or irrelevant |
+
+---
+
 ## Section A: Multiple Choice (20 marks — 2 marks each)
 
 **1.** The primary physiological effect of heat application on blood vessels is:

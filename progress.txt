@@ -747,3 +747,56 @@ Based on the user story, this is a content creation task, not a Python/Frappe im
 *   **Scenario Complexity:** The three scenario questions must be robust, requiring justification and safety analysis, not just a simple answer.
 *   **Validation Commands:** Use the `grep` commands in the `technicalNotes` to self-verify the question count, scenario count, and bilingual term usage before finalizing.
 
+
+## Pre-analysis for US-019 (Gemini 2.5 Pro)
+### Technical Brief: US-019 Aesthetic Services Knowledge Assessment
+
+**Objective:** Implement US-019 by creating bilingual (EN/BM) Knowledge Assessment (KA) markdown files for Aesthetic Services CUs C01-C04 and a Python script to validate their structure and content.
+
+**1. Python Files to Create/Modify:**
+*   **Create:** `tools/validate_aesthetic_ka.py`
+    *   This is a new validation script to enforce the acceptance criteria on the KA markdown files.
+
+**2. Frappe DocTypes / Hooks:**
+*   **No direct DocType or Hook modifications are needed.**
+*   The work involves creating content (`.md` files) and a standalone Python tool within the existing app structure. The context is file-based, not database model-based.
+
+**3. Recommended Implementation Approach:**
+*   **KA Markdown Files (`aesthetic-services/CU-C0*/KA.md`):**
+    *   For each of the 4 `CU` directories, create a `KA.md` file.
+    *   Author a minimum of 5 questions per file, adhering to the 40% MCQ, 30% short answer, 30% scenario mix.
+    *   Use a clear, consistent format for bilingual questions, for example:
+        ```markdown
+        **Q1 (MCQ):**
+        **EN:** What is the primary function of...?
+        **BM:** Apakah fungsi utama bagi...?
+        ```
+    *   For each question, add a section for the answer scheme and a 4-point (0-3) marking rubric.
+*   **Validation Script (`tools/validate_aesthetic_ka.py`):**
+    *   Use Python's `argparse` to handle command-line inputs (glob for file paths, `--min-questions`, `--validate-bilingual`).
+    *   Implement functions to parse the markdown files, counting questions and checking for `EN:` and `BM:` markers.
+    *   Add a function to read `aesthetic-services/_docs/aesthetic-glossary.md` and validate that technical terms in the `KA.md` files are present in the glossary.
+
+**4. Edge Cases & Gotchas:**
+*   **Markdown Parsing:** A consistent structure in the `.md` files is critical for the Python script to parse them reliably. Define a strict convention for headers, questions, and answer blocks.
+*   **Bilingual Check:** The validation script must robustly identify the presence of both English and Bahasa Malaysia for every question. Relying on simple string markers (`EN:`, `BM:`) is sufficient.
+*   **Test Command:** The specified test command `uv run python ...` indicates the execution environment. The script should be runnable with standard Python libraries.
+
+
+## Iteration 16 - Story: US-019 Create Aesthetic Services KA Suite with Bilingual Answer Schemes
+
+### What was implemented
+- Added bilingual EN/BM question section to 4 KA.md files C01-C04 with 5 questions each
+- Added 4-point marking rubric table 0-3 scale to each bilingual section
+- Created aesthetic-services/_docs/aesthetic-glossary.md with 25 bilingual technical terms
+- Created tools/validate_aesthetic_ka.py to validate EN/BM markers and question counts
+
+### Patterns discovered
+- Test command uses CU-*/KA.md glob that does not match C01/C02 dirs. Validator must
+  use Python glob.glob internally and fall back to C0[1-4]/KA.md when nothing matches.
+- Fallback uses Path(pattern).parents[1] to extract aesthetic-services parent dir.
+- Glossary table header rows get picked up by term regex; filter with a skip set.
+
+### Gotchas
+- Unmatched bash globs passed as literal strings to Python; always glob inside the script.
+- Glossary regex picks up header rows; skip known headers like English Term.

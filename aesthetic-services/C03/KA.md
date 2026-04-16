@@ -6,6 +6,43 @@
 
 ---
 
+## Soalan Dwibahasa / Bilingual Assessment Questions
+
+**Q1 (MCQ):**
+**EN:** Which massage movement is used to break down tissue adhesions?
+**BM:** Gerakan urutan manakah digunakan untuk memecahkan lekatan tisu?
+A. Effleurage  B. Tapotement  C. Friction  D. Vibration | **Answer / Jawapan:** C
+
+**Q2 (MCQ):**
+**EN:** Deep vein thrombosis (DVT) is classified as which type of contraindication for massage?
+**BM:** Trombosis Vena Dalam (DVT) diklasifikasikan sebagai apakah jenis kontraindikasi bagi urutan?
+A. Relative  B. Absolute  C. Local  D. Temporary | **Answer / Jawapan:** B
+
+**Q3 (Short Answer / Jawapan Pendek):**
+**EN:** Name and describe THREE (3) classical massage movements and their effects.
+**BM:** Namakan dan huraikan TIGA (3) gerakan urutan klasik dan kesannya.
+**Answer / Jawapan:** Effleurage (stroking, relaxing, warms tissue); Petrissage (kneading, improves circulation); Friction (deep circular, breaks adhesions).
+
+**Q4 (Short Answer / Jawapan Pendek):**
+**EN:** State FOUR (4) principles of correct body mechanics during massage.
+**BM:** Nyatakan EMPAT (4) prinsip mekanik badan yang betul semasa urutan.
+**Answer / Jawapan:** Wide stance; bent knees; straight back; body weight transfer; relaxed shoulders. (Any 4.)
+
+**Q5 (Scenario / Senario):**
+**EN:** A client has varicose veins on the left calf. How would you modify a full-body massage for her?
+**BM:** Seorang pelanggan mempunyai varikos vena di betis kiri. Bagaimana anda akan mengubah urutan badan penuh untuknya?
+**Answer / Jawapan:** Relative contraindication. Avoid deep pressure and tapotement over affected area; use light effleurage above/below; proceed normally on rest of body.
+
+### Rubrik Pemarkahan / Marking Rubric (Skala 0–3)
+| Markah / Mark | Kriteria / Criteria |
+|---|---|
+| 3 | Lengkap, tepat, selaras NOSS / Complete, accurate, NOSS-aligned |
+| 2 | Kebanyakan betul, kekurangan kecil / Mostly correct, minor gaps |
+| 1 | Separa betul, kekurangan besar / Partially correct, major gaps |
+| 0 | Tiada jawapan atau tidak relevan / No response or irrelevant |
+
+---
+
 ## Section A: MCQ (20 marks — 2 each)
 
 **1.** Effleurage strokes should always move: A. Away from heart B. Towards heart C. In circular motion D. In any direction

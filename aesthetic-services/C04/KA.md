@@ -6,6 +6,43 @@
 
 ---
 
+## Soalan Dwibahasa / Bilingual Assessment Questions
+
+**Q1 (MCQ):**
+**EN:** What is the primary effect of Faradic/EMS current on body tissue?
+**BM:** Apakah kesan utama arus Faradik/EMS ke atas tisu badan?
+A. Chemical reaction  B. Passive muscle contraction  C. Heat generation  D. Lymphatic drainage | **Answer / Jawapan:** B
+
+**Q2 (MCQ):**
+**EN:** Which condition is an absolute contraindication for ALL electrotherapy treatments?
+**BM:** Keadaan manakah merupakan kontraindikasi mutlak bagi SEMUA rawatan elektroterapi?
+A. Varicose veins  B. Pacemaker  C. Mild eczema  D. Low blood pressure | **Answer / Jawapan:** B
+
+**Q3 (Short Answer / Jawapan Pendek):**
+**EN:** Name THREE (3) electrotherapy modalities and state the primary effect of each.
+**BM:** Namakan TIGA (3) modaliti elektroterapi dan nyatakan kesan utama setiap satu.
+**Answer / Jawapan:** Any 3: Faradic/EMS (muscle contraction); Galvanic (product penetration); Vacuum suction (lymphatic drainage); HF (germicidal/circulation); Micro-current (muscle re-education).
+
+**Q4 (Short Answer / Jawapan Pendek):**
+**EN:** Explain why thermal and tactile sensitivity tests must be performed before electrotherapy.
+**BM:** Jelaskan mengapa ujian sensitiviti haba dan taktil mesti dilakukan sebelum elektroterapi.
+**Answer / Jawapan:** To detect nerve damage or reduced skin sensation that could lead to burns or injury during current application; confirms safe treatment parameters.
+
+**Q5 (Scenario / Senario):**
+**EN:** A client with Grade 2 cellulite on thighs and a pacemaker requests vacuum suction. What would you do?
+**BM:** Seorang pelanggan dengan selulite Gred 2 di paha dan alat pacu jantung memohon sedutan vakum. Apakah yang anda lakukan?
+**Answer / Jawapan:** Pacemaker is an absolute contraindication for ALL electrotherapy including vacuum suction. Decline treatment; explain reason; offer non-electrical alternatives such as manual massage or body wrap.
+
+### Rubrik Pemarkahan / Marking Rubric (Skala 0–3)
+| Markah / Mark | Kriteria / Criteria |
+|---|---|
+| 3 | Lengkap, tepat, selaras NOSS / Complete, accurate, NOSS-aligned |
+| 2 | Kebanyakan betul, kekurangan kecil / Mostly correct, minor gaps |
+| 1 | Separa betul, kekurangan besar / Partially correct, major gaps |
+| 0 | Tiada jawapan atau tidak relevan / No response or irrelevant |
+
+---
+
 ## Section A: MCQ (20 marks — 2 each)
 **1.** Faradic/EMS causes: A. Chemical reaction B. Passive muscle contraction C. Heat generation D. UV radiation
 **2.** Cathode in galvanic produces: A. Acidic B. Alkaline C. Neutral D. No reaction
