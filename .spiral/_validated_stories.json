@@ -1,6 +1,31 @@
 {
   "stories": [
     {
+      "title": "Create BEV C04 Performance Assessment with Thermal System Diagnostic Scenarios",
+      "priority": "high",
+      "description": "Build practical performance assessment for BEV C04 (thermal management systems) with 5-7 diagnostic troubleshooting scenarios that align with C04 Work Activities. Each scenario includes expected troubleshooting steps, safety checkpoints, and supervisor assessment rubric (competency levels 1-4) with bilingual terminology.",
+      "acceptanceCriteria": [
+        "bev-diagnostic-rectification/CU04/PA.md created with 5-7 thermal system diagnostic scenarios (coolant leaks, thermal sensor faults, pump failures, etc.) each mapping to specific C04 Work Activities and including step-by-step troubleshooting procedures",
+        "Each scenario includes mandatory safety checkpoints (HV isolation, PPE, tool calibration) and assessment rubric scoring competency on 1-4 scale (1=unsafe/incomplete, 4=competent with initiative); bilingual language (EN + BM terminology)",
+        "PA.md validated against C04 KK work sheets to ensure all work activities are covered; supervisor assessment rubric cross-referenced with C05 supervisory competency criteria"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/CU04/PA.md (content: 5-7 diagnostic scenarios with safety checklists and rubrics)",
+        "Cross-reference file: bev-diagnostic-rectification/CU04/KK-*.md (map each work activity to PA scenario)",
+        "Validation: Ensure all C04 Work Activities from _reference/00-noss-extract.md [C04 Work Activities] are represented in PA scenarios",
+        "Validation: Check HV safety terminology matches C01 KP and existing safety documentation"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "bev-diagnostic-rectification/CU04/PA.md"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
       "title": "[Integration Test] Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
       "priority": "high",
       "description": "Write integration tests for the feature implemented in US-001. Story description: Review and enhance BEV C01 KP-01~03 Information Sheets for technical accuracy. Verify HV safety content matches OSHA 1994, EQA 1974, and manufacturer standards. Ensure PPE specifications (Class 0, CAT-III) are correctly detailed with proper Malaysian regulatory references.",

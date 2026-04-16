@@ -450,7 +450,10 @@
       "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T15:46:49Z"
+      "last_attempted": "2026-04-16T15:46:49Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nThe existing `bev-diagnostic-rectification/C05/PA.md` (56 lines) has a basic task-based structure with 4 tasks and a simple category rubric. It lacks: 5-competency rubric with 4-level scale, 20+ scenario-based questions, and proper CoCU C05 alignment.\n\n## Problem Identified\nUS-015 requires a full rewrite with:\n1. 5 supervisor competency rubrics (4 levels each): Briefing, Training, SHE, Team Coordination, Documentation\n2. 20+ scenario-based questions referencing CoCU C05\n3. Mark distribution: 30+25+20+15+10 = 100 total\n\n## Planned Changes\n- Rewrite `bev-diagnostic-rectification/C05/PA.md` with rubric tables and 20 scenarios\n- Stay under 350 diff lines: new file ~270 lines + 56 deleted = ~326 lines diff\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"bev-diagnostic-rectification/C05/PA.md\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 270\n}\n</plan>\nNow validate the acceptance criteria:\nAll validations pass:\n- **20 scenarios** ✓\n- **\"= 5 marks\"** × 20 + **\"= 100 marks\"** summary ✓  \n- **61 CoCU C05 references** ✓\n- **215 lines** (diff = 215 + 56 = 271, well under 350)\n\nNow check the rubric marks sum: 30+25+20+15+10 = 100 ✓. Now mark passes and commit:\nNow append learnings to progress.txt:\nUS-015 is complete.\n\n**Summary:**\n- Rewrote `bev-diagnostic-rectification/C05/PA.md` (215 lines, diff 271 lines)\n- 5 competency rubrics with 4-level scale (Novice→Advanced) covering all CoCU C05 supervisor competencies\n- 20 scenario-based questions (Scenarios 1–20) across 5 parts aligned to WA1–WA4\n- 61 CoCU C05 references throughout; marks sum = 100; pass threshold documented\n- All grep validations pass: scenario count = 20, CoCU C05 references = 61, total = 100 marks"
+      }
     },
     {
       "id": "US-016",

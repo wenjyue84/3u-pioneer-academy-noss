@@ -395,10 +395,14 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T15:11:49Z"
+      "last_attempted": "2026-04-16T15:23:28Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nBoth `bev-diagnostic-rectification/C01/KA.md` and `C02/KA.md` exist with full Q-format question banks already implemented (35 and 40 questions respectively) from a previous iteration. The working tree has 194 net insertions vs the last commit — the content is already there but not yet committed.\n\n## Problem Identified\nThe story shows `passes: false` because the completed KA content was never staged/committed and prd.json was never updated to `passes: true`.\n\n## Planned Changes\n- Stage and commit both KA.md files (already contain complete, verified content)\n- Mark US-013 as `passes: true` in prd.json\n- Update progress.txt with learnings\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"prd.json\", \"progress.txt\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 10\n}\n</plan>\n\nAll acceptance criteria verified:\n- C01: 35 questions, 36 CoCU refs, 15/35 = 43% scenario, 25-mark scheme ✓\n- C02: 40 questions, 44 CoCU refs, 19/40 = 47.5% scenario, 25-mark scheme ✓\n- Sample answers all exceed 50 words ✓\n\nNow mark passes and commit:\nNow update progress.txt and commit:\nUS-013 complete. All acceptance criteria verified and committed:\n\n| Check | C01 | C02 |\n|-------|-----|-----|\n| Questions | 35 ✓ | 40 ✓ |\n| CoCU refs | 36 ✓ | 44 ✓ |\n| 25-mark key | ✓ | ✓ |\n| Scenario % | 43% ✓ | 47.5% ✓ |\n| 50+ word answers | ✓ | ✓ |\n\nThe files were already fully implemented in a previous iteration — the story was stuck at `passes: false` because the commit and prd.json update step had been missed. Marked `passes: true` and committed."
+      },
+      "_passedCommit": "ceb38046cd5ad2b6e088d480e14a350fd9bd0b05"
     },
     {
       "id": "US-014",
@@ -417,9 +421,14 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T15:35:04Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nThe `aesthetic-services/` folder has CU-01 through CU-04 KP files with bilingual terms scattered throughout but no centralized glossary or validator script.\n\n## Problem Identified\nUS-014 requires:\n1. A glossary `aesthetic-services/00-aesthetic-terminology.md` with 80+ EN/BM term pairs in 5 categories\n2. A Python validator `_agents/validate-aesthetic-terms.py` that checks KP files for terminology consistency\n\n## Planned Changes\n- Create `aesthetic-services/00-aesthetic-terminology.md` with 80+ terms across 5 categories (anatomy, treatments, equipment, modalities, hygiene)\n- Create `_agents/validate-aesthetic-terms.py` with ~130 lines Python validator\n\n<plan>\n{\n  \"files_to_create\": [\"aesthetic-services/00-aesthetic-terminology.md\", \"_agents/validate-aesthetic-terms.py\"],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\"load_glossary\", \"extract_terms_from_file\", \"check_consistency\", \"generate_csv_report\", \"main\"],\n  \"estimated_loc\": 220\n}\n</plan>\n\nLet me check if the `_agents/` directory exists:\nGood, `_agents/` exists. Now let me create the glossary file first:\nNow create the Python validator script:\nNow let's verify the files were created correctly and test the validator:\nThe validator works correctly — it finds 104 inconsistencies (including real ones like `jangkitan silang` vs canonical `Kontaminasi silang` for cross-contamination) and exits with code 1. Now let me count the glossary terms to verify 80+ requirement:\n137 term pairs, well above the 80 required. Now update prd.json:\nNow document learnings and commit:\nUS-014 is complete.\n\n**Summary:**\n\n- **`aesthetic-services/00-aesthetic-terminology.md`** — 137 EN/BM term pairs in 5 categories (anatomy, treatment modalities, equipment, hygiene & infection control, assessment & client consultation) with pronunciation guides for all technical BM terms.\n\n- **`_agents/validate-aesthetic-terms.py`** — Python validator that:\n  - Parses glossary table rows into EN→BM canonical mapping\n  - Scans KP files for inline BM translations in `(*italic*)` format\n  - Detects terms used with multiple different BM translations\n  - Generates CSV inconsistency report\n  - Exits 0 on pass, exits 1 with summary when inconsistencies found\n\n- **Test run:** Found 104 real inconsistencies across 28 KP files (e.g. `jangkitan silang` vs canonical `Kontaminasi silang` for cross-contamination, `vasodilatasi` vs canonical `Vasodilasi`). Validator correctly returns exit 1."
+      },
+      "_passedCommit": "a03cbd9887f2307e06815c39bc6307137e804266"
     },
     {
       "id": "US-015",
@@ -440,7 +449,8 @@
       "estimatedComplexity": "medium",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T15:43:30Z"
     },
     {
       "id": "US-016",
