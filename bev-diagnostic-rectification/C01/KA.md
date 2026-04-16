@@ -192,3 +192,99 @@ b) Interpretation (7 marks):
 a) Cabin air filter (4 marks): Open glove box, release stops, access filter housing, remove old filter noting airflow direction, install new filter with correct orientation, close housing, refit glove box.
 b) Fluid checks (5 marks): Brake fluid — locate reservoir, check MIN/MAX, test moisture content, top up with correct spec if low (investigate leaks). HV coolant — visual check ONLY, do NOT open cap, report if below MIN.
 c) Underbody inspection (5 marks): Battery pack housing (dents/cracks/leaks), HV cable routing, suspension components, brake pads/discs, tyre inner sidewalls. Critical: lift pads must be at manufacturer-specified points to avoid battery pack damage.
+
+---
+
+## BANK SOALAN Q-FORMAT / Q-FORMAT QUESTION BANK
+
+*Format JPK WIM — Jumlah: 35 soalan, 25 markah / Total: 35 questions, 25 marks*
+*Taburan / Distribution: HV Safety 40% (Q1–Q14), PPE 30% (Q15–Q25), Battery Basics 30% (Q26–Q35)*
+
+---
+
+### Bahagian A / Section A — Pilihan Berganda / Multiple Choice (20 markah / marks)
+
+*Arahan: Pilih jawapan TERBAIK. Setiap soalan bernilai 1 markah. / Choose the BEST answer. Each question carries 1 mark.*
+
+**Q1.** OSHA 1994 (Act 514) in Malaysia is enforced by: A. JPJ  B. DOSH  C. Energy Commission  D. DOE  [CoCU C01.1.1]
+**Q2.** The correct HV de-energisation first step is: A. Remove service plug  B. Disconnect 12V battery  C. Switch READY OFF and secure key in safety box  D. Open bonnet  [CoCU C01.1.2]
+**Q3.** Minimum waiting time after HV de-energisation before zero-energy verification: A. 30 seconds  B. 2 minutes  C. 5–10 minutes  D. 30 minutes  [CoCU C01.1.2]
+**Q4.** Zero-energy verification must be performed at: A. Battery positive terminal only  B. One point chosen by technician  C. Minimum three separate HV circuit points  D. 12V battery terminals only  [CoCU C01.1.2]
+**Q5.** The Insulation Monitoring Device (IMD) detects: A. Battery SOC  B. Insulation breakdown between HV circuit and chassis  C. Coolant leaks  D. Motor bearing wear  [CoCU C01.2.3]
+**Q6.** CAT III — 1000V is mandatory for BEV HV work because: A. It is the cheapest rating  B. It protects against transient overvoltage in HV distribution environments  C. CAT II is rated for higher voltage  D. Only required for 400V systems  [CoCU C01.1.3]
+**Q7.** Minimum acceptable HV insulation resistance for a BEV in service: A. 100 Ω/V  B. 300 Ω/V  C. 500 Ω/V  D. 1000 Ω/V  [CoCU C01.2.3]
+**Q8.** A non-conductive rescue hook in a BEV workshop is used to: A. Lift battery packs  B. Separate a casualty from a live HV source without physical contact  C. Test cable insulation  D. Secure vehicle to lift  [CoCU C01.1.2]
+**Q9.** Which Act governs scheduled waste management in a BEV workshop? A. OSHA 1994  B. Road Transport Act 1987  C. Environmental Quality Act 1974  D. Energy Commission Act 2001  [CoCU C01.1.5]
+**Q10.** The JHA must be completed: A. Once per month  B. Only after an incident occurs  C. Before each work activity for each vehicle  D. Only for new vehicles  [CoCU C01.1.4]
+**Q11.** What is the Hierarchy of Controls' MOST effective level? A. PPE  B. Administrative controls  C. Engineering controls  D. Elimination  [CoCU C01.1.4]
+**Q12.** A BEV fire extinguisher in the work bay must include: A. Class A (water) only  B. CO₂ and Class D (dry powder for metal fires) types  C. Any type available  D. Foam only  [CoCU C01.1.2]
+**Q13.** The interlock system opens main contactors when: A. Battery SOC drops below 20%  B. Coolant temperature exceeds 60°C  C. The service plug/interlock connector is removed  D. 12V auxiliary battery is disconnected  [CoCU C01.1.2]
+**Q14.** Scheduled Waste SW305 in a BEV workshop refers to: A. Used engine oil  B. Glycol-based HV coolant  C. Worn brake pads  D. Used cabin air filter  [CoCU C01.1.5]
+**Q15.** Class 0 insulated gloves protect up to: A. 500V  B. 1000V  C. 7500V  D. 17000V  [CoCU C01.1.2]
+**Q16.** The pre-use inspection of insulated gloves requires: A. Immersion in water  B. Roll-cuff air-squeeze test to detect leaks  C. Multimeter continuity test  D. Colour check only  [CoCU C01.1.2]
+**Q17.** HV-rated insulated hand tools must be rated at minimum: A. 500V  B. 750V  C. 1000V  D. 1500V  [CoCU C01.1.3]
+**Q18.** Arc-rated flash suits are rated in units of: A. kPa  B. Amperes  C. cal/cm²  D. Watts  [CoCU C01.1.2]
+**Q19.** Insulated gloves with chemical discolouration must be: A. Cleaned with solvent and reused  B. Stored separately for 1 month  C. Immediately withdrawn from service  D. Used only for LV work  [CoCU C01.1.2]
+**Q20.** HV PPE when not in use must be stored: A. On the workshop floor  B. Folded in a metal toolbox  C. In a cool, dry, purpose-made bag away from chemicals and sharp objects  D. Hung in direct sunlight  [CoCU C01.1.2]
+
+### Bahagian B / Section B — Soalan Senario Bermarkah / Graded Scenario Questions (5 markah / marks)
+
+*Jawab SEMUA soalan. Setiap soalan bernilai 1 markah. / Answer ALL questions. Each question carries 1 mark.*
+
+**Q21.** [SENARIO / SCENARIO] A technician enters a BEV maintenance bay and finds wet floor from an unknown liquid and no fire extinguisher in the bay. Describe the required actions before commencing any work. [CoCU C01.1.4 / C01.1.6]
+
+*Jawapan Contoh / Sample Answer:* The technician must NOT commence work. Notify the supervisor immediately. Identify the liquid — if glycol-based HV coolant, it is Schedule Waste SW305 requiring trained clean-up with PPE. Install wet floor signs and barriers. Obtain and position the correct fire extinguisher (CO₂ and Class D) before any activity begins. Complete the JHA checklist to confirm workplace compliance. Document the finding. No HV work may begin until all hazards are eliminated.
+
+**Q22.** [SENARIO / SCENARIO] During a BEV health check scan, fault code P0AFA (HV Battery Current Sensor Performance) is stored. Describe your diagnostic response and what this fault indicates. [CoCU C01.2.4]
+
+*Jawapan Contoh / Sample Answer:* Record the fault code and freeze-frame data. P0AFA indicates the BMS current sensor is reporting values outside expected parameters, possibly caused by sensor failure, corroded connector, or damaged wiring at the HV junction box. Inspect the current sensor harness and connector for moisture, corrosion, and pin damage. Measure sensor supply voltage and ground. Compare sensor readings against manufacturer's specification table. If sensor is confirmed faulty, raise a CU C02 rectification work order. Document all findings in the BEV Health Check Report before returning the vehicle.
+
+**Q23.** [SENARIO / SCENARIO] Cell #7 in Module 3 reads 3.67V while all other cells read 3.82–3.84V — a deviation of 0.15V. Interpret this finding and state the required action. [CoCU C01.2.3]
+
+*Jawapan Contoh / Sample Answer:* A deviation of 0.15V significantly exceeds the acceptable tolerance of ±0.05V. This indicates Cell #7 has substantially reduced capacity relative to the rest of the module, likely due to cell degradation, internal micro-short circuit, or electrolyte depletion. The BMS will limit the entire pack's charge and discharge capacity to protect this weakest cell, reducing vehicle range. Document the finding in the health check diagnostic report. Escalate to a CU C02 Battery Management System Rectification work order for module inspection and possible replacement.
+
+**Q24.** [SENARIO / SCENARIO] During glove pre-use inspection, the roll-cuff squeeze test causes immediate air escape before pressure is applied. State what this indicates and the required action. [CoCU C01.1.2]
+
+*Jawapan Contoh / Sample Answer:* Immediate air loss before pressure application indicates a significant puncture or rupture in the insulating rubber — the glove no longer provides reliable HV electrical protection. The technician must immediately remove the gloves from service. Label them clearly "DEFECTIVE — DO NOT USE" and quarantine them to prevent accidental reuse by others. Obtain a replacement pair of Class 0 or Class 1 insulated gloves in verified good condition and inspect them before any HV work proceeds. Report the defective PPE to the Safety and Health Officer for investigation and replacement procurement.
+
+**Q25.** [SENARIO / SCENARIO] A BEV arrives for 60,000 km service. Workshop records show HV coolant was topped up at 45,000 km with no root cause identified. Describe how you should handle the fluid check at this service. [CoCU C01.3.4 / C01.3.5]
+
+*Jawapan Contoh / Sample Answer:* Previous unexplained coolant loss indicates an unresolved leak that was masked without investigation. Before routine fluid checks, conduct a HV coolant circuit pressure test to locate the leak source. Inspect all coolant hoses, clamps, pump shaft seals, cooler matrix connections, and expansion tank cap seal. Visually check the battery pack underside and inverter housing for coolant staining. Do NOT simply top up the coolant again — identify and rectify the root cause first. Document findings fully in the work order and advise the customer that rectification work is required before the service can be completed safely.
+
+### Bahagian C / Section C — Senario Pengayaan / Enrichment Practice Scenarios (0 markah / marks)
+
+*Soalan latihan untuk kefahaman mendalam. / Practice questions for deeper understanding.*
+
+**Q26.** Describe the correct sequence for donning HV PPE before commencing BEV HV circuit work, including the order each item is put on. [CoCU C01.1.2]
+**Q27.** Explain the difference between a hazard and a risk in the BEV workshop context. Provide one BEV-specific example of each. [CoCU C01.1.4]
+**Q28.** Explain what happens electrically if the pre-charge circuit fails and why this causes damage to the inverter. [CoCU C01.2.3]
+**Q29.** A flood-damaged BEV is delivered to your workshop. List the unique hazards and the special handling protocol required before any work begins. [CoCU C01.1.4 / C01.1.6]
+**Q30.** Explain the three-point zero-energy verification procedure for a BEV using a CAT III — 1000V multimeter. [CoCU C01.1.2]
+**Q31.** Describe the Hierarchy of Controls. Give one BEV HV-specific example of a control at each level. [CoCU C01.1.4]
+**Q32.** At what SOH percentage is traction battery pack replacement typically recommended? Explain why the BMS limits performance before this threshold. [CoCU C01.2.3]
+**Q33.** Describe how to identify a BEV's HV system voltage before PPE selection. Why does the system voltage affect PPE class choice? [CoCU C01.3.2]
+**Q34.** A BEV owner reports gradual range reduction over 2 years. List three battery-related causes a technician should investigate during a health check. [CoCU C01.2.3 / C01.2.4]
+**Q35.** State the specific regulatory obligations for disposing of BEV HV glycol coolant and 12V lead-acid batteries, including relevant legislation. [CoCU C01.1.5]
+
+---
+
+### Skema Pemarkahan Q-Format / Q-Format Marking Scheme (25 Markah / Marks)
+
+**Bahagian A / Section A (Q1–Q20 — 1 markah setiap soalan / 1 mark each):**
+
+| Q | Jwp | Q | Jwp | Q | Jwp | Q | Jwp |
+|---|-----|---|-----|---|-----|---|-----|
+| Q1 | B | Q6 | B | Q11 | D | Q16 | B |
+| Q2 | C | Q7 | C | Q12 | B | Q17 | C |
+| Q3 | C | Q8 | B | Q13 | C | Q18 | C |
+| Q4 | C | Q9 | C | Q14 | B | Q19 | C |
+| Q5 | B | Q10 | C | Q15 | B | Q20 | C |
+
+**Bahagian B / Section B (Q21–Q25 — 1 markah setiap soalan / 1 mark each):**
+Award 1 mark for responses that correctly identify the key safety action(s) and reference relevant CoCU assessment criteria. See sample answers above.
+
+**Bahagian C / Section C (Q26–Q35 — Pengayaan / Enrichment — 0 markah / 0 marks):**
+Sample answers to be provided by trainer for guided discussion.
+
+**Jumlah Q-Format / Q-Format Total: 25 markah / marks**
+*Lulus / Pass: 60% = 15 markah/marks. Rujukan / References: CoCU C01 — semua kriteria penilaian / all assessment criteria.*
