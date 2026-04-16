@@ -1,6 +1,32 @@
 {
   "stories": [
     {
+      "title": "Implement IT Level 4 Knowledge Assessment with Advanced Systems Management Competency Rubrics",
+      "priority": "high",
+      "description": "Create comprehensive knowledge assessments (KA) for IT Level 4 (Computer System Management - Advanced) with scenario-based questions targeting systems administration, network management, and IT service management competencies, including integrated answer schemes with expert-level rubrics.",
+      "acceptanceCriteria": [
+        "Create it-computer-system/level-4/KA.md with 40-50 questions in mixed formats: MCQ (15), short answer (15), scenario-based (10), diagram labeling (5-10), with each question mapped to specific Level 4 NOSS CoCU Learning Outcomes",
+        "Include integrated answer schemes with competency rubrics showing marking guidance, pass thresholds, and evidence requirements for each question type aligned to Level 4 standards",
+        "Develop minimum 8 scenario-based diagnostic questions with decision trees showing correct IT troubleshooting pathways and competency evidence mapping for systems administration scenarios"
+      ],
+      "technicalNotes": [
+        "File to create: it-computer-system/level-4/KA.md following WIM structure template from it-computer-system/level-3/KA.md",
+        "Source reference: _reference/it-level-4-noss-extract.md (extract NOSS CoCU Level 4 data if missing)",
+        "Test command: grep -E '^##' it-computer-system/level-4/KA.md | wc -l (validate section structure compliance)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "it-computer-system/level-4/KA.md",
+        "it-computer-system/level-4/answer-schemes.md",
+        "_reference/it-level-4-noss-extract.md"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
       "title": "[Integration Test] Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
       "priority": "high",
       "description": "Write integration tests for the feature implemented in US-001. Story description: Review and enhance BEV C01 KP-01~03 Information Sheets for technical accuracy. Verify HV safety content matches OSHA 1994, EQA 1974, and manufacturer standards. Ensure PPE specifications (Class 0, CAT-III) are correctly detailed with proper Malaysian regulatory references.",
@@ -408,6 +434,30 @@
       "_source": "test-story",
       "_testType": "regression",
       "_forStoryId": "US-019"
+    },
+    {
+      "title": "[Regression Test] Implement IT Level 3 Knowledge Assessment with Competency-Based Rubrics",
+      "priority": "medium",
+      "description": "Write regression test to guard against future breakage of US-020. Story description: Create Knowledge Assessment (KA) documents for IT-020-3:2013 Level 3 mandatory CUs with varied question formats (MCQ, short answer, scenario-based) and competency rubrics. Validates all questions against NOSS Related Knowledge extraction to ensure complete curriculum coverage.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-020",
+        "Test would reliably fail if the US-020 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_020 -v"
+      ],
+      "dependencies": [
+        "US-020"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-020"
     }
   ]
 }

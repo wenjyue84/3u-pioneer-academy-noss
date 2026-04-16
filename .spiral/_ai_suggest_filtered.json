@@ -1,49 +1,23 @@
 [
   {
-    "title": "Implement IT-020 Level 4 Knowledge Assessment with System Administration Rubrics",
-    "priority": "medium",
-    "description": "Create comprehensive Knowledge Assessment documents for IT-020 Level 4, covering all CUs with system administration-focused competency rubrics and varied question types (MCQ, short-answer, scenario-based). Assessments must align with JPK WIM format and include integrated answer schemes with marking guidelines.",
-    "acceptanceCriteria": [
-      "All Level 4 CUs have corresponding KA.md files in it-computer-system/level-4/{CU-XX}/ with 15-25 questions each covering hardware troubleshooting, network configuration, user access management, and security protocols",
-      "Rubrics include 3-level performance descriptors (Developing, Proficient, Exemplary) with detailed marking criteria and partial credit allocations per question",
-      "Answer schemes integrated per question; bilingual terms (EN/BM) included for all competency descriptors"
-    ],
-    "technicalNotes": [
-      "File pattern: it-computer-system/level-4/cu-XX/KA.md \u2014 create per IT-020 CU structure",
-      "Test command: uv run pytest tests/test_wim_format.py::test_ka_format -k level4 -v",
-      "Validation: Cross-reference against JPK Panduan WIM template; verify all rubric criteria are objective and measurable"
-    ],
-    "filesTouch": [
-      "it-computer-system/level-4/cu-01/KA.md",
-      "it-computer-system/level-4/cu-02/KA.md",
-      "it-computer-system/level-4/cu-03/KA.md",
-      "it-computer-system/level-4/cu-04/KA.md",
-      "tests/test_wim_format.py"
-    ],
-    "estimatedComplexity": "medium",
-    "_source": "ai-example",
-    "passes": false,
-    "dependencies": []
-  },
-  {
-    "title": "Build WIM Content Coverage Validator for All Subjects",
+    "title": "Create Aesthetic C01-C04 Performance Assessment Answer Schemes with Bilingual Competency Rubrics",
     "priority": "high",
-    "description": "Develop Python tool that validates all NOSS Competency Unit Related Knowledge and Work Activity items are explicitly covered in corresponding WIM documents (KP, KT, KK, PA) across BEV, Aesthetic, and IT subjects. Tool outputs coverage report with gaps highlighted per CU and subject.",
+    "description": "Develop comprehensive marking schemes and bilingual competency rubrics for all Aesthetic Services performance assessments (C01-C04), ensuring consistent evaluation across practical demonstrations with clear evidence requirements aligned to NOSS CoCU.",
     "acceptanceCriteria": [
-      "Tool scans 00-noss-extract.md in each subject folder, extracts all CoCU Related Knowledge and Work Activities, and generates mapping to WIM file references with line numbers",
-      "Report identifies uncovered items per subject/CU with file paths, item codes, and remediation suggestions; exports to _reference/coverage-report.md",
-      "Coverage >= 95% per subject passes validation; <95% fails with detailed gap list (item ID, type, CU location)"
+      "Create/update aesthetic-services/c01/PA.md through c04/PA.md with bilingual competency rubrics (EN/BM) for each work activity with 4-5 competency levels (Novice, Competent, Proficient, Expert) and observable evidence descriptors",
+      "Each PA includes answer schemes linking assessment items to NOSS CoCU Work Activities (WA-01, WA-02, etc.) with specific competency criteria and marking guidance",
+      "Validate all bilingual terms against _reference/aesthetic-bilingual-glossary.md for terminology consistency across all documents"
     ],
     "technicalNotes": [
-      "File to create: _tools/validate_coverage.py (~140 lines) \u2014 parses markdown structure and validates cross-references",
-      "Output file: _reference/coverage-report.md \u2014 regenerated per execution with timestamp",
-      "Test command: uv run python _tools/validate_coverage.py --all-subjects && uv run pytest tests/test_coverage.py::test_coverage_threshold -v",
-      "Parser must handle both markdown headers (## CU-XX) and NOSS extract list format"
+      "File to edit: aesthetic-services/c01/PA.md through c04/PA.md (add: rubric table with EN/BM headers, evidence checklist, competency progression matrix)",
+      "Reference validation: grep -r against _reference/aesthetic-bilingual-glossary.md to ensure term consistency",
+      "Test command: grep -c 'Work Activity' aesthetic-services/*/PA.md (verify all WA mappings present)"
     ],
     "filesTouch": [
-      "_tools/validate_coverage.py",
-      "_reference/coverage-report.md",
-      "tests/test_coverage.py"
+      "aesthetic-services/c01/PA.md",
+      "aesthetic-services/c02/PA.md",
+      "aesthetic-services/c03/PA.md",
+      "aesthetic-services/c04/PA.md"
     ],
     "estimatedComplexity": "medium",
     "_source": "ai-example",
@@ -51,24 +25,49 @@
     "dependencies": []
   },
   {
-    "title": "Create BEV C05 Supervisory Practical Assessment Checklist with Tiered Rubrics",
-    "priority": "medium",
-    "description": "Build structured observational checklist for BEV C05 (Supervisory and Monitoring role) derived from all Work Activities in the CU. Checklist enables assessment of supervisor competencies in training delivery, hazard monitoring, performance assessment, and team coordination with tiered performance rubrics (Developing, Proficient, Exemplary).",
+    "title": "Implement IT Level 4 Knowledge Assessment with Advanced Systems Management Competency Rubrics",
+    "priority": "high",
+    "description": "Create comprehensive knowledge assessments (KA) for IT Level 4 (Computer System Management - Advanced) with scenario-based questions targeting systems administration, network management, and IT service management competencies, including integrated answer schemes with expert-level rubrics.",
     "acceptanceCriteria": [
-      "PA-checklist.md in bev-diagnostic-rectification/cu-05/ with 12-15 observable checklist items, each mapped to source KK work activity with activity code reference",
-      "Each checklist item includes: observable behavior, 3-level performance descriptor with criteria, evidence/assessment method (observation/document review/interview), and bilingual competency labels (EN/BM)",
-      "Checklist format complies with JPK WIM practical assessment template; validated against JPK Panduan WIM Edisi 2020 specimen"
+      "Create it-computer-system/level-4/KA.md with 40-50 questions in mixed formats: MCQ (15), short answer (15), scenario-based (10), diagram labeling (5-10), with each question mapped to specific Level 4 NOSS CoCU Learning Outcomes",
+      "Include integrated answer schemes with competency rubrics showing marking guidance, pass thresholds, and evidence requirements for each question type aligned to Level 4 standards",
+      "Develop minimum 8 scenario-based diagnostic questions with decision trees showing correct IT troubleshooting pathways and competency evidence mapping for systems administration scenarios"
     ],
     "technicalNotes": [
-      "File to create: bev-diagnostic-rectification/cu-05/PA-checklist.md (~160 lines); reference all cu-05/KK-XX.md work activities",
-      "Test command: uv run pytest tests/test_wim_format.py::test_pa_checklist_structure -v",
-      "Validation: 1) All 12+ KK activities referenced, 2) Rubric language consistency across items, 3) Bilingual terms match cu-05/PM-teori.md terminology"
+      "File to create: it-computer-system/level-4/KA.md following WIM structure template from it-computer-system/level-3/KA.md",
+      "Source reference: _reference/it-level-4-noss-extract.md (extract NOSS CoCU Level 4 data if missing)",
+      "Test command: grep -E '^##' it-computer-system/level-4/KA.md | wc -l (validate section structure compliance)"
     ],
     "filesTouch": [
-      "bev-diagnostic-rectification/cu-05/PA-checklist.md",
-      "tests/test_wim_format.py"
+      "it-computer-system/level-4/KA.md",
+      "it-computer-system/level-4/answer-schemes.md",
+      "_reference/it-level-4-noss-extract.md"
     ],
-    "estimatedComplexity": "small",
+    "estimatedComplexity": "medium",
+    "_source": "ai-example",
+    "passes": false,
+    "dependencies": []
+  },
+  {
+    "title": "Create IT Level 3 Performance Assessment with Systems Administration Competency Rubrics",
+    "priority": "high",
+    "description": "Develop performance assessment (PA) for IT Level 3 with practical competency rubrics for systems administration tasks, complementing the existing Level 3 KA, ensuring complete assessment coverage with observable evidence criteria and bilingual competency descriptors.",
+    "acceptanceCriteria": [
+      "Create it-computer-system/level-3/PA.md with competency rubrics for 6-8 key systems administration work activities (user account management, system backup/recovery, security configuration, performance monitoring, etc.) with 4-level rubrics (Novice to Expert)",
+      "Each work activity includes observable evidence requirements, marking checklist, and bilingual competency descriptors (EN/BM) aligned to Level 3 NOSS CoCU",
+      "PA document includes assessor guidance, safety checklists, and competency progression criteria with worked examples for borderline cases"
+    ],
+    "technicalNotes": [
+      "File to create: it-computer-system/level-3/PA.md (complement to existing it-computer-system/level-3/KA.md)",
+      "Bilingual validation: cross-reference _reference/it-bilingual-glossary.md for systems administration terminology consistency",
+      "Test command: grep -E '(Evidence|Rubric|Criteria)' it-computer-system/level-3/PA.md | wc -l (verify evidence framework coverage)"
+    ],
+    "filesTouch": [
+      "it-computer-system/level-3/PA.md",
+      "it-computer-system/level-3/assessor-guide.md",
+      "_reference/it-bilingual-glossary.md"
+    ],
+    "estimatedComplexity": "medium",
     "_source": "ai-example",
     "passes": false,
     "dependencies": []
