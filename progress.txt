@@ -46,3 +46,54 @@ This user story is a technical writing task, not a Frappe/Python coding task. Th
 - Windows: must use encoding=utf-8 when opening files with Python
 - Malaysian standard for safety glasses is MS ISO 16321 (not DIN EN166)
 - Act numbers: OSHA = Act 514, EQA = Act 127, ESA = Act 447, Road Transport = Act 333
+
+## Pre-analysis for US-002 (Gemini 2.5 Pro)
+**Subject: Technical Brief for US-002: Enhance BEV Technical Knowledge Content**
+
+**Note:** The user story provided (US-002) is for enhancing Markdown-based technical documentation, not a Frappe/Python implementation. The following brief is adjusted accordingly.
+
+**1. Target Files:**
+This task involves modifying Markdown (`.md`) files, not Python code. The specific files are:
+- `bev-diagnostic-rectification/C02/KP-01.md`
+- `bev-diagnostic-rectification/C02/KP-02.md`
+- `bev-diagnostic-rectification/C02/KP-03.md`
+- `bev-diagnostic-rectification/C02/KP-04.md`
+- `bev-diagnostic-rectification/C02/KP-05.md`
+- `bev-diagnostic-rectification/C02/KP-06.md`
+
+**2. Frappe Context:**
+There are no Frappe DocTypes or hooks involved. The work is confined to editing the content of the specified Markdown files.
+
+**3. Implementation Approach:**
+The agent should read, analyze, and rewrite the content within each of the six KP files. The goal is to enhance the technical theory for BEV rectification, focusing on:
+- Battery Management System (BMS) components.
+- High-Voltage (HV) cable, On-Board Charger (OBC), and battery pack theory.
+- DC-DC converter function and failure modes.
+- Add clear descriptions for diagrams and include tables for component specifications.
+
+**4. Edge Cases & Gotchas:**
+- **CRITICAL:** A previous attempt failed due to an `oversized_diff`. The agent must modify files incrementally. Process one file at a time to keep changes under the 5,000-line diff limit.
+- Ensure High-Voltage safety warnings are made prominent using Markdown callouts (e.g., `> **WARNING:** ...`).
+- Technical accuracy is paramount; content should be precise.
+- The scope is strictly limited to the content of the six listed files.
+
+
+## Story US-002 — Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory
+
+### What was implemented
+- KP-01: Fixed safety glasses spec (DIN EN166 → MS ISO 16321), added BMS component overview table with BM terms and failure modes column, added WARNING callout
+- KP-02: Added prominent WARNING callout for HV cable contact hazard, added HV cable/connector failure modes table
+- KP-03: Added WARNING callout for OBC residual HV risk, added OBC component specifications table (AC input, power ratings, cooling, communication)
+- KP-04: Added WARNING callout for pre-charge component hazards, added pre-charge system failure modes table (relay, resistor, contactor)
+- KP-05: Added WARNING callout with thermal runaway warning, added traction battery pack failure modes table
+- KP-06: Added WARNING callout for DC-DC HV input, converted prose failure symptoms to structured failure modes table
+
+### Patterns discovered
+- previous anti-pattern was oversized_diff (261,809 lines) from complete file rewrites. Correct approach: surgical additions only — 104 lines total for 6 files
+- WARNING callout pattern: `> **AMARAN / WARNING:** [specific hazard relevant to this component]` — each KP gets one targeted warning in the safety section
+- failure modes table pattern: | Component | Failure Mode | Symptom | Diagnosis | — 5-7 rows per file
+- specs table pattern: | Parameter | Specification | — placed after the definition/function section
+
+### Gotchas
+- KP-01 had DIN EN166 (European) instead of MS ISO 16321 (Malaysian standard) for safety glasses — same fix as C01
+- Each KP file already had good base content — surgical additions were sufficient, no rewrites needed
