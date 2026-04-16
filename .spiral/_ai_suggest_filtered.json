@@ -1,26 +1,42 @@
 [
   {
-    "title": "Create IT C01 System Architecture Knowledge Plans \u2014 Theory Lesson and Core Concepts",
+    "title": "Create BEV C05 Supervisory Performance Assessment with Role-Based Rubrics",
     "priority": "high",
-    "description": "Establish foundational IT WIM content for Competency Unit 01 (System Architecture Fundamentals) following JPK Buku Panduan format. Create theory lesson plan and five knowledge information sheets covering system fundamentals, hardware, software, security, and networking. Ensure complete coverage of IT-020-3:2013 CoCU-1 Related Knowledge items with bilingual terminology.",
+    "description": "Develop PA.md for BEV C05 supervisory competencies with performance-based evaluation criteria, supervisor role rubrics, and incident management assessments aligned with NOSS G452-010-3:2023 assessment criteria.",
     "acceptanceCriteria": [
-      "Create it-computer-system/C01/PM-teori.md with learning outcomes, theory content structure, and bilingual terms aligned to JPK format",
-      "Create it-computer-system/C01/KP(1/5).md through KP(5/5).md covering System Fundamentals, Hardware Components, Software Basics, System Security, Network Basics",
-      "Extract and document all NOSS IT-020-3 CoCU-1 Related Knowledge items in it-computer-system/00-noss-extract.md and verify 100% coverage in KP files"
+      "PA.md created at bev-diagnostic-rectification/C05-supervisory/PA.md with 4+ competency rubrics (briefing delivery, trainee supervision, SHE monitoring, incident response)",
+      "Each rubric includes 5-point competency scale (1=Novice to 5=Expert) with behavioral descriptors in English and Malay",
+      "PA.md cross-references all C05 Work Activities (KK files) and NOSS assessment criteria"
     ],
     "technicalNotes": [
-      "Files to create: it-computer-system/C01/PM-teori.md, it-computer-system/C01/KP(1-5).md",
-      "Test coverage: grep -E 'Related Knowledge|RK[0-9]+' it-computer-system/00-noss-extract.md | wc -l should match grep count across KP files",
-      "Validate bilingual sections in each KP with EN term / BM term pair format"
+      "File to create: bev-diagnostic-rectification/C05-supervisory/PA.md with standard PA structure (intro, competency rubrics, marking guide, supervisor checklist)",
+      "Test command: validate PA structure against JPK WIM format standard and verify bilingual term pairs"
     ],
     "filesTouch": [
-      "it-computer-system/00-noss-extract.md",
-      "it-computer-system/C01/PM-teori.md",
-      "it-computer-system/C01/KP(1/5).md",
-      "it-computer-system/C01/KP(2/5).md",
-      "it-computer-system/C01/KP(3/5).md",
-      "it-computer-system/C01/KP(4/5).md",
-      "it-computer-system/C01/KP(5/5).md"
+      "bev-diagnostic-rectification/C05-supervisory/PA.md"
+    ],
+    "estimatedComplexity": "small",
+    "_source": "ai-example",
+    "passes": false,
+    "dependencies": []
+  },
+  {
+    "title": "Build Multi-Format Knowledge Assessment for IT C01-C02 with Integrated Answer Schemes",
+    "priority": "high",
+    "description": "Create comprehensive KA.md files for IT Fundamentals and System Configuration with diverse question formats (MCQ, true/false, scenario-based), complete answer schemes, and marking rubrics aligned with IT-020:2013 NOSS coverage and competency levels.",
+    "acceptanceCriteria": [
+      "Two KA files created: it-computer-system/C01-fundamentals/KA.md (30+ questions) and it-computer-system/C02-configuration/KA.md (25+ questions), each with minimum 3 different question formats",
+      "Each question includes: question text (EN/BM pair), correct answer, marking rubric (0-100 scale), and reference to source KP section",
+      "Total question set covers all Related Knowledge (RK) topics from IT-020 NOSS CoCU; coverage mapping document provided"
+    ],
+    "technicalNotes": [
+      "Files to create: it-computer-system/C01-fundamentals/KA.md, it-computer-system/C02-configuration/KA.md with standard KA structure (intro, questions with answer schemes, rubrics, answer key)",
+      "Test command: uv run pytest tests/test_it_assessments.py -v (validates question count, bilingual pairs present, CoCU mapping, rubric format)"
+    ],
+    "filesTouch": [
+      "it-computer-system/C01-fundamentals/KA.md",
+      "it-computer-system/C02-configuration/KA.md",
+      "tests/test_it_assessments.py"
     ],
     "estimatedComplexity": "medium",
     "_source": "ai-example",
@@ -28,63 +44,23 @@
     "dependencies": []
   },
   {
-    "title": "Create BEV C04 Performance Assessment with Multi-Scenario Diagnostic Competency Rubric",
-    "priority": "high",
-    "description": "Build comprehensive performance assessment (PA) document for BEV C04 (Electrical Drive Systems) featuring four diagnostic scenarios and an integrated 5-point supervisor competency rubric (emerging to expert). Enable supervisors to assess student practical troubleshooting of real motor, inverter, and power system faults. Validate scenario alignment with NOSS CoCU Work Activities.",
-    "acceptanceCriteria": [
-      "Create bev-diagnostic-rectification/C04/PA.md with 4+ diagnostic scenarios: motor failure modes, inverter malfunction, power distribution faults, HV system anomalies",
-      "Include 5-point supervisor competency rubric (Emerging, Developing, Proficient, Advanced, Expert) assessing diagnostic reasoning, troubleshooting methodology, and safety compliance",
-      "Map each scenario to C04 Work Activities (WA01-WA05) and Assessment Criteria from NOSS; achieve 100% coverage"
-    ],
-    "technicalNotes": [
-      "File to create: bev-diagnostic-rectification/C04/PA.md (performance assessment with JPK format)",
-      "Test command: grep -E 'WA[01-5]|Assessment Criteria AC[0-9]+' bev-diagnostic-rectification/C04/PA.md | wc -l (expect \u2265 8 references)",
-      "Verify each scenario includes [WA##] reference tag and each rubric row has 5 proficiency levels with descriptors"
-    ],
-    "filesTouch": [
-      "bev-diagnostic-rectification/C04/PA.md"
-    ],
-    "estimatedComplexity": "medium",
-    "_source": "ai-example",
-    "passes": false,
-    "dependencies": []
-  },
-  {
-    "title": "Build Aesthetic Bilingual Term Standardization Tool \u2014 Validator, Report, and Fixer",
+    "title": "Develop WIM Multilingual Consistency Validator - Terminology and NOSS Coverage Audit Tool",
     "priority": "medium",
-    "description": "Create automated bilingual terminology validation and standardization system for Aesthetic Services WIM. Develop Python tool that scans all Knowledge Plans (KP) in C01-C04, identifies EN/BM term inconsistencies against master terminology reference, generates audit report with mismatches, and applies fixes. Ensures bilingual consistency goal across entire Aesthetic subject WIM.",
+    "description": "Build Python validator tool that audits all WIM materials across BEV, Aesthetic, and IT pathways for: (1) bilingual term consistency (same EN term = same BM translation within subject), (2) complete NOSS CoCU coverage (all RK\u2192KP, all WA\u2192KK), and (3) WIM format compliance per JPK standard.",
     "acceptanceCriteria": [
-      "Create aesthetic-services/_tools/terminology-validator.py with --check (report mode) and --fix (correction mode) supporting all C01-C04 KP files",
-      "Create aesthetic-services/_reference/terms.json with master bilingual terminology list (medical/spa EN\u2192BM pairs)",
-      "Generate HTML validation report showing mismatches with file paths and line numbers; apply fixes achieving 100% term consistency across all C01-C04 KP files"
+      "Python validator script created at _agents/validators/wim_coverage_validator.py; validates bilingual term consistency within each subject and reports terminology conflicts (same EN term with multiple BM translations)",
+      "Validator verifies complete NOSS coverage: extracts all Related Knowledge (RK) and Work Activities (WA) from NOSS source files, confirms corresponding KP and KK files exist, generates coverage gap report",
+      "Validator runs on all three subjects (BEV, Aesthetic, IT) and outputs combined compliance report to _agents/validators/reports/coverage-audit-{date}.md with summary statistics and actionable fix list"
     ],
     "technicalNotes": [
-      "File to create: aesthetic-services/_tools/terminology-validator.py (Python script with JSON I/O and regex term matching)",
-      "File to create: aesthetic-services/_reference/terms.json (master bilingual term pairs)",
-      "Test command: uv run python aesthetic-services/_tools/terminology-validator.py --check > report.html && uv run python aesthetic-services/_tools/terminology-validator.py --fix"
+      "File to create: _agents/validators/wim_coverage_validator.py (functions: extract_bilingual_terms, validate_noss_coverage, generate_gap_report, export_report_markdown)",
+      "File to create: tests/test_wim_validator.py with 12+ test cases covering bilingual consistency, coverage validation, and report generation",
+      "Test command: uv run pytest tests/test_wim_validator.py -v"
     ],
     "filesTouch": [
-      "aesthetic-services/_tools/terminology-validator.py",
-      "aesthetic-services/_reference/terms.json",
-      "aesthetic-services/C01/KP(1/4).md",
-      "aesthetic-services/C01/KP(2/4).md",
-      "aesthetic-services/C01/KP(3/4).md",
-      "aesthetic-services/C01/KP(4/4).md",
-      "aesthetic-services/C02/KP(1/4).md",
-      "aesthetic-services/C02/KP(2/4).md",
-      "aesthetic-services/C02/KP(3/4).md",
-      "aesthetic-services/C02/KP(4/4).md",
-      "aesthetic-services/C03/KP(1/5).md",
-      "aesthetic-services/C03/KP(2/5).md",
-      "aesthetic-services/C03/KP(3/5).md",
-      "aesthetic-services/C03/KP(4/5).md",
-      "aesthetic-services/C03/KP(5/5).md",
-      "aesthetic-services/C04/KP(1/6).md",
-      "aesthetic-services/C04/KP(2/6).md",
-      "aesthetic-services/C04/KP(3/6).md",
-      "aesthetic-services/C04/KP(4/6).md",
-      "aesthetic-services/C04/KP(5/6).md",
-      "aesthetic-services/C04/KP(6/6).md"
+      "_agents/validators/wim_coverage_validator.py",
+      "tests/test_wim_validator.py",
+      "_agents/validators/reports/.gitkeep"
     ],
     "estimatedComplexity": "medium",
     "_source": "ai-example",
