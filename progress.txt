@@ -302,3 +302,34 @@ Completed: Enhance Aesthetic C03 KP — manual body massage techniques and anato
 - Vacuum suction stationary cup → petechiae (pin-point bruising) is the most common client complaint — must be explained in aftercare
 - High frequency direct method: electrode on skin BEFORE switching on (not after) — prevents sparking on initial contact
 - Micro-current: pacemaker contraindication applies even at sub-sensory levels because demand-type pacemakers can interpret micro-currents as cardiac signals
+## Iteration 1 - Thu, Apr 16, 2026 10:17:39 PM
+Completed: Enhance Aesthetic C04 KP — electrotherapy modalities (6 types) with safety (ID: US-009) in 10m
+
+
+## Pre-analysis for US-012 (Gemini 2.5 Pro)
+This technical brief is for a Claude Code agent tasked with implementing user story US-012 within the `lhdn_payroll_integration` Frappe app.
+
+**Objective:** Implement a validation system to ensure "Aesthetic KK" procedure documents, which are referenced by a Frappe DocType, contain all required sections and details.
+
+**1. Python Files to Modify:**
+*   `lhdn_payroll_integration/hooks.py`: To hook the validation logic into a DocType event.
+*   `[app]/[doctype]/[doctype].py`: The controller file for the DocType managing the procedures (e.g., `Aesthetic Procedure`). This will house the main validation method.
+*   A new utility file (e.g., `lhdn_payroll_integration/utils/validator.py`) could be created to contain the specific Markdown parsing and checking logic, keeping the controller lean.
+
+**2. Frappe DocTypes & Hooks:**
+*   **DocType**: The primary target is a DocType that contains a field linking to the `.md` procedure files. The name is likely `Aesthetic Procedure` or similar.
+*   **Hook**: Use the `validate` document event in `hooks.py`. This will automatically trigger the validation logic every time a document of that type is saved, preventing non-compliant entries.
+    *   e.g., `doc_events = {"Aesthetic Procedure": {"validate": "path.to.validation.method"}}`
+
+**3. Recommended Implementation Approach:**
+1.  In the target DocType's Python controller, define a method (e.g., `validate_procedure_file`).
+2.  This method should read the file path from the document's field.
+3.  It will then open and parse the content of the Markdown file.
+4.  Check for the existence of required sections (Client Preparation, Hygiene, Sterilization, PPE, Assessment Checklist) using regex or a parsing library.
+5.  If a section is missing or incomplete, raise `frappe.ValidationError` with a clear message indicating the deficiency.
+
+**4. Edge Cases & Gotchas:**
+*   The validation logic must handle variations in Markdown formatting (e.g., different heading styles).
+*   Implement `try...except` blocks to handle `IOError` for missing files or incorrect paths.
+*   For a better user experience on existing documents, consider adding a custom button to the DocType form that triggers the validation manually, rather than only blocking on save.
+

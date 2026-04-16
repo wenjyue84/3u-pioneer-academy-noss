@@ -2,3 +2,4 @@
 {"ts": "2026-04-16T13:24:23Z", "story_id": "US-002", "phase": "I", "model": "unknown", "input_tokens": 0, "output_tokens": 0, "total_tokens": 0, "duration_ms": 1200000.0}
 {"ts": "2026-04-16T13:46:01Z", "story_id": "US-005", "phase": "I", "model": "unknown", "input_tokens": 0, "output_tokens": 0, "total_tokens": 0, "duration_ms": 1201000.0}
 {"ts": "2026-04-16T14:02:39Z", "story_id": "US-008", "phase": "I", "model": "unknown", "input_tokens": 0, "output_tokens": 0, "total_tokens": 0, "duration_ms": 901000.0}
+{"ts": "2026-04-16T14:24:17Z", "story_id": "US-009", "phase": "I", "model": "unknown", "input_tokens": 0, "output_tokens": 0, "total_tokens": 0, "duration_ms": 1201000.0}
