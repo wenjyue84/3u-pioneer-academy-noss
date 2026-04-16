@@ -333,3 +333,50 @@ This technical brief is for a Claude Code agent tasked with implementing user st
 *   Implement `try...except` blocks to handle `IOError` for missing files or incorrect paths.
 *   For a better user experience on existing documents, consider adding a custom button to the DocType form that triggers the validation manually, rather than only blocking on save.
 
+
+## Pre-analysis for US-012 (Gemini 2.5 Pro)
+This technical brief is for a Claude Code agent tasked with implementing user story US-012 within the `lhdn_payroll_integration` Frappe app.
+
+**Objective:** Implement a validation system to ensure "Aesthetic KK" procedure documents, which are referenced by a Frappe DocType, contain all required sections and details.
+
+**1. Python Files to Modify:**
+*   `lhdn_payroll_integration/hooks.py`: To hook the validation logic into a DocType event.
+*   `[app]/[doctype]/[doctype].py`: The controller file for the DocType managing the procedures (e.g., `Aesthetic Procedure`). This will house the main validation method.
+*   A new utility file (e.g., `lhdn_payroll_integration/utils/validator.py`) could be created to contain the specific Markdown parsing and checking logic, keeping the controller lean.
+
+**2. Frappe DocTypes & Hooks:**
+*   **DocType**: The primary target is a DocType that contains a field linking to the `.md` procedure files. The name is likely `Aesthetic Procedure` or similar.
+*   **Hook**: Use the `validate` document event in `hooks.py`. This will automatically trigger the validation logic every time a document of that type is saved, preventing non-compliant entries.
+    *   e.g., `doc_events = {"Aesthetic Procedure": {"validate": "path.to.validation.method"}}`
+
+**3. Recommended Implementation Approach:**
+1.  In the target DocType's Python controller, define a method (e.g., `validate_procedure_file`).
+2.  This method should read the file path from the document's field.
+3.  It will then open and parse the content of the Markdown file.
+4.  Check for the existence of required sections (Client Preparation, Hygiene, Sterilization, PPE, Assessment Checklist) using regex or a parsing library.
+5.  If a section is missing or incomplete, raise `frappe.ValidationError` with a clear message indicating the deficiency.
+
+**4. Edge Cases & Gotchas:**
+*   The validation logic must handle variations in Markdown formatting (e.g., different heading styles).
+*   Implement `try...except` blocks to handle `IOError` for missing files or incorrect paths.
+*   For a better user experience on existing documents, consider adding a custom button to the DocType form that triggers the validation manually, rather than only blocking on save.
+
+
+## Story US-012 — Enhance Aesthetic KK practical procedures — treatment techniques and hygiene
+
+### What was implemented
+- C01/KK-01: Added Step 1.5 (inspect client gown/slippers for cleanliness/damage); changed surface disinfectant spec to QAC with contact time; added "ONE DIRECTION" wipe to Step 2.2; expanded checklist from 15 to 16 items with new PROCESS item 5 for client items check
+- C02/KK-01: Rewrote Step 1 (1.1–1.6): added PPE donning, QAC + one-direction wipe + air dry, instrument cleaning (BP monitor with 70% IPA), client identity verification, gown provision for physical assessment; expanded checklist from 14 to 17 items with 2 SAFETY items
+- C03/KK-01: Added QAC spec + contact time to Step 2.1; added "ONE DIRECTION only" and discard cloth to Step 2.2; added Step 2.3 (clipboard/pen cleaned with 70% IPA); added allergy confirmation as SAFETY item 14 in checklist; expanded from 14 to 15 items
+- C04/KK-01: Added Step 6.6 (pre-treatment metal jewellery removal notice to client); added new Step 7 "Pre-Client Entry Verification" (5 sub-steps: identity check, jewellery/implant verbal confirmation, changing, positioning, draping); renamed old Step 7 to Step 8; expanded checklist from 15 to 20 items with 3 new PROCESS items (8–11) and 1 new SAFETY item (18)
+
+### Patterns discovered
+- QAC (quaternary ammonium compound) is the standard surface disinfectant; 70% IPA is the standard for instruments/equipment surfaces — always distinguish these in hygiene steps
+- "ONE DIRECTION" wipe is a hygiene principle — critical to include explicitly, not just implied
+- Disinfectant contact time (label time, typically 60 seconds) must be observed — wipe immediately defeats the purpose
+- For electrotherapy KK-01 (work area prep), the pre-treatment client safety check (jewellery, implants, pacemaker) belongs at the END of this KK as the final gate before treatment starts
+
+### Gotchas
+- C04/KK-01 was missing the critical pre-electrotherapy client preparation entirely — metal jewellery on a client during electrical treatment is a serious hazard
+- C02/KK-01 had only 1 SAFETY domain item — always target minimum 2 SAFETY items per checklist
+- C03/KK-01 allergy confirmation (nut-based carrier oils) was in the procedure steps but NOT in the checklist — always cross-check that checklist items map to critical procedure steps
