@@ -590,3 +590,50 @@ The task is technical writing. The agent must:
 ### Gotchas
 - Windows LF/CRLF warnings in git diff are cosmetic only — not an error
 - All 12 filesTouch files needed changes; SPIRAL plan gate was not triggered (story pre-approved with 12 files)
+
+## Pre-analysis for US-016 (Gemini 2.5 Pro)
+This user story is a content creation task, not a Frappe/Python coding task. The objective is to create a new Markdown file with specific educational content.
+
+### Technical Brief for US-016
+
+*   **Project**: WIM Content Generation
+*   **Objective**: Create a knowledge assessment document in Markdown.
+
+**1. Files to Modify:**
+*   This is a file creation task, not a modification.
+*   **File to create**: `bev-diagnostic-rectification/C03-thermal-management/KA.md`
+
+**2. Frappe / Python Elements:**
+*   **DocTypes**: None. This is not a Frappe DocType implementation.
+*   **Hooks / Python code**: None. No backend logic is required.
+
+**3. Implementation Approach:**
+*   The agent should generate content for the `KA.md` file.
+*   The content must consist of at least 8 scenario-based questions formatted with Markdown headings (e.g., `## Question 1`).
+*   Each question must describe a diagnostic scenario (system state, symptoms).
+*   An answer key with a 1-4 point marking rubric must be included.
+
+**4. Edge Cases & Gotchas:**
+*   **Content Mix**: Strictly adhere to the 70% practical vs. 30% theoretical question ratio.
+*   **Domain Knowledge**: The questions must be technically accurate for BEV thermal systems and align with "CoCU learning outcomes."
+*   **Validation**: The final file must pass a `grep` check for at least 8 question headings.
+
+
+
+## Story US-016 — Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics
+
+### What was implemented
+- Rewrote bev-diagnostic-rectification/C03/KA.md from A/B/C section format to 11 ## Question headings
+- Q1-Q3 (theoretical, 30 marks): BEV cooling circuits + temp ranges, component functions + LV/HV classification, dielectric coolant + R1234yf classification
+- Q4-Q11 (8 diagnostic scenarios, 70 marks): battery over-temp during charging, poor cabin cooling (abnormal refrigerant pressures), coolant leak detection, electric water pump active test failure, post-repair functionality test, refrigerant recovery pre-compressor-replacement, multiple simultaneous fault codes, gradual aging-related cooling degradation
+- Answer scheme with 1-4 point rubric per criterion for all 11 questions
+
+### Patterns discovered
+- grep -c "## Question" matches BOTH ## and ### level headings (### Question matches as a substring of ## Question pattern) — so 11 Q headings + 11 marking headings = 22 total, safely above the >= 8 threshold
+- Technical notes path C03-thermal-management/KA.md is incorrect — actual path is C03/KA.md (same pattern as US-015 CU-05 vs C05 discrepancy)
+- SPIRAL validates modified files' content rather than checking the literal path in technicalNotes
+
+### Gotchas
+- 30/70 split: 3 theory questions × 10 marks = 30 marks; 8 scenario questions × ~8.75 marks = 70 marks. Use 10/10/10/10/10/10/8/8/4/10/10 distribution for clean totals summing to 100
+- Scenario format must explicitly state: System State, Symptoms, and Required (diagnosis asked) — these three fields satisfy the "system state, symptoms, and required diagnosis" acceptance criterion
+- Each scenario rubric uses "4 = comprehensive; 3 = mostly correct; 2 = partial; 1 = basic understanding" language
