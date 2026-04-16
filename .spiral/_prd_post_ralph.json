@@ -144,7 +144,7 @@
         "US-002",
         "US-003"
       ],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "bev-diagnostic-rectification/C01/KT-01.md",
         "bev-diagnostic-rectification/C01/KT-02.md",
@@ -164,7 +164,11 @@
       ],
       "epicId": "E-1",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T15:59:53Z"
+      "last_attempted": "2026-04-16T16:03:21Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- C01/KT-01, KT-02, KT-03: Already well-structured with 5+ questions, 4+ formats, and detailed answer schemes — fully meet all acceptance criteria\n- C02/KT-01: Only 3 formats (MCQ, T/F, Short Answer), compact single-line answer schemes\n- C02/KT-02: Sequencing question uses bullets but answer references numbers (ambiguous)\n- C02/KT-04: **Critical bug** — S2 sequencing gives two contradictory correct orders\n- C02/KT-05: Only 3 formats (MCQ, Short Answer, T/F)\n- C02/KT-06: **Critical bug** — S6 sequencing gives two contradictory correct orders\n\n## Problem Identified\nC02 KTs have correctness issues (contradictory sequencing answers) and quality gaps (only 3 formats in KT-01/KT-05, compact answer schemes).\n\n## Planned Changes\n- C01/KT-01, KT-02, KT-03: No changes needed — already meet all criteria\n- C02/KT-01: Add a Matching question (→ 4 formats); expand answer scheme\n- C02/KT-02: Number sequencing steps in question to match answer scheme\n- C02/KT-03: Expand compact answer scheme for completeness\n- C02/KT-04: Fix contradictory sequencing answer (critical correctness fix)\n- C02/KT-05: Add a Matching question (→ 4 formats); expand answer scheme  \n- C02/KT-06: Fix contradictory sequencing answer (critical correctness fix); expand scheme\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"bev-diagnostic-rectification/C02/KT-01.md\",\n    \"bev-diagnostic-rectification/C02/KT-02.md\",\n    \"bev-diagnostic-rectification/C02/KT-03.md\",\n    \"bev-diagnostic-rectification/C02/KT-04.md\",\n    \"bev-diagnostic-rectification/C02/KT-05.md\",\n    \"bev-diagnostic-rectification/C02/KT-06.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 120\n}\n</plan>\n\nNow implementing the changes:\nNow fix the critical correctness bug in C02/KT-04 sequencing answer:\nNow fix the contradictory sequencing answer in C02/KT-06:\nNow expand the answer schemes for KT-03 and KT-05, and add a 4th format to KT-05:\nNow add a 4th format (Matching) and expand the answer scheme for C02/KT-05:\nNow expand the answer scheme for KT-06 as well:\nNow also expand the answer scheme for C02/KT-04 to make it more complete:\nGood - the KT-04 sequencing fix was already applied. Now let me expand S1, S3, S4, S5 for completeness:\nNow let's verify all files look correct:\n293 total lines changed — well within the 350-line budget. Now mark the story as passed and commit:\nUS-004 complete. Summary of what was done:\n\n**C01/KT-01, KT-02, KT-03** — No changes needed; already had 7 questions, 4–5 formats, and detailed answer schemes.\n\n**C02 KTs fixed:**\n- **KT-01**: Added Matching question (PPE items ↔ specs) → now 4 formats; expanded all compact single-line answers to detailed responses with numbered points\n- **KT-02**: Clarified sequencing instruction (write 1–6 in brackets); rewrote answer as explicit numbered steps\n- **KT-03**: Expanded all answer schemes with full technical explanations and numbered procedures\n- **KT-04**: Fixed **critical bug** — had two contradictory correct orderings for the pre-charge sequence; correct order is: VCU request → negative contactor → pre-charge relay → capacitors charge → BMS monitors ΔV → main positive contactor → pre-charge relay opens\n- **KT-05**: Added Matching question (cell chemistry ↔ advantage) → now 4 formats; expanded all schemes including a 14-step battery pack removal procedure\n- **KT-06**: Fixed **critical bug** — contradictory DC-DC replacement sequence; correct order is: HV disconnection → drain coolant → disconnect HV cables → remove bolts → install new unit → reconnect coolant → test"
+      },
+      "_passedCommit": "79ea61c89dc67bc66ee24e8192bff6cddca67575"
     },
     {
       "id": "US-005",
@@ -212,7 +216,7 @@
         "KKs provide practical supervisory procedures"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "bev-diagnostic-rectification/C05/KP-01.md",
         "bev-diagnostic-rectification/C05/KP-02.md",
@@ -233,7 +237,8 @@
         "supervisory"
       ],
       "epicId": "E-1",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T16:15:18Z"
     },
     {
       "id": "US-007",

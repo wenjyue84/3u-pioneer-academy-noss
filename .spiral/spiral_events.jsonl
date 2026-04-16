@@ -583,3 +583,52 @@
 {"ts":"2026-04-16T16:03:16Z","event":"phase_start","run_id":"69e0dbbb149e","level":"INFO","phase":"I","iteration":13,"trace_id":"b52e808b773b939c6177c04d89a02020","span_id":"4b109271210b6159"}
 {"ts":"2026-04-16T16:04:49Z","event":"plan_cache_miss","story_id":"US-004"}
 {"ts":"2026-04-16T16:11:54Z","event":"cost_update","story_id":"US-004","tokens_input":33,"tokens_output":20721,"estimated_usd":0.310914}
+{"ts":"2026-04-16T16:11:58Z","event":"scope_guard","story_id":"US-004","result":"warn","out_of_scope":[
+  ".spiral/_active_status.json",
+  ".spiral/_ai_suggest_dedup.json",
+  ".spiral/_ai_suggest_filtered.json",
+  ".spiral/_ai_suggest_output.json",
+  ".spiral/_assert_violations.log",
+  ".spiral/_checkpoint.json",
+  ".spiral/_core_hashes_iter13.txt",
+  ".spiral/_iteration_summary.json",
+  ".spiral/_passes_baseline",
+  ".spiral/_phase_R_11.ckpt.gz",
+  ".spiral/_phase_R_13.ckpt",
+  ".spiral/_phase_T_11.ckpt.gz",
+  ".spiral/_phase_T_11.endtime",
+  ".spiral/_phase_T_11.endtime.gz",
+  ".spiral/_phase_T_13.ckpt",
+  ".spiral/_phase_T_13.endtime",
+  ".spiral/_prd_prestash_13.json",
+  ".spiral/_ralph_stderr_gdpZky.txt",
+  ".spiral/_story_rejected.json",
+  ".spiral/_test_story_candidates.json",
+  ".spiral/_test_story_candidates_dedup.json",
+  ".spiral/_test_story_candidates_filtered.json",
+  ".spiral/_validated_stories.json",
+  ".spiral/gemini-cache/US-004.json",
+  ".spiral/learned_patterns_iter_12.json",
+  ".spiral/otel_story_US_004.json",
+  ".spiral/prd-backups/prd-iter11.json.gz",
+  ".spiral/prd-backups/prd-iter13.json",
+  ".spiral/prd-backups/prd-iter3.json.gz",
+  ".spiral/spiral_events.jsonl",
+  ".spiral/test-suites/performance/results/iter-012.json",
+  ".spiral/test-suites/performance/suite.json",
+  ".spiral/test-suites/regression/results/iter-012.json",
+  ".spiral/test-suites/security/results/iter-012.json",
+  ".spiral/test-suites/security/suite.json",
+  ".spiral/test-suites/smoke/results/iter-012.json",
+  ".spiral/test-suites/smoke/suite.json",
+  ".spiral/test_output_12.log",
+  ".spiral/ui-progress-history.jsonl",
+  "prd.json",
+  "spiral_events.jsonl",
+  "test-reports/20260416-160159/report.json"
+],"out_of_scope_count":42,"filesTouch_count":9}
+{"ts":"2026-04-16T16:15:17Z","event":"story_passed","storyId":"US-004","retryCount":0,"model":"sonnet"}
+{"ts":"2026-04-16T16:17:10Z","event":"plan_cache_miss","story_id":"US-006"}
+{"ts":"2026-04-16T16:23:19Z","event":"phase_timeout","run_id":"69e0dbbb149e","level":"INFO","phase":"I","story_id":"US-004","iteration":13,"duration_ms":1200000,"timeout_s":1200,"trace_id":"b52e808b773b939c6177c04d89a02020","span_id":"4b109271210b6159"}
+{"ts":"2026-04-16T16:23:22Z","event":"plan_cache_store","run_id":"69e0dbbb149e","level":"INFO","story_id":"US-004","plan_key":"d1d3b05f11124a63a0a518719d8704187506e1630b387cd5123f1d80dfbced7a","trace_id":"b52e808b773b939c6177c04d89a02020","span_id":"4b109271210b6159"}
+{"ts":"2026-04-16T16:23:22Z","event":"plugin_hook","run_id":"69e0dbbb149e","level":"INFO","plugin":"notify-slack","hook":"post-story","type":"POST","exit_code":0,"duration_s":0,"trace_id":"b52e808b773b939c6177c04d89a02020","span_id":"4b109271210b6159"}

@@ -1,0 +1,11 @@
+{
+  "story_id": "US-004",
+  "story_title": "Enhance BEV KT question quality \u2014 varied formats with answer schemes",
+  "key_source": "assessment|bev|kt|enhance|bev|kt|large|.md",
+  "stored_ts": 1776356602.1442373,
+  "plan": {
+    "story_id": "US-004",
+    "duration_s": 1200,
+    "model": "unknown"
+  }
+}
