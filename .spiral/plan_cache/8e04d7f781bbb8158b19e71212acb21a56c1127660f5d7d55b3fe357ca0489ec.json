@@ -1,0 +1,11 @@
+{
+  "story_id": "US-017",
+  "story_title": "Build WIM Format Compliance Validator Against Buku Panduan WIM Edisi 2020 Standards",
+  "key_source": "ai-example|build|wim|format|medium|",
+  "stored_ts": 1776358632.6233652,
+  "plan": {
+    "story_id": "US-017",
+    "duration_s": 901,
+    "model": "unknown"
+  }
+}
