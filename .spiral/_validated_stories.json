@@ -1,6 +1,62 @@
 {
   "stories": [
     {
+      "title": "Create Aesthetic Services Knowledge Assessment Suite with Bilingual Answer Schemes",
+      "priority": "high",
+      "description": "Build comprehensive Knowledge Assessment (KA) documents for all 4 Aesthetic Services CUs (C01-C04) with bilingual questions, detailed answer schemes, and competency-based rubrics. Ensures assessment quality and complete coverage of CU-level learning outcomes aligned with Buku Panduan WIM Edisi 2020.",
+      "acceptanceCriteria": [
+        "KA.md created for all 4 Aesthetic CUs (C01, C02, C03, C04) with minimum 5 questions per CU in mixed formats: MCQ 40%, short answer 30%, scenario-based 30%",
+        "Each KA document includes bilingual question text (EN/BM), comprehensive answer schemes with 4-point marking rubrics (0-3 scale), and alignment to CoCU Assessment Criteria",
+        "All technical terms in KA documents are validated against aesthetic-services/_docs/aesthetic-glossary.md for consistency and bilingual coverage"
+      ],
+      "technicalNotes": [
+        "File to create: tools/validate_aesthetic_ka.py (validates KA format, bilingual terms, question count)",
+        "Files to modify: aesthetic-services/CU-C01/KA.md, aesthetic-services/CU-C02/KA.md, aesthetic-services/CU-C03/KA.md, aesthetic-services/CU-C04/KA.md",
+        "Test command: uv run python tools/validate_aesthetic_ka.py aesthetic-services/CU-*/KA.md --min-questions 5 --validate-bilingual"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "aesthetic-services/CU-C01/KA.md",
+        "aesthetic-services/CU-C02/KA.md",
+        "aesthetic-services/CU-C03/KA.md",
+        "aesthetic-services/CU-C04/KA.md",
+        "tools/validate_aesthetic_ka.py"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
+      "title": "Implement IT Level 3 Knowledge Assessment with Competency-Based Rubrics",
+      "priority": "high",
+      "description": "Create Knowledge Assessment (KA) documents for IT-020-3:2013 Level 3 mandatory CUs with varied question formats (MCQ, short answer, scenario-based) and competency rubrics. Validates all questions against NOSS Related Knowledge extraction to ensure complete curriculum coverage.",
+      "acceptanceCriteria": [
+        "KA.md documents created for minimum 3 mandatory Level 3 CUs (IT-020-3) with 4-6 questions each; each question includes: learning outcome reference, difficulty level (L1/L2/L3), 4-point competency rubric (0-3), and mark allocation",
+        "Question formats distributed: 40% MCQ (4 options), 40% short answer (with model answer), 20% scenario-based with rubric guidance",
+        "All questions validated against it-computer-system/00-noss-extract.md to confirm every NOSS Related Knowledge item has minimum 1 corresponding assessment question"
+      ],
+      "technicalNotes": [
+        "File to create: tools/validate_it_ka.py and tools/it_noss_mapping.yaml",
+        "Files to modify: it-computer-system/L3-CU-01/KA.md, it-computer-system/L3-CU-02/KA.md, it-computer-system/L3-CU-03/KA.md",
+        "Test command: uv run python tools/validate_it_ka.py it-computer-system/L3-CU-*/KA.md --validate-against-noss --min-questions 4"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "it-computer-system/L3-CU-01/KA.md",
+        "it-computer-system/L3-CU-02/KA.md",
+        "it-computer-system/L3-CU-03/KA.md",
+        "tools/validate_it_ka.py",
+        "tools/it_noss_mapping.yaml"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
       "title": "[Integration Test] Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
       "priority": "high",
       "description": "Write integration tests for the feature implemented in US-001. Story description: Review and enhance BEV C01 KP-01~03 Information Sheets for technical accuracy. Verify HV safety content matches OSHA 1994, EQA 1974, and manufacturer standards. Ensure PPE specifications (Class 0, CAT-III) are correctly detailed with proper Malaysian regulatory references.",
@@ -359,6 +415,31 @@
       "_source": "test-story",
       "_testType": "regression",
       "_forStoryId": "US-016"
+    },
+    {
+      "title": "[E2E Test] Build WIM Format Compliance Validator Against Buku Panduan WIM Edisi 2020 Standards",
+      "priority": "medium",
+      "description": "Write end-to-end user flow test for the feature in US-017. Story description: Create Python validation tool that enforces Buku Panduan WIM Edisi 2020 compliance across all WIM markdown files: validates filename patterns (NOSS-Code-CU/DocCode format), required section structure (Tujuan/Objectives, Kandungan/Content, Penilaian/Assessment), table layouts, and bilingual term density. Generates JSON compliance report with violations grouped by category and file-level compliance scores.",
+      "acceptanceCriteria": [
+        "E2E test covers the user flow introduced by US-017",
+        "Test navigates to relevant page(s) and asserts on visible state",
+        "Test passes in headless browser (Playwright/Cypress/similar)"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_017 -v"
+      ],
+      "dependencies": [
+        "US-017"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "e2e",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "e2e",
+      "_forStoryId": "US-017"
     }
   ]
 }

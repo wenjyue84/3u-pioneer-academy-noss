@@ -504,10 +504,14 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T16:37:58Z"
+      "last_attempted": "2026-04-16T16:42:12Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nThe `_agents/` directory exists with other agent files. No validator exists yet. WIM files use bilingual headings (English/Malay) with `/ ` and `()` patterns, but not the exact `## Tujuan`, `## Kandungan`, etc. headings required by Buku Panduan WIM 2020. WIM codes like `G452-010-3:2023-C01/KP(1/3)` appear inside file content under `**Kod WIM / WIM Code:**`.\n\n## Problem Identified\nUS-017 requires a Python compliance validator that checks WIM files against Buku Panduan WIM Edisi 2020 standards: WIM coding format, required section headings, and bilingual term density.\n\n## Planned Changes\n- Create `_agents/wim_format_rules.json` \u2014 rule definitions (regex patterns, required headings, scoring weights)\n- Create `_agents/wim_format_validator.py` \u2014 main validator with argparse CLI, file scanning, 3 validation checks, JSON report output, and exit code logic\n\n<plan>\n{\n  \"files_to_create\": [\"_agents/wim_format_validator.py\", \"_agents/wim_format_rules.json\"],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\"check_file_coding\", \"check_headings\", \"check_bilingual\", \"validate_file\", \"scan_directory\", \"generate_summary\", \"main\"],\n  \"estimated_loc\": 170\n}\n</plan>\nNow run the test commands from the acceptance criteria:\nThe validator works correctly. Let me verify the JSON report structure matches all AC fields:\nNow mark the story as passes and update progress.txt:\nUS-017 is complete. Here's a summary:\n\n**Implemented:**\n- `_agents/wim_format_validator.py` \u2014 CLI validator with `--path`, `--output`, `--check-all`, `--verbose`\n- `_agents/wim_format_rules.json` \u2014 rule definitions (WIM code regex, required heading patterns, scoring weights)\n\n**Validation checks (100pt scoring):**\n1. WIM code in file content vs `^[A-Z][A-Z0-9]+(?:-[A-Z0-9]+)*:[0-9]{4}-C\\d{2}/[A-Z]{2}...` (20pts)\n2. Required headings: Tujuan, Kandungan, Penilaian, Nota Kritis (50pts, 12-13 each)\n3. Bilingual density \u22655 pairs/500 words (30pts)\n\n**Results on current files:** 312 files scanned, 0 fully compliant (expected \u2014 existing files use bilingual headings but not exact Panduan WIM Malay-only section names). Exit code 1 correctly flagged. Report saved to `_agents/wim_compliance_report.json`."
+      },
+      "_passedCommit": "87065c769bca762500712710b01ef9a84ce7c32d"
     },
     {
       "id": "US-018",
@@ -523,6 +527,49 @@
         "File to create: aesthetic-services/c03-manual-body-massage/KA.md with structure [Q1-Q10] sections containing {Question | Scenario Context (if applicable) | Expected Answer | Rubric Points | Bilingual Terms | CoCU Reference Code}",
         "Validate against NOSS S960-002-3:2020 C03 CoCU assessment criteria; cross-check anatomy terms against KP-02.md section headings",
         "Test command: grep -c '^## Q' aesthetic-services/c03-manual-body-massage/KA.md (expected: 10); grep -c 'Scenario\\|case study' aesthetic-services/c03-manual-body-massage/KA.md (expected: \u22653); grep -oE 'EN:|BM:' aesthetic-services/c03-manual-body-massage/KA.md | wc -l (expected: \u226530 total terms)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T16:51:34Z"
+    },
+    {
+      "id": "US-019",
+      "title": "Create Aesthetic Services Knowledge Assessment Suite with Bilingual Answer Schemes",
+      "priority": "high",
+      "description": "Build comprehensive Knowledge Assessment (KA) documents for all 4 Aesthetic Services CUs (C01-C04) with bilingual questions, detailed answer schemes, and competency-based rubrics. Ensures assessment quality and complete coverage of CU-level learning outcomes aligned with Buku Panduan WIM Edisi 2020.",
+      "acceptanceCriteria": [
+        "KA.md created for all 4 Aesthetic CUs (C01, C02, C03, C04) with minimum 5 questions per CU in mixed formats: MCQ 40%, short answer 30%, scenario-based 30%",
+        "Each KA document includes bilingual question text (EN/BM), comprehensive answer schemes with 4-point marking rubrics (0-3 scale), and alignment to CoCU Assessment Criteria",
+        "All technical terms in KA documents are validated against aesthetic-services/_docs/aesthetic-glossary.md for consistency and bilingual coverage"
+      ],
+      "technicalNotes": [
+        "File to create: tools/validate_aesthetic_ka.py (validates KA format, bilingual terms, question count)",
+        "Files to modify: aesthetic-services/CU-C01/KA.md, aesthetic-services/CU-C02/KA.md, aesthetic-services/CU-C03/KA.md, aesthetic-services/CU-C04/KA.md",
+        "Test command: uv run python tools/validate_aesthetic_ka.py aesthetic-services/CU-*/KA.md --min-questions 5 --validate-bilingual"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-020",
+      "title": "Implement IT Level 3 Knowledge Assessment with Competency-Based Rubrics",
+      "priority": "high",
+      "description": "Create Knowledge Assessment (KA) documents for IT-020-3:2013 Level 3 mandatory CUs with varied question formats (MCQ, short answer, scenario-based) and competency rubrics. Validates all questions against NOSS Related Knowledge extraction to ensure complete curriculum coverage.",
+      "acceptanceCriteria": [
+        "KA.md documents created for minimum 3 mandatory Level 3 CUs (IT-020-3) with 4-6 questions each; each question includes: learning outcome reference, difficulty level (L1/L2/L3), 4-point competency rubric (0-3), and mark allocation",
+        "Question formats distributed: 40% MCQ (4 options), 40% short answer (with model answer), 20% scenario-based with rubric guidance",
+        "All questions validated against it-computer-system/00-noss-extract.md to confirm every NOSS Related Knowledge item has minimum 1 corresponding assessment question"
+      ],
+      "technicalNotes": [
+        "File to create: tools/validate_it_ka.py and tools/it_noss_mapping.yaml",
+        "Files to modify: it-computer-system/L3-CU-01/KA.md, it-computer-system/L3-CU-02/KA.md, it-computer-system/L3-CU-03/KA.md",
+        "Test command: uv run python tools/validate_it_ka.py it-computer-system/L3-CU-*/KA.md --validate-against-noss --min-questions 4"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",

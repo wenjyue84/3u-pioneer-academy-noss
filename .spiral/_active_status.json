@@ -1,8 +1,8 @@
 {
   "phase": "I",
-  "iteration": 15,
-  "started_at": 1776357728,
+  "iteration": 16,
+  "started_at": 1776358734,
   "pct_done": 60,
-  "story_id": "US-017",
-  "story_title": "Build WIM Format Compliance Validator Against Buku Panduan WIM Edisi 2020 Standards"
+  "story_id": "US-019",
+  "story_title": "Create Aesthetic Services Knowledge Assessment Suite with Bilingual Answer Schemes"
 }

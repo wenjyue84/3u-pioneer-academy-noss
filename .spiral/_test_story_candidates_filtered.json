@@ -330,5 +330,28 @@
       "regression",
       "auto-generated"
     ]
+  },
+  {
+    "title": "[E2E Test] Build WIM Format Compliance Validator Against Buku Panduan WIM Edisi 2020 Standards",
+    "description": "Write end-to-end user flow test for the feature in US-017. Story description: Create Python validation tool that enforces Buku Panduan WIM Edisi 2020 compliance across all WIM markdown files: validates filename patterns (NOSS-Code-CU/DocCode format), required section structure (Tujuan/Objectives, Kandungan/Content, Penilaian/Assessment), table layouts, and bilingual term density. Generates JSON compliance report with violations grouped by category and file-level compliance scores.",
+    "acceptanceCriteria": [
+      "E2E test covers the user flow introduced by US-017",
+      "Test navigates to relevant page(s) and asserts on visible state",
+      "Test passes in headless browser (Playwright/Cypress/similar)"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_017 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-017"
+    ],
+    "_source": "test-story",
+    "_testType": "e2e",
+    "_forStoryId": "US-017",
+    "tags": [
+      "e2e",
+      "auto-generated"
+    ]
   }
 ]
