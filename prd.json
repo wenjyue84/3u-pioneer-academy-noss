@@ -11,8 +11,16 @@
     "Ensure bilingual terminology (EN/BM) consistency across all documents"
   ],
   "epics": [
-    {"id": "E-1", "title": "BEV WIM Enhancement", "description": "Enhance BEV G452-010-3:2023 WIM documents for technical accuracy, format compliance, and content depth"},
-    {"id": "E-2", "title": "Aesthetic WIM Enhancement", "description": "Enhance Aesthetic Services S960-002-3:2020 WIM documents for technical accuracy, format compliance, and content depth"}
+    {
+      "id": "E-1",
+      "title": "BEV WIM Enhancement",
+      "description": "Enhance BEV G452-010-3:2023 WIM documents for technical accuracy, format compliance, and content depth"
+    },
+    {
+      "id": "E-2",
+      "title": "Aesthetic WIM Enhancement",
+      "description": "Enhance Aesthetic Services S960-002-3:2020 WIM documents for technical accuracy, format compliance, and content depth"
+    }
   ],
   "userStories": [
     {
@@ -20,208 +28,317 @@
       "title": "Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
       "description": "Review and enhance BEV C01 KP-01~03 Information Sheets for technical accuracy. Verify HV safety content matches OSHA 1994, EQA 1974, and manufacturer standards. Ensure PPE specifications (Class 0, CAT-III) are correctly detailed with proper Malaysian regulatory references.",
       "priority": "high",
-      "acceptanceCriteria": ["All KP files in bev-diagnostic-rectification/C01/ reference correct Malaysian regulations", "PPE specifications match industry standards for BEV Level 3 technicians", "Bilingual terms (EN/BM) present for all key technical concepts"],
+      "acceptanceCriteria": [
+        "All KP files in bev-diagnostic-rectification/C01/ reference correct Malaysian regulations",
+        "PPE specifications match industry standards for BEV Level 3 technicians",
+        "Bilingual terms (EN/BM) present for all key technical concepts"
+      ],
       "dependencies": [],
-      "passes": false,
-      "filesTouch": ["bev-diagnostic-rectification/C01/KP-01.md", "bev-diagnostic-rectification/C01/KP-02.md", "bev-diagnostic-rectification/C01/KP-03.md"],
+      "passes": true,
+      "filesTouch": [
+        "bev-diagnostic-rectification/C01/KP-01.md",
+        "bev-diagnostic-rectification/C01/KP-02.md",
+        "bev-diagnostic-rectification/C01/KP-03.md"
+      ],
       "estimatedComplexity": "medium",
-      "tags": ["bev", "kp", "technical"],
-      "epicId": "E-1"
+      "tags": [
+        "bev",
+        "kp",
+        "technical"
+      ],
+      "epicId": "E-1",
+      "_failureReason": "oversized_diff: produced 2183 lines but limit is 500. Keep total insertions+deletions under 500 lines.",
+      "_antiPatterns": [
+        "oversized_diff: produced 2183 lines but limit is 500. Keep total insertions+deletions under 500 lines."
+      ],
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T06:45:04Z"
     },
     {
       "id": "US-002",
       "title": "Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory",
       "description": "Review and enhance BEV C02 KP-01~06 covering Battery Management System rectification theory. Ensure accurate technical content for HV cable replacement, OBC, pre-charge control, traction battery pack, and DC-DC converter. Add diagrams descriptions, component specifications, and failure mode analysis.",
       "priority": "high",
-      "acceptanceCriteria": ["All 6 KP files cover BMS component theory accurately", "Each KP includes component specifications and failure modes", "Safety warnings for HV work are prominent and correct"],
+      "acceptanceCriteria": [
+        "All 6 KP files cover BMS component theory accurately",
+        "Each KP includes component specifications and failure modes",
+        "Safety warnings for HV work are prominent and correct"
+      ],
       "dependencies": [],
       "passes": false,
-      "filesTouch": ["bev-diagnostic-rectification/C02/KP-01.md", "bev-diagnostic-rectification/C02/KP-02.md", "bev-diagnostic-rectification/C02/KP-03.md", "bev-diagnostic-rectification/C02/KP-04.md", "bev-diagnostic-rectification/C02/KP-05.md", "bev-diagnostic-rectification/C02/KP-06.md"],
+      "filesTouch": [
+        "bev-diagnostic-rectification/C02/KP-01.md",
+        "bev-diagnostic-rectification/C02/KP-02.md",
+        "bev-diagnostic-rectification/C02/KP-03.md",
+        "bev-diagnostic-rectification/C02/KP-04.md",
+        "bev-diagnostic-rectification/C02/KP-05.md",
+        "bev-diagnostic-rectification/C02/KP-06.md"
+      ],
       "estimatedComplexity": "large",
-      "tags": ["bev", "kp", "technical"],
-      "epicId": "E-1"
+      "tags": [
+        "bev",
+        "kp",
+        "technical"
+      ],
+      "epicId": "E-1",
+      "model": "sonnet"
     },
     {
       "id": "US-003",
       "title": "Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory",
       "description": "Review and enhance KP files for C03 (Thermal Cooling System) and C04 (Electric Drive Train). Ensure accurate content on liquid cooling systems, HVAC for BEV, inverter units, traction motors, transaxle, and brake control systems.",
       "priority": "high",
-      "acceptanceCriteria": ["C03 KPs cover cooling system types, components, and troubleshooting", "C04 KPs cover drive train architecture, inverter/motor theory, and regenerative braking", "All content references manufacturer service manual standards"],
+      "acceptanceCriteria": [
+        "C03 KPs cover cooling system types, components, and troubleshooting",
+        "C04 KPs cover drive train architecture, inverter/motor theory, and regenerative braking",
+        "All content references manufacturer service manual standards"
+      ],
       "dependencies": [],
       "passes": false,
-      "filesTouch": ["bev-diagnostic-rectification/C03/KP-01.md", "bev-diagnostic-rectification/C03/KP-02.md", "bev-diagnostic-rectification/C03/KP-03.md", "bev-diagnostic-rectification/C04/KP-01.md", "bev-diagnostic-rectification/C04/KP-02.md", "bev-diagnostic-rectification/C04/KP-03.md", "bev-diagnostic-rectification/C04/KP-04.md", "bev-diagnostic-rectification/C04/KP-05.md"],
+      "filesTouch": [
+        "bev-diagnostic-rectification/C03/KP-01.md",
+        "bev-diagnostic-rectification/C03/KP-02.md",
+        "bev-diagnostic-rectification/C03/KP-03.md",
+        "bev-diagnostic-rectification/C04/KP-01.md",
+        "bev-diagnostic-rectification/C04/KP-02.md",
+        "bev-diagnostic-rectification/C04/KP-03.md",
+        "bev-diagnostic-rectification/C04/KP-04.md",
+        "bev-diagnostic-rectification/C04/KP-05.md"
+      ],
       "estimatedComplexity": "large",
-      "tags": ["bev", "kp", "technical"],
-      "epicId": "E-1"
+      "tags": [
+        "bev",
+        "kp",
+        "technical"
+      ],
+      "epicId": "E-1",
+      "model": "sonnet"
     },
     {
       "id": "US-004",
       "title": "Enhance BEV KT question quality — varied formats with answer schemes",
       "description": "Review all BEV KT (Assignment Sheet) files across C01-C05. Ensure each has minimum 5 questions with varied formats (MCQ with 4 options, T/F with justification, short answer, matching, diagram labeling). Verify answer schemes are complete and accurate.",
       "priority": "medium",
-      "acceptanceCriteria": ["Each KT has minimum 5 questions", "At least 3 different question formats per KT", "All answer schemes are complete and technically correct", "Questions align with corresponding KP content"],
-      "dependencies": ["US-001", "US-002", "US-003"],
+      "acceptanceCriteria": [
+        "Each KT has minimum 5 questions",
+        "At least 3 different question formats per KT",
+        "All answer schemes are complete and technically correct",
+        "Questions align with corresponding KP content"
+      ],
+      "dependencies": [
+        "US-001",
+        "US-002",
+        "US-003"
+      ],
       "passes": false,
-      "filesTouch": ["bev-diagnostic-rectification/C01/KT-01.md", "bev-diagnostic-rectification/C01/KT-02.md", "bev-diagnostic-rectification/C01/KT-03.md", "bev-diagnostic-rectification/C02/KT-01.md", "bev-diagnostic-rectification/C02/KT-02.md", "bev-diagnostic-rectification/C02/KT-03.md", "bev-diagnostic-rectification/C02/KT-04.md", "bev-diagnostic-rectification/C02/KT-05.md", "bev-diagnostic-rectification/C02/KT-06.md"],
+      "filesTouch": [
+        "bev-diagnostic-rectification/C01/KT-01.md",
+        "bev-diagnostic-rectification/C01/KT-02.md",
+        "bev-diagnostic-rectification/C01/KT-03.md",
+        "bev-diagnostic-rectification/C02/KT-01.md",
+        "bev-diagnostic-rectification/C02/KT-02.md",
+        "bev-diagnostic-rectification/C02/KT-03.md",
+        "bev-diagnostic-rectification/C02/KT-04.md",
+        "bev-diagnostic-rectification/C02/KT-05.md",
+        "bev-diagnostic-rectification/C02/KT-06.md"
+      ],
       "estimatedComplexity": "large",
-      "tags": ["bev", "kt", "assessment"],
-      "epicId": "E-1"
+      "tags": [
+        "bev",
+        "kt",
+        "assessment"
+      ],
+      "epicId": "E-1",
+      "model": "sonnet"
     },
     {
       "id": "US-005",
       "title": "Enhance BEV KK practical procedures — step-by-step accuracy and safety checklists",
       "description": "Review all BEV KK (Work Sheet) files. Ensure step-by-step procedures are technically accurate for HV work. Verify PPE requirements, safety precautions, equipment lists, and assessment checklists (process/output/attitude/safety/environment) are complete.",
       "priority": "high",
-      "acceptanceCriteria": ["All KK files have complete equipment/material lists", "Safety precautions are prominently placed before procedures", "Assessment checklists cover all 5 domains", "Procedures follow logical sequence for HV work"],
+      "acceptanceCriteria": [
+        "All KK files have complete equipment/material lists",
+        "Safety precautions are prominently placed before procedures",
+        "Assessment checklists cover all 5 domains",
+        "Procedures follow logical sequence for HV work"
+      ],
       "dependencies": [],
       "passes": false,
-      "filesTouch": ["bev-diagnostic-rectification/C01/KK-01.md", "bev-diagnostic-rectification/C01/KK-02.md", "bev-diagnostic-rectification/C01/KK-03.md", "bev-diagnostic-rectification/C02/KK-01.md", "bev-diagnostic-rectification/C02/KK-02.md", "bev-diagnostic-rectification/C02/KK-03.md"],
+      "filesTouch": [
+        "bev-diagnostic-rectification/C01/KK-01.md",
+        "bev-diagnostic-rectification/C01/KK-02.md",
+        "bev-diagnostic-rectification/C01/KK-03.md",
+        "bev-diagnostic-rectification/C02/KK-01.md",
+        "bev-diagnostic-rectification/C02/KK-02.md",
+        "bev-diagnostic-rectification/C02/KK-03.md"
+      ],
       "estimatedComplexity": "large",
-      "tags": ["bev", "kk", "practical"],
-      "epicId": "E-1"
+      "tags": [
+        "bev",
+        "kk",
+        "practical"
+      ],
+      "epicId": "E-1",
+      "model": "sonnet"
     },
     {
       "id": "US-006",
       "title": "Enhance BEV C05 supervisory content — briefing, training, SHE monitoring",
       "description": "Review and enhance C05 KP/KT/KK files covering workshop supervisory functions. Ensure content covers daily briefing procedures, subordinate performance monitoring, TNI/TNA for training coordination, and SHE compliance monitoring appropriate for Level 3.",
       "priority": "medium",
-      "acceptanceCriteria": ["C05 KPs cover supervisory theory including leadership, communication, and SHE", "KTs test management and supervisory knowledge", "KKs provide practical supervisory procedures"],
+      "acceptanceCriteria": [
+        "C05 KPs cover supervisory theory including leadership, communication, and SHE",
+        "KTs test management and supervisory knowledge",
+        "KKs provide practical supervisory procedures"
+      ],
       "dependencies": [],
       "passes": false,
-      "filesTouch": ["bev-diagnostic-rectification/C05/KP-01.md", "bev-diagnostic-rectification/C05/KP-02.md", "bev-diagnostic-rectification/C05/KP-03.md", "bev-diagnostic-rectification/C05/KP-04.md", "bev-diagnostic-rectification/C05/KT-01.md", "bev-diagnostic-rectification/C05/KT-02.md", "bev-diagnostic-rectification/C05/KT-03.md", "bev-diagnostic-rectification/C05/KT-04.md", "bev-diagnostic-rectification/C05/KK-01.md", "bev-diagnostic-rectification/C05/KK-02.md", "bev-diagnostic-rectification/C05/KK-03.md", "bev-diagnostic-rectification/C05/KK-04.md"],
+      "filesTouch": [
+        "bev-diagnostic-rectification/C05/KP-01.md",
+        "bev-diagnostic-rectification/C05/KP-02.md",
+        "bev-diagnostic-rectification/C05/KP-03.md",
+        "bev-diagnostic-rectification/C05/KP-04.md",
+        "bev-diagnostic-rectification/C05/KT-01.md",
+        "bev-diagnostic-rectification/C05/KT-02.md",
+        "bev-diagnostic-rectification/C05/KT-03.md",
+        "bev-diagnostic-rectification/C05/KT-04.md",
+        "bev-diagnostic-rectification/C05/KK-01.md",
+        "bev-diagnostic-rectification/C05/KK-02.md",
+        "bev-diagnostic-rectification/C05/KK-03.md",
+        "bev-diagnostic-rectification/C05/KK-04.md"
+      ],
       "estimatedComplexity": "medium",
-      "tags": ["bev", "supervisory"],
-      "epicId": "E-1"
+      "tags": [
+        "bev",
+        "supervisory"
+      ],
+      "epicId": "E-1",
+      "model": "sonnet"
     },
     {
       "id": "US-007",
       "title": "Enhance Aesthetic C01-C02 KP — body consultation and thermal therapy theory",
       "description": "Review and enhance Aesthetic C01 (Body Consultation) and C02 (Body Thermal Therapy) KP files. Ensure accurate anatomy/physiology content, BMI calculation methods, body type classification, skin analysis techniques, contraindications, and thermal therapy modalities.",
       "priority": "high",
-      "acceptanceCriteria": ["C01 KPs cover consultation techniques, body typing, and BMI accurately", "C02 KPs cover thermal therapy modalities with safety and contraindications", "All content includes proper bilingual terms"],
+      "acceptanceCriteria": [
+        "C01 KPs cover consultation techniques, body typing, and BMI accurately",
+        "C02 KPs cover thermal therapy modalities with safety and contraindications",
+        "All content includes proper bilingual terms"
+      ],
       "dependencies": [],
       "passes": false,
-      "filesTouch": ["aesthetic-services/C01/KP-01.md", "aesthetic-services/C01/KP-02.md", "aesthetic-services/C01/KP-03.md", "aesthetic-services/C01/KP-04.md", "aesthetic-services/C01/KP-05.md", "aesthetic-services/C02/KP-01.md", "aesthetic-services/C02/KP-02.md", "aesthetic-services/C02/KP-03.md", "aesthetic-services/C02/KP-04.md", "aesthetic-services/C02/KP-05.md", "aesthetic-services/C02/KP-06.md", "aesthetic-services/C02/KP-07.md"],
+      "filesTouch": [
+        "aesthetic-services/C01/KP-01.md",
+        "aesthetic-services/C01/KP-02.md",
+        "aesthetic-services/C01/KP-03.md",
+        "aesthetic-services/C01/KP-04.md",
+        "aesthetic-services/C01/KP-05.md",
+        "aesthetic-services/C02/KP-01.md",
+        "aesthetic-services/C02/KP-02.md",
+        "aesthetic-services/C02/KP-03.md",
+        "aesthetic-services/C02/KP-04.md",
+        "aesthetic-services/C02/KP-05.md",
+        "aesthetic-services/C02/KP-06.md",
+        "aesthetic-services/C02/KP-07.md"
+      ],
       "estimatedComplexity": "large",
-      "tags": ["aesthetic", "kp", "technical"],
-      "epicId": "E-2"
+      "tags": [
+        "aesthetic",
+        "kp",
+        "technical"
+      ],
+      "epicId": "E-2",
+      "model": "sonnet"
     },
     {
       "id": "US-008",
       "title": "Enhance Aesthetic C03 KP — manual body massage techniques and anatomy",
       "description": "Review and enhance C03 Manual Body Massage KP files. Ensure accurate coverage of 5 classical massage movements (effleurage, petrissage, tapotement, vibration, friction), body mechanics, massage medium selection, and relevant anatomy/physiology.",
       "priority": "high",
-      "acceptanceCriteria": ["All 5 classical movements described with proper techniques", "Anatomy references are accurate for massage therapy", "Contraindications list is comprehensive"],
+      "acceptanceCriteria": [
+        "All 5 classical movements described with proper techniques",
+        "Anatomy references are accurate for massage therapy",
+        "Contraindications list is comprehensive"
+      ],
       "dependencies": [],
       "passes": false,
-      "filesTouch": ["aesthetic-services/C03/KP-01.md", "aesthetic-services/C03/KP-02.md", "aesthetic-services/C03/KP-03.md", "aesthetic-services/C03/KP-04.md", "aesthetic-services/C03/KP-05.md", "aesthetic-services/C03/KP-06.md"],
+      "filesTouch": [
+        "aesthetic-services/C03/KP-01.md",
+        "aesthetic-services/C03/KP-02.md",
+        "aesthetic-services/C03/KP-03.md",
+        "aesthetic-services/C03/KP-04.md",
+        "aesthetic-services/C03/KP-05.md",
+        "aesthetic-services/C03/KP-06.md"
+      ],
       "estimatedComplexity": "medium",
-      "tags": ["aesthetic", "kp", "technical"],
-      "epicId": "E-2"
+      "tags": [
+        "aesthetic",
+        "kp",
+        "technical"
+      ],
+      "epicId": "E-2",
+      "model": "sonnet"
     },
     {
       "id": "US-009",
       "title": "Enhance Aesthetic C04 KP — electrotherapy modalities (6 types) with safety",
       "description": "Review and enhance C04 Body Electrotherapy KP-01~10. This is the largest CU covering 6 electrotherapy types: faradic/EMS, galvanic, vacuum suction, mechanical/gyratory massage, high frequency, and micro-current. Ensure accurate electrical principles, machine specifications, treatment parameters, and contraindications.",
       "priority": "high",
-      "acceptanceCriteria": ["All 6 electrotherapy modalities have accurate technical descriptions", "Electrical safety parameters (duration, intensity) are specified", "Contraindications per modality are listed", "Machine specifications are current"],
+      "acceptanceCriteria": [
+        "All 6 electrotherapy modalities have accurate technical descriptions",
+        "Electrical safety parameters (duration, intensity) are specified",
+        "Contraindications per modality are listed",
+        "Machine specifications are current"
+      ],
       "dependencies": [],
       "passes": false,
-      "filesTouch": ["aesthetic-services/C04/KP-01.md", "aesthetic-services/C04/KP-02.md", "aesthetic-services/C04/KP-03.md", "aesthetic-services/C04/KP-04.md", "aesthetic-services/C04/KP-05.md", "aesthetic-services/C04/KP-06.md", "aesthetic-services/C04/KP-07.md", "aesthetic-services/C04/KP-08.md", "aesthetic-services/C04/KP-09.md", "aesthetic-services/C04/KP-10.md"],
+      "filesTouch": [
+        "aesthetic-services/C04/KP-01.md",
+        "aesthetic-services/C04/KP-02.md",
+        "aesthetic-services/C04/KP-03.md",
+        "aesthetic-services/C04/KP-04.md",
+        "aesthetic-services/C04/KP-05.md",
+        "aesthetic-services/C04/KP-06.md",
+        "aesthetic-services/C04/KP-07.md",
+        "aesthetic-services/C04/KP-08.md",
+        "aesthetic-services/C04/KP-09.md",
+        "aesthetic-services/C04/KP-10.md"
+      ],
       "estimatedComplexity": "large",
-      "tags": ["aesthetic", "kp", "technical"],
-      "epicId": "E-2"
-    },
-    {
-      "id": "US-010",
-      "title": "Enhance Aesthetic C05-C07 KP — body wrap, salon supervision, sales content",
-      "description": "Review and enhance KP files for C05 (Body Wrap Therapy), C06 (Salon Operational Supervision), and C07 (Salon Sales and Promotional Activities). Ensure accurate content on wrap modalities, salon management practices, cost analysis, inventory management, and marketing techniques.",
-      "priority": "medium",
-      "acceptanceCriteria": ["C05 covers wrap types (cold, warm, herbal, mud) accurately", "C06 covers salon management, TNA/TNI, and SHE compliance", "C07 covers marketing, budgeting, and promotional strategies"],
-      "dependencies": [],
-      "passes": false,
-      "filesTouch": ["aesthetic-services/C05/KP-01.md", "aesthetic-services/C05/KP-02.md", "aesthetic-services/C05/KP-03.md", "aesthetic-services/C06/KP-01.md", "aesthetic-services/C06/KP-02.md", "aesthetic-services/C06/KP-03.md", "aesthetic-services/C07/KP-01.md", "aesthetic-services/C07/KP-02.md"],
-      "estimatedComplexity": "large",
-      "tags": ["aesthetic", "kp"],
-      "epicId": "E-2"
-    },
-    {
-      "id": "US-011",
-      "title": "Enhance Aesthetic KT question quality across all CUs",
-      "description": "Review all Aesthetic KT files (54 total). Ensure varied question formats, accurate answer schemes, and alignment with corresponding KP content. Focus on beauty therapy terminology accuracy.",
-      "priority": "medium",
-      "acceptanceCriteria": ["Each KT has minimum 5 questions with varied formats", "Answer schemes are technically accurate for beauty therapy", "Questions test comprehension not just recall"],
-      "dependencies": ["US-007", "US-008", "US-009", "US-010"],
-      "passes": false,
-      "filesTouch": ["aesthetic-services/C01/KT-01.md", "aesthetic-services/C02/KT-01.md", "aesthetic-services/C03/KT-01.md", "aesthetic-services/C04/KT-01.md"],
-      "estimatedComplexity": "large",
-      "tags": ["aesthetic", "kt", "assessment"],
-      "epicId": "E-2"
+      "tags": [
+        "aesthetic",
+        "kp",
+        "technical"
+      ],
+      "epicId": "E-2",
+      "model": "sonnet"
     },
     {
       "id": "US-012",
       "title": "Enhance Aesthetic KK practical procedures — treatment techniques and hygiene",
       "description": "Review Aesthetic KK files for treatment procedure accuracy. Ensure proper client preparation, treatment sequence, hygiene/sterilization steps, PPE usage, and assessment checklists are complete.",
       "priority": "high",
-      "acceptanceCriteria": ["All KK files have proper client preparation steps", "Hygiene and sterilization procedures are detailed", "Assessment checklists cover process, output, attitude, safety, environment"],
+      "acceptanceCriteria": [
+        "All KK files have proper client preparation steps",
+        "Hygiene and sterilization procedures are detailed",
+        "Assessment checklists cover process, output, attitude, safety, environment"
+      ],
       "dependencies": [],
       "passes": false,
-      "filesTouch": ["aesthetic-services/C01/KK-01.md", "aesthetic-services/C02/KK-01.md", "aesthetic-services/C03/KK-01.md", "aesthetic-services/C04/KK-01.md"],
+      "filesTouch": [
+        "aesthetic-services/C01/KK-01.md",
+        "aesthetic-services/C02/KK-01.md",
+        "aesthetic-services/C03/KK-01.md",
+        "aesthetic-services/C04/KK-01.md"
+      ],
       "estimatedComplexity": "large",
-      "tags": ["aesthetic", "kk", "practical"],
-      "epicId": "E-2"
-    },
-    {
-      "id": "US-013",
-      "title": "Enhance Aesthetic E01 KP/KK — bust firming therapy elective content",
-      "description": "Review and enhance E01 (Bust Firming Therapy) elective unit. Ensure accurate content on bust area anatomy, massage techniques, mask application, protective care, and professional client handling with modesty considerations.",
-      "priority": "medium",
-      "acceptanceCriteria": ["Anatomy content is accurate and professional", "Treatment procedures maintain client modesty and comfort", "Contraindications are comprehensive", "Syariah compliance considerations addressed"],
-      "dependencies": [],
-      "passes": false,
-      "filesTouch": ["aesthetic-services/E01/KP-01.md", "aesthetic-services/E01/KP-02.md", "aesthetic-services/E01/KP-03.md", "aesthetic-services/E01/KK-01.md", "aesthetic-services/E01/KK-02.md", "aesthetic-services/E01/KK-03.md"],
-      "estimatedComplexity": "medium",
-      "tags": ["aesthetic", "elective"],
-      "epicId": "E-2"
-    },
-    {
-      "id": "US-014",
-      "title": "WIM coding and format compliance audit for BEV documents",
-      "description": "Audit all BEV WIM documents for format compliance against Buku Panduan WIM Edisi 2020. Check: WIM coding format (G452-010-3:2023-C0X/KP(n/N)), paper color designations, learning objectives (2-5 per sheet), active voice verbs, and page notation format.",
-      "priority": "medium",
-      "acceptanceCriteria": ["All documents use correct WIM coding", "Paper color designations are correct", "Learning objectives count is within 2-5 range", "Page notation follows Muka : X Drp : Y format"],
-      "dependencies": ["US-001", "US-004", "US-005"],
-      "passes": false,
-      "filesTouch": ["bev-diagnostic-rectification/C01/KP-01.md", "bev-diagnostic-rectification/01-jpw-distribution.md"],
-      "estimatedComplexity": "medium",
-      "tags": ["bev", "format", "audit"],
-      "epicId": "E-1"
-    },
-    {
-      "id": "US-015",
-      "title": "WIM coding and format compliance audit for Aesthetic documents",
-      "description": "Audit all Aesthetic WIM documents for format compliance. Check WIM coding (S960-002-3:2020-C0X/KP(n/N)), paper colors, learning objectives, active voice verbs, and bilingual term consistency.",
-      "priority": "medium",
-      "acceptanceCriteria": ["All documents use correct WIM coding", "Bilingual terms are consistent across all CUs", "Paper color designations match WIM standard"],
-      "dependencies": ["US-007", "US-011", "US-012"],
-      "passes": false,
-      "filesTouch": ["aesthetic-services/C01/KP-01.md", "aesthetic-services/01-jpw-distribution.md"],
-      "estimatedComplexity": "medium",
-      "tags": ["aesthetic", "format", "audit"],
-      "epicId": "E-2"
-    },
-    {
-      "id": "US-016",
-      "title": "Enhance BEV and Aesthetic KA/PA assessment papers — rubrics and marking schemes",
-      "description": "Review all KA (Knowledge Assessment) and PA (Performance Assessment) papers for both subjects. Ensure KA papers have proper marking schemes with marks allocation, and PA papers have detailed rubrics with 80% passing mark, automatic failure criteria, and time allocation.",
-      "priority": "medium",
-      "acceptanceCriteria": ["All KA papers have 100-mark allocation with marking scheme", "All PA papers have practical rubrics with pass/fail criteria", "PA papers include automatic failure criteria for safety violations", "Time allocation meets minimum (KA: 1hr, PA: 2hr)"],
-      "dependencies": [],
-      "passes": false,
-      "filesTouch": ["bev-diagnostic-rectification/C01/KA.md", "bev-diagnostic-rectification/C01/PA.md", "aesthetic-services/C01/KA.md", "aesthetic-services/C01/PA.md"],
-      "estimatedComplexity": "large",
-      "tags": ["assessment", "both"],
-      "epicId": "E-1"
+      "tags": [
+        "aesthetic",
+        "kk",
+        "practical"
+      ],
+      "epicId": "E-2",
+      "model": "sonnet"
     }
   ]
 }

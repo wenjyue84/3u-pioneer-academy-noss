@@ -1,0 +1,48 @@
+## Codebase Patterns
+
+(Patterns will be added by Ralph iterations as they discover them)
+
+---
+
+# Ralph Progress Log - Thu, Apr 16, 2026  2:45:02 PM
+Started autonomous agent loop for PRD completion
+
+
+## Pre-analysis for US-001 (Gemini 2.5 Pro)
+This user story is a technical writing task, not a Frappe/Python coding task. The agent's work will be focused on updating content within Markdown files.
+
+**Technical Brief for Agent**
+
+*   **Objective:** Enhance the technical accuracy and depth of High Voltage (HV) safety procedures in BEV Information Sheets.
+*   **Files to Modify:**
+    *   `bev-diagnostic-rectification/C01/KP-01.md`
+    *   `bev-diagnostic-rectification/C01/KP-02.md`
+    *   `bev-diagnostic-rectification/C01/KP-03.md`
+*   **Frappe/Python Involvement:** None. The story does not pertain to Python code, Frappe DocTypes, or hooks. The task is purely content and documentation based.
+*   **Implementation Approach:**
+    1.  **Research Regulations:** Review content to ensure it aligns with Malaysia's OSHA 1994 and EQA 1974, plus specific BEV manufacturer standards.
+    2.  **Verify PPE:** Update Personal Protective Equipment (PPE) details to be precise for BEV Level 3 work, specifically mentioning Class 0 gloves and CAT-III multimeter requirements.
+    3.  **Add Bilingual Terms:** For key technical concepts, ensure both English (EN) and Bahasa Malaysia (BM) terms are present.
+    4.  **Cite Sources:** Add references or footnotes to link claims to the correct regulations.
+*   **Gotchas & Edge Cases:**
+    *   **Diff Size Limit:** The previous attempt failed for creating too large of a diff. Apply changes incrementally and avoid reformatting entire documents to stay under the 500-line change limit.
+    *   **Regulatory Precision:** Ensure citations are to the specific, correct sections of the referenced Malaysian laws.
+    *   **Standards Accuracy:** Double-check that the PPE specifications are current and match industry best practices for HV electrical work.
+
+
+## Story US-001 — Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications
+
+### What was implemented
+- KP-01: Updated safety glasses spec from DIN EN166 to MS ISO 16321 / ANSI Z87.1 (Malaysian standard); added Electricity Supply Act 1990 (Act 447) to references with bilingual name
+- KP-02: Added bilingual heading for Digital Multimeter section; added IEC 61010-1 / MS IEC 61010-1 standard reference to DMM spec; added OSHA 1994 (Act 514), EQA 1974 (Act 127), ESA 1990 (Act 447) to References
+- KP-03: Added OSHA 1994 and ESA 1990 citations at start of safety section; added explicit PPE table with Class 0 gloves, CAT-III multimeter, MS ISO 16321 glasses; added BM term for LOTO (Kunci-Keluar/Tag-Keluar); added Malaysian regulatory references
+
+### Patterns discovered
+- diff size anti-pattern: previous attempt generated 2183 lines by rewriting entire files. Correct approach: surgical edits only (66 lines total)
+- KP-01 was already mostly compliant; focused changes were just adding the missing Electricity Supply Act ref and updating safety glasses spec
+- CAT-III multimeter specification is a TOOL spec (not PPE), so only relevant in KP-02 (health check) and KP-03 (maintenance) — not KP-01 (workplace prep)
+
+### Gotchas
+- Windows: must use encoding=utf-8 when opening files with Python
+- Malaysian standard for safety glasses is MS ISO 16321 (not DIN EN166)
+- Act numbers: OSHA = Act 514, EQA = Act 127, ESA = Act 447, Road Transport = Act 333
