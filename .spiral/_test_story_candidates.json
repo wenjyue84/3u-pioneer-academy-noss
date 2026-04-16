@@ -1,0 +1,28 @@
+{
+  "stories": [
+    {
+      "title": "[Integration Test] Enhance BEV C01 KP technical depth \u2014 HV safety procedures and PPE specifications",
+      "description": "Write integration tests for the feature implemented in US-001. Story description: Review and enhance BEV C01 KP-01~03 Information Sheets for technical accuracy. Verify HV safety content matches OSHA 1994, EQA 1974, and manufacturer standards. Ensure PPE specifications (Class 0, CAT-III) are correctly detailed with proper Malaysian regulatory references.",
+      "acceptanceCriteria": [
+        "Integration tests exist covering the core behaviour of US-001",
+        "Tests cover the happy path and at least one error/edge case",
+        "Tests run without requiring external services or manual setup"
+      ],
+      "technicalNotes": [
+        "Source files from US-001: bev-diagnostic-rectification/C01/KP-01.md, bev-diagnostic-rectification/C01/KP-02.md, bev-diagnostic-rectification/C01/KP-03.md",
+        "Run: uv run pytest tests/ -k us_001 -v"
+      ],
+      "priority": "high",
+      "dependencies": [
+        "US-001"
+      ],
+      "_source": "test-story",
+      "_testType": "integration",
+      "_forStoryId": "US-001",
+      "tags": [
+        "integration",
+        "auto-generated"
+      ]
+    }
+  ]
+}

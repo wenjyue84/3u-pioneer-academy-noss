@@ -1,0 +1,72 @@
+{
+  "stories": [
+    {
+      "title": "Create BEV C01-C02 Knowledge Assessments with Integrated Answer Schemes",
+      "priority": "high",
+      "description": "Develop Knowledge Assessment (KA) documents for BEV Competency Units 1-2 covering HV safety, PPE, battery fundamentals, BMS theory, and HV cable systems. Include multichoice, matching, and scenario-based question formats with complete answer keys aligned to CoCU assessment criteria.",
+      "acceptanceCriteria": [
+        "C01 KA.md contains 35+ questions (HV safety 40%, PPE 30%, battery basics 30%) with 25-mark answer key and assessment criteria references (e.g., 'CoCU C01.3.2 - HV Safety Procedures')",
+        "C02 KA.md contains 40+ questions (BMS theory 35%, HV cable systems 35%, OBC 30%) with 25-mark answer key and detailed explanations showing required technical depth",
+        "Minimum 30% scenario-based questions across both files with sample answers of 50+ words demonstrating expected technical knowledge for Level 3 qualification"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/CU-01/KA.md and CU-02/KA.md (follow JPK Buku Panduan WIM 2020 format with question types clearly labeled)",
+        "Validation: grep 'CoCU C0[12]' bev-diagnostic-rectification/CU-0[12]/KA.md to verify all questions tagged with CoCU reference codes",
+        "Test: wc -l bev-diagnostic-rectification/CU-0[12]/KA.md and count questions via regex 'Q[0-9]+\\.' to confirm 35-40 question count minimum"
+      ],
+      "filesTouch": [
+        "bev-diagnostic-rectification/CU-01/KA.md",
+        "bev-diagnostic-rectification/CU-02/KA.md"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "ai-example",
+      "passes": false,
+      "dependencies": []
+    },
+    {
+      "title": "Build Aesthetic Services Bilingual Terminology Glossary with Consistency Validator",
+      "priority": "high",
+      "description": "Create comprehensive bilingual (EN/BM) terminology glossary for Aesthetic Services covering anatomy, treatment modalities, equipment, and techniques. Implement Python validator script to detect inconsistent terminology usage across all Aesthetic KP documents and generate standardization report.",
+      "acceptanceCriteria": [
+        "Glossary file (00-aesthetic-terminology.md) contains 80+ EN/BM term pairs organized by category (anatomy, treatments, equipment, modalities, hygiene) with pronunciation guides for technical BM terms",
+        "Python validator script (validate-aesthetic-terms.py) scans all CU-01 through CU-04 KP documents, identifies terms with multiple translations, and generates CSV report with inconsistencies",
+        "Validator returns exit code 0 when all KP files pass consistency check; returns exit code 1 with detailed report of terms requiring standardization"
+      ],
+      "technicalNotes": [
+        "File to create: aesthetic-services/00-aesthetic-terminology.md (structured markdown with [EN] | [BM] | [Category] columns)",
+        "File to create: _agents/validate-aesthetic-terms.py (~130 lines Python using regex to extract and compare EN/BM pairs from glossary against KP files)",
+        "Test command: python _agents/validate-aesthetic-terms.py --check aesthetic-services/CU-*/KP*.md --glossary aesthetic-services/00-aesthetic-terminology.md --output inconsistencies.csv"
+      ],
+      "filesTouch": [
+        "aesthetic-services/00-aesthetic-terminology.md",
+        "_agents/validate-aesthetic-terms.py"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "ai-example",
+      "passes": false,
+      "dependencies": []
+    },
+    {
+      "title": "Create BEV C05 Performance Assessment with Supervisor Competency Rubrics",
+      "priority": "high",
+      "description": "Develop Performance Assessment (PA) document for BEV C05 supervisory unit with detailed rubric-based marking framework covering 5 supervisor competencies and 20+ workplace scenario-based questions. Align all assessment criteria to CoCU C05 supervisor role requirements.",
+      "acceptanceCriteria": [
+        "PA.md includes 5 supervisor competencies (briefing/toolbox talks, training delivery, SHE monitoring, team coordination, documentation) each with 4-level rubric (Novice 0-25% / Intermediate 26-50% / Proficient 51-75% / Advanced 76-100%)",
+        "Minimum 20 scenario-based questions (each 200-300 words) reflecting realistic workplace scenarios with 100+ word sample answers demonstrating expected supervisor knowledge and decision-making",
+        "Total mark allocation: 100 marks with rubric-weighted distribution (30% briefing, 25% training, 20% SHE, 15% coordination, 10% documentation) and documented pass threshold"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/CU-05/PA.md (use markdown tables for rubrics, numbered scenarios with clear answer schemes and mark guidance)",
+        "Validation: grep -c 'Scenario [0-9]' bev-diagnostic-rectification/CU-05/PA.md to confirm minimum 20 scenarios; verify total marks via grep '= [0-9]* marks' sum to 100",
+        "Test alignment: grep 'CoCU C05' bev-diagnostic-rectification/CU-05/PA.md to confirm all competencies reference specific CoCU C05 supervisor competency sections"
+      ],
+      "filesTouch": [
+        "bev-diagnostic-rectification/CU-05/PA.md"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-example",
+      "passes": false,
+      "dependencies": []
+    }
+  ]
+}

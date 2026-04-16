@@ -1,0 +1,8 @@
+# SPIRAL Crash Report
+# Story:     US-002
+# Worker:    sequential
+# Exit Code: 2
+# Timestamp: 20260416T130235Z
+# ─────────────────────────────────────────
+
+No stderr capture available (exit_code=2)
