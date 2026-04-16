@@ -1,0 +1,11 @@
+{
+  "story_id": "US-016",
+  "story_title": "Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics",
+  "key_source": "ai-example|create|bev|c03|medium|",
+  "stored_ts": 1776357629.709776,
+  "plan": {
+    "story_id": "US-016",
+    "duration_s": 901,
+    "model": "unknown"
+  }
+}

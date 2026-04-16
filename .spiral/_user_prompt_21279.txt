@@ -1,0 +1,1 @@
+Implement story **US-017** ("Build WIM Format Compliance Validator Against Buku Panduan WIM Edisi 2020 Standards") from prd.json now. This is the story assigned to you by the SPIRAL orchestrator — do NOT pick a different story. Read prd.json for the full details of US-017, read progress.txt for codebase context, then implement US-017 only.

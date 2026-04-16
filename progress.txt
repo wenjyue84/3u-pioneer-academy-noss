@@ -637,3 +637,35 @@ This user story is a content creation task, not a Frappe/Python coding task. The
 - 30/70 split: 3 theory questions × 10 marks = 30 marks; 8 scenario questions × ~8.75 marks = 70 marks. Use 10/10/10/10/10/10/8/8/4/10/10 distribution for clean totals summing to 100
 - Scenario format must explicitly state: System State, Symptoms, and Required (diagnosis asked) — these three fields satisfy the "system state, symptoms, and required diagnosis" acceptance criterion
 - Each scenario rubric uses "4 = comprehensive; 3 = mostly correct; 2 = partial; 1 = basic understanding" language
+## Iteration 1 - Fri, Apr 17, 2026 12:37:57 AM
+Completed: Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics (ID: US-016) in 9m
+
+
+## Pre-analysis for US-017 (Gemini 2.5 Pro)
+Here is the technical brief for user story US-017.
+
+**Subject: Technical Brief for US-017: WIM Format Compliance Validator**
+
+This user story requires creating a standalone Python validation script, not modifying the Frappe framework. No Frappe DocTypes or hooks are involved.
+
+**1. Python Files to Create:**
+*   `_agents/wim_format_validator.py`: The main executable script containing all validation logic.
+*   `_agents/wim_format_rules.json`: A configuration file to store regex patterns and required section names, allowing for easier updates.
+
+**2. Recommended Implementation Approach:**
+*   Use Python's `argparse` library to handle command-line arguments (`--path`, `--output`, `--check-all`).
+*   Utilize `pathlib.Path.rglob('**/*.md')` to recursively scan the specified content directories (`bev-diagnostic-rectification`, `aesthetic-services`, etc.).
+*   For each Markdown file, implement a series of validation functions:
+    *   **Filename:** Match the path against the regex specified in `technicalNotes`.
+    *   **Structure:** Read the file's content and verify the sequential presence of mandatory `##` headings (Tujuan, Kandungan, Penilaian).
+    *   **Bilingual Density:** Use `re.findall()` to count English/Malay term pairs and calculate their ratio against the total word count.
+*   Aggregate findings into a per-file compliance score and a list of violation objects.
+*   Generate a summary report in `_agents/wim_compliance_report.json` format.
+*   Use `sys.exit(1)` to return a non-zero exit code if compliance thresholds are not met.
+
+**3. Edge Cases & Gotchas:**
+*   Ensure file I/O is wrapped in `try...except` blocks and uses `encoding='utf-8'`.
+*   The bilingual term check needs to count words accurately and handle the pairing logic (e.g., `min(en_terms, bm_terms)`).
+*   The script must handle empty directories or directories without `.md` files gracefully.
+*   Ensure the final JSON output strictly matches the structure defined in the acceptance criteria.
+
