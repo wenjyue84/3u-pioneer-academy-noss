@@ -304,7 +304,8 @@
       "last_attempted": "2026-04-16T13:47:39Z",
       "_phaseI": {
         "diagnosisBlock": "## Current State\nC03 has 6 KP files. KP-04 covers all 5 classical movements but lacks hand position detail and an anatomy section. KP-01 has contraindications but missing some conditions (anticoagulants, intoxication, local/systemic distinction). No AMARAN/WARNING callouts in any C03 files (unlike C01/C02 pattern).\n\n## Problem Identified\n1. Anatomy references missing — no coverage of major muscle groups, superficial fascia, lymphatic/circulatory pathways for massage therapy\n2. Contraindications in KP-01 need expansion to be comprehensive\n3. Classical movements need enhanced hand position and technique detail\n4. Missing AMARAN/WARNING callouts (inconsistent with established codebase pattern)\n\n## Planned Changes\n- KP-01: AMARAN/WARNING + local/systemic distinction + expanded absolute contraindications\n- KP-02: AMARAN/WARNING for allergy/cross-contamination risk  \n- KP-03: AMARAN/WARNING for client safety\n- KP-04: AMARAN/WARNING + hand position detail per movement + anatomy section (major muscle groups per region + physiological effects table)\n- KP-05: AMARAN/WARNING callout\n- KP-06: AMARAN/WARNING callout\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"aesthetic-services/C03/KP-01.md\",\n    \"aesthetic-services/C03/KP-02.md\",\n    \"aesthetic-services/C03/KP-03.md\",\n    \"aesthetic-services/C03/KP-04.md\",\n    \"aesthetic-services/C03/KP-05.md\",\n    \"aesthetic-services/C03/KP-06.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 95\n}\n</plan>\nNow the key enhancement for KP-04 — add hand position details to each movement and add an anatomy section:\nNow add the anatomy section to KP-04 before the References:\nNow verify the diff size and quality:\n159 total lines — well within budget. Now mark story as passing and commit:\nUS-008 complete. Here's what was delivered:\n\n**KP-01** — Contraindications restructured into 3 tiers (systemic/absolute, local area-only, relative) with 10 absolute contraindications including anticoagulants, alcohol intoxication, and psychosis — previously missing from the list.\n\n**KP-04** — The main enhancement:\n- All 5 classical movements now include **hand position** detail (palm flat, ulnar border, knuckle, fingertip, etc.)\n- Tapotement now has a sub-type table (hacking, cupping, beating, pounding, tapping) with hand positions and suitable areas\n- New **Section 8.0 Anatomy** added with:\n  - Major muscle groups per body region (8 regions)\n  - Physiological effects table (6 systems: circulatory, lymphatic, muscular, nervous, integumentary, skeletal)\n  - Anatomical landmarks to avoid (popliteal fossa, femoral triangle, kidney region, carotid triangle, etc.)\n\n**KP-02/03/05/06** — AMARAN/WARNING callouts added to match the established pattern from C01/C02 files."
-      }
+      },
+      "_passedCommit": "ef484fb9ddeb3e4fc3e25d0e195aeead4d01d4e3"
     },
     {
       "id": "US-009",
@@ -338,7 +339,8 @@
         "technical"
       ],
       "epicId": "E-2",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T13:59:54Z"
     },
     {
       "id": "US-012",
