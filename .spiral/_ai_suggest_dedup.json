@@ -1,25 +1,25 @@
 {
   "stories": [
     {
-      "title": "Create Aesthetic Services Knowledge Assessment Suite with Bilingual Answer Schemes",
-      "priority": "high",
-      "description": "Build comprehensive Knowledge Assessment (KA) documents for all 4 Aesthetic Services CUs (C01-C04) with bilingual questions, detailed answer schemes, and competency-based rubrics. Ensures assessment quality and complete coverage of CU-level learning outcomes aligned with Buku Panduan WIM Edisi 2020.",
+      "title": "Implement IT-020 Level 4 Knowledge Assessment with System Administration Rubrics",
+      "priority": "medium",
+      "description": "Create comprehensive Knowledge Assessment documents for IT-020 Level 4, covering all CUs with system administration-focused competency rubrics and varied question types (MCQ, short-answer, scenario-based). Assessments must align with JPK WIM format and include integrated answer schemes with marking guidelines.",
       "acceptanceCriteria": [
-        "KA.md created for all 4 Aesthetic CUs (C01, C02, C03, C04) with minimum 5 questions per CU in mixed formats: MCQ 40%, short answer 30%, scenario-based 30%",
-        "Each KA document includes bilingual question text (EN/BM), comprehensive answer schemes with 4-point marking rubrics (0-3 scale), and alignment to CoCU Assessment Criteria",
-        "All technical terms in KA documents are validated against aesthetic-services/_docs/aesthetic-glossary.md for consistency and bilingual coverage"
+        "All Level 4 CUs have corresponding KA.md files in it-computer-system/level-4/{CU-XX}/ with 15-25 questions each covering hardware troubleshooting, network configuration, user access management, and security protocols",
+        "Rubrics include 3-level performance descriptors (Developing, Proficient, Exemplary) with detailed marking criteria and partial credit allocations per question",
+        "Answer schemes integrated per question; bilingual terms (EN/BM) included for all competency descriptors"
       ],
       "technicalNotes": [
-        "File to create: tools/validate_aesthetic_ka.py (validates KA format, bilingual terms, question count)",
-        "Files to modify: aesthetic-services/CU-C01/KA.md, aesthetic-services/CU-C02/KA.md, aesthetic-services/CU-C03/KA.md, aesthetic-services/CU-C04/KA.md",
-        "Test command: uv run python tools/validate_aesthetic_ka.py aesthetic-services/CU-*/KA.md --min-questions 5 --validate-bilingual"
+        "File pattern: it-computer-system/level-4/cu-XX/KA.md \u2014 create per IT-020 CU structure",
+        "Test command: uv run pytest tests/test_wim_format.py::test_ka_format -k level4 -v",
+        "Validation: Cross-reference against JPK Panduan WIM template; verify all rubric criteria are objective and measurable"
       ],
       "filesTouch": [
-        "aesthetic-services/CU-C01/KA.md",
-        "aesthetic-services/CU-C02/KA.md",
-        "aesthetic-services/CU-C03/KA.md",
-        "aesthetic-services/CU-C04/KA.md",
-        "tools/validate_aesthetic_ka.py"
+        "it-computer-system/level-4/cu-01/KA.md",
+        "it-computer-system/level-4/cu-02/KA.md",
+        "it-computer-system/level-4/cu-03/KA.md",
+        "it-computer-system/level-4/cu-04/KA.md",
+        "tests/test_wim_format.py"
       ],
       "estimatedComplexity": "medium",
       "_source": "ai-example",
@@ -27,25 +27,24 @@
       "dependencies": []
     },
     {
-      "title": "Implement IT Level 3 Knowledge Assessment with Competency-Based Rubrics",
+      "title": "Build WIM Content Coverage Validator for All Subjects",
       "priority": "high",
-      "description": "Create Knowledge Assessment (KA) documents for IT-020-3:2013 Level 3 mandatory CUs with varied question formats (MCQ, short answer, scenario-based) and competency rubrics. Validates all questions against NOSS Related Knowledge extraction to ensure complete curriculum coverage.",
+      "description": "Develop Python tool that validates all NOSS Competency Unit Related Knowledge and Work Activity items are explicitly covered in corresponding WIM documents (KP, KT, KK, PA) across BEV, Aesthetic, and IT subjects. Tool outputs coverage report with gaps highlighted per CU and subject.",
       "acceptanceCriteria": [
-        "KA.md documents created for minimum 3 mandatory Level 3 CUs (IT-020-3) with 4-6 questions each; each question includes: learning outcome reference, difficulty level (L1/L2/L3), 4-point competency rubric (0-3), and mark allocation",
-        "Question formats distributed: 40% MCQ (4 options), 40% short answer (with model answer), 20% scenario-based with rubric guidance",
-        "All questions validated against it-computer-system/00-noss-extract.md to confirm every NOSS Related Knowledge item has minimum 1 corresponding assessment question"
+        "Tool scans 00-noss-extract.md in each subject folder, extracts all CoCU Related Knowledge and Work Activities, and generates mapping to WIM file references with line numbers",
+        "Report identifies uncovered items per subject/CU with file paths, item codes, and remediation suggestions; exports to _reference/coverage-report.md",
+        "Coverage >= 95% per subject passes validation; <95% fails with detailed gap list (item ID, type, CU location)"
       ],
       "technicalNotes": [
-        "File to create: tools/validate_it_ka.py and tools/it_noss_mapping.yaml",
-        "Files to modify: it-computer-system/L3-CU-01/KA.md, it-computer-system/L3-CU-02/KA.md, it-computer-system/L3-CU-03/KA.md",
-        "Test command: uv run python tools/validate_it_ka.py it-computer-system/L3-CU-*/KA.md --validate-against-noss --min-questions 4"
+        "File to create: _tools/validate_coverage.py (~140 lines) \u2014 parses markdown structure and validates cross-references",
+        "Output file: _reference/coverage-report.md \u2014 regenerated per execution with timestamp",
+        "Test command: uv run python _tools/validate_coverage.py --all-subjects && uv run pytest tests/test_coverage.py::test_coverage_threshold -v",
+        "Parser must handle both markdown headers (## CU-XX) and NOSS extract list format"
       ],
       "filesTouch": [
-        "it-computer-system/L3-CU-01/KA.md",
-        "it-computer-system/L3-CU-02/KA.md",
-        "it-computer-system/L3-CU-03/KA.md",
-        "tools/validate_it_ka.py",
-        "tools/it_noss_mapping.yaml"
+        "_tools/validate_coverage.py",
+        "_reference/coverage-report.md",
+        "tests/test_coverage.py"
       ],
       "estimatedComplexity": "medium",
       "_source": "ai-example",
@@ -53,28 +52,24 @@
       "dependencies": []
     },
     {
-      "title": "Build WIM Coverage Validator for NOSS-to-Document Requirement Traceability",
-      "priority": "high",
-      "description": "Develop automated coverage validator that parses NOSS extracts (00-noss-extract.md) against WIM documents (KP, KK) to generate traceability matrix and coverage report. Identifies gaps in curriculum coverage and provides gap-closure recommendations aligned with Buku Panduan WIM standards.",
+      "title": "Create BEV C05 Supervisory Practical Assessment Checklist with Tiered Rubrics",
+      "priority": "medium",
+      "description": "Build structured observational checklist for BEV C05 (Supervisory and Monitoring role) derived from all Work Activities in the CU. Checklist enables assessment of supervisor competencies in training delivery, hazard monitoring, performance assessment, and team coordination with tiered performance rubrics (Developing, Proficient, Exemplary).",
       "acceptanceCriteria": [
-        "CLI tool: tools/coverage_validator.py accepts --subject flag (bev/aesthetic/it) and generates output/coverage_report_[subject].md with coverage statistics: % Related Knowledge covered by KP, % Work Activities covered by KK, list of uncovered NOSS items",
-        "Validator output includes: coverage matrix table, gap analysis with recommendations, cross-references to specific WIM document chapters for each mapped requirement",
-        "Coverage report validates against NOSS CoCU structure: confirms every 'Related Knowledge' item has >=1 KP reference, every 'Work Activity' has >=1 KK reference"
+        "PA-checklist.md in bev-diagnostic-rectification/cu-05/ with 12-15 observable checklist items, each mapped to source KK work activity with activity code reference",
+        "Each checklist item includes: observable behavior, 3-level performance descriptor with criteria, evidence/assessment method (observation/document review/interview), and bilingual competency labels (EN/BM)",
+        "Checklist format complies with JPK WIM practical assessment template; validated against JPK Panduan WIM Edisi 2020 specimen"
       ],
       "technicalNotes": [
-        "File to create: tools/coverage_validator.py (~180 lines), tools/noss_parser.py (utility module)",
-        "Output files: output/coverage_report_bev.md, output/coverage_report_aesthetic.md, output/coverage_report_it.md",
-        "Test command: uv run pytest tests/test_coverage_validator.py::test_bev_coverage -v; uv run python tools/coverage_validator.py --subject bev --output output/coverage_report_bev.md"
+        "File to create: bev-diagnostic-rectification/cu-05/PA-checklist.md (~160 lines); reference all cu-05/KK-XX.md work activities",
+        "Test command: uv run pytest tests/test_wim_format.py::test_pa_checklist_structure -v",
+        "Validation: 1) All 12+ KK activities referenced, 2) Rubric language consistency across items, 3) Bilingual terms match cu-05/PM-teori.md terminology"
       ],
       "filesTouch": [
-        "tools/coverage_validator.py",
-        "tools/noss_parser.py",
-        "tests/test_coverage_validator.py",
-        "output/coverage_report_bev.md",
-        "output/coverage_report_aesthetic.md",
-        "output/coverage_report_it.md"
+        "bev-diagnostic-rectification/cu-05/PA-checklist.md",
+        "tests/test_wim_format.py"
       ],
-      "estimatedComplexity": "medium",
+      "estimatedComplexity": "small",
       "_source": "ai-example",
       "passes": false,
       "dependencies": []

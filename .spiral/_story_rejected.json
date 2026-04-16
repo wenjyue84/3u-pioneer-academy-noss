@@ -1,30 +1,83 @@
 {
   "stories": [
     {
-      "title": "Build WIM Coverage Validator for NOSS-to-Document Requirement Traceability",
-      "priority": "high",
-      "description": "Develop automated coverage validator that parses NOSS extracts (00-noss-extract.md) against WIM documents (KP, KK) to generate traceability matrix and coverage report. Identifies gaps in curriculum coverage and provides gap-closure recommendations aligned with Buku Panduan WIM standards.",
+      "title": "Implement IT-020 Level 4 Knowledge Assessment with System Administration Rubrics",
+      "priority": "medium",
+      "description": "Create comprehensive Knowledge Assessment documents for IT-020 Level 4, covering all CUs with system administration-focused competency rubrics and varied question types (MCQ, short-answer, scenario-based). Assessments must align with JPK WIM format and include integrated answer schemes with marking guidelines.",
       "acceptanceCriteria": [
-        "CLI tool: tools/coverage_validator.py accepts --subject flag (bev/aesthetic/it) and generates output/coverage_report_[subject].md with coverage statistics: % Related Knowledge covered by KP, % Work Activities covered by KK, list of uncovered NOSS items",
-        "Validator output includes: coverage matrix table, gap analysis with recommendations, cross-references to specific WIM document chapters for each mapped requirement",
-        "Coverage report validates against NOSS CoCU structure: confirms every 'Related Knowledge' item has >=1 KP reference, every 'Work Activity' has >=1 KK reference"
+        "All Level 4 CUs have corresponding KA.md files in it-computer-system/level-4/{CU-XX}/ with 15-25 questions each covering hardware troubleshooting, network configuration, user access management, and security protocols",
+        "Rubrics include 3-level performance descriptors (Developing, Proficient, Exemplary) with detailed marking criteria and partial credit allocations per question",
+        "Answer schemes integrated per question; bilingual terms (EN/BM) included for all competency descriptors"
       ],
       "technicalNotes": [
-        "File to create: tools/coverage_validator.py (~180 lines), tools/noss_parser.py (utility module)",
-        "Output files: output/coverage_report_bev.md, output/coverage_report_aesthetic.md, output/coverage_report_it.md",
-        "Test command: uv run pytest tests/test_coverage_validator.py::test_bev_coverage -v; uv run python tools/coverage_validator.py --subject bev --output output/coverage_report_bev.md"
+        "File pattern: it-computer-system/level-4/cu-XX/KA.md — create per IT-020 CU structure",
+        "Test command: uv run pytest tests/test_wim_format.py::test_ka_format -k level4 -v",
+        "Validation: Cross-reference against JPK Panduan WIM template; verify all rubric criteria are objective and measurable"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tools/coverage_validator.py",
-        "tools/noss_parser.py",
-        "tests/test_coverage_validator.py",
-        "output/coverage_report_bev.md",
-        "output/coverage_report_aesthetic.md",
-        "output/coverage_report_it.md"
+        "it-computer-system/level-4/cu-01/KA.md",
+        "it-computer-system/level-4/cu-02/KA.md",
+        "it-computer-system/level-4/cu-03/KA.md",
+        "it-computer-system/level-4/cu-04/KA.md",
+        "tests/test_wim_format.py"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Build WIM Content Coverage Validator for All Subjects",
+      "priority": "high",
+      "description": "Develop Python tool that validates all NOSS Competency Unit Related Knowledge and Work Activity items are explicitly covered in corresponding WIM documents (KP, KT, KK, PA) across BEV, Aesthetic, and IT subjects. Tool outputs coverage report with gaps highlighted per CU and subject.",
+      "acceptanceCriteria": [
+        "Tool scans 00-noss-extract.md in each subject folder, extracts all CoCU Related Knowledge and Work Activities, and generates mapping to WIM file references with line numbers",
+        "Report identifies uncovered items per subject/CU with file paths, item codes, and remediation suggestions; exports to _reference/coverage-report.md",
+        "Coverage >= 95% per subject passes validation; <95% fails with detailed gap list (item ID, type, CU location)"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/validate_coverage.py (~140 lines) — parses markdown structure and validates cross-references",
+        "Output file: _reference/coverage-report.md — regenerated per execution with timestamp",
+        "Test command: uv run python _tools/validate_coverage.py --all-subjects && uv run pytest tests/test_coverage.py::test_coverage_threshold -v",
+        "Parser must handle both markdown headers (## CU-XX) and NOSS extract list format"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_tools/validate_coverage.py",
+        "_reference/coverage-report.md",
+        "tests/test_coverage.py"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Create BEV C05 Supervisory Practical Assessment Checklist with Tiered Rubrics",
+      "priority": "medium",
+      "description": "Build structured observational checklist for BEV C05 (Supervisory and Monitoring role) derived from all Work Activities in the CU. Checklist enables assessment of supervisor competencies in training delivery, hazard monitoring, performance assessment, and team coordination with tiered performance rubrics (Developing, Proficient, Exemplary).",
+      "acceptanceCriteria": [
+        "PA-checklist.md in bev-diagnostic-rectification/cu-05/ with 12-15 observable checklist items, each mapped to source KK work activity with activity code reference",
+        "Each checklist item includes: observable behavior, 3-level performance descriptor with criteria, evidence/assessment method (observation/document review/interview), and bilingual competency labels (EN/BM)",
+        "Checklist format complies with JPK WIM practical assessment template; validated against JPK Panduan WIM Edisi 2020 specimen"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/cu-05/PA-checklist.md (~160 lines); reference all cu-05/KK-XX.md work activities",
+        "Test command: uv run pytest tests/test_wim_format.py::test_pa_checklist_structure -v",
+        "Validation: 1) All 12+ KK activities referenced, 2) Rubric language consistency across items, 3) Bilingual terms match cu-05/PM-teori.md terminology"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "bev-diagnostic-rectification/cu-05/PA-checklist.md",
+        "tests/test_wim_format.py"
       ],
       "_source": "ai-example",
       "passes": false,

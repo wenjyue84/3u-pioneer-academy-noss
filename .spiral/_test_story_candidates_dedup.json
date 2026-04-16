@@ -354,6 +354,28 @@
         "e2e",
         "auto-generated"
       ]
+    },
+    {
+      "title": "[Regression Test] Create Aesthetic Services Knowledge Assessment Suite with Bilingual Answer Schemes",
+      "description": "Write regression test to guard against future breakage of US-019. Story description: Build comprehensive Knowledge Assessment (KA) documents for all 4 Aesthetic Services CUs (C01-C04) with bilingual questions, detailed answer schemes, and competency-based rubrics. Ensures assessment quality and complete coverage of CU-level learning outcomes aligned with Buku Panduan WIM Edisi 2020.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-019",
+        "Test would reliably fail if the US-019 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_019 -v"
+      ],
+      "priority": "medium",
+      "dependencies": [
+        "US-019"
+      ],
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-019",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ]
     }
   ]
 }
