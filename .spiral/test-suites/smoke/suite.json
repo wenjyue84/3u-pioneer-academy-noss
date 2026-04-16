@@ -92,6 +92,19 @@
       "last_result": "pending",
       "obsolete": false,
       "run_count": 0
+    },
+    {
+      "title": "[smoke] Enhance Aesthetic KK practical procedures — treatment techniques and hygiene",
+      "description": "Auto-generated smoke test from US-012",
+      "from_story": "US-012",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-008",
+      "created_ts": "2026-04-16T14:46:08Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
     }
   ]
 }

@@ -319,7 +319,7 @@
         "Machine specifications are current"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "aesthetic-services/C04/KP-01.md",
         "aesthetic-services/C04/KP-02.md",
@@ -340,7 +340,11 @@
       ],
       "epicId": "E-2",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T13:59:54Z"
+      "last_attempted": "2026-04-16T14:04:16Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nAll 10 C04 KP files exist with basic content for 6 electrotherapy modalities. Key gaps:\n- No AMARAN / WARNING callouts (pattern from US-007/US-008)\n- KP-04 (Galvanic) missing procedure overview\n- KP-07 (High Frequency) missing parameters table\n- KP-06 (Mechanical/Gyratory) missing from the modality-specific contraindications table in KP-02\n- Per-modality contraindications need strengthening in individual KPs\n\n## Problem Identified\nUS-009 requires: accurate technical descriptions for all 6 modalities, electrical safety parameters specified, per-modality contraindications listed, and current machine specifications — all enhanced with AMARAN/WARNING safety callouts.\n\n## Planned Changes\n- **KP-01**: Add AMARAN/WARNING for electrical safety in work area\n- **KP-02**: Add AMARAN/WARNING; add mechanical/gyratory to modality-specific contraindications\n- **KP-03**: Add AMARAN/WARNING before precautions; enhance motor point accuracy\n- **KP-04**: Add AMARAN/WARNING; add procedure overview (currently missing)\n- **KP-05**: Add AMARAN/WARNING; add lymph node drainage direction table\n- **KP-06**: Add AMARAN/WARNING; add modality-specific contraindications\n- **KP-07**: Add AMARAN/WARNING; add treatment parameters table (currently missing)\n- **KP-08**: Add AMARAN/WARNING; strengthen contraindications section\n- **KP-09**: Add AMARAN/WARNING; add modality-specific aftercare notes\n- **KP-10**: Add AMARAN/WARNING for chemical/clinical waste\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"aesthetic-services/C04/KP-01.md\",\n    \"aesthetic-services/C04/KP-02.md\",\n    \"aesthetic-services/C04/KP-03.md\",\n    \"aesthetic-services/C04/KP-04.md\",\n    \"aesthetic-services/C04/KP-05.md\",\n    \"aesthetic-services/C04/KP-06.md\",\n    \"aesthetic-services/C04/KP-07.md\",\n    \"aesthetic-services/C04/KP-08.md\",\n    \"aesthetic-services/C04/KP-09.md\",\n    \"aesthetic-services/C04/KP-10.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 210\n}\n</plan>\nNow let me verify all files look correct:\nAll 10 files have AMARAN callouts. Now check the diff size:\n238 total changes — well within the ~350 budget. Now mark US-009 as complete:\nNow document learnings and commit:\nUS-009 is complete. Summary of what was implemented:\n\n**10 KP files enhanced** with 210 insertions / 61 deletions (238 net lines changed):\n\n| File | Key Addition |\n|------|-------------|\n| KP-01 | AMARAN/WARNING for electrical safety in work area setup |\n| KP-02 | AMARAN/WARNING; all 6 modalities now in contraindications table (mechanical/gyratory was missing) |\n| KP-03 | AMARAN/WARNING with forbidden electrode placements (thorax, carotid, cranium) |\n| KP-04 | AMARAN/WARNING for galvanic shock; full **procedure overview added** (was entirely missing) |\n| KP-05 | AMARAN/WARNING for varicose vein risk; lymph node **drainage direction table** (5 body areas) |\n| KP-06 | AMARAN/WARNING; machine specifications table (RPM, motor type, attachment) |\n| KP-07 | AMARAN/WARNING for fire risk; **treatment parameters table** comparing direct vs indirect method (was missing) |\n| KP-08 | AMARAN/WARNING for pacemaker risk at sub-sensory levels; machine specifications table |\n| KP-09 | AMARAN/WARNING for adverse reaction referral; modality-specific aftercare notes table |\n| KP-10 | AMARAN/WARNING for clinical waste classification; 7-type waste disposal table |"
+      },
+      "_passedCommit": "ea0e483301201672d83469c0505c4e47d3f76fbe"
     },
     {
       "id": "US-012",
@@ -353,7 +357,7 @@
         "Assessment checklists cover process, output, attitude, safety, environment"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "aesthetic-services/C01/KK-01.md",
         "aesthetic-services/C02/KK-01.md",
@@ -367,7 +371,12 @@
         "practical"
       ],
       "epicId": "E-2",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T14:26:00Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nAll 4 KK-01 files have the basic 5-domain checklist structure. C01 and C03 are mostly complete. C02 and C04 have specific gaps:\n- **C02/KK-01**: Hygiene step (1.2) vague (no disinfectant type, no directional wipe, no air-dry); SAFETY domain has only 1 item; missing client physical preparation (gown for thermal assessment); no instrument-cleaning step for BP monitor\n- **C04/KK-01**: Missing pre-electrotherapy client preparation (mandatory metal jewellery removal, skin check); PROCESS checklist doesn't include client preparation verification\n\n## Problem Identified\nThe acceptance criteria require (1) proper client preparation steps in ALL KK files, (2) detailed hygiene/sterilization procedures, and (3) complete 5-domain assessment checklists. C02/KK-01 and C04/KK-01 fall short on items 1 and 2. C01/KK-01 and C03/KK-01 need minor enhancements to ensure completeness across all files.\n\n## Planned Changes\n- **C01/KK-01**: Add Step 1.5 (verify client gown/slippers undamaged); specify disinfectant type in Step 2.1; add checklist item for client items check\n- **C02/KK-01**: Rewrite Step 1.2 with disinfectant type + directional wipe + air-dry; add Step 1.3a (clean BP monitor with 70% IPA); add Step 1.6 (client gown provision for physical assessment); add SAFETY checklist item for PPE during physical contact\n- **C03/KK-01**: Add \"one direction\" to Step 2.2; add allergy confirmation to SAFETY checklist\n- **C04/KK-01**: Add Step 6.6 (pre-treatment notice re: jewellery removal); add new Step 7 (Pre-Client Entry Verification: jewellery check, skin prep communication, positioning); rename current Step 7→Step 8; add checklist items\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"aesthetic-services/C01/KK-01.md\",\n    \"aesthetic-services/C02/KK-01.md\",\n    \"aesthetic-services/C03/KK-01.md\",\n    \"aesthetic-services/C04/KK-01.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 60\n}\n</plan>\n\nNow implementing all 4 files:\nNow enhance C02/KK-01 — the main file needing hygiene and client preparation improvements:\nNow C03/KK-01 — minor but meaningful improvements:\nNow C04/KK-01 — add pre-electrotherapy client preparation steps:\nNow update the C04/KK-01 assessment checklist to add client preparation items:\nNow verify all 4 files look correct:\nGood. Now verify C02 and C03:\nAll 4 files look correct. Now mark the story as passing and update progress.txt:\nUS-012 is complete. Here's a summary of what was done:\n\n**All 4 KK-01 files enhanced:**\n\n- **C01/KK-01**: Added Step 1.5 (client gown/slippers inspection); specified QAC disinfectant with contact time; added ONE DIRECTION wipe; checklist expanded 15→16 items with explicit client items check\n- **C02/KK-01**: Major hygiene rewrite (QAC + directional wipe + air-dry + BP monitor 70% IPA cleaning); added client identity verification and gown provision for physical assessment; checklist 14→17 items, SAFETY now 2 items (was 1)\n- **C03/KK-01**: Specified QAC + contact time; added ONE DIRECTION wipe with cloth discard; added clipboard/pen cleaning step; allergy confirmation (nut-based carrier oils) added as SAFETY checklist item; 14→15 items\n- **C04/KK-01**: Added Step 6.6 (pre-treatment jewellery removal notice); new Step 7 \"Pre-Client Entry Verification\" (5 sub-steps covering metal check, pacemaker/implant confirmation, client positioning/draping); checklist 15→20 items with 3 new PROCESS items and 1 new SAFETY item for electrotherapy-specific safety verification"
+      },
+      "_passedCommit": "d8b10c3e26fd3e681fe880865a95ca593d0655fc"
     },
     {
       "id": "US-013",
@@ -388,7 +397,8 @@
       "estimatedComplexity": "small",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T15:00:05Z"
     },
     {
       "id": "US-014",

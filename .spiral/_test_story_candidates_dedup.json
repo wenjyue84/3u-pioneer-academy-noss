@@ -167,6 +167,30 @@
         "integration",
         "auto-generated"
       ]
+    },
+    {
+      "title": "[Integration Test] Enhance Aesthetic KK practical procedures \u2014 treatment techniques and hygiene",
+      "description": "Write integration tests for the feature implemented in US-012. Story description: Review Aesthetic KK files for treatment procedure accuracy. Ensure proper client preparation, treatment sequence, hygiene/sterilization steps, PPE usage, and assessment checklists are complete.",
+      "acceptanceCriteria": [
+        "Integration tests exist covering the core behaviour of US-012",
+        "Tests cover the happy path and at least one error/edge case",
+        "Tests run without requiring external services or manual setup"
+      ],
+      "technicalNotes": [
+        "Source files from US-012: aesthetic-services/C01/KK-01.md, aesthetic-services/C02/KK-01.md, aesthetic-services/C03/KK-01.md, aesthetic-services/C04/KK-01.md",
+        "Run: uv run pytest tests/ -k us_012 -v"
+      ],
+      "priority": "high",
+      "dependencies": [
+        "US-012"
+      ],
+      "_source": "test-story",
+      "_testType": "integration",
+      "_forStoryId": "US-012",
+      "tags": [
+        "integration",
+        "auto-generated"
+      ]
     }
   ]
 }

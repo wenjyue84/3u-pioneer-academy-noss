@@ -357,7 +357,7 @@
         "Assessment checklists cover process, output, attitude, safety, environment"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "aesthetic-services/C01/KK-01.md",
         "aesthetic-services/C02/KK-01.md",
@@ -372,7 +372,11 @@
       ],
       "epicId": "E-2",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T14:17:40Z"
+      "last_attempted": "2026-04-16T14:26:00Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nAll 4 KK-01 files have the basic 5-domain checklist structure. C01 and C03 are mostly complete. C02 and C04 have specific gaps:\n- **C02/KK-01**: Hygiene step (1.2) vague (no disinfectant type, no directional wipe, no air-dry); SAFETY domain has only 1 item; missing client physical preparation (gown for thermal assessment); no instrument-cleaning step for BP monitor\n- **C04/KK-01**: Missing pre-electrotherapy client preparation (mandatory metal jewellery removal, skin check); PROCESS checklist doesn't include client preparation verification\n\n## Problem Identified\nThe acceptance criteria require (1) proper client preparation steps in ALL KK files, (2) detailed hygiene/sterilization procedures, and (3) complete 5-domain assessment checklists. C02/KK-01 and C04/KK-01 fall short on items 1 and 2. C01/KK-01 and C03/KK-01 need minor enhancements to ensure completeness across all files.\n\n## Planned Changes\n- **C01/KK-01**: Add Step 1.5 (verify client gown/slippers undamaged); specify disinfectant type in Step 2.1; add checklist item for client items check\n- **C02/KK-01**: Rewrite Step 1.2 with disinfectant type + directional wipe + air-dry; add Step 1.3a (clean BP monitor with 70% IPA); add Step 1.6 (client gown provision for physical assessment); add SAFETY checklist item for PPE during physical contact\n- **C03/KK-01**: Add \"one direction\" to Step 2.2; add allergy confirmation to SAFETY checklist\n- **C04/KK-01**: Add Step 6.6 (pre-treatment notice re: jewellery removal); add new Step 7 (Pre-Client Entry Verification: jewellery check, skin prep communication, positioning); rename current Step 7→Step 8; add checklist items\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"aesthetic-services/C01/KK-01.md\",\n    \"aesthetic-services/C02/KK-01.md\",\n    \"aesthetic-services/C03/KK-01.md\",\n    \"aesthetic-services/C04/KK-01.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 60\n}\n</plan>\n\nNow implementing all 4 files:\nNow enhance C02/KK-01 — the main file needing hygiene and client preparation improvements:\nNow C03/KK-01 — minor but meaningful improvements:\nNow C04/KK-01 — add pre-electrotherapy client preparation steps:\nNow update the C04/KK-01 assessment checklist to add client preparation items:\nNow verify all 4 files look correct:\nGood. Now verify C02 and C03:\nAll 4 files look correct. Now mark the story as passing and update progress.txt:\nUS-012 is complete. Here's a summary of what was done:\n\n**All 4 KK-01 files enhanced:**\n\n- **C01/KK-01**: Added Step 1.5 (client gown/slippers inspection); specified QAC disinfectant with contact time; added ONE DIRECTION wipe; checklist expanded 15→16 items with explicit client items check\n- **C02/KK-01**: Major hygiene rewrite (QAC + directional wipe + air-dry + BP monitor 70% IPA cleaning); added client identity verification and gown provision for physical assessment; checklist 14→17 items, SAFETY now 2 items (was 1)\n- **C03/KK-01**: Specified QAC + contact time; added ONE DIRECTION wipe with cloth discard; added clipboard/pen cleaning step; allergy confirmation (nut-based carrier oils) added as SAFETY checklist item; 14→15 items\n- **C04/KK-01**: Added Step 6.6 (pre-treatment jewellery removal notice); new Step 7 \"Pre-Client Entry Verification\" (5 sub-steps covering metal check, pacemaker/implant confirmation, client positioning/draping); checklist 15→20 items with 3 new PROCESS items and 1 new SAFETY item for electrotherapy-specific safety verification"
+      },
+      "_passedCommit": "d8b10c3e26fd3e681fe880865a95ca593d0655fc"
     },
     {
       "id": "US-013",
@@ -393,7 +397,8 @@
       "estimatedComplexity": "small",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T15:11:49Z"
     },
     {
       "id": "US-014",

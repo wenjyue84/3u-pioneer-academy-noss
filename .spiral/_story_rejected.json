@@ -1,53 +1,18 @@
 {
   "stories": [
     {
-      "title": "Generate BEV C05 Knowledge Sheets for Supervisory and Safety Management",
+      "title": "Create IT C01 System Architecture Knowledge Plans — Theory Lesson and Core Concepts",
       "priority": "high",
-      "description": "Create complete KP (Knowledge Sheets) and KT (Assignment Sheets) for BEV C05 Supervisory and Safety Management competency unit. Extract 12-15 Related Knowledge items from NOSS C05 CoCU and develop 4 knowledge sheets covering: (1) Team Briefing and Safety Culture, (2) SHE Monitoring and Hazard Management, (3) Training Supervision and Competency Verification, (4) Performance Documentation and Compliance. Each KP includes related knowledge statements, learning outcomes, and bilingual terminology. Each KT provides 5-8 questions (MCQ, short answer, scenario-based) with answer schemes.",
+      "description": "Establish foundational IT WIM content for Competency Unit 01 (System Architecture Fundamentals) following JPK Buku Panduan format. Create theory lesson plan and five knowledge information sheets covering system fundamentals, hardware, software, security, and networking. Ensure complete coverage of IT-020-3:2013 CoCU-1 Related Knowledge items with bilingual terminology.",
       "acceptanceCriteria": [
-        "All 12-15 NOSS C05 Related Knowledge items extracted and mapped to KP sheets (coverage verified in bev-diagnostic-rectification/C05/coverage-index.md)",
-        "4 KP files created following JPK format with terminology tables, learning outcomes, and technical depth: KP-01-team-briefing.md, KP-02-she-monitoring.md, KP-03-training-supervision.md, KP-04-documentation.md",
-        "4 corresponding KT assignment files with varied question types, answer schemes, and rubric scales (0-10 points per question)"
+        "Create it-computer-system/C01/PM-teori.md with learning outcomes, theory content structure, and bilingual terms aligned to JPK format",
+        "Create it-computer-system/C01/KP(1/5).md through KP(5/5).md covering System Fundamentals, Hardware Components, Software Basics, System Security, Network Basics",
+        "Extract and document all NOSS IT-020-3 CoCU-1 Related Knowledge items in it-computer-system/00-noss-extract.md and verify 100% coverage in KP files"
       ],
       "technicalNotes": [
-        "File to read: bev-diagnostic-rectification/00-noss-extract.md (locate C05 Related Knowledge section)",
-        "Files to create: bev-diagnostic-rectification/C05/KP-01.md through KP-04.md (~400 words each), KT-01.md through KT-04.md (~500 words each)",
-        "Test command: uv run python _agents/validate-format.py --subject bev --cu C05 --check-coverage",
-        "Validation: Confirm all EN/BM terminology pairs match master glossary via terminology-validator.py"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "bev-diagnostic-rectification/C05/KP-01-team-briefing.md",
-        "bev-diagnostic-rectification/C05/KP-02-she-monitoring.md",
-        "bev-diagnostic-rectification/C05/KP-03-training-supervision.md",
-        "bev-diagnostic-rectification/C05/KP-04-documentation.md",
-        "bev-diagnostic-rectification/C05/KT-01.md",
-        "bev-diagnostic-rectification/C05/KT-02.md",
-        "bev-diagnostic-rectification/C05/KT-03.md",
-        "bev-diagnostic-rectification/C05/KT-04.md",
-        "bev-diagnostic-rectification/C05/coverage-index.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_complex: touches 9 files (limit 8) -- split into smaller stories"
-    },
-    {
-      "title": "Bootstrap IT-020 Level 3 WIM Structure with Core System Administration Competency Units",
-      "priority": "high",
-      "description": "Initialize IT Computer System Management Level 3 WIM documents by extracting NOSS CoCU requirements from source material (noss-it020-textbook/) and creating foundational structure for first 2 competency units (C01: System Architecture & Concepts; C02: Operating System Fundamentals). Establish NOSS extraction document, complete KP/KT/KK coverage for both units, create IT-specific bilingual glossary (30+ technical terms), and define folder structure for future L4/L5 expansion.",
-      "acceptanceCriteria": [
-        "NOSS extraction document (it-computer-system/00-noss-extract.md) containing C01-C02 Learning Outcomes, 8+ Related Knowledge items per CU, 3+ Work Activities per CU formatted per JPK standard",
-        "4 KP files created (2 per CU) with technical depth covering networking, OS architecture, system administration concepts, each with learning outcomes and bilingual terminology",
-        "Folder structure complete: C01/PM-teori.md, C01/KP-01-02.md, C01/KT-01-02.md, C01/KK-01-03.md (practical procedures), mirrored for C02"
-      ],
-      "technicalNotes": [
-        "File to read: C:\\Users\\Jyue\\Documents\\1-projects\\noss-it020-textbook\\ (extract NOSS CoCU for L3, identify Learning Outcomes and Work Activities)",
-        "Files to create: it-computer-system/00-noss-extract.md (~800 words), C01/KP-01.md, C01/KP-02.md, C01/KT-01.md, C01/KT-02.md, C01/KK-01.md-03.md, C02/* (mirrored structure)",
-        "Test command: uv run python _agents/validate-format.py --subject it --level 3 --cu C01,C02 --check-work-activities",
-        "Verification: Map all 3+ Work Activities from NOSS to KK files, all Related Knowledge to KP files"
+        "Files to create: it-computer-system/C01/PM-teori.md, it-computer-system/C01/KP(1-5).md",
+        "Test coverage: grep -E 'Related Knowledge|RK[0-9]+' it-computer-system/00-noss-extract.md | wc -l should match grep count across KP files",
+        "Validate bilingual sections in each KP with EN term / BM term pair format"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
@@ -56,51 +21,85 @@
       "filesTouch": [
         "it-computer-system/00-noss-extract.md",
         "it-computer-system/C01/PM-teori.md",
-        "it-computer-system/C01/KP-01-system-architecture.md",
-        "it-computer-system/C01/KP-02-concepts-fundamentals.md",
-        "it-computer-system/C01/KT-01.md",
-        "it-computer-system/C01/KT-02.md",
-        "it-computer-system/C01/KK-01-02-03.md",
-        "it-computer-system/C02/PM-teori.md",
-        "it-computer-system/C02/KP-01-os-fundamentals.md",
-        "it-computer-system/C02/KP-02-os-management.md",
-        "it-computer-system/C02/KT-01.md",
-        "it-computer-system/C02/KT-02.md",
-        "it-computer-system/C02/KK-01-02.md",
-        "it-computer-system/_reference/it-l3-glossary.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_complex: touches 14 files (limit 8) -- split into smaller stories"
-    },
-    {
-      "title": "Build Cross-Subject Bilingual Terminology Validator and Master Glossary Database",
-      "priority": "medium",
-      "description": "Create Python validator script and master glossary database to ensure EN/BM bilingual terminology consistency across all WIM subjects (BEV, Aesthetic, IT). Script scans all KP files, extracts terminology tables, validates against master glossary, identifies duplicates and conflicts, and generates audit report with auto-correction suggestions. Master glossary consolidates 80+ approved government-standard BM terms (MySPIKE source) and industry-specific EN equivalents organized by domain with conflict resolution rules.",
-      "acceptanceCriteria": [
-        "Validator script (_agents/terminology-validator.py) reads all KP files across 3 subjects, extracts EN/BM pairs, outputs CSV report with columns [Term, Expected_EN, Expected_BM, Found_Variants, Consistency_Status, Suggested_Fix]",
-        "Master glossary (_reference/master-glossary.md) contains 80+ EN/BM pairs organized by domain (electrical, mechanical, health&safety, business management), includes MySPIKE references and conflict resolution notes",
-        "Validator identifies 3 classes of issues: (1) Missing BM translations, (2) Inconsistent BM spelling across subjects, (3) Deprecated terms; generates actionable repair suggestions"
-      ],
-      "technicalNotes": [
-        "File to create: _agents/terminology-validator.py (~160 lines) - regex parser for KP markdown tables, glossary lookup, report generator",
-        "File to create: _reference/master-glossary.md (~300 lines) - embedded CSV with term metadata, source attribution, approval status",
-        "Test command: uv run python _agents/terminology-validator.py --subjects bev,aesthetic,it --output reports/terminology-audit-2026-04-16.csv",
-        "Integration: Script callable from .spiral/ test framework for automated consistency checks on each commit"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "small",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "_agents/terminology-validator.py",
-        "_reference/master-glossary.md",
-        "tests/test_terminology_validator.py",
-        "reports/terminology-audit-2026-04-16.csv"
+        "it-computer-system/C01/KP(1/5).md",
+        "it-computer-system/C01/KP(2/5).md",
+        "it-computer-system/C01/KP(3/5).md",
+        "it-computer-system/C01/KP(4/5).md",
+        "it-computer-system/C01/KP(5/5).md"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Create BEV C04 Performance Assessment with Multi-Scenario Diagnostic Competency Rubric",
+      "priority": "high",
+      "description": "Build comprehensive performance assessment (PA) document for BEV C04 (Electrical Drive Systems) featuring four diagnostic scenarios and an integrated 5-point supervisor competency rubric (emerging to expert). Enable supervisors to assess student practical troubleshooting of real motor, inverter, and power system faults. Validate scenario alignment with NOSS CoCU Work Activities.",
+      "acceptanceCriteria": [
+        "Create bev-diagnostic-rectification/C04/PA.md with 4+ diagnostic scenarios: motor failure modes, inverter malfunction, power distribution faults, HV system anomalies",
+        "Include 5-point supervisor competency rubric (Emerging, Developing, Proficient, Advanced, Expert) assessing diagnostic reasoning, troubleshooting methodology, and safety compliance",
+        "Map each scenario to C04 Work Activities (WA01-WA05) and Assessment Criteria from NOSS; achieve 100% coverage"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/C04/PA.md (performance assessment with JPK format)",
+        "Test command: grep -E 'WA[01-5]|Assessment Criteria AC[0-9]+' bev-diagnostic-rectification/C04/PA.md | wc -l (expect ≥ 8 references)",
+        "Verify each scenario includes [WA##] reference tag and each rubric row has 5 proficiency levels with descriptors"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "bev-diagnostic-rectification/C04/PA.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Build Aesthetic Bilingual Term Standardization Tool — Validator, Report, and Fixer",
+      "priority": "medium",
+      "description": "Create automated bilingual terminology validation and standardization system for Aesthetic Services WIM. Develop Python tool that scans all Knowledge Plans (KP) in C01-C04, identifies EN/BM term inconsistencies against master terminology reference, generates audit report with mismatches, and applies fixes. Ensures bilingual consistency goal across entire Aesthetic subject WIM.",
+      "acceptanceCriteria": [
+        "Create aesthetic-services/_tools/terminology-validator.py with --check (report mode) and --fix (correction mode) supporting all C01-C04 KP files",
+        "Create aesthetic-services/_reference/terms.json with master bilingual terminology list (medical/spa EN→BM pairs)",
+        "Generate HTML validation report showing mismatches with file paths and line numbers; apply fixes achieving 100% term consistency across all C01-C04 KP files"
+      ],
+      "technicalNotes": [
+        "File to create: aesthetic-services/_tools/terminology-validator.py (Python script with JSON I/O and regex term matching)",
+        "File to create: aesthetic-services/_reference/terms.json (master bilingual term pairs)",
+        "Test command: uv run python aesthetic-services/_tools/terminology-validator.py --check > report.html && uv run python aesthetic-services/_tools/terminology-validator.py --fix"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "aesthetic-services/_tools/terminology-validator.py",
+        "aesthetic-services/_reference/terms.json",
+        "aesthetic-services/C01/KP(1/4).md",
+        "aesthetic-services/C01/KP(2/4).md",
+        "aesthetic-services/C01/KP(3/4).md",
+        "aesthetic-services/C01/KP(4/4).md",
+        "aesthetic-services/C02/KP(1/4).md",
+        "aesthetic-services/C02/KP(2/4).md",
+        "aesthetic-services/C02/KP(3/4).md",
+        "aesthetic-services/C02/KP(4/4).md",
+        "aesthetic-services/C03/KP(1/5).md",
+        "aesthetic-services/C03/KP(2/5).md",
+        "aesthetic-services/C03/KP(3/5).md",
+        "aesthetic-services/C03/KP(4/5).md",
+        "aesthetic-services/C03/KP(5/5).md",
+        "aesthetic-services/C04/KP(1/6).md",
+        "aesthetic-services/C04/KP(2/6).md",
+        "aesthetic-services/C04/KP(3/6).md",
+        "aesthetic-services/C04/KP(4/6).md",
+        "aesthetic-services/C04/KP(5/6).md",
+        "aesthetic-services/C04/KP(6/6).md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_complex: touches 21 files (limit 8) -- split into smaller stories"
     }
   ]
 }

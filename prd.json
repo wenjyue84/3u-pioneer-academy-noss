@@ -398,7 +398,10 @@
       "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T15:23:28Z"
+      "last_attempted": "2026-04-16T15:23:28Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nBoth `bev-diagnostic-rectification/C01/KA.md` and `C02/KA.md` exist with full Q-format question banks already implemented (35 and 40 questions respectively) from a previous iteration. The working tree has 194 net insertions vs the last commit — the content is already there but not yet committed.\n\n## Problem Identified\nThe story shows `passes: false` because the completed KA content was never staged/committed and prd.json was never updated to `passes: true`.\n\n## Planned Changes\n- Stage and commit both KA.md files (already contain complete, verified content)\n- Mark US-013 as `passes: true` in prd.json\n- Update progress.txt with learnings\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"prd.json\", \"progress.txt\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 10\n}\n</plan>\n\nAll acceptance criteria verified:\n- C01: 35 questions, 36 CoCU refs, 15/35 = 43% scenario, 25-mark scheme ✓\n- C02: 40 questions, 44 CoCU refs, 19/40 = 47.5% scenario, 25-mark scheme ✓\n- Sample answers all exceed 50 words ✓\n\nNow mark passes and commit:\nNow update progress.txt and commit:\nUS-013 complete. All acceptance criteria verified and committed:\n\n| Check | C01 | C02 |\n|-------|-----|-----|\n| Questions | 35 ✓ | 40 ✓ |\n| CoCU refs | 36 ✓ | 44 ✓ |\n| 25-mark key | ✓ | ✓ |\n| Scenario % | 43% ✓ | 47.5% ✓ |\n| 50+ word answers | ✓ | ✓ |\n\nThe files were already fully implemented in a previous iteration — the story was stuck at `passes: false` because the commit and prd.json update step had been missed. Marked `passes: true` and committed."
+      }
     },
     {
       "id": "US-014",
