@@ -399,3 +399,6 @@ Completed: Enhance Aesthetic KK practical procedures — treatment techniques an
 ### Gotchas
 - Both KA.md files were created in a previous iteration but not committed -- story was marked passes: false because the commit/prd.json update step was missed
 - The standard KA 25-mark answer key covers Section A (20 marks) and Section B (5 marks); Section C is unscored enrichment
+## Iteration 1 - Thu, Apr 16, 2026 11:31:55 PM
+Completed: Create BEV C01-C02 Knowledge Assessments with Integrated Answer Schemes (ID: US-013) in 5m
+

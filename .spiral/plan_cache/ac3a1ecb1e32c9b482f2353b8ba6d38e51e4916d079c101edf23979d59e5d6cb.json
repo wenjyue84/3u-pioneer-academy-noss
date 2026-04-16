@@ -1,0 +1,11 @@
+{
+  "story_id": "US-013",
+  "story_title": "Create BEV C01-C02 Knowledge Assessments with Integrated Answer Schemes",
+  "key_source": "ai-example|create|bev|c01-c02|small|",
+  "stored_ts": 1776353609.122163,
+  "plan": {
+    "story_id": "US-013",
+    "duration_s": 600,
+    "model": "unknown"
+  }
+}

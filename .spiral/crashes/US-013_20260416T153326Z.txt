@@ -1,0 +1,32 @@
+# SPIRAL Crash Report
+# Story:     US-013
+# Worker:    sequential
+# Exit Code: 124
+# Timestamp: 20260416T153326Z
+# ─────────────────────────────────────────
+
+warning: in the working copy of '.spiral/_checkpoint.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_passes_baseline', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/spiral_events.jsonl', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/ui-progress-history.jsonl', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_assert_violations.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_claude_raw_53470.tmp', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_claude_raw_56425.tmp', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_claude_raw_59279.tmp', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_core_hashes_iter10.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_core_hashes_iter7.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_core_hashes_iter8.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_core_hashes_iter9.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_phase_T_10.endtime', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_phase_T_9.endtime', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_sys_prompt_53470.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_sys_prompt_56425.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_sys_prompt_59279.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/crashes/US-013_20260416T145804Z.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/crashes/US-013_20260416T151004Z.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/crashes/US-013_20260416T152147Z.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/learned_patterns_iter_6.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/learned_patterns_iter_7.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/learned_patterns_iter_8.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/learned_patterns_iter_9.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/test_output_6.log', LF will be replaced by CRLF the next time Git touches it

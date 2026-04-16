@@ -61,5 +61,12 @@
     "exit_code": 124,
     "worker_id": "sequential",
     "crash_file": "US-013_20260416T152147Z.txt"
+  },
+  {
+    "story_id": "US-013",
+    "timestamp": "20260416T153326Z",
+    "exit_code": 124,
+    "worker_id": "sequential",
+    "crash_file": "US-013_20260416T153326Z.txt"
   }
 ]
