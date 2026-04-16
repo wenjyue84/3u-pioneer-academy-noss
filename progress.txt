@@ -251,3 +251,24 @@ This story is a content enhancement task, not a Python coding task. The agent wi
 - C01/KP-03 section 9.3 needed renumbering to 9.4 after inserting WHR as new 9.3
 - Body wrap uses occlusive heat (no external heat source) — different physics from all other modalities
 - Calliper sites: 4 standard sites (triceps, subscapular, suprailiac, abdominal) — positions matter for accurate measurement
+
+## Story US-008 — Enhance Aesthetic C03 KP — manual body massage techniques and anatomy
+
+### What was implemented
+- KP-01: Added AMARAN/WARNING callout before contraindications; restructured into local/systemic/relative categories; expanded absolute contraindications (added anticoagulants, alcohol intoxication, psychosis, local contraindications section)
+- KP-02: Added AMARAN/WARNING callout for massage medium allergy risk (nut-based carriers)
+- KP-03: Added AMARAN/WARNING callout for professional draping standards
+- KP-04: Added AMARAN/WARNING callout; enhanced all 5 classical movements with hand position detail and tapotement sub-type table; added anatomy section 8.0 (major muscle groups by region, physiological effects table, anatomical landmarks to avoid)
+- KP-05: Added AMARAN/WARNING callout for post-massage medical referral
+- KP-06: Added AMARAN/WARNING callout for massage medium contamination prevention
+
+### Patterns discovered
+- Contraindications for massage should be split 3 ways: systemic/absolute, local (area-avoid), relative — clearer than just absolute/relative
+- Tapotement has 5 sub-types with different hand positions — a table is the clearest format
+- Anatomy section belongs in KP-04 (the "carry out" KP) not KP-01 (consultation)
+- Anatomical landmarks to avoid (popliteal fossa, femoral triangle, carotid triangle, kidney region) are distinct from contraindications — warrant their own table
+
+### Gotchas
+- Friction technique requires REMOVING medium first — the "dry skin" caution is critical to its effectiveness
+- Vibration is neurological (light pressure), not mechanical — different from all other movements
+- Anticoagulant medications (warfarin, heparin) are an absolute contraindication often missing from standard lists

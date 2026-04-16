@@ -284,7 +284,7 @@
         "Contraindications list is comprehensive"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "aesthetic-services/C03/KP-01.md",
         "aesthetic-services/C03/KP-02.md",
@@ -300,7 +300,8 @@
         "technical"
       ],
       "epicId": "E-2",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T13:47:39Z"
     },
     {
       "id": "US-009",
@@ -419,6 +420,26 @@
         "File to create: bev-diagnostic-rectification/CU-05/PA.md (use markdown tables for rubrics, numbered scenarios with clear answer schemes and mark guidance)",
         "Validation: grep -c 'Scenario [0-9]' bev-diagnostic-rectification/CU-05/PA.md to confirm minimum 20 scenarios; verify total marks via grep '= [0-9]* marks' sum to 100",
         "Test alignment: grep 'CoCU C05' bev-diagnostic-rectification/CU-05/PA.md to confirm all competencies reference specific CoCU C05 supervisor competency sections"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-016",
+      "title": "Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics",
+      "priority": "medium",
+      "description": "Create a comprehensive Knowledge Assessment document for BEV C03 (Thermal Management Systems) with scenario-based questions that require learners to diagnose and troubleshoot thermal cooling system failures, aligned with CoCU learning outcomes.",
+      "acceptanceCriteria": [
+        "Create KA.md file with minimum 8 scenario-based questions covering thermal system diagnostics, with each scenario including system state, symptoms, and required diagnosis",
+        "Include answer scheme with marking rubric (1-4 points per question) based on CoCU assessment criteria",
+        "Ensure 30% of questions test theoretical knowledge and 70% test practical diagnostic scenarios"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/C03-thermal-management/KA.md",
+        "Validation: grep -c \"## Question\" bev-diagnostic-rectification/C03-thermal-management/KA.md (should output >= 8)"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
