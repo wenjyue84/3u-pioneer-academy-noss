@@ -89,7 +89,8 @@
       "last_attempted": "2026-04-16T13:04:23Z",
       "_phaseI": {
         "diagnosisBlock": "## Current State\nAll 6 KP files have solid base content but are missing:\n- KP-01: Safety glasses spec is `DIN EN166` (should be `MS ISO 16321`), no BMS component theory overview, no failure modes section\n- KP-02: No failure modes table for HV cables, no prominent WARNING callout\n- KP-03: No OBC component specs table, safety section lacks WARNING callout\n- KP-04: No failure modes table, no prominent WARNING callout\n- KP-05: No explicit failure modes table\n- KP-06: Failure symptoms listed as prose, needs proper table format\n\n## Problem Identified\nAcceptance criteria require: (1) BMS component theory, (2) component specs + failure modes in each KP, (3) prominent HV safety warnings.\n\n## Planned Changes\n- KP-01: Fix DIN EN166 → MS ISO 16321, add WARNING callout, add BMS component overview table, add failure modes table (~25 lines)\n- KP-02: Add WARNING callout, add HV cable failure modes table (~15 lines)\n- KP-03: Add WARNING callout, add OBC specs table (~15 lines)\n- KP-04: Add WARNING callout, add failure modes table (~12 lines)\n- KP-05: Add WARNING callout, add battery pack failure modes table (~12 lines)\n- KP-06: Add WARNING callout, convert symptoms to failure modes table (~12 lines)\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"bev-diagnostic-rectification/C02/KP-01.md\",\n    \"bev-diagnostic-rectification/C02/KP-02.md\",\n    \"bev-diagnostic-rectification/C02/KP-03.md\",\n    \"bev-diagnostic-rectification/C02/KP-04.md\",\n    \"bev-diagnostic-rectification/C02/KP-05.md\",\n    \"bev-diagnostic-rectification/C02/KP-06.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 90\n}\n</plan>\nNow add a BMS component overview table after the learning objectives section:\nNow add a failure modes section to KP-02:\nNow enhance KP-03 (OBC) with WARNING callout and specs table:\nNow enhance KP-04 (Pre-Charge):\nNow enhance KP-05 (Traction Battery Pack):\nNow enhance KP-06 (DC-DC Converter):\nNow verify the diff size is within limits:\n104 lines total — well within budget. All 3 acceptance criteria are met:\n1. BMS component theory — KP-01 adds overview table; all files cover component theory\n2. Specs + failure modes — added in each file\n3. HV safety warnings — `> **AMARAN / WARNING:**` callout added to all 6 files\n\nNow mark story as complete and commit:\nNow document learnings in progress.txt:\n**US-002 complete.** Summary of what was done:\n\n- **104 lines** added across 6 files (vs. 261,809 in the failed attempt)\n- **KP-01**: Fixed `DIN EN166` → `MS ISO 16321`, added BMS component overview table with BM terms/failure modes, added `AMARAN/WARNING` callout\n- **KP-02**: Added `AMARAN/WARNING` callout, added HV cable/connector failure modes table\n- **KP-03**: Added `AMARAN/WARNING` callout, added OBC component specifications table\n- **KP-04**: Added `AMARAN/WARNING` callout, added pre-charge system failure modes table\n- **KP-05**: Added `AMARAN/WARNING` callout with thermal runaway warning, added battery pack failure modes table\n- **KP-06**: Added `AMARAN/WARNING` callout, converted prose failure symptoms to structured failure modes table\n\nAll 3 acceptance criteria met. `passes: true` set in prd.json."
-      }
+      },
+      "_passedCommit": "8014757c8c1d6bc311652fe409699b53ae50b136"
     },
     {
       "id": "US-003",
@@ -102,7 +103,7 @@
         "All content references manufacturer service manual standards"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "bev-diagnostic-rectification/C03/KP-01.md",
         "bev-diagnostic-rectification/C03/KP-02.md",
@@ -120,7 +121,8 @@
         "technical"
       ],
       "epicId": "E-1",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T13:12:24Z"
     },
     {
       "id": "US-004",

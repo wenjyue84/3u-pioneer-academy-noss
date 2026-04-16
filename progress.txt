@@ -97,3 +97,52 @@ The agent should read, analyze, and rewrite the content within each of the six K
 ### Gotchas
 - KP-01 had DIN EN166 (European) instead of MS ISO 16321 (Malaysian standard) for safety glasses — same fix as C01
 - Each KP file already had good base content — surgical additions were sufficient, no rewrites needed
+## Iteration 1 - Thu, Apr 16, 2026  9:12:23 PM
+Completed: Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory (ID: US-002) in 6m
+
+
+## Pre-analysis for US-003 (Gemini 2.5 Pro)
+This user story is a content enhancement task, not a Frappe/Python implementation. The following technical brief has been adjusted to reflect the actual task of modifying Markdown documentation.
+
+**Technical Brief: US-003 - BEV Knowledge Point Enhancement**
+
+1.  **Target Files (Content Modification):**
+    *   This is a documentation task; no Python files are involved.
+    *   The work involves editing Markdown (`.md`) files within the `bev-diagnostic-rectification/` directory.
+    *   Files for C03 (Thermal Cooling): `C03/KP-01.md`, `C03/KP-02.md`, `C03/KP-03.md`.
+    *   Files for C04 (Drive Train): `C04/KP-01.md` through `C04/KP-05.md`.
+
+2.  **Frappe/Application Context:**
+    *   No Frappe DocTypes, hooks, or server-side logic are applicable. The task is confined to the content layer of the knowledge base.
+
+3.  **Recommended Implementation Approach:**
+    *   For C03 KPs: Systematically review and enhance content on BEV thermal management. Ensure detailed descriptions of liquid cooling systems, components, and BEV-specific HVAC functions. Add troubleshooting theory.
+    *   For C04 KPs: Review and expand on the electric drive train. Detail the architecture, the role of inverters, theory of traction motors (AC induction vs. permanent magnet), and the principles of regenerative braking and brake control.
+
+4.  **Edge Cases & Gotchas:**
+    *   **Primary Constraint:** All added content MUST align with "manufacturer service manual standards." This requires a formal, precise, and technically accurate tone.
+    *   The content should remain theoretical ("Knowledge Point") and avoid becoming a step-by-step repair guide.
+    *   Ensure consistency in terminology (e.g., "transaxle," "inverter") across all edited documents.
+
+
+## Story US-003 — Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory
+
+### What was implemented
+- C03/KP-01: Added WARNING callout for HV electric pump/compressor hazard; added dielectric coolant (cecair penyejuk dielektrik) awareness section with BM terms
+- C03/KP-02: Added WARNING callout for HV-connected cooling components; added cooling system failure modes table (6 rows: pump, hose, expansion tank, thermostat valve, heat exchanger, temp sensor)
+- C03/KP-03: Added WARNING callout for HV electric compressor; added heat pump system (sistem pam haba) theory section explaining efficiency vs PTC; renumbered subsections 2.3-2.6; added HVAC failure modes table (6 rows)
+- C04/KP-01: Added CU title heading; added WARNING callout covering inverter capacitor discharge hazard; added BM bilingual terms for key drive train components
+- C04/KP-02: Added WARNING callout for capacitor residual charge (10 min wait + 60V verification); added FOC/Vector Control theory section; added inverter specifications table (DC voltage, power, switching freq, efficiency)
+- C04/KP-03: Added WARNING callout for back-EMF hazard on motor phase cables; added regenerative braking theory section (generator mode, limitations table, blending); added motor failure modes table (6 rows)
+- C04/KP-04: Added WARNING callout for heavy HV e-axle assembly; added transaxle failure modes table (5 rows: gears, differential, seals, CV joints, lubricant)
+- C04/KP-05: Added WARNING callout for safety-critical system; added regenerative-friction blending table (6 conditions with contribution split); renumbered section 1.3→1.4
+
+### Patterns discovered
+- Established pattern continues: each KP gets one WARNING callout at the top of the first content section, one failure modes table near the end, and one specifications/theory addition
+- Section renumbering is necessary when inserting new subsections — be careful to check sequential numbering
+- C04 files initially lacked CU heading — add it for consistency with C03 files
+
+### Gotchas
+- C03/KP-03 had subsections 2.2-2.5 that needed renumbering to 2.3-2.6 after inserting heat pump section as 2.2
+- Motor back-EMF warning is unique: even after HV isolation, moving the rotor generates voltage — important safety note not present in inverter KP
+- Regenerative braking limitations are a key theory point for C04: SOC, temperature, speed, ABS activation all disable or limit regeneration
