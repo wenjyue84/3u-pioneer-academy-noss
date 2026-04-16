@@ -1,0 +1,45 @@
+{
+  "iteration": 2,
+  "timestamp": "2026-04-16T13:24:37.868009+00:00",
+  "summary": {
+    "0_retries": {
+      "count": 3,
+      "avg_ac_count": 3.0,
+      "avg_description_length": 267.3,
+      "common_tags": [
+        "bev",
+        "kp",
+        "technical"
+      ],
+      "common_file_patterns": [
+        "bev-diagnostic-rectification"
+      ]
+    },
+    "1_retry": {
+      "count": 0,
+      "avg_ac_count": 0.0,
+      "avg_description_length": 0.0,
+      "common_tags": [],
+      "common_file_patterns": []
+    },
+    "2_retries": {
+      "count": 0,
+      "avg_ac_count": 0.0,
+      "avg_description_length": 0.0,
+      "common_tags": [],
+      "common_file_patterns": []
+    },
+    "3plus_retries": {
+      "count": 0,
+      "avg_ac_count": 0.0,
+      "avg_description_length": 0.0,
+      "common_tags": [],
+      "common_file_patterns": []
+    }
+  },
+  "insights": {
+    "total_analyzed": 3,
+    "easy_count": 3,
+    "hard_count": 0
+  }
+}

@@ -1,22 +1,46 @@
 {
   "stories": [
     {
-      "title": "Create BEV C01-C02 Knowledge Assessments with Integrated Answer Schemes",
-      "priority": "high",
-      "description": "Develop Knowledge Assessment (KA) documents for BEV Competency Units 1-2 covering HV safety, PPE, battery fundamentals, BMS theory, and HV cable systems. Include multichoice, matching, and scenario-based question formats with complete answer keys aligned to CoCU assessment criteria.",
+      "title": "Create BEV C03-C04 Knowledge Assessment (KA) with Varied Question Types and Answer Schemes",
+      "priority": "medium",
+      "description": "Develop comprehensive Knowledge Assessment documents for BEV Competency Units C03 (Thermal Cooling Systems) and C04 (Electric Drive Train) following JPK Buku Panduan WIM Edisi 2020. Each KA must include 25-30 questions with varied formats (MCQ 40%, structured answer 35%, practical scenario 25%), integrated answer schemes, and bilingual terminology.",
       "acceptanceCriteria": [
-        "C01 KA.md contains 35+ questions (HV safety 40%, PPE 30%, battery basics 30%) with 25-mark answer key and assessment criteria references (e.g., 'CoCU C01.3.2 - HV Safety Procedures')",
-        "C02 KA.md contains 40+ questions (BMS theory 35%, HV cable systems 35%, OBC 30%) with 25-mark answer key and detailed explanations showing required technical depth",
-        "Minimum 30% scenario-based questions across both files with sample answers of 50+ words demonstrating expected technical knowledge for Level 3 qualification"
+        "KA.md created for C03 with 25-30 questions covering thermal cooling systems, categorized by question type with clear answer schemes and marking rubrics",
+        "KA.md created for C04 with 25-30 questions covering electric drive train, categorized by question type with clear answer schemes and marking rubrics",
+        "All questions map to specific Related Knowledge items from bev-diagnostic-rectification/00-noss-extract.md; bilingual (EN/BM) terminology consistent with existing KP documents"
       ],
       "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/CU-01/KA.md and CU-02/KA.md (follow JPK Buku Panduan WIM 2020 format with question types clearly labeled)",
-        "Validation: grep 'CoCU C0[12]' bev-diagnostic-rectification/CU-0[12]/KA.md to verify all questions tagged with CoCU reference codes",
-        "Test: wc -l bev-diagnostic-rectification/CU-0[12]/KA.md and count questions via regex 'Q[0-9]+\\.' to confirm 35-40 question count minimum"
+        "File to reference: bev-diagnostic-rectification/00-noss-extract.md (extract Related Knowledge items for C03/C04 scope)",
+        "Create files: bev-diagnostic-rectification/C03/KA.md, bev-diagnostic-rectification/C04/KA.md",
+        "Test command: grep -E '^### Question|^Answer:|^Rubric:' bev-diagnostic-rectification/C03/KA.md | wc -l (verify document structure has minimum expected questions and rubrics)"
       ],
       "filesTouch": [
-        "bev-diagnostic-rectification/CU-01/KA.md",
-        "bev-diagnostic-rectification/CU-02/KA.md"
+        "bev-diagnostic-rectification/C03/KA.md",
+        "bev-diagnostic-rectification/C04/KA.md"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-example",
+      "passes": false,
+      "dependencies": []
+    },
+    {
+      "title": "Develop Aesthetic C02 Assignment Sheets (KT-01 to KT-03) with Integrated Grading Rubrics",
+      "priority": "medium",
+      "description": "Create three Assignment Sheets (KT documents) for Aesthetic Services C02 (body consultation and thermal therapy), aligned to KP content. Each sheet includes practical tasks, submission requirements, 4-level grading rubrics (Excellent/Good/Satisfactory/Unsatisfactory), and cross-references to related theory. All instructions bilingual (EN + BM).",
+      "acceptanceCriteria": [
+        "Create KT-01.md (body consultation assessment), KT-02.md (thermal therapy technique application), KT-03.md (treatment planning case study) under aesthetic-services/C02/",
+        "Each KT includes: task objectives, detailed bilingual instructions, assessment criteria, and 4-point grading rubric with observable evidence descriptors",
+        "All three KT documents include metadata cross-references linking to specific KP-01 and KP-02 theory sections (e.g., 'Based on KP-01: Body Analysis Techniques')"
+      ],
+      "technicalNotes": [
+        "File to reference: aesthetic-services/C02/KP-01.md, aesthetic-services/C02/KP-02.md (for creating cross-reference mappings)",
+        "Create files: aesthetic-services/C02/KT-01.md, aesthetic-services/C02/KT-02.md, aesthetic-services/C02/KT-03.md",
+        "Test command: grep -c '\\[KP Reference:' aesthetic-services/C02/KT-*.md (verify each file has valid KP cross-reference; expect count \u2265 3)"
+      ],
+      "filesTouch": [
+        "aesthetic-services/C02/KT-01.md",
+        "aesthetic-services/C02/KT-02.md",
+        "aesthetic-services/C02/KT-03.md"
       ],
       "estimatedComplexity": "small",
       "_source": "ai-example",
@@ -24,44 +48,22 @@
       "dependencies": []
     },
     {
-      "title": "Build Aesthetic Services Bilingual Terminology Glossary with Consistency Validator",
+      "title": "Audit IT-020 Bilingual Terminology Across All CU Documents and Create Master Glossary with Consistency Report",
       "priority": "high",
-      "description": "Create comprehensive bilingual (EN/BM) terminology glossary for Aesthetic Services covering anatomy, treatment modalities, equipment, and techniques. Implement Python validator script to detect inconsistent terminology usage across all Aesthetic KP documents and generate standardization report.",
+      "description": "Conduct systematic audit of all IT-020 Computer System Management CU documents (C03, C04, C05) to extract technical terminology, map to standard Malay (BM) equivalents using Malaysian IT industry standards, and identify consistency issues. Deliver master glossary (minimum 80 terms) and validation report highlighting multiple translations and missing equivalents.",
       "acceptanceCriteria": [
-        "Glossary file (00-aesthetic-terminology.md) contains 80+ EN/BM term pairs organized by category (anatomy, treatments, equipment, modalities, hygiene) with pronunciation guides for technical BM terms",
-        "Python validator script (validate-aesthetic-terms.py) scans all CU-01 through CU-04 KP documents, identifies terms with multiple translations, and generates CSV report with inconsistencies",
-        "Validator returns exit code 0 when all KP files pass consistency check; returns exit code 1 with detailed report of terms requiring standardization"
+        "Extract all unique English technical terms from it-computer-system/C03/KP-*.md, C04/KP-*.md, C05/KP-*.md; create IT-020-bilingual-glossary.md with columns: English Term, Malay Equivalent, Definition, Usage Example, CU Reference (minimum 80 terms)",
+        "Generate terminology-validation-report.md listing: (a) English terms with multiple conflicting BM translations (flag inconsistencies), (b) English terms missing BM equivalents, (c) BM terms not aligned with standard Malaysian IT terminology",
+        "Glossary format validated: each entry properly formatted as markdown table row with all 5 columns populated; all BM equivalents verified against MySPIKE or official Malaysian IT industry glossaries"
       ],
       "technicalNotes": [
-        "File to create: aesthetic-services/00-aesthetic-terminology.md (structured markdown with [EN] | [BM] | [Category] columns)",
-        "File to create: _agents/validate-aesthetic-terms.py (~130 lines Python using regex to extract and compare EN/BM pairs from glossary against KP files)",
-        "Test command: python _agents/validate-aesthetic-terms.py --check aesthetic-services/CU-*/KP*.md --glossary aesthetic-services/00-aesthetic-terminology.md --output inconsistencies.csv"
+        "File to create: it-computer-system/_docs/IT-020-bilingual-glossary.md, it-computer-system/_docs/terminology-validation-report.md",
+        "Extraction command: grep -oE '\\b[A-Z][a-z]+(\\s+[A-Z][a-z]+)*\\b' it-computer-system/C{3,5}/KP-*.md | sort | uniq -c | sort -rn (identify candidate technical terms)",
+        "Test command: grep -E '^\\|.*\\|.*\\|.*\\|.*\\|' it-computer-system/_docs/IT-020-bilingual-glossary.md | wc -l (verify minimum 80 complete glossary entries with all 5 columns)"
       ],
       "filesTouch": [
-        "aesthetic-services/00-aesthetic-terminology.md",
-        "_agents/validate-aesthetic-terms.py"
-      ],
-      "estimatedComplexity": "small",
-      "_source": "ai-example",
-      "passes": false,
-      "dependencies": []
-    },
-    {
-      "title": "Create BEV C05 Performance Assessment with Supervisor Competency Rubrics",
-      "priority": "high",
-      "description": "Develop Performance Assessment (PA) document for BEV C05 supervisory unit with detailed rubric-based marking framework covering 5 supervisor competencies and 20+ workplace scenario-based questions. Align all assessment criteria to CoCU C05 supervisor role requirements.",
-      "acceptanceCriteria": [
-        "PA.md includes 5 supervisor competencies (briefing/toolbox talks, training delivery, SHE monitoring, team coordination, documentation) each with 4-level rubric (Novice 0-25% / Intermediate 26-50% / Proficient 51-75% / Advanced 76-100%)",
-        "Minimum 20 scenario-based questions (each 200-300 words) reflecting realistic workplace scenarios with 100+ word sample answers demonstrating expected supervisor knowledge and decision-making",
-        "Total mark allocation: 100 marks with rubric-weighted distribution (30% briefing, 25% training, 20% SHE, 15% coordination, 10% documentation) and documented pass threshold"
-      ],
-      "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/CU-05/PA.md (use markdown tables for rubrics, numbered scenarios with clear answer schemes and mark guidance)",
-        "Validation: grep -c 'Scenario [0-9]' bev-diagnostic-rectification/CU-05/PA.md to confirm minimum 20 scenarios; verify total marks via grep '= [0-9]* marks' sum to 100",
-        "Test alignment: grep 'CoCU C05' bev-diagnostic-rectification/CU-05/PA.md to confirm all competencies reference specific CoCU C05 supervisor competency sections"
-      ],
-      "filesTouch": [
-        "bev-diagnostic-rectification/CU-05/PA.md"
+        "it-computer-system/_docs/IT-020-bilingual-glossary.md",
+        "it-computer-system/_docs/terminology-validation-report.md"
       ],
       "estimatedComplexity": "medium",
       "_source": "ai-example",

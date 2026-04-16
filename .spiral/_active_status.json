@@ -1,8 +1,8 @@
 {
   "phase": "I",
-  "iteration": 2,
-  "started_at": 1776344660,
+  "iteration": 3,
+  "started_at": 1776345957,
   "pct_done": 60,
-  "story_id": "US-002",
-  "story_title": "Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory"
+  "story_id": "US-005",
+  "story_title": "Enhance BEV KK practical procedures — step-by-step accuracy and safety checklists"
 }

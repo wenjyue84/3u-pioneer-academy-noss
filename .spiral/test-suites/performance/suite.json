@@ -1,0 +1,32 @@
+{
+  "type": "performance",
+  "version": 1,
+  "tests": [
+    {
+      "title": "[performance] Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory",
+      "description": "Auto-generated performance test from US-002",
+      "from_story": "US-002",
+      "command": "",
+      "priority": "medium",
+      "id": "performance-001",
+      "created_ts": "2026-04-16T13:24:32Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    },
+    {
+      "title": "[performance] Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory",
+      "description": "Auto-generated performance test from US-003",
+      "from_story": "US-003",
+      "command": "",
+      "priority": "medium",
+      "id": "performance-002",
+      "created_ts": "2026-04-16T13:24:32Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    }
+  ]
+}

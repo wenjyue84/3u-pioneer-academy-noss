@@ -1,0 +1,45 @@
+{
+  "type": "smoke",
+  "version": 1,
+  "tests": [
+    {
+      "title": "[smoke] Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
+      "description": "Auto-generated smoke test from US-001",
+      "from_story": "US-001",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-001",
+      "created_ts": "2026-04-16T13:24:32Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    },
+    {
+      "title": "[smoke] Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory",
+      "description": "Auto-generated smoke test from US-002",
+      "from_story": "US-002",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-002",
+      "created_ts": "2026-04-16T13:24:32Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    },
+    {
+      "title": "[smoke] Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory",
+      "description": "Auto-generated smoke test from US-003",
+      "from_story": "US-003",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-003",
+      "created_ts": "2026-04-16T13:24:32Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "iteration": 2,
+  "suite_type": "security",
+  "timestamp": "2026-04-16T13:24:33Z",
+  "summary": {
+    "total": 2,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 2
+  },
+  "tests": [
+    {
+      "title": "[security] Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory",
+      "description": "Auto-generated security test from US-002",
+      "from_story": "US-002",
+      "command": "",
+      "priority": "high",
+      "id": "security-001",
+      "created_ts": "2026-04-16T13:24:32Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
+    },
+    {
+      "title": "[security] Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory",
+      "description": "Auto-generated security test from US-003",
+      "from_story": "US-003",
+      "command": "",
+      "priority": "high",
+      "id": "security-002",
+      "created_ts": "2026-04-16T13:24:32Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
+    }
+  ]
+}

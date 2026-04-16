@@ -22,5 +22,53 @@
       "integration",
       "auto-generated"
     ]
+  },
+  {
+    "title": "[Integration Test] Enhance BEV C02 KP \u2014 BMS components, HV cable, OBC, battery pack theory",
+    "description": "Write integration tests for the feature implemented in US-002. Story description: Review and enhance BEV C02 KP-01~06 covering Battery Management System rectification theory. Ensure accurate technical content for HV cable replacement, OBC, pre-charge control, traction battery pack, and DC-DC converter. Add diagrams descriptions, component specifications, and failure mode analysis.",
+    "acceptanceCriteria": [
+      "Integration tests exist covering the core behaviour of US-002",
+      "Tests cover the happy path and at least one error/edge case",
+      "Tests run without requiring external services or manual setup"
+    ],
+    "technicalNotes": [
+      "Source files from US-002: bev-diagnostic-rectification/C02/KP-01.md, bev-diagnostic-rectification/C02/KP-02.md, bev-diagnostic-rectification/C02/KP-03.md, bev-diagnostic-rectification/C02/KP-04.md, bev-diagnostic-rectification/C02/KP-05.md",
+      "Run: uv run pytest tests/ -k us_002 -v"
+    ],
+    "priority": "high",
+    "dependencies": [
+      "US-002"
+    ],
+    "_source": "test-story",
+    "_testType": "integration",
+    "_forStoryId": "US-002",
+    "tags": [
+      "integration",
+      "auto-generated"
+    ]
+  },
+  {
+    "title": "[Integration Test] Enhance BEV C03-C04 KP \u2014 thermal cooling and electric drive train theory",
+    "description": "Write integration tests for the feature implemented in US-003. Story description: Review and enhance KP files for C03 (Thermal Cooling System) and C04 (Electric Drive Train). Ensure accurate content on liquid cooling systems, HVAC for BEV, inverter units, traction motors, transaxle, and brake control systems.",
+    "acceptanceCriteria": [
+      "Integration tests exist covering the core behaviour of US-003",
+      "Tests cover the happy path and at least one error/edge case",
+      "Tests run without requiring external services or manual setup"
+    ],
+    "technicalNotes": [
+      "Source files from US-003: bev-diagnostic-rectification/C03/KP-01.md, bev-diagnostic-rectification/C03/KP-02.md, bev-diagnostic-rectification/C03/KP-03.md, bev-diagnostic-rectification/C04/KP-01.md, bev-diagnostic-rectification/C04/KP-02.md",
+      "Run: uv run pytest tests/ -k us_003 -v"
+    ],
+    "priority": "high",
+    "dependencies": [
+      "US-003"
+    ],
+    "_source": "test-story",
+    "_testType": "integration",
+    "_forStoryId": "US-003",
+    "tags": [
+      "integration",
+      "auto-generated"
+    ]
   }
 ]

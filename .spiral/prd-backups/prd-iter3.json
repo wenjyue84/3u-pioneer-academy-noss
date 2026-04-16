@@ -25,7 +25,7 @@
   "userStories": [
     {
       "id": "US-001",
-      "title": "Enhance BEV C01 KP technical depth \u2014 HV safety procedures and PPE specifications",
+      "title": "Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
       "description": "Review and enhance BEV C01 KP-01~03 Information Sheets for technical accuracy. Verify HV safety content matches OSHA 1994, EQA 1974, and manufacturer standards. Ensure PPE specifications (Class 0, CAT-III) are correctly detailed with proper Malaysian regulatory references.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -56,7 +56,7 @@
     },
     {
       "id": "US-002",
-      "title": "Enhance BEV C02 KP \u2014 BMS components, HV cable, OBC, battery pack theory",
+      "title": "Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory",
       "description": "Review and enhance BEV C02 KP-01~06 covering Battery Management System rectification theory. Ensure accurate technical content for HV cable replacement, OBC, pre-charge control, traction battery pack, and DC-DC converter. Add diagrams descriptions, component specifications, and failure mode analysis.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -65,7 +65,7 @@
         "Safety warnings for HV work are prominent and correct"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "bev-diagnostic-rectification/C02/KP-01.md",
         "bev-diagnostic-rectification/C02/KP-02.md",
@@ -85,11 +85,16 @@
       "_failureReason": "oversized_diff: produced 261809 lines but limit is 5000. Keep total insertions+deletions under 5000 lines.",
       "_antiPatterns": [
         "oversized_diff: produced 261809 lines but limit is 5000. Keep total insertions+deletions under 5000 lines."
-      ]
+      ],
+      "last_attempted": "2026-04-16T13:04:23Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nAll 6 KP files have solid base content but are missing:\n- KP-01: Safety glasses spec is `DIN EN166` (should be `MS ISO 16321`), no BMS component theory overview, no failure modes section\n- KP-02: No failure modes table for HV cables, no prominent WARNING callout\n- KP-03: No OBC component specs table, safety section lacks WARNING callout\n- KP-04: No failure modes table, no prominent WARNING callout\n- KP-05: No explicit failure modes table\n- KP-06: Failure symptoms listed as prose, needs proper table format\n\n## Problem Identified\nAcceptance criteria require: (1) BMS component theory, (2) component specs + failure modes in each KP, (3) prominent HV safety warnings.\n\n## Planned Changes\n- KP-01: Fix DIN EN166 → MS ISO 16321, add WARNING callout, add BMS component overview table, add failure modes table (~25 lines)\n- KP-02: Add WARNING callout, add HV cable failure modes table (~15 lines)\n- KP-03: Add WARNING callout, add OBC specs table (~15 lines)\n- KP-04: Add WARNING callout, add failure modes table (~12 lines)\n- KP-05: Add WARNING callout, add battery pack failure modes table (~12 lines)\n- KP-06: Add WARNING callout, convert symptoms to failure modes table (~12 lines)\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"bev-diagnostic-rectification/C02/KP-01.md\",\n    \"bev-diagnostic-rectification/C02/KP-02.md\",\n    \"bev-diagnostic-rectification/C02/KP-03.md\",\n    \"bev-diagnostic-rectification/C02/KP-04.md\",\n    \"bev-diagnostic-rectification/C02/KP-05.md\",\n    \"bev-diagnostic-rectification/C02/KP-06.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 90\n}\n</plan>\nNow add a BMS component overview table after the learning objectives section:\nNow add a failure modes section to KP-02:\nNow enhance KP-03 (OBC) with WARNING callout and specs table:\nNow enhance KP-04 (Pre-Charge):\nNow enhance KP-05 (Traction Battery Pack):\nNow enhance KP-06 (DC-DC Converter):\nNow verify the diff size is within limits:\n104 lines total — well within budget. All 3 acceptance criteria are met:\n1. BMS component theory — KP-01 adds overview table; all files cover component theory\n2. Specs + failure modes — added in each file\n3. HV safety warnings — `> **AMARAN / WARNING:**` callout added to all 6 files\n\nNow mark story as complete and commit:\nNow document learnings in progress.txt:\n**US-002 complete.** Summary of what was done:\n\n- **104 lines** added across 6 files (vs. 261,809 in the failed attempt)\n- **KP-01**: Fixed `DIN EN166` → `MS ISO 16321`, added BMS component overview table with BM terms/failure modes, added `AMARAN/WARNING` callout\n- **KP-02**: Added `AMARAN/WARNING` callout, added HV cable/connector failure modes table\n- **KP-03**: Added `AMARAN/WARNING` callout, added OBC component specifications table\n- **KP-04**: Added `AMARAN/WARNING` callout, added pre-charge system failure modes table\n- **KP-05**: Added `AMARAN/WARNING` callout with thermal runaway warning, added battery pack failure modes table\n- **KP-06**: Added `AMARAN/WARNING` callout, converted prose failure symptoms to structured failure modes table\n\nAll 3 acceptance criteria met. `passes: true` set in prd.json."
+      },
+      "_passedCommit": "8014757c8c1d6bc311652fe409699b53ae50b136"
     },
     {
       "id": "US-003",
-      "title": "Enhance BEV C03-C04 KP \u2014 thermal cooling and electric drive train theory",
+      "title": "Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory",
       "description": "Review and enhance KP files for C03 (Thermal Cooling System) and C04 (Electric Drive Train). Ensure accurate content on liquid cooling systems, HVAC for BEV, inverter units, traction motors, transaxle, and brake control systems.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -98,7 +103,7 @@
         "All content references manufacturer service manual standards"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "bev-diagnostic-rectification/C03/KP-01.md",
         "bev-diagnostic-rectification/C03/KP-02.md",
@@ -116,11 +121,16 @@
         "technical"
       ],
       "epicId": "E-1",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T13:12:24Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nAll 8 KP files exist with good base content but lack:\n- WARNING callouts (established pattern from US-001/002)\n- Failure modes tables (established pattern from US-002)\n- Troubleshooting depth for C03\n- Inverter FOC theory, motor regenerative braking theory for C04\n- Bilingual terms (BM) in C04 files\n\n## Problem Identified\nUS-003 requires enhancing C03 (thermal cooling) KPs with troubleshooting content and C04 (electric drive train) KPs with deeper architecture, inverter/motor theory, and regenerative braking content.\n\n## Planned Changes\n- C03/KP-01: Add WARNING callout for dielectric coolant + HV electric pump hazards\n- C03/KP-02: Add WARNING callout + liquid cooling failure modes table (5 rows)\n- C03/KP-03: Add WARNING callout + HVAC failure modes table + heat pump note\n- C04/KP-01: Add CU heading + WARNING callout + bilingual terms\n- C04/KP-02: Add WARNING callout + inverter specifications table (switching freq, efficiency)\n- C04/KP-03: Add WARNING callout + motor failure modes table + regenerative braking theory\n- C04/KP-04: Add WARNING callout + e-axle architecture note + transaxle failure modes table\n- C04/KP-05: Add WARNING callout + regenerative-friction blending explanation\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"bev-diagnostic-rectification/C03/KP-01.md\",\n    \"bev-diagnostic-rectification/C03/KP-02.md\",\n    \"bev-diagnostic-rectification/C03/KP-03.md\",\n    \"bev-diagnostic-rectification/C04/KP-01.md\",\n    \"bev-diagnostic-rectification/C04/KP-02.md\",\n    \"bev-diagnostic-rectification/C04/KP-03.md\",\n    \"bev-diagnostic-rectification/C04/KP-04.md\",\n    \"bev-diagnostic-rectification/C04/KP-05.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 140\n}\n</plan>\n\nNow implementing surgical additions to all 8 files:\nNow C04 files:\nNow verify the diff size:\n136 lines total — well within budget. Now mark the story as passed and commit:\nUS-003 complete. Here's what was added across 8 files (136 lines of content, 185 total with prd.json/progress.txt):\n\n**C03 (Thermal Cooling):**\n- `KP-01`: HV WARNING + dielectric coolant awareness section (BM: *cecair penyejuk dielektrik*)\n- `KP-02`: HV WARNING + cooling failure modes table (pump, hose, tank, thermostat, radiator, temp sensor)\n- `KP-03`: HV compressor WARNING + heat pump theory (BM: *sistem pam haba*) + HVAC failure modes table\n\n**C04 (Electric Drive Train):**\n- `KP-01`: CU heading fix + WARNING callout + BM bilingual terms for motor/inverter/transaxle\n- `KP-02`: Capacitor discharge WARNING (10min + 60V verify) + FOC/Vector Control theory + inverter specs table\n- `KP-03`: Back-EMF WARNING + regenerative braking theory with limitation conditions + motor failure modes table\n- `KP-04`: Heavy HV e-axle WARNING + transaxle failure modes table\n- `KP-05`: Safety-critical WARNING + regenerative-friction blending table (6 operating conditions)"
+      },
+      "_passedCommit": "a5654c139ee9ff264c8b83dc520781fd0e9c85e8"
     },
     {
       "id": "US-004",
-      "title": "Enhance BEV KT question quality \u2014 varied formats with answer schemes",
+      "title": "Enhance BEV KT question quality — varied formats with answer schemes",
       "description": "Review all BEV KT (Assignment Sheet) files across C01-C05. Ensure each has minimum 5 questions with varied formats (MCQ with 4 options, T/F with justification, short answer, matching, diagram labeling). Verify answer schemes are complete and accurate.",
       "priority": "medium",
       "acceptanceCriteria": [
@@ -157,7 +167,7 @@
     },
     {
       "id": "US-005",
-      "title": "Enhance BEV KK practical procedures \u2014 step-by-step accuracy and safety checklists",
+      "title": "Enhance BEV KK practical procedures — step-by-step accuracy and safety checklists",
       "description": "Review all BEV KK (Work Sheet) files. Ensure step-by-step procedures are technically accurate for HV work. Verify PPE requirements, safety precautions, equipment lists, and assessment checklists (process/output/attitude/safety/environment) are complete.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -183,11 +193,12 @@
         "practical"
       ],
       "epicId": "E-1",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T13:21:11Z"
     },
     {
       "id": "US-006",
-      "title": "Enhance BEV C05 supervisory content \u2014 briefing, training, SHE monitoring",
+      "title": "Enhance BEV C05 supervisory content — briefing, training, SHE monitoring",
       "description": "Review and enhance C05 KP/KT/KK files covering workshop supervisory functions. Ensure content covers daily briefing procedures, subordinate performance monitoring, TNI/TNA for training coordination, and SHE compliance monitoring appropriate for Level 3.",
       "priority": "medium",
       "acceptanceCriteria": [
@@ -221,7 +232,7 @@
     },
     {
       "id": "US-007",
-      "title": "Enhance Aesthetic C01-C02 KP \u2014 body consultation and thermal therapy theory",
+      "title": "Enhance Aesthetic C01-C02 KP — body consultation and thermal therapy theory",
       "description": "Review and enhance Aesthetic C01 (Body Consultation) and C02 (Body Thermal Therapy) KP files. Ensure accurate anatomy/physiology content, BMI calculation methods, body type classification, skin analysis techniques, contraindications, and thermal therapy modalities.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -256,7 +267,7 @@
     },
     {
       "id": "US-008",
-      "title": "Enhance Aesthetic C03 KP \u2014 manual body massage techniques and anatomy",
+      "title": "Enhance Aesthetic C03 KP — manual body massage techniques and anatomy",
       "description": "Review and enhance C03 Manual Body Massage KP files. Ensure accurate coverage of 5 classical massage movements (effleurage, petrissage, tapotement, vibration, friction), body mechanics, massage medium selection, and relevant anatomy/physiology.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -285,7 +296,7 @@
     },
     {
       "id": "US-009",
-      "title": "Enhance Aesthetic C04 KP \u2014 electrotherapy modalities (6 types) with safety",
+      "title": "Enhance Aesthetic C04 KP — electrotherapy modalities (6 types) with safety",
       "description": "Review and enhance C04 Body Electrotherapy KP-01~10. This is the largest CU covering 6 electrotherapy types: faradic/EMS, galvanic, vacuum suction, mechanical/gyratory massage, high frequency, and micro-current. Ensure accurate electrical principles, machine specifications, treatment parameters, and contraindications.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -319,7 +330,7 @@
     },
     {
       "id": "US-012",
-      "title": "Enhance Aesthetic KK practical procedures \u2014 treatment techniques and hygiene",
+      "title": "Enhance Aesthetic KK practical procedures — treatment techniques and hygiene",
       "description": "Review Aesthetic KK files for treatment procedure accuracy. Ensure proper client preparation, treatment sequence, hygiene/sterilization steps, PPE usage, and assessment checklists are complete.",
       "priority": "high",
       "acceptanceCriteria": [
