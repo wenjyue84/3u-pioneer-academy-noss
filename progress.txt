@@ -149,3 +149,54 @@ This user story is a content enhancement task, not a Frappe/Python implementatio
 ## Iteration 2 - Thu, Apr 16, 2026  9:21:09 PM
 Completed: Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory (ID: US-003) in 7m
 
+
+## Pre-analysis for US-005 (Gemini 2.5 Pro)
+**To:** Claude Code Agent
+**From:** Gemini
+**Subject:** Technical Brief for US-005: Enhance Practical Procedure DocType
+
+This brief outlines the implementation for a user story on enhancing practical work procedures within the `lhdn_payroll_integration` custom Frappe app.
+
+**1. Python Files & DocTypes to Modify:**
+*   `lhdn_payroll_integration/doctype/work_sheet/work_sheet.py`: For server-side validation hooks.
+*   `lhdn_payroll_integration/doctype/work_sheet/work_sheet.js`: For client-side UI arrangement/validation.
+*   `lhdn_payroll_integration/doctype/work_sheet/work_sheet.json`: The primary DocType definition.
+*   Child DocTypes to create/update: `Procedure Step` and `Assessment Item`.
+
+**2. Frappe DocTypes and Hooks:**
+*   **Primary DocType:** A `Work Sheet` DocType to manage procedures. It should have `Text` or `Table` fields for `ppe_requirements`, `equipment_list`, and `safety_precautions`.
+*   **Child DocTypes:**
+    *   `Procedure Step`: A table containing step-by-step instructions.
+    *   `Assessment Item`: A table with a `Select` field for `domain` (Process, Output, Attitude, Safety, Environment) and a `Text` field for the assessment criteria.
+*   **Hooks (in work_sheet.py):**
+    *   `validate`: To enforce the acceptance criteria.
+
+**3. Recommended Implementation Approach:**
+1.  Update the `Work Sheet` DocType, ensuring `safety_precautions` is a separate field.
+2.  In `work_sheet.js`, use custom scripting to render the safety field prominently at the top of the form.
+3.  In `work_sheet.py`, implement the `validate` hook to check that the `Assessment Item` child table contains at least one entry for each of the five required domains before saving the document.
+4.  The logic should also verify that the `equipment_list` field is not empty.
+
+**4. Edge Cases & Gotchas:**
+*   The story implies updating existing records. A patch script might be necessary to backfill data for the new checklist and equipment list structure in existing `Work Sheet` documents.
+*   The acceptance criterion for "logical sequence" is subjective; enforcing a numbered step sequence in the `Procedure Step` table is the most practical approach.
+*   Ensure any new mandatory fields have default values or are handled gracefully by the migration patch to avoid breaking existing records.
+
+## Story US-005 — Enhance BEV KK practical procedures — step-by-step accuracy and safety checklists
+
+### What was implemented
+- C01/KK-01, KK-02, KK-03: Fixed safety glasses spec from DIN EN166 to MS ISO 16321 / ANSI Z87.1 (Malaysian standard)
+- C02/KK-01: Expanded inline equipment text to tables; expanded placeholder Step 2.1-2.5; restructured checklist to 5-domain structure with Remarks column
+- C02/KK-02: Expanded inline equipment text to tables; added numbered safety precautions list; restructured checklist to 5 domains
+- C02/KK-03: Expanded inline equipment text to tables; fixed AMARAN: format; added numbered safety precautions; restructured checklist to 5 domains
+
+### Patterns discovered
+- C01 KK files were well-structured but had DIN EN166 glasses spec error carried over from KP files
+- C02 KK files used compact inline lists instead of tables at initial creation
+- 5-domain checklist structure (PROCESS/OUTPUT/ATTITUDE/SAFETY/ENVIRONMENT) from C01 is the standard for all KK files
+- Assessment checklist requires Remarks column (5 columns total)
+
+### Gotchas
+- C02/KK-03 used AMARAN: without the / WARNING: bilingual suffix — always use AMARAN / WARNING: format
+- C02/KK-01 Step 2 was a placeholder referencing another file — must always expand placeholders before submission
+- Coolant in OBC work is SW305 scheduled waste — must appear in both safety precautions and ENVIRONMENT domain of checklist
