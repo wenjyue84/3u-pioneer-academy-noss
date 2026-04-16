@@ -1,0 +1,11 @@
+{
+  "story_id": "US-015",
+  "story_title": "Create BEV C05 Performance Assessment with Supervisor Competency Rubrics",
+  "key_source": "ai-example|create|bev|c05|medium|",
+  "stored_ts": 1776355310.2977052,
+  "plan": {
+    "story_id": "US-015",
+    "duration_s": 900,
+    "model": "unknown"
+  }
+}
