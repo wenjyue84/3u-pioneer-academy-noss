@@ -1,6 +1,13 @@
 {
-  "type": "smoke",
-  "version": 1,
+  "iteration": 12,
+  "suite_type": "smoke",
+  "timestamp": "2026-04-16T16:02:00Z",
+  "summary": {
+    "total": 11,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 11
+  },
   "tests": [
     {
       "title": "[smoke] Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
@@ -13,7 +20,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory",
@@ -26,7 +35,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory",
@@ -39,7 +50,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance BEV KK practical procedures — step-by-step accuracy and safety checklists",
@@ -52,7 +65,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance Aesthetic C01-C02 KP — body consultation and thermal therapy theory",
@@ -65,7 +80,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance Aesthetic C03 KP — manual body massage techniques and anatomy",
@@ -78,7 +95,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance Aesthetic C04 KP — electrotherapy modalities (6 types) with safety",
@@ -91,7 +110,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance Aesthetic KK practical procedures — treatment techniques and hygiene",
@@ -104,7 +125,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create BEV C01-C02 Knowledge Assessments with Integrated Answer Schemes",
@@ -117,7 +140,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Build Aesthetic Services Bilingual Terminology Glossary with Consistency Validator",
@@ -130,7 +155,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create BEV C05 Performance Assessment with Supervisor Competency Rubrics",
@@ -143,7 +170,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     }
   ]
 }

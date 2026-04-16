@@ -1,8 +1,8 @@
 {
   "phase": "I",
-  "iteration": 12,
-  "started_at": 1776354406,
+  "iteration": 13,
+  "started_at": 1776355398,
   "pct_done": 60,
-  "story_id": "US-015",
-  "story_title": "Create BEV C05 Performance Assessment with Supervisor Competency Rubrics"
+  "story_id": "US-004",
+  "story_title": "Enhance BEV KT question quality — varied formats with answer schemes"
 }

@@ -163,7 +163,8 @@
         "assessment"
       ],
       "epicId": "E-1",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T15:59:53Z"
     },
     {
       "id": "US-005",
@@ -421,10 +422,14 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T15:31:56Z"
+      "last_attempted": "2026-04-16T15:35:04Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nThe `aesthetic-services/` folder has CU-01 through CU-04 KP files with bilingual terms scattered throughout but no centralized glossary or validator script.\n\n## Problem Identified\nUS-014 requires:\n1. A glossary `aesthetic-services/00-aesthetic-terminology.md` with 80+ EN/BM term pairs in 5 categories\n2. A Python validator `_agents/validate-aesthetic-terms.py` that checks KP files for terminology consistency\n\n## Planned Changes\n- Create `aesthetic-services/00-aesthetic-terminology.md` with 80+ terms across 5 categories (anatomy, treatments, equipment, modalities, hygiene)\n- Create `_agents/validate-aesthetic-terms.py` with ~130 lines Python validator\n\n<plan>\n{\n  \"files_to_create\": [\"aesthetic-services/00-aesthetic-terminology.md\", \"_agents/validate-aesthetic-terms.py\"],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\"load_glossary\", \"extract_terms_from_file\", \"check_consistency\", \"generate_csv_report\", \"main\"],\n  \"estimated_loc\": 220\n}\n</plan>\n\nLet me check if the `_agents/` directory exists:\nGood, `_agents/` exists. Now let me create the glossary file first:\nNow create the Python validator script:\nNow let's verify the files were created correctly and test the validator:\nThe validator works correctly — it finds 104 inconsistencies (including real ones like `jangkitan silang` vs canonical `Kontaminasi silang` for cross-contamination) and exits with code 1. Now let me count the glossary terms to verify 80+ requirement:\n137 term pairs, well above the 80 required. Now update prd.json:\nNow document learnings and commit:\nUS-014 is complete.\n\n**Summary:**\n\n- **`aesthetic-services/00-aesthetic-terminology.md`** — 137 EN/BM term pairs in 5 categories (anatomy, treatment modalities, equipment, hygiene & infection control, assessment & client consultation) with pronunciation guides for all technical BM terms.\n\n- **`_agents/validate-aesthetic-terms.py`** — Python validator that:\n  - Parses glossary table rows into EN→BM canonical mapping\n  - Scans KP files for inline BM translations in `(*italic*)` format\n  - Detects terms used with multiple different BM translations\n  - Generates CSV inconsistency report\n  - Exits 0 on pass, exits 1 with summary when inconsistencies found\n\n- **Test run:** Found 104 real inconsistencies across 28 KP files (e.g. `jangkitan silang` vs canonical `Kontaminasi silang` for cross-contamination, `vasodilatasi` vs canonical `Vasodilasi`). Validator correctly returns exit 1."
+      },
+      "_passedCommit": "a03cbd9887f2307e06815c39bc6307137e804266"
     },
     {
       "id": "US-015",
@@ -443,9 +448,14 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T15:46:49Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nThe existing `bev-diagnostic-rectification/C05/PA.md` (56 lines) has a basic task-based structure with 4 tasks and a simple category rubric. It lacks: 5-competency rubric with 4-level scale, 20+ scenario-based questions, and proper CoCU C05 alignment.\n\n## Problem Identified\nUS-015 requires a full rewrite with:\n1. 5 supervisor competency rubrics (4 levels each): Briefing, Training, SHE, Team Coordination, Documentation\n2. 20+ scenario-based questions referencing CoCU C05\n3. Mark distribution: 30+25+20+15+10 = 100 total\n\n## Planned Changes\n- Rewrite `bev-diagnostic-rectification/C05/PA.md` with rubric tables and 20 scenarios\n- Stay under 350 diff lines: new file ~270 lines + 56 deleted = ~326 lines diff\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"bev-diagnostic-rectification/C05/PA.md\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 270\n}\n</plan>\nNow validate the acceptance criteria:\nAll validations pass:\n- **20 scenarios** ✓\n- **\"= 5 marks\"** × 20 + **\"= 100 marks\"** summary ✓  \n- **61 CoCU C05 references** ✓\n- **215 lines** (diff = 215 + 56 = 271, well under 350)\n\nNow check the rubric marks sum: 30+25+20+15+10 = 100 ✓. Now mark passes and commit:\nNow append learnings to progress.txt:\nUS-015 is complete.\n\n**Summary:**\n- Rewrote `bev-diagnostic-rectification/C05/PA.md` (215 lines, diff 271 lines)\n- 5 competency rubrics with 4-level scale (Novice→Advanced) covering all CoCU C05 supervisor competencies\n- 20 scenario-based questions (Scenarios 1–20) across 5 parts aligned to WA1–WA4\n- 61 CoCU C05 references throughout; marks sum = 100; pass threshold documented\n- All grep validations pass: scenario count = 20, CoCU C05 references = 61, total = 100 marks"
+      },
+      "_passedCommit": "bd0f77e844c275e32bf38a0530fb00914c10f76d"
     },
     {
       "id": "US-016",

@@ -190,5 +190,51 @@
       "integration",
       "auto-generated"
     ]
+  },
+  {
+    "title": "[Security Test] Create BEV C05 Performance Assessment with Supervisor Competency Rubrics",
+    "description": "Write security tests for auth/permission logic in US-015. Story description: Develop Performance Assessment (PA) document for BEV C05 supervisory unit with detailed rubric-based marking framework covering 5 supervisor competencies and 20+ workplace scenario-based questions. Align all assessment criteria to CoCU C05 supervisor role requirements.",
+    "acceptanceCriteria": [
+      "Security test covers access control introduced by US-015",
+      "Test verifies unauthorized access is blocked (401/403 responses)",
+      "No sensitive data (tokens, passwords) leaked in error responses"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_015 -v"
+    ],
+    "priority": "high",
+    "dependencies": [
+      "US-015"
+    ],
+    "_source": "test-story",
+    "_testType": "security",
+    "_forStoryId": "US-015",
+    "tags": [
+      "security",
+      "auto-generated"
+    ]
+  },
+  {
+    "title": "[Performance Test] Create BEV C05 Performance Assessment with Supervisor Competency Rubrics",
+    "description": "Write performance benchmark for the operation in US-015. Story description: Develop Performance Assessment (PA) document for BEV C05 supervisory unit with detailed rubric-based marking framework covering 5 supervisor competencies and 20+ workplace scenario-based questions. Align all assessment criteria to CoCU C05 supervisor role requirements.",
+    "acceptanceCriteria": [
+      "Performance test measures key metrics for US-015",
+      "Baseline captured and acceptable threshold defined",
+      "Test fails if response time degrades more than 20% from baseline"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_015 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-015"
+    ],
+    "_source": "test-story",
+    "_testType": "performance",
+    "_forStoryId": "US-015",
+    "tags": [
+      "performance",
+      "auto-generated"
+    ]
   }
 ]

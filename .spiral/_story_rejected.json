@@ -1,58 +1,83 @@
 {
   "stories": [
     {
-      "title": "Create Aesthetic C01-C02 Knowledge Assessments with Bilingual Consultation Scenarios",
-      "priority": "high",
-      "description": "Build bilingual knowledge assessments for Aesthetic C01 (body consultation) and C02 (thermal therapy) with scenario-based questions and integrated answer schemes. Each assessment includes 8-10 clinical scenario questions that map to Related Knowledge items in the NOSS CoCU, answer rubrics with 0-100 point scales, and bilingual (EN/BM) assessment language.",
+      "title": "Create IT C03 Knowledge Assessment with System Administration Scenarios",
+      "priority": "medium",
+      "description": "Develop KA.md for IT C03 containing 5-6 scenario-based questions addressing system administration and infrastructure management related knowledge items. Include bilingual terminology and comprehensive answer schemes with marking guides aligned to CoCU assessment criteria.",
       "acceptanceCriteria": [
-        "aesthetic-services/CU01/KA.md created with 8-10 bilingual scenario-based questions covering body anatomy, consultation techniques, and client assessment from C01 Related Knowledge, including detailed answer schemes with point allocations (0-100 total)",
-        "aesthetic-services/CU02/KA.md created with 8-10 bilingual scenario-based questions covering thermal therapy principles, contraindications, safety, and treatment selection from C02 Related Knowledge, including detailed answer schemes and marking rubric",
-        "Both KA files validated against NOSS extract (00-noss-extract.md) to ensure all Related Knowledge items are assessed; assessment language is consistent with existing KA files (C03, C04)"
+        "File created at it-computer-system/c03-system-admin/KA.md with proper WIM structure (pink paper designation, bilingual header)",
+        "Contains 5-6 scenario-based questions covering all 8+ related knowledge items from C03 CoCU in 00-noss-extract.md",
+        "Each question includes answer scheme with performance level marking (0-5 points) and bilingual terminology (EN/BM)"
       ],
       "technicalNotes": [
-        "File to create: aesthetic-services/CU01/KA.md (content: 8-10 scenario questions with bilingual terms, answer keys, rubric)",
-        "File to create: aesthetic-services/CU02/KA.md (content: 8-10 scenario questions with bilingual terms, answer keys, rubric)",
-        "Validation: Compare question coverage against _reference/00-noss-extract.md sections [C01 Related Knowledge] and [C02 Related Knowledge]",
-        "Validation: Check bilingual term consistency against existing Aesthetic glossary file"
+        "File to create: it-computer-system/c03-system-admin/KA.md (300-400 lines markdown)",
+        "Reference existing C04/C05 KA structures for format consistency",
+        "Test command: grep -E '^### (Question|Soalan)' it-computer-system/c03-system-admin/KA.md | wc -l",
+        "Validation: Cross-reference all knowledge points from 00-noss-extract.md C03 section"
       ],
       "dependencies": [],
-      "estimatedComplexity": "medium",
+      "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "aesthetic-services/CU01/KA.md",
-        "aesthetic-services/CU02/KA.md"
+        "it-computer-system/c03-system-admin/KA.md"
       ],
       "_source": "ai-example",
       "passes": false,
-      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Create Aesthetic Performance Assessments for C03-C04 with Treatment Quality and Safety Rubrics",
-      "priority": "high",
-      "description": "Build practical performance assessments for Aesthetic C03 (manual body massage) and C04 (electrotherapy) with 4-5 treatment scenarios each that demonstrate technique quality, safety compliance, and client care. Each assessment includes detailed rubrics scoring treatment technique (1-4 scale), safety procedure adherence, and hygiene compliance with bilingual assessment language.",
+      "title": "Create BEV C04 Performance Assessment with Energy Management Scenario Rubric",
+      "priority": "medium",
+      "description": "Develop PA.md for BEV C04 (Energy Management) containing scenario-based performance assessment with supervisor competency rubric. Model after C05 PA structure with 4-5 competency areas (diagnosis accuracy, safety compliance, documentation) and performance level scales.",
       "acceptanceCriteria": [
-        "aesthetic-services/CU03/PA.md created with 4-5 manual massage treatment scenarios (Swedish massage, deep tissue, trigger point, etc.) that map to C03 Work Activities, including step-by-step treatment procedures, anatomical reference points, and technique quality rubric (1-4 competency scale)",
-        "aesthetic-services/CU04/PA.md created with 4-5 electrotherapy treatment scenarios (6 electrotherapy modalities from C04 KP) each mapping to Work Activities, including equipment operation steps, safety protocols, and efficacy/safety rubric with bilingual terminology (EN + BM)",
-        "Both PA files cross-validated against corresponding KK work sheets and KP theory content; assessment language and terminology consistent with existing Aesthetic assessments; hygiene and safety checkpoints aligned with C03/C04 KP requirements"
+        "File created at bev-diagnostic-rectification/c04-energy-management/PA.md with light blue header (PA designation)",
+        "Contains 1-2 comprehensive diagnostic scenarios covering BMS health check, charging system failure, and power distribution faults",
+        "Supervisor rubric includes 4-5 competency areas with 4 performance levels (beginning, developing, proficient, advanced) and 0-20 point scale"
       ],
       "technicalNotes": [
-        "File to create: aesthetic-services/CU03/PA.md (content: 4-5 massage treatment scenarios with technique rubrics and safety checklists)",
-        "File to create: aesthetic-services/CU04/PA.md (content: 4-5 electrotherapy scenarios with equipment operation steps and safety rubrics)",
-        "Cross-reference files: aesthetic-services/CU03/KK-*.md and aesthetic-services/CU04/KK-*.md (map work activities to PA scenarios)",
-        "Validation: Ensure C03 treatment techniques match anatomy references in C03 KP; ensure all 6 electrotherapy modalities from C04 KP are represented in C04 PA"
+        "File to create: bev-diagnostic-rectification/c04-energy-management/PA.md (250-350 lines)",
+        "Reference template: bev-diagnostic-rectification/c05-supervisory-role/PA.md for rubric structure and format",
+        "Scenarios should align with C04 CoCU work activities from 00-noss-extract.md",
+        "Test command: grep -c 'Kompetensi\\|Competency' bev-diagnostic-rectification/c04-energy-management/PA.md"
       ],
       "dependencies": [],
-      "estimatedComplexity": "medium",
+      "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "aesthetic-services/CU03/PA.md",
-        "aesthetic-services/CU04/PA.md"
+        "bev-diagnostic-rectification/c04-energy-management/PA.md"
       ],
       "_source": "ai-example",
       "passes": false,
-      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Build WIM Document Structure Validator Tool for Format Compliance",
+      "priority": "high",
+      "description": "Create Python validation script that audits all WIM documents across BEV, Aesthetic, and IT subjects against JPK Buku Panduan WIM Edisi 2020 standards. Validates document type codes, sequence numbering, bilingual headers, and structural compliance with actionable error reporting.",
+      "acceptanceCriteria": [
+        "Script created at _agents/validate_wim_structure.py with validation functions for KP/KK/KA/PA/PM document types",
+        "Validates document naming pattern (NOSS-Code-CU/DocCode(seq/total)), bilingual headers, and required sections per document type",
+        "Reports validation failures with file path, line number, issue type, and correction suggestion to stdout"
+      ],
+      "technicalNotes": [
+        "File to create: _agents/validate_wim_structure.py (~150 lines)",
+        "Test command: uv run _agents/validate_wim_structure.py bev-diagnostic-rectification/ --format json",
+        "Validation regex patterns: G452-010-3:2023-C\\d{2}/[A-Z]{2}\\(\\d+/\\d+\\) for BEV, S960-002-3:2020-C\\d{2}/[A-Z]{2} for Aesthetic",
+        "Check for bilingual headers: Each document should have both English and Bahasa Malaysia titles"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_agents/validate_wim_structure.py",
+        "_agents/__init__.py"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     }
   ]
 }
