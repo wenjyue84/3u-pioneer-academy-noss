@@ -245,7 +245,7 @@
         "All content includes proper bilingual terms"
       ],
       "dependencies": [],
-      "passes": true,
+      "passes": false,
       "filesTouch": [
         "aesthetic-services/C01/KP-01.md",
         "aesthetic-services/C01/KP-02.md",
@@ -267,8 +267,7 @@
         "technical"
       ],
       "epicId": "E-2",
-      "model": "sonnet",
-      "last_attempted": "2026-04-16T13:38:24Z"
+      "model": "sonnet"
     },
     {
       "id": "US-008",

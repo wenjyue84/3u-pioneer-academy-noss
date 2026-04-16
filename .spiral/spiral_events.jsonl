@@ -105,3 +105,55 @@
 {"ts":"2026-04-16T13:25:56Z","event":"phase_start","run_id":"69e0dbbb149e","level":"INFO","phase":"I","iteration":3,"trace_id":"b52e808b773b939c6177c04d89a02020","span_id":"4b109271210b6159"}
 {"ts":"2026-04-16T13:29:04Z","event":"plan_cache_miss","story_id":"US-005"}
 {"ts":"2026-04-16T13:35:06Z","event":"cost_update","story_id":"US-005","tokens_input":34,"tokens_output":16918,"estimated_usd":0.253872}
+{"ts":"2026-04-16T13:35:10Z","event":"scope_guard","story_id":"US-005","result":"warn","out_of_scope":[
+  ".spiral/_active_status.json",
+  ".spiral/_ai_suggest_dedup.json",
+  ".spiral/_ai_suggest_filtered.json",
+  ".spiral/_ai_suggest_output.json",
+  ".spiral/_checkpoint.json",
+  ".spiral/_core_hashes_iter3.txt",
+  ".spiral/_iteration_summary.json",
+  ".spiral/_passes_baseline",
+  ".spiral/_phase_R_3.ckpt",
+  ".spiral/_phase_T_3.ckpt",
+  ".spiral/_phase_T_3.endtime",
+  ".spiral/_prd_prestash_3.json",
+  ".spiral/_ralph_stderr_8jxZu9.txt",
+  ".spiral/_story_rejected.json",
+  ".spiral/_test_story_candidates.json",
+  ".spiral/_test_story_candidates_dedup.json",
+  ".spiral/_test_story_candidates_filtered.json",
+  ".spiral/_validated_stories.json",
+  ".spiral/gemini-cache/US-005.json",
+  ".spiral/learned_patterns_iter_2.json",
+  ".spiral/otel_story_US_005.json",
+  ".spiral/perf_baseline.json",
+  ".spiral/prd-backups/prd-iter3.json",
+  ".spiral/spiral_events.jsonl",
+  ".spiral/test-suites/performance/results/iter-002.json",
+  ".spiral/test-suites/performance/suite.json",
+  ".spiral/test-suites/regression/results/iter-002.json",
+  ".spiral/test-suites/regression/suite.json",
+  ".spiral/test-suites/security/results/iter-002.json",
+  ".spiral/test-suites/security/suite.json",
+  ".spiral/test-suites/smoke/results/iter-002.json",
+  ".spiral/test-suites/smoke/suite.json",
+  ".spiral/test_output_2.log",
+  ".spiral/ui-progress-history.jsonl",
+  "prd.json",
+  "spiral_events.jsonl",
+  "test-reports/20260416-132431/report.json"
+],"out_of_scope_count":37,"filesTouch_count":6}
+{"ts":"2026-04-16T13:38:23Z","event":"story_passed","storyId":"US-005","retryCount":0,"model":"sonnet"}
+{"ts":"2026-04-16T13:39:44Z","event":"plan_cache_miss","story_id":"US-007"}
+{"ts":"2026-04-16T13:45:20Z","event":"cost_update","story_id":"US-007","tokens_input":32,"tokens_output":11923,"estimated_usd":0.178941}
+{"ts":"2026-04-16T13:45:35Z","event":"scope_guard","story_id":"US-007","result":"warn","out_of_scope":[
+  ".spiral/_ralph_stderr_8jxZu9.txt",
+  ".spiral/gemini-cache/US-007.json",
+  ".spiral/spiral_events.jsonl",
+  "prd.json",
+  "results.tsv"
+],"out_of_scope_count":5,"filesTouch_count":12}
+{"ts":"2026-04-16T13:45:59Z","event":"phase_timeout","run_id":"69e0dbbb149e","level":"INFO","phase":"I","story_id":"US-005","iteration":3,"duration_ms":1201000,"timeout_s":1200,"trace_id":"b52e808b773b939c6177c04d89a02020","span_id":"4b109271210b6159"}
+{"ts":"2026-04-16T13:46:01Z","event":"plan_cache_store","run_id":"69e0dbbb149e","level":"INFO","story_id":"US-005","plan_key":"05e5907959fa262d5167918b0d0a6c2fdfb5cf7338feeb3cdc8df98f45c07cf3","trace_id":"b52e808b773b939c6177c04d89a02020","span_id":"4b109271210b6159"}
+{"ts":"2026-04-16T13:46:02Z","event":"plugin_hook","run_id":"69e0dbbb149e","level":"INFO","plugin":"notify-slack","hook":"post-story","type":"POST","exit_code":0,"duration_s":0,"trace_id":"b52e808b773b939c6177c04d89a02020","span_id":"4b109271210b6159"}
