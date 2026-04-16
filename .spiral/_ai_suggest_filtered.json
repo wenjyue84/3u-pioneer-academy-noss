@@ -1,70 +1,67 @@
 [
   {
-    "title": "Create IT C03 Knowledge Assessment with System Administration Scenarios",
+    "title": "Create BEV C02 Performance Assessment with Battery System Fault Isolation Rubrics",
     "priority": "medium",
-    "description": "Develop KA.md for IT C03 containing 5-6 scenario-based questions addressing system administration and infrastructure management related knowledge items. Include bilingual terminology and comprehensive answer schemes with marking guides aligned to CoCU assessment criteria.",
+    "description": "Develop practical performance assessment for C02 (Battery & HV Systems) with three real-world fault scenarios, integrated safety checkpoints, and decision-tree rubrics for BMS diagnostics, HV cable testing, and OBC troubleshooting aligned to NOSS C02 CoCU assessment criteria.",
     "acceptanceCriteria": [
-      "File created at it-computer-system/c03-system-admin/KA.md with proper WIM structure (pink paper designation, bilingual header)",
-      "Contains 5-6 scenario-based questions covering all 8+ related knowledge items from C03 CoCU in 00-noss-extract.md",
-      "Each question includes answer scheme with performance level marking (0-5 points) and bilingual terminology (EN/BM)"
+      "File bev-diagnostic-rectification/c02-battery-system/PA.md created with 3 complete fault scenarios (low cell voltage, BMS communication loss, HV cable insulation failure) each with context, task, measurement guide, and isolation decision tree",
+      "Each scenario includes \u22652 safety checkpoints, pass/fail rubric with point allocation, and specific measurement tolerances referenced (e.g., \u2265100M\u03a9 insulation, cell voltage \u22652.5V) matching industry standards for EV battery diagnostics",
+      "Cross-references bev-diagnostic-rectification/c02-battery-system/KK-01.md and KK-02.md for tool specifications; includes bilingual terms (EN: battery management system, BM: sistem pengurusan bateri) consistent with 00-bilingual-glossary.md"
     ],
     "technicalNotes": [
-      "File to create: it-computer-system/c03-system-admin/KA.md (300-400 lines markdown)",
-      "Reference existing C04/C05 KA structures for format consistency",
-      "Test command: grep -E '^### (Question|Soalan)' it-computer-system/c03-system-admin/KA.md | wc -l",
-      "Validation: Cross-reference all knowledge points from 00-noss-extract.md C03 section"
+      "File to create: bev-diagnostic-rectification/c02-battery-system/PA.md with structure [Scenario 1-3] containing {Fault Context | Required Measurements | Decision Tree | Safety Checkpoints | Evaluation Rubric}",
+      "Validate against NOSS G452-010-3:2023 C02 CoCU assessment criteria for battery pack and HV system diagnostics",
+      "Test command: grep -c 'Safety Checkpoint' bev-diagnostic-rectification/c02-battery-system/PA.md (expected: \u22656); grep -E '[0-9]+M\u03a9|[0-9]+V' bev-diagnostic-rectification/c02-battery-system/PA.md (expected: \u22658 measurement thresholds)"
     ],
     "filesTouch": [
-      "it-computer-system/c03-system-admin/KA.md"
+      "bev-diagnostic-rectification/c02-battery-system/PA.md"
     ],
-    "estimatedComplexity": "small",
+    "estimatedComplexity": "medium",
     "_source": "ai-example",
     "passes": false,
     "dependencies": []
   },
   {
-    "title": "Create BEV C04 Performance Assessment with Energy Management Scenario Rubric",
+    "title": "Build WIM Format Compliance Validator Against Buku Panduan WIM Edisi 2020 Standards",
     "priority": "medium",
-    "description": "Develop PA.md for BEV C04 (Energy Management) containing scenario-based performance assessment with supervisor competency rubric. Model after C05 PA structure with 4-5 competency areas (diagnosis accuracy, safety compliance, documentation) and performance level scales.",
+    "description": "Create Python validation tool that enforces Buku Panduan WIM Edisi 2020 compliance across all WIM markdown files: validates filename patterns (NOSS-Code-CU/DocCode format), required section structure (Tujuan/Objectives, Kandungan/Content, Penilaian/Assessment), table layouts, and bilingual term density. Generates JSON compliance report with violations grouped by category and file-level compliance scores.",
     "acceptanceCriteria": [
-      "File created at bev-diagnostic-rectification/c04-energy-management/PA.md with light blue header (PA designation)",
-      "Contains 1-2 comprehensive diagnostic scenarios covering BMS health check, charging system failure, and power distribution faults",
-      "Supervisor rubric includes 4-5 competency areas with 4 performance levels (beginning, developing, proficient, advanced) and 0-20 point scale"
+      "Tool _agents/wim_format_validator.py implements: (1) filename regex validation matching NOSS-Code-CU/DocCode(seq/total).md pattern, (2) heading structure check for mandatory sections (## Tujuan, ## Kandungan, ## Penilaian, ## Nota Kritis), (3) bilingual term density validation (\u22655 EN/BM pairs per 500 words)",
+      "Tool generates JSON output (_agents/wim_compliance_report.json) with fields: file_path, compliance_score (0-100), violation_count, violations (array of {type, location, suggestion}). Returns exit code 1 if any file <95% compliant or <5 BEV/Aesthetic/IT directories scanned",
+      "Recursively scans bev-diagnostic-rectification/, aesthetic-services/, it-computer-system/ and produces summary: total_files_scanned, compliant_files, at_risk_files (60-94%), non_compliant_files (<60%), with categorized violation counts by type (file_naming, missing_section, table_format, bilingual_terms)"
     ],
     "technicalNotes": [
-      "File to create: bev-diagnostic-rectification/c04-energy-management/PA.md (250-350 lines)",
-      "Reference template: bev-diagnostic-rectification/c05-supervisory-role/PA.md for rubric structure and format",
-      "Scenarios should align with C04 CoCU work activities from 00-noss-extract.md",
-      "Test command: grep -c 'Kompetensi\\|Competency' bev-diagnostic-rectification/c04-energy-management/PA.md"
+      "Files to create: _agents/wim_format_validator.py (main validator logic, ~180 lines) and _agents/wim_format_rules.json (rule definitions per Panduan)",
+      "Validation logic: (1) filename: regex ^[A-Z0-9]+-[A-Z0-9]+:[0-9]{4}-C\\d{2}/[A-Z]{2}\\(\\d+/\\d+\\)\\.md$; (2) headings: search for '## Tujuan', '## Kandungan', '## Penilaian' in order; (3) bilingual: grep -oE '(EN:|BM:|English:|Melayu:)' and count pairs",
+      "Test command: python _agents/wim_format_validator.py --path bev-diagnostic-rectification/ --output report.json --verbose 2>&1 | head -20 (should list violations by file). Validation: python _agents/wim_format_validator.py --check-all; echo $? (should return 0 if all >95% compliant)"
     ],
     "filesTouch": [
-      "bev-diagnostic-rectification/c04-energy-management/PA.md"
+      "_agents/wim_format_validator.py",
+      "_agents/wim_format_rules.json"
     ],
-    "estimatedComplexity": "small",
+    "estimatedComplexity": "medium",
     "_source": "ai-example",
     "passes": false,
     "dependencies": []
   },
   {
-    "title": "Build WIM Document Structure Validator Tool for Format Compliance",
-    "priority": "high",
-    "description": "Create Python validation script that audits all WIM documents across BEV, Aesthetic, and IT subjects against JPK Buku Panduan WIM Edisi 2020 standards. Validates document type codes, sequence numbering, bilingual headers, and structural compliance with actionable error reporting.",
+    "title": "Create Aesthetic C03 Knowledge Assessment with Manual Technique Competency Questions",
+    "priority": "medium",
+    "description": "Build knowledge assessment for C03 (Manual Body Massage) with 10 questions covering anatomy landmarks, massage technique selection logic, contraindication identification, and client safety. Include 3 scenario-based questions where learners analyze client conditions and recommend appropriate massage modalities with supporting justification and safety considerations.",
     "acceptanceCriteria": [
-      "Script created at _agents/validate_wim_structure.py with validation functions for KP/KK/KA/PA/PM document types",
-      "Validates document naming pattern (NOSS-Code-CU/DocCode(seq/total)), bilingual headers, and required sections per document type",
-      "Reports validation failures with file path, line number, issue type, and correction suggestion to stdout"
+      "File aesthetic-services/c03-manual-body-massage/KA.md created with 10 distinct questions: 4 anatomy identification (name muscles/nerves from descriptions), 3 scenario-based technique selection (client presents with condition\u2192choose technique & justify), 2 contraindication identification, 1 safety procedure question. Each question includes answer scheme with rubric points (basic/intermediate/advanced confidence levels)",
+      "All 10 questions include bilingual key terms cross-referenced to _reference/wim-bilingual-glossary.md (e.g., 'erector spinae | otot penunjang tulang belakang', 'piriformis | otot pirifomis'). Scenario questions include 2-3 point rubric: knows correct technique, understands contraindications, justifies decision safely",
+      "All content references and validates against NOSS S960-002-3:2020 C03 CoCU knowledge requirements (muscle anatomy, technique selection criteria); anatomy references match aesthetic-services/c03-manual-body-massage/KP-02.md Anatomy & Physiology section with specific page/figure references"
     ],
     "technicalNotes": [
-      "File to create: _agents/validate_wim_structure.py (~150 lines)",
-      "Test command: uv run _agents/validate_wim_structure.py bev-diagnostic-rectification/ --format json",
-      "Validation regex patterns: G452-010-3:2023-C\\d{2}/[A-Z]{2}\\(\\d+/\\d+\\) for BEV, S960-002-3:2020-C\\d{2}/[A-Z]{2} for Aesthetic",
-      "Check for bilingual headers: Each document should have both English and Bahasa Malaysia titles"
+      "File to create: aesthetic-services/c03-manual-body-massage/KA.md with structure [Q1-Q10] sections containing {Question | Scenario Context (if applicable) | Expected Answer | Rubric Points | Bilingual Terms | CoCU Reference Code}",
+      "Validate against NOSS S960-002-3:2020 C03 CoCU assessment criteria; cross-check anatomy terms against KP-02.md section headings",
+      "Test command: grep -c '^## Q' aesthetic-services/c03-manual-body-massage/KA.md (expected: 10); grep -c 'Scenario\\|case study' aesthetic-services/c03-manual-body-massage/KA.md (expected: \u22653); grep -oE 'EN:|BM:' aesthetic-services/c03-manual-body-massage/KA.md | wc -l (expected: \u226530 total terms)"
     ],
     "filesTouch": [
-      "_agents/validate_wim_structure.py",
-      "_agents/__init__.py"
+      "aesthetic-services/c03-manual-body-massage/KA.md"
     ],
-    "estimatedComplexity": "small",
+    "estimatedComplexity": "medium",
     "_source": "ai-example",
     "passes": false,
     "dependencies": []

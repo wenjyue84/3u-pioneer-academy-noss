@@ -1,6 +1,13 @@
 {
-  "type": "performance",
-  "version": 1,
+  "iteration": 13,
+  "suite_type": "performance",
+  "timestamp": "2026-04-16T16:23:33Z",
+  "summary": {
+    "total": 9,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 9
+  },
   "tests": [
     {
       "title": "[performance] Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory",
@@ -13,7 +20,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[performance] Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory",
@@ -26,7 +35,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[performance] Enhance BEV KK practical procedures — step-by-step accuracy and safety checklists",
@@ -39,7 +50,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[performance] Enhance Aesthetic C01-C02 KP — body consultation and thermal therapy theory",
@@ -52,7 +65,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[performance] Enhance Aesthetic C04 KP — electrotherapy modalities (6 types) with safety",
@@ -65,7 +80,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[performance] Enhance Aesthetic KK practical procedures — treatment techniques and hygiene",
@@ -78,7 +95,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[performance] Create BEV C05 Performance Assessment with Supervisor Competency Rubrics",
@@ -91,7 +110,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[performance] Enhance BEV KT question quality — varied formats with answer schemes",
@@ -104,7 +125,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[performance] Enhance BEV C05 supervisory content — briefing, training, SHE monitoring",
@@ -117,7 +140,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     }
   ]
 }

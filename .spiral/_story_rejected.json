@@ -1,79 +1,25 @@
 {
   "stories": [
     {
-      "title": "Create IT C03 Knowledge Assessment with System Administration Scenarios",
+      "title": "Create BEV C02 Performance Assessment with Battery System Fault Isolation Rubrics",
       "priority": "medium",
-      "description": "Develop KA.md for IT C03 containing 5-6 scenario-based questions addressing system administration and infrastructure management related knowledge items. Include bilingual terminology and comprehensive answer schemes with marking guides aligned to CoCU assessment criteria.",
+      "description": "Develop practical performance assessment for C02 (Battery & HV Systems) with three real-world fault scenarios, integrated safety checkpoints, and decision-tree rubrics for BMS diagnostics, HV cable testing, and OBC troubleshooting aligned to NOSS C02 CoCU assessment criteria.",
       "acceptanceCriteria": [
-        "File created at it-computer-system/c03-system-admin/KA.md with proper WIM structure (pink paper designation, bilingual header)",
-        "Contains 5-6 scenario-based questions covering all 8+ related knowledge items from C03 CoCU in 00-noss-extract.md",
-        "Each question includes answer scheme with performance level marking (0-5 points) and bilingual terminology (EN/BM)"
+        "File bev-diagnostic-rectification/c02-battery-system/PA.md created with 3 complete fault scenarios (low cell voltage, BMS communication loss, HV cable insulation failure) each with context, task, measurement guide, and isolation decision tree",
+        "Each scenario includes ≥2 safety checkpoints, pass/fail rubric with point allocation, and specific measurement tolerances referenced (e.g., ≥100MΩ insulation, cell voltage ≥2.5V) matching industry standards for EV battery diagnostics",
+        "Cross-references bev-diagnostic-rectification/c02-battery-system/KK-01.md and KK-02.md for tool specifications; includes bilingual terms (EN: battery management system, BM: sistem pengurusan bateri) consistent with 00-bilingual-glossary.md"
       ],
       "technicalNotes": [
-        "File to create: it-computer-system/c03-system-admin/KA.md (300-400 lines markdown)",
-        "Reference existing C04/C05 KA structures for format consistency",
-        "Test command: grep -E '^### (Question|Soalan)' it-computer-system/c03-system-admin/KA.md | wc -l",
-        "Validation: Cross-reference all knowledge points from 00-noss-extract.md C03 section"
+        "File to create: bev-diagnostic-rectification/c02-battery-system/PA.md with structure [Scenario 1-3] containing {Fault Context | Required Measurements | Decision Tree | Safety Checkpoints | Evaluation Rubric}",
+        "Validate against NOSS G452-010-3:2023 C02 CoCU assessment criteria for battery pack and HV system diagnostics",
+        "Test command: grep -c 'Safety Checkpoint' bev-diagnostic-rectification/c02-battery-system/PA.md (expected: ≥6); grep -E '[0-9]+MΩ|[0-9]+V' bev-diagnostic-rectification/c02-battery-system/PA.md (expected: ≥8 measurement thresholds)"
       ],
       "dependencies": [],
-      "estimatedComplexity": "small",
+      "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "it-computer-system/c03-system-admin/KA.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Create BEV C04 Performance Assessment with Energy Management Scenario Rubric",
-      "priority": "medium",
-      "description": "Develop PA.md for BEV C04 (Energy Management) containing scenario-based performance assessment with supervisor competency rubric. Model after C05 PA structure with 4-5 competency areas (diagnosis accuracy, safety compliance, documentation) and performance level scales.",
-      "acceptanceCriteria": [
-        "File created at bev-diagnostic-rectification/c04-energy-management/PA.md with light blue header (PA designation)",
-        "Contains 1-2 comprehensive diagnostic scenarios covering BMS health check, charging system failure, and power distribution faults",
-        "Supervisor rubric includes 4-5 competency areas with 4 performance levels (beginning, developing, proficient, advanced) and 0-20 point scale"
-      ],
-      "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/c04-energy-management/PA.md (250-350 lines)",
-        "Reference template: bev-diagnostic-rectification/c05-supervisory-role/PA.md for rubric structure and format",
-        "Scenarios should align with C04 CoCU work activities from 00-noss-extract.md",
-        "Test command: grep -c 'Kompetensi\\|Competency' bev-diagnostic-rectification/c04-energy-management/PA.md"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "small",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "bev-diagnostic-rectification/c04-energy-management/PA.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Build WIM Document Structure Validator Tool for Format Compliance",
-      "priority": "high",
-      "description": "Create Python validation script that audits all WIM documents across BEV, Aesthetic, and IT subjects against JPK Buku Panduan WIM Edisi 2020 standards. Validates document type codes, sequence numbering, bilingual headers, and structural compliance with actionable error reporting.",
-      "acceptanceCriteria": [
-        "Script created at _agents/validate_wim_structure.py with validation functions for KP/KK/KA/PA/PM document types",
-        "Validates document naming pattern (NOSS-Code-CU/DocCode(seq/total)), bilingual headers, and required sections per document type",
-        "Reports validation failures with file path, line number, issue type, and correction suggestion to stdout"
-      ],
-      "technicalNotes": [
-        "File to create: _agents/validate_wim_structure.py (~150 lines)",
-        "Test command: uv run _agents/validate_wim_structure.py bev-diagnostic-rectification/ --format json",
-        "Validation regex patterns: G452-010-3:2023-C\\d{2}/[A-Z]{2}\\(\\d+/\\d+\\) for BEV, S960-002-3:2020-C\\d{2}/[A-Z]{2} for Aesthetic",
-        "Check for bilingual headers: Each document should have both English and Bahasa Malaysia titles"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "small",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "_agents/validate_wim_structure.py",
-        "_agents/__init__.py"
+        "bev-diagnostic-rectification/c02-battery-system/PA.md"
       ],
       "_source": "ai-example",
       "passes": false,

@@ -1,8 +1,8 @@
 {
   "phase": "I",
-  "iteration": 13,
-  "started_at": 1776355398,
+  "iteration": 14,
+  "started_at": 1776356725,
   "pct_done": 60,
-  "story_id": "US-004",
-  "story_title": "Enhance BEV KT question quality — varied formats with answer schemes"
+  "story_id": "US-016",
+  "story_title": "Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics"
 }

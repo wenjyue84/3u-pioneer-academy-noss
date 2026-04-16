@@ -73,6 +73,30 @@
       ]
     },
     {
+      "title": "[Integration Test] Enhance BEV KT question quality \u2014 varied formats with answer schemes",
+      "description": "Write integration tests for the feature implemented in US-004. Story description: Review all BEV KT (Assignment Sheet) files across C01-C05. Ensure each has minimum 5 questions with varied formats (MCQ with 4 options, T/F with justification, short answer, matching, diagram labeling). Verify answer schemes are complete and accurate.",
+      "acceptanceCriteria": [
+        "Integration tests exist covering the core behaviour of US-004",
+        "Tests cover the happy path and at least one error/edge case",
+        "Tests run without requiring external services or manual setup"
+      ],
+      "technicalNotes": [
+        "Source files from US-004: bev-diagnostic-rectification/C01/KT-01.md, bev-diagnostic-rectification/C01/KT-02.md, bev-diagnostic-rectification/C01/KT-03.md, bev-diagnostic-rectification/C02/KT-01.md, bev-diagnostic-rectification/C02/KT-02.md",
+        "Run: uv run pytest tests/ -k us_004 -v"
+      ],
+      "priority": "high",
+      "dependencies": [
+        "US-004"
+      ],
+      "_source": "test-story",
+      "_testType": "integration",
+      "_forStoryId": "US-004",
+      "tags": [
+        "integration",
+        "auto-generated"
+      ]
+    },
+    {
       "title": "[Integration Test] Enhance BEV KK practical procedures \u2014 step-by-step accuracy and safety checklists",
       "description": "Write integration tests for the feature implemented in US-005. Story description: Review all BEV KK (Work Sheet) files. Ensure step-by-step procedures are technically accurate for HV work. Verify PPE requirements, safety precautions, equipment lists, and assessment checklists (process/output/attitude/safety/environment) are complete.",
       "acceptanceCriteria": [
@@ -93,6 +117,54 @@
       "_forStoryId": "US-005",
       "tags": [
         "integration",
+        "auto-generated"
+      ]
+    },
+    {
+      "title": "[Integration Test] Enhance BEV C05 supervisory content \u2014 briefing, training, SHE monitoring",
+      "description": "Write integration tests for the feature implemented in US-006. Story description: Review and enhance C05 KP/KT/KK files covering workshop supervisory functions. Ensure content covers daily briefing procedures, subordinate performance monitoring, TNI/TNA for training coordination, and SHE compliance monitoring appropriate for Level 3.",
+      "acceptanceCriteria": [
+        "Integration tests exist covering the core behaviour of US-006",
+        "Tests cover the happy path and at least one error/edge case",
+        "Tests run without requiring external services or manual setup"
+      ],
+      "technicalNotes": [
+        "Source files from US-006: bev-diagnostic-rectification/C05/KP-01.md, bev-diagnostic-rectification/C05/KP-02.md, bev-diagnostic-rectification/C05/KP-03.md, bev-diagnostic-rectification/C05/KP-04.md, bev-diagnostic-rectification/C05/KT-01.md",
+        "Run: uv run pytest tests/ -k us_006 -v"
+      ],
+      "priority": "high",
+      "dependencies": [
+        "US-006"
+      ],
+      "_source": "test-story",
+      "_testType": "integration",
+      "_forStoryId": "US-006",
+      "tags": [
+        "integration",
+        "auto-generated"
+      ]
+    },
+    {
+      "title": "[Performance Test] Enhance BEV C05 supervisory content \u2014 briefing, training, SHE monitoring",
+      "description": "Write performance benchmark for the operation in US-006. Story description: Review and enhance C05 KP/KT/KK files covering workshop supervisory functions. Ensure content covers daily briefing procedures, subordinate performance monitoring, TNI/TNA for training coordination, and SHE compliance monitoring appropriate for Level 3.",
+      "acceptanceCriteria": [
+        "Performance test measures key metrics for US-006",
+        "Baseline captured and acceptable threshold defined",
+        "Test fails if response time degrades more than 20% from baseline"
+      ],
+      "technicalNotes": [
+        "Source files from US-006: bev-diagnostic-rectification/C05/KP-01.md, bev-diagnostic-rectification/C05/KP-02.md, bev-diagnostic-rectification/C05/KP-03.md, bev-diagnostic-rectification/C05/KP-04.md, bev-diagnostic-rectification/C05/KT-01.md",
+        "Run: uv run pytest tests/ -k us_006 -v"
+      ],
+      "priority": "medium",
+      "dependencies": [
+        "US-006"
+      ],
+      "_source": "test-story",
+      "_testType": "performance",
+      "_forStoryId": "US-006",
+      "tags": [
+        "performance",
         "auto-generated"
       ]
     },

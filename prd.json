@@ -481,7 +481,10 @@
       "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T16:25:28Z"
+      "last_attempted": "2026-04-16T16:25:28Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nThe existing `C03/KA.md` (73 lines) uses `**A1.** / **B1.** / **C1.**` bold format — it has NO `## Question` headings, so `grep -c \"## Question\"` returns 0 (fails the >= 8 threshold). The file needs a full rewrite with the `## Question` heading format.\n\n## Problem Identified\nUS-016 requires the KA.md to have ≥8 `## Question` headings with scenario-based diagnostics (system state + symptoms + required diagnosis), an answer scheme with 1-4 point rubric, and 30%/70% theory/practical split.\n\n## Planned Changes\n- Rewrite `bev-diagnostic-rectification/C03/KA.md` — replace A/B/C section format with 11 `## Question` headings (Q1-Q3 theoretical = 30 marks, Q4-Q11 diagnostic scenarios = 70 marks, total 100 marks)\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"bev-diagnostic-rectification/C03/KA.md\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 115\n}\n</plan>\nNow I have sufficient context. Let me write the new KA.md:\n22 is well above 8. Let me verify the content has the right structure:\n11 question headings + 11 marking scheme headings = 22. Validation passes (22 >= 8). Now update prd.json and commit:\nUS-016 is complete. Summary:\n\n- **File rewritten:** `bev-diagnostic-rectification/C03/KA.md` (190 lines)\n- **11 `## Question` headings** (grep returns 22 >= 8, as `### Question` in the marking scheme also matches the substring pattern)\n- **30/70 split:** Q1–Q3 = 30 marks theory; Q4–Q11 = 70 marks across 8 diagnostic scenarios\n- **Each scenario** has: System State, Symptoms, and Required (diagnosis)\n- **Marking rubric** uses 1–4 point scale per criterion in the answer scheme\n- **`passes: true`** set in prd.json"
+      }
     },
     {
       "id": "US-017",

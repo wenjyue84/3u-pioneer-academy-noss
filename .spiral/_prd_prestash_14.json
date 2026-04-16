@@ -144,7 +144,7 @@
         "US-002",
         "US-003"
       ],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "bev-diagnostic-rectification/C01/KT-01.md",
         "bev-diagnostic-rectification/C01/KT-02.md",
@@ -164,7 +164,11 @@
       ],
       "epicId": "E-1",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T15:59:53Z"
+      "last_attempted": "2026-04-16T16:03:21Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- C01/KT-01, KT-02, KT-03: Already well-structured with 5+ questions, 4+ formats, and detailed answer schemes \u2014 fully meet all acceptance criteria\n- C02/KT-01: Only 3 formats (MCQ, T/F, Short Answer), compact single-line answer schemes\n- C02/KT-02: Sequencing question uses bullets but answer references numbers (ambiguous)\n- C02/KT-04: **Critical bug** \u2014 S2 sequencing gives two contradictory correct orders\n- C02/KT-05: Only 3 formats (MCQ, Short Answer, T/F)\n- C02/KT-06: **Critical bug** \u2014 S6 sequencing gives two contradictory correct orders\n\n## Problem Identified\nC02 KTs have correctness issues (contradictory sequencing answers) and quality gaps (only 3 formats in KT-01/KT-05, compact answer schemes).\n\n## Planned Changes\n- C01/KT-01, KT-02, KT-03: No changes needed \u2014 already meet all criteria\n- C02/KT-01: Add a Matching question (\u2192 4 formats); expand answer scheme\n- C02/KT-02: Number sequencing steps in question to match answer scheme\n- C02/KT-03: Expand compact answer scheme for completeness\n- C02/KT-04: Fix contradictory sequencing answer (critical correctness fix)\n- C02/KT-05: Add a Matching question (\u2192 4 formats); expand answer scheme  \n- C02/KT-06: Fix contradictory sequencing answer (critical correctness fix); expand scheme\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"bev-diagnostic-rectification/C02/KT-01.md\",\n    \"bev-diagnostic-rectification/C02/KT-02.md\",\n    \"bev-diagnostic-rectification/C02/KT-03.md\",\n    \"bev-diagnostic-rectification/C02/KT-04.md\",\n    \"bev-diagnostic-rectification/C02/KT-05.md\",\n    \"bev-diagnostic-rectification/C02/KT-06.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 120\n}\n</plan>\n\nNow implementing the changes:\nNow fix the critical correctness bug in C02/KT-04 sequencing answer:\nNow fix the contradictory sequencing answer in C02/KT-06:\nNow expand the answer schemes for KT-03 and KT-05, and add a 4th format to KT-05:\nNow add a 4th format (Matching) and expand the answer scheme for C02/KT-05:\nNow expand the answer scheme for KT-06 as well:\nNow also expand the answer scheme for C02/KT-04 to make it more complete:\nGood - the KT-04 sequencing fix was already applied. Now let me expand S1, S3, S4, S5 for completeness:\nNow let's verify all files look correct:\n293 total lines changed \u2014 well within the 350-line budget. Now mark the story as passed and commit:\nUS-004 complete. Summary of what was done:\n\n**C01/KT-01, KT-02, KT-03** \u2014 No changes needed; already had 7 questions, 4\u20135 formats, and detailed answer schemes.\n\n**C02 KTs fixed:**\n- **KT-01**: Added Matching question (PPE items \u2194 specs) \u2192 now 4 formats; expanded all compact single-line answers to detailed responses with numbered points\n- **KT-02**: Clarified sequencing instruction (write 1\u20136 in brackets); rewrote answer as explicit numbered steps\n- **KT-03**: Expanded all answer schemes with full technical explanations and numbered procedures\n- **KT-04**: Fixed **critical bug** \u2014 had two contradictory correct orderings for the pre-charge sequence; correct order is: VCU request \u2192 negative contactor \u2192 pre-charge relay \u2192 capacitors charge \u2192 BMS monitors \u0394V \u2192 main positive contactor \u2192 pre-charge relay opens\n- **KT-05**: Added Matching question (cell chemistry \u2194 advantage) \u2192 now 4 formats; expanded all schemes including a 14-step battery pack removal procedure\n- **KT-06**: Fixed **critical bug** \u2014 contradictory DC-DC replacement sequence; correct order is: HV disconnection \u2192 drain coolant \u2192 disconnect HV cables \u2192 remove bolts \u2192 install new unit \u2192 reconnect coolant \u2192 test"
+      },
+      "_passedCommit": "79ea61c89dc67bc66ee24e8192bff6cddca67575"
     },
     {
       "id": "US-005",
@@ -212,7 +216,7 @@
         "KKs provide practical supervisory procedures"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "bev-diagnostic-rectification/C05/KP-01.md",
         "bev-diagnostic-rectification/C05/KP-02.md",
@@ -233,7 +237,8 @@
         "supervisory"
       ],
       "epicId": "E-1",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T16:15:18Z"
     },
     {
       "id": "US-007",
@@ -470,6 +475,48 @@
       "technicalNotes": [
         "File to create: bev-diagnostic-rectification/C03-thermal-management/KA.md",
         "Validation: grep -c \"## Question\" bev-diagnostic-rectification/C03-thermal-management/KA.md (should output >= 8)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-017",
+      "title": "Build WIM Format Compliance Validator Against Buku Panduan WIM Edisi 2020 Standards",
+      "priority": "medium",
+      "description": "Create Python validation tool that enforces Buku Panduan WIM Edisi 2020 compliance across all WIM markdown files: validates filename patterns (NOSS-Code-CU/DocCode format), required section structure (Tujuan/Objectives, Kandungan/Content, Penilaian/Assessment), table layouts, and bilingual term density. Generates JSON compliance report with violations grouped by category and file-level compliance scores.",
+      "acceptanceCriteria": [
+        "Tool _agents/wim_format_validator.py implements: (1) filename regex validation matching NOSS-Code-CU/DocCode(seq/total).md pattern, (2) heading structure check for mandatory sections (## Tujuan, ## Kandungan, ## Penilaian, ## Nota Kritis), (3) bilingual term density validation (\u22655 EN/BM pairs per 500 words)",
+        "Tool generates JSON output (_agents/wim_compliance_report.json) with fields: file_path, compliance_score (0-100), violation_count, violations (array of {type, location, suggestion}). Returns exit code 1 if any file <95% compliant or <5 BEV/Aesthetic/IT directories scanned",
+        "Recursively scans bev-diagnostic-rectification/, aesthetic-services/, it-computer-system/ and produces summary: total_files_scanned, compliant_files, at_risk_files (60-94%), non_compliant_files (<60%), with categorized violation counts by type (file_naming, missing_section, table_format, bilingual_terms)"
+      ],
+      "technicalNotes": [
+        "Files to create: _agents/wim_format_validator.py (main validator logic, ~180 lines) and _agents/wim_format_rules.json (rule definitions per Panduan)",
+        "Validation logic: (1) filename: regex ^[A-Z0-9]+-[A-Z0-9]+:[0-9]{4}-C\\d{2}/[A-Z]{2}\\(\\d+/\\d+\\)\\.md$; (2) headings: search for '## Tujuan', '## Kandungan', '## Penilaian' in order; (3) bilingual: grep -oE '(EN:|BM:|English:|Melayu:)' and count pairs",
+        "Test command: python _agents/wim_format_validator.py --path bev-diagnostic-rectification/ --output report.json --verbose 2>&1 | head -20 (should list violations by file). Validation: python _agents/wim_format_validator.py --check-all; echo $? (should return 0 if all >95% compliant)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-018",
+      "title": "Create Aesthetic C03 Knowledge Assessment with Manual Technique Competency Questions",
+      "priority": "medium",
+      "description": "Build knowledge assessment for C03 (Manual Body Massage) with 10 questions covering anatomy landmarks, massage technique selection logic, contraindication identification, and client safety. Include 3 scenario-based questions where learners analyze client conditions and recommend appropriate massage modalities with supporting justification and safety considerations.",
+      "acceptanceCriteria": [
+        "File aesthetic-services/c03-manual-body-massage/KA.md created with 10 distinct questions: 4 anatomy identification (name muscles/nerves from descriptions), 3 scenario-based technique selection (client presents with condition\u2192choose technique & justify), 2 contraindication identification, 1 safety procedure question. Each question includes answer scheme with rubric points (basic/intermediate/advanced confidence levels)",
+        "All 10 questions include bilingual key terms cross-referenced to _reference/wim-bilingual-glossary.md (e.g., 'erector spinae | otot penunjang tulang belakang', 'piriformis | otot pirifomis'). Scenario questions include 2-3 point rubric: knows correct technique, understands contraindications, justifies decision safely",
+        "All content references and validates against NOSS S960-002-3:2020 C03 CoCU knowledge requirements (muscle anatomy, technique selection criteria); anatomy references match aesthetic-services/c03-manual-body-massage/KP-02.md Anatomy & Physiology section with specific page/figure references"
+      ],
+      "technicalNotes": [
+        "File to create: aesthetic-services/c03-manual-body-massage/KA.md with structure [Q1-Q10] sections containing {Question | Scenario Context (if applicable) | Expected Answer | Rubric Points | Bilingual Terms | CoCU Reference Code}",
+        "Validate against NOSS S960-002-3:2020 C03 CoCU assessment criteria; cross-check anatomy terms against KP-02.md section headings",
+        "Test command: grep -c '^## Q' aesthetic-services/c03-manual-body-massage/KA.md (expected: 10); grep -c 'Scenario\\|case study' aesthetic-services/c03-manual-body-massage/KA.md (expected: \u22653); grep -oE 'EN:|BM:' aesthetic-services/c03-manual-body-massage/KA.md | wc -l (expected: \u226530 total terms)"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
