@@ -193,7 +193,8 @@
         "practical"
       ],
       "epicId": "E-1",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T13:21:11Z"
     },
     {
       "id": "US-006",
