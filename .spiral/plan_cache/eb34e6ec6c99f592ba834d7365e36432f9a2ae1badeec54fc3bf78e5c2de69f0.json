@@ -1,0 +1,11 @@
+{
+  "story_id": "US-020",
+  "story_title": "Implement IT Level 3 Knowledge Assessment with Competency-Based Rubrics",
+  "key_source": "ai-example|implement|it|level|medium|",
+  "stored_ts": 1776360637.2443314,
+  "plan": {
+    "story_id": "US-020",
+    "duration_s": 900,
+    "model": "unknown"
+  }
+}

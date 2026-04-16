@@ -533,7 +533,7 @@
       "passes": false,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T16:51:34Z"
+      "last_attempted": "2026-04-16T17:30:28Z"
     },
     {
       "id": "US-019",
@@ -577,9 +577,14 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T17:15:36Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- `L3-C01/KA.md` exists with old exam format (15 MCQ + 6 SA + 2 essays, no rubrics/difficulty)\n- `L3-C02/KA.md` and `L3-C03/KA.md` don't exist (empty dirs)\n- No `00-noss-extract.md`, no `tools/validate_it_ka.py`, no `tools/it_noss_mapping.yaml`\n\n## Problem Identified\nUS-020 requires KA.md files for 3 L3 CUs with competency-based format (4-6 questions, each with LO ref, difficulty L1/L2/L3, 4-point rubric 0-3, mark allocation; 40%MCQ/40%SA/20%scenario), validated by a Python script against NOSS knowledge items.\n\n## Planned Changes\n- Create `it-computer-system/00-noss-extract.md` — NOSS Related Knowledge items for CU2, CU3, CU4\n- Create `it-computer-system/L3-C02/KA.md` — CU2 Computer System Maintenance, 5 questions\n- Create `it-computer-system/L3-C03/KA.md` — CU3 Computer System Repair, 5 questions  \n- Create `it-computer-system/L3-C04/KA.md` — CU4 Server Installation, 5 questions\n- Create `tools/it_noss_mapping.yaml` — NOSS K-items to question coverage mapping\n- Create `tools/validate_it_ka.py` — validator with `L3-CU-*` → `L3-C0[2-4]` fallback\n\n<plan>\n{\n  \"files_to_create\": [\n    \"it-computer-system/00-noss-extract.md\",\n    \"it-computer-system/L3-C02/KA.md\",\n    \"it-computer-system/L3-C03/KA.md\",\n    \"it-computer-system/L3-C04/KA.md\",\n    \"tools/it_noss_mapping.yaml\",\n    \"tools/validate_it_ka.py\"\n  ],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\"find_ka_files\", \"parse_questions\", \"validate_file\", \"validate_noss_coverage\", \"main\"],\n  \"estimated_loc\": 310\n}\n</plan>\nNow run the test command:\nAll 3 files pass. Now update prd.json and document learnings:\nUS-020 is complete. Here's a summary:\n\n**Implemented:**\n- `it-computer-system/00-noss-extract.md` — NOSS Related Knowledge items for CU2, CU3, CU4\n- `it-computer-system/L3-C02/KA.md` — Computer System Maintenance (5 questions)\n- `it-computer-system/L3-C03/KA.md` — Computer System Repair (5 questions)\n- `it-computer-system/L3-C04/KA.md` — Server Installation (5 questions)\n- `tools/it_noss_mapping.yaml` — NOSS K-item to question coverage mapping\n- `tools/validate_it_ka.py` — Validator with `L3-CU-*` → `L3-C0[2-4]` fallback\n\nAll 3 KA files passed validation with the exact test command from the story spec. `passes: true` set in prd.json."
+      },
+      "_passedCommit": "391bb4d2161acabe728874c230d15044d88a32a9"
     }
   ]
 }
