@@ -530,10 +530,14 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T17:30:28Z"
+      "last_attempted": "2026-04-16T17:32:28Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nThe `aesthetic-services/c03-manual-body-massage/` directory exists but is empty. The C03 content lives in `aesthetic-services/C03/`. The story requires creating `aesthetic-services/c03-manual-body-massage/KA.md` with 10 specific questions in a structured format.\n\n## Problem Identified\nNeed to create a new KA.md with 10 questions (4 anatomy, 3 scenario-based, 2 contraindication, 1 safety), each with `## Q1..Q10` headers, bilingual terms, rubric points, and CoCU references validated against KP content.\n\n## Planned Changes\n- Create `aesthetic-services/c03-manual-body-massage/KA.md` with:\n  - 10 `## Q` sections (Q1-Q4 anatomy, Q5-Q7 scenario, Q8-Q9 contraindication, Q10 safety)\n  - Each question: Question, Expected Answer, Rubric Points (basic/intermediate/advanced), Bilingual Terms, CoCU Reference\n  - Anatomy references from KP-04.md section 8.0\n  - Contraindication references from KP-01.md section 2.0\n  - Minimum 30 EN/BM bilingual term pairs\n\n<plan>\n{\n  \"files_to_create\": [\"aesthetic-services/c03-manual-body-massage/KA.md\"],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 280\n}\n</plan>\nNow let me verify the test commands from the story:\nAll checks pass:\n- `grep -c '^## Q'` = **10** (expected: 10)\n- `grep -c 'Scenario\\|case study'` = **6** (expected: ≥3)\n- Bilingual terms `EN:|BM:` count = **128** (expected: ≥30)\n\nNow update prd.json and document learnings:\nUS-018 is complete. Here's what was implemented:\n\n**Created:** `aesthetic-services/c03-manual-body-massage/KA.md`\n\n10 questions structured as required:\n- **Q1–Q4 (Anatomy):** Back muscles (trapezius, latissimus dorsi, erector spinae, rhomboids), hamstring group, lower leg (gastrocnemius/soleus + popliteal fossa), gluteal group + piriformis\n- **Q5–Q7 (Scenario):** Office worker with chronic upper back tension, client with varicose veins + eczema, pregnant client at 20 weeks with GP clearance\n- **Q8–Q9 (Contraindications):** Classification table (DVT/wound/fever/varicose veins/bruising/cancer), warfarin + epilepsy + undiagnosed lump case\n- **Q10 (Safety):** 5 of 10 acceptable safety procedures, 2 marks each\n\nAll validation checks pass: 10 Q-headers, 6 scenario mentions, 128 bilingual term labels."
+      },
+      "_passedCommit": "802fccae233aca3a1c7a5da9a9f3ffeeaaa254a8"
     },
     {
       "id": "US-019",
