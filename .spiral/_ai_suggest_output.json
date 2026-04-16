@@ -1,69 +1,72 @@
 {
   "stories": [
     {
-      "title": "Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics",
+      "title": "Create BEV C04 Knowledge Assessment with Electric Motor Diagnostics Questions",
+      "priority": "high",
+      "description": "Build comprehensive Knowledge Assessment for BEV C04 (Electric Drive Train and Power Electronics) with 40+ MCQ and short-answer questions covering electric motor diagnostics, power electronics safety, and all Assessment Criteria from NOSS standard.",
+      "acceptanceCriteria": [
+        "KA.md contains minimum 30 MCQ questions + 10 short-answer questions covering all C04 Related Knowledge items: electric motor theory, DC/AC drive systems, power electronics, inverter operation, safety protocols for high-voltage systems",
+        "Each MCQ includes answer key, technical explanation, and difficulty level; short-answer questions include model answers and competency rubric (Novice/Competent/Advanced)",
+        "Assessment document structure matches WIM format: [G452-010-3:2023-C04]/KA([seq]/[total]) with mapping to all 12 C04 Assessment Criteria from NOSS standard"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/C04/KA.md (~200 lines, markdown format with embedded answer schemes)",
+        "Validation script: bev-diagnostic-rectification/_scripts/validate_ka_coverage.py (checks all Assessment Criteria covered)",
+        "Test command: uv run python bev-diagnostic-rectification/_scripts/validate_ka_coverage.py --doc C04/KA.md"
+      ],
+      "filesTouch": [
+        "bev-diagnostic-rectification/C04/KA.md",
+        "bev-diagnostic-rectification/_scripts/validate_ka_coverage.py"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "ai-example",
+      "passes": false,
+      "dependencies": []
+    },
+    {
+      "title": "Audit IT-020-3 Competency Unit Structure and Generate Content Scaffold",
+      "priority": "high",
+      "description": "Implement IT-020 Level 3 structure audit tool that reads existing textbook content, maps competency units, validates WIM format compliance, and generates folder scaffold with 00-noss-extract.md listing all CUs, Related Knowledge items, and Work Activities.",
+      "acceptanceCriteria": [
+        "Script audit detects all competency units in noss-it020-textbook folder and lists them with count of Related Knowledge items and Work Activities from source material",
+        "Generates it-computer-system/00-noss-extract.md with complete CU listing in WIM format (one line per CU with RK count, WA count, Assessment Criteria count)",
+        "Creates missing CU folder structure (C01/, C02/, C03/, C04/, C05/) if not present, with proper document placeholders (PM-teori.md, PM-amali.md)"
+      ],
+      "technicalNotes": [
+        "File to create: it-computer-system/_scripts/scaffold_it_cus.py (~100 lines, reads from noss-it020-textbook reference path)",
+        "Output file: it-computer-system/00-noss-extract.md (auto-generated, validates against WIM Buku Panduan format)",
+        "Test command: uv run pytest it-computer-system/_tests/test_scaffold.py::test_audit_cu_structure -v"
+      ],
+      "filesTouch": [
+        "it-computer-system/_scripts/scaffold_it_cus.py",
+        "it-computer-system/_tests/test_scaffold.py",
+        "it-computer-system/00-noss-extract.md"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "ai-example",
+      "passes": false,
+      "dependencies": []
+    },
+    {
+      "title": "Implement Aesthetic Services Bilingual Terminology Validator for Assessment Documents",
       "priority": "medium",
-      "description": "Create a comprehensive Knowledge Assessment document for BEV C03 (Thermal Management Systems) with scenario-based questions that require learners to diagnose and troubleshoot thermal cooling system failures, aligned with CoCU learning outcomes.",
+      "description": "Build Python tool to audit KA (Knowledge Assessment) and KK (Work Sheets) documents in Aesthetic module for consistent bilingual terminology (EN + BM). Tool validates against glossary and reports missing or inconsistent term pairs across all competency units.",
       "acceptanceCriteria": [
-        "Create KA.md file with minimum 8 scenario-based questions covering thermal system diagnostics, with each scenario including system state, symptoms, and required diagnosis",
-        "Include answer scheme with marking rubric (1-4 points per question) based on CoCU assessment criteria",
-        "Ensure 30% of questions test theoretical knowledge and 70% test practical diagnostic scenarios"
+        "Validator script scans all aesthetic-services/**/KA.md and /**/KK.md files, extracts technical terms (anatomy, modalities, safety concepts), and cross-checks against bilingual glossary",
+        "Glossary file (_terms-glossary.json) seeded with 50+ modality names (Ultrasound/Ultasonik, Galvanic/Galvanik, etc.), anatomy terms (deltoid/deltoid, pectoralis/pectoralis), and assessment terminology with BM translations",
+        "Validator generates audit report showing: (a) missing bilingual pairs by document, (b) inconsistent terminology usage (same term translated differently across CUs), (c) Terms lacking BM translation or marked as incomplete"
       ],
       "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/C03-thermal-management/KA.md",
-        "Validation: grep -c \"## Question\" bev-diagnostic-rectification/C03-thermal-management/KA.md (should output >= 8)"
+        "File to create: aesthetic-services/_scripts/validate_bilingual_terms.py (~120 lines, regex+JSON matching for term extraction and glossary validation)",
+        "Glossary file: aesthetic-services/_terms-glossary.json (JSON dict with EN key mapping to BM value, seeded and extensible)",
+        "Test command: uv run python aesthetic-services/_scripts/validate_bilingual_terms.py --report --output /tmp/bilingual-audit.txt && grep -c 'missing\\|inconsistent' /tmp/bilingual-audit.txt"
       ],
       "filesTouch": [
-        "bev-diagnostic-rectification/C03-thermal-management/KA.md"
+        "aesthetic-services/_scripts/validate_bilingual_terms.py",
+        "aesthetic-services/_terms-glossary.json",
+        "aesthetic-services/_tests/test_bilingual_validator.py"
       ],
-      "estimatedComplexity": "medium",
-      "_source": "ai-example",
-      "passes": false,
-      "dependencies": []
-    },
-    {
-      "title": "Create Aesthetic C01 Performance Assessment with Bilingual Client Consultation Evaluation Rubric",
-      "priority": "high",
-      "description": "Develop a Performance Assessment document for Aesthetic C01 (Client Consultation) with detailed evaluation rubrics in English and Malay, enabling assessors to evaluate learner competency in professional client interaction, needs analysis, and treatment planning.",
-      "acceptanceCriteria": [
-        "Create PA.md file with evaluation rubrics for minimum 4 key competencies (professional communication, listening, needs analysis, treatment recommendation) with 5-point scale",
-        "Include bilingual rubric descriptors (EN/BM) for each competency level with consistent terminology across all rubrics",
-        "Provide sample assessment scenario with completed rubric example demonstrating how to score learner performance"
-      ],
-      "technicalNotes": [
-        "File to create: aesthetic-services/C01-client-consultation/PA.md",
-        "Validation: grep -c \"BM:\" aesthetic-services/C01-client-consultation/PA.md (should be >= 20 for bilingual consistency)"
-      ],
-      "filesTouch": [
-        "aesthetic-services/C01-client-consultation/PA.md"
-      ],
-      "estimatedComplexity": "medium",
-      "_source": "ai-example",
-      "passes": false,
-      "dependencies": []
-    },
-    {
-      "title": "Create IT-020-3 System Security Knowledge Points and Assessment for C01",
-      "priority": "high",
-      "description": "Develop Knowledge Point documents for IT-020 Level 3, Competency Unit C01 (System Security Fundamentals), covering authentication, access control, and encryption, with corresponding Assignment Sheet and Knowledge Assessment aligned with NOSS CoCU.",
-      "acceptanceCriteria": [
-        "Create 3 KP files (KP-01: User Authentication, KP-02: Access Control, KP-03: Encryption Basics) with technical depth and practical examples from industry standards",
-        "Create KT assignment sheet (KT-01) with 4 questions testing knowledge from all 3 KPs with answer schemes",
-        "Create KA knowledge assessment with minimum 8 questions covering system security fundamentals with marking rubric and answer schemes"
-      ],
-      "technicalNotes": [
-        "Files to create: it-computer-system/C01-system-security/KP-01.md, KP-02.md, KP-03.md, KT-01.md, KA.md",
-        "Validation: find it-computer-system/C01-system-security -name \"KP-*.md\" | wc -l (should equal 3)",
-        "Test: grep -c \"# Question\" it-computer-system/C01-system-security/KA.md (should be >= 8)"
-      ],
-      "filesTouch": [
-        "it-computer-system/C01-system-security/KP-01.md",
-        "it-computer-system/C01-system-security/KP-02.md",
-        "it-computer-system/C01-system-security/KP-03.md",
-        "it-computer-system/C01-system-security/KT-01.md",
-        "it-computer-system/C01-system-security/KA.md"
-      ],
-      "estimatedComplexity": "medium",
+      "estimatedComplexity": "small",
       "_source": "ai-example",
       "passes": false,
       "dependencies": []

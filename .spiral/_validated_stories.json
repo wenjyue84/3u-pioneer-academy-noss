@@ -1,29 +1,6 @@
 {
   "stories": [
     {
-      "title": "Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics",
-      "priority": "medium",
-      "description": "Create a comprehensive Knowledge Assessment document for BEV C03 (Thermal Management Systems) with scenario-based questions that require learners to diagnose and troubleshoot thermal cooling system failures, aligned with CoCU learning outcomes.",
-      "acceptanceCriteria": [
-        "Create KA.md file with minimum 8 scenario-based questions covering thermal system diagnostics, with each scenario including system state, symptoms, and required diagnosis",
-        "Include answer scheme with marking rubric (1-4 points per question) based on CoCU assessment criteria",
-        "Ensure 30% of questions test theoretical knowledge and 70% test practical diagnostic scenarios"
-      ],
-      "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/C03-thermal-management/KA.md",
-        "Validation: grep -c \"## Question\" bev-diagnostic-rectification/C03-thermal-management/KA.md (should output >= 8)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "bev-diagnostic-rectification/C03-thermal-management/KA.md"
-      ],
-      "_source": "ai-example",
-      "passes": false
-    },
-    {
       "title": "[Integration Test] Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
       "priority": "high",
       "description": "Write integration tests for the feature implemented in US-001. Story description: Review and enhance BEV C01 KP-01~03 Information Sheets for technical accuracy. Verify HV safety content matches OSHA 1994, EQA 1974, and manufacturer standards. Ensure PPE specifications (Class 0, CAT-III) are correctly detailed with proper Malaysian regulatory references.",
@@ -152,6 +129,32 @@
       "_source": "test-story",
       "_testType": "integration",
       "_forStoryId": "US-007"
+    },
+    {
+      "title": "[Integration Test] Enhance Aesthetic C03 KP — manual body massage techniques and anatomy",
+      "priority": "high",
+      "description": "Write integration tests for the feature implemented in US-008. Story description: Review and enhance C03 Manual Body Massage KP files. Ensure accurate coverage of 5 classical massage movements (effleurage, petrissage, tapotement, vibration, friction), body mechanics, massage medium selection, and relevant anatomy/physiology.",
+      "acceptanceCriteria": [
+        "Integration tests exist covering the core behaviour of US-008",
+        "Tests cover the happy path and at least one error/edge case",
+        "Tests run without requiring external services or manual setup"
+      ],
+      "technicalNotes": [
+        "Source files from US-008: aesthetic-services/C03/KP-01.md, aesthetic-services/C03/KP-02.md, aesthetic-services/C03/KP-03.md, aesthetic-services/C03/KP-04.md, aesthetic-services/C03/KP-05.md",
+        "Run: uv run pytest tests/ -k us_008 -v"
+      ],
+      "dependencies": [
+        "US-008"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "integration",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "integration",
+      "_forStoryId": "US-008"
     }
   ]
 }

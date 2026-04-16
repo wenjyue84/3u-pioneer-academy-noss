@@ -25,7 +25,7 @@
   "userStories": [
     {
       "id": "US-001",
-      "title": "Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
+      "title": "Enhance BEV C01 KP technical depth \u2014 HV safety procedures and PPE specifications",
       "description": "Review and enhance BEV C01 KP-01~03 Information Sheets for technical accuracy. Verify HV safety content matches OSHA 1994, EQA 1974, and manufacturer standards. Ensure PPE specifications (Class 0, CAT-III) are correctly detailed with proper Malaysian regulatory references.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -56,7 +56,7 @@
     },
     {
       "id": "US-002",
-      "title": "Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory",
+      "title": "Enhance BEV C02 KP \u2014 BMS components, HV cable, OBC, battery pack theory",
       "description": "Review and enhance BEV C02 KP-01~06 covering Battery Management System rectification theory. Ensure accurate technical content for HV cable replacement, OBC, pre-charge control, traction battery pack, and DC-DC converter. Add diagrams descriptions, component specifications, and failure mode analysis.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -88,13 +88,13 @@
       ],
       "last_attempted": "2026-04-16T13:04:23Z",
       "_phaseI": {
-        "diagnosisBlock": "## Current State\nAll 6 KP files have solid base content but are missing:\n- KP-01: Safety glasses spec is `DIN EN166` (should be `MS ISO 16321`), no BMS component theory overview, no failure modes section\n- KP-02: No failure modes table for HV cables, no prominent WARNING callout\n- KP-03: No OBC component specs table, safety section lacks WARNING callout\n- KP-04: No failure modes table, no prominent WARNING callout\n- KP-05: No explicit failure modes table\n- KP-06: Failure symptoms listed as prose, needs proper table format\n\n## Problem Identified\nAcceptance criteria require: (1) BMS component theory, (2) component specs + failure modes in each KP, (3) prominent HV safety warnings.\n\n## Planned Changes\n- KP-01: Fix DIN EN166 → MS ISO 16321, add WARNING callout, add BMS component overview table, add failure modes table (~25 lines)\n- KP-02: Add WARNING callout, add HV cable failure modes table (~15 lines)\n- KP-03: Add WARNING callout, add OBC specs table (~15 lines)\n- KP-04: Add WARNING callout, add failure modes table (~12 lines)\n- KP-05: Add WARNING callout, add battery pack failure modes table (~12 lines)\n- KP-06: Add WARNING callout, convert symptoms to failure modes table (~12 lines)\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"bev-diagnostic-rectification/C02/KP-01.md\",\n    \"bev-diagnostic-rectification/C02/KP-02.md\",\n    \"bev-diagnostic-rectification/C02/KP-03.md\",\n    \"bev-diagnostic-rectification/C02/KP-04.md\",\n    \"bev-diagnostic-rectification/C02/KP-05.md\",\n    \"bev-diagnostic-rectification/C02/KP-06.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 90\n}\n</plan>\nNow add a BMS component overview table after the learning objectives section:\nNow add a failure modes section to KP-02:\nNow enhance KP-03 (OBC) with WARNING callout and specs table:\nNow enhance KP-04 (Pre-Charge):\nNow enhance KP-05 (Traction Battery Pack):\nNow enhance KP-06 (DC-DC Converter):\nNow verify the diff size is within limits:\n104 lines total — well within budget. All 3 acceptance criteria are met:\n1. BMS component theory — KP-01 adds overview table; all files cover component theory\n2. Specs + failure modes — added in each file\n3. HV safety warnings — `> **AMARAN / WARNING:**` callout added to all 6 files\n\nNow mark story as complete and commit:\nNow document learnings in progress.txt:\n**US-002 complete.** Summary of what was done:\n\n- **104 lines** added across 6 files (vs. 261,809 in the failed attempt)\n- **KP-01**: Fixed `DIN EN166` → `MS ISO 16321`, added BMS component overview table with BM terms/failure modes, added `AMARAN/WARNING` callout\n- **KP-02**: Added `AMARAN/WARNING` callout, added HV cable/connector failure modes table\n- **KP-03**: Added `AMARAN/WARNING` callout, added OBC component specifications table\n- **KP-04**: Added `AMARAN/WARNING` callout, added pre-charge system failure modes table\n- **KP-05**: Added `AMARAN/WARNING` callout with thermal runaway warning, added battery pack failure modes table\n- **KP-06**: Added `AMARAN/WARNING` callout, converted prose failure symptoms to structured failure modes table\n\nAll 3 acceptance criteria met. `passes: true` set in prd.json."
+        "diagnosisBlock": "## Current State\nAll 6 KP files have solid base content but are missing:\n- KP-01: Safety glasses spec is `DIN EN166` (should be `MS ISO 16321`), no BMS component theory overview, no failure modes section\n- KP-02: No failure modes table for HV cables, no prominent WARNING callout\n- KP-03: No OBC component specs table, safety section lacks WARNING callout\n- KP-04: No failure modes table, no prominent WARNING callout\n- KP-05: No explicit failure modes table\n- KP-06: Failure symptoms listed as prose, needs proper table format\n\n## Problem Identified\nAcceptance criteria require: (1) BMS component theory, (2) component specs + failure modes in each KP, (3) prominent HV safety warnings.\n\n## Planned Changes\n- KP-01: Fix DIN EN166 \u2192 MS ISO 16321, add WARNING callout, add BMS component overview table, add failure modes table (~25 lines)\n- KP-02: Add WARNING callout, add HV cable failure modes table (~15 lines)\n- KP-03: Add WARNING callout, add OBC specs table (~15 lines)\n- KP-04: Add WARNING callout, add failure modes table (~12 lines)\n- KP-05: Add WARNING callout, add battery pack failure modes table (~12 lines)\n- KP-06: Add WARNING callout, convert symptoms to failure modes table (~12 lines)\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"bev-diagnostic-rectification/C02/KP-01.md\",\n    \"bev-diagnostic-rectification/C02/KP-02.md\",\n    \"bev-diagnostic-rectification/C02/KP-03.md\",\n    \"bev-diagnostic-rectification/C02/KP-04.md\",\n    \"bev-diagnostic-rectification/C02/KP-05.md\",\n    \"bev-diagnostic-rectification/C02/KP-06.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 90\n}\n</plan>\nNow add a BMS component overview table after the learning objectives section:\nNow add a failure modes section to KP-02:\nNow enhance KP-03 (OBC) with WARNING callout and specs table:\nNow enhance KP-04 (Pre-Charge):\nNow enhance KP-05 (Traction Battery Pack):\nNow enhance KP-06 (DC-DC Converter):\nNow verify the diff size is within limits:\n104 lines total \u2014 well within budget. All 3 acceptance criteria are met:\n1. BMS component theory \u2014 KP-01 adds overview table; all files cover component theory\n2. Specs + failure modes \u2014 added in each file\n3. HV safety warnings \u2014 `> **AMARAN / WARNING:**` callout added to all 6 files\n\nNow mark story as complete and commit:\nNow document learnings in progress.txt:\n**US-002 complete.** Summary of what was done:\n\n- **104 lines** added across 6 files (vs. 261,809 in the failed attempt)\n- **KP-01**: Fixed `DIN EN166` \u2192 `MS ISO 16321`, added BMS component overview table with BM terms/failure modes, added `AMARAN/WARNING` callout\n- **KP-02**: Added `AMARAN/WARNING` callout, added HV cable/connector failure modes table\n- **KP-03**: Added `AMARAN/WARNING` callout, added OBC component specifications table\n- **KP-04**: Added `AMARAN/WARNING` callout, added pre-charge system failure modes table\n- **KP-05**: Added `AMARAN/WARNING` callout with thermal runaway warning, added battery pack failure modes table\n- **KP-06**: Added `AMARAN/WARNING` callout, converted prose failure symptoms to structured failure modes table\n\nAll 3 acceptance criteria met. `passes: true` set in prd.json."
       },
       "_passedCommit": "8014757c8c1d6bc311652fe409699b53ae50b136"
     },
     {
       "id": "US-003",
-      "title": "Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory",
+      "title": "Enhance BEV C03-C04 KP \u2014 thermal cooling and electric drive train theory",
       "description": "Review and enhance KP files for C03 (Thermal Cooling System) and C04 (Electric Drive Train). Ensure accurate content on liquid cooling systems, HVAC for BEV, inverter units, traction motors, transaxle, and brake control systems.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -124,13 +124,13 @@
       "model": "sonnet",
       "last_attempted": "2026-04-16T13:12:24Z",
       "_phaseI": {
-        "diagnosisBlock": "## Current State\nAll 8 KP files exist with good base content but lack:\n- WARNING callouts (established pattern from US-001/002)\n- Failure modes tables (established pattern from US-002)\n- Troubleshooting depth for C03\n- Inverter FOC theory, motor regenerative braking theory for C04\n- Bilingual terms (BM) in C04 files\n\n## Problem Identified\nUS-003 requires enhancing C03 (thermal cooling) KPs with troubleshooting content and C04 (electric drive train) KPs with deeper architecture, inverter/motor theory, and regenerative braking content.\n\n## Planned Changes\n- C03/KP-01: Add WARNING callout for dielectric coolant + HV electric pump hazards\n- C03/KP-02: Add WARNING callout + liquid cooling failure modes table (5 rows)\n- C03/KP-03: Add WARNING callout + HVAC failure modes table + heat pump note\n- C04/KP-01: Add CU heading + WARNING callout + bilingual terms\n- C04/KP-02: Add WARNING callout + inverter specifications table (switching freq, efficiency)\n- C04/KP-03: Add WARNING callout + motor failure modes table + regenerative braking theory\n- C04/KP-04: Add WARNING callout + e-axle architecture note + transaxle failure modes table\n- C04/KP-05: Add WARNING callout + regenerative-friction blending explanation\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"bev-diagnostic-rectification/C03/KP-01.md\",\n    \"bev-diagnostic-rectification/C03/KP-02.md\",\n    \"bev-diagnostic-rectification/C03/KP-03.md\",\n    \"bev-diagnostic-rectification/C04/KP-01.md\",\n    \"bev-diagnostic-rectification/C04/KP-02.md\",\n    \"bev-diagnostic-rectification/C04/KP-03.md\",\n    \"bev-diagnostic-rectification/C04/KP-04.md\",\n    \"bev-diagnostic-rectification/C04/KP-05.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 140\n}\n</plan>\n\nNow implementing surgical additions to all 8 files:\nNow C04 files:\nNow verify the diff size:\n136 lines total — well within budget. Now mark the story as passed and commit:\nUS-003 complete. Here's what was added across 8 files (136 lines of content, 185 total with prd.json/progress.txt):\n\n**C03 (Thermal Cooling):**\n- `KP-01`: HV WARNING + dielectric coolant awareness section (BM: *cecair penyejuk dielektrik*)\n- `KP-02`: HV WARNING + cooling failure modes table (pump, hose, tank, thermostat, radiator, temp sensor)\n- `KP-03`: HV compressor WARNING + heat pump theory (BM: *sistem pam haba*) + HVAC failure modes table\n\n**C04 (Electric Drive Train):**\n- `KP-01`: CU heading fix + WARNING callout + BM bilingual terms for motor/inverter/transaxle\n- `KP-02`: Capacitor discharge WARNING (10min + 60V verify) + FOC/Vector Control theory + inverter specs table\n- `KP-03`: Back-EMF WARNING + regenerative braking theory with limitation conditions + motor failure modes table\n- `KP-04`: Heavy HV e-axle WARNING + transaxle failure modes table\n- `KP-05`: Safety-critical WARNING + regenerative-friction blending table (6 operating conditions)"
+        "diagnosisBlock": "## Current State\nAll 8 KP files exist with good base content but lack:\n- WARNING callouts (established pattern from US-001/002)\n- Failure modes tables (established pattern from US-002)\n- Troubleshooting depth for C03\n- Inverter FOC theory, motor regenerative braking theory for C04\n- Bilingual terms (BM) in C04 files\n\n## Problem Identified\nUS-003 requires enhancing C03 (thermal cooling) KPs with troubleshooting content and C04 (electric drive train) KPs with deeper architecture, inverter/motor theory, and regenerative braking content.\n\n## Planned Changes\n- C03/KP-01: Add WARNING callout for dielectric coolant + HV electric pump hazards\n- C03/KP-02: Add WARNING callout + liquid cooling failure modes table (5 rows)\n- C03/KP-03: Add WARNING callout + HVAC failure modes table + heat pump note\n- C04/KP-01: Add CU heading + WARNING callout + bilingual terms\n- C04/KP-02: Add WARNING callout + inverter specifications table (switching freq, efficiency)\n- C04/KP-03: Add WARNING callout + motor failure modes table + regenerative braking theory\n- C04/KP-04: Add WARNING callout + e-axle architecture note + transaxle failure modes table\n- C04/KP-05: Add WARNING callout + regenerative-friction blending explanation\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"bev-diagnostic-rectification/C03/KP-01.md\",\n    \"bev-diagnostic-rectification/C03/KP-02.md\",\n    \"bev-diagnostic-rectification/C03/KP-03.md\",\n    \"bev-diagnostic-rectification/C04/KP-01.md\",\n    \"bev-diagnostic-rectification/C04/KP-02.md\",\n    \"bev-diagnostic-rectification/C04/KP-03.md\",\n    \"bev-diagnostic-rectification/C04/KP-04.md\",\n    \"bev-diagnostic-rectification/C04/KP-05.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 140\n}\n</plan>\n\nNow implementing surgical additions to all 8 files:\nNow C04 files:\nNow verify the diff size:\n136 lines total \u2014 well within budget. Now mark the story as passed and commit:\nUS-003 complete. Here's what was added across 8 files (136 lines of content, 185 total with prd.json/progress.txt):\n\n**C03 (Thermal Cooling):**\n- `KP-01`: HV WARNING + dielectric coolant awareness section (BM: *cecair penyejuk dielektrik*)\n- `KP-02`: HV WARNING + cooling failure modes table (pump, hose, tank, thermostat, radiator, temp sensor)\n- `KP-03`: HV compressor WARNING + heat pump theory (BM: *sistem pam haba*) + HVAC failure modes table\n\n**C04 (Electric Drive Train):**\n- `KP-01`: CU heading fix + WARNING callout + BM bilingual terms for motor/inverter/transaxle\n- `KP-02`: Capacitor discharge WARNING (10min + 60V verify) + FOC/Vector Control theory + inverter specs table\n- `KP-03`: Back-EMF WARNING + regenerative braking theory with limitation conditions + motor failure modes table\n- `KP-04`: Heavy HV e-axle WARNING + transaxle failure modes table\n- `KP-05`: Safety-critical WARNING + regenerative-friction blending table (6 operating conditions)"
       },
       "_passedCommit": "a5654c139ee9ff264c8b83dc520781fd0e9c85e8"
     },
     {
       "id": "US-004",
-      "title": "Enhance BEV KT question quality — varied formats with answer schemes",
+      "title": "Enhance BEV KT question quality \u2014 varied formats with answer schemes",
       "description": "Review all BEV KT (Assignment Sheet) files across C01-C05. Ensure each has minimum 5 questions with varied formats (MCQ with 4 options, T/F with justification, short answer, matching, diagram labeling). Verify answer schemes are complete and accurate.",
       "priority": "medium",
       "acceptanceCriteria": [
@@ -167,7 +167,7 @@
     },
     {
       "id": "US-005",
-      "title": "Enhance BEV KK practical procedures — step-by-step accuracy and safety checklists",
+      "title": "Enhance BEV KK practical procedures \u2014 step-by-step accuracy and safety checklists",
       "description": "Review all BEV KK (Work Sheet) files. Ensure step-by-step procedures are technically accurate for HV work. Verify PPE requirements, safety precautions, equipment lists, and assessment checklists (process/output/attitude/safety/environment) are complete.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -177,7 +177,7 @@
         "Procedures follow logical sequence for HV work"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "bev-diagnostic-rectification/C01/KK-01.md",
         "bev-diagnostic-rectification/C01/KK-02.md",
@@ -194,11 +194,15 @@
       ],
       "epicId": "E-1",
       "model": "sonnet",
-      "last_attempted": "2026-04-16T13:21:11Z"
+      "last_attempted": "2026-04-16T13:26:01Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nC01 KK files have complete tables, all 5 assessment domains, and numbered safety precautions \u2014 but use DIN EN166 (European) instead of MS ISO 16321 (Malaysian) for safety glasses. C02 KK files use compact single-line equipment lists (not tables), lack numbered safety precautions in KK-02/KK-03, have no 5-domain assessment structure, C02/KK-01 Step 2 is a placeholder, and C02/KK-03 uses `**AMARAN:**` instead of `**AMARAN / WARNING:**`.\n\n## Problem Identified\nAcceptance criteria require: complete equipment/material tables, safety precautions prominently before procedures, assessment checklists with all 5 domains (Process/Output/Attitude/Safety/Environment), and logical HV work sequence.\n\n## Planned Changes\n- **C01/KK-01, KK-02, KK-03**: Fix safety glasses spec from `DIN EN166` \u2192 `MS ISO 16321 / ANSI Z87.1`\n- **C02/KK-01**: Expand inline equipment text to structured tables; fill in Step 2 PPE procedure (currently a placeholder); restructure checklist with 5 domains + Remarks column\n- **C02/KK-02**: Expand inline equipment text to structured tables; add numbered safety precautions list; restructure checklist with 5 domains + Remarks column\n- **C02/KK-03**: Expand inline equipment text to structured tables; fix `AMARAN:` \u2192 `AMARAN / WARNING:`; add numbered safety precautions; restructure checklist with 5 domains + Remarks column\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"bev-diagnostic-rectification/C01/KK-01.md\",\n    \"bev-diagnostic-rectification/C01/KK-02.md\",\n    \"bev-diagnostic-rectification/C01/KK-03.md\",\n    \"bev-diagnostic-rectification/C02/KK-01.md\",\n    \"bev-diagnostic-rectification/C02/KK-02.md\",\n    \"bev-diagnostic-rectification/C02/KK-03.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 140\n}\n</plan>\n\nNow executing the plan:\nNow expand C02/KK-01 equipment section, fix Step 2 placeholder, and restructure checklist:\nNow update C02/KK-02 \u2014 expand equipment, add safety precautions list, restructure checklist:\nNow update C02/KK-03 \u2014 expand equipment, fix AMARAN format, add safety precautions, restructure checklist:\nNow let's verify the changes are correct:\nThe story file changes total ~253 lines, well within budget. Let me do a quick content check on the key changes:\nChanges look correct. Now mark story as passes and commit:\n310 total lines, under the ~400 guard. Committing:\nUS-005 complete. Summary of changes:\n\n**C01/KK-01, KK-02, KK-03**: Fixed safety glasses spec `DIN EN166` \u2192 `MS ISO 16321 / ANSI Z87.1` (consistent with KP file fixes).\n\n**C02/KK-01**: Expanded inline equipment lists to structured tables (Tools, Safety Equipment, PPE); expanded the placeholder Step 2 (`2.1-2.5 (Same thorough procedure...)`) to 5 full numbered steps; restructured assessment checklist to 5-domain format with Remarks column.\n\n**C02/KK-02**: Expanded inline equipment lists to tables with PPE specs; added 7 numbered safety precautions after the WARNING callout; restructured checklist to 5 domains.\n\n**C02/KK-03**: Expanded inline equipment lists to tables; fixed `**AMARAN:**` \u2192 `**AMARAN / WARNING:**`; added numbered safety precautions including SW305 coolant waste guidance; restructured checklist to 5 domains with ENVIRONMENT item for scheduled waste."
+      },
+      "_passedCommit": "4a09c4dc18187cf5a72e6a25eb82c7b575e2e9c9"
     },
     {
       "id": "US-006",
-      "title": "Enhance BEV C05 supervisory content — briefing, training, SHE monitoring",
+      "title": "Enhance BEV C05 supervisory content \u2014 briefing, training, SHE monitoring",
       "description": "Review and enhance C05 KP/KT/KK files covering workshop supervisory functions. Ensure content covers daily briefing procedures, subordinate performance monitoring, TNI/TNA for training coordination, and SHE compliance monitoring appropriate for Level 3.",
       "priority": "medium",
       "acceptanceCriteria": [
@@ -232,7 +236,7 @@
     },
     {
       "id": "US-007",
-      "title": "Enhance Aesthetic C01-C02 KP — body consultation and thermal therapy theory",
+      "title": "Enhance Aesthetic C01-C02 KP \u2014 body consultation and thermal therapy theory",
       "description": "Review and enhance Aesthetic C01 (Body Consultation) and C02 (Body Thermal Therapy) KP files. Ensure accurate anatomy/physiology content, BMI calculation methods, body type classification, skin analysis techniques, contraindications, and thermal therapy modalities.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -241,7 +245,7 @@
         "All content includes proper bilingual terms"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "aesthetic-services/C01/KP-01.md",
         "aesthetic-services/C01/KP-02.md",
@@ -263,11 +267,15 @@
         "technical"
       ],
       "epicId": "E-2",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T13:38:24Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nAll 12 KP files exist with good base content. Key gaps:\n- No AMARAN/WARNING callouts (established pattern from BEV iterations)\n- Body wrap (*balutan badan*) modality missing from C02/KP-05 (referenced in C01 but never described)\n- C01/KP-03 lacks Waist-Hip Ratio (WHR) measurement and skinfold calliper sites table\n- C02/KP-05 lacks per-modality contraindications table\n- C02 files lighter on bilingual terms vs C01\n\n## Problem Identified\nUS-007 acceptance criteria require accurate consultation technique/BMI/body typing coverage (C01), thermal modalities with safety/contraindications (C02), and proper bilingual terms throughout.\n\n## Planned Changes\n- **C01/KP-01**: Add AMARAN/WARNING callout in hygiene section\n- **C01/KP-03**: Add AMARAN callout + WHR measurement section + skinfold calliper sites table\n- **C02/KP-01**: Add AMARAN callout + thermal therapy overview table with bilingual terms  \n- **C02/KP-02**: Add AMARAN callout for electrical equipment safety\n- **C02/KP-05**: Add body wrap modality (2.6) + per-modality contraindications table\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"aesthetic-services/C01/KP-01.md\",\n    \"aesthetic-services/C01/KP-03.md\",\n    \"aesthetic-services/C02/KP-01.md\",\n    \"aesthetic-services/C02/KP-02.md\",\n    \"aesthetic-services/C02/KP-05.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 95\n}\n</plan>\nNow enhance C01/KP-03 with AMARAN callout, WHR section, and calliper skinfold sites table:\nNow enhance C02/KP-01 with AMARAN and bilingual thermal terms:\nNow enhance C02/KP-02 with AMARAN for electrical safety:\nNow enhance C02/KP-05 with body wrap modality and per-modality contraindications table:\nNow add the per-modality contraindications table to C02/KP-05 section 4.0:\nNow verify all changes look correct:\n100 lines of changes across 5 target KP files \u2014 well within the 350-line budget. Let me verify the content is correct:\nThe content looks correct. Now update prd.json and document learnings:\nNow append to progress.txt:\nNow commit:\nUS-007 complete. Summary of what was done:\n\n**5 files enhanced surgically (~100 lines added):**\n\n- **C01/KP-01** \u2014 AMARAN/WARNING callout for disinfectant hazards; magnifying lamp usage detail (3\u20135\u00d7 magnification, positioning, skin features to assess)\n- **C01/KP-03** \u2014 AMARAN callout before contraindications; calliper skinfold sites table (triceps, subscapular, suprailiac, abdominal with positions); new WHR section (formula + women/men risk classification table); section 9.3\u21929.4 renumbering\n- **C02/KP-01** \u2014 AMARAN callout for thermal contraindication screening; thermal modalities overview table (6 modalities with bilingual terms including body wrap)\n- **C02/KP-02** \u2014 AMARAN callout for electrical safety (RCD \u226430mA, wet environment, cable inspection)\n- **C02/KP-05** \u2014 Body wrap (*balutan badan*) as modality 2.6 (previously missing \u2014 referenced in C01 but never described); body wrap procedure + product types table; restructured section 4.0 with per-modality contraindications table for all 6 modalities"
+      }
     },
     {
       "id": "US-008",
-      "title": "Enhance Aesthetic C03 KP — manual body massage techniques and anatomy",
+      "title": "Enhance Aesthetic C03 KP \u2014 manual body massage techniques and anatomy",
       "description": "Review and enhance C03 Manual Body Massage KP files. Ensure accurate coverage of 5 classical massage movements (effleurage, petrissage, tapotement, vibration, friction), body mechanics, massage medium selection, and relevant anatomy/physiology.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -276,7 +284,7 @@
         "Contraindications list is comprehensive"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "aesthetic-services/C03/KP-01.md",
         "aesthetic-services/C03/KP-02.md",
@@ -292,11 +300,16 @@
         "technical"
       ],
       "epicId": "E-2",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T13:47:39Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nC03 has 6 KP files. KP-04 covers all 5 classical movements but lacks hand position detail and an anatomy section. KP-01 has contraindications but missing some conditions (anticoagulants, intoxication, local/systemic distinction). No AMARAN/WARNING callouts in any C03 files (unlike C01/C02 pattern).\n\n## Problem Identified\n1. Anatomy references missing \u2014 no coverage of major muscle groups, superficial fascia, lymphatic/circulatory pathways for massage therapy\n2. Contraindications in KP-01 need expansion to be comprehensive\n3. Classical movements need enhanced hand position and technique detail\n4. Missing AMARAN/WARNING callouts (inconsistent with established codebase pattern)\n\n## Planned Changes\n- KP-01: AMARAN/WARNING + local/systemic distinction + expanded absolute contraindications\n- KP-02: AMARAN/WARNING for allergy/cross-contamination risk  \n- KP-03: AMARAN/WARNING for client safety\n- KP-04: AMARAN/WARNING + hand position detail per movement + anatomy section (major muscle groups per region + physiological effects table)\n- KP-05: AMARAN/WARNING callout\n- KP-06: AMARAN/WARNING callout\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"aesthetic-services/C03/KP-01.md\",\n    \"aesthetic-services/C03/KP-02.md\",\n    \"aesthetic-services/C03/KP-03.md\",\n    \"aesthetic-services/C03/KP-04.md\",\n    \"aesthetic-services/C03/KP-05.md\",\n    \"aesthetic-services/C03/KP-06.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 95\n}\n</plan>\nNow the key enhancement for KP-04 \u2014 add hand position details to each movement and add an anatomy section:\nNow add the anatomy section to KP-04 before the References:\nNow verify the diff size and quality:\n159 total lines \u2014 well within budget. Now mark story as passing and commit:\nUS-008 complete. Here's what was delivered:\n\n**KP-01** \u2014 Contraindications restructured into 3 tiers (systemic/absolute, local area-only, relative) with 10 absolute contraindications including anticoagulants, alcohol intoxication, and psychosis \u2014 previously missing from the list.\n\n**KP-04** \u2014 The main enhancement:\n- All 5 classical movements now include **hand position** detail (palm flat, ulnar border, knuckle, fingertip, etc.)\n- Tapotement now has a sub-type table (hacking, cupping, beating, pounding, tapping) with hand positions and suitable areas\n- New **Section 8.0 Anatomy** added with:\n  - Major muscle groups per body region (8 regions)\n  - Physiological effects table (6 systems: circulatory, lymphatic, muscular, nervous, integumentary, skeletal)\n  - Anatomical landmarks to avoid (popliteal fossa, femoral triangle, kidney region, carotid triangle, etc.)\n\n**KP-02/03/05/06** \u2014 AMARAN/WARNING callouts added to match the established pattern from C01/C02 files."
+      },
+      "_passedCommit": "ef484fb9ddeb3e4fc3e25d0e195aeead4d01d4e3"
     },
     {
       "id": "US-009",
-      "title": "Enhance Aesthetic C04 KP — electrotherapy modalities (6 types) with safety",
+      "title": "Enhance Aesthetic C04 KP \u2014 electrotherapy modalities (6 types) with safety",
       "description": "Review and enhance C04 Body Electrotherapy KP-01~10. This is the largest CU covering 6 electrotherapy types: faradic/EMS, galvanic, vacuum suction, mechanical/gyratory massage, high frequency, and micro-current. Ensure accurate electrical principles, machine specifications, treatment parameters, and contraindications.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -326,11 +339,12 @@
         "technical"
       ],
       "epicId": "E-2",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T13:59:54Z"
     },
     {
       "id": "US-012",
-      "title": "Enhance Aesthetic KK practical procedures — treatment techniques and hygiene",
+      "title": "Enhance Aesthetic KK practical procedures \u2014 treatment techniques and hygiene",
       "description": "Review Aesthetic KK files for treatment procedure accuracy. Ensure proper client preparation, treatment sequence, hygiene/sterilization steps, PPE usage, and assessment checklists are complete.",
       "priority": "high",
       "acceptanceCriteria": [
@@ -411,6 +425,26 @@
         "File to create: bev-diagnostic-rectification/CU-05/PA.md (use markdown tables for rubrics, numbered scenarios with clear answer schemes and mark guidance)",
         "Validation: grep -c 'Scenario [0-9]' bev-diagnostic-rectification/CU-05/PA.md to confirm minimum 20 scenarios; verify total marks via grep '= [0-9]* marks' sum to 100",
         "Test alignment: grep 'CoCU C05' bev-diagnostic-rectification/CU-05/PA.md to confirm all competencies reference specific CoCU C05 supervisor competency sections"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-016",
+      "title": "Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics",
+      "priority": "medium",
+      "description": "Create a comprehensive Knowledge Assessment document for BEV C03 (Thermal Management Systems) with scenario-based questions that require learners to diagnose and troubleshoot thermal cooling system failures, aligned with CoCU learning outcomes.",
+      "acceptanceCriteria": [
+        "Create KA.md file with minimum 8 scenario-based questions covering thermal system diagnostics, with each scenario including system state, symptoms, and required diagnosis",
+        "Include answer scheme with marking rubric (1-4 points per question) based on CoCU assessment criteria",
+        "Ensure 30% of questions test theoretical knowledge and 70% test practical diagnostic scenarios"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/C03-thermal-management/KA.md",
+        "Validation: grep -c \"## Question\" bev-diagnostic-rectification/C03-thermal-management/KA.md (should output >= 8)"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",

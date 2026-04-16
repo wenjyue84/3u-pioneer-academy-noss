@@ -118,5 +118,29 @@
       "integration",
       "auto-generated"
     ]
+  },
+  {
+    "title": "[Integration Test] Enhance Aesthetic C03 KP \u2014 manual body massage techniques and anatomy",
+    "description": "Write integration tests for the feature implemented in US-008. Story description: Review and enhance C03 Manual Body Massage KP files. Ensure accurate coverage of 5 classical massage movements (effleurage, petrissage, tapotement, vibration, friction), body mechanics, massage medium selection, and relevant anatomy/physiology.",
+    "acceptanceCriteria": [
+      "Integration tests exist covering the core behaviour of US-008",
+      "Tests cover the happy path and at least one error/edge case",
+      "Tests run without requiring external services or manual setup"
+    ],
+    "technicalNotes": [
+      "Source files from US-008: aesthetic-services/C03/KP-01.md, aesthetic-services/C03/KP-02.md, aesthetic-services/C03/KP-03.md, aesthetic-services/C03/KP-04.md, aesthetic-services/C03/KP-05.md",
+      "Run: uv run pytest tests/ -k us_008 -v"
+    ],
+    "priority": "high",
+    "dependencies": [
+      "US-008"
+    ],
+    "_source": "test-story",
+    "_testType": "integration",
+    "_forStoryId": "US-008",
+    "tags": [
+      "integration",
+      "auto-generated"
+    ]
   }
 ]
