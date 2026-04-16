@@ -70,5 +70,53 @@
       "integration",
       "auto-generated"
     ]
+  },
+  {
+    "title": "[Integration Test] Enhance BEV KK practical procedures \u2014 step-by-step accuracy and safety checklists",
+    "description": "Write integration tests for the feature implemented in US-005. Story description: Review all BEV KK (Work Sheet) files. Ensure step-by-step procedures are technically accurate for HV work. Verify PPE requirements, safety precautions, equipment lists, and assessment checklists (process/output/attitude/safety/environment) are complete.",
+    "acceptanceCriteria": [
+      "Integration tests exist covering the core behaviour of US-005",
+      "Tests cover the happy path and at least one error/edge case",
+      "Tests run without requiring external services or manual setup"
+    ],
+    "technicalNotes": [
+      "Source files from US-005: bev-diagnostic-rectification/C01/KK-01.md, bev-diagnostic-rectification/C01/KK-02.md, bev-diagnostic-rectification/C01/KK-03.md, bev-diagnostic-rectification/C02/KK-01.md, bev-diagnostic-rectification/C02/KK-02.md",
+      "Run: uv run pytest tests/ -k us_005 -v"
+    ],
+    "priority": "high",
+    "dependencies": [
+      "US-005"
+    ],
+    "_source": "test-story",
+    "_testType": "integration",
+    "_forStoryId": "US-005",
+    "tags": [
+      "integration",
+      "auto-generated"
+    ]
+  },
+  {
+    "title": "[Integration Test] Enhance Aesthetic C01-C02 KP \u2014 body consultation and thermal therapy theory",
+    "description": "Write integration tests for the feature implemented in US-007. Story description: Review and enhance Aesthetic C01 (Body Consultation) and C02 (Body Thermal Therapy) KP files. Ensure accurate anatomy/physiology content, BMI calculation methods, body type classification, skin analysis techniques, contraindications, and thermal therapy modalities.",
+    "acceptanceCriteria": [
+      "Integration tests exist covering the core behaviour of US-007",
+      "Tests cover the happy path and at least one error/edge case",
+      "Tests run without requiring external services or manual setup"
+    ],
+    "technicalNotes": [
+      "Source files from US-007: aesthetic-services/C01/KP-01.md, aesthetic-services/C01/KP-02.md, aesthetic-services/C01/KP-03.md, aesthetic-services/C01/KP-04.md, aesthetic-services/C01/KP-05.md",
+      "Run: uv run pytest tests/ -k us_007 -v"
+    ],
+    "priority": "high",
+    "dependencies": [
+      "US-007"
+    ],
+    "_source": "test-story",
+    "_testType": "integration",
+    "_forStoryId": "US-007",
+    "tags": [
+      "integration",
+      "auto-generated"
+    ]
   }
 ]

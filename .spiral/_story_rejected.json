@@ -1,79 +1,53 @@
 {
   "stories": [
     {
-      "title": "Create BEV C03-C04 Knowledge Assessment (KA) with Varied Question Types and Answer Schemes",
-      "priority": "medium",
-      "description": "Develop comprehensive Knowledge Assessment documents for BEV Competency Units C03 (Thermal Cooling Systems) and C04 (Electric Drive Train) following JPK Buku Panduan WIM Edisi 2020. Each KA must include 25-30 questions with varied formats (MCQ 40%, structured answer 35%, practical scenario 25%), integrated answer schemes, and bilingual terminology.",
-      "acceptanceCriteria": [
-        "KA.md created for C03 with 25-30 questions covering thermal cooling systems, categorized by question type with clear answer schemes and marking rubrics",
-        "KA.md created for C04 with 25-30 questions covering electric drive train, categorized by question type with clear answer schemes and marking rubrics",
-        "All questions map to specific Related Knowledge items from bev-diagnostic-rectification/00-noss-extract.md; bilingual (EN/BM) terminology consistent with existing KP documents"
-      ],
-      "technicalNotes": [
-        "File to reference: bev-diagnostic-rectification/00-noss-extract.md (extract Related Knowledge items for C03/C04 scope)",
-        "Create files: bev-diagnostic-rectification/C03/KA.md, bev-diagnostic-rectification/C04/KA.md",
-        "Test command: grep -E '^### Question|^Answer:|^Rubric:' bev-diagnostic-rectification/C03/KA.md | wc -l (verify document structure has minimum expected questions and rubrics)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "bev-diagnostic-rectification/C03/KA.md",
-        "bev-diagnostic-rectification/C04/KA.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Develop Aesthetic C02 Assignment Sheets (KT-01 to KT-03) with Integrated Grading Rubrics",
-      "priority": "medium",
-      "description": "Create three Assignment Sheets (KT documents) for Aesthetic Services C02 (body consultation and thermal therapy), aligned to KP content. Each sheet includes practical tasks, submission requirements, 4-level grading rubrics (Excellent/Good/Satisfactory/Unsatisfactory), and cross-references to related theory. All instructions bilingual (EN + BM).",
-      "acceptanceCriteria": [
-        "Create KT-01.md (body consultation assessment), KT-02.md (thermal therapy technique application), KT-03.md (treatment planning case study) under aesthetic-services/C02/",
-        "Each KT includes: task objectives, detailed bilingual instructions, assessment criteria, and 4-point grading rubric with observable evidence descriptors",
-        "All three KT documents include metadata cross-references linking to specific KP-01 and KP-02 theory sections (e.g., 'Based on KP-01: Body Analysis Techniques')"
-      ],
-      "technicalNotes": [
-        "File to reference: aesthetic-services/C02/KP-01.md, aesthetic-services/C02/KP-02.md (for creating cross-reference mappings)",
-        "Create files: aesthetic-services/C02/KT-01.md, aesthetic-services/C02/KT-02.md, aesthetic-services/C02/KT-03.md",
-        "Test command: grep -c '\\[KP Reference:' aesthetic-services/C02/KT-*.md (verify each file has valid KP cross-reference; expect count ≥ 3)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "small",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "aesthetic-services/C02/KT-01.md",
-        "aesthetic-services/C02/KT-02.md",
-        "aesthetic-services/C02/KT-03.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Audit IT-020 Bilingual Terminology Across All CU Documents and Create Master Glossary with Consistency Report",
+      "title": "Create Aesthetic C01 Performance Assessment with Bilingual Client Consultation Evaluation Rubric",
       "priority": "high",
-      "description": "Conduct systematic audit of all IT-020 Computer System Management CU documents (C03, C04, C05) to extract technical terminology, map to standard Malay (BM) equivalents using Malaysian IT industry standards, and identify consistency issues. Deliver master glossary (minimum 80 terms) and validation report highlighting multiple translations and missing equivalents.",
+      "description": "Develop a Performance Assessment document for Aesthetic C01 (Client Consultation) with detailed evaluation rubrics in English and Malay, enabling assessors to evaluate learner competency in professional client interaction, needs analysis, and treatment planning.",
       "acceptanceCriteria": [
-        "Extract all unique English technical terms from it-computer-system/C03/KP-*.md, C04/KP-*.md, C05/KP-*.md; create IT-020-bilingual-glossary.md with columns: English Term, Malay Equivalent, Definition, Usage Example, CU Reference (minimum 80 terms)",
-        "Generate terminology-validation-report.md listing: (a) English terms with multiple conflicting BM translations (flag inconsistencies), (b) English terms missing BM equivalents, (c) BM terms not aligned with standard Malaysian IT terminology",
-        "Glossary format validated: each entry properly formatted as markdown table row with all 5 columns populated; all BM equivalents verified against MySPIKE or official Malaysian IT industry glossaries"
+        "Create PA.md file with evaluation rubrics for minimum 4 key competencies (professional communication, listening, needs analysis, treatment recommendation) with 5-point scale",
+        "Include bilingual rubric descriptors (EN/BM) for each competency level with consistent terminology across all rubrics",
+        "Provide sample assessment scenario with completed rubric example demonstrating how to score learner performance"
       ],
       "technicalNotes": [
-        "File to create: it-computer-system/_docs/IT-020-bilingual-glossary.md, it-computer-system/_docs/terminology-validation-report.md",
-        "Extraction command: grep -oE '\\b[A-Z][a-z]+(\\s+[A-Z][a-z]+)*\\b' it-computer-system/C{3,5}/KP-*.md | sort | uniq -c | sort -rn (identify candidate technical terms)",
-        "Test command: grep -E '^\\|.*\\|.*\\|.*\\|.*\\|' it-computer-system/_docs/IT-020-bilingual-glossary.md | wc -l (verify minimum 80 complete glossary entries with all 5 columns)"
+        "File to create: aesthetic-services/C01-client-consultation/PA.md",
+        "Validation: grep -c \"BM:\" aesthetic-services/C01-client-consultation/PA.md (should be >= 20 for bilingual consistency)"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "it-computer-system/_docs/IT-020-bilingual-glossary.md",
-        "it-computer-system/_docs/terminology-validation-report.md"
+        "aesthetic-services/C01-client-consultation/PA.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Create IT-020-3 System Security Knowledge Points and Assessment for C01",
+      "priority": "high",
+      "description": "Develop Knowledge Point documents for IT-020 Level 3, Competency Unit C01 (System Security Fundamentals), covering authentication, access control, and encryption, with corresponding Assignment Sheet and Knowledge Assessment aligned with NOSS CoCU.",
+      "acceptanceCriteria": [
+        "Create 3 KP files (KP-01: User Authentication, KP-02: Access Control, KP-03: Encryption Basics) with technical depth and practical examples from industry standards",
+        "Create KT assignment sheet (KT-01) with 4 questions testing knowledge from all 3 KPs with answer schemes",
+        "Create KA knowledge assessment with minimum 8 questions covering system security fundamentals with marking rubric and answer schemes"
+      ],
+      "technicalNotes": [
+        "Files to create: it-computer-system/C01-system-security/KP-01.md, KP-02.md, KP-03.md, KT-01.md, KA.md",
+        "Validation: find it-computer-system/C01-system-security -name \"KP-*.md\" | wc -l (should equal 3)",
+        "Test: grep -c \"# Question\" it-computer-system/C01-system-security/KA.md (should be >= 8)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "it-computer-system/C01-system-security/KP-01.md",
+        "it-computer-system/C01-system-security/KP-02.md",
+        "it-computer-system/C01-system-security/KP-03.md",
+        "it-computer-system/C01-system-security/KT-01.md",
+        "it-computer-system/C01-system-security/KA.md"
       ],
       "_source": "ai-example",
       "passes": false,

@@ -1,6 +1,29 @@
 {
   "stories": [
     {
+      "title": "Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics",
+      "priority": "medium",
+      "description": "Create a comprehensive Knowledge Assessment document for BEV C03 (Thermal Management Systems) with scenario-based questions that require learners to diagnose and troubleshoot thermal cooling system failures, aligned with CoCU learning outcomes.",
+      "acceptanceCriteria": [
+        "Create KA.md file with minimum 8 scenario-based questions covering thermal system diagnostics, with each scenario including system state, symptoms, and required diagnosis",
+        "Include answer scheme with marking rubric (1-4 points per question) based on CoCU assessment criteria",
+        "Ensure 30% of questions test theoretical knowledge and 70% test practical diagnostic scenarios"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/C03-thermal-management/KA.md",
+        "Validation: grep -c \"## Question\" bev-diagnostic-rectification/C03-thermal-management/KA.md (should output >= 8)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "bev-diagnostic-rectification/C03-thermal-management/KA.md"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
       "title": "[Integration Test] Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
       "priority": "high",
       "description": "Write integration tests for the feature implemented in US-001. Story description: Review and enhance BEV C01 KP-01~03 Information Sheets for technical accuracy. Verify HV safety content matches OSHA 1994, EQA 1974, and manufacturer standards. Ensure PPE specifications (Class 0, CAT-III) are correctly detailed with proper Malaysian regulatory references.",
@@ -77,6 +100,58 @@
       "_source": "test-story",
       "_testType": "integration",
       "_forStoryId": "US-003"
+    },
+    {
+      "title": "[Integration Test] Enhance BEV KK practical procedures — step-by-step accuracy and safety checklists",
+      "priority": "high",
+      "description": "Write integration tests for the feature implemented in US-005. Story description: Review all BEV KK (Work Sheet) files. Ensure step-by-step procedures are technically accurate for HV work. Verify PPE requirements, safety precautions, equipment lists, and assessment checklists (process/output/attitude/safety/environment) are complete.",
+      "acceptanceCriteria": [
+        "Integration tests exist covering the core behaviour of US-005",
+        "Tests cover the happy path and at least one error/edge case",
+        "Tests run without requiring external services or manual setup"
+      ],
+      "technicalNotes": [
+        "Source files from US-005: bev-diagnostic-rectification/C01/KK-01.md, bev-diagnostic-rectification/C01/KK-02.md, bev-diagnostic-rectification/C01/KK-03.md, bev-diagnostic-rectification/C02/KK-01.md, bev-diagnostic-rectification/C02/KK-02.md",
+        "Run: uv run pytest tests/ -k us_005 -v"
+      ],
+      "dependencies": [
+        "US-005"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "integration",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "integration",
+      "_forStoryId": "US-005"
+    },
+    {
+      "title": "[Integration Test] Enhance Aesthetic C01-C02 KP — body consultation and thermal therapy theory",
+      "priority": "high",
+      "description": "Write integration tests for the feature implemented in US-007. Story description: Review and enhance Aesthetic C01 (Body Consultation) and C02 (Body Thermal Therapy) KP files. Ensure accurate anatomy/physiology content, BMI calculation methods, body type classification, skin analysis techniques, contraindications, and thermal therapy modalities.",
+      "acceptanceCriteria": [
+        "Integration tests exist covering the core behaviour of US-007",
+        "Tests cover the happy path and at least one error/edge case",
+        "Tests run without requiring external services or manual setup"
+      ],
+      "technicalNotes": [
+        "Source files from US-007: aesthetic-services/C01/KP-01.md, aesthetic-services/C01/KP-02.md, aesthetic-services/C01/KP-03.md, aesthetic-services/C01/KP-04.md, aesthetic-services/C01/KP-05.md",
+        "Run: uv run pytest tests/ -k us_007 -v"
+      ],
+      "dependencies": [
+        "US-007"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "integration",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "integration",
+      "_forStoryId": "US-007"
     }
   ]
 }
