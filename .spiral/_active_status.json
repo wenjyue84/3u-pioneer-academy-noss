@@ -1,8 +1,8 @@
 {
   "phase": "I",
-  "iteration": 14,
-  "started_at": 1776356725,
+  "iteration": 15,
+  "started_at": 1776357728,
   "pct_done": 60,
-  "story_id": "US-016",
-  "story_title": "Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics"
+  "story_id": "US-017",
+  "story_title": "Build WIM Format Compliance Validator Against Buku Panduan WIM Edisi 2020 Standards"
 }

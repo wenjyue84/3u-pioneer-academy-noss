@@ -1,55 +1,6 @@
 {
   "stories": [
     {
-      "title": "Build WIM Format Compliance Validator Against Buku Panduan WIM Edisi 2020 Standards",
-      "priority": "medium",
-      "description": "Create Python validation tool that enforces Buku Panduan WIM Edisi 2020 compliance across all WIM markdown files: validates filename patterns (NOSS-Code-CU/DocCode format), required section structure (Tujuan/Objectives, Kandungan/Content, Penilaian/Assessment), table layouts, and bilingual term density. Generates JSON compliance report with violations grouped by category and file-level compliance scores.",
-      "acceptanceCriteria": [
-        "Tool _agents/wim_format_validator.py implements: (1) filename regex validation matching NOSS-Code-CU/DocCode(seq/total).md pattern, (2) heading structure check for mandatory sections (## Tujuan, ## Kandungan, ## Penilaian, ## Nota Kritis), (3) bilingual term density validation (≥5 EN/BM pairs per 500 words)",
-        "Tool generates JSON output (_agents/wim_compliance_report.json) with fields: file_path, compliance_score (0-100), violation_count, violations (array of {type, location, suggestion}). Returns exit code 1 if any file <95% compliant or <5 BEV/Aesthetic/IT directories scanned",
-        "Recursively scans bev-diagnostic-rectification/, aesthetic-services/, it-computer-system/ and produces summary: total_files_scanned, compliant_files, at_risk_files (60-94%), non_compliant_files (<60%), with categorized violation counts by type (file_naming, missing_section, table_format, bilingual_terms)"
-      ],
-      "technicalNotes": [
-        "Files to create: _agents/wim_format_validator.py (main validator logic, ~180 lines) and _agents/wim_format_rules.json (rule definitions per Panduan)",
-        "Validation logic: (1) filename: regex ^[A-Z0-9]+-[A-Z0-9]+:[0-9]{4}-C\\d{2}/[A-Z]{2}\\(\\d+/\\d+\\)\\.md$; (2) headings: search for '## Tujuan', '## Kandungan', '## Penilaian' in order; (3) bilingual: grep -oE '(EN:|BM:|English:|Melayu:)' and count pairs",
-        "Test command: python _agents/wim_format_validator.py --path bev-diagnostic-rectification/ --output report.json --verbose 2>&1 | head -20 (should list violations by file). Validation: python _agents/wim_format_validator.py --check-all; echo $? (should return 0 if all >95% compliant)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "_agents/wim_format_validator.py",
-        "_agents/wim_format_rules.json"
-      ],
-      "_source": "ai-example",
-      "passes": false
-    },
-    {
-      "title": "Create Aesthetic C03 Knowledge Assessment with Manual Technique Competency Questions",
-      "priority": "medium",
-      "description": "Build knowledge assessment for C03 (Manual Body Massage) with 10 questions covering anatomy landmarks, massage technique selection logic, contraindication identification, and client safety. Include 3 scenario-based questions where learners analyze client conditions and recommend appropriate massage modalities with supporting justification and safety considerations.",
-      "acceptanceCriteria": [
-        "File aesthetic-services/c03-manual-body-massage/KA.md created with 10 distinct questions: 4 anatomy identification (name muscles/nerves from descriptions), 3 scenario-based technique selection (client presents with condition→choose technique & justify), 2 contraindication identification, 1 safety procedure question. Each question includes answer scheme with rubric points (basic/intermediate/advanced confidence levels)",
-        "All 10 questions include bilingual key terms cross-referenced to _reference/wim-bilingual-glossary.md (e.g., 'erector spinae | otot penunjang tulang belakang', 'piriformis | otot pirifomis'). Scenario questions include 2-3 point rubric: knows correct technique, understands contraindications, justifies decision safely",
-        "All content references and validates against NOSS S960-002-3:2020 C03 CoCU knowledge requirements (muscle anatomy, technique selection criteria); anatomy references match aesthetic-services/c03-manual-body-massage/KP-02.md Anatomy & Physiology section with specific page/figure references"
-      ],
-      "technicalNotes": [
-        "File to create: aesthetic-services/c03-manual-body-massage/KA.md with structure [Q1-Q10] sections containing {Question | Scenario Context (if applicable) | Expected Answer | Rubric Points | Bilingual Terms | CoCU Reference Code}",
-        "Validate against NOSS S960-002-3:2020 C03 CoCU assessment criteria; cross-check anatomy terms against KP-02.md section headings",
-        "Test command: grep -c '^## Q' aesthetic-services/c03-manual-body-massage/KA.md (expected: 10); grep -c 'Scenario\\|case study' aesthetic-services/c03-manual-body-massage/KA.md (expected: ≥3); grep -oE 'EN:|BM:' aesthetic-services/c03-manual-body-massage/KA.md | wc -l (expected: ≥30 total terms)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "aesthetic-services/c03-manual-body-massage/KA.md"
-      ],
-      "_source": "ai-example",
-      "passes": false
-    },
-    {
       "title": "[Integration Test] Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
       "priority": "high",
       "description": "Write integration tests for the feature implemented in US-001. Story description: Review and enhance BEV C01 KP-01~03 Information Sheets for technical accuracy. Verify HV safety content matches OSHA 1994, EQA 1974, and manufacturer standards. Ensure PPE specifications (Class 0, CAT-III) are correctly detailed with proper Malaysian regulatory references.",
@@ -384,6 +335,30 @@
       "_source": "test-story",
       "_testType": "performance",
       "_forStoryId": "US-015"
+    },
+    {
+      "title": "[Regression Test] Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics",
+      "priority": "medium",
+      "description": "Write regression test to guard against future breakage of US-016. Story description: Create a comprehensive Knowledge Assessment document for BEV C03 (Thermal Management Systems) with scenario-based questions that require learners to diagnose and troubleshoot thermal cooling system failures, aligned with CoCU learning outcomes.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-016",
+        "Test would reliably fail if the US-016 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_016 -v"
+      ],
+      "dependencies": [
+        "US-016"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-016"
     }
   ]
 }
