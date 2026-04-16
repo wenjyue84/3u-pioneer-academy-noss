@@ -402,3 +402,19 @@ Completed: Enhance Aesthetic KK practical procedures — treatment techniques an
 ## Iteration 1 - Thu, Apr 16, 2026 11:31:55 PM
 Completed: Create BEV C01-C02 Knowledge Assessments with Integrated Answer Schemes (ID: US-013) in 5m
 
+
+## Story US-014 — Build Aesthetic Services Bilingual Terminology Glossary with Consistency Validator
+
+### What was implemented
+- aesthetic-services/00-aesthetic-terminology.md: 137 EN/BM term pairs across 5 categories (anatomy 27, treatment modalities 28, equipment 24, hygiene & infection control 26, assessment & client consultation 25) with pronunciation guides for all BM technical terms
+- _agents/validate-aesthetic-terms.py: ~170-line Python validator using regex to parse glossary table rows, extract inline BM translations from KP files, detect multi-translation inconsistencies, generate CSV report; exits 0 on pass, 1 on fail
+
+### Patterns discovered
+- Inline BM translations in KP files use (*italic*) format immediately after the EN term — e.g. "body thermal therapy (*terapi haba badan*)" — this is the standard pattern to match with regex
+- Glossary table parser must strip bold markers (**), split on ( to ignore parenthetical notes in EN column, and skip header/separator rows
+- 137 term pairs found, some inconsistencies exist in existing KP files (e.g. jangkitan silang vs canonical Kontaminasi silang for cross-contamination) — these are correctly flagged by the validator
+
+### Gotchas
+- Glossary entries with parenthetical qualifiers like "Contraindication (absolute)" and "Contraindication (relative)" both parse as "contraindication" after splitting on ( — results in last-write-wins for canonical BM term. Avoid duplicate EN root terms in the glossary or use distinct EN roots
+- Very short terms (< 5 chars) should be skipped in the validator to avoid false-positive matches
+- Windows: open() must use encoding='utf-8' — prd.json and .md files contain unicode characters
