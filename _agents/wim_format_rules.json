@@ -1,0 +1,42 @@
+{
+  "wim_code_pattern": "^[A-Z][A-Z0-9]+(?:-[A-Z0-9]+)*:[0-9]{4}-C\\d{2}/[A-Z]{2}(?:\\(\\d+/\\d+\\))?$",
+  "required_headings": {
+    "tujuan": [
+      "^##\\s+Tujuan",
+      "^##\\s+Objektif"
+    ],
+    "kandungan": [
+      "^##\\s+Kandungan",
+      "^##\\s+\\d+\\.",
+      "^##\\s+[A-Z].*(?:Content|Isi)"
+    ],
+    "penilaian": [
+      "^##\\s+Penilaian",
+      "^##\\s+(?:SECTION|Section)\\s+[A-Z]",
+      "^##\\s+Assessment",
+      "^##\\s+Markah"
+    ],
+    "nota_kritis": [
+      "^##\\s+Nota Kritis",
+      "^##\\s+Critical Note",
+      "^##\\s+PERINGATAN",
+      "^##\\s+Catatan"
+    ]
+  },
+  "heading_weights": {
+    "tujuan": 12,
+    "kandungan": 13,
+    "penilaian": 12,
+    "nota_kritis": 13
+  },
+  "file_coding_weight": 20,
+  "bilingual_density_weight": 30,
+  "bilingual_density": {
+    "min_pairs_per_500_words": 5
+  },
+  "compliance_thresholds": {
+    "compliant": 95,
+    "at_risk_min": 60
+  },
+  "min_directories_required": 5
+}
