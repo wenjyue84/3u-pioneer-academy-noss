@@ -1,70 +1,92 @@
 {
   "stories": [
     {
-      "title": "Create BEV C04 Knowledge Assessment with Electric Motor Diagnostics Questions",
+      "title": "Generate BEV C05 Knowledge Sheets for Supervisory and Safety Management",
       "priority": "high",
-      "description": "Build comprehensive Knowledge Assessment for BEV C04 (Electric Drive Train and Power Electronics) with 40+ MCQ and short-answer questions covering electric motor diagnostics, power electronics safety, and all Assessment Criteria from NOSS standard.",
+      "description": "Create complete KP (Knowledge Sheets) and KT (Assignment Sheets) for BEV C05 Supervisory and Safety Management competency unit. Extract 12-15 Related Knowledge items from NOSS C05 CoCU and develop 4 knowledge sheets covering: (1) Team Briefing and Safety Culture, (2) SHE Monitoring and Hazard Management, (3) Training Supervision and Competency Verification, (4) Performance Documentation and Compliance. Each KP includes related knowledge statements, learning outcomes, and bilingual terminology. Each KT provides 5-8 questions (MCQ, short answer, scenario-based) with answer schemes.",
       "acceptanceCriteria": [
-        "KA.md contains minimum 30 MCQ questions + 10 short-answer questions covering all C04 Related Knowledge items: electric motor theory, DC/AC drive systems, power electronics, inverter operation, safety protocols for high-voltage systems",
-        "Each MCQ includes answer key, technical explanation, and difficulty level; short-answer questions include model answers and competency rubric (Novice/Competent/Advanced)",
-        "Assessment document structure matches WIM format: [G452-010-3:2023-C04]/KA([seq]/[total]) with mapping to all 12 C04 Assessment Criteria from NOSS standard"
+        "All 12-15 NOSS C05 Related Knowledge items extracted and mapped to KP sheets (coverage verified in bev-diagnostic-rectification/C05/coverage-index.md)",
+        "4 KP files created following JPK format with terminology tables, learning outcomes, and technical depth: KP-01-team-briefing.md, KP-02-she-monitoring.md, KP-03-training-supervision.md, KP-04-documentation.md",
+        "4 corresponding KT assignment files with varied question types, answer schemes, and rubric scales (0-10 points per question)"
       ],
       "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/C04/KA.md (~200 lines, markdown format with embedded answer schemes)",
-        "Validation script: bev-diagnostic-rectification/_scripts/validate_ka_coverage.py (checks all Assessment Criteria covered)",
-        "Test command: uv run python bev-diagnostic-rectification/_scripts/validate_ka_coverage.py --doc C04/KA.md"
+        "File to read: bev-diagnostic-rectification/00-noss-extract.md (locate C05 Related Knowledge section)",
+        "Files to create: bev-diagnostic-rectification/C05/KP-01.md through KP-04.md (~400 words each), KT-01.md through KT-04.md (~500 words each)",
+        "Test command: uv run python _agents/validate-format.py --subject bev --cu C05 --check-coverage",
+        "Validation: Confirm all EN/BM terminology pairs match master glossary via terminology-validator.py"
       ],
       "filesTouch": [
-        "bev-diagnostic-rectification/C04/KA.md",
-        "bev-diagnostic-rectification/_scripts/validate_ka_coverage.py"
+        "bev-diagnostic-rectification/C05/KP-01-team-briefing.md",
+        "bev-diagnostic-rectification/C05/KP-02-she-monitoring.md",
+        "bev-diagnostic-rectification/C05/KP-03-training-supervision.md",
+        "bev-diagnostic-rectification/C05/KP-04-documentation.md",
+        "bev-diagnostic-rectification/C05/KT-01.md",
+        "bev-diagnostic-rectification/C05/KT-02.md",
+        "bev-diagnostic-rectification/C05/KT-03.md",
+        "bev-diagnostic-rectification/C05/KT-04.md",
+        "bev-diagnostic-rectification/C05/coverage-index.md"
       ],
-      "estimatedComplexity": "small",
+      "estimatedComplexity": "medium",
       "_source": "ai-example",
       "passes": false,
       "dependencies": []
     },
     {
-      "title": "Audit IT-020-3 Competency Unit Structure and Generate Content Scaffold",
+      "title": "Bootstrap IT-020 Level 3 WIM Structure with Core System Administration Competency Units",
       "priority": "high",
-      "description": "Implement IT-020 Level 3 structure audit tool that reads existing textbook content, maps competency units, validates WIM format compliance, and generates folder scaffold with 00-noss-extract.md listing all CUs, Related Knowledge items, and Work Activities.",
+      "description": "Initialize IT Computer System Management Level 3 WIM documents by extracting NOSS CoCU requirements from source material (noss-it020-textbook/) and creating foundational structure for first 2 competency units (C01: System Architecture & Concepts; C02: Operating System Fundamentals). Establish NOSS extraction document, complete KP/KT/KK coverage for both units, create IT-specific bilingual glossary (30+ technical terms), and define folder structure for future L4/L5 expansion.",
       "acceptanceCriteria": [
-        "Script audit detects all competency units in noss-it020-textbook folder and lists them with count of Related Knowledge items and Work Activities from source material",
-        "Generates it-computer-system/00-noss-extract.md with complete CU listing in WIM format (one line per CU with RK count, WA count, Assessment Criteria count)",
-        "Creates missing CU folder structure (C01/, C02/, C03/, C04/, C05/) if not present, with proper document placeholders (PM-teori.md, PM-amali.md)"
+        "NOSS extraction document (it-computer-system/00-noss-extract.md) containing C01-C02 Learning Outcomes, 8+ Related Knowledge items per CU, 3+ Work Activities per CU formatted per JPK standard",
+        "4 KP files created (2 per CU) with technical depth covering networking, OS architecture, system administration concepts, each with learning outcomes and bilingual terminology",
+        "Folder structure complete: C01/PM-teori.md, C01/KP-01-02.md, C01/KT-01-02.md, C01/KK-01-03.md (practical procedures), mirrored for C02"
       ],
       "technicalNotes": [
-        "File to create: it-computer-system/_scripts/scaffold_it_cus.py (~100 lines, reads from noss-it020-textbook reference path)",
-        "Output file: it-computer-system/00-noss-extract.md (auto-generated, validates against WIM Buku Panduan format)",
-        "Test command: uv run pytest it-computer-system/_tests/test_scaffold.py::test_audit_cu_structure -v"
+        "File to read: C:\\Users\\Jyue\\Documents\\1-projects\\noss-it020-textbook\\ (extract NOSS CoCU for L3, identify Learning Outcomes and Work Activities)",
+        "Files to create: it-computer-system/00-noss-extract.md (~800 words), C01/KP-01.md, C01/KP-02.md, C01/KT-01.md, C01/KT-02.md, C01/KK-01.md-03.md, C02/* (mirrored structure)",
+        "Test command: uv run python _agents/validate-format.py --subject it --level 3 --cu C01,C02 --check-work-activities",
+        "Verification: Map all 3+ Work Activities from NOSS to KK files, all Related Knowledge to KP files"
       ],
       "filesTouch": [
-        "it-computer-system/_scripts/scaffold_it_cus.py",
-        "it-computer-system/_tests/test_scaffold.py",
-        "it-computer-system/00-noss-extract.md"
+        "it-computer-system/00-noss-extract.md",
+        "it-computer-system/C01/PM-teori.md",
+        "it-computer-system/C01/KP-01-system-architecture.md",
+        "it-computer-system/C01/KP-02-concepts-fundamentals.md",
+        "it-computer-system/C01/KT-01.md",
+        "it-computer-system/C01/KT-02.md",
+        "it-computer-system/C01/KK-01-02-03.md",
+        "it-computer-system/C02/PM-teori.md",
+        "it-computer-system/C02/KP-01-os-fundamentals.md",
+        "it-computer-system/C02/KP-02-os-management.md",
+        "it-computer-system/C02/KT-01.md",
+        "it-computer-system/C02/KT-02.md",
+        "it-computer-system/C02/KK-01-02.md",
+        "it-computer-system/_reference/it-l3-glossary.md"
       ],
-      "estimatedComplexity": "small",
+      "estimatedComplexity": "medium",
       "_source": "ai-example",
       "passes": false,
       "dependencies": []
     },
     {
-      "title": "Implement Aesthetic Services Bilingual Terminology Validator for Assessment Documents",
+      "title": "Build Cross-Subject Bilingual Terminology Validator and Master Glossary Database",
       "priority": "medium",
-      "description": "Build Python tool to audit KA (Knowledge Assessment) and KK (Work Sheets) documents in Aesthetic module for consistent bilingual terminology (EN + BM). Tool validates against glossary and reports missing or inconsistent term pairs across all competency units.",
+      "description": "Create Python validator script and master glossary database to ensure EN/BM bilingual terminology consistency across all WIM subjects (BEV, Aesthetic, IT). Script scans all KP files, extracts terminology tables, validates against master glossary, identifies duplicates and conflicts, and generates audit report with auto-correction suggestions. Master glossary consolidates 80+ approved government-standard BM terms (MySPIKE source) and industry-specific EN equivalents organized by domain with conflict resolution rules.",
       "acceptanceCriteria": [
-        "Validator script scans all aesthetic-services/**/KA.md and /**/KK.md files, extracts technical terms (anatomy, modalities, safety concepts), and cross-checks against bilingual glossary",
-        "Glossary file (_terms-glossary.json) seeded with 50+ modality names (Ultrasound/Ultasonik, Galvanic/Galvanik, etc.), anatomy terms (deltoid/deltoid, pectoralis/pectoralis), and assessment terminology with BM translations",
-        "Validator generates audit report showing: (a) missing bilingual pairs by document, (b) inconsistent terminology usage (same term translated differently across CUs), (c) Terms lacking BM translation or marked as incomplete"
+        "Validator script (_agents/terminology-validator.py) reads all KP files across 3 subjects, extracts EN/BM pairs, outputs CSV report with columns [Term, Expected_EN, Expected_BM, Found_Variants, Consistency_Status, Suggested_Fix]",
+        "Master glossary (_reference/master-glossary.md) contains 80+ EN/BM pairs organized by domain (electrical, mechanical, health&safety, business management), includes MySPIKE references and conflict resolution notes",
+        "Validator identifies 3 classes of issues: (1) Missing BM translations, (2) Inconsistent BM spelling across subjects, (3) Deprecated terms; generates actionable repair suggestions"
       ],
       "technicalNotes": [
-        "File to create: aesthetic-services/_scripts/validate_bilingual_terms.py (~120 lines, regex+JSON matching for term extraction and glossary validation)",
-        "Glossary file: aesthetic-services/_terms-glossary.json (JSON dict with EN key mapping to BM value, seeded and extensible)",
-        "Test command: uv run python aesthetic-services/_scripts/validate_bilingual_terms.py --report --output /tmp/bilingual-audit.txt && grep -c 'missing\\|inconsistent' /tmp/bilingual-audit.txt"
+        "File to create: _agents/terminology-validator.py (~160 lines) - regex parser for KP markdown tables, glossary lookup, report generator",
+        "File to create: _reference/master-glossary.md (~300 lines) - embedded CSV with term metadata, source attribution, approval status",
+        "Test command: uv run python _agents/terminology-validator.py --subjects bev,aesthetic,it --output reports/terminology-audit-2026-04-16.csv",
+        "Integration: Script callable from .spiral/ test framework for automated consistency checks on each commit"
       ],
       "filesTouch": [
-        "aesthetic-services/_scripts/validate_bilingual_terms.py",
-        "aesthetic-services/_terms-glossary.json",
-        "aesthetic-services/_tests/test_bilingual_validator.py"
+        "_agents/terminology-validator.py",
+        "_reference/master-glossary.md",
+        "tests/test_terminology_validator.py",
+        "reports/terminology-audit-2026-04-16.csv"
       ],
       "estimatedComplexity": "small",
       "_source": "ai-example",

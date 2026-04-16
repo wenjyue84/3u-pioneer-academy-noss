@@ -155,6 +155,32 @@
       "_source": "test-story",
       "_testType": "integration",
       "_forStoryId": "US-008"
+    },
+    {
+      "title": "[Integration Test] Enhance Aesthetic C04 KP — electrotherapy modalities (6 types) with safety",
+      "priority": "high",
+      "description": "Write integration tests for the feature implemented in US-009. Story description: Review and enhance C04 Body Electrotherapy KP-01~10. This is the largest CU covering 6 electrotherapy types: faradic/EMS, galvanic, vacuum suction, mechanical/gyratory massage, high frequency, and micro-current. Ensure accurate electrical principles, machine specifications, treatment parameters, and contraindications.",
+      "acceptanceCriteria": [
+        "Integration tests exist covering the core behaviour of US-009",
+        "Tests cover the happy path and at least one error/edge case",
+        "Tests run without requiring external services or manual setup"
+      ],
+      "technicalNotes": [
+        "Source files from US-009: aesthetic-services/C04/KP-01.md, aesthetic-services/C04/KP-02.md, aesthetic-services/C04/KP-03.md, aesthetic-services/C04/KP-04.md, aesthetic-services/C04/KP-05.md",
+        "Run: uv run pytest tests/ -k us_009 -v"
+      ],
+      "dependencies": [
+        "US-009"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "integration",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "integration",
+      "_forStoryId": "US-009"
     }
   ]
 }
