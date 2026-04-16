@@ -200,3 +200,54 @@ This brief outlines the implementation for a user story on enhancing practical w
 - C02/KK-03 used AMARAN: without the / WARNING: bilingual suffix — always use AMARAN / WARNING: format
 - C02/KK-01 Step 2 was a placeholder referencing another file — must always expand placeholders before submission
 - Coolant in OBC work is SW305 scheduled waste — must appear in both safety precautions and ENVIRONMENT domain of checklist
+## Iteration 1 - Thu, Apr 16, 2026  9:38:23 PM
+Completed: Enhance BEV KK practical procedures — step-by-step accuracy and safety checklists (ID: US-005) in 9m
+
+
+## Pre-analysis for US-007 (Gemini 2.5 Pro)
+Here is the technical brief for user story US-007.
+
+**Subject: Technical Brief for US-007: Enhance Aesthetic KPs**
+
+This story is a content enhancement task, not a Python coding task. The agent will review and update existing Markdown knowledge package (KP) files.
+
+**1. Target Files (Markdown, not Python):**
+- `aesthetic-services/C01/KP-01.md` through `KP-05.md`
+- `aesthetic-services/C02/KP-01.md` through `KP-07.md`
+
+**2. Frappe DocTypes/Hooks:**
+- No direct interaction with DocTypes or hooks is expected. The task is confined to updating the content of the specified `.md` files.
+
+**3. Recommended Implementation Approach:**
+- Read each target `.md` file.
+- Review content against acceptance criteria:
+    - C01: Correctness of consultation techniques, BMI calculation, body typing.
+    - C02: Accuracy of thermal therapy details, safety, and contraindications.
+- Enhance the text for anatomical and physiological accuracy.
+- Ensure all key concepts include required bilingual (English/local language) terminology.
+- Overwrite the existing files with the updated, reviewed content.
+
+**4. Edge Cases & Gotchas:**
+- **Bilingual Accuracy:** This is a critical requirement. The agent must provide correct translations for technical terms.
+- **Subject-Matter Expertise:** The content is technical. The agent must ensure the information on anatomy, BMI, and thermal therapies is accurate and up-to-date.
+
+
+## Story US-007 — Enhance Aesthetic C01-C02 KP — body consultation and thermal therapy theory
+
+### What was implemented
+- C01/KP-01: Added AMARAN/WARNING callout for disinfectant chemical hazards; enhanced magnifying lamp usage detail; added flexible measuring tape to tools table
+- C01/KP-03: Added AMARAN/WARNING callout before contraindications section; added calliper skinfold measurement sites table (4 sites with location + client position); added Waist-Hip Ratio (WHR) section with formula and risk classification table; renumbered 9.3 → 9.4 for Limitations
+- C02/KP-01: Added AMARAN/WARNING callout before contraindications section; added thermal therapy modalities overview table with bilingual terms (6 modalities including body wrap)
+- C02/KP-02: Added AMARAN/WARNING callout for electrical safety in thermal equipment room
+- C02/KP-05: Added body wrap (balutan badan) as modality 2.6 with full parameter table, procedure overview, and product types table; restructured section 4.0 with per-modality contraindications table and general precautions subsections
+
+### Patterns discovered
+- AMARAN / WARNING callout pattern established for BEV files applies identically to Aesthetic KP files
+- Body wrap was a critical missing modality — referenced in C01/KP-03 recommended treatments but not described in C02/KP-05 until this story
+- WHR (Waist-Hip Ratio) is the standard supplementary measure alongside BMI for body consultation — WHO cut-offs: women >0.85 = high risk, men >0.95 = high risk
+- Per-modality contraindication tables add significant value to C02/KP-05 — each modality has unique specific contraindications beyond the general list in C02/KP-01
+
+### Gotchas
+- C01/KP-03 section 9.3 needed renumbering to 9.4 after inserting WHR as new 9.3
+- Body wrap uses occlusive heat (no external heat source) — different physics from all other modalities
+- Calliper sites: 4 standard sites (triceps, subscapular, suprailiac, abdominal) — positions matter for accurate measurement

@@ -197,7 +197,8 @@
       "last_attempted": "2026-04-16T13:26:01Z",
       "_phaseI": {
         "diagnosisBlock": "## Current State\nC01 KK files have complete tables, all 5 assessment domains, and numbered safety precautions — but use DIN EN166 (European) instead of MS ISO 16321 (Malaysian) for safety glasses. C02 KK files use compact single-line equipment lists (not tables), lack numbered safety precautions in KK-02/KK-03, have no 5-domain assessment structure, C02/KK-01 Step 2 is a placeholder, and C02/KK-03 uses `**AMARAN:**` instead of `**AMARAN / WARNING:**`.\n\n## Problem Identified\nAcceptance criteria require: complete equipment/material tables, safety precautions prominently before procedures, assessment checklists with all 5 domains (Process/Output/Attitude/Safety/Environment), and logical HV work sequence.\n\n## Planned Changes\n- **C01/KK-01, KK-02, KK-03**: Fix safety glasses spec from `DIN EN166` → `MS ISO 16321 / ANSI Z87.1`\n- **C02/KK-01**: Expand inline equipment text to structured tables; fill in Step 2 PPE procedure (currently a placeholder); restructure checklist with 5 domains + Remarks column\n- **C02/KK-02**: Expand inline equipment text to structured tables; add numbered safety precautions list; restructure checklist with 5 domains + Remarks column\n- **C02/KK-03**: Expand inline equipment text to structured tables; fix `AMARAN:` → `AMARAN / WARNING:`; add numbered safety precautions; restructure checklist with 5 domains + Remarks column\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\n    \"bev-diagnostic-rectification/C01/KK-01.md\",\n    \"bev-diagnostic-rectification/C01/KK-02.md\",\n    \"bev-diagnostic-rectification/C01/KK-03.md\",\n    \"bev-diagnostic-rectification/C02/KK-01.md\",\n    \"bev-diagnostic-rectification/C02/KK-02.md\",\n    \"bev-diagnostic-rectification/C02/KK-03.md\"\n  ],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 140\n}\n</plan>\n\nNow executing the plan:\nNow expand C02/KK-01 equipment section, fix Step 2 placeholder, and restructure checklist:\nNow update C02/KK-02 — expand equipment, add safety precautions list, restructure checklist:\nNow update C02/KK-03 — expand equipment, fix AMARAN format, add safety precautions, restructure checklist:\nNow let's verify the changes are correct:\nThe story file changes total ~253 lines, well within budget. Let me do a quick content check on the key changes:\nChanges look correct. Now mark story as passes and commit:\n310 total lines, under the ~400 guard. Committing:\nUS-005 complete. Summary of changes:\n\n**C01/KK-01, KK-02, KK-03**: Fixed safety glasses spec `DIN EN166` → `MS ISO 16321 / ANSI Z87.1` (consistent with KP file fixes).\n\n**C02/KK-01**: Expanded inline equipment lists to structured tables (Tools, Safety Equipment, PPE); expanded the placeholder Step 2 (`2.1-2.5 (Same thorough procedure...)`) to 5 full numbered steps; restructured assessment checklist to 5-domain format with Remarks column.\n\n**C02/KK-02**: Expanded inline equipment lists to tables with PPE specs; added 7 numbered safety precautions after the WARNING callout; restructured checklist to 5 domains.\n\n**C02/KK-03**: Expanded inline equipment lists to tables; fixed `**AMARAN:**` → `**AMARAN / WARNING:**`; added numbered safety precautions including SW305 coolant waste guidance; restructured checklist to 5 domains with ENVIRONMENT item for scheduled waste."
-      }
+      },
+      "_passedCommit": "4a09c4dc18187cf5a72e6a25eb82c7b575e2e9c9"
     },
     {
       "id": "US-006",
@@ -244,7 +245,7 @@
         "All content includes proper bilingual terms"
       ],
       "dependencies": [],
-      "passes": false,
+      "passes": true,
       "filesTouch": [
         "aesthetic-services/C01/KP-01.md",
         "aesthetic-services/C01/KP-02.md",
@@ -266,7 +267,8 @@
         "technical"
       ],
       "epicId": "E-2",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-16T13:38:24Z"
     },
     {
       "id": "US-008",
