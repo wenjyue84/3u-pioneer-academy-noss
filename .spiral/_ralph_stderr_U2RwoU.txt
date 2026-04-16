@@ -1,0 +1,13 @@
+warning: in the working copy of '.spiral/_checkpoint.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_core_hashes_iter2.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_goals_hash', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_passes_baseline', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_phase_T_2.endtime', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_phase_t_bg.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_research_output.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_research_overflow.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_strip_orphan_deps.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/crashes/US-002_20260416T130235Z.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/spiral_events.jsonl', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/ui-progress-history.jsonl', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'escalation-counts.json', LF will be replaced by CRLF the next time Git touches it

@@ -1,0 +1,2 @@
+timestamp	spiral_iter	ralph_iter	story_id	story_title	status	duration_sec	model	retry_num	commit_sha	run_id	cache_hit	cache_read_tokens	cache_creation_tokens	review_tokens	wall_seconds	user_cpu_s	sys_cpu_s	peak_rss_kb	batch_id	decompose_secs	impl_secs	verify_secs	retry_escalation_count	failure_root_cause	failed_files	scope_tag	error_signature
+2026-04-16T13:12:23Z	2	1	US-002	Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory	keep	369	sonnet	0	8014757c8c1d6bc311652fe409699b53ae50b136	69e0dbbb149e	false	0	0	0	0	0	0	0		0	0	0	0				

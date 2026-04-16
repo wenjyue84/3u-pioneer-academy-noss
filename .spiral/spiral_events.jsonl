@@ -25,3 +25,45 @@
 {"ts":"2026-04-16T13:04:16Z","event":"phase_start","run_id":"69e0dbbb149e","level":"INFO","phase":"G","iteration":2,"trace_id":"b52e808b773b939c6177c04d89a02020","span_id":"4b109271210b6159"}
 {"ts":"2026-04-16T13:04:19Z","event":"phase_start","run_id":"69e0dbbb149e","level":"INFO","phase":"I","iteration":2,"trace_id":"b52e808b773b939c6177c04d89a02020","span_id":"4b109271210b6159"}
 {"ts":"2026-04-16T13:10:32Z","event":"cost_update","story_id":"US-002","tokens_input":27,"tokens_output":10505,"estimated_usd":6.795123}
+{"ts":"2026-04-16T13:10:47Z","event":"scope_guard","story_id":"US-002","result":"warn","out_of_scope":[
+  ".spiral/_active_status.json",
+  ".spiral/_ai_suggest_dedup.json",
+  ".spiral/_ai_suggest_filtered.json",
+  ".spiral/_ai_suggest_output.json",
+  ".spiral/_checkpoint.json",
+  ".spiral/_core_hashes_iter2.txt",
+  ".spiral/_dependency_hints.json",
+  ".spiral/_goals_before.json",
+  ".spiral/_goals_hash",
+  ".spiral/_iteration_summary.json",
+  ".spiral/_passes_baseline",
+  ".spiral/_phase_R_2.ckpt",
+  ".spiral/_phase_T_2.ckpt",
+  ".spiral/_phase_T_2.endtime",
+  ".spiral/_phase_t_bg.log",
+  ".spiral/_prd_prestash_2.json",
+  ".spiral/_ralph_stderr_U2RwoU.txt",
+  ".spiral/_research_output.json",
+  ".spiral/_research_overflow.json",
+  ".spiral/_story_rejected.json",
+  ".spiral/_strip_orphan_deps.py",
+  ".spiral/_test_story_candidates.json",
+  ".spiral/_test_story_candidates_dedup.json",
+  ".spiral/_test_story_candidates_filtered.json",
+  ".spiral/_validated_stories.json",
+  ".spiral/crashes/US-002_20260416T130235Z.txt",
+  ".spiral/crashes/index.json",
+  ".spiral/gemini-cache/US-002.json",
+  ".spiral/merge_conflicts.json",
+  ".spiral/otel_story_US_002.json",
+  ".spiral/prd-backups/prd-iter2.json",
+  ".spiral/spiral_events.jsonl",
+  ".spiral/token_metrics.jsonl",
+  ".spiral/ui-progress-history.jsonl",
+  "escalation-counts.json",
+  "prd.json",
+  "retry-counts.json",
+  "spiral_events.jsonl"
+],"out_of_scope_count":38,"filesTouch_count":6}
+{"ts":"2026-04-16T13:12:23Z","event":"story_passed","storyId":"US-002","retryCount":0,"model":"sonnet"}
+{"ts":"2026-04-16T13:20:21Z","event":"cost_update","story_id":"US-003","tokens_input":34,"tokens_output":12317,"estimated_usd":0.184857}
