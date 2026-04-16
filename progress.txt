@@ -275,3 +275,30 @@ This story is a content enhancement task, not a Python coding task. The agent wi
 ## Iteration 1 - Thu, Apr 16, 2026  9:59:53 PM
 Completed: Enhance Aesthetic C03 KP — manual body massage techniques and anatomy (ID: US-008) in 9m
 
+
+## Story US-009 — Enhance Aesthetic C04 KP — electrotherapy modalities (6 types) with safety
+
+### What was implemented
+- KP-01: Added AMARAN/WARNING for electrical safety in work area (mains electricity, wet hands, damaged cables)
+- KP-02: Added AMARAN/WARNING before contraindications; expanded modality-specific table to include all 6 modalities including mechanical/gyratory (previously missing); added acute inflammation/fever to absolute list; enhanced reason descriptions
+- KP-03: Added AMARAN/WARNING with specific placements to avoid (thorax, carotid, cranium); added modality-specific contraindications at end of precautions
+- KP-04: Added AMARAN/WARNING for galvanic shock risk; added full procedure overview (was completely missing — only had precautions); added modality-specific contraindications
+- KP-05: Added AMARAN/WARNING for varicose vein risk; added lymph node drainage direction table (5 body areas); enhanced precautions with specific cup release technique; added modality-specific contraindications
+- KP-06: Added AMARAN/WARNING for stationary rotating head risk; enhanced precautions; added machine specifications table (motor type, RPM range, attachment type); added modality-specific contraindications
+- KP-07: Added AMARAN/WARNING for flammable products fire risk; added treatment parameters table comparing direct vs indirect method (was missing — only had precautions); enhanced precautions; added modality-specific contraindications
+- KP-08: Added AMARAN/WARNING for pacemaker risk even at sub-sensory levels; enhanced contraindications (added phlebitis, recent surgery); added machine specifications table; added note on dedicated micro-current gel requirement
+- KP-09: Added AMARAN/WARNING for adverse reaction referral protocol; enhanced aftercare table with specific durations; added modality-specific aftercare notes table (5 modalities)
+- KP-10: Added AMARAN/WARNING for clinical waste classification; restructured waste disposal into a classification table with 7 waste types; added inventory management section with FIFO and stock count procedures
+
+### Patterns discovered
+- KP-04 (Galvanic) was missing a procedure overview entirely — all other modality KPs had one. Galvanic is unique in requiring polarity check before product application
+- KP-07 (High Frequency) was missing a parameters table — critical because direct and indirect methods have completely different applications, yet shared the same machine output
+- Mechanical/gyratory was missing from the modality-specific contraindications table in KP-02 — the 6th modality was not represented
+- Micro-current requires dedicated conductive gel — not standard conductive gel — a frequently missed clinical detail
+- High frequency fire hazard from flammable products is a critical safety point often understated in training materials
+
+### Gotchas
+- Galvanic shock (from moving electrode without zeroing current) is distinct from electrical burns — it is a sharp pain event caused by sudden current change
+- Vacuum suction stationary cup → petechiae (pin-point bruising) is the most common client complaint — must be explained in aftercare
+- High frequency direct method: electrode on skin BEFORE switching on (not after) — prevents sparking on initial contact
+- Micro-current: pacemaker contraindication applies even at sub-sensory levels because demand-type pacemakers can interpret micro-currents as cardiac signals
