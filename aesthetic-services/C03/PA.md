@@ -1,0 +1,71 @@
+# PENILAIAN PRESTASI / PERFORMANCE ASSESSMENT
+
+**Kod / Code:** S960-002-3:2020-C03/PA
+**CU:** C03 — Manual Body Massage | **Duration:** 2 Hours | **Total Marks:** 100
+**Paper Colour:** LIGHT BLUE | **Passing Mark:** 80/100
+
+---
+
+## Scenario
+Perform a complete manual body massage on a model/volunteer, from consultation through to work area upkeep.
+
+## Assessment Rubric
+
+### Task 1: Consultation (10 marks)
+| Criteria | Marks |
+|----------|-------|
+| Contraindications checked | 3 |
+| Massage-specific requirements determined | 3 |
+| Informed consent obtained | 2 |
+| Records updated | 2 |
+
+### Task 2: Work Area Setup (10 marks)
+| Criteria | Marks |
+|----------|-------|
+| Couch set up correctly with linen | 3 |
+| Medium selected and prepared hygienically | 3 |
+| Room ambience and safety | 2 |
+| Equipment tested | 2 |
+
+### Task 3: Client Preparation (10 marks)
+| Criteria | Marks |
+|----------|-------|
+| PPE, change, belongings | 3 |
+| Positioning with bolster support | 3 |
+| Professional draping | 3 |
+| Feet sanitised, hair secured | 1 |
+
+### Task 4: Manual Body Massage (40 marks)
+| Criteria | Marks |
+|----------|-------|
+| Effleurage technique and direction | 6 |
+| Petrissage on major muscle groups | 6 |
+| Tapotement on appropriate areas | 5 |
+| Vibration demonstrated | 4 |
+| Friction on tension areas | 5 |
+| Body mechanics correct | 5 |
+| Rhythm, rate, pressure, continuity | 5 |
+| Client monitoring and adjustment | 4 |
+
+### Task 5: Post-Massage Advice (10 marks)
+| Criteria | Marks |
+|----------|-------|
+| Feedback collected and interpreted | 3 |
+| After care and home care delivered | 3 |
+| Records updated | 2 |
+| Appointment scheduled | 2 |
+
+### Task 6: Work Area Upkeep (20 marks)
+| Criteria | Marks |
+|----------|-------|
+| Couch and tools cleaned/sterilised | 5 |
+| Products stored correctly | 4 |
+| Materials replenished | 4 |
+| Inventory updated | 4 |
+| Waste disposed correctly | 3 |
+
+---
+
+**Trainee:** _____________ **IC No:** _____________
+**Date:** _____________ **Assessor:** _____________
+**Result:** COMPETENT / NOT YET COMPETENT
