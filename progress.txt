@@ -877,3 +877,48 @@ Based on the user story, this is a content creation task, not a Python/Frappe im
 *   **Scenario Complexity:** The three scenario questions must be robust, requiring justification and safety analysis, not just a simple answer.
 *   **Validation Commands:** Use the `grep` commands in the `technicalNotes` to self-verify the question count, scenario count, and bilingual term usage before finalizing.
 
+
+## Pre-analysis for US-018 (Gemini 2.5 Pro)
+Based on the user story, this is a content creation task, not a Python/Frappe implementation.
+
+**Target File for Creation:**
+*   `aesthetic-services/c03-manual-body-massage/KA.md`
+
+**Frappe DocTypes / Hooks Involved:**
+*   None. The task is to create a structured Markdown file. No backend code or DocType modification is specified.
+
+**Recommended Implementation Approach:**
+1.  Create the `KA.md` file at the specified path.
+2.  Structure the file with 10 distinct questions using `## Q1`, `## Q2`, etc. headers.
+3.  Ensure question distribution: 4 anatomy, 3 scenario-based, 2 contraindication, 1 safety.
+4.  For each question, include sections for: `Question`, `Expected Answer`, `Rubric Points`, `Bilingual Terms`, and `CoCU Reference`.
+5.  Populate bilingual terms by referencing `_reference/wim-bilingual-glossary.md`.
+6.  For anatomy questions, cross-reference content and figures from `aesthetic-services/c03-manual-body-massage/KP-02.md`.
+7.  Verify all content aligns with the `NOSS S960-002-3:2020 C03` CoCU requirements.
+
+**Edge Cases & Gotchas:**
+*   **Content, Not Code:** The core task is authoring educational content in Markdown, not programming.
+*   **Strict Referencing:** Ensure every anatomy and terminology reference is validated against the specified `KP-02.md` and glossary files.
+*   **Scenario Complexity:** The three scenario questions must be robust, requiring justification and safety analysis, not just a simple answer.
+*   **Validation Commands:** Use the `grep` commands in the `technicalNotes` to self-verify the question count, scenario count, and bilingual term usage before finalizing.
+
+
+## Iteration 18 - Story: US-018 Create Aesthetic C03 Knowledge Assessment with Manual Technique Competency Questions
+
+### What was implemented
+- Created aesthetic-services/c03-manual-body-massage/KA.md with 10 questions:
+  - Q1-Q4: Anatomy identification (back muscles, hamstrings, lower leg, gluteals)
+  - Q5-Q7: Scenario-based technique selection (office worker tension, varicose veins+eczema, pregnant client)
+  - Q8-Q9: Contraindication identification (classification table, warfarin+epilepsy+undiagnosed lump)
+  - Q10: Safety procedures (5 of 10 acceptable answers, 2 marks each)
+- Each question includes EN|BM bilingual terms, rubric (Advanced/Intermediate/Basic/Below basic), CoCU reference
+
+### Patterns discovered
+- c03-manual-body-massage/ directory was empty; content lived in C03/ (uppercase); target path is the lowercase variant
+- KP-04.md section 8.0 has full muscle table by body region — primary anatomy reference
+- KP-01.md section 2.0 has contraindication classification (Absolute/Local/Relative) — authoritative source
+- 128 EN:|BM: term pairs for 10 questions far exceeds >=30 threshold
+
+### Gotchas
+- `ls` in Git Bash on Windows showed C03/ contents for c03-manual-body-massage/ query (case-insensitive FS) but `find` correctly showed the empty directory
+- Test command: grep -oE 'EN:|BM:' KA.md | wc -l counts both EN: and BM: labels; each bilingual term contributes 2 counts
