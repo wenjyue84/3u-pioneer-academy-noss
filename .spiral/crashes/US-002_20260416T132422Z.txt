@@ -1,3 +1,10 @@
+# SPIRAL Crash Report
+# Story:     US-002
+# Worker:    sequential
+# Exit Code: 124
+# Timestamp: 20260416T132422Z
+# ─────────────────────────────────────────
+
 warning: in the working copy of '.spiral/_checkpoint.json', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of '.spiral/_core_hashes_iter2.txt', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of '.spiral/_goals_hash', LF will be replaced by CRLF the next time Git touches it
@@ -11,3 +18,6 @@ warning: in the working copy of '.spiral/crashes/US-002_20260416T130235Z.txt', L
 warning: in the working copy of '.spiral/spiral_events.jsonl', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of '.spiral/ui-progress-history.jsonl', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'escalation-counts.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_ralph_stderr_U2RwoU.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/spiral_events.jsonl', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'results.tsv', LF will be replaced by CRLF the next time Git touches it

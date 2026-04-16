@@ -146,3 +146,6 @@ This user story is a content enhancement task, not a Frappe/Python implementatio
 - C03/KP-03 had subsections 2.2-2.5 that needed renumbering to 2.3-2.6 after inserting heat pump section as 2.2
 - Motor back-EMF warning is unique: even after HV isolation, moving the rotor generates voltage — important safety note not present in inverter KP
 - Regenerative braking limitations are a key theory point for C04: SOC, temperature, speed, ABS activation all disable or limit regeneration
+## Iteration 2 - Thu, Apr 16, 2026  9:21:09 PM
+Completed: Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory (ID: US-003) in 7m
+

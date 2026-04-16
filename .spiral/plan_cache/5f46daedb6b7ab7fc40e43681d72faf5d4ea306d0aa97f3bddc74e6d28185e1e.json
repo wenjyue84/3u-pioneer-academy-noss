@@ -1,0 +1,11 @@
+{
+  "story_id": "US-002",
+  "story_title": "Enhance BEV C02 KP \u2014 BMS components, HV cable, OBC, battery pack theory",
+  "key_source": "bev|kp|technical|enhance|bev|c02|large|.md",
+  "stored_ts": 1776345864.4226673,
+  "plan": {
+    "story_id": "US-002",
+    "duration_s": 1200,
+    "model": "unknown"
+  }
+}
