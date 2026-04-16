@@ -383,3 +383,19 @@ This technical brief is for a Claude Code agent tasked with implementing user st
 ## Iteration 1 - Thu, Apr 16, 2026 10:36:31 PM
 Completed: Enhance Aesthetic KK practical procedures — treatment techniques and hygiene (ID: US-012) in 7m
 
+
+## Story US-013 -- Create BEV C01-C02 Knowledge Assessments with Integrated Answer Schemes
+
+### What was implemented
+- C01/KA.md: 35-question Q-Format bank -- Section A (Q1-Q20 MCQ, 1 mark each), Section B (Q21-Q25 graded scenario, 1 mark each), Section C (Q26-Q35 extended scenario, trainer-guided). Distribution: HV Safety 40%, PPE 30%, Battery Basics 30%. 15/35 = 43% scenario questions. All questions tagged with CoCU C01.x.x references. 25-mark answer key included.
+- C02/KA.md: 40-question Q-Format bank -- Section A (Q1-Q20 MCQ), Section B (Q21-Q25 graded scenario), Section C (Q26-Q40 extended scenario). Distribution: BMS Theory 35%, HV Cable Systems 35%, OBC 30%. 19/40 = 47.5% scenario questions. Questions tagged with CoCU C02.x.x + description references. 25-mark answer key included.
+
+### Patterns discovered
+- Q-Format KA has 3 sections: Section A (MCQ, 1 mark each, 20 questions), Section B (graded scenario, 1 mark each, 5 questions), Section C (extended enrichment, 0 marks, trainer-guided discussion)
+- C02 CoCU references include description suffix (e.g., CoCU C02.5.3 -- Battery Module System Inspection); C01 uses short form CoCU C01.x.x -- both pass grep validation
+- Distribution headers in Q-Format preamble serve as the distribution tracking mechanism
+- Section C extended scenarios require 50+ word sample answers demonstrating Level 3 technical depth
+
+### Gotchas
+- Both KA.md files were created in a previous iteration but not committed -- story was marked passes: false because the commit/prd.json update step was missed
+- The standard KA 25-mark answer key covers Section A (20 marks) and Section B (5 marks); Section C is unscored enrichment

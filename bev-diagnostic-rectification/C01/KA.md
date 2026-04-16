@@ -199,6 +199,7 @@ c) Underbody inspection (5 marks): Battery pack housing (dents/cracks/leaks), HV
 
 *Format JPK WIM — Jumlah: 35 soalan, 25 markah / Total: 35 questions, 25 marks*
 *Taburan / Distribution: HV Safety 40% (Q1–Q14), PPE 30% (Q15–Q25), Battery Basics 30% (Q26–Q35)*
+*Soalan Senario / Scenario Questions: Q21–Q35 = 15 soalan = 43% (melebihi minimum 30% / exceeds 30% minimum)*
 
 ---
 
@@ -251,20 +252,49 @@ c) Underbody inspection (5 marks): Battery pack housing (dents/cracks/leaks), HV
 
 *Jawapan Contoh / Sample Answer:* Previous unexplained coolant loss indicates an unresolved leak that was masked without investigation. Before routine fluid checks, conduct a HV coolant circuit pressure test to locate the leak source. Inspect all coolant hoses, clamps, pump shaft seals, cooler matrix connections, and expansion tank cap seal. Visually check the battery pack underside and inverter housing for coolant staining. Do NOT simply top up the coolant again — identify and rectify the root cause first. Document findings fully in the work order and advise the customer that rectification work is required before the service can be completed safely.
 
-### Bahagian C / Section C — Senario Pengayaan / Enrichment Practice Scenarios (0 markah / marks)
+### Bahagian C / Section C — Soalan Senario Lanjutan / Extended Scenario Questions (0 markah / marks)
 
-*Soalan latihan untuk kefahaman mendalam. / Practice questions for deeper understanding.*
+*Soalan senario lanjutan untuk penilaian kefahaman mendalam tahap 3. Jawapan contoh menunjukkan kedalaman teknikal yang diperlukan. / Extended scenario questions for in-depth Level 3 competency assessment. Sample answers demonstrate required technical depth.*
 
-**Q26.** Describe the correct sequence for donning HV PPE before commencing BEV HV circuit work, including the order each item is put on. [CoCU C01.1.2]
-**Q27.** Explain the difference between a hazard and a risk in the BEV workshop context. Provide one BEV-specific example of each. [CoCU C01.1.4]
-**Q28.** Explain what happens electrically if the pre-charge circuit fails and why this causes damage to the inverter. [CoCU C01.2.3]
-**Q29.** A flood-damaged BEV is delivered to your workshop. List the unique hazards and the special handling protocol required before any work begins. [CoCU C01.1.4 / C01.1.6]
-**Q30.** Explain the three-point zero-energy verification procedure for a BEV using a CAT III — 1000V multimeter. [CoCU C01.1.2]
-**Q31.** Describe the Hierarchy of Controls. Give one BEV HV-specific example of a control at each level. [CoCU C01.1.4]
-**Q32.** At what SOH percentage is traction battery pack replacement typically recommended? Explain why the BMS limits performance before this threshold. [CoCU C01.2.3]
-**Q33.** Describe how to identify a BEV's HV system voltage before PPE selection. Why does the system voltage affect PPE class choice? [CoCU C01.3.2]
-**Q34.** A BEV owner reports gradual range reduction over 2 years. List three battery-related causes a technician should investigate during a health check. [CoCU C01.2.3 / C01.2.4]
-**Q35.** State the specific regulatory obligations for disposing of BEV HV glycol coolant and 12V lead-acid batteries, including relevant legislation. [CoCU C01.1.5]
+**Q26.** [SENARIO / SCENARIO] Describe the correct sequence for donning HV PPE before commencing BEV HV circuit work, including the order each item is put on. [CoCU C01.1.2]
+
+*Jawapan Contoh / Sample Answer:* Correct donning sequence: (1) Safety boots — foot protection before all else. (2) Arc-rated overalls or suit over all clothing. (3) Safety glasses and face shield. (4) Class 0 or Class 1 insulated gloves — put on LAST, inspected with roll-cuff squeeze test first. Gloves must overlap suit sleeves. Removal order reverses: gloves first, then face shield, then suit. Never touch the outer surface of insulated gloves with bare hands after donning. Inspect cuff markings remain legible before each use.
+
+**Q27.** [SENARIO / SCENARIO] Explain the difference between a hazard and a risk in the BEV workshop context. Provide one BEV-specific example of each. [CoCU C01.1.4]
+
+*Jawapan Contoh / Sample Answer:* A hazard is a source with potential to cause harm — it exists independently of anyone being present. A risk is the probability that the hazard will cause harm, combined with the severity of that harm. BEV hazard example: an orange HV cable with visibly cracked insulation running beneath the battery pack — the damaged insulation is the hazard. BEV risk example: a technician reaching under the pack to retrieve a dropped tool without de-energising first — the probability (high if distracted) multiplied by severity (electrocution/fatal) = HIGH risk requiring immediate engineering or administrative control before work proceeds.
+
+**Q28.** [SENARIO / SCENARIO] Explain what happens electrically if the pre-charge circuit fails and why this causes damage to the inverter. [CoCU C01.2.3]
+
+*Jawapan Contoh / Sample Answer:* If the pre-charge circuit fails, the main positive contactor closes directly against uncharged inverter DC-link capacitors. Since capacitors at 0V present near-zero impedance, the battery pack discharges into them in an instantaneous current surge of hundreds of amperes. This inrush current: (1) arc-welds the main contactor contacts in the closed position (weld failure — contactor can no longer open), permanently connecting the battery to the HV bus; (2) may destroy the inverter's IGBT power transistors and capacitor dielectric through over-current stress. The pre-charge resistor (typically 50-200 Ω) prevents this by limiting inrush and allowing capacitors to charge gradually over 0.5-2 seconds before the main contactor engages.
+
+**Q29.** [SENARIO / SCENARIO] A flood-damaged BEV is delivered to your workshop. List the unique hazards and the special handling protocol required before any work begins. [CoCU C01.1.4 / C01.1.6]
+
+*Jawapan Contoh / Sample Answer:* Unique hazards: (1) Submerged cells may have internal micro-short circuits causing delayed thermal runaway hours or days after recovery. (2) Moisture inside battery housing creates unpredictable HV-to-chassis leakage paths not detected by standard IMD. (3) HV connector seals may be compromised, allowing water ingress. (4) Coolant and electrolyte may have mixed with contaminated floodwater — unknown chemical hazard. Special protocol: do NOT attempt READY ON under any circumstances. Park in an isolated open area at least 10 m from structures and other vehicles. Post continuous fire watch for minimum 48 hours. Do NOT open battery housing without specialist equipment. Notify the manufacturer's emergency technical hotline and document with photographs before any handling. Inform the workshop Safety and Health Officer before proceeding.
+
+**Q30.** [SENARIO / SCENARIO] Explain the three-point zero-energy verification procedure for a BEV using a CAT III — 1000V multimeter. [CoCU C01.1.2]
+
+*Jawapan Contoh / Sample Answer:* Step 1: Before testing the BEV, verify multimeter function by testing on a confirmed live LV circuit — confirms meter leads and fuses are functional. Step 2: After full HV de-energisation and 5-10 minute capacitor discharge wait, set meter to DC Voltage, 1000V range. Measure POINT 1: HV junction box main positive terminal to chassis ground — must read 0V DC. Step 3: Measure POINT 2: HV junction box main negative terminal to chassis ground — must read 0V DC. Step 4: Measure POINT 3: Battery pack positive terminal (accessed via service port) to chassis ground — must read 0V DC. All three points must confirm zero voltage before touching any HV component. Record readings on the work order before proceeding.
+
+**Q31.** [SENARIO / SCENARIO] Describe the Hierarchy of Controls. Give one BEV HV-specific example of a control at each level. [CoCU C01.1.4]
+
+*Jawapan Contoh / Sample Answer:* Five levels, most to least effective: (1) Elimination — remove the hazard entirely. BEV example: permanently decommission and dispose of a thermally compromised battery pack rather than attempting repair. (2) Substitution — replace with a less hazardous alternative. BEV example: use a wireless HV immobiliser system instead of manual cable disconnection for certain diagnostic operations. (3) Engineering controls — physically isolate the hazard. BEV example: automatic interlock that opens main contactors and energises warning lights when the battery housing is opened. (4) Administrative controls — change work procedures. BEV example: two-person rule requiring a second qualified technician to be present during all HV disconnection work. (5) PPE — last resort only. BEV example: Class 0 insulated gloves, arc-rated suit, and face shield for any HV component contact.
+
+**Q32.** [SENARIO / SCENARIO] At what SOH percentage is traction battery pack replacement typically recommended? Explain why the BMS limits performance before this threshold. [CoCU C01.2.3]
+
+*Jawapan Contoh / Sample Answer:* Pack replacement is typically recommended when SOH drops below 80%. Before this threshold, the BMS progressively limits performance to protect degraded cells: charge current is reduced to prevent voltage overshoot in weaker cells; discharge cut-off voltage is raised to prevent over-discharge of the lowest-capacity cells; available energy (usable kWh) is restricted to the capacity of the weakest cell in the series string, reducing range; regenerative braking current is reduced. These limitations protect the weakest cells from thermal runaway caused by over-charge or over-discharge stress, but they signal to the driver that pack replacement is approaching. Below 70% SOH, restrictions become severe enough to significantly impair daily usability.
+
+**Q33.** [SENARIO / SCENARIO] Describe how to identify a BEV's HV system voltage before PPE selection. Why does the system voltage affect PPE class choice? [CoCU C01.3.2]
+
+*Jawapan Contoh / Sample Answer:* Identification steps: (1) Check the manufacturer's workshop manual or Technical Service Bulletin using the vehicle VIN to confirm nominal HV system voltage (commonly 400V DC or 800V DC in current models). (2) Locate the HV warning label on the battery pack housing — Malaysian regulatory requirements specify that operating voltage must be displayed. (3) If uncertain, use a non-contact voltage detector at a safe distance to confirm HV presence before close approach. PPE class selection is affected because: Class 0 insulated gloves are proof-tested to 1000V and rated for use up to 500V AC / 750V DC systems. Class 1 gloves (tested to 7500V) should be used for 800V DC systems where transient overvoltage could exceed Class 0 limits. The wrong PPE class provides insufficient arc energy protection for the actual system voltage.
+
+**Q34.** [SENARIO / SCENARIO] A BEV owner reports gradual range reduction over 2 years. List three battery-related causes a technician should investigate during a health check. [CoCU C01.2.3 / C01.2.4]
+
+*Jawapan Contoh / Sample Answer:* Three causes to investigate: (1) Cell capacity degradation — cyclic and calendar aging reduce individual cell Ah capacity. Measure each cell's SOH via BMS diagnostic data; SOH below 80% confirms significant capacity loss as the primary cause. (2) Cell imbalance — one or more weak cells limit the entire pack's usable capacity. The BMS stops discharge when the weakest cell reaches cut-off voltage even though other cells remain charged. Identify by reviewing individual cell voltage spread at end-of-discharge in the diagnostic report — deviations exceeding ±0.05V indicate imbalance. (3) Increased internal resistance from electrolyte decomposition — causes greater voltage sag under load, reducing usable energy without obvious SOH change. Identify by comparing cell internal resistance measurements against baseline values in the manufacturer specification table.
+
+**Q35.** [SENARIO / SCENARIO] State the specific regulatory obligations for disposing of BEV HV glycol coolant and 12V lead-acid batteries, including relevant legislation. [CoCU C01.1.5]
+
+*Jawapan Contoh / Sample Answer:* HV glycol coolant — classified as Scheduled Waste SW305 under the Environmental Quality (Scheduled Wastes) Regulations 2005 made under the Environmental Quality Act 1974 (Act 127). Must be stored in sealed, labelled containers; cannot be disposed via drain, soil, or municipal waste. Must be consigned to a DOE-licensed Scheduled Waste contractor using the prescribed waste manifest form. Workshop must retain manifest records for minimum 3 years. 12V lead-acid batteries — classified as Scheduled Waste SW102 (used lead-acid batteries) under the same Regulations. Must be returned to licensed lead recyclers or manufacturer take-back programmes. Never crush, incinerate, or dispose in landfill. Penalty for improper disposal: up to RM500,000 fine and/or 5 years imprisonment under EQA 1974 Section 34B.
 
 ---
 
@@ -283,8 +313,8 @@ c) Underbody inspection (5 marks): Battery pack housing (dents/cracks/leaks), HV
 **Bahagian B / Section B (Q21–Q25 — 1 markah setiap soalan / 1 mark each):**
 Award 1 mark for responses that correctly identify the key safety action(s) and reference relevant CoCU assessment criteria. See sample answers above.
 
-**Bahagian C / Section C (Q26–Q35 — Pengayaan / Enrichment — 0 markah / 0 marks):**
-Sample answers to be provided by trainer for guided discussion.
+**Bahagian C / Section C (Q26–Q35 — Soalan Senario Lanjutan / Extended Scenario Questions — 0 markah / 0 marks):**
+Soalan senario lanjutan dengan jawapan contoh ≥50 patah perkataan menunjukkan kedalaman teknikal tahap 3. / Extended scenario questions with sample answers ≥50 words demonstrating Level 3 technical depth. Mark at trainer's discretion during guided discussion.
 
 **Jumlah Q-Format / Q-Format Total: 25 markah / marks**
 *Lulus / Pass: 60% = 15 markah/marks. Rujukan / References: CoCU C01 — semua kriteria penilaian / all assessment criteria.*
