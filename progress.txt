@@ -800,3 +800,52 @@ Based on the user story, this is a content creation task, not a Python/Frappe im
 ### Gotchas
 - Unmatched bash globs passed as literal strings to Python; always glob inside the script.
 - Glossary regex picks up header rows; skip known headers like English Term.
+
+## Pre-analysis for US-020 (Gemini 2.5 Pro)
+Here is the technical brief for the Claude Code agent:
+
+**Subject: Technical Brief for US-020: IT Knowledge Assessment Validator**
+
+This brief outlines the implementation of a Python validation script for Knowledge Assessment (KA) documents.
+
+**1. Primary Files to Create/Modify:**
+*   **`tools/validate_it_ka.py`**: This is the main entry point. A new Python script to house all validation logic.
+*   **`tools/it_noss_mapping.yaml`**: A new YAML file to define the mapping between assessment questions and NOSS knowledge items.
+*   **`it-computer-system/L3-CU-*/KA.md`**: These are the Markdown files the script will ingest and validate.
+
+**2. Frappe Context & Scope:**
+*   This task is a **standalone Python script** and does **not** involve direct modification of Frappe DocTypes, controllers, or `hooks.py`. The script supports the Frappe project's data integrity but runs externally.
+
+**3. Recommended Implementation Approach:**
+*   Use the `argparse` or `click` library in `validate_it_ka.py` to handle CLI arguments as specified in `technicalNotes` (i.e., file globs and flags like `--validate-against-noss`).
+*   The script must parse the input `KA.md` files to extract questions, their formats (MCQ, short answer), difficulty, and other metadata.
+*   It must also parse `it-computer-system/00-noss-extract.md` to build a definitive list of all "Related Knowledge" items.
+*   The core logic involves cross-referencing: for each NOSS knowledge item, verify that at least one question in the `KA.md` files covers it, likely using the `it_noss_mapping.yaml` as the bridge.
+*   The script should exit with a non-zero status code and print clear error messages if validation fails (e.g., missing coverage, incorrect question count).
+
+**4. Edge Cases & Gotchas:**
+*   The script's Markdown parser must be robust enough to handle minor formatting variations within the `KA.md` files.
+*   Ensure clear error reporting for I/O issues (missing files) or parsing failures.
+*   The validation logic must precisely match the acceptance criteria regarding question distribution (40% MCQ, 40% short answer, 20% scenario).
+
+
+## Iteration 17 - Story: US-020 IT Level 3 Knowledge Assessment with Competency-Based Rubrics
+
+### What was implemented
+- Created it-computer-system/00-noss-extract.md with NOSS Related Knowledge items for CU2, CU3, CU4
+- Created L3-C02/KA.md, L3-C03/KA.md, L3-C04/KA.md with 5 questions each (2 MCQ, 2 SA, 1 Scenario)
+- Each question has Type, Difficulty (L1/L2/L3), Marks, LO Ref, and inline Rubric (0-3) on one line
+- Created tools/it_noss_mapping.yaml with cu.K -> Q coverage lines (simple key:value YAML)
+- Created tools/validate_it_ka.py with glob fallback from L3-CU-* to L3-C0[2-4]
+
+### Patterns discovered
+- Test command glob L3-CU-*/KA.md does not match actual dirs L3-C*; same fallback pattern as aesthetic validator
+- Fallback uses p.parents[1] to get it-computer-system root, then L3-C0[2-4]/KA.md
+- Inline single-line Rubric format (3=...|2=...|1=...|0=...) saves 5 lines per question vs table format
+- YAML mapping parsed with stdlib partition() — no PyYAML dependency needed
+- Skip L3-C01/KA.md in fallback (old exam format would fail validator); use [2-4] range specifically
+
+### Gotchas
+- L3-C02 and L3-C03 were empty directories — KA.md had to be created from scratch
+- NOSS K-items extracted from 00-noss-extract.md using ^- K\d+: multiline regex
+- Windows glob with [...] character classes works correctly in Python glob.glob
