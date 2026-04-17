@@ -747,7 +747,10 @@
       "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T02:22:36Z"
+      "last_attempted": "2026-04-17T02:22:36Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nNo `build/` directory exists. python-docx just installed into new .venv. pandoc is at `/c/Program Files/Pandoc/pandoc`. KP-01.md has frontmatter lines like `**Kod WIM / WIM Code:** G452-010-3:2023-C01/KP(1/3)` for parsing.\n\n## Problem Identified\nNeed a CLI script that (1) parses WIM metadata from a .md file, (2) calls pandoc to convert md→docx, (3) adds JPK header box with NOSS code/CU/doc type, (4) supports --style flag for paper color watermark, and (5) test verifying header compliance.\n\n## Planned Changes\n- Create `build/wim_md_to_docx.py`: argparse CLI, pandoc subprocess conversion, python-docx post-processing for header table + color watermark\n- Create `tests/test_wim_export.py`: `test_docx_header_compliance` runs the script on KP-01.md, verifies docx header content\n\n<plan>\n{\n  \"files_to_create\": [\"build/wim_md_to_docx.py\", \"tests/test_wim_export.py\"],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\"parse_wim_metadata\", \"add_header_box\", \"apply_paper_watermark\", \"convert_md_to_docx\", \"main\"],\n  \"estimated_loc\": 140\n}\n</plan>\nNow let's test the script and tests:\nAll tests pass. Let's run the full test suite for the export tests:\n4/4 passing. Now update prd.json and commit:\nUS-026 complete.\n\n**Summary:**\n- `build/wim_md_to_docx.py` — CLI pipeline: pandoc converts .md→.docx, then python-docx adds JPK header box (NOSS code, CU, doc type label), applies paper color shading per `--style`, and sets 2.5cm margins\n- `tests/test_wim_export.py` — 4 tests, all passing including `test_docx_header_compliance`\n- Key fix: pandoc-generated DOCX lacks \"Table Grid\" style → borders added via raw XML (`w:tcBorders`)"
+      }
     },
     {
       "id": "US-027",

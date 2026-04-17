@@ -1,0 +1,48 @@
+# SPIRAL Crash Report
+# Story:     US-024
+# Worker:    sequential
+# Exit Code: 124
+# Timestamp: 20260417T023007Z
+# ─────────────────────────────────────────
+
+warning: in the working copy of '.spiral/_assert_violations.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_checkpoint.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_passes_baseline', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/spiral_events.jsonl', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/ui-progress-history.jsonl', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_phase_T_4.endtime', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_phase_T_5.endtime', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/00-cocu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/KA.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/KK-01.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/KK-02.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/KK-03.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/KP-01.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/KP-02.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/KP-03.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/KT-01.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/KT-02.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/KT-03.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/PM-amali.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/PM-teori.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_ralph_stderr_fvNL2k.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/spiral_events.jsonl', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'progress.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'results.tsv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/00-cocu.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/PM-teori.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/E01/PA.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_ralph_stderr_fvNL2k.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/spiral_events.jsonl', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'results.tsv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/KA.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/KK-01.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/KK-02.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/KK-03.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/KP-01.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/KP-02.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/KP-03.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/KT-01.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/KT-02.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/KT-03.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tuinalogy-services/C02/PM-amali.md', LF will be replaced by CRLF the next time Git touches it

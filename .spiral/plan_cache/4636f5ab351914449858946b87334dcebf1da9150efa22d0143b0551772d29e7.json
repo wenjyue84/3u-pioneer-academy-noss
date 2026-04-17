@@ -1,0 +1,11 @@
+{
+  "story_id": "US-024",
+  "story_title": "Create BEV C04 Knowledge Assessment with Electric Drive Train Diagnostics Scenarios",
+  "key_source": "ai-example|create|bev|c04|medium|",
+  "stored_ts": 1776393010.3458214,
+  "plan": {
+    "story_id": "US-024",
+    "duration_s": 1802,
+    "model": "unknown"
+  }
+}
