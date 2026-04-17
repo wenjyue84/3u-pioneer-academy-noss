@@ -1,0 +1,172 @@
+{
+  "_meta": {
+    "description": "BEV High Voltage System Component Cross-Reference Index",
+    "noss_code": "G452-010-3:2023",
+    "generated_by": "scripts/index_hv_components.py",
+    "schema_version": "1.0"
+  },
+  "components": [
+    {
+      "id": "HVC-001",
+      "name_en": "HV Traction Battery Pack",
+      "name_bm": "Pek Bateri Traksi Voltan Tinggi",
+      "function": "Primary energy storage unit; supplies high voltage DC power to the inverter and OBC input",
+      "voltage_range": "200–800V DC",
+      "safety_standard": "IEC 62660, UN38.3, IEC 62619",
+      "cus_referenced": ["C01", "C02", "C03", "C04", "C05"]
+    },
+    {
+      "id": "HVC-002",
+      "name_en": "Battery Management System (BMS)",
+      "name_bm": "Sistem Pengurusan Bateri (BMS)",
+      "function": "Monitors cell voltages, temperatures, SOC, SOH; controls contactors; communicates with VCU via CAN bus",
+      "voltage_range": "200–800V DC (monitored); 12V DC (control supply)",
+      "safety_standard": "IEC 62133, ISO 6469-3",
+      "cus_referenced": ["C01", "C02", "C03"]
+    },
+    {
+      "id": "HVC-003",
+      "name_en": "BMS Master Controller",
+      "name_bm": "Pengawal Induk BMS",
+      "function": "Central ECU of the BMS; aggregates cell data from slave modules; executes protection algorithms",
+      "voltage_range": "12V DC (supply); monitors 200–800V DC pack",
+      "safety_standard": "ISO 26262 (ASIL B/C), IEC 62133",
+      "cus_referenced": ["C02", "C03"]
+    },
+    {
+      "id": "HVC-004",
+      "name_en": "Main Positive Contactor",
+      "name_bm": "Penyentuh Positif Utama",
+      "function": "Electrically connects the HV battery positive terminal to the HV bus upon BMS command",
+      "voltage_range": "200–800V DC; coil 12V DC",
+      "safety_standard": "IEC 60947-4, ISO 6469-3",
+      "cus_referenced": ["C02", "C03"]
+    },
+    {
+      "id": "HVC-005",
+      "name_en": "Main Negative Contactor",
+      "name_bm": "Penyentuh Negatif Utama",
+      "function": "Electrically connects the HV battery negative terminal to the HV bus; opens to isolate pack",
+      "voltage_range": "200–800V DC; coil 12V DC",
+      "safety_standard": "IEC 60947-4, ISO 6469-3",
+      "cus_referenced": ["C02", "C03"]
+    },
+    {
+      "id": "HVC-006",
+      "name_en": "Pre-charge Relay and Resistor",
+      "name_bm": "Geganti dan Perintang Pra-cas",
+      "function": "Limits inrush current into DC bus capacitors during start-up sequence; prevents contactor welding",
+      "voltage_range": "200–800V DC (switched); coil 12V DC",
+      "safety_standard": "IEC 60947-4, OEM specification",
+      "cus_referenced": ["C02", "C03"]
+    },
+    {
+      "id": "HVC-007",
+      "name_en": "Service Plug / HV Manual Service Disconnect",
+      "name_bm": "Plag Servis / Pemutusan Servis Manual VT",
+      "function": "Manual isolation point that physically breaks the HV circuit; mandatory first step before any HV work",
+      "voltage_range": "200–800V DC rated",
+      "safety_standard": "SAE J1772, IEC 62196, ISO 6469-3",
+      "cus_referenced": ["C01", "C02", "C03", "C04", "C05"]
+    },
+    {
+      "id": "HVC-008",
+      "name_en": "HV Cables and Wiring Harness",
+      "name_bm": "Kabel dan Harnes Pendawaian Voltan Tinggi",
+      "function": "Transmit high voltage DC and AC power between HV components; orange-sheathed per SAE J1654",
+      "voltage_range": "200–800V DC / 200–800V AC (motor side)",
+      "safety_standard": "SAE J1654, IEC 60445, IEC 62196",
+      "cus_referenced": ["C01", "C02", "C03", "C04", "C05"]
+    },
+    {
+      "id": "HVC-009",
+      "name_en": "DC-DC Converter",
+      "name_bm": "Penukar DC-DC",
+      "function": "Steps down HV battery voltage (200–800V DC) to 12V or 48V DC for LV system and auxiliary battery charging",
+      "voltage_range": "Input: 200–800V DC; Output: 13.5–14.4V DC",
+      "safety_standard": "IEC 61000-3, ISO 16750, OEM specification",
+      "cus_referenced": ["C03", "C04"]
+    },
+    {
+      "id": "HVC-010",
+      "name_en": "On-Board Charger (OBC)",
+      "name_bm": "Pengecas Dalam Kenderaan (OBC)",
+      "function": "Converts AC mains supply to regulated DC voltage for charging the HV traction battery pack",
+      "voltage_range": "AC input: 220–240V AC (L1) / 380–415V AC (L3); DC output: 200–800V DC",
+      "safety_standard": "IEC 62196, SAE J1772, IEC 61851, IEC 61000-6",
+      "cus_referenced": ["C03", "C04"]
+    },
+    {
+      "id": "HVC-011",
+      "name_en": "Traction Inverter (Motor Control Unit, MCU)",
+      "name_bm": "Penyongsang Traksi / Unit Kawalan Motor (MCU)",
+      "function": "Converts HV DC from battery to 3-phase AC to drive the traction motor; controls torque and speed via PWM",
+      "voltage_range": "DC input: 200–800V DC; AC output: 200–800V AC (3-phase)",
+      "safety_standard": "ISO 26262 (ASIL C/D), IEC 61800-5-1",
+      "cus_referenced": ["C04", "C05"]
+    },
+    {
+      "id": "HVC-012",
+      "name_en": "Traction Motor (PMSM / ASM)",
+      "name_bm": "Motor Traksi (PMSM / ASM)",
+      "function": "Converts electrical energy to mechanical torque for vehicle propulsion; also acts as generator in regen braking",
+      "voltage_range": "200–800V AC (3-phase, from inverter)",
+      "safety_standard": "IEC 60034, ISO 6469-3",
+      "cus_referenced": ["C04", "C05"]
+    },
+    {
+      "id": "HVC-013",
+      "name_en": "Current Sensor (Hall Effect)",
+      "name_bm": "Penderia Arus (Kesan Hall)",
+      "function": "Measures HV pack charge/discharge current; provides data to BMS for SOC calculation and overcurrent protection",
+      "voltage_range": "Measures 200–800V DC circuit; operates on 5V or 12V supply",
+      "safety_standard": "ISO 26262 (ASIL B), OEM specification",
+      "cus_referenced": ["C02", "C03"]
+    },
+    {
+      "id": "HVC-014",
+      "name_en": "HV Connector (Orange High-Current)",
+      "name_bm": "Penyambung Voltan Tinggi (Arus Tinggi Oren)",
+      "function": "Mechanical interface for HV cable connections; includes locking and interlock features to prevent accidental disconnection",
+      "voltage_range": "200–800V DC rated; 600V DC minimum rating",
+      "safety_standard": "IEC 62196, SAE J1654, UL 2251",
+      "cus_referenced": ["C02", "C03", "C04"]
+    },
+    {
+      "id": "HVC-015",
+      "name_en": "Battery Cells and Modules",
+      "name_bm": "Sel dan Modul Bateri",
+      "function": "Individual lithium-ion electrochemical cells (pouch/prismatic/cylindrical) grouped into modules to form the battery pack",
+      "voltage_range": "Cell: 2.5–4.2V DC; Module: 20–100V DC (series string)",
+      "safety_standard": "IEC 62660, UN38.3, IEC 62619, UL 2580",
+      "cus_referenced": ["C02", "C03"]
+    },
+    {
+      "id": "HVC-016",
+      "name_en": "Electric Compressor (HVAC)",
+      "name_bm": "Pemampat Elektrik (HVAC)",
+      "function": "HV-powered scroll or rotary compressor for cabin air conditioning; eliminates need for belt-driven compressor",
+      "voltage_range": "200–800V DC (HV powered)",
+      "safety_standard": "ISO 13043, SAE J2842, IEC 60335-2-34",
+      "cus_referenced": ["C04", "C05"]
+    },
+    {
+      "id": "HVC-017",
+      "name_en": "Electric Water Pump (Cooling Circuit)",
+      "name_bm": "Pam Air Elektrik (Litar Penyejukan)",
+      "function": "Circulates coolant through battery pack, inverter, and motor thermal management circuits; electronically controlled",
+      "voltage_range": "12V DC or 48V DC (LV-powered, but cools HV components)",
+      "safety_standard": "ISO 16750, OEM specification",
+      "cus_referenced": ["C04", "C05"]
+    },
+    {
+      "id": "HVC-018",
+      "name_en": "HV Fuse / Pyrofuse",
+      "name_bm": "Fius Voltan Tinggi / Pirofius",
+      "function": "Overcurrent protection device for the HV traction circuit; pyrofuse uses explosive charge for rapid disconnection",
+      "voltage_range": "200–800V DC; rated for fault currents >1000A",
+      "safety_standard": "IEC 60269, AIS-048 (India), OEM specification",
+      "cus_referenced": ["C02", "C03"]
+    }
+  ]
+}

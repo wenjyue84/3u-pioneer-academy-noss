@@ -179,3 +179,22 @@ Completed: Create Assessment Question Bank Indexer with Full-Text Search and Com
 ### Gotchas
 - sys.modules registration required: add `sys.modules["module_name"] = vtd` before `spec.loader.exec_module(vtd)` when loading modules with @dataclass via importlib
 - Aesthetic C03+ use `**Theory Duration:**` with colon inside bold — regex must be `Theory\s+Duration[*:]{0,3}` not `\*{1,2}...\*{1,2}`
+## Iteration 3 - Fri, Apr 17, 2026  5:23:20 PM
+Completed: Implement Training Hours Distribution Validator for 30/70 Knowledge/Performance Split (ID: US-035) in 8m
+
+
+## Iteration N - Story: BEV HV System Component Cross-Reference Indexer (US-038)
+
+### What was implemented
+- bev-diagnostic-rectification/_reference/hv-component-index.json: 18 HV components with id, name_en, name_bm, function, voltage_range, safety_standard, cus_referenced
+- scripts/index_hv_components.py: extract_components(), validate_safety_fields(), scan_kp_files(), build_index(), generate_validation_report() + CLI with --update flag
+- tests/test_hv_component_index.py: 19 tests across 5 test classes — all pass
+
+### Patterns discovered
+- importlib module loading pattern: spec_from_file_location + sys.modules registration works cleanly for scripts/ dir
+- extract_components() uses lowercase keyword matching dict (component_id -> [keywords]) for deterministic scanning
+- validate_safety_fields() returns list of error strings; empty = valid (clean for pytest assertions)
+
+### Gotchas
+- _reference/ directory must be created before writing JSON (it didn't exist)
+- Windows: all file reads use encoding='utf-8' explicitly
