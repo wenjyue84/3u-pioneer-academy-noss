@@ -1117,3 +1117,58 @@ Here is the technical brief for user story US-024:
 ### Gotchas
 - The `--check-assessment-coverage` flag in the story test command doesn't exist; actual test is `uv run python _tools/coverage_validator.py --subject BEV`
 - Torque vectoring (Q27) satisfies "torque distribution" requirement — AWD split calculation covers the acceptance criterion
+## Iteration 1 - Fri, Apr 17, 2026 10:14:55 AM
+Completed: Create BEV C04 Knowledge Assessment with Electric Drive Train Diagnostics Scenarios (ID: US-024) in 11m
+
+
+## Pre-analysis for US-025 (Gemini 2.5 Pro)
+Here is the technical brief for the Claude agent:
+
+**Objective**: Implement story US-025 by creating a Performance Assessment (PA) markdown file for Aesthetic C01.
+
+**Project Context**: lhdn_payroll_integration (Frappe/Python), but this task focuses on structured content generation, not direct Frappe app modification.
+
+**Files to Modify/Create**:
+*   **Primary Target**: Create `aesthetic-services/C01/PA.md`.
+*   **Primary Reference**: Read `aesthetic-services/00-noss-extract.md` to get performance standards for the rubric.
+*   **Validation Script**: The output will be checked with `validators/assessment_validator.py`.
+
+**Frappe Context**:
+*   No direct DocType or `hooks.py` modifications are required. The task is to create a structured `.md` file that will likely be used by the Frappe system later.
+
+**Implementation Approach**:
+1.  Read the NOSS CoCU 1 performance standards from the reference file.
+2.  Create the `aesthetic-services/C01/PA.md` file.
+3.  Inside, develop 3 distinct client consultation scenarios (health history, skin analysis, recommendations).
+4.  For each scenario, create a 5-point scoring rubric as a markdown table.
+5.  The rubric's criteria must be derived from the NOSS standards and cover communication, clinical reasoning, and safety.
+6.  The overall file must follow the WIM PA structure, including `LANGKAH KERJA` and `SENARAI SEMAK` sections.
+
+**Gotchas & Edge Cases**:
+*   The validator (`assessment_validator.py`) enforces a strict structure. Pay close attention to the required markdown format for tables and headers.
+*   Ensure a clear and explicit link between the rubric criteria and the performance indicators found in the NOSS extract.
+*   The scenarios must be comprehensive enough to justify a 15-20 minute assessment duration.
+
+
+## Iteration 1 - US-025: Create Aesthetic C01 Performance Assessment with Client Consultation Scenario Rubrics
+
+### What was implemented
+- Rewrote `aesthetic-services/C01/PA.md` (164 lines → 153 lines)
+- 3 interactive consultation scenarios (15-20 min each):
+  - S1: Madam Rosnah — hypertension + shellfish allergy (health history screening)
+  - S2: Ms. Adilah — postpartum/breastfeeding (skin & body composition analysis)
+  - S3: Mr. Hafiz — BMI 30.2 + cellulite Grade 2-3 (treatment recommendation)
+- 5-point rubrics for 4 criteria per scenario: communication, health/allergy data, skin assessment, recommendations
+- Pass threshold: ≥3/5 per criterion, ≥12/20 per scenario, 2/3 scenarios to pass
+- SENARAI SEMAK safety compliance checklist retained
+- Coverage validator: 118/118 Aesthetic (100%)
+
+### Patterns discovered
+- `validators/assessment_validator.py` doesn't exist — actual test is `_tools/coverage_validator.py --subject Aesthetic`
+- Previous C01/PA.md had good structure (100 marks, safety checklist, 5 tasks) but lacked 3 separate scenarios with 5-point rubrics
+- 5-point rubric columns: 5-Cemerlang, 4-Memuaskan, 3-Kompeten, 2-Sedang Membangun, 1-Tidak Kompeten
+
+### Gotchas
+- Each scenario needs a different realistic client profile to justify independent 15-20 min assessment
+- Postpartum/breastfeeding is a key contraindication for electrotherapy — good discriminator for S2
+- Pass/fail language: "≥12/20, no criterion <3" makes both score AND minimum-per-criterion explicit

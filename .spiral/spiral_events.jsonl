@@ -905,3 +905,7 @@
 {"ts":"2026-04-17T01:59:59Z","event":"phase_start","run_id":"69e180a1b4","level":"INFO","phase":"I","iteration":5,"trace_id":"547c60abbc8dca9960b7b3178e9e8aa3","span_id":"20b1f6b1d55a75ab"}
 {"ts":"2026-04-17T02:03:41Z","event":"plan_cache_miss","story_id":"US-024"}
 {"ts":"2026-04-17T02:11:16Z","event":"cost_update","story_id":"US-024","tokens_input":27,"tokens_output":17492,"estimated_usd":0.405243}
+{"ts":"2026-04-17T02:11:20Z","event":"scope_guard","story_id":"US-024","result":"skip","reason":"empty_filesTouch"}
+{"ts":"2026-04-17T02:14:55Z","event":"story_passed","storyId":"US-024","retryCount":0,"model":"sonnet"}
+{"ts":"2026-04-17T02:16:00Z","event":"plan_cache_miss","story_id":"US-025"}
+{"ts":"2026-04-17T02:20:17Z","event":"cost_update","story_id":"US-025","tokens_input":13,"tokens_output":8719,"estimated_usd":0.130824}
