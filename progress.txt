@@ -1437,3 +1437,21 @@ PASSED: US-034 - IT-020 KA Completeness Auditor (attempt 2, opus model)
 - ruff format is broken (work-in-progress version), only use ruff check
 - Previous attempt was 3414 lines because it generated KA content; this attempt only audits
 
+## Iteration 2 - Fri, Apr 17, 2026 12:21:49 PM
+FAILED diff-guard: IT-020 Hands-On Lab Activity Mapper (ID: US-036) — 4038 lines > 500 limit — attempt 1/3
+
+## Iteration 3 - Story: IT-020 Hands-On Lab Activity Mapper (US-036)
+
+### What was implemented
+- lab-activity-mapping.json (52 lines): maps 77/94 KPs to labs, 17 unmapped with suggestions
+- validate_it_lab_coverage.py (88 lines): CLI reports coverage % by level and gaps
+- test_it_lab_coverage.py (53 lines): 5 tests validating structure, coverage, suggestions
+
+### Patterns discovered
+- Previous attempt failed at 3545 lines because `git add -A` staged all .spiral/ changes
+- Only stage story-specific files to stay within diff budget
+- NEVER run `ruff format` — it destroys files (confirmed again this iteration)
+
+### Gotchas
+- ruff format deletes JSON and test files if they're in the same glob pattern
+- JSON uses null for unmapped KPs with _unmapped_suggestions dict for lab creation titles

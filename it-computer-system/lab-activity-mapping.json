@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "programme": "IT-020:2013 Computer System Management",
+    "description": "Maps each KP to hands-on lab activities. Array index = KP number - 1. null = no lab mapped.",
+    "levels": ["L3", "L4", "L5"]
+  },
+  "L3": {
+    "C01": ["Job Request Analysis Workshop", "Hardware Inventory Prep", "Desktop PC Assembly", "OS and Driver Install", "Peripheral Config Lab", "System Stress Testing", null],
+    "C02": ["Maintenance Scheduling Lab", "Preventive Maintenance Lab", "Corrective Maintenance Lab", null],
+    "C03": ["Repair Job Assessment Lab", "Remote Troubleshooting Lab", "Onsite HW/SW Repair Lab", null],
+    "C04": ["Server Job Analysis Lab", "Server Hardware Install", "Server OS Install Lab", "Server Function Test Lab", null],
+    "C05": ["Server Maint Job Analysis", "Server HW Maintenance Lab", "Server OS Patching Lab", null],
+    "C06": ["Network Spec Analysis Lab", "Network Device Config Lab", "Connectivity Testing Lab", "Network Troubleshoot Lab", null],
+    "C07": ["Mobile Job Analysis Lab", "Mobile Device Config Lab", "Mobile Troubleshoot Lab", "Device Commissioning Lab"]
+  },
+  "L4": {
+    "C01": ["Server Req Analysis Lab", "Server Roles Planning Lab", "Server Storage Config Lab", "Server OS Roles Config", "Server Security Config", null],
+    "C02": ["Security Req Analysis Lab", "Access Control Setup Lab", "Firewall Config Lab", "Patch Management Lab", null],
+    "C03": ["Procurement Needs Analysis", "Tender Document Prep Lab", "Vendor Evaluation Lab", "Delivery Management Lab", null],
+    "C04": ["Cabling Layout Design Lab", "Cable Install and Label Lab", "Cable Record Maintenance", "Contractor Coordination Lab", null],
+    "C05": ["Network Setup Analysis Lab", "Network Install Planning", "Install Work Management Lab", null],
+    "C06": ["Maint Req Analysis Lab", "Maint Plan Development Lab", "Maint Work Management Lab", "Troubleshoot Management Lab", null]
+  },
+  "L5": {
+    "C01": ["IT Resource Planning Lab", "Ops Coordination Workshop", "Performance Monitoring Lab", null],
+    "C02": ["Asset Inventory Audit Lab", "Asset Status Definition Lab", "Cost Estimation Workshop", "Asset Mgmt System Config", "Asset Tagging Standards Lab", "Asset Disposal Procedure Lab", null],
+    "C03": ["Security Req Analysis Lab", "Security Plan Workshop", "Security Ops Management Lab", null],
+    "C04": ["DR Requirements Analysis Lab", "DR Plan Development Lab", "DR Plan Implementation Lab", null],
+    "C05": ["Project Req Analysis Lab", "Project Planning Workshop", "Project Execution Lab", "Project Closure Lab"],
+    "C06": ["SOP Req Analysis Lab", "SOP Document Writing Lab", "SOP Implementation Lab", null],
+    "C07": ["Script Req Assessment Lab", "Server Script Dev Lab", "Script Deploy and Test Lab", "Script Documentation Lab"]
+  },
+  "_unmapped_suggestions": {
+    "L3-C01-KP07": "Set-up Report Writing and QA Workshop",
+    "L3-C02-KP04": "Maintenance Log Documentation Lab",
+    "L3-C03-KP04": "Repair Status Report Drafting Lab",
+    "L3-C04-KP05": "Server Install Report Workshop",
+    "L3-C05-KP04": "Server Maintenance Record Lab",
+    "L3-C06-KP05": "Network Report Documentation Lab",
+    "L4-C01-KP06": "Server Config Documentation Lab",
+    "L4-C02-KP05": "Security Incident Report Workshop",
+    "L4-C03-KP05": "Procurement Record-Keeping Lab",
+    "L4-C04-KP05": "Cabling Change Log Workshop",
+    "L4-C05-KP04": "Network Install Report Workshop",
+    "L4-C06-KP05": "Maintenance Report Compilation Lab",
+    "L5-C01-KP04": "Management Report Writing Workshop",
+    "L5-C02-KP07": "Asset Report Generation Lab",
+    "L5-C03-KP04": "Security Audit Report Workshop",
+    "L5-C04-KP04": "DR Report and Lessons Learned Lab",
+    "L5-C06-KP04": "SOP Report Review Workshop"
+  }
+}
