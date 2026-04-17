@@ -1255,10 +1255,20 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T07:43:29Z"
+      "last_attempted": "2026-04-17T07:43:29Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- `_tools/learning_outcome_mapper.py` (94 lines) already exists and is committed with 3 core functions: `parse_noss_learning_outcomes`, `extract_assessment_item_tags`, `compute_coverage_percentage`\n- `_tools/test_learning_outcome_mapper.py` (75 lines) already exists with tests\n- `_reference/coverage_matrix.csv` already generated with BEV LO coverage data\n- Previous attempt failed only due to missing diagnosis block — the actual implementation is complete\n\n## Problem Identified\nStory US-051 was fully implemented in iteration 5 but the SPIRAL gate rejected it because no diagnosis block was output before file edits. The code and tests are already committed. I need to verify tests pass, ensure prd.json marks the story as passing, and commit any remaining changes.\n\n## Planned Changes\n- Verify existing tests pass with `uv run pytest`\n- Ensure `prd.json` has `passes: true` for US-051 (may already be set)\n- Update `progress.txt` with iteration notes\n- Commit any uncommitted changes\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"prd.json\", \"progress.txt\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 15\n}\n</plan>\n\nNow let me verify the tests pass.\nAll 3 tests pass. Let me check if prd.json already has `passes: true` for US-051.\nStory already has `passes: true`. Let me check if there are any uncommitted changes to prd.json or progress.txt that need committing.\nprd.json is already committed with `passes: true`. The only uncommitted changes are progress.txt and spiral events. Let me read the current progress.txt to append iteration notes.\nStory US-051 is complete. All implementation was already done in iteration 5 — the previous failure was purely the diagnosis-block gate. Tests pass (3/3), CSV output is correct, and `prd.json` already has `passes: true`."
+      },
+      "_contextStats": {
+        "tokensBeforeMasking": 448,
+        "tokensAfterMasking": 447,
+        "reductionPct": 0,
+        "contextWindow": 10
+      },
+      "_passedCommit": "05edbe84d9220864134f5174d62ebbb202765937"
     },
     {
       "id": "US-052",
@@ -1277,9 +1287,13 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nNo accuracy auditor exists yet. Need to create `_tools/accuracy_auditor.py`, `_tools/test_accuracy_auditor.py`, and `_reference/industry_standards_index.json`.\n\n## Problem Identified\nUS-052 requires a Python tool that audits WIM technical content against industry standards (IEC for BEV, medical standards for Aesthetic, ISO for IT), flagging compliance issues.\n\n## Planned Changes\n- Create `_reference/industry_standards_index.json` — standards data with key requirements\n- Create `_tools/accuracy_auditor.py` — audit functions + report formatter\n- Create `_tools/test_accuracy_auditor.py` — tests including 48V threshold test\n\n<plan>\n{\n  \"files_to_create\": [\"_reference/industry_standards_index.json\", \"_tools/accuracy_auditor.py\", \"_tools/test_accuracy_auditor.py\"],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\"audit_bev_standards\", \"audit_aesthetic_standards\", \"audit_it_standards\", \"format_audit_report\"],\n  \"estimated_loc\": 210\n}\n</plan>\n\nLet me check existing tool patterns first.\nLet me check the existing test file for import patterns.\nNow I'll create all three files.\nNow run the target test plus the full test file:\nAll 9 tests pass. Now mark the story complete and commit.\nNow document learnings and commit:\nUS-052 complete. 9/9 tests passing, `passes: true` set in prd.json.\n\n**Summary:**\n- `_reference/industry_standards_index.json` — 5 standards (IEC 61508, EN 455, IEC 62196, ISO 18562, ISO/IEC 11801)\n- `_tools/accuracy_auditor.py` — 4 functions: `audit_bev_standards`, `audit_aesthetic_standards`, `audit_it_standards`, `format_audit_report`\n- `_tools/test_accuracy_auditor.py` — 9 tests including the required `test_48v_high_voltage_requirement`"
+      },
+      "_passedCommit": "3f79a87a3576013779c408fcb82d896b6aa6b40f"
     },
     {
       "id": "US-053",
@@ -1298,9 +1312,10 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T08:57:18Z"
     },
     {
       "id": "US-054",
