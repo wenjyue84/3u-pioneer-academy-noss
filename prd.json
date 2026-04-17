@@ -886,10 +886,73 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T03:18:10Z"
+      "last_attempted": "2026-04-17T03:22:59Z"
+    },
+    {
+      "id": "US-033",
+      "title": "Implement NOSS CoCU Related Knowledge Dependency Mapper",
+      "priority": "high",
+      "description": "Build automated tool that validates every Related Knowledge item in NOSS CoCU has supporting KP (knowledge paper) content, generating comprehensive coverage audit report.",
+      "acceptanceCriteria": [
+        "Create script scripts/validate_rk_coverage.py that reads prd.json RelatedKnowledge arrays for all 3 subjects and scans for corresponding KP files with matching RK reference codes",
+        "Generate audit report listing: (1) covered RK items with file paths, (2) missing KP files (orphaned RK), (3) KP files without CoCU reference (undocumented content)",
+        "Exit code 0 for 100% coverage, non-zero with stderr warnings for partial coverage; designed for CI/CD integration"
+      ],
+      "technicalNotes": [
+        "File to create: scripts/validate_rk_coverage.py (main), scripts/rk_parser.py (utility)",
+        "Test command: uv run python scripts/validate_rk_coverage.py bev aesthetic it && uv run pytest tests/test_rk_dependency_mapper.py -v",
+        "Use JSON schema validation for prd.json RelatedKnowledge structure"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-034",
+      "title": "Implement IT-020 Knowledge Assessment Completeness Auditor for All Levels",
+      "priority": "high",
+      "description": "Automated audit tool verifying all IT CUs across Levels 3, 4, and 5 have complete KA files with minimum content requirements and proper marking schemes.",
+      "acceptanceCriteria": [
+        "Create script scripts/audit_it_ka_completeness.py that scans it-computer-system/L{3,4,5}/ directories, validates KA files exist per CU with minimum 12 questions, complete answer scheme, and rubric (0-3 scale minimum)",
+        "Generate completeness matrix showing: per-level status (L3: 6/6 complete, L4: 5/6 missing C05, L5: 3/3 complete), file paths with status indicators, remediation plan with estimated effort per missing assessment",
+        "Integration hook: auto-alert when new CU added to prd.json without corresponding KA file (blocks incomplete CU PR merges)"
+      ],
+      "technicalNotes": [
+        "File to create: scripts/audit_it_ka_completeness.py with directory scanner and KA validation rules",
+        "Test command: uv run python scripts/audit_it_ka_completeness.py && uv run pytest tests/test_it_ka_completeness_auditor.py -v",
+        "Validate KA markdown structure and question count using assertions and pydantic schemas"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-035",
+      "title": "Implement Training Hours Distribution Validator for 30/70 Knowledge/Performance Split",
+      "priority": "medium",
+      "description": "Automated tool ensuring lesson plan allocations comply with mandatory 30% knowledge-based / 70% performance-based training hour distribution across all CUs.",
+      "acceptanceCriteria": [
+        "Create script scripts/validate_training_distribution.py that parses all PM-teori.md and PM-amali.md files, extracts duration hours from header metadata, calculates K/P split per CU",
+        "Generate compliance report: per-CU K/P split percentage, cumulative subject total, flag any CU with <25% or >35% knowledge allocation as non-compliant",
+        "Exit with warnings for distribution drift; integrate health check into .spiral/monitor to track K/P ratio stability"
+      ],
+      "technicalNotes": [
+        "File to create: scripts/validate_training_distribution.py with YAML duration parser from lesson plan headers",
+        "Test command: uv run python scripts/validate_training_distribution.py all_subjects && uv run pytest tests/test_training_hours_validator.py -v",
+        "Validate against requirements.md 30/70 specification using assertion math"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
     }
   ]
 }

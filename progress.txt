@@ -1324,3 +1324,45 @@ Here is the technical brief for implementing user story US-032.
 *   **Combined Questions:** Be aware of questions that might fit multiple types. Establish a clear heuristic for classification.
 *   **Error Handling:** The script must gracefully handle cases where no assessment files are found or a file cannot be parsed.
 
+
+## Pre-analysis for US-032 (Gemini 2.5 Pro)
+Here is the technical brief for implementing user story US-032.
+
+### **Technical Brief: US-032 - Assessment Question Type Analyzer**
+
+**1. Files to Modify/Create:**
+*   **Primary Target:** Create a new standalone Python script at `_tools/analyzers/question_type_analyzer.py`.
+*   **Input Files (Read-Only):** The script will need to read all Knowledge Assessment (KA) and Practical Assessment (PA) files. These are likely located within the subject-matter directories: `bev-diagnostic-rectification/`, `aesthetic-services/`, and `it-computer-system/`.
+*   **Output File:** The script will generate a Markdown report at `_reference/assessment-question-type-distribution.md`.
+
+**2. Frappe DocTypes & Hooks:**
+*   None. This is a standalone Python analysis tool and does not interact with the Frappe framework, its DocTypes, or its hooks.
+
+**3. Recommended Implementation Approach:**
+*   Use Python's `argparse` library to handle the `--all-subjects` and `--format` command-line arguments.
+*   Implement a primary function to discover and glob all `KA` and `PA` assessment files from the subject directories.
+*   Create a "QuestionClassifier" class. Its main method will take file content and use regex patterns to identify and count question types (MCQ, short-answer, scenario, etc.) based on the structures defined in the acceptance criteria.
+*   Develop a "DistributionCalculator" to process the classified data, calculating the percentage of each question type per assessment and per subject.
+*   Add a "RebalancingRecommender" module that flags assessments meeting the low-diversity criteria (e.g., <4 types or >60% single type) and generates specific, actionable recommendations for converting question types.
+
+**4. Edge Cases & Gotchas:**
+*   **Pattern Recognition:** The regex for identifying question types must be robust to avoid misclassifying questions. For example, "blank lines" for short-answer questions might be unreliable.
+*   **File Discovery:** Avoid hardcoding paths. The script should dynamically locate the subject directories to ensure it's adaptable.
+*   **Combined Questions:** Be aware of questions that might fit multiple types. Establish a clear heuristic for classification.
+*   **Error Handling:** The script must gracefully handle cases where no assessment files are found or a file cannot be parsed.
+
+
+## Iteration N - Story: Build Cross-Subject Assessment Question Type Distribution Analyzer with Rebalancing Recommendations (US-032)
+
+### What was implemented
+- Created `_tools/analyzers/question_type_analyzer.py` — detects 7 question types (MCQ, short_answer, scenario, practical, essay, matching, fill_in) across all KA/PA files in 3 subjects
+- Generated `_reference/assessment-question-type-distribution.md` — per-assessment and per-subject distribution tables with flagging and rebalancing recommendations
+
+### Patterns discovered
+- PA files always contain only `practical` type (100%) by design — PA is performance-based, not knowledge-based; flagging them for low diversity is expected
+- BEV KA MCQ uses `- A.` / `- B.` style options; Aesthetic uses inline `A. B. C. D.` on same line
+- IT KA uses `- (a)` style options; matched by fallback MCQ_Q_PAT
+
+### Gotchas
+- En-dash character (–) in regex string breaks `py_compile` on Windows (cp1252 encoding) — use plain ASCII dash only in regex strings
+- Always open files with `encoding='utf-8'` — standard Windows Python gotcha
