@@ -339,6 +339,58 @@
       "last_result": "pending",
       "obsolete": false,
       "run_count": 0
+    },
+    {
+      "title": "[smoke] Build Cross-Subject Assessment Question Type Distribution Analyzer with Rebalancing Recommendations",
+      "description": "Auto-generated smoke test from US-032",
+      "from_story": "US-032",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-027",
+      "created_ts": "2026-04-17T04:26:47Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    },
+    {
+      "title": "[smoke] Implement NOSS CoCU Related Knowledge Dependency Mapper",
+      "description": "Auto-generated smoke test from US-033",
+      "from_story": "US-033",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-028",
+      "created_ts": "2026-04-17T04:26:47Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    },
+    {
+      "title": "[smoke] Implement IT-020 Knowledge Assessment Completeness Auditor for All Levels",
+      "description": "Auto-generated smoke test from US-034",
+      "from_story": "US-034",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-029",
+      "created_ts": "2026-04-17T04:26:47Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    },
+    {
+      "title": "[smoke] IT-020 Hands-On Lab Activity Mapper",
+      "description": "Auto-generated smoke test from US-036",
+      "from_story": "US-036",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-030",
+      "created_ts": "2026-04-17T04:26:47Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
     }
   ]
 }

@@ -1,8 +1,6 @@
 {
-  "phase": "I",
+  "phase": "C",
   "iteration": 10,
-  "started_at": 1776399994,
-  "pct_done": 60,
-  "story_id": "US-036",
-  "story_title": "IT-020 Hands-On Lab Activity Mapper"
+  "started_at": 1776400024,
+  "pct_done": 95
 }

@@ -1,0 +1,11 @@
+{
+  "story_id": "US-036",
+  "story_title": "IT-020 Hands-On Lab Activity Mapper",
+  "key_source": "ai-example|it-020|hands-on|lab|small|",
+  "stored_ts": 1776400149.9872487,
+  "plan": {
+    "story_id": "US-036",
+    "duration_s": 901,
+    "model": "unknown"
+  }
+}

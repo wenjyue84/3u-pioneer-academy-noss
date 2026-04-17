@@ -1002,12 +1002,15 @@
       ],
       "last_attempted": "2026-04-17T04:25:03Z",
       "_contextStats": {
-        "tokensBeforeMasking": 76,
-        "tokensAfterMasking": 75,
-        "reductionPct": 1,
+        "tokensBeforeMasking": 360,
+        "tokensAfterMasking": 358,
+        "reductionPct": 0,
         "contextWindow": 10
       },
-      "_passedCommit": "479b8c7c1d7df45d2d736b1ff4160509ba53de37"
+      "_passedCommit": "479b8c7c1d7df45d2d736b1ff4160509ba53de37",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- `it-computer-system/lab-activity-mapping.json` exists (52 lines) mapping 77/94 KPs across L3/L4/L5 to lab activities\n- `scripts/validate_it_lab_coverage.py` exists (88 lines) with `analyze_kp_lab_map` and `report_coverage_gaps` functions\n- `tests/test_it_lab_coverage.py` exists (53 lines) with 5 tests, all passing\n- CLI reports 81.9% coverage, 17 unmapped KPs (>8 minimum) with suggestions\n- All code is already committed at `479b8c7`\n\n## Problem Identified\nStory US-036 has `passes: false` despite all implementation being complete and working. Previous attempts failed due to process gates (oversized diff, missing diagnosis block), not code quality.\n\n## Planned Changes\n- Update `prd.json`: set US-036 `passes` to `true`\n- Commit the prd.json update\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"prd.json\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 2\n}\n</plan>\n\nNow let me verify acceptance criteria one more time and mark the story complete.\n\n**Acceptance criteria check:**\n1. `it-computer-system/lab-activity-mapping.json` linking each KP to lab activities (L3, L4, L5 separately) — DONE\n2. CLI `uv run python scripts/validate_it_lab_coverage.py` reports coverage % by level and unmapped KPs — DONE (81.9% overall)\n3. Minimum 8 unmapped KPs with suggested lab titles — DONE (17 unmapped, all with suggestions)\nNow append learnings to progress.txt and commit.\nUS-036 is complete. The implementation was already done and committed from the previous attempt — all 5 tests pass, CLI works correctly, and all 3 acceptance criteria are met. Marked `passes: true` and committed."
+      }
     },
     {
       "id": "US-037",
