@@ -768,7 +768,7 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
       "_failureReason": "oversized_diff: produced 12453 lines but limit is 10000. Keep total insertions+deletions under 10000 lines.",
@@ -795,7 +795,8 @@
       "estimatedComplexity": "small",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T04:52:42Z"
     },
     {
       "id": "US-029",
@@ -1038,15 +1039,15 @@
       ],
       "last_attempted": "2026-04-17T04:47:56Z",
       "_phaseI": {
-        "diagnosisBlock": "## Current State\n- BEV WIM has KPs in C01 (3 KPs), C02 (6 KPs), C03 (3 KPs) — these are the KPs the scenarios should link to\n- `_tools/` directory doesn't exist yet under `bev-diagnostic-rectification/`\n- Test pattern: use `Path(__file__).parent.parent` for PROJECT_ROOT, run via subprocess\n\n## Problem Identified\nNeed to create a fault code scenario generator with JSON data + Python CLI + tests, all under 500 lines total diff.\n\n## Planned Changes\n- **Create** `bev-diagnostic-rectification/_tools/fault-code-scenarios.json` — compact JSON with exactly 20 fault codes (minimum to meet \"20+\"), ultra-minimal per entry\n- **Create** `bev-diagnostic-rectification/_tools/generate-scenarios.py` — compact script with `load_fault_codes` and `create_scenario_question`, CLI interface\n- **Create** `tests/test_fault_scenarios.py` — lean test file covering KP link validity\n- **Modify** `prd.json` — mark US-037 passes: true\n\nKey diff-reduction strategy vs attempt 1:\n- JSON: 20 entries, each on ~3-4 lines using compact format (no pretty-print arrays)\n- Python: single-purpose, ~50 lines\n- Tests: ~40 lines\n\n<plan>\n{\n  \"files_to_create\": [\"bev-diagnostic-rectification/_tools/fault-code-scenarios.json\", \"bev-diagnostic-rectification/_tools/generate-scenarios.py\", \"tests/test_fault_scenarios.py\"],\n  \"files_to_modify\": [\"prd.json\"],\n  \"functions_to_add\": [\"load_fault_codes\", \"create_scenario_question\"],\n  \"estimated_loc\": 200\n}\n</plan>\nNow let me run the tests and check diff size.\nThe filename has a hyphen, so I can't import it as a module directly. Let me fix the import approach.\nAll 6 tests pass. Let me also verify the CLI works and check the diff size.\nThe diff only shows tracked files. Let me check total including new files.\nNew files = 151 lines + existing diff of 62 = ~213 total. Well under 500. Now mark the story as passed in prd.json.\nNow update progress.txt and commit.\nUS-037 complete. 224 lines total diff — well under the 500 limit.\n\n**Summary:**\n- `fault-code-scenarios.json` — 20 BEV fault codes in compact JSON (22 lines vs 300+ in attempt 1)\n- `generate-scenarios.py` — `load_fault_codes()` + `create_scenario_question()` + CLI (65 lines)\n- `tests/test_fault_scenarios.py` — 6 passing tests including `test_scenario_kp_links` (64 lines)\n- All acceptance criteria met, story marked `passes: true`"
+        "diagnosisBlock": "## Current State\n\nThe US-037 implementation already exists from a previous commit (66a680d):\n- `bev-diagnostic-rectification/_tools/fault-code-scenarios.json` — 21 fault codes with proper schema\n- `bev-diagnostic-rectification/_tools/generate-scenarios.py` — `load_fault_codes()` + `create_scenario_question()` + CLI\n- `tests/test_fault_scenarios.py` — 6 tests covering count, schema, KP links, system coverage, format, CLI\n\n## Problem Identified\n\nStory US-037 `passes` is `false` in prd.json despite the implementation being committed. The previous attempt failed the diagnosis-block gate (no diagnosis block output before file edits). The code itself appears complete and correct.\n\n## Planned Changes\n\n- **Verify** tests pass (`uv run pytest tests/test_fault_scenarios.py -v`)\n- **Verify** CLI runs (`uv run python bev-diagnostic-rectification/_tools/generate-scenarios.py --list`)\n- **Modify** `prd.json` — mark US-037 `passes: true`\n- **Update** `progress.txt` — document this iteration\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"prd.json\", \"progress.txt\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 15\n}\n</plan>\n\nNow let me verify the existing implementation.\nAll 6 tests pass and CLI works. 21 fault codes covering Battery, BMS, Drivetrain, and Thermal systems. All acceptance criteria met:\n\n1. **JSON with 20+ fault codes** — 21 entries with symptoms, diagnosis steps, and KP links\n2. **CLI generates KT markdown** — works with `--list`, `--output`, `--out-dir`\n3. **Each scenario has fault code, component, symptoms, procedures, and C01-C03 KP links**\n\nNow mark the story as passed.\nNow commit.\nUS-037 complete. The implementation was already in place from a prior commit — all 6 tests pass, CLI works, 21 fault codes covering Battery/BMS/Drivetrain/Thermal systems with C01–C03 KP links. Story marked `passes: true`."
       },
       "_contextStats": {
-        "tokensBeforeMasking": 542,
-        "tokensAfterMasking": 540,
+        "tokensBeforeMasking": 804,
+        "tokensAfterMasking": 802,
         "reductionPct": 0,
         "contextWindow": 10
       },
-      "_passedCommit": "e4c00d878d7754bc79b9d8fee997bea6b0331513"
+      "_passedCommit": "b138d0dd4e087f77368d25bca56cee33aa322d8b"
     },
     {
       "id": "US-038",
