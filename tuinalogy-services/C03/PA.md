@@ -1,12 +1,32 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PRESTASI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C03 TUINALOGY SERVICES APPLICATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. CARRY OUT TUINALOGY BASIC TECHNIQUES<br>2. CARRY OUT TUINALOGY MERIDIAN AND ACUPOINT MANIPULATION<br>3. CARRY OUT TUINALOGY SPECIFIC PROCEDURES<br>4. RECORD TUINALOGY SERVICES APPLICATION ACTIVITIES |
+| NO. KOD | MP-031-3:2016-C03/PA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | BIRU MUDA (Light Blue) |
+
+**TAJUK:** 表现评估 / Performance Assessment (PA) — C03 运动推拿服务
+
+**TUJUAN:** 考试题目示例（PB 抽签决定情境）：
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 表现评估 / Performance Assessment (PA) — C03 运动推拿服务
 
-**WIM 编码：** MP-031-3:2016-C03/PA
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C03 运动推拿服务
-**纸张颜色：** 🟦 浅蓝 (BIRU MUDA)
-**时数：** 4 小时（含模拟运动员客户全程演练 + 评分）
-**最后更新：** 2026-04-17
----
 
 ## 评估说明
 

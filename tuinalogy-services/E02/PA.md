@@ -1,12 +1,33 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PRESTASI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-E02 TUINALOGY SERVICES SUPERVISION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. MONITOR JUNIOR STAFF PERFORMANCE<br>2. CONDUCT ON-THE-JOB TRAINING<br>3. PROVIDE TECHNICAL GUIDANCE<br>4. EVALUATE STAFF COMPETENCY |
+| NO. KOD | MP-031-3:2016-E02/PA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | BIRU MUDA (Light Blue) |
+
+**TAJUK:** 综合表现评估 / Performance Assessment (PA) — E02 妇女推拿服务
+
+**TUJUAN:** 评估学员在真实或高度模拟情境下，能否安全、专业、合规地执行妇女推拿全流程，特别检验：
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 综合表现评估 / Performance Assessment (PA) — E02 妇女推拿服务
 
-**WIM 编码：** MP-031-3:2016-E02/PA
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** E02 妇女推拿服务
-**纸张颜色：** 🩵 浅蓝
 **总分：** 100 分 | 时长：3 小时（含准备 + 操作 + 复盘）
-**最后更新：** 2026-04-17
----
 
 ## 一、评估目的 / Assessment Purpose
 

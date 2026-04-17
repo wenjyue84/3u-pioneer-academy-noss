@@ -1,3 +1,30 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | IT-020-3:2013 PENGURUSAN SISTEM KOMPUTER |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | IT-020-3:2013-L3-C03 COMPUTER NETWORK INSTALLATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE NETWORK INSTALLATION<br>2. INSTALL NETWORK HARDWARE<br>3. CONFIGURE NETWORK SETTINGS<br>4. VERIFY NETWORK INSTALLATION |
+| NO. KOD | IT-020-3:2013-L3-C03/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** KA — IT-020-3:2013-C03 Computer System Repair
+
+**TUJUAN:** Which field is MOST critical when assessing a computer repair job order?
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # KA — IT-020-3:2013-C03 Computer System Repair
 
 **Kod:** IT-020-3:2013-C03/KA | **Tahap:** 3 | **Kertas Warna:** Pink

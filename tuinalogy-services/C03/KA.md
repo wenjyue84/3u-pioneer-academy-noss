@@ -1,12 +1,32 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C03 TUINALOGY SERVICES APPLICATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. CARRY OUT TUINALOGY BASIC TECHNIQUES<br>2. CARRY OUT TUINALOGY MERIDIAN AND ACUPOINT MANIPULATION<br>3. CARRY OUT TUINALOGY SPECIFIC PROCEDURES<br>4. RECORD TUINALOGY SERVICES APPLICATION ACTIVITIES |
+| NO. KOD | MP-031-3:2016-C03/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** 知识评估 / Knowledge Assessment (KA) — C03 运动推拿服务
+
+**TUJUAN:** 3. DOMS 全名 ________________；中文译为 ________________。 4. RICE 原则：R= ____, I= ____, C= ____, E= ____。 5. 委中穴属于足太阳 ________ 经；阳陵泉为 ________ 会穴。 6. 赛前热身节奏每分钟约 ____ 次；赛后放松节奏每分钟约 ____ 次。 7. 服务后客户休息 ____ 至 ____ 分钟方可起身。 8. 客户记录至少保存 ____ 年。
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 知识评估 / Knowledge Assessment (KA) — C03 运动推拿服务
 
-**WIM 编码：** MP-031-3:2016-C03/KA
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C03 运动推拿服务
-**纸张颜色：** 🌸 粉页 (MERAH JAMBU)
-**时数：** 3 小时（150 分钟笔试 + 30 分钟复核）
-**最后更新：** 2026-04-17
----
 
 ## 评估说明
 

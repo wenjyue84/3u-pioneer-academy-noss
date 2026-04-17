@@ -1,12 +1,32 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PRESTASI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C05 TUINALOGY SERVICES ADMINISTRATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE TUINALOGY SERVICES DOCUMENTATION<br>2. MAINTAIN CUSTOMER RECORDS<br>3. PERFORM INVENTORY MANAGEMENT<br>4. PREPARE TUINALOGY SERVICES REPORT |
+| NO. KOD | MP-031-3:2016-C05/PA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | BIRU MUDA (Light Blue) |
+
+**TAJUK:** 表现评估 / Performance Assessment (PA)
+
+**TUJUAN:** 已完成 PM-teori、PM-amali、KK-01 至 KK-06、KA 的学员
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 表现评估 / Performance Assessment (PA)
 
-**WIM 编码：** MP-031-3:2016-C05/PA
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C05 推拿疗法中心行政管理服务
-**纸张颜色：** 浅蓝
-**时数：** 5 小时（30 分钟资料审阅 + 4 小时实操 + 30 分钟反馈）
-**最后更新：** 2026-04-17
----
 
 ## 评估说明
 

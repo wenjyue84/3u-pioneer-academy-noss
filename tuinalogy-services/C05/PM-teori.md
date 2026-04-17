@@ -1,12 +1,38 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## PELAN MENGAJAR – TEORI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C05 TUINALOGY SERVICES ADMINISTRATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE TUINALOGY SERVICES DOCUMENTATION<br>2. MAINTAIN CUSTOMER RECORDS<br>3. PERFORM INVENTORY MANAGEMENT<br>4. PREPARE TUINALOGY SERVICES REPORT |
+| NO. KOD | MP-031-3:2016-C05/PM(TEORI) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | KUNING (Yellow) |
+
+**TAJUK:** 理论课教学计划 / Pelan Mengajar Teori
+
+**TUJUAN:** 本理论课程涵盖推拿服务中心行政管理全流程的知识基础，从文件归档、人力资源协调、卫生监督、账务处理、销售营销，至客户投诉处理。按 NOSS 规定 RK 时数为 31 小时，采用每周 6 小时节奏，约 5–6 周完成。
+
+**TEMPAT:** BILIK KULIAH
+
+**TEMPOH:** Rujuk JPW/RK.
+
+**TUJUAN PENGAJARAN:** Pada akhir sesi pengajaran, pelatih akan dapat menguasai pengetahuan/kemahiran berkaitan aktiviti kerja CU ini.
+
+**ALAT BANTUAN MENGAJAR:** Papan putih, projektor, slaid pengajaran, bahan tunjuk-cara.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 理论课教学计划 / Pelan Mengajar Teori
 
-**WIM 编码：** MP-031-3:2016-C05/PM-teori
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C05 推拿疗法中心行政管理服务
-**纸张颜色：** 黄
-**时数：** 31 小时（6 项工作活动理论知识）
-**最后更新：** 2026-04-17
----
 
 ## 一、单元概述
 

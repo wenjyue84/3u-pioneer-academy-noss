@@ -1,0 +1,279 @@
+{
+  "tuinalogy": {
+    "root": "tuinalogy-services",
+    "noss_code": "MP-031-3:2016",
+    "program_en": "TUINALOGY SERVICES",
+    "program_bm": "PERKHIDMATAN TUINALOGI",
+    "level": 3,
+    "cus": {
+      "C01": {
+        "title_en": "TUINALOGY SERVICES CONSULTATION",
+        "title_bm": "KONSULTASI PERKHIDMATAN TUINALOGI",
+        "work_activities": [
+          "PREPARE TUINALOGY SERVICES CONSULTATION REQUIREMENT",
+          "CARRY OUT TUINALOGY SERVICES CONSULTATION",
+          "DETERMINE TUINALOGY SERVICES CONSULTATION",
+          "RECORD TUINALOGY SERVICES CONSULTATION ACTIVITIES"
+        ]
+      },
+      "C02": {
+        "title_en": "TUINALOGY SERVICES PREPARATION",
+        "title_bm": "PENYEDIAAN PERKHIDMATAN TUINALOGI",
+        "work_activities": [
+          "PREPARE TUINALOGY SERVICES EQUIPMENT AND TOOLS",
+          "PREPARE TUINALOGY SERVICES AREA",
+          "PREPARE CUSTOMER FOR TUINALOGY SERVICES",
+          "RECORD TUINALOGY SERVICES PREPARATION ACTIVITIES"
+        ]
+      },
+      "C03": {
+        "title_en": "TUINALOGY SERVICES APPLICATION",
+        "title_bm": "APLIKASI PERKHIDMATAN TUINALOGI",
+        "work_activities": [
+          "CARRY OUT TUINALOGY BASIC TECHNIQUES",
+          "CARRY OUT TUINALOGY MERIDIAN AND ACUPOINT MANIPULATION",
+          "CARRY OUT TUINALOGY SPECIFIC PROCEDURES",
+          "RECORD TUINALOGY SERVICES APPLICATION ACTIVITIES"
+        ]
+      },
+      "C04": {
+        "title_en": "TUINALOGY SERVICES POST-TREATMENT",
+        "title_bm": "PASCA RAWATAN PERKHIDMATAN TUINALOGI",
+        "work_activities": [
+          "CARRY OUT POST-TREATMENT EVALUATION",
+          "PROVIDE POST-TREATMENT ADVICE",
+          "PERFORM AREA AND EQUIPMENT CLEANING",
+          "RECORD POST-TREATMENT ACTIVITIES"
+        ]
+      },
+      "C05": {
+        "title_en": "TUINALOGY SERVICES ADMINISTRATION",
+        "title_bm": "PENTADBIRAN PERKHIDMATAN TUINALOGI",
+        "work_activities": [
+          "PREPARE TUINALOGY SERVICES DOCUMENTATION",
+          "MAINTAIN CUSTOMER RECORDS",
+          "PERFORM INVENTORY MANAGEMENT",
+          "PREPARE TUINALOGY SERVICES REPORT"
+        ]
+      },
+      "E01": {
+        "title_en": "TUINALOGY SERVICES PROMOTION",
+        "title_bm": "PROMOSI PERKHIDMATAN TUINALOGI",
+        "work_activities": [
+          "IDENTIFY PROMOTION REQUIREMENTS",
+          "PREPARE PROMOTION MATERIALS",
+          "EXECUTE PROMOTION ACTIVITIES",
+          "EVALUATE PROMOTION EFFECTIVENESS"
+        ]
+      },
+      "E02": {
+        "title_en": "TUINALOGY SERVICES SUPERVISION",
+        "title_bm": "PENYELIAAN PERKHIDMATAN TUINALOGI",
+        "work_activities": [
+          "MONITOR JUNIOR STAFF PERFORMANCE",
+          "CONDUCT ON-THE-JOB TRAINING",
+          "PROVIDE TECHNICAL GUIDANCE",
+          "EVALUATE STAFF COMPETENCY"
+        ]
+      }
+    }
+  },
+  "aesthetic": {
+    "root": "aesthetic-services",
+    "noss_code": "S960-002-3:2020",
+    "program_en": "AESTHETIC SERVICES",
+    "program_bm": "PERKHIDMATAN ESTETIK",
+    "level": 3,
+    "cus": {
+      "C01": {
+        "title_en": "AESTHETIC SERVICES CONSULTATION",
+        "title_bm": "KONSULTASI PERKHIDMATAN ESTETIK",
+        "work_activities": [
+          "PREPARE AESTHETIC SERVICES CONSULTATION",
+          "CARRY OUT CLIENT CONSULTATION",
+          "ANALYSE CLIENT SKIN AND BODY CONDITION",
+          "RECORD CONSULTATION OUTCOMES"
+        ]
+      },
+      "C02": {
+        "title_en": "FACIAL TREATMENT SERVICES",
+        "title_bm": "PERKHIDMATAN RAWATAN WAJAH",
+        "work_activities": [
+          "PREPARE FACIAL TREATMENT REQUIREMENTS",
+          "CARRY OUT FACIAL CLEANSING AND ANALYSIS",
+          "PERFORM FACIAL TREATMENT PROCEDURES",
+          "PROVIDE POST-TREATMENT ADVICE"
+        ]
+      },
+      "C03": {
+        "title_en": "MANUAL BODY MASSAGE SERVICES",
+        "title_bm": "PERKHIDMATAN URUTAN BADAN SECARA MANUAL",
+        "work_activities": [
+          "PREPARE BODY MASSAGE REQUIREMENTS",
+          "CARRY OUT BODY MASSAGE CONSULTATION",
+          "PERFORM MANUAL BODY MASSAGE TECHNIQUES",
+          "RECORD BODY MASSAGE OUTCOMES"
+        ]
+      },
+      "C04": {
+        "title_en": "HAIR REMOVAL SERVICES",
+        "title_bm": "PERKHIDMATAN PENYINGKIRAN BULU",
+        "work_activities": [
+          "PREPARE HAIR REMOVAL REQUIREMENTS",
+          "CARRY OUT CLIENT PREPARATION",
+          "PERFORM HAIR REMOVAL PROCEDURES",
+          "PROVIDE AFTERCARE ADVICE"
+        ]
+      },
+      "C05": {
+        "title_en": "MANICURE AND PEDICURE SERVICES",
+        "title_bm": "PERKHIDMATAN MANIKUR DAN PEDIKUR",
+        "work_activities": [
+          "PREPARE MANICURE AND PEDICURE REQUIREMENTS",
+          "CARRY OUT NAIL TREATMENT PROCEDURES",
+          "PERFORM NAIL ART AND FINISHING",
+          "PROVIDE NAIL CARE ADVICE"
+        ]
+      },
+      "C06": {
+        "title_en": "MAKE-UP SERVICES",
+        "title_bm": "PERKHIDMATAN MEKAP",
+        "work_activities": [
+          "PREPARE MAKE-UP REQUIREMENTS",
+          "CARRY OUT MAKE-UP CONSULTATION",
+          "PERFORM MAKE-UP APPLICATION",
+          "PROVIDE MAKE-UP MAINTENANCE ADVICE"
+        ]
+      },
+      "C07": {
+        "title_en": "AESTHETIC SERVICES ADMINISTRATION",
+        "title_bm": "PENTADBIRAN PERKHIDMATAN ESTETIK",
+        "work_activities": [
+          "PREPARE SERVICE DOCUMENTATION",
+          "MAINTAIN CLIENT RECORDS",
+          "PERFORM INVENTORY MANAGEMENT",
+          "PREPARE SERVICE REPORTS"
+        ]
+      },
+      "E01": {
+        "title_en": "AESTHETIC SERVICES PROMOTION",
+        "title_bm": "PROMOSI PERKHIDMATAN ESTETIK",
+        "work_activities": [
+          "IDENTIFY PROMOTION REQUIREMENTS",
+          "PREPARE PROMOTION MATERIALS",
+          "EXECUTE PROMOTION ACTIVITIES",
+          "EVALUATE PROMOTION OUTCOMES"
+        ]
+      }
+    }
+  },
+  "bev": {
+    "root": "bev-diagnostic-rectification",
+    "noss_code": "G452-010-3:2023",
+    "program_en": "BATTERY ELECTRIC VEHICLE DIAGNOSTIC AND RECTIFICATION",
+    "program_bm": "DIAGNOSTIK DAN PEMBAIKAN KENDERAAN ELEKTRIK BATERI",
+    "level": 3,
+    "cus": {
+      "C01": {
+        "title_en": "BEV HIGH VOLTAGE SAFETY",
+        "title_bm": "KESELAMATAN VOLTAN TINGGI BEV",
+        "work_activities": [
+          "IDENTIFY HIGH VOLTAGE HAZARDS",
+          "APPLY HIGH VOLTAGE SAFETY PROCEDURES",
+          "USE HIGH VOLTAGE PPE",
+          "CARRY OUT HIGH VOLTAGE ISOLATION"
+        ]
+      },
+      "C02": {
+        "title_en": "BEV DIAGNOSTIC ACTIVITIES",
+        "title_bm": "AKTIVITI DIAGNOSTIK BEV",
+        "work_activities": [
+          "PREPARE DIAGNOSTIC TOOLS AND EQUIPMENT",
+          "CARRY OUT VEHICLE INSPECTION",
+          "PERFORM FAULT DIAGNOSIS",
+          "RECORD DIAGNOSTIC RESULTS"
+        ]
+      },
+      "C03": {
+        "title_en": "BEV BATTERY SYSTEM RECTIFICATION",
+        "title_bm": "PEMBAIKAN SISTEM BATERI BEV",
+        "work_activities": [
+          "INSPECT BATTERY SYSTEM",
+          "DIAGNOSE BATTERY SYSTEM FAULTS",
+          "CARRY OUT BATTERY SYSTEM RECTIFICATION",
+          "VERIFY BATTERY SYSTEM PERFORMANCE"
+        ]
+      },
+      "C04": {
+        "title_en": "BEV MOTOR AND DRIVE SYSTEM RECTIFICATION",
+        "title_bm": "PEMBAIKAN SISTEM MOTOR DAN PEMACU BEV",
+        "work_activities": [
+          "INSPECT MOTOR AND DRIVE SYSTEM",
+          "DIAGNOSE MOTOR AND DRIVE FAULTS",
+          "CARRY OUT MOTOR AND DRIVE RECTIFICATION",
+          "VERIFY MOTOR AND DRIVE PERFORMANCE"
+        ]
+      },
+      "C05": {
+        "title_en": "BEV CHARGING SYSTEM RECTIFICATION",
+        "title_bm": "PEMBAIKAN SISTEM PENGECASAN BEV",
+        "work_activities": [
+          "INSPECT CHARGING SYSTEM",
+          "DIAGNOSE CHARGING SYSTEM FAULTS",
+          "CARRY OUT CHARGING SYSTEM RECTIFICATION",
+          "VERIFY CHARGING SYSTEM PERFORMANCE"
+        ]
+      }
+    }
+  },
+  "it": {
+    "root": "it-computer-system",
+    "noss_code": "IT-020-3:2013",
+    "program_en": "COMPUTER SYSTEM MANAGEMENT",
+    "program_bm": "PENGURUSAN SISTEM KOMPUTER",
+    "level": 3,
+    "cu_prefix": "L3-",
+    "cus": {
+      "L3-C01": {
+        "title_en": "COMPUTER SYSTEM INSTALLATION",
+        "title_bm": "PEMASANGAN SISTEM KOMPUTER",
+        "work_activities": [
+          "PREPARE INSTALLATION REQUIREMENTS",
+          "INSTALL HARDWARE COMPONENTS",
+          "INSTALL SYSTEM SOFTWARE",
+          "VERIFY SYSTEM INSTALLATION"
+        ]
+      },
+      "L3-C02": {
+        "title_en": "COMPUTER SYSTEM MAINTENANCE",
+        "title_bm": "PENYELENGGARAAN SISTEM KOMPUTER",
+        "work_activities": [
+          "PREPARE MAINTENANCE REQUIREMENTS",
+          "PERFORM PREVENTIVE MAINTENANCE",
+          "PERFORM CORRECTIVE MAINTENANCE",
+          "RECORD MAINTENANCE ACTIVITIES"
+        ]
+      },
+      "L3-C03": {
+        "title_en": "COMPUTER NETWORK INSTALLATION",
+        "title_bm": "PEMASANGAN RANGKAIAN KOMPUTER",
+        "work_activities": [
+          "PREPARE NETWORK INSTALLATION",
+          "INSTALL NETWORK HARDWARE",
+          "CONFIGURE NETWORK SETTINGS",
+          "VERIFY NETWORK INSTALLATION"
+        ]
+      },
+      "L3-C04": {
+        "title_en": "COMPUTER PERIPHERAL MANAGEMENT",
+        "title_bm": "PENGURUSAN PERIFERAL KOMPUTER",
+        "work_activities": [
+          "PREPARE PERIPHERAL REQUIREMENTS",
+          "INSTALL PERIPHERAL DEVICES",
+          "TROUBLESHOOT PERIPHERAL ISSUES",
+          "MAINTAIN PERIPHERAL DEVICES"
+        ]
+      }
+    }
+  }
+}

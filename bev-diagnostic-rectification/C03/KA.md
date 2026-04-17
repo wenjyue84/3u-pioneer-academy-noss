@@ -1,3 +1,30 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | G452-010-3:2023 DIAGNOSTIK DAN PEMBAIKAN KENDERAAN ELEKTRIK BATERI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | G452-010-3:2023-C03 BEV BATTERY SYSTEM RECTIFICATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. INSPECT BATTERY SYSTEM<br>2. DIAGNOSE BATTERY SYSTEM FAULTS<br>3. CARRY OUT BATTERY SYSTEM RECTIFICATION<br>4. VERIFY BATTERY SYSTEM PERFORMANCE |
+| NO. KOD | G452-010-3:2023-C03/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** PENILAIAN PENGETAHUAN / KNOWLEDGE ASSESSMENT
+
+**TUJUAN:** A BEV typically has multiple separate cooling circuits unlike a single-circuit ICE vehicle. Describe THREE (3) cooling circuits found in a modern BEV by stating: (a) the circuit name, (b) the components it cools, and (c) the operating temperature range maintained by the Thermal Management ECU.
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PENILAIAN PENGETAHUAN / KNOWLEDGE ASSESSMENT
 
 **Kod WIM / WIM Code:** G452-010-3:2023-C03/KA

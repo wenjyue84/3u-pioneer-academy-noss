@@ -1,12 +1,38 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## PELAN MENGAJAR – TEORI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C01 TUINALOGY SERVICES CONSULTATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE TUINALOGY SERVICES CONSULTATION REQUIREMENT<br>2. CARRY OUT TUINALOGY SERVICES CONSULTATION<br>3. DETERMINE TUINALOGY SERVICES CONSULTATION<br>4. RECORD TUINALOGY SERVICES CONSULTATION ACTIVITIES |
+| NO. KOD | MP-031-3:2016-C01/PM(TEORI) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | KUNING (Yellow) |
+
+**TAJUK:** 理论课教学计划 / Pelan Mengajar Teori
+
+**TUJUAN:** 本理论课程涵盖推拿疗法服务咨询全流程的知识基础，从咨询区准备、客户接待、四诊评估、适应症与禁忌症识别，至服务方案制定。每周 6 小时，共 12 周完成 72 小时理论时数。
+
+**TEMPAT:** BILIK KULIAH
+
+**TEMPOH:** Rujuk JPW/RK.
+
+**TUJUAN PENGAJARAN:** Pada akhir sesi pengajaran, pelatih akan dapat menguasai pengetahuan/kemahiran berkaitan aktiviti kerja CU ini.
+
+**ALAT BANTUAN MENGAJAR:** Papan putih, projektor, slaid pengajaran, bahan tunjuk-cara.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 理论课教学计划 / Pelan Mengajar Teori
 
-**WIM 编码：** MP-031-3:2016-C01/PM-teori (KUNING)
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C01 推拿疗法服务咨询
-**纸张颜色：** 黄
-**时数：** 72 小时（4 项工作活动 × 18 小时）
-**最后更新：** 2026-04-17
----
 
 ## 一、单元概述
 

@@ -1,3 +1,30 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | G452-010-3:2023 DIAGNOSTIK DAN PEMBAIKAN KENDERAAN ELEKTRIK BATERI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | G452-010-3:2023-C02 BEV DIAGNOSTIC ACTIVITIES |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE DIAGNOSTIC TOOLS AND EQUIPMENT<br>2. CARRY OUT VEHICLE INSPECTION<br>3. PERFORM FAULT DIAGNOSIS<br>4. RECORD DIAGNOSTIC RESULTS |
+| NO. KOD | G452-010-3:2023-C02/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** PENILAIAN PENGETAHUAN / KNOWLEDGE ASSESSMENT
+
+**TUJUAN:** a) Explain what this fault means and what happens during normal pre-charge sequence. (5 marks) b) Describe the diagnostic procedure you would follow. (5 marks) c) Describe the replacement procedure for the pre-charge relay pack. (5 marks)
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PENILAIAN PENGETAHUAN / KNOWLEDGE ASSESSMENT
 
 **Kod WIM / WIM Code:** G452-010-3:2023-C02/KA

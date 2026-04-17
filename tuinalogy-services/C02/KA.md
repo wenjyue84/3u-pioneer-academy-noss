@@ -1,12 +1,32 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C02 TUINALOGY SERVICES PREPARATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE TUINALOGY SERVICES EQUIPMENT AND TOOLS<br>2. PREPARE TUINALOGY SERVICES AREA<br>3. PREPARE CUSTOMER FOR TUINALOGY SERVICES<br>4. RECORD TUINALOGY SERVICES PREPARATION ACTIVITIES |
+| NO. KOD | MP-031-3:2016-C02/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** 知识评估 / Knowledge Assessment (KA)
+
+**TUJUAN:** 3. 推拿油应为 ____ 级或 ____ 级。 4. 八大手法共同要求六字诀：持久、有力、均匀、柔和、____、节律。 5. 摩腹一般沿 ________ 方向。 6. 涌泉穴位于 ________ 部位。 7. 客户记录至少保存 ____ 年。 8. T&CM 法令颁布于 ________ 年。 9. 客户出现晕厥应平卧并 ________ 下肢。 10. 推拿师每年至少 ____ 学时持续教育（CPD）。
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 知识评估 / Knowledge Assessment (KA)
 
-**WIM 编码：** MP-031-3:2016-C02/KA(MERAH JAMBU)
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C02 全身推拿服务
-**纸张颜色：** 粉
-**时数：** 3 小时（150 分钟笔试 + 30 分钟复核）
-**最后更新：** 2026-04-17
----
 
 ## 评估说明
 

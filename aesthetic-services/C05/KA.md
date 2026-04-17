@@ -1,3 +1,30 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | S960-002-3:2020 PERKHIDMATAN ESTETIK |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | S960-002-3:2020-C05 MANICURE AND PEDICURE SERVICES |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE MANICURE AND PEDICURE REQUIREMENTS<br>2. CARRY OUT NAIL TREATMENT PROCEDURES<br>3. PERFORM NAIL ART AND FINISHING<br>4. PROVIDE NAIL CARE ADVICE |
+| NO. KOD | S960-002-3:2020-C05/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** PENILAIAN PENGETAHUAN / KNOWLEDGE ASSESSMENT
+
+**TUJUAN:** a) Which wrap type would you recommend and why? (6 marks) b) What additional precaution is needed for sensitive skin? (4 marks) c) Describe the pre-procedure preparation. (10 marks) d) What after care advice would you give? (6 marks)
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PENILAIAN PENGETAHUAN / KNOWLEDGE ASSESSMENT
 **Kod:** S960-002-3:2020-C05/KA | **CU:** C05 — Body Wrap Therapy
 **Duration:** 1 Hour | **Total Marks:** 100 | **Paper:** PINK

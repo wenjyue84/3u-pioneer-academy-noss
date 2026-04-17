@@ -1,3 +1,30 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PRESTASI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | G452-010-3:2023 DIAGNOSTIK DAN PEMBAIKAN KENDERAAN ELEKTRIK BATERI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | G452-010-3:2023-C01 BEV HIGH VOLTAGE SAFETY |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. IDENTIFY HIGH VOLTAGE HAZARDS<br>2. APPLY HIGH VOLTAGE SAFETY PROCEDURES<br>3. USE HIGH VOLTAGE PPE<br>4. CARRY OUT HIGH VOLTAGE ISOLATION |
+| NO. KOD | G452-010-3:2023-C01/PA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | BIRU MUDA (Light Blue) |
+
+**TAJUK:** PENILAIAN PRESTASI / PERFORMANCE ASSESSMENT
+
+**TUJUAN:** 3. Follow all safety procedures — failure to comply with critical safety requirements results in automatic failure 4. You will be assessed on PROCESS, OUTPUT, ATTITUDE, SAFETY, and ENVIRONMENT 5. A training BEV and fully equipped work bay will be provided
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PENILAIAN PRESTASI / PERFORMANCE ASSESSMENT
 
 **Kod WIM / WIM Code:** G452-010-3:2023-C01/PA

@@ -1,12 +1,32 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PRESTASI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C02 TUINALOGY SERVICES PREPARATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE TUINALOGY SERVICES EQUIPMENT AND TOOLS<br>2. PREPARE TUINALOGY SERVICES AREA<br>3. PREPARE CUSTOMER FOR TUINALOGY SERVICES<br>4. RECORD TUINALOGY SERVICES PREPARATION ACTIVITIES |
+| NO. KOD | MP-031-3:2016-C02/PA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | BIRU MUDA (Light Blue) |
+
+**TAJUK:** 表现评估 / Performance Assessment (PA)
+
+**TUJUAN:** 3. 客户严重不适未停手或减压 4. 异性推拿无第三方在场或违反同意范围 5. 客户记录涂改液 / 字段大幅缺失（< 50%） 6. 严重违反 PDPA（外泄客户资料） 7. 操作中接听私人电话 / 查看手机 8. 严重伤害客户（瘀伤大、皮肤破损）
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 表现评估 / Performance Assessment (PA)
 
-**WIM 编码：** MP-031-3:2016-C02/PA(BIRU MUDA)
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C02 全身推拿服务
-**纸张颜色：** 浅蓝
-**时数：** 4 小时（含模拟客户全程演练 + 评分）
-**最后更新：** 2026-04-17
----
 
 ## 评估说明
 

@@ -1,3 +1,36 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## PELAN MENGAJAR – TEORI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | IT-020-3:2013 PENGURUSAN SISTEM KOMPUTER |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | IT-020-3:2013-L3-C01 COMPUTER SYSTEM INSTALLATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE INSTALLATION REQUIREMENTS<br>2. INSTALL HARDWARE COMPONENTS<br>3. INSTALL SYSTEM SOFTWARE<br>4. VERIFY SYSTEM INSTALLATION |
+| NO. KOD | IT-020-3:2013-L3-C01/PM(TEORI) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | KUNING (Yellow) |
+
+**TAJUK:** PELAN MENGAJAR TEORI (Theory Lesson Plan)
+
+**TUJUAN:** Upon completion of all 7 KP/KT sessions, trainees will sit for the Knowledge Assessment (KA):
+
+**TEMPAT:** BILIK KULIAH
+
+**TEMPOH:** Rujuk JPW/RK.
+
+**TUJUAN PENGAJARAN:** Pada akhir sesi pengajaran, pelatih akan dapat menguasai pengetahuan/kemahiran berkaitan aktiviti kerja CU ini.
+
+**ALAT BANTUAN MENGAJAR:** Papan putih, projektor, slaid pengajaran, bahan tunjuk-cara.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PELAN MENGAJAR TEORI (Theory Lesson Plan)
 
 **Kod:** IT-020-3:2013-C01/PM(Teori)

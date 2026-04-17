@@ -1,3 +1,36 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## PELAN MENGAJAR – AMALI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | G452-010-3:2023 DIAGNOSTIK DAN PEMBAIKAN KENDERAAN ELEKTRIK BATERI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | G452-010-3:2023-C01 BEV HIGH VOLTAGE SAFETY |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. IDENTIFY HIGH VOLTAGE HAZARDS<br>2. APPLY HIGH VOLTAGE SAFETY PROCEDURES<br>3. USE HIGH VOLTAGE PPE<br>4. CARRY OUT HIGH VOLTAGE ISOLATION |
+| NO. KOD | G452-010-3:2023-C01/PM(AMALI) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | KUNING (Yellow) |
+
+**TAJUK:** PELAN MENGAJAR AMALI / PRACTICAL LESSON PLAN
+
+**TUJUAN:** Upon completion of this practical module, trainees will be able to:
+
+**TEMPAT:** BILIK AMALI / MAKMAL
+
+**TEMPOH:** Rujuk JPW/RK.
+
+**TUJUAN PENGAJARAN:** Pada akhir sesi pengajaran, pelatih akan dapat menguasai pengetahuan/kemahiran berkaitan aktiviti kerja CU ini.
+
+**ALAT BANTUAN MENGAJAR:** Papan putih, projektor, slaid pengajaran, bahan tunjuk-cara.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PELAN MENGAJAR AMALI / PRACTICAL LESSON PLAN
 
 **Kod WIM / WIM Code:** G452-010-3:2023-C01/PM(Amali)

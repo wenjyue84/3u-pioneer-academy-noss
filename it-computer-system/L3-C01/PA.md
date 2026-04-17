@@ -1,3 +1,30 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PRESTASI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | IT-020-3:2013 PENGURUSAN SISTEM KOMPUTER |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | IT-020-3:2013-L3-C01 COMPUTER SYSTEM INSTALLATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE INSTALLATION REQUIREMENTS<br>2. INSTALL HARDWARE COMPONENTS<br>3. INSTALL SYSTEM SOFTWARE<br>4. VERIFY SYSTEM INSTALLATION |
+| NO. KOD | IT-020-3:2013-L3-C01/PA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | BIRU MUDA (Light Blue) |
+
+**TAJUK:** PENILAIAN PRESTASI (Performance Assessment)
+
+**TUJUAN:** 3. You will be assessed on: **Process** (how you do it), **Output** (the result), **Attitude** (professionalism), **Safety** (ESD and electrical), and **Environmental** compliance. 4. You must wear an anti-static wrist strap throughout the hardware assembly phase.
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PENILAIAN PRESTASI (Performance Assessment)
 
 **Kod:** IT-020-3:2013-C01/PA

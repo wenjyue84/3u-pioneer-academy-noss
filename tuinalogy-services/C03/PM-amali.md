@@ -1,12 +1,38 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## PELAN MENGAJAR – AMALI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C03 TUINALOGY SERVICES APPLICATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. CARRY OUT TUINALOGY BASIC TECHNIQUES<br>2. CARRY OUT TUINALOGY MERIDIAN AND ACUPOINT MANIPULATION<br>3. CARRY OUT TUINALOGY SPECIFIC PROCEDURES<br>4. RECORD TUINALOGY SERVICES APPLICATION ACTIVITIES |
+| NO. KOD | MP-031-3:2016-C03/PM(AMALI) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | KUNING (Yellow) |
+
+**TAJUK:** 实操课教学计划 / Pelan Mengajar Amali — C03 运动推拿服务
+
+**TUJUAN:** 本实操课程透过同伴互练、模拟运动员客户与真实客户实习，训练学员掌握运动推拿三大工作活动：术前评估 + 准备、八种主要手法在赛前/赛后/慢性运动伤情境之应用、服务后恢复跟踪与转介。每周 14 小时，共 20 周完成 280 小时实操时数。
+
+**TEMPAT:** BILIK AMALI / MAKMAL
+
+**TEMPOH:** Rujuk JPW/RK.
+
+**TUJUAN PENGAJARAN:** Pada akhir sesi pengajaran, pelatih akan dapat menguasai pengetahuan/kemahiran berkaitan aktiviti kerja CU ini.
+
+**ALAT BANTUAN MENGAJAR:** Papan putih, projektor, slaid pengajaran, bahan tunjuk-cara.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 实操课教学计划 / Pelan Mengajar Amali — C03 运动推拿服务
 
-**WIM 编码：** MP-031-3:2016-C03/PM-amali
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C03 运动推拿服务 (Sport Tuina Service)
-**纸张颜色：** 🟡 黄页 (KUNING)
-**时数：** 280 小时（3 项工作活动 RS 总时数）
-**最后更新：** 2026-04-17
----
 
 ## 一、单元概述
 

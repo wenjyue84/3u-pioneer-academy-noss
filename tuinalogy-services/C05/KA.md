@@ -1,12 +1,32 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C05 TUINALOGY SERVICES ADMINISTRATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE TUINALOGY SERVICES DOCUMENTATION<br>2. MAINTAIN CUSTOMER RECORDS<br>3. PERFORM INVENTORY MANAGEMENT<br>4. PREPARE TUINALOGY SERVICES REPORT |
+| NO. KOD | MP-031-3:2016-C05/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** 知识评估 / Knowledge Assessment (KA)
+
+**TUJUAN:** 3. EPF 雇主分担（薪 <RM5k）为 ____________%。 4. 2024 年最低工资 RM ____________。 5. 推拿床消毒使用 ____________ % IPA。 6. 漂白水稀释比例为 ____________。 7. MyInvois 由 ____________ 推行。 8. SST Service Tax 在 2025 调升至 ____________%。 9. LEARN 五步法首步为 ____________。
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 知识评估 / Knowledge Assessment (KA)
 
-**WIM 编码：** MP-031-3:2016-C05/KA
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C05 推拿疗法中心行政管理服务
-**纸张颜色：** 粉
-**时数：** 4 小时（180 分钟笔试 + 30 分钟复核）
-**最后更新：** 2026-04-17
----
 
 ## 评估说明
 

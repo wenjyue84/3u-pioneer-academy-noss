@@ -1,3 +1,30 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | S960-002-3:2020 PERKHIDMATAN ESTETIK |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | S960-002-3:2020-E01 AESTHETIC SERVICES PROMOTION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. IDENTIFY PROMOTION REQUIREMENTS<br>2. PREPARE PROMOTION MATERIALS<br>3. EXECUTE PROMOTION ACTIVITIES<br>4. EVALUATE PROMOTION OUTCOMES |
+| NO. KOD | S960-002-3:2020-E01/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** PENILAIAN PENGETAHUAN — S960-002-3:2020-E01/KA | CU: Bust Firming Therapy (Elective)
+
+**TUJUAN:** a) What consultation data would you collect? (6 marks) b) Describe the complete treatment sequence. (12 marks) c) What home care would you advise? (6 marks) d) What must be recorded? (6 marks)
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PENILAIAN PENGETAHUAN — S960-002-3:2020-E01/KA | CU: Bust Firming Therapy (Elective)
 **Duration:** 1 Hour | **Marks:** 100 | **Paper:** PINK
 

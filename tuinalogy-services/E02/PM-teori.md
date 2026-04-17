@@ -1,13 +1,38 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## PELAN MENGAJAR – TEORI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-E02 TUINALOGY SERVICES SUPERVISION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. MONITOR JUNIOR STAFF PERFORMANCE<br>2. CONDUCT ON-THE-JOB TRAINING<br>3. PROVIDE TECHNICAL GUIDANCE<br>4. EVALUATE STAFF COMPETENCY |
+| NO. KOD | MP-031-3:2016-E02/PM(TEORI) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | KUNING (Yellow) |
+
+**TAJUK:** 理论课教学计划 / Theory Lesson Plan — E02 妇女推拿服务
+
+**TUJUAN:** 完成理论部分后，学员能够：
+
+**TEMPAT:** BILIK KULIAH
+
+**TEMPOH:** Rujuk JPW/RK.
+
+**TUJUAN PENGAJARAN:** Pada akhir sesi pengajaran, pelatih akan dapat menguasai pengetahuan/kemahiran berkaitan aktiviti kerja CU ini.
+
+**ALAT BANTUAN MENGAJAR:** Papan putih, projektor, slaid pengajaran, bahan tunjuk-cara.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 理论课教学计划 / Theory Lesson Plan — E02 妇女推拿服务
 
-**WIM 编码：** MP-031-3:2016-E02/PM-teori
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** E02 妇女推拿服务
-**纸张颜色：** 黄
-**时数：** 96 小时（理论部分，占 30%）
-**最后更新：** 2026-04-17
-
----
 
 ## 一、教学目标 / Learning Objectives
 

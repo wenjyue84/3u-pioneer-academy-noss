@@ -1,12 +1,38 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## PELAN MENGAJAR – AMALI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C01 TUINALOGY SERVICES CONSULTATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE TUINALOGY SERVICES CONSULTATION REQUIREMENT<br>2. CARRY OUT TUINALOGY SERVICES CONSULTATION<br>3. DETERMINE TUINALOGY SERVICES CONSULTATION<br>4. RECORD TUINALOGY SERVICES CONSULTATION ACTIVITIES |
+| NO. KOD | MP-031-3:2016-C01/PM(AMALI) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | KUNING (Yellow) |
+
+**TAJUK:** 实操课教学计划 / Pelan Mengajar Amali
+
+**TUJUAN:** 本实操课程以技能训练为核心，覆盖推拿咨询全流程的实际操作：模拟咨询区设置、客户接待、四诊评估、适应症判断、转介流程、推拿服务方案撰写。每周 14 小时，共 12 周完成 168 小时实操时数。
+
+**TEMPAT:** BILIK AMALI / MAKMAL
+
+**TEMPOH:** Rujuk JPW/RK.
+
+**TUJUAN PENGAJARAN:** Pada akhir sesi pengajaran, pelatih akan dapat menguasai pengetahuan/kemahiran berkaitan aktiviti kerja CU ini.
+
+**ALAT BANTUAN MENGAJAR:** Papan putih, projektor, slaid pengajaran, bahan tunjuk-cara.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 实操课教学计划 / Pelan Mengajar Amali
 
-**WIM 编码：** MP-031-3:2016-C01/PM-amali (KUNING)
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C01 推拿疗法服务咨询
-**纸张颜色：** 黄
-**时数：** 168 小时（4 项工作活动 × 42 小时）
-**最后更新：** 2026-04-17
----
 
 ## 一、单元概述
 

@@ -1,3 +1,30 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | S960-002-3:2020 PERKHIDMATAN ESTETIK |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | S960-002-3:2020-C06 MAKE-UP SERVICES |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE MAKE-UP REQUIREMENTS<br>2. CARRY OUT MAKE-UP CONSULTATION<br>3. PERFORM MAKE-UP APPLICATION<br>4. PROVIDE MAKE-UP MAINTENANCE ADVICE |
+| NO. KOD | S960-002-3:2020-C06/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** PENILAIAN PENGETAHUAN — S960-002-3:2020-C06/KA | CU: Salon Operational Supervision
+
+**TUJUAN:** (+ 5 more MCQ, 2 marks each)
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PENILAIAN PENGETAHUAN — S960-002-3:2020-C06/KA | CU: Salon Operational Supervision
 **Duration:** 1 Hour | **Marks:** 100 | **Paper:** PINK
 

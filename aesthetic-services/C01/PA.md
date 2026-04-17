@@ -1,3 +1,30 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PRESTASI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | S960-002-3:2020 PERKHIDMATAN ESTETIK |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | S960-002-3:2020-C01 AESTHETIC SERVICES CONSULTATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE AESTHETIC SERVICES CONSULTATION<br>2. CARRY OUT CLIENT CONSULTATION<br>3. ANALYSE CLIENT SKIN AND BODY CONDITION<br>4. RECORD CONSULTATION OUTCOMES |
+| NO. KOD | S960-002-3:2020-C01/PA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | BIRU MUDA (Light Blue) |
+
+**TAJUK:** PENILAIAN PRESTASI / PERFORMANCE ASSESSMENT
+
+**TUJUAN:** 3. For each scenario, score the candidate on FOUR (4) rubric criteria using a 5-point scale. 4. A score of **3 or above** on each criterion is required to PASS that criterion. 5. Any criterion scored **2 or below** = NOT YET COMPETENT for that scenario.
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PENILAIAN PRESTASI / PERFORMANCE ASSESSMENT
 
 **Kod / Code:** S960-002-3:2020-C01/PA

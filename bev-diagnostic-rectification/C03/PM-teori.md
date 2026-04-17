@@ -1,3 +1,36 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## PELAN MENGAJAR – TEORI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | G452-010-3:2023 DIAGNOSTIK DAN PEMBAIKAN KENDERAAN ELEKTRIK BATERI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | G452-010-3:2023-C03 BEV BATTERY SYSTEM RECTIFICATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. INSPECT BATTERY SYSTEM<br>2. DIAGNOSE BATTERY SYSTEM FAULTS<br>3. CARRY OUT BATTERY SYSTEM RECTIFICATION<br>4. VERIFY BATTERY SYSTEM PERFORMANCE |
+| NO. KOD | G452-010-3:2023-C03/PM(TEORI) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | KUNING (Yellow) |
+
+**TAJUK:** PELAN MENGAJAR TEORI / THEORY LESSON PLAN
+
+**TUJUAN:** 3. Explain BEV HVAC system fundamentals including PTC heater, electric water pump, and 3-way valve
+
+**TEMPAT:** BILIK KULIAH
+
+**TEMPOH:** Rujuk JPW/RK.
+
+**TUJUAN PENGAJARAN:** Pada akhir sesi pengajaran, pelatih akan dapat menguasai pengetahuan/kemahiran berkaitan aktiviti kerja CU ini.
+
+**ALAT BANTUAN MENGAJAR:** Papan putih, projektor, slaid pengajaran, bahan tunjuk-cara.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PELAN MENGAJAR TEORI / THEORY LESSON PLAN
 
 **Kod WIM / WIM Code:** G452-010-3:2023-C03/PM(Teori)

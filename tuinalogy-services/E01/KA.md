@@ -1,13 +1,34 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-E01 TUINALOGY SERVICES PROMOTION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. IDENTIFY PROMOTION REQUIREMENTS<br>2. PREPARE PROMOTION MATERIALS<br>3. EXECUTE PROMOTION ACTIVITIES<br>4. EVALUATE PROMOTION EFFECTIVENESS |
+| NO. KOD | MP-031-3:2016-E01/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** 综合知识评估 / Knowledge Assessment (KA)
+
+**TUJUAN:** 3. 婴儿前囟门一般闭合年龄：
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 综合知识评估 / Knowledge Assessment (KA)
 
-**WIM 编码：** MP-031-3:2016-E01/KA
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** E01 小儿推拿服务
-**纸张颜色：** 🩷 粉红
 **总分：** 100 分 | **及格线：** 70 分 | **时限：** 120 分钟
 **评估方式：** 闭卷笔试
-**最后更新：** 2026-04-17
----
 
 ## 学员资料
 

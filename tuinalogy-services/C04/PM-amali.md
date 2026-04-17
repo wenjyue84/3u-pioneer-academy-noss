@@ -1,12 +1,38 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## PELAN MENGAJAR – AMALI
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C04 TUINALOGY SERVICES POST-TREATMENT |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. CARRY OUT POST-TREATMENT EVALUATION<br>2. PROVIDE POST-TREATMENT ADVICE<br>3. PERFORM AREA AND EQUIPMENT CLEANING<br>4. RECORD POST-TREATMENT ACTIVITIES |
+| NO. KOD | MP-031-3:2016-C04/PM(AMALI) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | KUNING (Yellow) |
+
+**TAJUK:** 实操课教学计划 / Pelan Mengajar Amali — C04 肌肉骨骼推拿服务
+
+**TUJUAN:** 本实操课程涵盖肌肉骨骼推拿技术全流程的技能训练：包括肌骨评估（视诊、触诊、ROM 测试、特殊试验）、分部位推拿操作（颈、肩、腰、肘、膝）、常见肌骨疾患的手法组合训练、服务中客户监测与紧急应对、服务后功能恢复指导与档案书写。每周 14 小时，共 20 周完成 280 小时实操时数。
+
+**TEMPAT:** BILIK AMALI / MAKMAL
+
+**TEMPOH:** Rujuk JPW/RK.
+
+**TUJUAN PENGAJARAN:** Pada akhir sesi pengajaran, pelatih akan dapat menguasai pengetahuan/kemahiran berkaitan aktiviti kerja CU ini.
+
+**ALAT BANTUAN MENGAJAR:** Papan putih, projektor, slaid pengajaran, bahan tunjuk-cara.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 实操课教学计划 / Pelan Mengajar Amali — C04 肌肉骨骼推拿服务
 
-**WIM 编码：** MP-031-3:2016-C04/PM-amali
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C04 肌肉骨骼推拿服务 (Musculoskeletal Tuina Service)
-**纸张颜色：** 🟡 黄页 (KUNING)
-**时数：** 280 小时（3 项工作活动 RS 总时数）
-**最后更新：** 2026-04-17
----
 
 ## 一、单元概述
 

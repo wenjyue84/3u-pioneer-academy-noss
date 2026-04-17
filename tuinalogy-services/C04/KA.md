@@ -1,14 +1,34 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C04 TUINALOGY SERVICES POST-TREATMENT |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. CARRY OUT POST-TREATMENT EVALUATION<br>2. PROVIDE POST-TREATMENT ADVICE<br>3. PERFORM AREA AND EQUIPMENT CLEANING<br>4. RECORD POST-TREATMENT ACTIVITIES |
+| NO. KOD | MP-031-3:2016-C04/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** 知识评估 / Knowledge Assessment — C04 肌肉骨骼推拿服务
+
+**TUJUAN:** 综合检验学员完成 C04 理论学习后，对肌肉骨骼系统解剖、常见疾患处理、推拿手法选择、禁忌红旗征及服务后管理等核心知识的掌握程度。
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 知识评估 / Knowledge Assessment — C04 肌肉骨骼推拿服务
 
-**WIM 编码：** MP-031-3:2016-C04/KA
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C04 肌肉骨骼推拿服务
-**纸张颜色：** 🩷 粉页 (MERAH JAMBU)
 **评估类型：** 书面综合理论考试
-**时数：** 3 小时 / 100 分
 **及格线：** ≥ 70%
-**最后更新：** 2026-04-17
----
 
 ## 评估目的
 综合检验学员完成 C04 理论学习后，对肌肉骨骼系统解剖、常见疾患处理、推拿手法选择、禁忌红旗征及服务后管理等核心知识的掌握程度。

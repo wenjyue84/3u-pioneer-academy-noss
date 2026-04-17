@@ -1,3 +1,30 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | S960-002-3:2020 PERKHIDMATAN ESTETIK |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | S960-002-3:2020-C07 AESTHETIC SERVICES ADMINISTRATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE SERVICE DOCUMENTATION<br>2. MAINTAIN CLIENT RECORDS<br>3. PERFORM INVENTORY MANAGEMENT<br>4. PREPARE SERVICE REPORTS |
+| NO. KOD | S960-002-3:2020-C07/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** PENILAIAN PENGETAHUAN — S960-002-3:2020-C07/KA | CU: Sales & Promotions
+
+**TUJUAN:** a) What products/services would you promote? (8 marks) b) Prepare a simple budget proposal. (8 marks) c) How would you execute the campaign? (8 marks) d) How would you gather and analyse feedback? (8 marks) e) What would your report include? (8 marks)
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # PENILAIAN PENGETAHUAN — S960-002-3:2020-C07/KA | CU: Sales & Promotions
 **Duration:** 1 Hour | **Marks:** 100 | **Paper:** PINK
 

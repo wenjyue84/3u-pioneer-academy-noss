@@ -1,3 +1,30 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | IT-020-3:2013 PENGURUSAN SISTEM KOMPUTER |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | IT-020-3:2013-L3-C04 COMPUTER PERIPHERAL MANAGEMENT |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE PERIPHERAL REQUIREMENTS<br>2. INSTALL PERIPHERAL DEVICES<br>3. TROUBLESHOOT PERIPHERAL ISSUES<br>4. MAINTAIN PERIPHERAL DEVICES |
+| NO. KOD | IT-020-3:2013-L3-C04/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** KA — IT-020-3:2013-C04 Server Installation
+
+**TUJUAN:** Which server form factor is BEST suited for high-density data centres that require maximum space efficiency?
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # KA — IT-020-3:2013-C04 Server Installation
 
 **Kod:** IT-020-3:2013-C04/KA | **Tahap:** 3 | **Kertas Warna:** Pink

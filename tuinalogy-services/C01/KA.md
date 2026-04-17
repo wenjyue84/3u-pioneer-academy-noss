@@ -1,12 +1,32 @@
+<!-- JPK_ENVELOPE_v1 -->
+![JPK Logo](../_assets/logos/jpk-logo.png)
+
+**JABATAN PEMBANGUNAN KEMAHIRAN (JPK)**
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,
+62530 PUTRAJAYA
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C01 TUINALOGY SERVICES CONSULTATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE TUINALOGY SERVICES CONSULTATION REQUIREMENT<br>2. CARRY OUT TUINALOGY SERVICES CONSULTATION<br>3. DETERMINE TUINALOGY SERVICES CONSULTATION<br>4. RECORD TUINALOGY SERVICES CONSULTATION ACTIVITIES |
+| NO. KOD | MP-031-3:2016-C01/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** 知识评估 / Knowledge Assessment (KA)
+
+**TUJUAN:** 3. 客户记录三大原则：同意、保密、____________。 4. 中医四诊为：望、闻、问、____________。 5. 头部经络部位的拼音为 ____________。 6. 推拿适应症之一：____________ 性头痛。 7. NOSS 列明的 7 项禁忌之首：____________ 出血伤口。 8. 推拿模式之一：____________ 推拿（适用于 6 个月至 12 岁）。 9. T&CM 法令颁布年份为 ____________。
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
 # 知识评估 / Knowledge Assessment (KA)
 
-**WIM 编码：** MP-031-3:2016-C01/KA(MERAH JAMBU)
-**NOSS：** MP-031-3:2016 推拿疗法服务 (Level 3)
-**CU：** C01 推拿疗法服务咨询
-**纸张颜色：** 粉
-**时数：** 3 小时（120 分钟笔试 + 30 分钟复核）
-**最后更新：** 2026-04-17
----
 
 ## 评估说明
 
