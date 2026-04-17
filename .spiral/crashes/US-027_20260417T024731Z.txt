@@ -1,0 +1,8 @@
+# SPIRAL Crash Report
+# Story:     US-027
+# Worker:    sequential
+# Exit Code: 124
+# Timestamp: 20260417T024731Z
+# ─────────────────────────────────────────
+
+No stderr capture available (exit_code=124)

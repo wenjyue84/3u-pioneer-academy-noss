@@ -1,8 +1,8 @@
 {
   "phase": "I",
-  "iteration": 5,
-  "started_at": 1776391202,
+  "iteration": 7,
+  "started_at": 1776394210,
   "pct_done": 60,
-  "story_id": "US-024",
-  "story_title": "Create BEV C04 Knowledge Assessment with Electric Drive Train Diagnostics Scenarios"
+  "story_id": "US-030",
+  "story_title": "Create Assessment Question Difficulty Classifier with Bloom's Taxonomy Cognitive Level Tagging"
 }

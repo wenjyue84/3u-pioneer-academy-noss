@@ -1,44 +1,21 @@
 [
   {
-    "title": "Create BEV C04 Knowledge Assessment with Electric Drive Train Diagnostics Scenarios",
+    "title": "Create BEV C05 Knowledge Assessment with Team Supervision Scenarios",
     "priority": "high",
-    "description": "Develop KA (Knowledge Assessment) for BEV C04 covering electric motor control systems, inverter operation, and torque vectoring diagnostics with scenario-based questions aligned to NOSS G452-010-3:2023 CoCU 4 assessment criteria.",
+    "description": "Develop knowledge assessment for C05 covering HV safety supervision, team training protocols, incident prevention, and supervisory decision-making. Assess all C05 Related Knowledge items from NOSS CoCU with scenario-based and direct questions.",
     "acceptanceCriteria": [
-      "KA file created at bev-diagnostic-rectification/C04/KA.md with minimum 8 scenario-based diagnostic questions covering motor, inverter, gearbox faults",
-      "Each question includes answer scheme with marks allocation and references specific CoCU 4 assessment criteria from NOSS standard",
-      "Questions include parameter calculation scenarios (e.g., torque distribution, efficiency losses at 80% load)"
+      "Generate 30 scenario-based and direct questions covering C05 RK items: HV safety procedures during maintenance, team training methods, incident response protocols, supervisory communication",
+      "Implement integrated answer scheme with competency descriptors and mark allocation mapping each question to specific RK items",
+      "Validate 100% coverage of C05 Related Knowledge with cross-reference to KP files showing traceability"
     ],
     "technicalNotes": [
-      "File to create: bev-diagnostic-rectification/C04/KA.md (follows Buku Panduan WIM KA structure with TAJUK/TUJUAN/PENERANGAN)",
-      "Reference source: bev-diagnostic-rectification/00-noss-extract.md (CoCU 4 assessment criteria section)",
-      "Test command: uv run python validators/coverage_validator.py bev-diagnostic-rectification/C04/KA.md --check-assessment-coverage"
-    ],
-    "filesTouch": [
-      "bev-diagnostic-rectification/C04/KA.md",
-      "validators/coverage_validator.py"
-    ],
-    "estimatedComplexity": "medium",
-    "_source": "ai-example",
-    "passes": false,
-    "dependencies": []
-  },
-  {
-    "title": "Create BEV C05 Knowledge Assessment with Supervisory Role Competency Questions",
-    "priority": "high",
-    "description": "Develop KA (Knowledge Assessment) for BEV C05 supervisory content covering team briefing, training delivery, and health/safety/environment (SHE) monitoring with competency-based questions aligned to NOSS CoCU 5 assessment criteria.",
-    "acceptanceCriteria": [
-      "KA file created at bev-diagnostic-rectification/C05/KA.md with 10 competency-based questions across briefing, training delivery, and SHE responsibilities",
-      "Answer scheme includes 3-level supervisor competency rubric (basic/intermediate/advanced) per NOSS CoCU 5 standards",
-      "Questions use scenario format relevant to workshop supervision (e.g., 'Technician reports HV cable anomaly during shift\u2014describe briefing actions')"
-    ],
-    "technicalNotes": [
-      "File to create: bev-diagnostic-rectification/C05/KA.md",
-      "Reference: bev-diagnostic-rectification/C05/PM-teori.md (supervisory content for context)",
-      "Test command: uv run python validators/coverage_validator.py bev-diagnostic-rectification/C05/KA.md --check-cu5-supervisor-topics"
+      "File to create: bev-diagnostic-rectification/C05/KA.md (Knowledge Assessment structure: 30 questions with 4-option MCQ and short-answer hybrid format)",
+      "File to create: _tools/validators/rk_coverage_validator.py (validate RK-to-KA mapping)",
+      "Test command: uv run python _tools/validators/rk_coverage_validator.py bev C05 --output-json"
     ],
     "filesTouch": [
       "bev-diagnostic-rectification/C05/KA.md",
-      "validators/coverage_validator.py"
+      "_tools/validators/rk_coverage_validator.py"
     ],
     "estimatedComplexity": "medium",
     "_source": "ai-example",
@@ -46,22 +23,23 @@
     "dependencies": []
   },
   {
-    "title": "Create Aesthetic C01 Performance Assessment with Client Consultation Scenario Rubrics",
+    "title": "Build IT Level 4-5 Knowledge Assessment Suite with System Administration Focus",
     "priority": "high",
-    "description": "Develop PA (Performance Assessment) for Aesthetic C01 with 3 interactive client consultation scenarios including health history assessment, skin analysis, and treatment recommendations with detailed rubrics for communication, clinical reasoning, and customer safety.",
+    "description": "Create dual-level knowledge assessments for IT Levels 4 and 5 covering advanced system administration, network security, infrastructure optimization, IT service management per NOSS IT-020-4:2013 and IT-020-5:2013 CoCU.",
     "acceptanceCriteria": [
-      "PA file created at aesthetic-services/C01/PA.md with 3 comprehensive consultation scenarios (each 15\u201320 minutes duration)",
-      "Each scenario includes 5-point scoring rubric for: communication effectiveness, relevant health/allergy data collection, skin condition assessment accuracy, and recommendation appropriateness",
-      "Rubric criteria aligned to NOSS S960-002-3:2020 CoCU 1 performance standards with pass/fail thresholds"
+      "Create it-computer-system/C03-Level4/KA.md with 40 mixed-format questions (MCQ, short-answer rubrics, scenario analysis) covering network administration, security hardening, performance tuning",
+      "Create it-computer-system/C04-Level5/KA.md with 40 strategic-level questions covering IT service management, business continuity, system architecture, governance decisions",
+      "Generate cross-reference index mapping each question to specific Related Knowledge items in respective CoCU"
     ],
     "technicalNotes": [
-      "File to create: aesthetic-services/C01/PA.md (follows WIM PA structure with LANGKAH KERJA table and SENARAI SEMAK checklist)",
-      "Reference: aesthetic-services/00-noss-extract.md (CoCU 1 work activities and performance indicators)",
-      "Test command: uv run python validators/assessment_validator.py aesthetic-services/C01/PA.md --rubric-structure-check"
+      "File to create: it-computer-system/C03-Level4/KA.md (mixed question formats with answer scheme)",
+      "File to create: it-computer-system/C04-Level5/KA.md (strategic scenario questions with rubrics)",
+      "Test command: uv run python _tools/validators/assessment_rk_mapper.py it-computer-system --level 4 5"
     ],
     "filesTouch": [
-      "aesthetic-services/C01/PA.md",
-      "validators/assessment_validator.py"
+      "it-computer-system/C03-Level4/KA.md",
+      "it-computer-system/C04-Level5/KA.md",
+      "_tools/validators/assessment_rk_mapper.py"
     ],
     "estimatedComplexity": "medium",
     "_source": "ai-example",
@@ -69,138 +47,114 @@
     "dependencies": []
   },
   {
-    "title": "Create Aesthetic C02 Performance Assessment with Thermal Therapy Application Rubrics",
-    "priority": "high",
-    "description": "Develop PA (Performance Assessment) for Aesthetic C02 covering practical thermal therapy applications (steam, sauna, heat packs, herbal wraps) with rubrics for technique execution, client safety protocols, hygiene compliance, and treatment customization.",
+    "title": "Create Aesthetic C02 Knowledge Assessment with Thermal Therapy Safety Protocol Questions",
+    "priority": "medium",
+    "description": "Develop knowledge assessment for Aesthetic C02 covering thermal therapy equipment operation, client contraindications, safety protocols, treatment selection decision-making based on C02 KP content and NOSS CoCU.",
     "acceptanceCriteria": [
-      "PA file created at aesthetic-services/C02/PA.md with 4 practical thermal therapy scenarios (steam application, sauna use, heat pack, herbal wrap)",
-      "Scoring rubric includes: hygiene protocol compliance (hand sanitization, towel sanitation per WIM standards), temperature safety (within NOSS-specified range), technique execution accuracy, and adaptive modifications for sensitive skin/contraindications",
-      "Each scenario specifies pass/fail evidence requirements and safety checkpoints from KK procedures"
+      "Create 25 questions covering thermal therapy equipment types (hot stone, infrared, steam), contraindications, hygiene/sterilization, client communication, emergency procedures",
+      "Include 5 mechanism-of-action short-answer questions with detailed model answers and 3-point competency rubrics for grading",
+      "Bilingual answer key with EN questions, model answers, and BM terminology notes showing competency descriptors"
     ],
     "technicalNotes": [
-      "File to create: aesthetic-services/C02/PA.md",
-      "Reference existing KK files: aesthetic-services/C02/KK-*.md (thermal therapy procedure steps and safety checkpoints)",
-      "Test command: uv run python validators/safety_validator.py aesthetic-services/C02/PA.md --thermal-therapy-safety-check"
+      "File to create: aesthetic-services/C02/KA.md (25 questions with answer scheme)",
+      "File to create: _reference/aesthetic-c02-answer-key.md (bilingual answer guide with rubrics)",
+      "Test command: grep -E '^(##|\\*\\*)' aesthetic-services/C02/KA.md | wc -l (should show ~25 questions)"
+    ],
+    "filesTouch": [
+      "aesthetic-services/C02/KA.md",
+      "_reference/aesthetic-c02-answer-key.md"
+    ],
+    "estimatedComplexity": "small",
+    "_source": "ai-example",
+    "passes": false,
+    "dependencies": []
+  },
+  {
+    "title": "Build NOSS CoCU Related Knowledge Coverage Validator for BEV C01-C05",
+    "priority": "high",
+    "description": "Automated validation tool that scans BEV NOSS CoCU extract, maps all Related Knowledge items to corresponding KP files, reports coverage gaps, and generates per-CU coverage metrics.",
+    "acceptanceCriteria": [
+      "Script reads BEV NOSS CoCU data (from 00-noss-extract.md or parsed PDF), extracts all RK items per CU, cross-references against KP files",
+      "Generate report showing: (a) RK items with 100% KP coverage, (b) RK items with partial coverage, (c) RK items with zero coverage, (d) KP content orphaned from any RK",
+      "Output metrics file with per-CU coverage %, overall coverage %, and prioritized gap list"
+    ],
+    "technicalNotes": [
+      "File to create: _tools/validators/rk_coverage_validator.py (parser for NOSS extract, KP matcher, report generator)",
+      "File to create: _reference/bev-rk-coverage-report.json (output metrics)",
+      "Test command: uv run python _tools/validators/rk_coverage_validator.py bev --output json --all-cu"
+    ],
+    "filesTouch": [
+      "_tools/validators/rk_coverage_validator.py",
+      "_reference/bev-rk-coverage-report.json"
+    ],
+    "estimatedComplexity": "medium",
+    "_source": "ai-example",
+    "passes": false,
+    "dependencies": []
+  },
+  {
+    "title": "Create BEV KK Work Activity Step Numbering and Format Validator",
+    "priority": "medium",
+    "description": "Validation tool ensuring all BEV KK files use consistent LANGKAH KERJA table format with properly numbered steps, prerequisite knowledge checks, safety/hazard identification, and checkpoints per Buku Panduan WIM standards.",
+    "acceptanceCriteria": [
+      "Validator checks each KK file for: (a) LANGKAH KERJA table present with proper header, (b) sequential step numbering with no gaps/duplicates, (c) each step has columns: Step#, Action, Safety/Hazard, Checkpoint, Expected Result, (d) final step includes return-to-normal-state procedure",
+      "Flags format violations and generates per-file compliance report for all BEV C01-C05 KK files",
+      "Provide template snippet output showing correct LANGKAH KERJA format for non-compliant files"
+    ],
+    "technicalNotes": [
+      "File to create: _tools/validators/kk_step_format_validator.py (markdown table parser, format checker, template generator)",
+      "File to create: _reference/kk-format-compliance-report.txt (output report)",
+      "Test command: uv run python _tools/validators/kk_step_format_validator.py bev-diagnostic-rectification --format txt"
+    ],
+    "filesTouch": [
+      "_tools/validators/kk_step_format_validator.py",
+      "_reference/kk-format-compliance-report.txt"
+    ],
+    "estimatedComplexity": "small",
+    "_source": "ai-example",
+    "passes": false,
+    "dependencies": []
+  },
+  {
+    "title": "Build Multi-Subject Bilingual Terminology Index Generator with Consistency Checker",
+    "priority": "high",
+    "description": "Automated tool scanning all KP, KT, KK, KA, PA files across BEV, Aesthetic, IT subjects, extracting and indexing bilingual terminology pairs, flagging inconsistencies, and generating searchable reference.",
+    "acceptanceCriteria": [
+      "Extract all terms matching pattern `[EN-term / BM-Istilah]` from all WIM files using regex parser, store with file location and usage context",
+      "Generate _reference/bilingual-terminology-index.md with: (a) alphabetical EN index, (b) BM reverse index, (c) usage count per subject, (d) file locations, (e) context snippets",
+      "Detect and flag inconsistencies: same EN term mapped to different BM terms, suggest unification or subject-specific variants"
+    ],
+    "technicalNotes": [
+      "File to create: _tools/generators/bilingual_index_generator.py (regex extractor, indexer, consistency checker)",
+      "File to create: _reference/bilingual-terminology-index.md (searchable index)",
+      "Test command: uv run python _tools/generators/bilingual_index_generator.py --all-subjects --check-consistency"
+    ],
+    "filesTouch": [
+      "_tools/generators/bilingual_index_generator.py",
+      "_reference/bilingual-terminology-index.md"
+    ],
+    "estimatedComplexity": "medium",
+    "_source": "ai-example",
+    "passes": false,
+    "dependencies": []
+  },
+  {
+    "title": "Create Aesthetic C02 Performance Assessment with Thermal Therapy Treatment Scenario Rubrics",
+    "priority": "medium",
+    "description": "Develop performance-based assessment for C02 with 2-3 integrated thermal therapy treatment scenarios (setup, execution, safety validation, client communication) each with detailed 4-point competency rubrics.",
+    "acceptanceCriteria": [
+      "Create 2 assessment scenarios: (a) hot-stone massage with contraindication check and draping, (b) infrared sauna or steam treatment with temperature monitoring, client comfort assessment, emergency protocols. Each scenario has 5-7 performance steps",
+      "Rubric for each scenario with 4-point scale covering: technique correctness (30%), safety protocol adherence (40%), client communication/comfort (30%), with 'Evidence of competence' descriptors at each level",
+      "Cross-validate scenario steps against C02 KK-01 and KK-02 procedures; ensure all safety steps reference corresponding KK checkpoints"
+    ],
+    "technicalNotes": [
+      "File to create: aesthetic-services/C02/PA.md (2 integrated scenario assessments with rubrics)",
+      "File to modify: _tools/validators/pa_scenario_validator.py (cross-validate to KK steps)",
+      "Test command: grep -E '^(Scenario|Evidence of competence)' aesthetic-services/C02/PA.md | wc -l (should show \u226512 rubric descriptors)"
     ],
     "filesTouch": [
       "aesthetic-services/C02/PA.md",
-      "validators/safety_validator.py"
-    ],
-    "estimatedComplexity": "medium",
-    "_source": "ai-example",
-    "passes": false,
-    "dependencies": []
-  },
-  {
-    "title": "Create Aesthetic C03 Performance Assessment with Manual Technique Demonstration Rubrics",
-    "priority": "high",
-    "description": "Develop PA (Performance Assessment) for Aesthetic C03 covering manual body massage techniques (effleurage, petrissage, tapotement, friction, vibration) with detailed rubrics for stroke quality, pressure modulation, anatomical accuracy, and real-time client feedback response.",
-    "acceptanceCriteria": [
-      "PA file created at aesthetic-services/C03/PA.md with 3 massage technique scenarios targeting different body areas (back, shoulders, legs)",
-      "Rubric includes 5-level scoring for: pressure consistency (light/medium/deep as prescribed), stroke rhythm uniformity, anatomical landmark accuracy, and adaptive response to client feedback",
-      "Assessment includes video/observation checklist per NOSS S960-002-3:2020 CoCU 3 performance standards"
-    ],
-    "technicalNotes": [
-      "File to create: aesthetic-services/C03/PA.md",
-      "Reference: aesthetic-services/C03/KP-01.md (anatomy) and KK-* files (massage technique procedures)",
-      "Test command: uv run python validators/technique_validator.py aesthetic-services/C03/PA.md --massage-technique-rubric-validation"
-    ],
-    "filesTouch": [
-      "aesthetic-services/C03/PA.md",
-      "validators/technique_validator.py"
-    ],
-    "estimatedComplexity": "medium",
-    "_source": "ai-example",
-    "passes": false,
-    "dependencies": []
-  },
-  {
-    "title": "Create Aesthetic C04 Knowledge Assessment with Electrotherapy Safety Parameter Questions",
-    "priority": "high",
-    "description": "Develop KA (Knowledge Assessment) for Aesthetic C04 with knowledge questions focused on electrotherapy modality safety, parameter setting (frequency, intensity, duration, mode selection), contraindications, and adverse reaction management per NOSS standards.",
-    "acceptanceCriteria": [
-      "KA file created at aesthetic-services/C04/KA.md with 12 questions covering 6 electrotherapy modalities: EMS, TENS, radiofrequency, ultrasound, LED, microcurrent",
-      "Questions include parameter calculation scenarios (e.g., 'Client weighs 65 kg; recommend EMS intensity range in mA and justify') and safety decision scenarios (e.g., 'Contraindications for client with pacemaker')",
-      "Answer scheme includes reference to specific NOSS CoCU 4 related knowledge items and safety parameters from KP files"
-    ],
-    "technicalNotes": [
-      "File to create: aesthetic-services/C04/KA.md (WIM KA format with TAJUK/TUJUAN sections)",
-      "Reference: aesthetic-services/C04/KP-01.md through KP-06.md (modality descriptions and safety parameters per NOSS)",
-      "Test command: uv run python validators/coverage_validator.py aesthetic-services/C04/KA.md --electrotherapy-safety-coverage"
-    ],
-    "filesTouch": [
-      "aesthetic-services/C04/KA.md",
-      "validators/coverage_validator.py"
-    ],
-    "estimatedComplexity": "medium",
-    "_source": "ai-example",
-    "passes": false,
-    "dependencies": []
-  },
-  {
-    "title": "Implement IT Level 4 Knowledge Assessment with Network System Management Competencies",
-    "priority": "high",
-    "description": "Develop KA (Knowledge Assessment) for IT Level 4 Computer System Management covering network administration, system architecture, security hardening, and integrated troubleshooting with competency-based questions per IT-020-4:2013 standards.",
-    "acceptanceCriteria": [
-      "KA file created at it-computer-system/Level-4/KA.md with 15 questions across network design, system security, and architecture integration domains",
-      "Questions include scenario-based network design decisions (e.g., 'Design LAN topology for 200-user enterprise with redundancy requirements'), system hardening (e.g., 'Identify 5 critical hardening steps for Windows Server 2022'), and troubleshooting chains",
-      "Answer scheme includes competency mapping to NOSS IT-020-4 CoCU assessment criteria with evidence rubrics"
-    ],
-    "technicalNotes": [
-      "File to create: it-computer-system/Level-4/KA.md (WIM KA format)",
-      "Reference: it-computer-system/00-noss-extract.md (IT Level 4 CoCU requirements and assessment criteria)",
-      "Test command: uv run python validators/coverage_validator.py it-computer-system/Level-4/KA.md --it-level-4-noss-coverage"
-    ],
-    "filesTouch": [
-      "it-computer-system/Level-4/KA.md",
-      "validators/coverage_validator.py"
-    ],
-    "estimatedComplexity": "medium",
-    "_source": "ai-example",
-    "passes": false,
-    "dependencies": []
-  },
-  {
-    "title": "Implement IT Level 5 Knowledge Assessment with Enterprise Architecture and Virtualization Strategy",
-    "priority": "high",
-    "description": "Develop KA (Knowledge Assessment) for IT Level 5 covering enterprise system architecture, virtualization technology evaluation, cloud migration strategy, cost optimization, and strategic IT governance per IT-020-5:2013 standards with expert-level questions.",
-    "acceptanceCriteria": [
-      "KA file created at it-computer-system/Level-5/KA.md with 12 complex architecture and strategic planning questions",
-      "Questions require analysis of cloud deployment models (public/private/hybrid) with cost-benefit trade-off justification, virtualization technology selection with performance/cost metrics, and infrastructure risk assessment",
-      "Answer scheme requires detailed technical justification (minimum 100 words per answer) per NOSS IT-020-5 competency standards"
-    ],
-    "technicalNotes": [
-      "File to create: it-computer-system/Level-5/KA.md",
-      "Reference: it-computer-system/00-noss-extract.md (IT Level 5 strategic and governance competencies)",
-      "Test command: uv run python validators/coverage_validator.py it-computer-system/Level-5/KA.md --it-level-5-strategic-coverage"
-    ],
-    "filesTouch": [
-      "it-computer-system/Level-5/KA.md",
-      "validators/coverage_validator.py"
-    ],
-    "estimatedComplexity": "medium",
-    "_source": "ai-example",
-    "passes": false,
-    "dependencies": []
-  },
-  {
-    "title": "Build Bilingual Terminology Validator for BEV with Consistency Checking and Glossary Generation",
-    "priority": "medium",
-    "description": "Create Python validator tool that scans all BEV KP, KT, KK, and assessment files for EN/BM bilingual terminology consistency, flags inconsistencies, generates glossary reports, and ensures compliance with master BEV terminology list.",
-    "acceptanceCriteria": [
-      "Validator script created at validators/bev_terminology_validator.py with ability to check consistency of 50+ technical BEV terms across all documents (high-voltage, battery management system, thermal runaway, etc.)",
-      "Tool generates detailed CSV report listing inconsistent EN/BM pairs by file, line number, and CU location with 'found: X / expected: Y' format",
-      "Integration test confirms validator correctly identifies 10+ seeded terminology inconsistencies in test files"
-    ],
-    "technicalNotes": [
-      "File to create: validators/bev_terminology_validator.py (uses regex matching against master term list)",
-      "Reference: bev-diagnostic-rectification/_reference/bev-terminology-glossary.md (master EN/BM pairs)",
-      "Test command: uv run pytest tests/test_bev_terminology_validator.py -v"
-    ],
-    "filesTouch": [
-      "validators/bev_terminology_validator.py",
-      "tests/test_bev_terminology_validator.py",
-      "bev-diagnostic-rectification/_reference/bev-terminology-glossary.md"
+      "_tools/validators/pa_scenario_validator.py"
     ],
     "estimatedComplexity": "small",
     "_source": "ai-example",
@@ -208,23 +162,22 @@
     "dependencies": []
   },
   {
-    "title": "Build Bilingual Terminology Validator for IT with Consistency Checking and Glossary Reporting",
+    "title": "Build IT Knowledge Sheets Structure Analyzer Against WIM Buku Panduan Standards",
     "priority": "medium",
-    "description": "Create Python validator tool that scans all IT Level 3/4/5 KP, KT, KK files for EN/BM IT terminology consistency (server/pelayan, network/rangkaian, database/pangkalan data, etc.) and flags inconsistencies by file, level, and context.",
+    "description": "Validation tool auditing all IT KP files for compliance with JPK Buku Panduan WIM Edisi 2020 structure: required sections (TAJUK, TUJUAN, PENGENALAN, PENERANGAN with subsections, RUMUSAN), formatting, bilingual notation.",
     "acceptanceCriteria": [
-      "Validator script created at validators/it_terminology_validator.py checking 40+ IT technical terms with level-aware differentiation (Level 3 basic vs. Level 5 enterprise terms)",
-      "Tool generates JSON report with term usage frequency, inconsistency flags, and recommended standardization per NOSS guidelines with file locations",
-      "Test confirms validator correctly flags 'server' vs. 'pelayan' inconsistencies and suggests standardization across levels"
+      "Validator checks IT KP files for: (a) TAJUK present with correct code format [NOSS]-[CU]/[DocCode], (b) TUJUAN as numbered learning objectives (1-5 items), (c) PENGENALAN section (background/intro), (d) PENERANGAN main content with \u22652 logical subsections, (e) RUMUSAN (summary paragraph)",
+      "Generate compliance report showing % of IT KP files meeting standard, list violations by type and severity",
+      "Suggest structure corrections for non-compliant files with template section alignment"
     ],
     "technicalNotes": [
-      "File to create: validators/it_terminology_validator.py",
-      "Reference: it-computer-system/_reference/it-terminology-glossary.md (master IT EN/BM pairs organized by level)",
-      "Test command: uv run pytest tests/test_it_terminology_validator.py::test_level_aware_terminology -v"
+      "File to create: _tools/validators/kp_structure_validator.py (markdown section parser, structure checker, template suggester)",
+      "File to create: _reference/it-kp-compliance-report.md (per-file compliance breakdown)",
+      "Test command: uv run python _tools/validators/kp_structure_validator.py it-computer-system --verbose"
     ],
     "filesTouch": [
-      "validators/it_terminology_validator.py",
-      "tests/test_it_terminology_validator.py",
-      "it-computer-system/_reference/it-terminology-glossary.md"
+      "_tools/validators/kp_structure_validator.py",
+      "_reference/it-kp-compliance-report.md"
     ],
     "estimatedComplexity": "small",
     "_source": "ai-example",
@@ -232,66 +185,22 @@
     "dependencies": []
   },
   {
-    "title": "Create KT Question Diversity Analyzer with Question Type Distribution Metrics and Recommendations",
-    "priority": "medium",
-    "description": "Build Python tool to analyze all KT (assignment/knowledge) files across BEV, Aesthetic, and IT, classifying questions by type (MCQ, short answer, scenario, calculation, matching, true/false) and generating diversity metrics with rebalancing recommendations.",
-    "acceptanceCriteria": [
-      "Analyzer script created at validators/question_diversity_analyzer.py that classifies 200+ questions by type with accuracy threshold of 95% (validated against manual sample)",
-      "Generates HTML/JSON report showing question type distribution by subject and CU with flags for 'too few scenario' (<20% per CU) or 'too many MCQ' (>40% per CU)",
-      "Recommends specific question type replacements to achieve optimal distribution: 30% MCQ / 30% scenario / 20% short answer / 20% calculation"
-    ],
-    "technicalNotes": [
-      "File to create: validators/question_diversity_analyzer.py with classify_question_type() function using keyword heuristics",
-      "Test command: uv run pytest tests/test_question_diversity_analyzer.py::test_classify_question_types -v"
-    ],
-    "filesTouch": [
-      "validators/question_diversity_analyzer.py",
-      "tests/test_question_diversity_analyzer.py"
-    ],
-    "estimatedComplexity": "small",
-    "_source": "ai-example",
-    "passes": false,
-    "dependencies": []
-  },
-  {
-    "title": "Create KK Step-by-Step Safety Validator with Checkpoint Auditing and Gap Flagging",
-    "priority": "medium",
-    "description": "Build validator tool to scan all KK (work sheet) procedural steps in BEV and Aesthetic and verify that critical operations include required safety checkpoints (PPE, hazard check, approval gates) per NOSS standards with detailed gap reports.",
-    "acceptanceCriteria": [
-      "Validator script created at validators/kk_safety_checkpoint_validator.py with required_checkpoints dict for BEV high-voltage work (PPE verification, insulation test, ground continuity) and Aesthetic therapy (hygiene, contraindication screening, client comfort confirmation)",
-      "Tool flags missing checkpoints at mandatory steps and suggests insertion locations with reference to NOSS safety standards; generates HTML report with risk assessment for each gap",
-      "Integration test confirms tool correctly identifies 8+ missing safety checkpoints in seeded BEV/Aesthetic test files"
-    ],
-    "technicalNotes": [
-      "File to create: validators/kk_safety_checkpoint_validator.py with required_checkpoints dict and safety_risk_map for each subject",
-      "Test command: uv run pytest tests/test_kk_safety_validator.py::test_detect_missing_hv_safety_checkpoints -v"
-    ],
-    "filesTouch": [
-      "validators/kk_safety_checkpoint_validator.py",
-      "tests/test_kk_safety_validator.py"
-    ],
-    "estimatedComplexity": "small",
-    "_source": "ai-example",
-    "passes": false,
-    "dependencies": []
-  },
-  {
-    "title": "Build WIM Markdown to DOCX Export Pipeline with JPK Format Compliance and Style Templates",
+    "title": "Create Assessment Question Difficulty Classifier with Bloom's Taxonomy Cognitive Level Tagging",
     "priority": "high",
-    "description": "Develop Python export pipeline that converts validated WIM .md files (KP, KT, KK, PM, PA, KA) to .docx format with proper JPK Buku Panduan WIM Edisi 2020 styling: header boxes (NOSS code, CU, doc type), colored paper types, TAJUK/TUJUAN/PENERANGAN sections, proper fonts, margins, and page numbering.",
+    "description": "ML-assisted tool analyzing assessment questions, assigning Bloom's cognitive level (1=Remember through 6=Create), generating per-assessment distribution reports, and flagging cognitively imbalanced assessments across all subjects.",
     "acceptanceCriteria": [
-      "Export script created at build/wim_md_to_docx.py accepting input .md file and outputting .docx with correct JPK formatting including header box with NOSS code, CU number, document type code, and sequential page numbering",
-      "Script supports --style flag for color-coded paper types: KP (white), KT (pink), KK (blue), PA (light blue), KA (pink), PM (yellow) with embedded watermark",
-      "Output .docx preserves markdown structure (headers, lists, tables) and validates against WIM formatting checklist before export; test file: bev-diagnostic-rectification/C01/KP-01.md"
+      "Classifier reads all KA/PA question text, parses question type (MCQ, short-answer, scenario, practical), analyzes action verbs (recall verbs \u2192 Level 1, apply \u2192 Level 3, evaluate/create \u2192 Levels 5-6), assigns Bloom's level with confidence score",
+      "Generate distribution report per assessment showing % questions at each cognitive level (1-6); flag assessments with <20% higher-order thinking (Levels 4-6) or >50% at single level",
+      "Output recommendations file suggesting specific question conversions (e.g., 'BEV-C02-KA: 40% Level-1 recall, recommend replacing 5 with analysis/diagnostic scenarios')"
     ],
     "technicalNotes": [
-      "File to create: build/wim_md_to_docx.py using python-docx library (for .docx creation) and pandoc (for .md parsing); template file: _reference/wim-docx-template.docx",
-      "Test command: uv run python build/wim_md_to_docx.py bev-diagnostic-rectification/C01/KP-01.md --style KP --output test_output.docx && uv run pytest tests/test_wim_export.py::test_docx_header_compliance -v"
+      "File to create: _tools/classifiers/question_difficulty_classifier.py (question parser, verb analyzer, Bloom's classifier)",
+      "File to create: _reference/assessment-difficulty-distribution.json (per-assessment metrics)",
+      "Test command: uv run python _tools/classifiers/question_difficulty_classifier.py --all-subjects --output json"
     ],
     "filesTouch": [
-      "build/wim_md_to_docx.py",
-      "tests/test_wim_export.py",
-      "_reference/wim-docx-template.docx"
+      "_tools/classifiers/question_difficulty_classifier.py",
+      "_reference/assessment-difficulty-distribution.json"
     ],
     "estimatedComplexity": "medium",
     "_source": "ai-example",
@@ -299,21 +208,22 @@
     "dependencies": []
   },
   {
-    "title": "Create Assessment Question Bank Indexer with Full-Text Search and Competency Tagging",
+    "title": "Build BEV KK Prerequisite Knowledge Mapper to KP Coverage Matrix",
     "priority": "medium",
-    "description": "Build Python indexing tool that catalogs all assessment questions (KA, KT) across BEV, Aesthetic, and IT with rich metadata (subject, level, CU, question type, cognitive level, NOSS competency code) and enables SQL-based search by competency, difficulty, or topic.",
+    "description": "Tool analyzing each BEV work activity (KK), identifying prerequisite Related Knowledge needed to perform the activity, cross-referencing to KP coverage, and generating alignment matrix showing KK\u2192RK\u2192KP relationships.",
     "acceptanceCriteria": [
-      "Indexer script created at tools/question_bank_indexer.py that parses all KA/KT .md files and builds SQLite database (questions.db) with schema: question_id, subject, cu, level, qtype, cognitive_level (remember/understand/apply/analyze/evaluate), keywords, noss_code, answer_key",
-      "CLI supports search: `uv run python tools/question_bank_indexer.py search --subject BEV --cu C01 --level apply` returns matching questions with result count and difficulty distribution",
-      "Full-text search on question text and answer key with keyword highlighting; test confirms indexing of 200+ questions with sub-100ms search latency"
+      "Analyze BEV KK files, extract work steps, identify RK prerequisites required to safely/correctly perform each activity (e.g., KK-01 'Disconnect HV Battery' requires understanding HV safety from KP-01, BMS components from KP-02)",
+      "Generate _reference/bev-kk-to-kp-mapping.md showing per-KK: (a) work activity title, (b) prerequisite RK items, (c) corresponding KP files covering those RK, (d) coverage status (Complete/Partial/Gap)",
+      "Ensure all prerequisites for each KK are covered by KP in same or earlier CU; flag gaps where RK has no supporting KP"
     ],
     "technicalNotes": [
-      "File to create: tools/question_bank_indexer.py; database: questions.db (SQLite, created at runtime in project root)",
-      "Test command: uv run pytest tests/test_question_indexer.py::test_index_and_search -v"
+      "File to create: _tools/validators/kk_prerequisite_mapper.py (KK parser, RK extractor, KP matcher)",
+      "File to create: _reference/bev-kk-to-kp-mapping.md (prerequisite matrix table)",
+      "Test command: uv run python _tools/validators/kk_prerequisite_mapper.py bev && grep -c '^- Gap:' _reference/bev-kk-to-kp-mapping.md (should be 0)"
     ],
     "filesTouch": [
-      "tools/question_bank_indexer.py",
-      "tests/test_question_indexer.py"
+      "_tools/validators/kk_prerequisite_mapper.py",
+      "_reference/bev-kk-to-kp-mapping.md"
     ],
     "estimatedComplexity": "small",
     "_source": "ai-example",
@@ -321,23 +231,118 @@
     "dependencies": []
   },
   {
-    "title": "Build NOSS CoCU Requirement Traceability Reporter with Coverage Gap Analysis and Over-Testing Detection",
-    "priority": "high",
-    "description": "Develop Python reporter that maps each assessment question (KA, KT) to specific NOSS CoCU requirements (related knowledge items, work activities), generates interactive traceability matrix, and highlights uncovered requirements and over-represented test areas.",
+    "title": "Create Aesthetic KP-to-Knowledge Assessment Alignment Validator with Objective Coverage Analysis",
+    "priority": "medium",
+    "description": "Automated tool validating that every learning objective in Aesthetic KP (TUJUAN section) is tested by corresponding KA questions with appropriate cognitive complexity, generates coverage matrix, flags under-tested objectives.",
     "acceptanceCriteria": [
-      "Reporter script created at validators/traceability_reporter.py that cross-references assessment questions against NOSS CoCU extract files (00-noss-extract.md) with many-to-many mapping (question \u2192 multiple CoCU requirements)",
-      "Output: Interactive HTML report showing traceability matrix (questions \u00d7 NOSS requirements) with coverage percentage by CU, gap flags ('Requirement X.Y uncovered by any assessment'), and over-testing flags ('Requirement X.Y tested 5+ times')",
-      "Report includes actionable recommendations: 'Create KT question to cover Requirement C01.K1.5' or 'Consolidate 3 redundant questions covering Requirement C02.W3'"
+      "Parser extracts TUJUAN (numbered learning objectives 1-5) from each Aesthetic KP file, identifies corresponding KA file (same CU), cross-references questions to objectives using keyword matching",
+      "Validator checks: (a) each objective has \u22652 assessment questions, (b) question cognitive type matches objective complexity (recall objectives tested with direct/MCQ, analysis objectives with scenario/application questions), (c) no KA question is orphaned (all questions map to at least one KP objective)",
+      "Generate report showing per-objective coverage %, flags any objective with <2 questions, generates list of under-tested objectives prioritized for KA expansion"
     ],
     "technicalNotes": [
-      "File to create: validators/traceability_reporter.py; reads from {subject}/00-noss-extract.md for requirement definitions and maps to all assessment .md files",
-      "Test command: uv run python validators/traceability_reporter.py --subject BEV --output report.html && uv run pytest tests/test_traceability_reporter.py::test_gap_detection -v"
+      "File to create: _tools/validators/kp_ka_alignment_validator.py (objective extractor, question-to-objective matcher, coverage analyzer)",
+      "File to create: _reference/aesthetic-kp-ka-alignment-report.md (per-CU coverage matrix)",
+      "Test command: uv run python _tools/validators/kp_ka_alignment_validator.py aesthetic-services && grep 'Coverage:' _reference/aesthetic-kp-ka-alignment-report.md"
     ],
     "filesTouch": [
-      "validators/traceability_reporter.py",
-      "tests/test_traceability_reporter.py"
+      "_tools/validators/kp_ka_alignment_validator.py",
+      "_reference/aesthetic-kp-ka-alignment-report.md"
+    ],
+    "estimatedComplexity": "small",
+    "_source": "ai-example",
+    "passes": false,
+    "dependencies": []
+  },
+  {
+    "title": "Build WIM Header Box Template Enforcer for All Document Types Across All Subjects",
+    "priority": "high",
+    "description": "Compliance tool ensuring all WIM documents (KP, KT, KK, KA, PA, PM) include properly formatted header boxes with NOSS code, document code, subject, CU number, effective date per Buku Panduan WIM Edisi 2020 standards.",
+    "acceptanceCriteria": [
+      "Enforcer scans all WIM files (KP, KT, KK, KA, PA, PM) across all subjects, checks for header box matching format: `[NOSS Code] - [CU] / [Doc Code] ([Seq]/[Total]) | Effective: [YYYY-MM-DD] | Subject: [Name] | Level: [N]`",
+      "Generate non-compliance report listing files missing headers or with invalid format, provide template snippets for each document type for quick correction",
+      "Optional `--fix` mode auto-inserts header boxes for files missing them, with fields requiring manual verification for correctness"
+    ],
+    "technicalNotes": [
+      "File to create: _tools/enforcer/header_box_enforcer.py (file scanner, header validator, template generator, auto-insert option)",
+      "File to create: _reference/wim-header-template.md (template snippets by document type)",
+      "Test command: uv run python _tools/enforcer/header_box_enforcer.py --scan --all-subjects | grep -c 'Missing:' (should be 0 for compliant projects)"
+    ],
+    "filesTouch": [
+      "_tools/enforcer/header_box_enforcer.py",
+      "_reference/wim-header-template.md"
+    ],
+    "estimatedComplexity": "small",
+    "_source": "ai-example",
+    "passes": false,
+    "dependencies": []
+  },
+  {
+    "title": "Create IT C01-C05 Practical Procedures with Step-by-Step Safety Checkpoints",
+    "priority": "medium",
+    "description": "Develop comprehensive KK work activity procedures for IT Levels 3, 4, 5 covering hands-on labs: server/client setup, network configuration, security hardening, backup/recovery, troubleshooting with detailed LANGKAH KERJA tables and safety/error prevention checkpoints.",
+    "acceptanceCriteria": [
+      "Create 8-10 KK files: C01-KK-01 (Server OS Installation), C02-KK-01 (Network Configuration), C03-KK-01 (Security Hardening), C04-KK-01 (Backup Procedures), C05-KK-01 (Incident Response/Troubleshooting). Each with LANGKAH KERJA table: Step#, Action, Safety/Hazard, Checkpoint, Expected Result columns",
+      "Each procedure cross-references prerequisite knowledge to corresponding KP file sections (e.g., 'Requires KP-01 understanding of Windows Server roles')",
+      "Include 3-5 safety/error prevention checkpoints per procedure (e.g., 'Verify firewall rules configured correctly before connecting to production network')"
+    ],
+    "technicalNotes": [
+      "Files to create: it-computer-system/C01/KK-01.md, it-computer-system/C02/KK-01.md, it-computer-system/C03/KK-01.md, it-computer-system/C04/KK-01.md, it-computer-system/C05/KK-01.md (practical procedures with tables)",
+      "Test command: uv run python _tools/validators/kk_step_format_validator.py it-computer-system --verbose (check all 5 files have proper LANGKAH KERJA tables)"
+    ],
+    "filesTouch": [
+      "it-computer-system/C01/KK-01.md",
+      "it-computer-system/C02/KK-01.md",
+      "it-computer-system/C03/KK-01.md",
+      "it-computer-system/C04/KK-01.md",
+      "it-computer-system/C05/KK-01.md"
     ],
     "estimatedComplexity": "medium",
+    "_source": "ai-example",
+    "passes": false,
+    "dependencies": []
+  },
+  {
+    "title": "Build Cross-Subject Assessment Question Type Distribution Analyzer with Rebalancing Recommendations",
+    "priority": "high",
+    "description": "Tool analyzing question type diversity (MCQ, short-answer, scenario, practical, essay, matching, fill-in) across all assessments in BEV, Aesthetic, IT subjects, generates distribution metrics, and recommends rebalancing where diversity is low.",
+    "acceptanceCriteria": [
+      "Classifier parses all KA/PA files, detects each question type by pattern (MCQ: radio options, short-answer: blank lines, scenario: narrative setup, essay: open-ended prompts), generates distribution report per assessment and per subject showing % of each type",
+      "Flag assessments with low diversity: <4 question types represented OR any single type >60% of questions. Rank flagged assessments by severity",
+      "Generate rebalancing recommendations file with specific conversions (e.g., 'BEV-C02-KA: 40% MCQ (15 questions), recommend replacing 5 MCQ with scenario-based analysis questions')"
+    ],
+    "technicalNotes": [
+      "File to create: _tools/analyzers/question_type_analyzer.py (question type detector, distribution calculator, rebalancing recommender)",
+      "File to create: _reference/assessment-question-type-distribution.md (per-subject and per-assessment breakdown with recommendations)",
+      "Test command: uv run python _tools/analyzers/question_type_analyzer.py --all-subjects --format md"
+    ],
+    "filesTouch": [
+      "_tools/analyzers/question_type_analyzer.py",
+      "_reference/assessment-question-type-distribution.md"
+    ],
+    "estimatedComplexity": "medium",
+    "_source": "ai-example",
+    "passes": false,
+    "dependencies": []
+  },
+  {
+    "title": "Create BEV-Aesthetic Shared Terminology Conflict Resolver with Subject-Specific Usage Guide",
+    "priority": "medium",
+    "description": "Tool identifying EN/BM terms used in both BEV and Aesthetic but with different meanings or technical contexts, documents conflicts with usage recommendations, and generates style guide for terminology consistency per subject.",
+    "acceptanceCriteria": [
+      "Compare EN/BM terminology extracted from BEV and Aesthetic bilingual indices, identify overlaps where term meaning differs significantly by subject (e.g., 'battery' in BEV as power source vs skincare battery terminology, 'client' in BEV diagnostics context vs Aesthetic client consultation)",
+      "Generate _reference/terminology-conflicts.md documenting: (a) conflicting term, (b) EN definition/context in BEV, (c) EN definition/context in Aesthetic, (d) recommended usage notation with subject labels, (e) example sentences from each subject showing distinct usage",
+      "Provide validation command template to check new content for terminology conflicts with context-sensitive resolution hints"
+    ],
+    "technicalNotes": [
+      "File to create: _tools/resolvers/terminology_conflict_resolver.py (bilingual index comparator, conflict detector, usage guide generator)",
+      "File to create: _reference/terminology-conflicts.md (conflict documentation with usage recommendations)",
+      "Test command: uv run python _tools/resolvers/terminology_conflict_resolver.py bev aesthetic && grep -c '^##' _reference/terminology-conflicts.md (should find 5-10 key conflicts)"
+    ],
+    "filesTouch": [
+      "_tools/resolvers/terminology_conflict_resolver.py",
+      "_reference/terminology-conflicts.md"
+    ],
+    "estimatedComplexity": "small",
     "_source": "ai-example",
     "passes": false,
     "dependencies": []

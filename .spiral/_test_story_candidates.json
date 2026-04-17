@@ -465,6 +465,74 @@
         "performance",
         "auto-generated"
       ]
+    },
+    {
+      "title": "[Regression Test] Create BEV C04 Knowledge Assessment with Electric Drive Train Diagnostics Scenario",
+      "description": "Write regression test to guard against future breakage of US-024. Story description: Develop KA (Knowledge Assessment) for BEV C04 covering electric motor control systems, inverter operation, and torque vectoring diagnostics with scenario-based questions aligned to NOSS G452-010-3:2023 CoCU 4 assessment criteria.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-024",
+        "Test would reliably fail if the US-024 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_024 -v"
+      ],
+      "priority": "medium",
+      "dependencies": [
+        "US-024"
+      ],
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-024",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ]
+    },
+    {
+      "title": "[Performance Test] Create Aesthetic C01 Performance Assessment with Client Consultation Scenario Rub",
+      "description": "Write performance benchmark for the operation in US-025. Story description: Develop PA (Performance Assessment) for Aesthetic C01 with 3 interactive client consultation scenarios including health history assessment, skin analysis, and treatment recommendations with detailed rubrics for communication, clinical reasoning, and customer safety.",
+      "acceptanceCriteria": [
+        "Performance test measures key metrics for US-025",
+        "Baseline captured and acceptable threshold defined",
+        "Test fails if response time degrades more than 20% from baseline"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_025 -v"
+      ],
+      "priority": "medium",
+      "dependencies": [
+        "US-025"
+      ],
+      "_source": "test-story",
+      "_testType": "performance",
+      "_forStoryId": "US-025",
+      "tags": [
+        "performance",
+        "auto-generated"
+      ]
+    },
+    {
+      "title": "[E2E Test] Build WIM Markdown to DOCX Export Pipeline with JPK Format Compliance and Style Templates",
+      "description": "Write end-to-end user flow test for the feature in US-026. Story description: Develop Python export pipeline that converts validated WIM .md files (KP, KT, KK, PM, PA, KA) to .docx format with proper JPK Buku Panduan WIM Edisi 2020 styling: header boxes (NOSS code, CU, doc type), colored paper types, TAJUK/TUJUAN/PENERANGAN sections, proper fonts, margins, and page numbering.",
+      "acceptanceCriteria": [
+        "E2E test covers the user flow introduced by US-026",
+        "Test navigates to relevant page(s) and asserts on visible state",
+        "Test passes in headless browser (Playwright/Cypress/similar)"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_026 -v"
+      ],
+      "priority": "medium",
+      "dependencies": [
+        "US-026"
+      ],
+      "_source": "test-story",
+      "_testType": "e2e",
+      "_forStoryId": "US-026",
+      "tags": [
+        "e2e",
+        "auto-generated"
+      ]
     }
   ]
 }
