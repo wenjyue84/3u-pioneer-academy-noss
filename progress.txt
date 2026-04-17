@@ -1,3 +1,14 @@
+## Iteration 6 - Story: US-051 (retry pass) Build NOSS Learning Outcome to Assessment Linkage Matrix
+
+### What was done
+- Verified iteration 5 implementation already committed and tests passing (3/3)
+- Story was already `passes: true` — previous failure was diagnosis-block gate only
+- No code changes needed; confirmed all acceptance criteria met
+
+### Gotchas
+- SPIRAL requires diagnosis block output BEFORE any file edits — always emit it first
+- Even if code is already done, the gate still checks for the block in agent output
+
 ## Iteration 5 - Story: US-051 Build NOSS Learning Outcome to Assessment Linkage Matrix
 
 ### What was implemented
@@ -9,3 +20,31 @@
 - NOSS extract has one Learning Outcome per CU (not per WA), pattern: `**CU Code:**` followed by `**Learning Outcomes:**`
 - KA.md files currently have no `<!-- LO-xxx -->` tags — tool correctly reports 0% coverage as gaps
 - Keep new files compact to stay under 500-line diff limit
+
+## Pre-analysis for US-052 (Gemini 2.5 Pro)
+Here is a technical brief for the Claude Code agent based on the user story.
+
+***
+
+**Subject: Technical Brief for US-052: Technical Content Accuracy Auditor**
+
+**1. Overview & Context**
+This story requires creating a standalone Python tool to validate technical content against industry standards. The implementation will be housed in the `_tools/` directory and will not directly integrate with Frappe DocTypes or hooks, despite the prompt's mention of a Frappe app. The tool will read standards from a JSON file and audit input text for compliance.
+
+**2. Files to Modify/Create**
+*   **`_tools/accuracy_auditor.py`**: The primary new file for all auditing logic.
+*   **`_tools/test_accuracy_auditor.py`**: A new test file for unit testing the auditor.
+*   **`_reference/industry_standards_index.json`**: The data source for standards; this file will need to be created and populated.
+
+**3. Implementation Approach**
+*   In `accuracy_auditor.py`, implement the core functions: `audit_bev_standards`, `audit_aesthetic_standards`, `audit_it_standards`.
+*   These functions should load and parse `_reference/industry_standards_index.json`.
+*   They will need to accept text content as an input argument and use regular expressions to parse out technical claims (e.g., voltage levels, safety codes, chemical names).
+*   Create a final function, `format_audit_report`, to structure the results into the list format specified in the acceptance criteria.
+*   Begin development by writing a failing test in `test_accuracy_auditor.py` for the 48V BEV requirement, as noted in the story.
+
+**4. Edge Cases & Gotchas**
+*   **Parsing Fragility**: Extracting technical claims from unstructured text is error-prone. Use highly specific regex patterns and consider edge cases where units or phrasing might vary.
+*   **Undefined Input Source**: The story does not specify where the content to be audited originates. Write the functions to be agnostic, simply accepting a string.
+*   **Data Dependency**: The tool's effectiveness is entirely dependent on the `industry_standards_index.json` file. Ensure robust error handling for file-not-found or parsing errors.
+
