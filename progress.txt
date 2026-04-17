@@ -1172,3 +1172,54 @@ Here is the technical brief for the Claude agent:
 - Each scenario needs a different realistic client profile to justify independent 15-20 min assessment
 - Postpartum/breastfeeding is a key contraindication for electrotherapy — good discriminator for S2
 - Pass/fail language: "≥12/20, no criterion <3" makes both score AND minimum-per-criterion explicit
+## Iteration 2 - Fri, Apr 17, 2026 10:22:34 AM
+Completed: Create Aesthetic C01 Performance Assessment with Client Consultation Scenario Rubrics (ID: US-025) in 5m
+
+
+## Pre-analysis for US-026 (Gemini 2.5 Pro)
+Here is the technical brief for user story US-026.
+
+**Subject: Technical Brief: US-026 WIM Markdown to DOCX Export Pipeline**
+
+This brief outlines the implementation plan for creating a Python-based document conversion pipeline.
+
+**1. Python Files to Modify:**
+*   **Create:** `build/wim_md_to_docx.py`. This is the main script for the export logic.
+*   **Create/Update:** `tests/test_wim_export.py`. Add new test cases to validate the output `.docx` file's structure and styling, specifically checking the header content and format compliance as per the acceptance criteria.
+
+**2. Frappe DocTypes & Hooks:**
+*   None. This user story describes a standalone build-time script for file conversion. It does not integrate with the Frappe framework and does not involve any DocTypes or hooks.
+
+**3. Recommended Implementation Approach:**
+*   Use `argparse` in `build/wim_md_to_docx.py` to handle CLI arguments: input file, output file, and `--style`.
+*   Use `pandoc` (called via `subprocess` or `pypandoc`) for the initial Markdown-to-DOCX conversion.
+*   Use the `python-docx` library to open and modify the generated DOCX.
+*   Load the `_reference/wim-docx-template.docx` to apply base styles (fonts, margins).
+*   Programmatically insert a header table/box on the first page and populate it by parsing the NOSS Code and CU from the input file path.
+*   Implement the `--style` flag to set the page background color based on the document type (e.g., KP, KT).
+
+**4. Edge Cases & Gotchas:**
+*   **External Dependency:** The script requires `pandoc` to be installed and accessible in the system's PATH. This must be documented.
+*   **Styling Fidelity:** Replicating the precise JPK header and layout within DOCX can be complex. Extensive use of the `python-docx` API to manipulate tables, paragraphs, and sections will be necessary.
+*   **Metadata Parsing:** The logic to extract NOSS code and CU from file paths must be robust enough to handle variations.
+*   **Error Handling:** The script must gracefully handle file not found errors, invalid `--style` arguments, and failures from the `pandoc` subprocess.
+
+
+## Iteration 1 - US-026: Build WIM Markdown to DOCX Export Pipeline
+
+### What was implemented
+- Created `build/wim_md_to_docx.py`: CLI with argparse (input, --style, --output), pandoc subprocess conversion, python-docx post-processing (JPK header box table, paper color watermark shading, 2.5cm margins)
+- Created `tests/test_wim_export.py`: 4 tests — header compliance, output creation, invalid style rejection, missing file error
+- Installed python-docx into .venv (uv venv + uv pip install)
+
+### Patterns discovered
+- pandoc-generated DOCX doesn't include "Table Grid" style — must add borders manually via w:tcBorders XML
+- Paper color watermark applied via w:shd paragraph shading (paragraph-level RGB fill)
+- NOSS code parsed from `**Kod WIM / WIM Code:**` frontmatter line via regex
+- CU parsed from path component matching C\d+ pattern
+- Doc type inferred from file stem (KP-01 → KP)
+
+### Gotchas
+- `docx.util.Twips` doesn't exist in python-docx 1.2.0 — use `docx.shared` only
+- "Table Grid" style KeyError when using pandoc-generated DOCX as base — add borders manually
+- pytest must be installed in the same venv as python-docx for imports to work

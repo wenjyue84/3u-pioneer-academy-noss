@@ -725,7 +725,8 @@
       "last_attempted": "2026-04-17T02:14:56Z",
       "_phaseI": {
         "diagnosisBlock": "## Current State\nThe existing `aesthetic-services/C01/PA.md` (164 lines) has a single general scenario and simple mark-per-criterion tables, but lacks the 3 required client consultation scenarios with 5-point scoring rubrics for communication effectiveness, health/allergy data collection, skin condition assessment, and recommendation appropriateness.\n\n## Problem Identified\nUS-025 requires a complete restructure of the PA to include 3 interactive consultation scenarios (15-20 min each), each with 5-point rubrics and pass/fail thresholds aligned to NOSS S960-002-3:2020 CoCU 1.\n\n## Planned Changes\n- **aesthetic-services/C01/PA.md** — Replace current single-scenario rubric with 3 distinct scenarios + 5-point rubric tables + SENARAI SEMAK + pass/fail thresholds\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"aesthetic-services/C01/PA.md\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 220\n}\n</plan>\nNow run the coverage validator to confirm the file is accepted:\n100% coverage. Now verify the PA.md meets the acceptance criteria:\nAll checks pass. Now mark the story and commit:\nNow update progress.txt:\nUS-025 is complete.\n\n**Summary:**\n- Rewrote `aesthetic-services/C01/PA.md` with 3 client consultation scenarios (15-20 min each):\n  - **S1:** Health history screening — hypertension + shellfish allergy client\n  - **S2:** Postpartum skin analysis — breastfeeding client with adipose/cellulite concerns  \n  - **S3:** Treatment recommendation — obese client (BMI 30.2) requesting 12-week service plan\n- Each scenario has a 5-point rubric (Cemerlang→Tidak Kompeten) for 4 NOSS-aligned criteria: communication effectiveness, health/allergy data collection, skin condition assessment accuracy, and recommendation appropriateness\n- Pass threshold: ≥3/5 per criterion, ≥12/20 per scenario, pass 2 of 3 scenarios\n- SENARAI SEMAK safety checklist included; coverage validator: 118/118 (100%)"
-      }
+      },
+      "_passedCommit": "cd700ff5ed895d24cb68c0cbc2c0e20efdb45807"
     },
     {
       "id": "US-026",
@@ -743,9 +744,10 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T02:22:36Z"
     },
     {
       "id": "US-027",
