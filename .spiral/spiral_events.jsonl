@@ -1085,3 +1085,5 @@
 {"ts":"2026-04-17T04:54:39Z","event":"story_passed","storyId":"US-027","retryCount":0,"model":"opus"}
 {"ts":"2026-04-17T04:54:45Z","event":"plan_cache_miss","story_id":"US-028"}
 {"ts":"2026-04-17T04:56:38Z","event":"cost_update","story_id":"US-028","tokens_input":21,"tokens_output":8202,"estimated_usd":0.123093}
+{"ts":"2026-04-17T04:56:43Z","event":"scope_guard","story_id":"US-028","result":"skip","reason":"empty_filesTouch"}
+{"ts":"2026-04-17T04:56:56Z","event":"cost_update","story_id":"US-028","tokens_input":14,"tokens_output":2565,"estimated_usd":0.16161}
