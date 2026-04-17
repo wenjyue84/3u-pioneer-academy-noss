@@ -391,6 +391,45 @@
       "last_result": "pending",
       "obsolete": false,
       "run_count": 0
+    },
+    {
+      "title": "[smoke] Create KT Question Diversity Analyzer with Question Type Distribution Metrics and Recommendations",
+      "description": "Auto-generated smoke test from US-027",
+      "from_story": "US-027",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-031",
+      "created_ts": "2026-04-17T05:00:20Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    },
+    {
+      "title": "[smoke] Create KK Step-by-Step Safety Validator with Checkpoint Auditing and Gap Flagging",
+      "description": "Auto-generated smoke test from US-028",
+      "from_story": "US-028",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-032",
+      "created_ts": "2026-04-17T05:00:20Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    },
+    {
+      "title": "[smoke] BEV Diagnostic Fault Code Scenario Generator",
+      "description": "Auto-generated smoke test from US-037",
+      "from_story": "US-037",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-033",
+      "created_ts": "2026-04-17T05:00:20Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
     }
   ]
 }

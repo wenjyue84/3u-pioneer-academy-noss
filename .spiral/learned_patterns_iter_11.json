@@ -1,15 +1,12 @@
 {
   "iteration": 11,
-  "timestamp": "2026-04-16T15:45:22.026463+00:00",
+  "timestamp": "2026-04-17T05:00:41.478868+00:00",
   "summary": {
     "0_retries": {
-      "count": 10,
-      "avg_ac_count": 3.2,
-      "avg_description_length": 265.4,
-      "common_tags": [
-        "kp",
-        "technical"
-      ],
+      "count": 33,
+      "avg_ac_count": 3.09,
+      "avg_description_length": 251.4,
+      "common_tags": [],
       "common_file_patterns": []
     },
     "1_retry": {
@@ -35,8 +32,8 @@
     }
   },
   "insights": {
-    "total_analyzed": 10,
-    "easy_count": 10,
+    "total_analyzed": 33,
+    "easy_count": 33,
     "hard_count": 0
   }
 }
