@@ -925,3 +925,34 @@ Based on the user story, this is a content creation task, not a Python/Frappe im
 ## Iteration 1 - Fri, Apr 17, 2026  1:44:25 AM
 Completed: Create Aesthetic C03 Knowledge Assessment with Manual Technique Competency Questions (ID: US-018) in 8m
 
+
+## Iteration 19 - Story: US-021 Build NOSS CoCU Work Activity Coverage Validator for All Subjects
+
+### What was implemented
+- Created .spiral/validators/noss_coverage_check.py (~150 lines): CLI validator with argparse
+  - Parses BEV NOSS WA table format: `| G452-010-3:2023-CXX-WXX | title |`
+  - Parses Aesthetic NOSS WA tables within `### CU1:` CP sections (resets on `## ` headers to avoid CoCU duplicates)
+  - For IT (no explicit WA list in NOSS extract): derives WAs from KK files
+  - Extracts KK work activity titles using 5 regex patterns covering all subject formats
+  - Keyword overlap confidence: tokenizes titles, removes stopwords, computes Jaccard similarity
+  - Matches >= 25% confidence threshold; below = unmapped
+  - JSON output: mapped[], unmapped[] (with noss_line, noss_snippet), coverage_by_cu{}, subject_coverage_pct
+- Created tests/test_noss_coverage_validator.py: 3 tests all passing in 1.56s
+
+### Patterns discovered
+- Aesthetic NOSS has WA tables in TWO places: `## 3. Competency Profile (CP)` and `## 4-N. CoCU` sections
+  - Must reset current_cu on `## ` (level-2) headers to avoid duplicate parsing from CoCU sections
+- Aesthetic KK files use 3 different header formats:
+  - C01-C04: `**Work Activity N:** Title` (line 5 of file)
+  - C05: `**WA N:** Title | **Paper:** BLUE` (inline in first line)
+  - C06-C07: `| WA N: Title | BLUE` (inline in first line)
+- IT NOSS extract has K-items only (no WA section); derive WA IDs synthetically from KK file paths
+- BEV: 21 WAs, 21 KK files → 100% coverage (all matched by keyword overlap)
+- Aesthetic: 54 WAs, 37 KK files → 79.6% (C07 only has 4 KK for 13 WAs = real gap)
+- IT: 7 KK files → 100% (self-referential; no NOSS WA list to compare against)
+
+### Gotchas
+- `re.search` vs `re.match`: use `re.search` for KK content scan; `re.match` for line-start patterns
+- Aesthetic `### CU1: ... (S960-002-3:2020-C01)` regex must match the trailing `(code)` format exactly
+- The `| WA N: Title |` pattern must use `(.+?)` lazy to stop at first `|` delimiter
+- tests/ directory did not exist — created it with mkdir
