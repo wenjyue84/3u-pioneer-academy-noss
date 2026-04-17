@@ -1258,7 +1258,16 @@
       "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T07:43:29Z"
+      "last_attempted": "2026-04-17T07:43:29Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- `_tools/learning_outcome_mapper.py` (94 lines) already exists and is committed with 3 core functions: `parse_noss_learning_outcomes`, `extract_assessment_item_tags`, `compute_coverage_percentage`\n- `_tools/test_learning_outcome_mapper.py` (75 lines) already exists with tests\n- `_reference/coverage_matrix.csv` already generated with BEV LO coverage data\n- Previous attempt failed only due to missing diagnosis block — the actual implementation is complete\n\n## Problem Identified\nStory US-051 was fully implemented in iteration 5 but the SPIRAL gate rejected it because no diagnosis block was output before file edits. The code and tests are already committed. I need to verify tests pass, ensure prd.json marks the story as passing, and commit any remaining changes.\n\n## Planned Changes\n- Verify existing tests pass with `uv run pytest`\n- Ensure `prd.json` has `passes: true` for US-051 (may already be set)\n- Update `progress.txt` with iteration notes\n- Commit any uncommitted changes\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"prd.json\", \"progress.txt\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 15\n}\n</plan>\n\nNow let me verify the tests pass.\nAll 3 tests pass. Let me check if prd.json already has `passes: true` for US-051.\nStory already has `passes: true`. Let me check if there are any uncommitted changes to prd.json or progress.txt that need committing.\nprd.json is already committed with `passes: true`. The only uncommitted changes are progress.txt and spiral events. Let me read the current progress.txt to append iteration notes.\nStory US-051 is complete. All implementation was already done in iteration 5 — the previous failure was purely the diagnosis-block gate. Tests pass (3/3), CSV output is correct, and `prd.json` already has `passes: true`."
+      },
+      "_contextStats": {
+        "tokensBeforeMasking": 448,
+        "tokensAfterMasking": 447,
+        "reductionPct": 0,
+        "contextWindow": 10
+      }
     },
     {
       "id": "US-052",

@@ -1227,3 +1227,5 @@
 {"ts":"2026-04-17T07:48:19Z","event":"phase_start","run_id":"69e180a1b4","level":"INFO","phase":"G","iteration":17,"trace_id":"418cc08ee5fd929b6cf00c75150e4d4e","span_id":"36366114b3ab182c"}
 {"ts":"2026-04-17T07:48:22Z","event":"phase_start","run_id":"69e180a1b4","level":"INFO","phase":"I","iteration":17,"trace_id":"418cc08ee5fd929b6cf00c75150e4d4e","span_id":"36366114b3ab182c"}
 {"ts":"2026-04-17T07:48:27Z","event":"idempotency_skip","run_id":"69e180a1b4","level":"INFO","story_id":"US-047","commit_sha":"150bd81ec53067b84d6e3c16aae6decb65881644","iteration":17,"trace_id":"418cc08ee5fd929b6cf00c75150e4d4e","span_id":"36366114b3ab182c"}
+{"ts":"2026-04-17T08:49:11Z","event":"plan_cache_miss","story_id":"US-052"}
+{"ts":"2026-04-17T08:50:45Z","event":"cost_update","story_id":"US-051","tokens_input":15,"tokens_output":3186,"estimated_usd":0.706698}
