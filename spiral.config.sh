@@ -17,7 +17,7 @@ SPIRAL_MODEL_ROUTING=sonnet
 SPIRAL_THINKING_EFFORT=high
 
 # Research — ENABLED, focused on content improvement
-SPIRAL_FOCUS="Enhance WIM (Written Instructional Materials) document quality: format compliance with Buku Panduan WIM Edisi 2020 (header boxes, TAJUK/TUJUAN/PENERANGAN structure, BAHAGIAN sections for KT, LANGKAH KERJA tables for KK, 4-phase lesson plans for PM, SENARAI SEMAK checklists), technical content accuracy, bilingual EN/BM terminology, assessment rubrics, and full coverage of NOSS CoCU work activities. Subjects: BEV automotive (G452-010-3:2023), Aesthetic Services (S960-002-3:2020), IT Computer System (IT-020-3/4/5:2013)."
+SPIRAL_FOCUS="Enhance Tuinalogy (推拿疗法 MP-031-3:2016) Chinese WIM materials in tuinalogy-services/ across all 7 CUs (C01-C05, E01, E02). Goals: (1) add appropriate image placeholders with markdown syntax + captions for meridian charts, technique illustrations, anatomy diagrams; (2) improve readability with subheadings, callouts, tables, mnemonic boxes; (3) humanize writing with clinical vignettes, instructor notes, reflection prompts, case studies; (4) apply educational theory — Bloom's taxonomy for learning objectives (记忆/理解/应用/分析/评价/创造), ARCS motivation model, scaffolding, spaced retrieval; (5) maintain Simplified Chinese (简体中文) throughout with bilingual EN/BM terms for clinical vocabulary; (6) preserve WIM headers and coding format MP-031-3:2016-[CU]/[DocCode]([seq]/[total]); (7) expand each document to ~5x the original NOSS source length with substantive content. Critical safety topics: pregnancy contraindications (禁忌五穴), TCM theory (经络/八纲/四诊), Malaysian regulations (T&CM Act 2013, OSHA 1994, PDPA 2010, MOH Code of Ethics 2007)."
 SPIRAL_RESEARCH_MODEL=sonnet
 SPIRAL_RESEARCH_TIMEOUT=600
 

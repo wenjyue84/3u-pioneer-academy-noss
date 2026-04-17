@@ -915,7 +915,10 @@
       "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T03:30:55Z"
+      "last_attempted": "2026-04-17T03:30:55Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n`scripts/` directory doesn't exist. prd.json has no RelatedKnowledge arrays — they live in `00-noss-extract.md` files per subject. KP files map to Work Activities (WA N → KP-N). BEV/Aesthetic use `X.Y` RK numbering; IT uses `KN` format.\n\n## Problem Identified\nNeed a validator that: (1) parses RK items from NOSS extract files, (2) scans KP files for matching coverage, (3) reports audit results and exits with correct code.\n\n## Planned Changes\n- Create `scripts/rk_parser.py` — extract RK items from NOSS extract .md files (both formats)\n- Create `scripts/validate_rk_coverage.py` — main validator: scan KP files, compare, report\n- Create `tests/test_rk_dependency_mapper.py` — unit tests for parser and coverage logic\n\n```\n<plan>\n{\n  \"files_to_create\": [\"scripts/rk_parser.py\", \"scripts/validate_rk_coverage.py\", \"tests/test_rk_dependency_mapper.py\"],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\"parse_noss_extract\", \"scan_kp_files\", \"build_coverage_report\", \"main\"],\n  \"estimated_loc\": 280\n}\n</plan>\n```\nNow I have everything I need. Let me create the implementation.\nNow let's run the script to verify it works:\nThe script works correctly. Now let's run the tests:\nAll 13 tests pass. Now update prd.json and document learnings:\nUS-033 is complete. Here's a summary:\n\n**Implemented:**\n- `scripts/rk_parser.py` — parses both NOSS extract formats (BEV/Aesthetic `N.M` WA-scoped items; IT `KN` CU-scoped items)\n- `scripts/validate_rk_coverage.py` — scans KP files for RK section headings, generates 3-category report, CI/CD-ready exit codes (0=full, 1=partial, 2=invalid args)\n- `tests/test_rk_dependency_mapper.py` — 13 tests, all passing\n\n**Current coverage found:**\n- BEV: 61/153 RK items covered (39%)\n- Aesthetic: 46/224 (20%)\n- IT: 0/15 (0% — IT KP files use `## 1.0` numbered sections, not K-codes)"
+      }
     },
     {
       "id": "US-034",
