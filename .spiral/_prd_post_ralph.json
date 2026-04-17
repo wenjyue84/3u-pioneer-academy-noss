@@ -1383,10 +1383,24 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T11:18:43Z"
+      "last_attempted": "2026-04-17T11:49:19Z",
+      "_failureReason": "oversized_diff: produced 790 lines but limit is 500. Keep total insertions+deletions under 500 lines.",
+      "_antiPatterns": [
+        "oversized_diff: produced 790 lines but limit is 500. Keep total insertions+deletions under 500 lines."
+      ],
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- `tools/` dir exists with various Python tools; no `clinical_vignette_generator.py` yet\n- `tests/` dir exists with test files; no `test_vignette_generator.py` yet\n- 7 CU folders exist under `tuinalogy-services/` (C01-C05, E01, E02) each with 3-6 KP files\n- Previous attempt was 790 lines — too large due to separate JSON config + verbose templates\n\n## Problem Identified\nNeed a compact CLI tool to generate clinical vignettes for each Tuinalogy CU. Must stay under ~500 line diff. Previous approach with 3 files was too large.\n\n## Planned Changes\n- **Create** `tools/clinical_vignette_generator.py` (~85 lines) — embed persona data inline (no separate JSON), compact template-based generation\n- **Create** `tests/test_vignette_generator.py` (~35 lines) — validate structure, contraindications, count\n- **Update** `prd.json` — mark US-054 passes: true\n- **Update** `progress.txt` — document learnings\n\n<plan>\n{\n  \"files_to_create\": [\"tools/clinical_vignette_generator.py\", \"tests/test_vignette_generator.py\"],\n  \"files_to_modify\": [\"prd.json\", \"progress.txt\"],\n  \"functions_to_add\": [\"generate_vignettes\", \"main\"],\n  \"estimated_loc\": 140\n}\n</plan>\n\nNow implementing. The key difference from attempt 1: **no separate JSON config file** — personas and CU metadata are embedded inline, and the template is a single reusable function rather than per-CU static text.\nNow run the tests:\nAll 23 tests pass. Let me verify the CLI works too:\nCLI works. Let me clean up the generated output (it's runtime output, not to be committed) and check diff size:\n145 total lines for new files. Now update prd.json and progress.txt:\nNow stage and commit:\n198 insertions + 3 deletions = 201 total diff lines. Well under the 500 limit.\nDone. US-054 implemented and committed:\n\n- **tools/clinical_vignette_generator.py** (101 lines): `generate_vignettes(cu_code, noss_extract_path)` with embedded CU metadata + personas, CLI with `--cu` and `--output` args\n- **tests/test_vignette_generator.py** (44 lines): 23 parametrized tests — all passing\n- **Total diff: 201 lines** (vs 790 in attempt 1, well under 500 limit)\n\nKey change from attempt 1: eliminated the separate `vignette-personas.json` config file and embedded all data inline, cutting the diff nearly in half."
+      },
+      "_contextStats": {
+        "tokensBeforeMasking": 345,
+        "tokensAfterMasking": 344,
+        "reductionPct": 0,
+        "contextWindow": 10
+      },
+      "_passedCommit": "cc552ead289e12c425b51ddba4b3aa4159794acb"
     }
   ]
 }
