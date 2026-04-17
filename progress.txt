@@ -5,6 +5,9 @@
 - Keep PA documents under 250 lines with compact markdown tables to avoid diff-guard limits
 - WIM modality reference tables use: Modality | Frequency | Intensity | Duration | KP Ref columns
 - Bilingual format: English term (*Bahasa Malaysia term*) inline
+- validators/ has __init__.py; import as `from validators.module import X`
+- Chinese KT files use 第一部分/第二部分 section headers, not Question/Soalan
+- KT question types detectable by header keywords: "Multiple Choice", "True/False", "Matching", "Scenario", "Calculation", "Short Answer" (+ BM/ZH equivalents)
 
 ---
 
@@ -1576,3 +1579,6 @@ Completed: BEV Diagnostic Fault Code Scenario Generator (ID: US-037) — attempt
 ### Patterns discovered
 - Diagnosis block MUST be output before any file edits — gate enforced by ralph.sh
 - When implementation exists from prior commits, verify before re-implementing
+## Iteration 2 - Fri, Apr 17, 2026 12:52:41 PM
+Completed: BEV Diagnostic Fault Code Scenario Generator (ID: US-037) in 3m
+
