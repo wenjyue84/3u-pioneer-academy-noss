@@ -1,6 +1,10 @@
 ## Codebase Patterns
 
-(Patterns will be added by Ralph iterations as they discover them)
+- PA.md files live in each CU folder (e.g. aesthetic-services/C04/PA.md)
+- Tests use Path(__file__).parent.parent for PROJECT_ROOT, read .md files directly
+- Keep PA documents under 250 lines with compact markdown tables to avoid diff-guard limits
+- WIM modality reference tables use: Modality | Frequency | Intensity | Duration | KP Ref columns
+- Bilingual format: English term (*Bahasa Malaysia term*) inline
 
 ---
 
@@ -1017,3 +1021,52 @@ Here is the technical brief for user story US-022.
 ## Iteration 2 - Fri, Apr 17, 2026  9:28:38 AM
 FAILED diff-guard: Create Aesthetic C04 Performance Assessment with Electrotherapy Modality Parameter Setting and Safety Competency (ID: US-023) — 18135 lines > 10000 limit — attempt 1/3
 
+## Iteration 1 - Fri, Apr 17, 2026  9:39:02 AM
+FAILED diff-guard: Create WIM Lesson Plan (PM) Format Validator for 4-Phase Structure Compliance (ID: US-024) — 14888 lines > 10000 limit — attempt 1/3
+
+
+## Pre-analysis for US-023 (Gemini 2.5 Pro)
+Here is the technical brief for the Claude Code agent:
+
+### **US-023: Aesthetic C04 Performance Assessment - Technical Brief**
+
+**1. Python Files to Modify:**
+*   **`aesthetic-services/doctype/c04_performance_assessment/c04_performance_assessment.py`**: A new controller file that Frappe will generate for the main DocType.
+*   **`aesthetic-services/doctype/c04_modality_competency/c04_modality_competency.py`**: New controller for the modality child table.
+*   Similar new controller files will be created for the client screening and equipment maintenance child DocTypes.
+*   **`tests/test_aesthetic_c04_modalities.py`**: This test file will need to be reviewed and potentially updated to validate the new DocType and its data.
+
+**2. Frappe DocTypes & Hooks:**
+*   **Parent DocType:** Create a new DocType named `C04 Performance Assessment`.
+*   **Child DocTypes (Tables):**
+    *   `C04 Modality Competency`: For the 6 electrotherapy modalities and their parameters.
+    *   `C04 Client Screening Checklist`: For contraindications and safety checks.
+    *   `C04 Equipment Maintenance Checklist`: For calibration and maintenance procedures.
+*   No custom hooks seem necessary for the initial structure, but may be added later for validation.
+
+**3. Recommended Implementation Approach:**
+1.  Use `bench new-doctype` to create the parent `C04 Performance Assessment` DocType and the three child DocTypes listed above. Mark the child DocTypes as "Is Child Table".
+2.  In the parent DocType, add three fields of type "Table", linking to each of the child DocTypes.
+3.  Define the schema for each child table (e.g., `modality_name`, `frequency_range`, `intensity_range` for the competency table).
+4.  Create the specified markdown file: `aesthetic-services/C04/PA.md`.
+5.  Populate `PA.md` with the modality reference table, ensuring content is consistent with `C04/KP-01.md` through `KP-06.md`.
+
+**4. Edge Cases & Gotchas:**
+*   **CRITICAL: Avoid Large Changes.** The previous attempt failed due to an "oversized_diff". Implement in small, incremental steps. First, create the DocType schemas without default data. Then, populate one modality as an example.
+*   The `technicalNotes` require a test command to pass. Ensure your implementation satisfies the `test_six_modalities_covered` test case.
+*   Validate that all six modalities mentioned are covered and that their parameters are consistent with the corresponding Knowledge Point (`KP-*.md`) files.
+
+
+## Iteration 3 - US-023: Create Aesthetic C04 Performance Assessment
+
+### What was implemented
+- Replaced skeleton PA.md (31 lines) with comprehensive Performance Assessment (~210 lines)
+- PA.md includes: modality reference table, client screening checklist (10 items, pass/fail), 6 modality competency sections (8-12 params each), equipment maintenance (monthly + quarterly), troubleshooting decision tree, assessment rubric
+- Created test_aesthetic_c04_modalities.py with 5 tests validating all acceptance criteria
+
+### Patterns discovered
+- Previous attempt failed at 18135 lines — keeping PA under 250 lines and test under 70 lines avoids diff-guard
+- Compact markdown tables with inline bilingual terms are efficient for WIM content
+
+### Gotchas
+- The 6 required modalities (microcurrent, high-frequency, ultrasonic, galvanic, EMS, LED) don't all map 1:1 to KP-01 through KP-06; ultrasonic and LED are referenced in KP-01 (equipment overview)
