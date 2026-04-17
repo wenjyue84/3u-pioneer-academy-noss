@@ -1,8 +1,8 @@
 {
   "phase": "I",
-  "iteration": 7,
-  "started_at": 1776394210,
+  "iteration": 8,
+  "started_at": 1776396175,
   "pct_done": 60,
-  "story_id": "US-030",
-  "story_title": "Create Assessment Question Difficulty Classifier with Bloom's Taxonomy Cognitive Level Tagging"
+  "story_id": "US-032",
+  "story_title": "Build Cross-Subject Assessment Question Type Distribution Analyzer with Rebalancing Recommendations"
 }

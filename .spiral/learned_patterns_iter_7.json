@@ -1,21 +1,13 @@
 {
   "iteration": 7,
-  "timestamp": "2026-04-16T14:58:14.548748+00:00",
+  "timestamp": "2026-04-17T03:20:47.442112+00:00",
   "summary": {
     "0_retries": {
-      "count": 8,
-      "avg_ac_count": 3.25,
-      "avg_description_length": 259.5,
-      "common_tags": [
-        "aesthetic",
-        "bev",
-        "kp",
-        "technical"
-      ],
-      "common_file_patterns": [
-        "aesthetic-services",
-        "bev-diagnostic-rectification"
-      ]
+      "count": 26,
+      "avg_ac_count": 3.12,
+      "avg_description_length": 263.5,
+      "common_tags": [],
+      "common_file_patterns": []
     },
     "1_retry": {
       "count": 0,
@@ -40,8 +32,8 @@
     }
   },
   "insights": {
-    "total_analyzed": 8,
-    "easy_count": 8,
+    "total_analyzed": 26,
+    "easy_count": 26,
     "hard_count": 0
   }
 }

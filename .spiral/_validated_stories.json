@@ -1,126 +1,153 @@
 {
   "stories": [
     {
-      "title": "Create BEV C05 Knowledge Assessment with Team Supervision Scenarios",
+      "title": "Create BEV C02 Knowledge Assessment with Battery Management System Diagnostics",
       "priority": "high",
-      "description": "Develop knowledge assessment for C05 covering HV safety supervision, team training protocols, incident prevention, and supervisory decision-making. Assess all C05 Related Knowledge items from NOSS CoCU with scenario-based and direct questions.",
+      "description": "Develop comprehensive KA for BEV C02 covering battery management system theory, diagnostics, and troubleshooting with scenario-based questions aligned to NOSS assessment criteria.",
       "acceptanceCriteria": [
-        "Generate 30 scenario-based and direct questions covering C05 RK items: HV safety procedures during maintenance, team training methods, incident response protocols, supervisory communication",
-        "Implement integrated answer scheme with competency descriptors and mark allocation mapping each question to specific RK items",
-        "Validate 100% coverage of C05 Related Knowledge with cross-reference to KP files showing traceability"
+        "Create file G452-010-3-2023-C02/KA(Batteries).md with minimum 15 multiple-choice and short-answer questions covering BMS components, charging protocols, fault detection codes",
+        "Include integrated answer scheme with point allocations and marking rubric (0-3 scale) aligned to CoCU assessment criteria emphasizing safety and diagnostic accuracy",
+        "Validate question distribution: 40% recall (Bloom's L1-L2), 50% application (L3-L4), 10% analysis (L5-L6) using bloom_level field in question metadata"
       ],
       "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/C05/KA.md (Knowledge Assessment structure: 30 questions with 4-option MCQ and short-answer hybrid format)",
-        "File to create: _tools/validators/rk_coverage_validator.py (validate RK-to-KA mapping)",
-        "Test command: uv run python _tools/validators/rk_coverage_validator.py bev C05 --output-json"
+        "File to modify: bev-diagnostic-rectification/C02/KA(Batteries).md (create with question.yml structure for Bloom's parsing)",
+        "Test command: uv run pytest tests/test_bev_c02_ka_validation.py::test_blooms_distribution -v",
+        "Validate question count and rubric field presence using pydantic schema"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "bev-diagnostic-rectification/C05/KA.md",
-        "_tools/validators/rk_coverage_validator.py"
+        "bev-diagnostic-rectification/C02/KA(Batteries).md",
+        "tests/test_bev_c02_ka_validation.py"
       ],
       "_source": "ai-example",
       "passes": false
     },
     {
-      "title": "Create Aesthetic C02 Performance Assessment with Thermal Therapy Treatment Scenario Rubrics",
+      "title": "Implement NOSS CoCU Related Knowledge Dependency Mapper",
+      "priority": "high",
+      "description": "Build automated tool that validates every Related Knowledge item in NOSS CoCU has supporting KP (knowledge paper) content, generating comprehensive coverage audit report.",
+      "acceptanceCriteria": [
+        "Create script scripts/validate_rk_coverage.py that reads prd.json RelatedKnowledge arrays for all 3 subjects and scans for corresponding KP files with matching RK reference codes",
+        "Generate audit report listing: (1) covered RK items with file paths, (2) missing KP files (orphaned RK), (3) KP files without CoCU reference (undocumented content)",
+        "Exit code 0 for 100% coverage, non-zero with stderr warnings for partial coverage; designed for CI/CD integration"
+      ],
+      "technicalNotes": [
+        "File to create: scripts/validate_rk_coverage.py (main), scripts/rk_parser.py (utility)",
+        "Test command: uv run python scripts/validate_rk_coverage.py bev aesthetic it && uv run pytest tests/test_rk_dependency_mapper.py -v",
+        "Use JSON schema validation for prd.json RelatedKnowledge structure"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "scripts/validate_rk_coverage.py",
+        "scripts/rk_parser.py",
+        "tests/test_rk_dependency_mapper.py"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
+      "title": "Implement Training Hours Distribution Validator for 30/70 Knowledge/Performance Split",
       "priority": "medium",
-      "description": "Develop performance-based assessment for C02 with 2-3 integrated thermal therapy treatment scenarios (setup, execution, safety validation, client communication) each with detailed 4-point competency rubrics.",
+      "description": "Automated tool ensuring lesson plan allocations comply with mandatory 30% knowledge-based / 70% performance-based training hour distribution across all CUs.",
       "acceptanceCriteria": [
-        "Create 2 assessment scenarios: (a) hot-stone massage with contraindication check and draping, (b) infrared sauna or steam treatment with temperature monitoring, client comfort assessment, emergency protocols. Each scenario has 5-7 performance steps",
-        "Rubric for each scenario with 4-point scale covering: technique correctness (30%), safety protocol adherence (40%), client communication/comfort (30%), with 'Evidence of competence' descriptors at each level",
-        "Cross-validate scenario steps against C02 KK-01 and KK-02 procedures; ensure all safety steps reference corresponding KK checkpoints"
+        "Create script scripts/validate_training_distribution.py that parses all PM-teori.md and PM-amali.md files, extracts duration hours from header metadata, calculates K/P split per CU",
+        "Generate compliance report: per-CU K/P split percentage, cumulative subject total, flag any CU with <25% or >35% knowledge allocation as non-compliant",
+        "Exit with warnings for distribution drift; integrate health check into .spiral/monitor to track K/P ratio stability"
       ],
       "technicalNotes": [
-        "File to create: aesthetic-services/C02/PA.md (2 integrated scenario assessments with rubrics)",
-        "File to modify: _tools/validators/pa_scenario_validator.py (cross-validate to KK steps)",
-        "Test command: grep -E '^(Scenario|Evidence of competence)' aesthetic-services/C02/PA.md | wc -l (should show ≥12 rubric descriptors)"
+        "File to create: scripts/validate_training_distribution.py with YAML duration parser from lesson plan headers",
+        "Test command: uv run python scripts/validate_training_distribution.py all_subjects && uv run pytest tests/test_training_hours_validator.py -v",
+        "Validate against requirements.md 30/70 specification using assertion math"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "aesthetic-services/C02/PA.md",
-        "_tools/validators/pa_scenario_validator.py"
+        "scripts/validate_training_distribution.py",
+        "tests/test_training_hours_validator.py"
       ],
       "_source": "ai-example",
       "passes": false
     },
     {
-      "title": "Create Assessment Question Difficulty Classifier with Bloom's Taxonomy Cognitive Level Tagging",
+      "title": "Implement WIM Document Structure Validator for Consistency Across All Subjects",
       "priority": "high",
-      "description": "ML-assisted tool analyzing assessment questions, assigning Bloom's cognitive level (1=Remember through 6=Create), generating per-assessment distribution reports, and flagging cognitively imbalanced assessments across all subjects.",
+      "description": "Automated tool validating all WIM documents follow required JPK Buku Panduan WIM structure (TAJUK/TUJUAN/PENERANGAN, BAHAGIAN sections, LANGKAH KERJA tables, SENARAI SEMAK checklists).",
       "acceptanceCriteria": [
-        "Classifier reads all KA/PA question text, parses question type (MCQ, short-answer, scenario, practical), analyzes action verbs (recall verbs → Level 1, apply → Level 3, evaluate/create → Levels 5-6), assigns Bloom's level with confidence score",
-        "Generate distribution report per assessment showing % questions at each cognitive level (1-6); flag assessments with <20% higher-order thinking (Levels 4-6) or >50% at single level",
-        "Output recommendations file suggesting specific question conversions (e.g., 'BEV-C02-KA: 40% Level-1 recall, recommend replacing 5 with analysis/diagnostic scenarios')"
+        "Create script scripts/validate_wim_structure.py that scans all .md files, validates required headers present per document type: KP requires TAJUK/TUJUAN/PENERANGAN; KT requires BAHAGIAN for each topic; KK requires LANGKAH KERJA table; PA requires SENARAI SEMAK checklist",
+        "Generate compliance report showing structure completeness percentage per document type and per subject; list file locations of missing/malformed sections with remediation guidance",
+        "Integrate into CI/CD pipeline (.spiral test-suites/compliance/) to prevent merge of non-compliant documents"
       ],
       "technicalNotes": [
-        "File to create: _tools/classifiers/question_difficulty_classifier.py (question parser, verb analyzer, Bloom's classifier)",
-        "File to create: _reference/assessment-difficulty-distribution.json (per-assessment metrics)",
-        "Test command: uv run python _tools/classifiers/question_difficulty_classifier.py --all-subjects --output json"
+        "File to create: scripts/validate_wim_structure.py with markdown header/section parser and document-type routing logic",
+        "Test command: uv run python scripts/validate_wim_structure.py all && uv run pytest tests/test_wim_structure_validator.py -v",
+        "Define validation rules per doc_type in JSON schema (wim_structure_spec.json)"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "_tools/classifiers/question_difficulty_classifier.py",
-        "_reference/assessment-difficulty-distribution.json"
+        "scripts/validate_wim_structure.py",
+        "tests/test_wim_structure_validator.py",
+        "configs/wim_structure_spec.json"
       ],
       "_source": "ai-example",
       "passes": false
     },
     {
-      "title": "Build WIM Header Box Template Enforcer for All Document Types Across All Subjects",
-      "priority": "high",
-      "description": "Compliance tool ensuring all WIM documents (KP, KT, KK, KA, PA, PM) include properly formatted header boxes with NOSS code, document code, subject, CU number, effective date per Buku Panduan WIM Edisi 2020 standards.",
+      "title": "Build Assessment Question Progression Analyzer with Difficulty Level Distribution",
+      "priority": "medium",
+      "description": "Tool analyzing Bloom's taxonomy cognitive level distribution across all KA/PA questions to ensure balanced progression from basic recall to advanced synthesis.",
       "acceptanceCriteria": [
-        "Enforcer scans all WIM files (KP, KT, KK, KA, PA, PM) across all subjects, checks for header box matching format: `[NOSS Code] - [CU] / [Doc Code] ([Seq]/[Total]) | Effective: [YYYY-MM-DD] | Subject: [Name] | Level: [N]`",
-        "Generate non-compliance report listing files missing headers or with invalid format, provide template snippets for each document type for quick correction",
-        "Optional `--fix` mode auto-inserts header boxes for files missing them, with fields requiring manual verification for correctness"
+        "Create script scripts/analyze_question_progression.py that reads all KA/PA files, extracts Bloom's level tags (L1-L6) from question metadata, generates per-subject and per-CU distribution histograms",
+        "Output: distribution percentages (L1% | L2% | L3% | L4% | L5% | L6%), identify imbalance patterns with specific examples, generate recommendations for question rebalancing with CU+question ID suggestions",
+        "Integrate health check into .spiral monitoring to track if assessment progression drifts from target 20-20-20-20-15-5 distribution"
       ],
       "technicalNotes": [
-        "File to create: _tools/enforcer/header_box_enforcer.py (file scanner, header validator, template generator, auto-insert option)",
-        "File to create: _reference/wim-header-template.md (template snippets by document type)",
-        "Test command: uv run python _tools/enforcer/header_box_enforcer.py --scan --all-subjects | grep -c 'Missing:' (should be 0 for compliant projects)"
+        "File to create: scripts/analyze_question_progression.py with Bloom's level extraction from question metadata",
+        "Test command: uv run python scripts/analyze_question_progression.py bev && uv run pytest tests/test_question_progression_analyzer.py -v",
+        "Validate distribution percentages sum to 100% and flag outlier questions"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "_tools/enforcer/header_box_enforcer.py",
-        "_reference/wim-header-template.md"
+        "scripts/analyze_question_progression.py",
+        "tests/test_question_progression_analyzer.py"
       ],
       "_source": "ai-example",
       "passes": false
     },
     {
-      "title": "Build Cross-Subject Assessment Question Type Distribution Analyzer with Rebalancing Recommendations",
+      "title": "Implement IT-020 Knowledge Assessment Completeness Auditor for All Levels",
       "priority": "high",
-      "description": "Tool analyzing question type diversity (MCQ, short-answer, scenario, practical, essay, matching, fill-in) across all assessments in BEV, Aesthetic, IT subjects, generates distribution metrics, and recommends rebalancing where diversity is low.",
+      "description": "Automated audit tool verifying all IT CUs across Levels 3, 4, and 5 have complete KA files with minimum content requirements and proper marking schemes.",
       "acceptanceCriteria": [
-        "Classifier parses all KA/PA files, detects each question type by pattern (MCQ: radio options, short-answer: blank lines, scenario: narrative setup, essay: open-ended prompts), generates distribution report per assessment and per subject showing % of each type",
-        "Flag assessments with low diversity: <4 question types represented OR any single type >60% of questions. Rank flagged assessments by severity",
-        "Generate rebalancing recommendations file with specific conversions (e.g., 'BEV-C02-KA: 40% MCQ (15 questions), recommend replacing 5 MCQ with scenario-based analysis questions')"
+        "Create script scripts/audit_it_ka_completeness.py that scans it-computer-system/L{3,4,5}/ directories, validates KA files exist per CU with minimum 12 questions, complete answer scheme, and rubric (0-3 scale minimum)",
+        "Generate completeness matrix showing: per-level status (L3: 6/6 complete, L4: 5/6 missing C05, L5: 3/3 complete), file paths with status indicators, remediation plan with estimated effort per missing assessment",
+        "Integration hook: auto-alert when new CU added to prd.json without corresponding KA file (blocks incomplete CU PR merges)"
       ],
       "technicalNotes": [
-        "File to create: _tools/analyzers/question_type_analyzer.py (question type detector, distribution calculator, rebalancing recommender)",
-        "File to create: _reference/assessment-question-type-distribution.md (per-subject and per-assessment breakdown with recommendations)",
-        "Test command: uv run python _tools/analyzers/question_type_analyzer.py --all-subjects --format md"
+        "File to create: scripts/audit_it_ka_completeness.py with directory scanner and KA validation rules",
+        "Test command: uv run python scripts/audit_it_ka_completeness.py && uv run pytest tests/test_it_ka_completeness_auditor.py -v",
+        "Validate KA markdown structure and question count using assertions and pydantic schemas"
       ],
       "dependencies": [],
-      "estimatedComplexity": "medium",
+      "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "_tools/analyzers/question_type_analyzer.py",
-        "_reference/assessment-question-type-distribution.md"
+        "scripts/audit_it_ka_completeness.py",
+        "tests/test_it_ka_completeness_auditor.py"
       ],
       "_source": "ai-example",
       "passes": false
@@ -704,6 +731,30 @@
       "_source": "test-story",
       "_testType": "e2e",
       "_forStoryId": "US-026"
+    },
+    {
+      "title": "[Regression Test] Create Assessment Question Difficulty Classifier with Bloom's Taxonomy Cognitive L",
+      "priority": "medium",
+      "description": "Write regression test to guard against future breakage of US-030. Story description: ML-assisted tool analyzing assessment questions, assigning Bloom's cognitive level (1=Remember through 6=Create), generating per-assessment distribution reports, and flagging cognitively imbalanced assessments across all subjects.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-030",
+        "Test would reliably fail if the US-030 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_030 -v"
+      ],
+      "dependencies": [
+        "US-030"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-030"
     }
   ]
 }

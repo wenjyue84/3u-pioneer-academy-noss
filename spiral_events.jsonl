@@ -106,3 +106,10 @@
 {"ts": "2026-04-17T02:50:06.507242+00:00", "type": "route_story_assigned", "story_id": "US-030", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
 {"ts": "2026-04-17T02:50:06.507815+00:00", "type": "route_story_assigned", "story_id": "US-031", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
 {"ts": "2026-04-17T02:50:06.508372+00:00", "type": "route_story_assigned", "story_id": "US-032", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T03:22:52.368046+00:00", "type": "route_story_assigned", "story_id": "US-027", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T03:22:52.368675+00:00", "type": "route_story_assigned", "story_id": "US-028", "complexity_score": 50, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T03:22:52.369208+00:00", "type": "route_story_assigned", "story_id": "US-029", "complexity_score": 45, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T03:22:52.369802+00:00", "type": "route_story_assigned", "story_id": "US-032", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T03:22:52.370593+00:00", "type": "route_story_assigned", "story_id": "US-033", "complexity_score": 50, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T03:22:52.371188+00:00", "type": "route_story_assigned", "story_id": "US-034", "complexity_score": 50, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T03:22:52.371698+00:00", "type": "route_story_assigned", "story_id": "US-035", "complexity_score": 50, "model_tier": "sonnet", "estimated_tokens": 0}
