@@ -1,0 +1,77 @@
+RETRY CONTEXT — ATTEMPT 2 of 3
+
+Story US-047 ("Tuinalogy TCM Theory Bilingual Terminology Index") was attempted 1 time(s) and did NOT pass.
+Previous attempt observations:
+=== Attempt 1 ===
+Failure reason: DIAGNOSIS_BLOCK_MISSING: Diagnosis block required before making changes. Please output your diagnosis first.
+
+Before making ANY file edits, output a diagnosis block with these exact headers:
+
+## Current State
+[describe the relevant current state of the code]
+
+## Problem Identified
+[what you are solving for this story]
+
+## Planned Changes
+[bullet list of specific files and changes you will make]
+
+Output this block as plain text BEFORE calling Edit, Write, or any Bash command that modifies files.
+Notes:
+- Index (113 terms, 6 categories) was already committed in 0c5ab28; only validator logic changed
+
+### Patterns discovered
+--
+- The fix was surgical: only change the detection function, keep everything else (index, main, CLI) unchanged
+
+## Iteration 3 - Story: US-047 Tuinalogy TCM Theory Bilingual Terminology Index
+
+### What was implemented
+- tcm-terminology-index.md: already existed with 113 terms across 6 categories (Meridians 22, Diagnostics 20, Five Elements 11, Acupoints 34, Techniques 18, Safety 8) — satisfies ≥80 requirement
+- tools/validate-terminology.py: rewrote with two optimisations to fix timeout (exit 124) from previous attempts:
+  1. First-chars pre-filter: only start windows at positions where first char matches a canonical term's first char (90% candidate reduction)
+  2. Linter auto-rewrote to regex separator-based approach: builds per-term regex matching chars with optional separators, avoids Levenshtein entirely — zero false positives
+- All 78 KP/KK/PM/PA/KA files pass with 0 deviations
+
+--
+- The regex approach does NOT catch character substitutions (八种手法 vs 八大手法) — only separator insertions
+## Iteration 3 - Fri, Apr 17, 2026  3:43:27 PM
+Completed: Tuinalogy TCM Theory Bilingual Terminology Index (ID: US-047) in 6m
+
+## Iteration 2 - Fri, Apr 17, 2026  3:43:50 PM
+FAILED diagnosis-block gate: Tuinalogy TCM Theory Bilingual Terminology Index (ID: US-047) — no diagnosis block found — attempt 1/3
+
+
+## Pre-analysis for US-047 (Gemini 2.5 Pro)
+Based on the user story `US-047`, here is the technical brief for the implementation agent.
+
+**Clarification:** This user story does not involve a Frappe application. The tasks are confined to creating a standalone Python script and a Markdown documentation file within the existing project structure.
+
+---
+
+### **Technical Brief: US-047 - TCM Terminology Index**
+
+**1. Python Files to Create/Modify:**
+*   **Create New:** `tools/validate-terminology.py`. This is a new, standalone command-line script.
+*   **Modify Existing:** No existing *Python* files will be modified. The script will be used to find and report deviations in ~35 non-Python content files (`.md`, `.txt`, etc.) within the `tuinalogy-services/` directory, which will then need to be manually or programmatically corrected.
+
+**2. Frappe DocTypes / Hooks Involved:**
+*   None. This is not a Frappe task. The implementation should not involve any DocTypes, controllers, or framework hooks. All work is based on direct file system I/O.
+
+ACTION: Do NOT repeat the same approach that failed. Read progress.txt carefully for what
+was tried, then implement the story differently. You are using a more powerful model this
+attempt (opus) — use it.
+
+FORBIDDEN APPROACHES — DO NOT TRY any of these (all previously failed):
+  1. oversized_diff: produced 5513 lines but limit is 500. Keep total insertions+deletions under 500 lines.
+  2. oversized_diff: produced 5388 lines but limit is 500. Keep total insertions+deletions under 500 lines.
+
+Choose a COMPLETELY DIFFERENT implementation strategy from the ones listed above.
+
+
+Implement story **US-047** ("Tuinalogy TCM Theory Bilingual Terminology Index") from prd.json now. This is the story assigned to you by the SPIRAL orchestrator — do NOT pick a different story. Read prd.json for the full details of US-047, read progress.txt for codebase context, then implement US-047 only.
+
+
+## Iteration Focus: Enhance WIM (Written Instructional Materials) document quality: format compliance with Buku Panduan WIM Edisi 2020 (header boxes, TAJUK/TUJUAN/PENERANGAN structure, BAHAGIAN sections for KT, LANGKAH KERJA tables for KK, 4-phase lesson plans for PM, SENARAI SEMAK checklists), technical content accuracy, bilingual EN/BM terminology, assessment rubrics, and full coverage of NOSS CoCU work activities. Subjects: BEV automotive (G452-010-3:2023), Aesthetic Services (S960-002-3:2020), IT Computer System (IT-020-3/4/5:2013).
+
+This SPIRAL iteration is focused on **Enhance WIM (Written Instructional Materials) document quality: format compliance with Buku Panduan WIM Edisi 2020 (header boxes, TAJUK/TUJUAN/PENERANGAN structure, BAHAGIAN sections for KT, LANGKAH KERJA tables for KK, 4-phase lesson plans for PM, SENARAI SEMAK checklists), technical content accuracy, bilingual EN/BM terminology, assessment rubrics, and full coverage of NOSS CoCU work activities. Subjects: BEV automotive (G452-010-3:2023), Aesthetic Services (S960-002-3:2020), IT Computer System (IT-020-3/4/5:2013).**. Keep this theme in mind while implementing the assigned story. Prioritize approaches that align with this focus area.

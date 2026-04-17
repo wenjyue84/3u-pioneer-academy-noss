@@ -1149,67 +1149,6 @@
       "model": "sonnet"
     },
     {
-      "id": "US-042",
-      "title": "Equipment and Tools Inventory with Safety Ratings",
-      "priority": "medium",
-      "description": "Extract all equipment and tools mentioned in KK (practical worksheets) across all subjects. Create master inventory with safety certifications, supplier info, and PPE requirements. Supports procurement and safety planning.",
-      "acceptanceCriteria": [
-        "Create _reference/tools-equipment-inventory.json containing 50+ tools/equipment with EN/BM names, safety standards (ISO/CE), usage frequency (high/medium/low), and PPE requirements",
-        "CLI command 'uv run python _tools/extract-tools-inventory.py' parses all **/KK*.md files and auto-populates inventory",
-        "Cross-reference each tool with relevant safety standard (ISO 4413 hydraulics, ISO 1545 electrical safety, OSHA, etc)"
-      ],
-      "technicalNotes": [
-        "File to create: _reference/tools-equipment-inventory.json with structure {tool_name_en, tool_name_bm, category, safety_standard, ppe_required, frequency}",
-        "File to create: _tools/extract-tools-inventory.py (scan_kk_files, extract_tools, classify_safety_level functions)",
-        "Test command: uv run pytest tests/test_tools_inventory.py -v"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "small",
-      "passes": false,
-      "_source": "ai-example",
-      "model": "sonnet"
-    },
-    {
-      "id": "US-043",
-      "title": "Aesthetic Services Knowledge Assessment Item Analysis Report Generator",
-      "priority": "medium",
-      "description": "Build Python script analyzing KA (Knowledge Assessment) question distributions across Aesthetic CUs; identify difficulty/Bloom's level imbalances, suggest rebalancing, and validate question-to-competency mappings for comprehensive coverage.",
-      "acceptanceCriteria": [
-        "Script scripts/aesthetic_kaa_analyzer.py parses all KA documents (C01-C04 per level): (1) extracts questions, (2) tags each with Bloom's level (via content keywords or metadata comments), (3) calculates difficulty distribution (word count, sentence complexity), (4) maps to CoCU competencies (via question ID or manual tagging in markdown comments), (5) generates report with columns: competency_id | num_questions | Bloom_distribution | difficulty_range | coverage_status",
-        "Report identifies coverage gaps: underrepresented competencies (<2 questions), Bloom's level skew (e.g., >50% at Remember level), missing question-competency mappings; includes rebalancing suggestions (e.g., 'C02 needs +2 Analyze-level questions; recommend splitting 2 current Knowledge questions into 3 Application questions')",
-        "Multiple output formats: markdown report for human review, CSV for instructor tracking, JSON for programmatic use; script integrates with CI/CD to flag coverage gaps"
-      ],
-      "technicalNotes": [
-        "File to create: scripts/aesthetic_kaa_analyzer.py (markdown parsing, Bloom's tagging via heuristics, competency extraction, distribution analysis, report generation; JSON output for tooling)",
-        "Test command: uv run python scripts/aesthetic_kaa_analyzer.py aesthetic-services/ --output /tmp/kaa_report.md && grep -c 'Coverage status\\|Rebalancing' /tmp/kaa_report.md"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "passes": false,
-      "_source": "ai-example",
-      "model": "sonnet"
-    },
-    {
-      "id": "US-044",
-      "title": "IT-020 Bilingual Terminology Standardization for Networking Concepts",
-      "priority": "medium",
-      "description": "Audit all IT-020 L3/L4/L5 documents for inconsistent EN/BM networking terminology pairs (firewall, router, DNS, DHCP variants); standardize across all documents; create searchable bilingual glossary with preferred terms and context examples.",
-      "acceptanceCriteria": [
-        "New reference doc it-computer-system/_reference/it020-bilingual-glossary.md contains ≥40 EN/BM/简体中文 term triplets with columns: term | preferred_translation | alternative_terms | example_context | CU_references; includes networking concepts (firewall/防火墙, router/路由器, DNS/域名系统, DHCP/动态主机配置协议, packet/数据包, protocol/协议)",
-        "Audit script scripts/it020_terminology_auditor.py scans KP/KK/KT/KA documents, detects inconsistent term usage (regex-based), suggests preferred alternatives, and flags unmapped terms; reports inconsistencies per document",
-        "All IT-020 documents (L3/L4/L5 across C01-C05) updated to use preferred terminology with 100% consistency verified by script; assessment documents (KT/KA) include glossary footnotes for technical terms on first use"
-      ],
-      "technicalNotes": [
-        "File to create: scripts/it020_terminology_auditor.py (regex-based term detection, consistency checking, suggestion logic; JSON/CSV output)",
-        "Test command: uv run python scripts/it020_terminology_auditor.py it-computer-system/ --check-consistency --output /tmp/it020_terms.json && echo 'Consistency check passed' || echo 'Inconsistencies found'"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "passes": false,
-      "_source": "ai-example",
-      "model": "sonnet"
-    },
-    {
       "id": "US-045",
       "title": "Tuinalogy Pregnancy Contraindication Safety Reference Generator",
       "priority": "critical",
@@ -1279,75 +1218,25 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T05:27:06Z"
-    },
-    {
-      "id": "US-048",
-      "title": "Tuinalogy ARCS Motivation Model Content Enhancer",
-      "priority": "medium",
-      "description": "Enhance all PM (Lesson Plans) and KP (Information Sheets) across Tuinalogy with ARCS motivation design: Attention hooks (clinical relevance opening), Relevance (link to NOSS competencies + career context), Confidence scaffolding (prerequisite reviews + step-by-step structure), and Satisfaction (reflection prompts + mastery checks). Add structured callout boxes for each ARCS element.",
-      "acceptanceCriteria": [
-        "Each PM-teori.md (7 files: C01-C05, E01, E02) includes 4 ARCS callout boxes: `📌 Attention:`, `🎯 Relevance:`, `🆙 Confidence:`, `✓ Satisfaction:` with specific clinical examples",
-        "Each KP doc (21 total) includes ≥1 confidence-scaffolding section with prerequisites + learning pathway, and ≥1 satisfaction reflection prompt (e.g., 'After mastering [technique], you can independently...')",
-        "arcs-checklist.md created in tuinalogy-services/_reference/ with 4-column table [Document] | [Attention] | [Relevance] | [Confidence] | [Satisfaction]; all 28 docs scored as Complete/Partial/Missing"
+      "last_attempted": "2026-04-17T07:43:52Z",
+      "_failureReason": "DIAGNOSIS_BLOCK_MISSING: Diagnosis block required before making changes. Please output your diagnosis first.\n\nBefore making ANY file edits, output a diagnosis block with these exact headers:\n\n## Current State\n[describe the relevant current state of the code]\n\n## Problem Identified\n[what you are solving for this story]\n\n## Planned Changes\n[bullet list of specific files and changes you will make]\n\nOutput this block as plain text BEFORE calling Edit, Write, or any Bash command that modifies files.",
+      "_antiPatterns": [
+        "oversized_diff: produced 5513 lines but limit is 500. Keep total insertions+deletions under 500 lines.",
+        "oversized_diff: produced 5388 lines but limit is 500. Keep total insertions+deletions under 500 lines."
       ],
-      "technicalNotes": [
-        "Edit files: tuinalogy-services/C0[1-5],E0[1-2]/PM-teori.md and all KP*.md files",
-        "Create: tuinalogy-services/_reference/arcs-checklist.md",
-        "Test command: grep -c '📌 Attention:' tuinalogy-services/C0*/PM-teori.md | grep -v ':0' | wc -l (expect 7 matches)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "passes": false,
-      "_source": "ai-example",
-      "model": "sonnet"
-    },
-    {
-      "id": "US-049",
-      "title": "IT-020 Level 4 Networking Bilingual Glossary with Consistency Validator",
-      "priority": "medium",
-      "description": "Create a comprehensive bilingual glossary for IT-020 Level 4 networking concepts (TCP/IP suite, routing protocols, network security, VPN, firewall, intrusion detection). Include English/Malay/Chinese technical terms with NOSS curriculum references. Build a validator to flag inconsistent terminology usage across all L4 KP/KT/KK documents.",
-      "acceptanceCriteria": [
-        "networking-L4-glossary.md created in it-computer-system/L4/_reference/ with ≥60 terms (4 columns: [English] | [Malay] | [Chinese] | [NOSS L4 Module Reference]) organized by topic (5 sections: TCP/IP, Routing, Security, VPN, Monitoring)",
-        "Consistency validator (tools/validate-it-L4-terms.py) cross-references glossary against all L4 KP/KT/KK files and outputs term-variance report (expect <5% variance after fixes)",
-        "All 15 L4 documents (5 CUs × 3 doc types) updated to use glossary-approved terminology; no ad-hoc translations or abbreviations remain"
-      ],
-      "technicalNotes": [
-        "Create: it-computer-system/L4/_reference/networking-L4-glossary.md",
-        "Create: tools/validate-it-L4-terms.py (load glossary, scan L4 KP/KT/KK files, detect unapproved variants via regex, output CSV report)",
-        "Edit: it-computer-system/L4/C01-C05/KP*.md, KT*.md, KK*.md (standardize all networking terms to glossary variants)",
-        "Test command: python tools/validate-it-L4-terms.py it-computer-system/L4/_reference/networking-L4-glossary.md it-computer-system/L4/ --output variance-report.csv; [ $(wc -l < variance-report.csv) -le 5 ]"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "passes": false,
-      "_source": "ai-example",
-      "model": "sonnet"
-    },
-    {
-      "id": "US-050",
-      "title": "Tuinalogy Mnemonic Memory Device Generator for Procedures",
-      "priority": "medium",
-      "description": "Create visual mnemonic devices (acronyms, memory rhymes, hand-position mnemonics) for complex Tuinalogy procedures and sequences. Examples: 8-point tui na routine, meridian sequence in diagnosis (四诊 order), pregnancy contraindication checklist. Generate mnemonic boxes with Chinese characters and English equivalents. Embed 2+ mnemonics in each KP/KK document for major procedures.",
-      "acceptanceCriteria": [
-        "mnemonic-library.md created in tuinalogy-services/_reference/ with ≥15 procedure mnemonics: [Procedure Name] | [Mnemonic Format] | [Chinese] | [English] | [Hand Position / Sequence Diagram] | [Usage CUs] (e.g., '8-Point Tui Na: 推拿8法 = Press-Knead-Roll-Grasp-Push-Rub-Vibrate-Flick'; includes simple ASCII diagram)",
-        "All 21 KP documents (C01-C05, 3 per CU, plus E01/E02) include ≥2 mnemonic callout boxes (format: `🧠 **Mnemonic:** [name] — [formula]`) for key procedures or terminology sequences",
-        "Mnemonic memorability validator (tools/validate-mnemonic-quality.py) checks mnemonic-library.md for: phonetic clarity (no excessive similar-sounding elements), length (≤6 elements for acronyms), cultural appropriateness; output: quality-check report with pass/flag status"
-      ],
-      "technicalNotes": [
-        "Create: tuinalogy-services/_reference/mnemonic-library.md (markdown with ASCII diagrams for hand positions; include pinyin for Chinese terms)",
-        "Create: tools/validate-mnemonic-quality.py (simple heuristics: check acronym length, detect phonetic collisions in pinyin, validate structure)",
-        "Edit: tuinalogy-services/C01-C05,E01,E02/KP*.md and KK*.md (add mnemonic callout boxes for major procedures)",
-        "Test command: grep -c '🧠 \\*\\*Mnemonic:\\*\\*' tuinalogy-services/C0*/KP*.md | grep -v ':0' | wc -l (expect ≥42, i.e., 21 KPs × ≥2 mnemonics)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "small",
-      "passes": false,
-      "_source": "ai-example",
-      "model": "sonnet"
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- `tcm-terminology-index.md` (113 terms, 6 categories) already committed in 0c5ab28 ✅\n- `tools/validate-terminology.py` exists but uses sliding-window Levenshtein which produces 192 false positives\n- False positives: legitimate Chinese like \"禁忌之\" (contraindication + \"of\") flagged vs \"禁忌症\", \"三阴经\" (yin meridians) flagged vs \"三阴交\" (acupoint)\n\n## Problem Identified\nSliding-window + Levenshtein is fundamentally wrong for CJK text — no word boundaries mean any adjacent characters get flagged. The acceptance criteria example (足三里 → 足三-里) describes **separator insertion**, not arbitrary edit distance.\n\n## Planned Changes\n- **Modify** `tools/validate-terminology.py`: Replace Levenshtein sliding-window with regex-based separator-insertion detection — only flag terms with punctuation/whitespace inserted between canonical characters\n- **Modify** `prd.json`: Mark US-047 passes: true\n- **Append** to `progress.txt`\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"tools/validate-terminology.py\", \"prd.json\", \"progress.txt\"],\n  \"functions_to_add\": [\"build_separator_regex\"],\n  \"estimated_loc\": 80\n}\n</plan>\n\nNow let me implement the fix. The new approach: for each canonical term, build a regex that matches the term's characters with optional separator characters between them. Only flag matches that contain separators (i.e., aren't exact matches).\nNow update `main()` to use the new approach:\nNow let me verify the file looks correct and run the validator:\nGood. Now run the validator:\n0 deviations, 78 files checked. Now verify the acceptance criteria:\n\n1. **tcm-terminology-index.md with ≥80 terms in 6 categories** — ✅ 113 terms, 6 categories\n2. **Automated consistency checker flags separator-inserted variants** — ✅ validator rewritten with separator-insertion detection\n3. **All documents pass with 0 deviations** — ✅ 78 files, 0 deviations\n\nNow check the diff size before committing:\n84 lines — well under 500. Now update prd.json:\nNow check total diff size including all staged changes:\n100 lines total. Clean up the temp deviations file and commit:\n50 insertions + 96 deletions = 146 total lines — well under the 500 limit.\n\nNow append to progress.txt:\n**US-047 complete.** The fix was surgical — replaced the Levenshtein sliding-window (192 false positives) with separator-insertion regex detection (0 false positives) in `tools/validate-terminology.py`. Total diff: 146 lines, well under the 500-line limit."
+      },
+      "_contextStats": {
+        "tokensBeforeMasking": 644,
+        "tokensAfterMasking": 642,
+        "reductionPct": 0,
+        "contextWindow": 10
+      },
+      "_passedCommit": "735bbd00c705c9f75741a8d2425aacf1bf213d15"
     },
     {
       "id": "US-051",
@@ -1368,7 +1257,8 @@
       "estimatedComplexity": "medium",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T07:43:29Z"
     },
     {
       "id": "US-052",
@@ -1384,6 +1274,48 @@
         "File to create: _tools/accuracy_auditor.py (functions: audit_bev_standards, audit_aesthetic_standards, audit_it_standards, format_audit_report)",
         "Test command: uv run pytest _tools/test_accuracy_auditor.py::test_48v_high_voltage_requirement -v",
         "Standards reference file: _reference/industry_standards_index.json containing: standard_name, applicable_subject, key_requirements, tolerance_ranges, source_document"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-053",
+      "title": "IT-020 Level 4 Knowledge Assessment with Network Diagnostics Scenarios",
+      "priority": "high",
+      "description": "Enhance IT-020 L4 KA with 15+ scenario-based network troubleshooting questions covering switching, routing, VPN, firewall with detailed answer rubrics and partial-credit guidelines.",
+      "acceptanceCriteria": [
+        "Create 15-20 scenario-based questions covering network switching, routing, VPN, firewall configuration diagnostics",
+        "Each scenario includes 2-3 diagnostic steps with partial-credit rubric and exemplar answer paths",
+        "Validate all networking terms match RFC references and IT-020 Bilingual Networking Glossary"
+      ],
+      "technicalNotes": [
+        "File to edit: it-computer-system/level-4/KA.md (add scenario-based section per WIM structure)",
+        "Reference: it-computer-system/_reference/it-networking-glossary.md, _reference/rfc-references.txt",
+        "Test command: uv run pytest tests/test_it_l4_ka.py::test_scenario_coverage tests/test_it_l4_ka.py::test_rubric_totals -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-054",
+      "title": "Tuinalogy Clinical Vignette Template Generator for Each CU",
+      "priority": "medium",
+      "description": "Creates 3-5 realistic treatment case scenarios per CU (C01-C05, E01, E02) with patient presentation, TCM assessment findings, treatment technique sequence, expected outcome, and contraindication checks. Humanizes learning material with practical context.",
+      "acceptanceCriteria": [
+        "Generator produces tuinalogy-services/C0[1-5]/KP(5/N)-clinical-vignettes.md and E0[1-2]/KP(5/N)-clinical-vignettes.md with 3-5 vignettes per file, each 150-250 words",
+        "Each vignette includes: 患者呈现 (patient presentation), 四诊评估 (four examinations findings), 治疗方案 (treatment sequence), 预期结果 (expected outcome), 禁忌检查 (contraindication check)",
+        "CLI: uv run python tools/clinical_vignette_generator.py --cu C01 --output tuinalogy-services/ generates vignettes based on CU learning outcomes from 00-noss-extract.md"
+      ],
+      "technicalNotes": [
+        "File to create: tools/clinical_vignette_generator.py (function generate_vignettes(cu_code, noss_extract_path) returns markdown content)",
+        "Template source: Define patient persona templates (age, gender, condition, severity) for each CU in tools/config/vignette-personas.json",
+        "Test command: uv run pytest tests/test_vignette_generator.py::test_vignette_structure -v validates structure and contraindication mentions"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",

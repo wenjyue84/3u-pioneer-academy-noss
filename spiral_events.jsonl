@@ -170,3 +170,14 @@
 {"ts": "2026-04-17T05:04:44.448526+00:00", "type": "route_story_assigned", "story_id": "US-050", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
 {"ts": "2026-04-17T05:04:44.449582+00:00", "type": "route_story_assigned", "story_id": "US-051", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
 {"ts": "2026-04-17T05:04:44.450627+00:00", "type": "route_story_assigned", "story_id": "US-052", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T07:48:20.311217+00:00", "type": "route_story_assigned", "story_id": "US-029", "complexity_score": 45, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T07:48:20.312114+00:00", "type": "route_story_assigned", "story_id": "US-035", "complexity_score": 50, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T07:48:20.313278+00:00", "type": "route_story_assigned", "story_id": "US-038", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T07:48:20.314457+00:00", "type": "route_story_assigned", "story_id": "US-039", "complexity_score": 45, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T07:48:20.315188+00:00", "type": "route_story_assigned", "story_id": "US-040", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T07:48:20.315880+00:00", "type": "route_story_assigned", "story_id": "US-041", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T07:48:20.316693+00:00", "type": "route_story_assigned", "story_id": "US-047", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T07:48:20.317648+00:00", "type": "route_story_assigned", "story_id": "US-051", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T07:48:20.318516+00:00", "type": "route_story_assigned", "story_id": "US-052", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T07:48:20.319364+00:00", "type": "route_story_assigned", "story_id": "US-053", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}
+{"ts": "2026-04-17T07:48:20.320158+00:00", "type": "route_story_assigned", "story_id": "US-054", "complexity_score": 30, "model_tier": "sonnet", "estimated_tokens": 0}

@@ -1,54 +1,137 @@
 {
   "stories": [
     {
-      "title": "Build NOSS Learning Outcome to Assessment Linkage Matrix",
+      "title": "Tuinalogy Pregnancy Contraindication Safety Validator",
       "priority": "high",
-      "description": "Create bidirectional mapping showing which assessment items in KA/KT documents cover which NOSS CoCU Learning Outcomes. Generate coverage matrix and identify gaps in assessment coverage per competency unit.",
+      "description": "Automated safety checker for Tuinalogy KK (work activity procedures) and KP (information sheets) that flags violations of the 5 forbidden acupoints in pregnancy (禁忌五穴: 合谷 LI-4, 三阴交 SP-6, 昆仑 BL-60, 肩井 GB-21, 次髎 BL-32). Scans text and procedure step warnings.",
       "acceptanceCriteria": [
-        "Matrix generator reads NOSS extracts (bev-diagnostic-rectification/00-noss-extract.md) and parses Learning Outcomes per CU",
-        "Cross-references each assessment item in KA.md to one or more Learning Outcomes via comment tags in markdown (e.g., `<!-- LO-C01-03 -->`)",
-        "Outputs CSV: Subject, CU Code, Learning Outcome, Assessment Item ID, Coverage %; flags any LO with 0% coverage"
+        "Scanner identifies all 5 forbidden acupoints by Chinese name, English code, and pinyin across KP/KK markdown files in tuinalogy-services/C0[1-5]/ and E0[1-2]/",
+        "Generates report: tuinalogy-services/_reports/pregnancy-contraindication-violations.txt with file path, line number, context (3 lines), and safety recommendation",
+        "CLI: uv run python tools/pregnancy_contraindication_validator.py tuinalogy-services/ --output _reports/ exits with code 1 if violations found"
       ],
       "technicalNotes": [
-        "File to create: _tools/learning_outcome_mapper.py (functions: parse_noss_learning_outcomes, extract_assessment_item_tags, compute_coverage_percentage)",
-        "Test command: uv run pytest _tools/test_learning_outcome_mapper.py::test_noss_extract_parsing -v",
-        "Output file: _reference/coverage_matrix.csv with columns: Subject, CU, LO_Code, LO_Text, Covered_By, Coverage_Percent"
+        "File to create: tools/pregnancy_contraindication_validator.py (function scan_forbidden_acupoints(folder_path) returns list of (filepath, line_no, context))",
+        "Config: Define forbidden acupoints in JSON: {'LI-4': ['合谷', 'Hegu'], 'SP-6': ['三阴交', 'Sanyinjiao'], ...}",
+        "Test command: uv run pytest tests/test_pregnancy_validator.py::test_detects_forbidden_points -v"
       ],
       "dependencies": [],
-      "estimatedComplexity": "medium",
+      "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "_tools/learning_outcome_mapper.py",
-        "_tools/test_learning_outcome_mapper.py",
-        "_reference/coverage_matrix.csv"
+        "tools/pregnancy_contraindication_validator.py",
+        "tools/config/forbidden_acupoints.json",
+        "tests/test_pregnancy_validator.py",
+        "tuinalogy-services/_reports/.gitkeep"
       ],
       "_source": "ai-example",
       "passes": false
     },
     {
-      "title": "Create Technical Content Accuracy Auditor Against Industry Standards",
-      "priority": "high",
-      "description": "Validate technical content accuracy by cross-referencing against current industry standards: IEC standards for BEV HV safety, medical/anatomy standards for Aesthetic, ISO networking standards for IT. Flags outdated information with revision recommendations.",
+      "title": "Tuinalogy Clinical Vignette Template Generator for Each CU",
+      "priority": "medium",
+      "description": "Creates 3-5 realistic treatment case scenarios per CU (C01-C05, E01, E02) with patient presentation, TCM assessment findings, treatment technique sequence, expected outcome, and contraindication checks. Humanizes learning material with practical context.",
       "acceptanceCriteria": [
-        "BEV auditor: Checks voltage thresholds match IEC 61508 (≥48V = high voltage), validates PPE specs against EN 455/EN standards, checks connector types match IEC 62196",
-        "Aesthetic auditor: Validates anatomy terms against standard medical references, checks modality safety ranges (e.g., ultrasound frequency 40kHz within safe range), verifies chemical compatibility warnings",
-        "Report lists: KP Section, Technical Claim, Industry Standard Reference, Compliance Status (Pass/Fail/Outdated), Recommended Action"
+        "Generator produces tuinalogy-services/C0[1-5]/KP(5/N)-clinical-vignettes.md and E0[1-2]/KP(5/N)-clinical-vignettes.md with 3-5 vignettes per file, each 150-250 words",
+        "Each vignette includes: 患者呈现 (patient presentation), 四诊评估 (four examinations findings), 治疗方案 (treatment sequence), 预期结果 (expected outcome), 禁忌检查 (contraindication check)",
+        "CLI: uv run python tools/clinical_vignette_generator.py --cu C01 --output tuinalogy-services/ generates vignettes based on CU learning outcomes from 00-noss-extract.md"
       ],
       "technicalNotes": [
-        "File to create: _tools/accuracy_auditor.py (functions: audit_bev_standards, audit_aesthetic_standards, audit_it_standards, format_audit_report)",
-        "Test command: uv run pytest _tools/test_accuracy_auditor.py::test_48v_high_voltage_requirement -v",
-        "Standards reference file: _reference/industry_standards_index.json containing: standard_name, applicable_subject, key_requirements, tolerance_ranges, source_document"
+        "File to create: tools/clinical_vignette_generator.py (function generate_vignettes(cu_code, noss_extract_path) returns markdown content)",
+        "Template source: Define patient persona templates (age, gender, condition, severity) for each CU in tools/config/vignette-personas.json",
+        "Test command: uv run pytest tests/test_vignette_generator.py::test_vignette_structure -v validates structure and contraindication mentions"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "_tools/accuracy_auditor.py",
-        "_tools/test_accuracy_auditor.py",
-        "_reference/industry_standards_index.json",
-        "_reference/accuracy_audit_report.md"
+        "tools/clinical_vignette_generator.py",
+        "tools/config/vignette-personas.json",
+        "tuinalogy-services/C01/KP-clinical-vignettes.md",
+        "tuinalogy-services/C02/KP-clinical-vignettes.md",
+        "tests/test_vignette_generator.py"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
+      "title": "IT-020 Level 4 Network Diagnostics Assessment Question Generator",
+      "priority": "medium",
+      "description": "Creates 10 scenario-based KA (Knowledge Assessment) questions for IT-020 Level 4 focused on TCP/IP troubleshooting, network diagnostics tools (ping, tracert, ipconfig, netstat), and packet capture analysis. Includes bilingual terminology (EN/BM), answer rubrics, and Bloom's taxonomy classification.",
+      "acceptanceCriteria": [
+        "Generator produces it-computer-system/L4/KA-network-diagnostics.md with 10 scenario questions (each 150-250 words), answer schemes (50-100 words), and rubric (0-4 point scale per question)",
+        "Each question tagged with: Bloom level (analyze/evaluate), estimated answer time (5-10 min), reference to L4 CoCU code, bilingual terminology (TCP/IP = 传输控制协议/网络协议)",
+        "CLI: uv run python tools/it_assessment_generator.py --level 4 --subject network-diagnostics --output it-computer-system/L4/ generates questions with integrated rubrics"
+      ],
+      "technicalNotes": [
+        "File to create: tools/it_assessment_generator.py (function generate_scenario_questions(level, subject, count=10) returns markdown KA content)",
+        "Scenario templates: network outage troubleshooting, VPN connectivity loss, DNS failure, routing issues (define in tools/config/it-l4-scenarios.json)",
+        "Test command: uv run pytest tests/test_it_assessment_generator.py::test_question_structure_and_rubric -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "tools/it_assessment_generator.py",
+        "tools/config/it-l4-scenarios.json",
+        "it-computer-system/L4/KA-network-diagnostics.md",
+        "tests/test_it_assessment_generator.py"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
+      "title": "BEV HV Cable Specification Cross-Reference Indexer",
+      "priority": "medium",
+      "description": "Creates a searchable index of all HV (High Voltage) cable types, connectors, and components mentioned across BEV KP/KK files (e.g., 70mm², Type A connectors, Anderson PowerPole, Tesla Connector). Links each mention to voltage rating, amperage, color code, safety procedures, and NOSS reference.",
+      "acceptanceCriteria": [
+        "Indexer scans bev-diagnostic-rectification/C0[1-5]/KP-*.md and KK-*.md, extracts cable specs (cross-section, type, connector, voltage, amperage), creates bev-diagnostic-rectification/_reference/hv-cable-index.json",
+        "Each entry: {component: '70mm² HV Cable', type: 'Type A', voltage: '400-600V DC', amperage: '200A', color_code: 'red/black', reference_files: [paths], osha_procedure: 'url'}",
+        "CLI: uv run python tools/bev_hv_index_generator.py bev-diagnostic-rectification/ --validate checks against IEC 61851 standards, warns of missing specs"
+      ],
+      "technicalNotes": [
+        "File to create: tools/bev_hv_index_generator.py (function scan_hv_cables(folder) returns dict, function validate_against_standards(specs) flags missing data)",
+        "Reference standard: Store IEC 61851 / SAE J1772 specs in tools/config/hv-standards.json for validation",
+        "Test command: uv run pytest tests/test_bev_hv_indexer.py::test_extracts_all_cable_types -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "tools/bev_hv_index_generator.py",
+        "tools/config/hv-standards.json",
+        "bev-diagnostic-rectification/_reference/hv-cable-index.json",
+        "tests/test_bev_hv_indexer.py"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
+      "title": "Malaysian T&CM Regulatory Compliance Audit for Tuinalogy Content",
+      "priority": "high",
+      "description": "Validates all Tuinalogy KP/KK content against Malaysia regulatory frameworks: T&CM Act 2013 (qualified practitioner, patient consent), OSHA 1994 (workplace safety), PDPA 2010 (patient data privacy), and MOH Code of Ethics 2007 (professional conduct). Flags potential violations with remediation suggestions.",
+      "acceptanceCriteria": [
+        "Auditor scans tuinalogy-services/C0[1-5]/ and E0[1-2]/ KP/KK files against compliance rules defined in tools/config/malaysia-tcm-regulations.json, produces tuinalogy-services/_reports/regulatory-compliance-audit.txt",
+        "Report includes: Regulation (T&CM Act / OSHA / PDPA / MOH), Requirement, File+Line, Current Text, Flag (COMPLIANT/WARNING/VIOLATION), Suggested Fix",
+        "CLI: uv run python tools/malaysia_tcm_compliance_auditor.py tuinalogy-services/ --strict exits 1 if any VIOLATION found, 0 if only warnings"
+      ],
+      "technicalNotes": [
+        "File to create: tools/malaysia_tcm_compliance_auditor.py (function audit_compliance(folder, rules_json) returns list of (file, line, flag, issue, suggestion))",
+        "Rules file: tools/config/malaysia-tcm-regulations.json (patterns: patient-consent keywords, confidentiality terms, practitioner-qualification language, safety warnings)",
+        "Test command: uv run pytest tests/test_malaysia_compliance.py::test_flags_missing_consent_language -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "tools/malaysia_tcm_compliance_auditor.py",
+        "tools/config/malaysia-tcm-regulations.json",
+        "tests/test_malaysia_compliance.py",
+        "tuinalogy-services/_reports/regulatory-compliance-audit.txt"
       ],
       "_source": "ai-example",
       "passes": false
@@ -728,6 +811,54 @@
       "_source": "test-story",
       "_testType": "regression",
       "_forStoryId": "US-037"
+    },
+    {
+      "title": "[Regression Test] Tuinalogy Pregnancy Contraindication Safety Reference Generator",
+      "priority": "medium",
+      "description": "Write regression test to guard against future breakage of US-045. Story description: Create a standardized safety reference document detailing the 禁忌五穴 (5 forbidden acupoints during pregnancy: LI-4, SP-6, GB-21, BL-32, BL-33) with clinical rationale, alternative techniques, and regulatory citations (T&CM Act 2013, MOH Code of Ethics 2007). Generate inline safety callouts for all KP and KK documents that reference these points.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-045",
+        "Test would reliably fail if the US-045 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_045 -v"
+      ],
+      "dependencies": [
+        "US-045"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-045"
+    },
+    {
+      "title": "[Regression Test] Malaysian T&CM Regulatory Compliance Audit Tool for Tuinalogy",
+      "priority": "medium",
+      "description": "Write regression test to guard against future breakage of US-046. Story description: Build an audit tool that cross-references all Tuinalogy safety, ethical, and procedural content against Malaysian regulatory frameworks: T&CM Act 2013 (registration, scope of practice), OSHA 1994 (workplace safety, ergonomics), PDPA 2010 (patient data confidentiality), and MOH Code of Ethics 2007 (professional conduct). Generate compliance matrix identifying gaps, required citations, and corrective actions.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-046",
+        "Test would reliably fail if the US-046 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_046 -v"
+      ],
+      "dependencies": [
+        "US-046"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-046"
     }
   ]
 }

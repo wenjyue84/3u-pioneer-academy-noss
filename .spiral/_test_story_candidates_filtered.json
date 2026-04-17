@@ -620,5 +620,49 @@
       "regression",
       "auto-generated"
     ]
+  },
+  {
+    "title": "[Regression Test] Tuinalogy Pregnancy Contraindication Safety Reference Generator",
+    "description": "Write regression test to guard against future breakage of US-045. Story description: Create a standardized safety reference document detailing the \u7981\u5fcc\u4e94\u7a74 (5 forbidden acupoints during pregnancy: LI-4, SP-6, GB-21, BL-32, BL-33) with clinical rationale, alternative techniques, and regulatory citations (T&CM Act 2013, MOH Code of Ethics 2007). Generate inline safety callouts for all KP and KK documents that reference these points.",
+    "acceptanceCriteria": [
+      "Regression test covers core observable behaviour of US-045",
+      "Test would reliably fail if the US-045 feature were removed or broken"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_045 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-045"
+    ],
+    "_source": "test-story",
+    "_testType": "regression",
+    "_forStoryId": "US-045",
+    "tags": [
+      "regression",
+      "auto-generated"
+    ]
+  },
+  {
+    "title": "[Regression Test] Malaysian T&CM Regulatory Compliance Audit Tool for Tuinalogy",
+    "description": "Write regression test to guard against future breakage of US-046. Story description: Build an audit tool that cross-references all Tuinalogy safety, ethical, and procedural content against Malaysian regulatory frameworks: T&CM Act 2013 (registration, scope of practice), OSHA 1994 (workplace safety, ergonomics), PDPA 2010 (patient data confidentiality), and MOH Code of Ethics 2007 (professional conduct). Generate compliance matrix identifying gaps, required citations, and corrective actions.",
+    "acceptanceCriteria": [
+      "Regression test covers core observable behaviour of US-046",
+      "Test would reliably fail if the US-046 feature were removed or broken"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_046 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-046"
+    ],
+    "_source": "test-story",
+    "_testType": "regression",
+    "_forStoryId": "US-046",
+    "tags": [
+      "regression",
+      "auto-generated"
+    ]
   }
 ]

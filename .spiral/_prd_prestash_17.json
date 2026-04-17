@@ -1218,7 +1218,7 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": true,
+      "passes": false,
       "_source": "ai-example",
       "model": "sonnet",
       "last_attempted": "2026-04-17T07:43:52Z",
@@ -1295,27 +1295,6 @@
         "File to edit: it-computer-system/level-4/KA.md (add scenario-based section per WIM structure)",
         "Reference: it-computer-system/_reference/it-networking-glossary.md, _reference/rfc-references.txt",
         "Test command: uv run pytest tests/test_it_l4_ka.py::test_scenario_coverage tests/test_it_l4_ka.py::test_rubric_totals -v"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "passes": false,
-      "_source": "ai-example",
-      "model": "sonnet"
-    },
-    {
-      "id": "US-054",
-      "title": "Tuinalogy Clinical Vignette Template Generator for Each CU",
-      "priority": "medium",
-      "description": "Creates 3-5 realistic treatment case scenarios per CU (C01-C05, E01, E02) with patient presentation, TCM assessment findings, treatment technique sequence, expected outcome, and contraindication checks. Humanizes learning material with practical context.",
-      "acceptanceCriteria": [
-        "Generator produces tuinalogy-services/C0[1-5]/KP(5/N)-clinical-vignettes.md and E0[1-2]/KP(5/N)-clinical-vignettes.md with 3-5 vignettes per file, each 150-250 words",
-        "Each vignette includes: 患者呈现 (patient presentation), 四诊评估 (four examinations findings), 治疗方案 (treatment sequence), 预期结果 (expected outcome), 禁忌检查 (contraindication check)",
-        "CLI: uv run python tools/clinical_vignette_generator.py --cu C01 --output tuinalogy-services/ generates vignettes based on CU learning outcomes from 00-noss-extract.md"
-      ],
-      "technicalNotes": [
-        "File to create: tools/clinical_vignette_generator.py (function generate_vignettes(cu_code, noss_extract_path) returns markdown content)",
-        "Template source: Define patient persona templates (age, gender, condition, severity) for each CU in tools/config/vignette-personas.json",
-        "Test command: uv run pytest tests/test_vignette_generator.py::test_vignette_structure -v validates structure and contraindication mentions"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
