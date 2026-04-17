@@ -1,0 +1,11 @@
+{
+  "story_id": "US-021",
+  "story_title": "Build NOSS CoCU Work Activity Coverage Validator for All Subjects",
+  "key_source": "ai-example|build|noss|cocu|small|",
+  "stored_ts": 1776387269.4139977,
+  "plan": {
+    "story_id": "US-021",
+    "duration_s": 901,
+    "model": "unknown"
+  }
+}

@@ -1,27 +1,53 @@
 {
   "stories": [
     {
-      "title": "Implement IT Level 4 Knowledge Assessment with Advanced Systems Management Competency Rubrics",
-      "priority": "high",
-      "description": "Create comprehensive knowledge assessments (KA) for IT Level 4 (Computer System Management - Advanced) with scenario-based questions targeting systems administration, network management, and IT service management competencies, including integrated answer schemes with expert-level rubrics.",
+      "title": "Build NOSS CoCU Work Activity Coverage Validator for All Subjects",
+      "priority": "medium",
+      "description": "Create Python validator tool that parses NOSS CoCU extracts and matches each Work Activity to corresponding KK file, generating coverage report with gaps and unmapped activities.",
       "acceptanceCriteria": [
-        "Create it-computer-system/level-4/KA.md with 40-50 questions in mixed formats: MCQ (15), short answer (15), scenario-based (10), diagram labeling (5-10), with each question mapped to specific Level 4 NOSS CoCU Learning Outcomes",
-        "Include integrated answer schemes with competency rubrics showing marking guidance, pass thresholds, and evidence requirements for each question type aligned to Level 4 standards",
-        "Develop minimum 8 scenario-based diagnostic questions with decision trees showing correct IT troubleshooting pathways and competency evidence mapping for systems administration scenarios"
+        "Validator script created at .spiral/validators/noss_coverage_check.py with CLI: uv run python .spiral/validators/noss_coverage_check.py --subject bev --output coverage-report.json",
+        "Output JSON report maps each NOSS Work Activity ID to corresponding KK file path with match confidence score (keyword overlap percentage)",
+        "Unmapped activities listed with NOSS text snippet and line number for manual review; report includes coverage percentage per CU and subject"
       ],
       "technicalNotes": [
-        "File to create: it-computer-system/level-4/KA.md following WIM structure template from it-computer-system/level-3/KA.md",
-        "Source reference: _reference/it-level-4-noss-extract.md (extract NOSS CoCU Level 4 data if missing)",
-        "Test command: grep -E '^##' it-computer-system/level-4/KA.md | wc -l (validate section structure compliance)"
+        "File to create: .spiral/validators/noss_coverage_check.py (Python ~120 lines with argparse CLI, JSON output function, keyword matching logic)",
+        "Files to reference: .spiral/data/noss-extracts/bev-noss-c01.md, .spiral/data/noss-extracts/aesthetic-noss-c01.md, it-computer-system/Level3/00-noss-extract.md for source NOSS data",
+        "Test command: uv run pytest tests/test_noss_coverage_validator.py -v (validates: script_runs_without_error, output_json_valid, unmapped_activities_reported)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        ".spiral/validators/noss_coverage_check.py",
+        ".spiral/data/noss-coverage-mapping.json",
+        "tests/test_noss_coverage_validator.py"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
+      "title": "Build WIM Format Auto-Validator for Buku Panduan WIM Edisi 2020 Compliance Across All Documents",
+      "priority": "medium",
+      "description": "Create comprehensive validator that checks every WIM document (KP/KT/KK/KA/PA/PM) for Buku Panduan compliance: header boxes, TAJUK/TUJUAN/PENERANGAN structure, LANGKAH KERJA tables, SENARAI SEMAK checklists, 4-phase lesson plans, and bilingual headings.",
+      "acceptanceCriteria": [
+        "Validator at .spiral/validators/wim_format_compliance.py with CLI: uv run python .spiral/validators/wim_format_compliance.py --path bev-diagnostic-rectification/ --output compliance-report.html",
+        "HTML report includes file-by-file compliance checklist with required elements per document type: KP (TAJUK/TUJUAN/PENERANGAN), KT (BAHAGIAN structure), KK (LANGKAH KERJA tables), KA/PA (answer schemes, rubric), PM (4 phases: Pendahuluan/Pembentangan/Penyatuan/Penutupan)",
+        "Report shows compliance percentage per document type, lists non-compliant elements by file with line numbers, and provides a summary dashboard (overall compliance %, pass/fail per subject)"
+      ],
+      "technicalNotes": [
+        "File to create: .spiral/validators/wim_format_compliance.py (Python ~150 lines with HTML template generator, markdown header parser, regex pattern matching for Buku Panduan sections)",
+        "File to reference: _reference/wim-format-schema.json (JSON schema defining required elements per document type: KP, KT, KK, KA, PA, PM with regex patterns)",
+        "Test command: uv run pytest tests/test_wim_format_validator.py -v (validates: validator_runs, html_output_valid, compliance_percentage_calculated, non_compliant_elements_reported)"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "it-computer-system/level-4/KA.md",
-        "it-computer-system/level-4/answer-schemes.md",
-        "_reference/it-level-4-noss-extract.md"
+        ".spiral/validators/wim_format_compliance.py",
+        "_reference/wim-format-schema.json",
+        "tests/test_wim_format_validator.py"
       ],
       "_source": "ai-example",
       "passes": false
@@ -410,6 +436,30 @@
       "_source": "test-story",
       "_testType": "e2e",
       "_forStoryId": "US-017"
+    },
+    {
+      "title": "[Regression Test] Create Aesthetic C03 Knowledge Assessment with Manual Technique Competency Questio",
+      "priority": "medium",
+      "description": "Write regression test to guard against future breakage of US-018. Story description: Build knowledge assessment for C03 (Manual Body Massage) with 10 questions covering anatomy landmarks, massage technique selection logic, contraindication identification, and client safety. Include 3 scenario-based questions where learners analyze client conditions and recommend appropriate massage modalities with supporting justification and safety considerations.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-018",
+        "Test would reliably fail if the US-018 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_018 -v"
+      ],
+      "dependencies": [
+        "US-018"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-018"
     },
     {
       "title": "[Regression Test] Create Aesthetic Services Knowledge Assessment Suite with Bilingual Answer Schemes",

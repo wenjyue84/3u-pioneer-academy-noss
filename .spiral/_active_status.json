@@ -1,8 +1,8 @@
 {
   "phase": "I",
-  "iteration": 18,
-  "started_at": 1776360745,
+  "iteration": 1,
+  "started_at": 1776386363,
   "pct_done": 60,
-  "story_id": "US-018",
-  "story_title": "Create Aesthetic C03 Knowledge Assessment with Manual Technique Competency Questions"
+  "story_id": "US-021",
+  "story_title": "Build NOSS CoCU Work Activity Coverage Validator for All Subjects"
 }
