@@ -215,9 +215,20 @@ def build_envelope(
 
     lines: list[str] = []
     lines.append(ENV_START)
-    lines.append("![JPK Logo](../_assets/logos/jpk-logo.png)")
-    lines.append("")
-    lines.extend(JPK_ADDRESS_LINES)
+    # Logo LEFT, address RIGHT — matches JPK PDF layout via HTML table
+    # (markdown native tables require a header row; HTML table renders cleanly
+    # in GitHub, VS Code, and the wim_md_to_docx.py DOCX builder.)
+    lines.append('<table border="0" cellspacing="0" cellpadding="8" width="100%">')
+    lines.append("<tr>")
+    lines.append('<td width="130" valign="top"><img src="../_assets/logos/jpk-logo.png" alt="JPK Logo" width="110"></td>')
+    lines.append('<td valign="middle">')
+    lines.append("<b>JABATAN PEMBANGUNAN KEMAHIRAN (JPK)</b><br>")
+    lines.append("TINGKAT 7-8, BLOK D4, KOMPLEKS D,<br>")
+    lines.append("PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,<br>")
+    lines.append("62530 PUTRAJAYA")
+    lines.append("</td>")
+    lines.append("</tr>")
+    lines.append("</table>")
     lines.append("")
     lines.append(f"## {label}")
     lines.append("")
