@@ -770,7 +770,12 @@
       "estimatedComplexity": "small",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "_failureReason": "oversized_diff: produced 12453 lines but limit is 10000. Keep total insertions+deletions under 10000 lines.",
+      "_antiPatterns": [
+        "oversized_diff: produced 12453 lines but limit is 10000. Keep total insertions+deletions under 10000 lines."
+      ],
+      "last_attempted": "2026-04-17T02:44:32Z"
     },
     {
       "id": "US-028",
@@ -808,6 +813,70 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-030",
+      "title": "Create Assessment Question Difficulty Classifier with Bloom's Taxonomy Cognitive Level Tagging",
+      "priority": "high",
+      "description": "ML-assisted tool analyzing assessment questions, assigning Bloom's cognitive level (1=Remember through 6=Create), generating per-assessment distribution reports, and flagging cognitively imbalanced assessments across all subjects.",
+      "acceptanceCriteria": [
+        "Classifier reads all KA/PA question text, parses question type (MCQ, short-answer, scenario, practical), analyzes action verbs (recall verbs → Level 1, apply → Level 3, evaluate/create → Levels 5-6), assigns Bloom's level with confidence score",
+        "Generate distribution report per assessment showing % questions at each cognitive level (1-6); flag assessments with <20% higher-order thinking (Levels 4-6) or >50% at single level",
+        "Output recommendations file suggesting specific question conversions (e.g., 'BEV-C02-KA: 40% Level-1 recall, recommend replacing 5 with analysis/diagnostic scenarios')"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/classifiers/question_difficulty_classifier.py (question parser, verb analyzer, Bloom's classifier)",
+        "File to create: _reference/assessment-difficulty-distribution.json (per-assessment metrics)",
+        "Test command: uv run python _tools/classifiers/question_difficulty_classifier.py --all-subjects --output json"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": true,
+      "_source": "ai-example",
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T02:50:14Z"
+    },
+    {
+      "id": "US-031",
+      "title": "Build WIM Header Box Template Enforcer for All Document Types Across All Subjects",
+      "priority": "high",
+      "description": "Compliance tool ensuring all WIM documents (KP, KT, KK, KA, PA, PM) include properly formatted header boxes with NOSS code, document code, subject, CU number, effective date per Buku Panduan WIM Edisi 2020 standards.",
+      "acceptanceCriteria": [
+        "Enforcer scans all WIM files (KP, KT, KK, KA, PA, PM) across all subjects, checks for header box matching format: `[NOSS Code] - [CU] / [Doc Code] ([Seq]/[Total]) | Effective: [YYYY-MM-DD] | Subject: [Name] | Level: [N]`",
+        "Generate non-compliance report listing files missing headers or with invalid format, provide template snippets for each document type for quick correction",
+        "Optional `--fix` mode auto-inserts header boxes for files missing them, with fields requiring manual verification for correctness"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/enforcer/header_box_enforcer.py (file scanner, header validator, template generator, auto-insert option)",
+        "File to create: _reference/wim-header-template.md (template snippets by document type)",
+        "Test command: uv run python _tools/enforcer/header_box_enforcer.py --scan --all-subjects | grep -c 'Missing:' (should be 0 for compliant projects)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-032",
+      "title": "Build Cross-Subject Assessment Question Type Distribution Analyzer with Rebalancing Recommendations",
+      "priority": "high",
+      "description": "Tool analyzing question type diversity (MCQ, short-answer, scenario, practical, essay, matching, fill-in) across all assessments in BEV, Aesthetic, IT subjects, generates distribution metrics, and recommends rebalancing where diversity is low.",
+      "acceptanceCriteria": [
+        "Classifier parses all KA/PA files, detects each question type by pattern (MCQ: radio options, short-answer: blank lines, scenario: narrative setup, essay: open-ended prompts), generates distribution report per assessment and per subject showing % of each type",
+        "Flag assessments with low diversity: <4 question types represented OR any single type >60% of questions. Rank flagged assessments by severity",
+        "Generate rebalancing recommendations file with specific conversions (e.g., 'BEV-C02-KA: 40% MCQ (15 questions), recommend replacing 5 MCQ with scenario-based analysis questions')"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/analyzers/question_type_analyzer.py (question type detector, distribution calculator, rebalancing recommender)",
+        "File to create: _reference/assessment-question-type-distribution.md (per-subject and per-assessment breakdown with recommendations)",
+        "Test command: uv run python _tools/analyzers/question_type_analyzer.py --all-subjects --format md"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
       "passes": false,
       "_source": "ai-example",
       "model": "sonnet"
