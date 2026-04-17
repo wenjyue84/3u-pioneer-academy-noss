@@ -828,10 +828,14 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T04:57:45Z"
+      "last_attempted": "2026-04-17T09:11:32Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n`tools/question_bank_indexer.py` and `tests/test_question_indexer.py` already exist from a prior attempt and fully satisfy all acceptance criteria. All 6 tests pass including `test_index_and_search` which verifies 200+ questions indexed, schema correctness, multi-subject coverage, and sub-100ms search latency.\n\n## Problem Identified\nStory US-029 is implemented but marked `passes: false`. Just need to mark it complete.\n\n## Planned Changes\n- Update `prd.json`: set `passes: true` for US-029\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"prd.json\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 1\n}\n</plan>\nNow update progress.txt and commit:\nUS-029 is complete. All acceptance criteria were already satisfied by prior implementation:\n\n- `tools/question_bank_indexer.py` — SQLite + FTS5 indexer with full schema (`question_id`, `subject`, `cu`, `level`, `qtype`, `cognitive_level`, `keywords`, `noss_code`, `answer_key`)\n- CLI `search` command supports `--subject`, `--cu`, `--level`, `--qtype`, `--query` filters\n- 6/6 tests pass including 200+ questions indexed across BEV/Aesthetic/IT with sub-100ms latency"
+      },
+      "_passedCommit": "0247a7db18a9140c398079af3545ddb89b6235c7"
     },
     {
       "id": "US-030",
@@ -988,9 +992,14 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T09:14:13Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nPM files exist across aesthetic-services, bev-diagnostic-rectification, it-computer-system, and tuinalogy-services with various duration header formats.\n\n## Problem Identified\nUS-035 requires a training distribution validator script that parses PM-teori.md and PM-amali.md files, extracts duration hours, calculates the Knowledge/Performance split per CU, and flags non-compliant CUs.\n\n## Planned Changes\n- Create `scripts/validate_training_distribution.py` — multi-pattern duration parser, K/P ratio calculator, compliance report, integration note for `.spiral/monitor`\n- Create `tests/test_training_hours_validator.py` — tests for parsing and compliance logic\n\n<plan>\n{\n  \"files_to_create\": [\"scripts/validate_training_distribution.py\", \"tests/test_training_hours_validator.py\"],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\"parse_duration_from_file\", \"scan_subject\", \"compute_compliance\", \"generate_report\", \"main\"],\n  \"estimated_loc\": 160\n}\n</plan>\nNow I have all the info needed. Let me write the validator script:\nNow create the test file:\nI see the parsing issue with bold format `**Theory Duration:**`. Let me fix the regex patterns:\nAesthetic is now fully parsed (8/8). BEV shows genuine drift since BEV CUs use session-level minutes rather than full CU hours. The script works correctly. Now run the tests:\nAll 18 tests pass. Now update prd.json and commit:\nDone. US-035 implemented and committed.\n\n**Summary:**\n- `scripts/validate_training_distribution.py` — parses all PM-teori.md and PM-amali.md across BEV, Aesthetic, IT, Tuinalogy; handles 7 duration formats (table, inline bold, BEV minutes, Chinese 时数); generates per-CU and cumulative K/P compliance reports; flags CUs outside 25-35% range; writes `kp_ratio_health` to `.spiral/_monitor_state.json`\n- `tests/test_training_hours_validator.py` — 18 tests, all passing\n\nKey gotcha: Aesthetic C04+ uses `**Theory Duration:**` with the colon inside the bold — required a permissive regex `Theory\\s+Duration[*:]{0,3}` rather than strict asterisk wrapping. Also, `sys.modules` registration is required before `exec_module` when the loaded script uses `@dataclass`."
+      },
+      "_passedCommit": "e6969bb7f7f656fba2d76cc7ba3696707414de6c"
     },
     {
       "id": "US-036",
@@ -1081,9 +1090,14 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T09:23:22Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- BEV KP files exist in C01-C05, each with multiple KP-XX.md files\n- `bev-diagnostic-rectification/_reference/` directory does not exist yet\n- `scripts/` and `tests/` directories exist with established patterns\n- Components identified: BMS, contactors, HV cables, DC-DC converter, OBC, inverter, traction motor, service plug, etc.\n\n## Problem Identified\nUS-038 requires: (1) a JSON index with 15+ HV components, (2) a CLI script that scans KP files and auto-builds the index, (3) a validation report flagging missing safety/voltage fields, (4) pytest tests.\n\n## Planned Changes\n- Create `bev-diagnostic-rectification/_reference/hv-component-index.json` — 15+ HV components with full properties\n- Create `scripts/index_hv_components.py` — `extract_components()`, `validate_safety_fields()`, scan + report CLI\n- Create `tests/test_hv_component_index.py` — tests for component count, fields, extract, validate functions\n\n<plan>\n{\n  \"files_to_create\": [\n    \"bev-diagnostic-rectification/_reference/hv-component-index.json\",\n    \"scripts/index_hv_components.py\",\n    \"tests/test_hv_component_index.py\"\n  ],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\"extract_components\", \"validate_safety_fields\", \"scan_kp_files\", \"build_index\", \"generate_validation_report\"],\n  \"estimated_loc\": 180\n}\n</plan>\nAll 19 tests pass. Let me also verify the CLI runs correctly:\nAll 3 acceptance criteria are met. Now mark US-038 as passing and commit:\nUS-038 complete. Summary:\n\n- **`hv-component-index.json`** — 18 HV components (battery pack, BMS, 2 contactors, pre-charge relay, service plug, HV cables, DC-DC converter, OBC, inverter, traction motor, current sensor, HV connector, battery cells/modules, electric compressor, electric water pump, HV fuse/pyrofuse), each with `name_en`, `name_bm`, `function`, `voltage_range`, `safety_standard`, `cus_referenced`\n- **`scripts/index_hv_components.py`** — CLI scans all `C**/KP*.md` files, detects 41 component-CU associations, validates fields; `--update` writes results back to JSON\n- **`tests/test_hv_component_index.py`** — 19 tests across 5 classes, all passing; validation report confirms 0 findings on the curated index"
+      },
+      "_passedCommit": "922869cc5a54e5f5a0d2a92a900d8518a3600baf"
     },
     {
       "id": "US-039",
@@ -1104,7 +1118,8 @@
       "estimatedComplexity": "small",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T09:31:15Z"
     },
     {
       "id": "US-040",
