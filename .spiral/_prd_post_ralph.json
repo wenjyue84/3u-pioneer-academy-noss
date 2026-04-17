@@ -1178,10 +1178,24 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T10:29:57Z"
+      "last_attempted": "2026-04-17T11:13:38Z",
+      "_failureReason": "oversized_diff: produced 60107 lines but limit is 500. Keep total insertions+deletions under 500 lines.",
+      "_antiPatterns": [
+        "oversized_diff: produced 60107 lines but limit is 500. Keep total insertions+deletions under 500 lines."
+      ],
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- `_tools/rubric-standardizer.py` (188 lines) and `_reference/standard-rubric-template.md` (65 lines) are already committed in `0dc4e5f`\n- `tests/test_rubric_standards.py` does NOT exist — this is the missing acceptance criterion\n- The validator functions (`validate_rubric_format`, `reformat_rubric`, `generate_compliance_report`) are already working\n- Previous attempt failed with 60107-line diff — likely tried to reformat all PA files\n\n## Problem Identified\nThe test file `tests/test_rubric_standards.py` is missing. All three acceptance criteria require this file to exist and pass. The tool and template are done; only the test + prd.json update remain.\n\n## Planned Changes\n- Create `tests/test_rubric_standards.py` (~80 lines) — validates PA files against standard format, reports compliance %\n- Update `prd.json` — mark US-041 `passes: true`\n\n<plan>\n{\n  \"files_to_create\": [\"tests/test_rubric_standards.py\"],\n  \"files_to_modify\": [\"prd.json\"],\n  \"functions_to_add\": [\"test_validate_compliant_rubric\", \"test_validate_missing_column\", \"test_reformat_adds_placeholder\", \"test_pa_rubric_format\", \"test_compliance_report_structure\"],\n  \"estimated_loc\": 85\n}\n</plan>\nThe `validate_rubric_format` uses `path.relative_to(ROOT)` which fails for tmp_path files. I need to monkeypatch the ROOT or fix the tool to handle this. Let me patch the tool to accept an optional `root` param — but actually the simpler fix is to set `rs.ROOT` in the test to `tmp_path`.\nI'll update the tests to set `rs.ROOT = tmp_path` before calling functions that use it. Simpler than modifying the tool.\nAll 7 tests pass. Now update prd.json to mark the story as passed.\nNow update progress.txt with learnings.\nNow commit the changes.\n152 lines — well under the 500-line limit. Let me commit.\nDone. US-041 implemented with a clean 152-line diff:\n\n- **`tests/test_rubric_standards.py`** — 7 tests covering compliant rubric validation, missing columns, no-table detection, reformat placeholder, compliance report structure, and real PA file audit\n- **`_tools/rubric-standardizer.py`** + **`_reference/standard-rubric-template.md`** — already committed from previous iteration\n- All 7 tests pass, story marked `passes: true`"
+      },
+      "_contextStats": {
+        "tokensBeforeMasking": 79,
+        "tokensAfterMasking": 79,
+        "reductionPct": 0,
+        "contextWindow": 10
+      },
+      "_passedCommit": "9fa85e58ccc5cb92d931f7f159acfeab37a94bd4"
     },
     {
       "id": "US-045",
@@ -1371,7 +1385,8 @@
       "estimatedComplexity": "medium",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T11:18:43Z"
     }
   ]
 }
