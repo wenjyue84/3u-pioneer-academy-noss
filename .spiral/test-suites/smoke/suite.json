@@ -430,6 +430,32 @@
       "last_result": "pending",
       "obsolete": false,
       "run_count": 0
+    },
+    {
+      "title": "[smoke] Tuinalogy Pregnancy Contraindication Safety Reference Generator",
+      "description": "Auto-generated smoke test from US-045",
+      "from_story": "US-045",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-034",
+      "created_ts": "2026-04-17T05:33:24Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    },
+    {
+      "title": "[smoke] Malaysian T&CM Regulatory Compliance Audit Tool for Tuinalogy",
+      "description": "Auto-generated smoke test from US-046",
+      "from_story": "US-046",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-035",
+      "created_ts": "2026-04-17T05:33:24Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
     }
   ]
 }

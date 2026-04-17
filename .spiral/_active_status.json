@@ -1,8 +1,6 @@
 {
-  "phase": "I",
+  "phase": "C",
   "iteration": 12,
-  "started_at": 1776402289,
-  "pct_done": 60,
-  "story_id": "US-045",
-  "story_title": "Tuinalogy Pregnancy Contraindication Safety Reference Generator"
+  "started_at": 1776404023,
+  "pct_done": 95
 }

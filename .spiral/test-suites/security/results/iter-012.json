@@ -1,12 +1,12 @@
 {
   "iteration": 12,
   "suite_type": "security",
-  "timestamp": "2026-04-16T16:02:01Z",
+  "timestamp": "2026-04-17T05:33:25Z",
   "summary": {
-    "total": 7,
+    "total": 8,
     "passed": 0,
     "failed": 0,
-    "skipped": 7
+    "skipped": 8
   },
   "tests": [
     {
@@ -107,6 +107,21 @@
       "priority": "high",
       "id": "security-007",
       "created_ts": "2026-04-16T16:02:00Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
+    },
+    {
+      "title": "[security] Enhance BEV KT question quality — varied formats with answer schemes",
+      "description": "Auto-generated security test from US-004",
+      "from_story": "US-004",
+      "command": "",
+      "priority": "high",
+      "id": "security-008",
+      "created_ts": "2026-04-16T16:23:32Z",
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,

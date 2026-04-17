@@ -1,12 +1,12 @@
 {
   "iteration": 12,
   "suite_type": "regression",
-  "timestamp": "2026-04-16T16:02:01Z",
+  "timestamp": "2026-04-17T05:33:25Z",
   "summary": {
-    "total": 6,
+    "total": 7,
     "passed": 0,
     "failed": 0,
-    "skipped": 6
+    "skipped": 7
   },
   "tests": [
     {
@@ -92,6 +92,21 @@
       "priority": "high",
       "id": "regression-006",
       "created_ts": "2026-04-16T14:46:08Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
+    },
+    {
+      "title": "[regression] Enhance BEV KT question quality — varied formats with answer schemes",
+      "description": "Auto-generated regression test from US-004",
+      "from_story": "US-004",
+      "command": "",
+      "priority": "high",
+      "id": "regression-007",
+      "created_ts": "2026-04-16T16:23:32Z",
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
