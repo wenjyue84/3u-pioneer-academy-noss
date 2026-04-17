@@ -937,14 +937,23 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
       "_failureReason": "oversized_diff: produced 3414 lines but limit is 500. Keep total insertions+deletions under 500 lines.",
       "_antiPatterns": [
         "oversized_diff: produced 3414 lines but limit is 500. Keep total insertions+deletions under 500 lines."
       ],
-      "last_attempted": "2026-04-17T03:55:34Z"
+      "last_attempted": "2026-04-17T03:56:25Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- IT-020 has 20 CU dirs: L3 (7 CUs), L4 (6 CUs), L5 (7 CUs)\n- Only 4 KA files exist: L3-C01, L3-C02, L3-C03, L3-C04\n- Existing scripts follow a pattern: argparse CLI, Path-based scanning, JSON output\n- Tests use subprocess to run scripts and validate JSON output\n- Diff budget: under 500 lines total\n\n## Problem Identified\nNeed a compact KA completeness auditor script + test that stays under ~350 lines total (leaving buffer for formatting expansion). Previous attempt was 3414 lines \u2014 must be drastically simpler.\n\n## Planned Changes\n- Create `scripts/audit_it_ka_completeness.py` (~120 lines) \u2014 scan IT CU dirs, validate KA files, output JSON report\n- Create `tests/test_it_ka_completeness_auditor.py` (~60 lines) \u2014 test the script runs and produces valid output\n\n<plan>\n{\n  \"files_to_create\": [\"scripts/audit_it_ka_completeness.py\", \"tests/test_it_ka_completeness_auditor.py\"],\n  \"files_to_modify\": [\"prd.json\", \"progress.txt\"],\n  \"functions_to_add\": [\"scan_level\", \"validate_ka\", \"main\"],\n  \"estimated_loc\": 220\n}\n</plan>\nGood \u2014 KA files use `### Q1`, `### Q2` etc. for question headers, and `**Rubric:**` for rubric markers. Now let me create the compact script.\nFiles exist from the previous attempt. Let me read them first.\nThe files already exist from the previous attempt. The problem was the diff was too large (3414 lines). But these files look reasonable \u2014 119 + 72 = 191 lines. The bloat must have been from other files. Let me check what the current git state is for these files.\nSo the files exist on disk from the previous attempt but were never committed (the diff guard rejected them). The files look well under limit at 119 + 72 = 191 lines. Let me verify these files actually work, then figure out total diff size.\nThe file on disk is corrupted! Let me check what's really in it.\nCompletely corrupted from ruff format. The test file too:\nBoth files are corrupted stubs. I need to rewrite them. Let me write compact, working versions.\nThe file was auto-reformatted by a hook. It now looks clean and proper. Let me also re-read the test file:\nBoth files are already clean and properly formatted by the hook. Let me test them:\nScript works perfectly. Now run the tests:\nAll 7 tests pass. Now let me check how big the diff will be:\n259 lines \u2014 well under 500. Let me run pre-commit checks, then update prd.json.\nNo pre-commit config. Let me run ruff directly:\nClean lint. Now update prd.json to mark the story as passing:\nNow stage prd.json and commit:\n417 total lines \u2014 under 500 limit. Let me commit:\nNow update progress.txt:\nProgress was already appended by the previous iteration's notes. Let me check if there's anything to update \u2014 the previous attempt already documented the patterns. The commit is done, the story passes. Let me verify final state:\nUS-034 is complete. Script runs correctly, all 7 tests pass, diff is 417 lines (under 500), story marked `passes: true` in prd.json."
+      },
+      "_contextStats": {
+        "tokensBeforeMasking": 123,
+        "tokensAfterMasking": 122,
+        "reductionPct": 0,
+        "contextWindow": 10
+      }
     },
     {
       "id": "US-035",
@@ -986,7 +995,18 @@
       "estimatedComplexity": "small",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "_failureReason": "DIAGNOSIS_BLOCK_MISSING: Diagnosis block required before making changes. Please output your diagnosis first.\n\nBefore making ANY file edits, output a diagnosis block with these exact headers:\n\n## Current State\n[describe the relevant current state of the code]\n\n## Problem Identified\n[what you are solving for this story]\n\n## Planned Changes\n[bullet list of specific files and changes you will make]\n\nOutput this block as plain text BEFORE calling Edit, Write, or any Bash command that modifies files.",
+      "_antiPatterns": [
+        "oversized_diff: produced 4038 lines but limit is 500. Keep total insertions+deletions under 500 lines."
+      ],
+      "last_attempted": "2026-04-17T04:25:03Z",
+      "_contextStats": {
+        "tokensBeforeMasking": 76,
+        "tokensAfterMasking": 75,
+        "reductionPct": 1,
+        "contextWindow": 10
+      }
     },
     {
       "id": "US-037",
@@ -1110,6 +1130,46 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-043",
+      "title": "Aesthetic Services Knowledge Assessment Item Analysis Report Generator",
+      "priority": "medium",
+      "description": "Build Python script analyzing KA (Knowledge Assessment) question distributions across Aesthetic CUs; identify difficulty/Bloom's level imbalances, suggest rebalancing, and validate question-to-competency mappings for comprehensive coverage.",
+      "acceptanceCriteria": [
+        "Script scripts/aesthetic_kaa_analyzer.py parses all KA documents (C01-C04 per level): (1) extracts questions, (2) tags each with Bloom's level (via content keywords or metadata comments), (3) calculates difficulty distribution (word count, sentence complexity), (4) maps to CoCU competencies (via question ID or manual tagging in markdown comments), (5) generates report with columns: competency_id | num_questions | Bloom_distribution | difficulty_range | coverage_status",
+        "Report identifies coverage gaps: underrepresented competencies (<2 questions), Bloom's level skew (e.g., >50% at Remember level), missing question-competency mappings; includes rebalancing suggestions (e.g., 'C02 needs +2 Analyze-level questions; recommend splitting 2 current Knowledge questions into 3 Application questions')",
+        "Multiple output formats: markdown report for human review, CSV for instructor tracking, JSON for programmatic use; script integrates with CI/CD to flag coverage gaps"
+      ],
+      "technicalNotes": [
+        "File to create: scripts/aesthetic_kaa_analyzer.py (markdown parsing, Bloom's tagging via heuristics, competency extraction, distribution analysis, report generation; JSON output for tooling)",
+        "Test command: uv run python scripts/aesthetic_kaa_analyzer.py aesthetic-services/ --output /tmp/kaa_report.md && grep -c 'Coverage status\\|Rebalancing' /tmp/kaa_report.md"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-044",
+      "title": "IT-020 Bilingual Terminology Standardization for Networking Concepts",
+      "priority": "medium",
+      "description": "Audit all IT-020 L3/L4/L5 documents for inconsistent EN/BM networking terminology pairs (firewall, router, DNS, DHCP variants); standardize across all documents; create searchable bilingual glossary with preferred terms and context examples.",
+      "acceptanceCriteria": [
+        "New reference doc it-computer-system/_reference/it020-bilingual-glossary.md contains \u226540 EN/BM/\u7b80\u4f53\u4e2d\u6587 term triplets with columns: term | preferred_translation | alternative_terms | example_context | CU_references; includes networking concepts (firewall/\u9632\u706b\u5899, router/\u8def\u7531\u5668, DNS/\u57df\u540d\u7cfb\u7edf, DHCP/\u52a8\u6001\u4e3b\u673a\u914d\u7f6e\u534f\u8bae, packet/\u6570\u636e\u5305, protocol/\u534f\u8bae)",
+        "Audit script scripts/it020_terminology_auditor.py scans KP/KK/KT/KA documents, detects inconsistent term usage (regex-based), suggests preferred alternatives, and flags unmapped terms; reports inconsistencies per document",
+        "All IT-020 documents (L3/L4/L5 across C01-C05) updated to use preferred terminology with 100% consistency verified by script; assessment documents (KT/KA) include glossary footnotes for technical terms on first use"
+      ],
+      "technicalNotes": [
+        "File to create: scripts/it020_terminology_auditor.py (regex-based term detection, consistency checking, suggestion logic; JSON/CSV output)",
+        "Test command: uv run python scripts/it020_terminology_auditor.py it-computer-system/ --check-consistency --output /tmp/it020_terms.json && echo 'Consistency check passed' || echo 'Inconsistencies found'"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
       "passes": false,
       "_source": "ai-example",
       "model": "sonnet"

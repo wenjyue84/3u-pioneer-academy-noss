@@ -1,8 +1,8 @@
 {
   "phase": "I",
-  "iteration": 9,
-  "started_at": 1776398180,
+  "iteration": 10,
+  "started_at": 1776399994,
   "pct_done": 60,
-  "story_id": "US-034",
-  "story_title": "Implement IT-020 Knowledge Assessment Completeness Auditor for All Levels"
+  "story_id": "US-036",
+  "story_title": "IT-020 Hands-On Lab Activity Mapper"
 }

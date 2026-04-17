@@ -1455,3 +1455,6 @@ FAILED diff-guard: IT-020 Hands-On Lab Activity Mapper (ID: US-036) — 4038 lin
 ### Gotchas
 - ruff format deletes JSON and test files if they're in the same glob pattern
 - JSON uses null for unmapped KPs with _unmapped_suggestions dict for lab creation titles
+## Iteration 1 - Fri, Apr 17, 2026 12:25:01 PM
+FAILED diagnosis-block gate: IT-020 Hands-On Lab Activity Mapper (ID: US-036) — no diagnosis block found — attempt 2/3
+

@@ -23,3 +23,5 @@ timestamp	spiral_iter	ralph_iter	story_id	story_title	status	duration_sec	model	
 2026-04-17T03:18:08Z	7	2	US-031	Build WIM Header Box Template Enforcer for All Document Types Across All Subjects	keep	436	sonnet	0	0f9ae5515327bfc41a7eefa7cdde2e3c92553d47	69e180a1b4	false	0	0	0	0	0	0	0		0	0	0	0				
 2026-04-17T03:30:54Z	8	1	US-032	Build Cross-Subject Assessment Question Type Distribution Analyzer with Rebalancing Recommendations	keep	246	sonnet	0	0b9e0ffc546b7ed2850a1398ef6f637aed51396e	69e180a1b4	false	0	0	0	0	0	0	0		0	0	0	0				
 2026-04-17T03:55:33Z	8	1	US-034	Implement IT-020 Knowledge Assessment Completeness Auditor for All Levels	reject	420	sonnet	1		69e180a1b4	false	0	0	0	0	0	0	0		0	0	0	0				
+2026-04-17T04:21:49Z	9	2	US-036	IT-020 Hands-On Lab Activity Mapper	reject	513	opus	1		69e180a1b4	false	0	0	0	0	0	0	0		0	0	0	0				
+2026-04-17T04:25:01Z	10	1	US-036	IT-020 Hands-On Lab Activity Mapper	reject	650	opus	2		69e180a1b4	false	0	0	0	0	0	0	0		0	0	0	0				

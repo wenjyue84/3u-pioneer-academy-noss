@@ -996,11 +996,18 @@
       "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "_failureReason": "oversized_diff: produced 4038 lines but limit is 500. Keep total insertions+deletions under 500 lines.",
+      "_failureReason": "DIAGNOSIS_BLOCK_MISSING: Diagnosis block required before making changes. Please output your diagnosis first.\n\nBefore making ANY file edits, output a diagnosis block with these exact headers:\n\n## Current State\n[describe the relevant current state of the code]\n\n## Problem Identified\n[what you are solving for this story]\n\n## Planned Changes\n[bullet list of specific files and changes you will make]\n\nOutput this block as plain text BEFORE calling Edit, Write, or any Bash command that modifies files.",
       "_antiPatterns": [
         "oversized_diff: produced 4038 lines but limit is 500. Keep total insertions+deletions under 500 lines."
       ],
-      "last_attempted": "2026-04-17T04:21:50Z"
+      "last_attempted": "2026-04-17T04:25:03Z",
+      "_contextStats": {
+        "tokensBeforeMasking": 76,
+        "tokensAfterMasking": 75,
+        "reductionPct": 1,
+        "contextWindow": 10
+      },
+      "_passedCommit": "479b8c7c1d7df45d2d736b1ff4160509ba53de37"
     },
     {
       "id": "US-037",
@@ -1124,6 +1131,46 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-043",
+      "title": "Aesthetic Services Knowledge Assessment Item Analysis Report Generator",
+      "priority": "medium",
+      "description": "Build Python script analyzing KA (Knowledge Assessment) question distributions across Aesthetic CUs; identify difficulty/Bloom's level imbalances, suggest rebalancing, and validate question-to-competency mappings for comprehensive coverage.",
+      "acceptanceCriteria": [
+        "Script scripts/aesthetic_kaa_analyzer.py parses all KA documents (C01-C04 per level): (1) extracts questions, (2) tags each with Bloom's level (via content keywords or metadata comments), (3) calculates difficulty distribution (word count, sentence complexity), (4) maps to CoCU competencies (via question ID or manual tagging in markdown comments), (5) generates report with columns: competency_id | num_questions | Bloom_distribution | difficulty_range | coverage_status",
+        "Report identifies coverage gaps: underrepresented competencies (<2 questions), Bloom's level skew (e.g., >50% at Remember level), missing question-competency mappings; includes rebalancing suggestions (e.g., 'C02 needs +2 Analyze-level questions; recommend splitting 2 current Knowledge questions into 3 Application questions')",
+        "Multiple output formats: markdown report for human review, CSV for instructor tracking, JSON for programmatic use; script integrates with CI/CD to flag coverage gaps"
+      ],
+      "technicalNotes": [
+        "File to create: scripts/aesthetic_kaa_analyzer.py (markdown parsing, Bloom's tagging via heuristics, competency extraction, distribution analysis, report generation; JSON output for tooling)",
+        "Test command: uv run python scripts/aesthetic_kaa_analyzer.py aesthetic-services/ --output /tmp/kaa_report.md && grep -c 'Coverage status\\|Rebalancing' /tmp/kaa_report.md"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-044",
+      "title": "IT-020 Bilingual Terminology Standardization for Networking Concepts",
+      "priority": "medium",
+      "description": "Audit all IT-020 L3/L4/L5 documents for inconsistent EN/BM networking terminology pairs (firewall, router, DNS, DHCP variants); standardize across all documents; create searchable bilingual glossary with preferred terms and context examples.",
+      "acceptanceCriteria": [
+        "New reference doc it-computer-system/_reference/it020-bilingual-glossary.md contains ≥40 EN/BM/简体中文 term triplets with columns: term | preferred_translation | alternative_terms | example_context | CU_references; includes networking concepts (firewall/防火墙, router/路由器, DNS/域名系统, DHCP/动态主机配置协议, packet/数据包, protocol/协议)",
+        "Audit script scripts/it020_terminology_auditor.py scans KP/KK/KT/KA documents, detects inconsistent term usage (regex-based), suggests preferred alternatives, and flags unmapped terms; reports inconsistencies per document",
+        "All IT-020 documents (L3/L4/L5 across C01-C05) updated to use preferred terminology with 100% consistency verified by script; assessment documents (KT/KA) include glossary footnotes for technical terms on first use"
+      ],
+      "technicalNotes": [
+        "File to create: scripts/it020_terminology_auditor.py (regex-based term detection, consistency checking, suggestion logic; JSON/CSV output)",
+        "Test command: uv run python scripts/it020_terminology_auditor.py it-computer-system/ --check-consistency --output /tmp/it020_terms.json && echo 'Consistency check passed' || echo 'Inconsistencies found'"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
       "passes": false,
       "_source": "ai-example",
       "model": "sonnet"
