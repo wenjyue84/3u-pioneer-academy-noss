@@ -1723,3 +1723,81 @@ Completed: Tuinalogy Pregnancy Contraindication Safety Reference Generator (ID: 
 ### Gotchas
 - The _reference/ directory must be created manually (mkdir) before Write tool can create the file
 - All 19 files found via grep for Chinese character names (合谷/三阴交/肩井/次髎/中髎) as many files use Chinese names, not acupuncture codes
+## Iteration 1 - Fri, Apr 17, 2026  1:17:05 PM
+Completed: Tuinalogy Pregnancy Contraindication Safety Reference Generator (ID: US-045) in 7m
+
+## Iteration 1 - Fri, Apr 17, 2026  1:17:13 PM
+Completed: Tuinalogy Pregnancy Contraindication Safety Reference Generator (ID: US-045) in 10m
+
+
+## Pre-analysis for US-046 (Gemini 2.5 Pro)
+Here is the technical brief for the Claude agent.
+
+**Subject:** Technical Brief for US-046: Tuinalogy Regulatory Compliance Audit Tool
+
+**Project Overview:**
+This user story requires the creation of a standalone Python audit script. The script will analyze a corpus of markdown documents within the `tuinalogy-services/` directory, checking them for compliance against Malaysian regulatory frameworks defined in a central markdown file.
+
+**Important Clarification:**
+The project is a **standalone Python script** and does **not** involve the Frappe framework, DocTypes, or hooks. All operations are file-based.
+
+**Files to Create:**
+1.  `tools/audit-regulatory-compliance.py`: The main executable script that performs the audit.
+2.  `tuinalogy-services/_reference/regulatory-compliance-matrix.md`: A configuration file defining regulations, their sections, and associated keywords to search for.
+3.  `tests/test_regulatory_audit.py`: Unit tests to validate the script's logic.
+
+**Implementation Approach:**
+1.  **Compliance Matrix (`regulatory-compliance-matrix.md`):** Establish a simple, machine-parsable format within this file. Using specific headings and lists for each regulation and its keywords is recommended.
+2.  **Audit Script (`audit-regulatory-compliance.py`):**
+    *   Use Python's `argparse` library to handle command-line arguments (e.g., input directory, output path).
+    *   Implement a parser function to read `regulatory-compliance-matrix.md` and load the rules into a Python dictionary.
+    *   Use the `glob` module to recursively find all `.md` files in the target directory.
+    *   For each rule in the matrix, iterate through the file contents, searching for the specified keywords (use case-insensitive matching).
+    *   Use the `csv` module to generate `compliance-gaps-report.csv` with the required columns, flagging rules with no matching documents as "Gap".
+3.  **Testing (`test_regulatory_audit.py`):** Use `pytest` and mock file structures to test the script's ability to correctly identify compliant content and gaps, and verify the CSV output format.
+
+**Gotchas & Edge Cases:**
+*   **Keyword Matching:** Use word boundaries (e.g., regex `\bword\b`) to avoid matching substrings.
+*   **Path Handling:** Utilize the `pathlib` module to ensure robust handling of file paths, regardless of where the script is run from.
+*   **Matrix Parsing:** The script's parser must be resilient to minor formatting variations in the matrix file.
+
+
+## Pre-analysis for US-046 (Gemini 2.5 Pro)
+**Subject: Technical Brief for US-046: Tuinalogy Regulatory Compliance Audit Tool**
+
+This is a standalone Python scripting task, not a Frappe application task. The user story requires the creation of a new audit tool, not modification of the `lhdn_payroll_integration` app.
+
+**1. Python Files to Create:**
+*   `tools/audit-regulatory-compliance.py`: The main command-line audit script.
+*   `tests/test_regulatory_audit.py`: Pytest tests for the audit script.
+*   `tuinalogy-services/_reference/regulatory-compliance-matrix.md`: A new Markdown file that will serve as the configuration/database of regulations and keywords for the tool.
+
+**2. Frappe DocTypes / Hooks Involved:**
+*   None. This task is external to the Frappe framework. It operates directly on files in the repository (`.md`, `.py`, `.csv`). The `regulatory-compliance-matrix.md` file is the primary data source, not a DocType.
+
+**3. Recommended Implementation Approach:**
+*   **`audit-regulatory-compliance.py`:** Use `argparse` to handle CLI arguments (input directory, `--regulation`, `--output`). Implement a parser for the `regulatory-compliance-matrix.md` to create a dictionary mapping regulations to their specific keyword lists. Use `pathlib.rglob('*.md')` to scan the target directory. For each file, perform case-insensitive, whole-word keyword matching. Use the standard `csv` module to write the `compliance-gaps-report.csv` output.
+*   **`test_regulatory_audit.py`:** Use `pytest` and `pyfakefs` (or similar) to mock the filesystem with sample `.md` files and a test matrix. Verify that the script correctly identifies compliance gaps and generates the expected CSV output.
+
+**4. Edge Cases and Gotchas:**
+*   **Matrix Parsing:** The `regulatory-compliance-matrix.md` format must be kept simple and consistent for reliable parsing. A simple format like `Regulation | Section | Keyword` on each line is recommended.
+*   **Keyword Accuracy:** Use regex with word boundaries (e.g., `\bkeyword\b`) to prevent partial matches (like 'sent' in 'consent').
+*   **Error Handling:** The script must handle invalid input paths and situations where a specified regulation is not found in the matrix file.
+
+
+## Iteration 13 - Story: US-046 Malaysian T&CM Regulatory Compliance Audit Tool for Tuinalogy
+
+### What was implemented
+- Created tuinalogy-services/_reference/regulatory-compliance-matrix.md: 4-regulation matrix (T&CM Act 2013, OSHA 1994, PDPA 2010, MOH Code of Ethics 2007) with 15 rule sections, keyword triggers, required coverage, and verification points
+- Created tools/audit-regulatory-compliance.py: argparse CLI, parses compliance matrix, scans all .md files via pathlib.rglob, case-insensitive whole-word keyword matching, outputs CSV with Regulation/Section/Required Coverage/Files Addressing/Status/Recommendation columns
+- Created tests/test_regulatory_audit.py: 14 pytest tests covering parse_compliance_matrix, files_matching_keywords, generate_report, write_csv; all pass
+- Ran full audit: 15 rules checked, 0 gaps found (all compliant)
+
+### Patterns discovered
+- Tool imports via hyphenated filename: use importlib.util.spec_from_file_location (not sys.path import)
+- Matrix format: `### REG:` for regulations, `#### SEC:` for sections, `**Keywords:**` inline comma-separated
+- Word boundary regex: `\b` + re.escape(keyword) works for multi-word phrases too
+
+### Gotchas
+- Hyphenated tool filenames (audit-regulatory-compliance.py) cannot be imported with standard `import`; use importlib.util
+- Tests use tempfile.NamedTemporaryFile to avoid touching actual project files

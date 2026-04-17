@@ -1232,7 +1232,8 @@
       "last_attempted": "2026-04-17T05:04:53Z",
       "_phaseI": {
         "diagnosisBlock": "## Current State\nNo `tuinalogy-services/_reference/` directory exists; no pregnancy contraindication callouts in any KP/KK files; 19 KP/KK files reference forbidden points (合谷/LI-4, 三阴交/SP-6, 肩井/GB-21, 次髎/BL-32, 中髎/BL-33) without warnings.\n\n## Problem Identified\nUS-045 requires: (1) a reference doc for 禁忌五穴, (2) a validation script, and (3) warning callouts in all KP/KK files that mention forbidden points.\n\n## Planned Changes\n- Create `tuinalogy-services/_reference/pregnancy-safety-reference.md` — detailed 5-point safety reference\n- Create `tools/check-pregnancy-safety.py` — scanner with `--fix` mode to both validate and apply callouts\n- Run script with `--fix` to patch all 19 KP/KK files programmatically (stays under diff budget)\n- Mark `prd.json` passes=true\n\n<plan>\n{\n  \"files_to_create\": [\"tuinalogy-services/_reference/pregnancy-safety-reference.md\", \"tools/check-pregnancy-safety.py\"],\n  \"files_to_modify\": [\"prd.json\"],\n  \"functions_to_add\": [\"scan_files\", \"check_file\", \"fix_file\", \"main\"],\n  \"estimated_loc\": 180\n}\n</plan>\n\nLet me read more target files to ensure correct warning placement:\nLet me check existing tools pattern:\nNow I have all the context I need. Let me implement the solution:\nBoth files exist from prior attempts. Let me run the check script to see current state:\n0 violations already. Let me verify the warning format matches acceptance criteria and run the test command:\nAll acceptance criteria are met. Let me verify all three criteria formally:\nAll 3 acceptance criteria pass. Now update `prd.json`:\nNow update progress.txt and commit:\nUS-045 is complete. All three acceptance criteria verified:\n\n1. **`pregnancy-safety-reference.md`** — exists in `tuinalogy-services/_reference/` with all 5 forbidden points (LI-4, SP-6, GB-21, BL-32, BL-33), English/Chinese names, acupuncture codes, clinical rationale, alternative points/techniques, and T&CM Act 2013 §28 + MOH Code of Ethics 2007 citations.\n\n2. **Warning callouts** — All 19 KP/KK files that reference forbidden points include `⚠️ **Pregnancy Contraindication** — [point(s)] ... per T&CM Act 2013 Section 28`.\n\n3. **Validation script** — `tools/check-pregnancy-safety.py` scans all KP/KK files and reports `TOTAL,0,` (zero violations). Test command `[ $(tail -1 ... | cut -d, -f2) -eq 0 ]` passes."
-      }
+      },
+      "_passedCommit": "b4866c429f0e4ff0d0f11598665ee538191d1c04"
     },
     {
       "id": "US-046",
@@ -1252,9 +1253,10 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T05:17:14Z"
     },
     {
       "id": "US-047",
