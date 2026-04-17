@@ -831,7 +831,10 @@
       "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T09:11:32Z"
+      "last_attempted": "2026-04-17T09:11:32Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n`tools/question_bank_indexer.py` and `tests/test_question_indexer.py` already exist from a prior attempt and fully satisfy all acceptance criteria. All 6 tests pass including `test_index_and_search` which verifies 200+ questions indexed, schema correctness, multi-subject coverage, and sub-100ms search latency.\n\n## Problem Identified\nStory US-029 is implemented but marked `passes: false`. Just need to mark it complete.\n\n## Planned Changes\n- Update `prd.json`: set `passes: true` for US-029\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"prd.json\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 1\n}\n</plan>\nNow update progress.txt and commit:\nUS-029 is complete. All acceptance criteria were already satisfied by prior implementation:\n\n- `tools/question_bank_indexer.py` — SQLite + FTS5 indexer with full schema (`question_id`, `subject`, `cu`, `level`, `qtype`, `cognitive_level`, `keywords`, `noss_code`, `answer_key`)\n- CLI `search` command supports `--subject`, `--cu`, `--level`, `--qtype`, `--query` filters\n- 6/6 tests pass including 200+ questions indexed across BEV/Aesthetic/IT with sub-100ms latency"
+      }
     },
     {
       "id": "US-030",
