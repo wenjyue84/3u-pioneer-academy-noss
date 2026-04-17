@@ -1123,7 +1123,16 @@
       "_failureReason": "oversized_diff: produced 7061 lines but limit is 500. Keep total insertions+deletions under 500 lines.",
       "_antiPatterns": [
         "oversized_diff: produced 7061 lines but limit is 500. Keep total insertions+deletions under 500 lines."
-      ]
+      ],
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- 47 KA/PA files exist across 4 subjects (aesthetic, BEV, IT, tuinalogy)\n- Question types identifiable by patterns: MCQ (`A1.`, `(MCQ)`), Short Answer, Scenario, Essay, Fill-in-blank, practical tasks in PA\n- Existing tools follow pattern: tool in `_tools/`, test with `sys.path.insert` import, `encoding='utf-8'`\n- `_tools/assessment-time-reports/` directory needs to be created for CSV output\n\n## Problem Identified\n- Need `_tools/assessment-time-validator.py` with `estimate_question_time` and `calculate_assessment_duration` functions\n- Must generate CSV report and flag assessments exceeding 110% of recommended limits (KA=60min, PA=90min)\n- Previous attempt produced 7061-line diff — must keep under ~350 lines total\n\n## Planned Changes\n- Create `_tools/assessment-time-validator.py` (~80 lines): compact parser + CSV writer\n- Create `tests/test_assessment_timing.py` (~60 lines): minimal tests\n- Create `_tools/assessment-time-reports/` directory (via script)\n\n<plan>\n{\n  \"files_to_create\": [\"_tools/assessment-time-validator.py\", \"tests/test_assessment_timing.py\"],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\"estimate_question_time\", \"calculate_assessment_duration\", \"generate_report\", \"main\"],\n  \"estimated_loc\": 140\n}\n</plan>\nNow let me run the tests.\nFix the `relative_to` issue for temp files outside the project.\nThe split regex doesn't handle `**Q3 (Scenario):**` format (space after digit). Let me fix the regex.\nThe split consumes the question markers. Need to use a lookahead split so markers stay in each block.\nAll 8 tests pass. Now let me run ruff format and check diff size.\nLet me check the files after formatting and re-run tests.\nThe ruff formatter destroyed the files. Let me restore them from git and skip ruff format.\nThey're untracked. I need to rewrite them.\nAll 8 tests pass. Now let me check diff size and update prd.json.\n160 lines — well under the 500-line limit. Now update prd.json.\nNow update progress.txt and commit.\n188 total lines — well under 500. Let me commit.\nUS-039 complete. 8/8 tests passing, 188-line diff (well under 500 limit), all 3 acceptance criteria met:\n\n1. `_tools/assessment-time-validator.py` with `estimate_question_time` and `calculate_assessment_duration` — classifies MCQ=2min, fill=2min, short=5min, essay=8min, scenario=10min, practical=15min\n2. CSV report generation with question count, total estimated time, % of recommended limit (KA=60min, PA=90min)\n3. Flags assessments exceeding 110% with suggestions to remove questions or split"
+      },
+      "_contextStats": {
+        "tokensBeforeMasking": 77,
+        "tokensAfterMasking": 76,
+        "reductionPct": 1,
+        "contextWindow": 10
+      }
     },
     {
       "id": "US-040",
