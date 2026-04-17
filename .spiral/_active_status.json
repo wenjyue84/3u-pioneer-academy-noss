@@ -1,8 +1,8 @@
 {
   "phase": "I",
-  "iteration": 1,
-  "started_at": 1776386363,
+  "iteration": 2,
+  "started_at": 1776387534,
   "pct_done": 60,
-  "story_id": "US-021",
-  "story_title": "Build NOSS CoCU Work Activity Coverage Validator for All Subjects"
+  "story_id": "US-022",
+  "story_title": "Build Automated Competency-to-Assessment Cross-Reference Matrix with Coverage Validation Tool"
 }

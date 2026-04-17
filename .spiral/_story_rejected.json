@@ -1,44 +1,18 @@
 {
   "stories": [
     {
-      "title": "Create BEV C04 Knowledge Assessment with Electric Drivetrain Fault Scenarios",
-      "priority": "medium",
-      "description": "Build comprehensive KA document for C04 (Electric Drivetrain Systems) with scenario-based diagnostic questions covering motor diagnostics, controller failures, and efficiency testing aligned to NOSS CoCU C04 learning outcomes.",
+      "title": "Create BEV C02 Performance Assessment with Component Failure Diagnosis Rubrics",
+      "priority": "high",
+      "description": "Develop Performance Assessment (PA) for BEV C02 (Electrical Systems) focusing on BMS/HV cable/OBC component identification, fault diagnosis, and testing competency with evaluator rubrics aligned to NOSS assessment criteria.",
       "acceptanceCriteria": [
-        "KA.md created at bev-diagnostic-rectification/C04/KA.md with minimum 25 scenario-based questions across 5 fault categories (motor, controller, drive shaft, efficiency, safety)",
-        "Answer scheme embedded with diagnostic decision trees showing expected reasoning paths and mark allocation per question",
-        "Assessment rubric includes 4 competency levels (Not Yet, Partial, Competent, Advanced) with evidence criteria for each level"
+        "PA.md includes rubric with 4 competency levels for diagnosing 8 critical BMS/electrical component faults (pass threshold ≥70%)",
+        "Three practical fault diagnosis scenarios provided with expected troubleshooting procedure and safety checklist per scenario",
+        "Assessment linked to C02 KA and KP content with evaluator answer key including partial credit guidance"
       ],
       "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/C04/KA.md (markdown content ~800 words including header box per Buku Panduan WIM format)",
-        "File to reference: bev-diagnostic-rectification/C04/KP*.md for content alignment and technical terminology",
-        "Test command: uv run pytest tests/test_bev_c04_ka_structure.py -v (validates: min 25 questions, decision tree presence, 4 rubric levels)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "bev-diagnostic-rectification/C04/KA.md",
-        "tests/test_bev_c04_ka_structure.py"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Create BEV C02 Performance Assessment with Battery Management System Competency Rubric",
-      "priority": "medium",
-      "description": "Build PA document for C02 with practical assessment covering BMS diagnostics, cell voltage data interpretation, charging system corrective actions, and supervisor sign-off criteria aligned to NOSS C02 work activities.",
-      "acceptanceCriteria": [
-        "PA.md created at bev-diagnostic-rectification/C02/PA.md with 4 practical activities directly mapped to NOSS C02 work activities (each activity 1-2 pages)",
-        "Competency rubric embedded with 4 levels (Not Yet, Partial, Competent, Advanced) and critical pass/fail safety criteria marked with [CRITICAL] tags",
-        "Mark schemes for each activity specify evidence requirements, observation points, and supervisor sign-off documentation format"
-      ],
-      "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/C02/PA.md (markdown with header box, TAJUK/TUJUAN/PENERANGAN sections per Buku Panduan WIM)",
-        "File to reference: bev-diagnostic-rectification/C02/KK*.md to ensure PA activities match practical worksheet activities",
-        "Test command: uv run pytest tests/test_bev_pa_rubric_format.py -v (validates: 4 activities, 4 competency levels, [CRITICAL] tags present)"
+        "File to create: bev-diagnostic-rectification/C02/PA.md (sections: TAJUK, TUJUAN, PENERANGAN, LANGKAH KERJA, SENARAI SEMAK, RUBRIK PENILAIAN)",
+        "Test command: uv run python _tools/validate_wim_format.py bev-diagnostic-rectification/C02/PA.md --sections TAJUK,TUJUAN,LANGKAH,RUBRIK",
+        "Cross-reference: Validate PA.md references all 8 components from C02/KP-01.md and C02/KP-02.md"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
@@ -46,304 +20,343 @@
       "source": "",
       "filesTouch": [
         "bev-diagnostic-rectification/C02/PA.md",
-        "tests/test_bev_pa_rubric_format.py"
+        "_tools/validate_wim_format.py"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Create Aesthetic C02 Knowledge Assessment with Thermal Therapy Treatment Protocols",
-      "priority": "medium",
-      "description": "Build KA for C02 covering thermal therapy modality selection, client assessment decision trees, safety protocols, and treatment planning with integrated answer schemes and bilingual consistency validated against glossary.",
+      "title": "Create BEV C04 Performance Assessment with Motor Efficiency Testing and Controller Diagnostics",
+      "priority": "high",
+      "description": "Develop PA for BEV C04 (Electric Drive Train) covering motor efficiency measurement, controller fault diagnosis with 5+ test scenarios, and drive system performance validation with NOSS-aligned rubrics.",
       "acceptanceCriteria": [
-        "KA.md created at aesthetic-services/C02/KA.md with 20+ questions including 4+ scenario-based treatment planning cases with client contraindications",
-        "Bilingual (EN/BM) terminology in questions and answers validated against _reference/aesthetic-glossary.md (all thermal therapy terms must match approved glossary)",
-        "Answer schemes include clinical reasoning explanations and rubric criteria with reference to NOSS C02 assessment criteria"
+        "PA.md includes motor efficiency testing procedure with pass/fail thresholds (>85% efficiency baseline) and measurement method checklist",
+        "Five fault diagnosis scenarios provided: motor winding fault, controller overtemp, inverter failure, torque sensor error, CAN bus communication loss",
+        "Evaluator rubric with 4 competency levels covering fault isolation methodology, testing equipment operation, and safety during high-voltage testing"
       ],
       "technicalNotes": [
-        "File to create: aesthetic-services/C02/KA.md (markdown with TAJUK/TUJUAN sections and bilingual headings)",
-        "File to reference: _reference/aesthetic-glossary.md for term validation and _reference/aesthetic-services-noss.md for NOSS C02 learning outcomes",
-        "Test command: uv run pytest tests/test_aesthetic_bilingual_consistency.py -v (validates: all thermal therapy terms found in glossary, no terminology drift)"
+        "File to create: bev-diagnostic-rectification/C04/PA.md (include diagnostic flowchart table and test equipment list)",
+        "Test command: uv run pytest tests/test_bev_c04_pa_scenarios.py -v (validates 5 scenarios are complete and technically accurate)",
+        "Cross-reference: PA.md must cite specific voltage/current ranges from C04/KP-01.md (Motor Fundamentals)"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "aesthetic-services/C02/KA.md",
-        "tests/test_aesthetic_bilingual_consistency.py"
+        "bev-diagnostic-rectification/C04/PA.md",
+        "tests/test_bev_c04_pa_scenarios.py"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Create Aesthetic C04 Knowledge Assessment with Electrotherapy Safety and Contraindications Matrix",
+      "title": "Create Aesthetic C01 Performance Assessment with Postural Analysis and Skin Type Assessment Rubrics",
       "priority": "medium",
-      "description": "Build KA for C04 covering all 6 electrotherapy modalities (EMS, TENS, Galvanic, Ultrasound, LED, Microcurrent), safety protocols, client contraindications, and equipment maintenance with embedded safety reference matrix.",
+      "description": "Develop PA for Aesthetic C01 (Body Consultation) with client postural analysis, skin type classification, and body concern assessment techniques including bilingual competency rubrics.",
       "acceptanceCriteria": [
-        "KA.md created at aesthetic-services/C04/KA.md with 6 question sets (minimum 3 questions per modality) covering indications, contraindications, safety protocols, and equipment troubleshooting",
-        "Safety contraindication matrix embedded showing all 6 modalities vs. client conditions (pregnancy, cardiac, metal implants, skin conditions) with reference to medical literature or regulatory standards",
-        "Bilingual safety warnings (EN/BM) aligned to NOSS C04 safety requirements with [CRITICAL SAFETY] tags for high-risk content"
+        "PA.md includes competency rubric for postural analysis (front/side/back view assessment) with 6 key postural indicators to evaluate",
+        "Skin type assessment checklist covering 6 skin types (normal/oily/dry/combination/sensitive/mature) with EN/BM terminology pairs",
+        "Client consultation scenario with role-play assessment criteria covering greeting, consent, body mapping, treatment recommendation skills"
       ],
       "technicalNotes": [
-        "File to create: aesthetic-services/C04/KA.md and _reference/electrotherapy-safety-matrix.md (CSV format for cross-reference)",
-        "File to reference: aesthetic-services/C04/KP*.md for modality descriptions and _reference/aesthetic-services-noss.md for assessment criteria",
-        "Test command: uv run pytest tests/test_aesthetic_c04_electrotherapy_coverage.py -v (validates: 6 modalities covered, contraindication matrix exists, [CRITICAL SAFETY] tags present)"
+        "File to create: aesthetic-services/C01/PA.md (sections: PENILAIAN POSTUR BADAN, KLASIFIKASI JENIS KULIT, PERAKUAN KLIEN)",
+        "Test command: uv run python _tools/validate_bilingual_terms.py aesthetic-services/C01/PA.md --lang EN,BM --min-pairs 12",
+        "Consistency check: Bilingual terms in PA.md must match glossary in _reference/aesthetic-bilingual-glossary.md"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "aesthetic-services/C04/KA.md",
-        "_reference/electrotherapy-safety-matrix.md",
-        "tests/test_aesthetic_c04_electrotherapy_coverage.py"
+        "aesthetic-services/C01/PA.md",
+        "_tools/validate_bilingual_terms.py"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Create IT Level 4 Knowledge Assessment with Network Administration and Cybersecurity Scenarios",
+      "title": "Create Aesthetic C02 Performance Assessment with Thermal Therapy Protocol Safety and Treatment Competency",
       "priority": "medium",
-      "description": "Build KA for IT-020 Level 4 covering network administration, security hardening, incident response, and system optimization with technical decision tree scenarios requiring detailed justifications.",
+      "description": "Develop PA for Aesthetic C02 (Thermal Therapy) with equipment operation safety protocols, treatment application techniques, and client comfort assessment rubrics aligned to WIM format standards.",
       "acceptanceCriteria": [
-        "KA.md created at it-computer-system/Level4/KA.md with 30+ questions including 10+ scenario-based cases (network design, security hardening, incident response, performance tuning)",
-        "Scenario questions require technical decision justification with configuration commands, security controls selection, and trade-off analysis",
-        "Answer schemes include expected configuration commands, security control rationale, and reference to IT-020 Level 4 competency criteria"
+        "PA.md includes safety protocol checklist covering 8 pre-treatment hazard checks: equipment calibration, client screening (contraindications), temperature validation, emergency procedures",
+        "Treatment application rubric with 5 competency levels for heat application technique, client positioning, timing accuracy (±2 min tolerance), and comfort monitoring",
+        "Post-treatment evaluation form assessing skin reaction, client satisfaction, and treatment outcome documentation"
       ],
       "technicalNotes": [
-        "File to create: it-computer-system/Level4/KA.md (markdown with scenario markers [[SCENARIO]]), header box, TAJUK/TUJUAN sections per Buku Panduan WIM",
-        "File to reference: _reference/it-020-noss-level4.md for learning outcomes and it-computer-system/Level4/KP*.md for technical content alignment",
-        "Test command: uv run pytest tests/test_it_l4_scenario_depth.py -v (validates: scenario_count >= 10, config_commands_present, answer_schemes_complete)"
+        "File to create: aesthetic-services/C02/PA.md (include LANGKAH KERJA table with thermal equipment parameters)",
+        "Test command: uv run python _tools/validate_safety_procedures.py aesthetic-services/C02/PA.md --procedures 8",
+        "Template reference: Use LANGKAH KERJA format from _reference/wim-format-template.md for consistency"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "it-computer-system/Level4/KA.md",
-        "tests/test_it_l4_scenario_depth.py"
+        "aesthetic-services/C02/PA.md",
+        "_tools/validate_safety_procedures.py"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Create BEV C01 Performance Assessment with HV Safety Supervisor Competency Framework",
-      "priority": "medium",
-      "description": "Build PA for C01 with practical assessment covering HV safety induction delivery, PPE verification, incident response protocols, and risk assessment with supervisor sign-off framework and critical safety pass/fail criteria.",
+      "title": "Build BEV Lesson Plans (PM-teori and PM-amali) for C01-C02 with Safety-First Pedagogical Integration",
+      "priority": "high",
+      "description": "Create four lesson plan documents (C01 theory, C01 practical, C02 theory, C02 practical) following 4-phase WIM structure (Pengenalan, Penerangan, Praktik, Penilaian) with hazard identification integrated into every lesson phase.",
       "acceptanceCriteria": [
-        "PA.md created at bev-diagnostic-rectification/C01/PA.md with 5 practical activities directly aligned to NOSS C01 work activities (safety briefing, PPE verification, incident simulation, risk assessment, documentation review)",
-        "Competency rubric includes [CRITICAL] safety criteria that are hard-fail (no partial credit): HV lockout verification, PPE completeness, safety procedure adherence, incident response decision",
-        "Marking scheme specifies mandatory evidence items (checklists signed, observations documented, competency statements recorded) and supervisor sign-off format"
+        "Each PM file contains all 4 phases with learning outcomes (4-5 per phase) linked to corresponding KP, KT, KK documents using document code references (e.g., 'G452-010-3:2023-C01/KP(1/2)')",
+        "Safety hazard matrix embedded in Penerangan phase: 5-8 electrical/HV hazards per CU with mitigation steps and PPE requirements",
+        "Time allocation specified: 30% theory (KP+KT), 70% practical (KK) with milestone assessment checkpoints aligned to KA/PA"
       ],
       "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/C01/PA.md (markdown with header box, TAJUK/TUJUAN, and SENARAI SEMAK sections per Buku Panduan WIM)",
-        "File to reference: bev-diagnostic-rectification/C01/KK*.md for practical activity alignment and _reference/bev-hv-safety-standards.md for HV safety requirements",
-        "Test command: uv run pytest tests/test_bev_c01_safety_rubric.py -v (validates: 5 activities, [CRITICAL] tags in rubric, supervisor_sign_off_format_present)"
+        "Files to create: bev-diagnostic-rectification/C01/PM-teori.md, bev-diagnostic-rectification/C01/PM-amali.md, bev-diagnostic-rectification/C02/PM-teori.md, bev-diagnostic-rectification/C02/PM-amali.md",
+        "Test command: uv run python _tools/validate_pm_structure.py bev-diagnostic-rectification/C0{1,2}/PM-*.md --phases 4 --cross-refs KP,KT,KK,KA",
+        "Safety validation: Script scans hazard matrix rows (≥5 per CU) and confirms cross-references to HV-safety-PPE.md"
       ],
       "dependencies": [],
-      "estimatedComplexity": "medium",
+      "estimatedComplexity": "large",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "bev-diagnostic-rectification/C01/PA.md",
-        "tests/test_bev_c01_safety_rubric.py"
+        "bev-diagnostic-rectification/C01/PM-teori.md",
+        "bev-diagnostic-rectification/C01/PM-amali.md",
+        "bev-diagnostic-rectification/C02/PM-teori.md",
+        "bev-diagnostic-rectification/C02/PM-amali.md",
+        "_tools/validate_pm_structure.py"
       ],
       "_source": "ai-example",
       "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+      "_rejection_reason": "complexity_too_large: split into small/medium stories before submitting"
     },
     {
-      "title": "Create BEV C03-C04 Integrated Lesson Plan (Teori) with Thermal and Drivetrain Theory",
-      "priority": "medium",
-      "description": "Build PM-teori document with 4-phase structure (Pendahuluan, Pembentangan, Penyatuan, Penutupan) covering thermal system theory, electric drivetrain principles, and learning objectives aligned to NOSS C03-C04.",
+      "title": "Build BEV Lesson Plans (PM-teori and PM-amali) for C03-C05 with Diagnostic Reasoning Case-Study Integration",
+      "priority": "high",
+      "description": "Create six lesson plan documents (C03-C05, theory and practical each) with 4-phase structure embedding case-study and troubleshooting scenarios in every Praktik phase to develop diagnostic reasoning competency.",
       "acceptanceCriteria": [
-        "PM-teori.md created at bev-diagnostic-rectification/C03-C04/PM-teori.md with all 4 phases properly structured and time allocations for 4-hour lesson (Pendahuluan 30min, Pembentangan 90min, Penyatuan 60min, Penutupan 30min)",
-        "Learning objectives explicitly linked to NOSS C03 (Thermal Systems) and C04 (Electric Drivetrain) competency units with measurable outcomes",
-        "All technical terms presented bilingually (EN/BM) with terminology consistent with project glossary and header box per Buku Panduan WIM format"
+        "Each PM-amali includes 3-4 hands-on case studies (thermal failure, electric drive fault, supervisory scenario) with step-by-step diagnostic decision trees",
+        "Assessment methods clearly specified: formative (daily tasks), summative (KA/PA alignment) with rubric references for evaluators",
+        "Time allocation documented: theory-to-practical ratio (30/70 baseline) adjusted per CU complexity with milestone dates"
       ],
       "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/C03-C04/PM-teori.md (markdown with Pendahuluan, Pembentangan, Penyatuan, Penutupan headings and time allocations)",
-        "File to reference: bev-diagnostic-rectification/C03/KP*.md and C04/KP*.md for content alignment, _reference/bev-noss-c03-c04.md for NOSS learning outcomes",
-        "Test command: uv run pytest tests/test_wim_4phase_structure.py::test_bev_c03_c04_teori -v (validates: all 4 phase headings present, time_allocations_total_240min, bilingual_terms_consistent)"
+        "Files to create: bev-diagnostic-rectification/C03/PM-teori.md, bev-diagnostic-rectification/C03/PM-amali.md, bev-diagnostic-rectification/C04/PM-teori.md, bev-diagnostic-rectification/C04/PM-amali.md, bev-diagnostic-rectification/C05/PM-teori.md, bev-diagnostic-rectification/C05/PM-amali.md",
+        "Test command: uv run pytest tests/test_bev_pm_diagnostic_cases.py::test_case_studies_per_cu -v (validates 3-4 cases per PM-amali)",
+        "Cross-reference check: All case studies cite specific KP topics and assessment rubrics from corresponding KA/PA"
       ],
       "dependencies": [],
-      "estimatedComplexity": "medium",
+      "estimatedComplexity": "large",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "bev-diagnostic-rectification/C03-C04/PM-teori.md",
-        "tests/test_wim_4phase_structure.py"
+        "bev-diagnostic-rectification/C03/PM-teori.md",
+        "bev-diagnostic-rectification/C03/PM-amali.md",
+        "bev-diagnostic-rectification/C04/PM-teori.md",
+        "bev-diagnostic-rectification/C04/PM-amali.md",
+        "bev-diagnostic-rectification/C05/PM-teori.md",
+        "bev-diagnostic-rectification/C05/PM-amali.md",
+        "tests/test_bev_pm_diagnostic_cases.py"
       ],
       "_source": "ai-example",
       "passes": false,
-      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+      "_rejection_reason": "complexity_too_large: split into small/medium stories before submitting"
     },
     {
-      "title": "Create Aesthetic C01-C02 Practical Lesson Plans (Amali) with Client Consultation and Thermal Therapy Protocols",
-      "priority": "medium",
-      "description": "Build PM-amali documents for C01 and C02 with detailed demonstration plans, safety procedures, hygiene protocols, and equipment setup checklists aligned to NOSS aesthetic services practical requirements.",
+      "title": "Build Aesthetic Lesson Plans (PM-teori and PM-amali) for C01-C02 with Client Communication Focus and Consent Procedures",
+      "priority": "high",
+      "description": "Create four lesson plan documents (C01 theory, C01 practical, C02 theory, C02 practical) with 4-phase WIM structure emphasizing client interaction, communication skills, and informed consent procedures in every phase.",
       "acceptanceCriteria": [
-        "Two PM-amali files created: aesthetic-services/C01/PM-amali.md (Client Consultation) and aesthetic-services/C02/PM-amali.md (Thermal Therapy) with 4-phase structure and time allocations",
-        "Each PM-amali includes equipment setup checklists (SENARAI SEMAK), safety and hygiene procedures with [CRITICAL] markers, and step-by-step demonstration guides with visual reference markers (e.g., [[IMAGE: anatomy-diagram]])",
-        "All bilingual safety protocols (EN/BM) aligned to NOSS C01 and C02 requirements with reference to aesthetic industry standards (e.g., salon hygiene standards, thermal equipment manuals)"
+        "Each PM includes communication scenarios in Penerangan phase (greeting, needs assessment, objection handling, consent language) with script templates",
+        "Consent documentation template embedded: multilingual consent form (EN/BM) with client rights and treatment limitations clearly stated",
+        "Learning outcomes emphasize soft skills: active listening, empathy, cultural sensitivity (3-5 outcomes per phase linked to KP topics)"
       ],
       "technicalNotes": [
-        "Files to create: aesthetic-services/C01/PM-amali.md and aesthetic-services/C02/PM-amali.md (markdown with Pendahuluan, Pembentangan, Penyatuan, Penutupan sections, SENARAI SEMAK tables)",
-        "Files to reference: aesthetic-services/C01/KK*.md and C02/KK*.md for practical activity alignment, _reference/aesthetic-services-noss.md for NOSS learning outcomes",
-        "Test command: uv run pytest tests/test_aesthetic_amali_safety.py -v (validates: PM-amali structure complete, [CRITICAL] safety tags present, SENARAI SEMAK sections exist)"
+        "Files to create: aesthetic-services/C01/PM-teori.md, aesthetic-services/C01/PM-amali.md, aesthetic-services/C02/PM-teori.md, aesthetic-services/C02/PM-amali.md",
+        "Test command: uv run python _tools/validate_bilingual_pm.py aesthetic-services/C0{1,2}/PM-*.md --consent-form required",
+        "Template: Consent form template from _reference/consent-form-template-EN-BM.md must be embedded in each PM-amali"
       ],
       "dependencies": [],
-      "estimatedComplexity": "medium",
+      "estimatedComplexity": "large",
       "tags": [],
       "source": "",
       "filesTouch": [
+        "aesthetic-services/C01/PM-teori.md",
         "aesthetic-services/C01/PM-amali.md",
+        "aesthetic-services/C02/PM-teori.md",
         "aesthetic-services/C02/PM-amali.md",
-        "tests/test_aesthetic_amali_safety.py"
+        "_tools/validate_bilingual_pm.py"
       ],
       "_source": "ai-example",
       "passes": false,
-      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+      "_rejection_reason": "complexity_too_large: split into small/medium stories before submitting"
     },
     {
-      "title": "Build Bilingual EN/BM Terminology Consistency Checker Across All WIM Documents",
-      "priority": "medium",
-      "description": "Create validator that scans all KP/KT/KK/KA/PA/PM files against approved glossary JSON, reporting term mismatches, missing translations, and terminology drift (same concept, different translations).",
+      "title": "Build Aesthetic Lesson Plans (PM-teori and PM-amali) for C03-C04 with Technique Mastery Progression and Equipment Competency",
+      "priority": "high",
+      "description": "Create four lesson plan documents (C03 theory, C03 practical, C04 theory, C04 practical) with progressive skill-building structure (Basic→Intermediate→Advanced) and embedded equipment operation and maintenance procedures.",
       "acceptanceCriteria": [
-        "Validator script at .spiral/validators/bilingual_consistency_check.py with CLI: uv run python .spiral/validators/bilingual_consistency_check.py --glossary _reference/glossary.json --subject all",
-        "Output CSV report with columns: term, file_path, line_number, glossary_approved_term, frequency_in_document, severity (error/warning)",
-        "Detects both missing BM translations and terminology drift (same English term, multiple BM translations); generates summary statistics per subject"
+        "Each PM-amali structured in 3 progression levels with clear competency checkpoints: basic technique (Week 1-2), intermediate application (Week 3-4), advanced client scenarios (Week 5-6)",
+        "Equipment operation manual embedded or referenced: startup procedures, parameter settings, maintenance schedule (weekly/monthly/quarterly), troubleshooting guide",
+        "Assessment aligned: formative tasks per level, summative KA/PA checkpoints with skill progression rubric"
       ],
       "technicalNotes": [
-        "Files to create: .spiral/validators/bilingual_consistency_check.py (Python ~100 lines, CSV output function, glossary JSON parser, regex term matching)",
-        "Files to reference: _reference/glossary.json (JSON with structure {\"en_term\": {\"bm\": \"bm_term\", \"context\": \"...\", \"aliases\": [...]}}), all bev-diagnostic-rectification/**/*.md, aesthetic-services/**/*.md, it-computer-system/**/*.md",
-        "Test command: uv run pytest tests/test_bilingual_consistency.py -v (validates: script_runs, glossary_json_parsed, csv_output_valid, drift_detection_works)"
+        "Files to create: aesthetic-services/C03/PM-teori.md, aesthetic-services/C03/PM-amali.md, aesthetic-services/C04/PM-teori.md, aesthetic-services/C04/PM-amali.md",
+        "Test command: uv run python _tools/validate_skill_progression.py aesthetic-services/C0{3,4}/PM-amali.md --levels 3 --checkpoints 3",
+        "Equipment validation: All equipment mentioned in PM must cross-reference KK worksheets (C03/KK-*.md, C04/KK-*.md) for operation procedures"
       ],
       "dependencies": [],
-      "estimatedComplexity": "small",
+      "estimatedComplexity": "large",
       "tags": [],
       "source": "",
       "filesTouch": [
-        ".spiral/validators/bilingual_consistency_check.py",
-        "_reference/glossary.json",
-        "tests/test_bilingual_consistency.py"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Create BEV C01-C05 Knowledge Assessment Answer Key Generator with Diagnostic Decision Trees",
-      "priority": "small",
-      "description": "Build Python tool that auto-extracts answer schemes from KA markdown files, generates assessor answer keys with expected responses, mark allocations, and decision tree paths for scenario questions.",
-      "acceptanceCriteria": [
-        "Tool at .spiral/tools/generate_ka_answer_keys.py with CLI: uv run python .spiral/tools/generate_ka_answer_keys.py --subject bev --output answer-keys.json",
-        "Output JSON includes: question_id, question_text, expected_answer, mark_allocation, answer_justification, decision_tree_path (for scenarios), rubric_criteria_alignment",
-        "Tool validates no orphaned questions (every question in KA has corresponding answer) and cross-references rubric levels against answer expectations"
-      ],
-      "technicalNotes": [
-        "File to create: .spiral/tools/generate_ka_answer_keys.py (Python ~80 lines with markdown parser, JSON output, validation logic)",
-        "Files to reference: bev-diagnostic-rectification/C01/KA.md through C05/KA.md for answer extraction",
-        "Test command: uv run pytest tests/test_ka_answer_key_gen.py -v (validates: all_questions_have_answers, json_output_valid, no_orphaned_questions)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "small",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        ".spiral/tools/generate_ka_answer_keys.py",
-        "tests/test_ka_answer_key_gen.py"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Create IT Level 5 Knowledge Assessment with Enterprise Systems Architecture and Governance Scenarios",
-      "priority": "medium",
-      "description": "Build KA for IT-020 Level 5 covering enterprise systems design, infrastructure governance, business continuity planning, and strategic IT decision-making with industry standard references.",
-      "acceptanceCriteria": [
-        "KA.md created at it-computer-system/Level5/KA.md with 25+ questions including 8+ scenario-based enterprise architecture cases (data center design, cloud migration, disaster recovery, IT governance framework selection)",
-        "Scenario questions require solution justification with risk analysis, cost-benefit trade-offs, and alignment to business objectives; answer schemes reference industry standards (ITIL v3/v4, ISO 27001, NIST Cybersecurity Framework)",
-        "Assessment rubric includes 4 competency levels (Not Yet, Partial, Competent, Advanced) with criteria for evaluating strategic thinking, governance understanding, and risk management"
-      ],
-      "technicalNotes": [
-        "File to create: it-computer-system/Level5/KA.md (markdown with header box, TAJUK/TUJUAN sections, [[SCENARIO]] markers, answer schemes with standard references per Buku Panduan WIM)",
-        "Files to reference: _reference/it-020-noss-level5.md for learning outcomes, it-computer-system/Level5/KP*.md for technical content alignment",
-        "Test command: uv run pytest tests/test_it_l5_governance_coverage.py -v (validates: scenario_count >= 8, standard_references_present, rubric_levels_4, answer_schemes_complete)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "it-computer-system/Level5/KA.md",
-        "tests/test_it_l5_governance_coverage.py"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Create Aesthetic C03-C04 Practical Lesson Plans (Amali) with Manual Massage and Electrotherapy Demonstrations",
-      "priority": "medium",
-      "description": "Build PM-amali documents for C03 (Manual Massage) and C04 (Electrotherapy) with detailed step-by-step demonstrations, anatomy reference tables, equipment protocols, and safety checklists.",
-      "acceptanceCriteria": [
-        "Two PM-amali files created: aesthetic-services/C03/PM-amali.md (manual massage techniques) and aesthetic-services/C04/PM-amali.md (electrotherapy application) with 4-phase structure (Pendahuluan, Pembentangan, Penyatuan, Penutupan)",
-        "Each PM-amali includes anatomy reference sections with LANGKAH KERJA (procedure) tables showing step-by-step techniques, muscle groups, direction of movement, and contraindications; equipment checklists (SENARAI SEMAK) per Buku Panduan WIM format",
-        "Safety and hygiene procedures explicitly tied to NOSS C03 and C04 work activities with [CRITICAL] markers for high-risk steps (e.g., electrotherapy intensity, massage pressure on sensitive areas)"
-      ],
-      "technicalNotes": [
-        "Files to create: aesthetic-services/C03/PM-amali.md (manual massage: 4 phases + anatomy tables + LANGKAH KERJA procedures) and aesthetic-services/C04/PM-amali.md (electrotherapy: 4 phases + equipment tables + LANGKAH KERJA per modality)",
-        "Files to reference: aesthetic-services/C03/KK*.md and C04/KK*.md for practical activity alignment, _reference/massage-anatomy.md for body anatomy maps, _reference/electrotherapy-equipment.md for equipment protocols",
-        "Test command: uv run pytest tests/test_aesthetic_c03_c04_amali.py -v (validates: PM-amali structure_complete, LANGKAH_KERJA_tables_present, anatomy_references_exist, [CRITICAL] safety_tags_present)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
+        "aesthetic-services/C03/PM-teori.md",
         "aesthetic-services/C03/PM-amali.md",
+        "aesthetic-services/C04/PM-teori.md",
         "aesthetic-services/C04/PM-amali.md",
-        "_reference/massage-anatomy.md",
-        "tests/test_aesthetic_c03_c04_amali.py"
+        "_tools/validate_skill_progression.py"
       ],
       "_source": "ai-example",
       "passes": false,
-      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+      "_rejection_reason": "complexity_too_large: split into small/medium stories before submitting"
     },
     {
-      "title": "Create IT Level 3-4-5 Performance Assessment Suite with Practical Lab Competency Rubrics",
-      "priority": "medium",
-      "description": "Build PA documents for IT-020 Levels 3, 4, and 5 covering practical system administration, network configuration, and security implementation tasks with detailed step-by-step marking criteria and 4-level competency rubrics.",
+      "title": "Develop IT Level 3 Knowledge Points (KP) for System Installation, Configuration, and Troubleshooting Procedures",
+      "priority": "high",
+      "description": "Create three KP documents for IT L3 covering system installation (Windows/Linux), OS configuration, and troubleshooting with step-by-step procedures, technical accuracy, and dual-OS examples throughout.",
       "acceptanceCriteria": [
-        "Three PA files created: it-computer-system/Level3/PA.md (system administration), it-computer-system/Level4/PA.md (network and security), it-computer-system/Level5/PA.md (enterprise infrastructure) with 4-6 practical activities per level",
-        "Each PA includes LANGKAH KERJA procedure tables with step-by-step marking criteria, evidence requirements (screenshots, logs, documentation), and pass/fail decision points for critical infrastructure steps",
-        "Rubrics aligned to IT-020 performance criteria with 4 competency levels (Not Yet, Partial, Competent, Advanced) and supervisor sign-off format per Buku Panduan WIM; all technical terms bilingual (EN/BM)"
+        "KP-01 (Installation): Covers Windows and Linux installation media creation, partitioning, bootloader setup, driver installation with screenshot examples and validation checkpoints (5-6 per section)",
+        "KP-02 (Configuration): Covers user management, file permissions, network settings, service configuration with command examples for both OS (10-12 config tasks)",
+        "KP-03 (Troubleshooting): Common issues taxonomy (boot failure, driver problems, network issues) with diagnostic decision trees and resolution steps (8-10 scenarios)"
       ],
       "technicalNotes": [
-        "Files to create: it-computer-system/Level3/PA.md, it-computer-system/Level4/PA.md, it-computer-system/Level5/PA.md (markdown with header boxes, TAJUK/TUJUAN, LANGKAH KERJA procedure tables, rubric matrices per Buku Panduan WIM format)",
-        "Files to reference: _reference/it-020-noss-level3.md, _reference/it-020-noss-level4.md, _reference/it-020-noss-level5.md for learning outcomes and performance criteria",
-        "Test command: uv run pytest tests/test_it_pa_rubric_coverage.py -v (validates: 3_pa_files_created, 4_6_activities_per_level, LANGKAH_KERJA_tables_present, rubric_4_levels_for_each)"
+        "Files to create: it-computer-system/L3/KP-01-installation.md, it-computer-system/L3/KP-02-configuration.md, it-computer-system/L3/KP-03-troubleshooting.md",
+        "Test command: uv run pytest tests/test_it_l3_kp_technical.py::test_dual_os_coverage -v (validates Windows + Linux examples in each KP)",
+        "Accuracy: Technical procedures must be tested in lab environment and documented in _reference/it-l3-lab-validation.md before commit"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "large",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "it-computer-system/L3/KP-01-installation.md",
+        "it-computer-system/L3/KP-02-configuration.md",
+        "it-computer-system/L3/KP-03-troubleshooting.md",
+        "tests/test_it_l3_kp_technical.py"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "complexity_too_large: split into small/medium stories before submitting"
+    },
+    {
+      "title": "Create IT Level 3 Assignment Sheets (KT) with Scenario-Based Questions and Solution Guides",
+      "priority": "high",
+      "description": "Develop three KT documents for IT L3 with scenario-based questions (not MCQ-heavy), Bloom's taxonomy progression, detailed solution guides for evaluators, and cross-references to KP content.",
+      "acceptanceCriteria": [
+        "Each KT contains 15-20 questions across 3 Bloom's levels: 40% recall/understand, 40% apply, 20% analyze/evaluate with 70% scenario-based format and 30% short-answer",
+        "Answer scheme provided: model answers (5-8 points each question), marking rubric with partial credit guidance, commonly expected variation acceptance criteria",
+        "Cross-reference explicit: Each question cites KP section (e.g., 'KP-01-installation::Bootloader Setup') and expected CU competency (G/E/S level)"
+      ],
+      "technicalNotes": [
+        "Files to create: it-computer-system/L3/KT-01.md, it-computer-system/L3/KT-02.md, it-computer-system/L3/KT-03.md (with embedded answer schemes)",
+        "Test command: uv run python _tools/validate_assessment_structure.py it-computer-system/L3/KT-*.md --bloom-levels 3 --scenario-ratio 0.7",
+        "Consistency: Question language and technical terms must match KP-*.md terminology (use _reference/it-l3-glossary.md as canonical)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "large",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "it-computer-system/L3/KT-01.md",
+        "it-computer-system/L3/KT-02.md",
+        "it-computer-system/L3/KT-03.md",
+        "_tools/validate_assessment_structure.py"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "complexity_too_large: split into small/medium stories before submitting"
+    },
+    {
+      "title": "Create IT Level 3 Worksheets (KK) with Step-by-Step Linux/Windows Command Sequences and Validation Tasks",
+      "priority": "high",
+      "description": "Develop three KK documents for IT L3 with hands-on lab tasks, full command sequences, pre/post-task validation steps, and bilingual instruction where applicable (EN commands + BM procedure descriptions).",
+      "acceptanceCriteria": [
+        "Each KK contains 4-6 hands-on tasks with complete command sequences: Windows PowerShell + Linux bash commands side-by-side, parameter explanations, expected output screenshots",
+        "Task validation: Pre-task checks (environment setup), post-task verification commands (confirm task success), success criteria documented (e.g., 'service status running', 'port listening')",
+        "Bilingual integration: Command syntax in English, procedure instructions in EN/BM (e.g., 'Open terminal' / 'Buka terminal', 'Run the command' / 'Jalankan perintah')"
+      ],
+      "technicalNotes": [
+        "Files to create: it-computer-system/L3/KK-01-windows-admin.md, it-computer-system/L3/KK-02-linux-fundamentals.md, it-computer-system/L3/KK-03-network-basics.md",
+        "Test command: uv run pytest tests/test_it_l3_kk_procedures.py::test_command_syntax_valid -v (validates command syntax against bash/PowerShell parsers)",
+        "Lab environment: All procedures tested on clean Windows 11 + Ubuntu 22.04 VMs; test results documented in _reference/it-l3-lab-results.md"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "large",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "it-computer-system/L3/KK-01-windows-admin.md",
+        "it-computer-system/L3/KK-02-linux-fundamentals.md",
+        "it-computer-system/L3/KK-03-network-basics.md",
+        "tests/test_it_l3_kk_procedures.py"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "complexity_too_large: split into small/medium stories before submitting"
+    },
+    {
+      "title": "Create IT Level 4 Knowledge Assessment (KA) with Network Administration and Security Competency Focus",
+      "priority": "medium",
+      "description": "Develop comprehensive KA document for IT L4 covering network services (DNS, DHCP, routing), firewall rules, VPN configuration, and security hardening with 25+ questions, mix of formats, and evaluator rubrics.",
+      "acceptanceCriteria": [
+        "KA.md contains 25+ questions: 10 MCQ (40%), 8 short-answer scenario (40%), 7 case-study analysis (20%) covering DNS/DHCP/routing/firewall/VPN/security topics",
+        "Answer scheme with rubric: Full answers (8-10 pts), partial answers (4-7 pts), incorrect (0 pts) with common acceptable variations documented for evaluator consistency",
+        "Scenario authenticity: Real-world network scenarios (small office LAN design, remote access security, incident response) aligned to IT L4 CoCU competencies"
+      ],
+      "technicalNotes": [
+        "File to create: it-computer-system/L4/KA.md (structure: TAJUK, TUJUAN, PENERANGAN, SOALAN 1-25, SKIM JAWAPAN)",
+        "Test command: uv run python _tools/validate_assessment_coverage.py it-computer-system/L4/KA.md --required-topics DNS,DHCP,firewall,VPN,security --min-questions 25",
+        "Validation: All question scenarios must cite L4 KP topics and match complexity level from NOSS IT-020-4 CoCU"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "it-computer-system/Level3/PA.md",
-        "it-computer-system/Level4/PA.md",
-        "it-computer-system/Level5/PA.md",
-        "tests/test_it_pa_rubric_coverage.py"
+        "it-computer-system/L4/KA.md",
+        "_tools/validate_assessment_coverage.py"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Create IT Level 5 Knowledge Assessment (KA) with Enterprise IT Management and Strategic Decision-Making",
+      "priority": "medium",
+      "description": "Develop KA document for IT L5 emphasizing strategic IT management, team leadership, project planning, and organizational decision-making with case-study format and evaluator rubrics for subjective scoring.",
+      "acceptanceCriteria": [
+        "KA.md contains 10-15 case-study questions simulating real IT manager roles: enterprise architecture decisions, team performance issues, budget allocation, security policy creation, vendor selection",
+        "Scoring rubric with 4 competency levels (Novice/Competent/Proficient/Expert) for each case, evaluating decision-making rationale, stakeholder consideration, and business alignment",
+        "Complexity: Open-ended answers expected; rubric guides evaluators on acceptable solution variations and decision quality indicators"
+      ],
+      "technicalNotes": [
+        "File to create: it-computer-system/L5/KA.md (structure: TAJUK, TUJUAN, PENERANGAN, KES-KAJIAN 1-10/15, RUBRIK PENILAIAN)",
+        "Test command: uv run python _tools/validate_leadership_assessment.py it-computer-system/L5/KA.md --case-studies 10-15 --rubric-levels 4",
+        "Content validation: Case studies must reflect NOSS IT-020-5 CoCU competencies (leadership, strategic planning, organizational effectiveness)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "it-computer-system/L5/KA.md",
+        "_tools/validate_leadership_assessment.py"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     }
   ]
 }
