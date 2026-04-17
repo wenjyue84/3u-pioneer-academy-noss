@@ -1,0 +1,7 @@
+# SPIRAL Crash Report
+# Story:     US-022
+# Worker:    sequential
+# Exit Code: 124
+# Timestamp: 20260417T012900Z
+# ─────────────────────────────────────────
+

@@ -659,7 +659,12 @@
       "estimatedComplexity": "medium",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "_failureReason": "oversized_diff: produced 18135 lines but limit is 10000. Keep total insertions+deletions under 10000 lines.",
+      "_antiPatterns": [
+        "oversized_diff: produced 18135 lines but limit is 10000. Keep total insertions+deletions under 10000 lines."
+      ],
+      "last_attempted": "2026-04-17T01:28:40Z"
     }
   ]
 }

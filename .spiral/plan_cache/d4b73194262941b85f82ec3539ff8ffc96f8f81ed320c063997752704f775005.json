@@ -1,0 +1,11 @@
+{
+  "story_id": "US-022",
+  "story_title": "Build Automated Competency-to-Assessment Cross-Reference Matrix with Coverage Validation Tool",
+  "key_source": "ai-example|build|automated|competency-to-assessment|medium|",
+  "stored_ts": 1776389342.8718724,
+  "plan": {
+    "story_id": "US-022",
+    "duration_s": 1803,
+    "model": "unknown"
+  }
+}
