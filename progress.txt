@@ -1,3 +1,18 @@
+## Iteration 3 - Story: Tuinalogy Clinical Vignette Template Generator (US-054)
+
+### What was implemented
+- tools/clinical_vignette_generator.py (101 lines): generate_vignettes() with embedded CU metadata + persona data, CLI with --cu and --output args
+- tests/test_vignette_generator.py (44 lines): 23 parametrized tests covering structure, count, contraindications, word count, invalid CU
+
+### Patterns discovered
+- Eliminated separate JSON config file (vignette-personas.json) — embedding data inline saved ~50 lines and one file
+- Template-based generation with one reusable loop keeps code compact vs per-CU static text
+
+### Gotchas
+- Attempt 1 produced 790-line diff with 3 files — reduced to ~145 lines by merging config into script
+- CU names come from 00-cocu.md files (not 00-noss-extract.md which doesn't exist)
+- ruff format broken in this project — do NOT run it
+
 ## Iteration N - Story: Assessment Rubric Standardization and Validator (US-041)
 
 ### What was implemented
@@ -270,6 +285,37 @@ FAILED diff-guard: Assessment Rubric Standardization and Validator (ID: US-041) 
 
 ## Iteration 4 - Fri, Apr 17, 2026  7:18:41 PM
 Completed: Assessment Rubric Standardization and Validator (ID: US-041) in 4m
+
+
+## Pre-analysis for US-054 (Gemini 2.5 Pro)
+### Technical Brief: US-054 Clinical Vignette Generator
+
+**Objective:** Create a standalone Python CLI tool to generate clinical vignette markdown files for Tuinalogy Competency Units (CUs).
+
+**File Manifest:**
+*   **Primary Target:** `tools/clinical_vignette_generator.py` (New file)
+*   **Test Suite:** `tests/test_vignette_generator.py` (New file)
+*   **Configuration:** `tools/config/vignette-personas.json` (New file)
+*   **Input Data:** `00-noss-extract.md` (Existing file)
+
+**Frappe Context:**
+*   None. This is a standalone Python script and does **not** involve the Frappe framework, DocTypes, or hooks. The initial context mentioning "lhdn_payroll_integration" should be disregarded.
+
+**Implementation Plan:**
+1.  Implement `tools/clinical_vignette_generator.py` using Python's `argparse` to handle `--cu` and `--output` arguments.
+2.  The main function will parse `00-noss-extract.md` to find learning outcomes relevant to the specified `cu_code`.
+3.  Load patient persona templates from `tools/config/vignette-personas.json`.
+4.  For the given CU, generate 3-5 unique vignettes by combining personas and learning outcomes.
+5.  Use a markdown template to structure each vignette with the required headers: `患者呈现`, `四诊评估`, `治疗方案`, `预期结果`, `禁忌检查`.
+6.  Write the final markdown content to the specified output path, e.g., `tuinalogy-services/C01/KP(5/N)-clinical-vignettes.md`.
+
+**Gotchas & Edge Cases:**
+*   Ensure the script creates the output directory if it doesn't exist.
+*   Handle errors gracefully if a CU code is not found in the input/config files.
+*   The test file must validate that all five required sections are present in the generated vignettes.
+
+## Iteration 2 - Fri, Apr 17, 2026  7:49:17 PM
+FAILED diff-guard: Tuinalogy Clinical Vignette Template Generator for Each CU (ID: US-054) — 790 lines > 500 limit — attempt 1/3
 
 
 ## Pre-analysis for US-054 (Gemini 2.5 Pro)

@@ -1383,10 +1383,14 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T11:18:43Z"
+      "last_attempted": "2026-04-17T11:49:19Z",
+      "_failureReason": "oversized_diff: produced 790 lines but limit is 500. Keep total insertions+deletions under 500 lines.",
+      "_antiPatterns": [
+        "oversized_diff: produced 790 lines but limit is 500. Keep total insertions+deletions under 500 lines."
+      ]
     }
   ]
 }
