@@ -1,0 +1,52 @@
+[
+  {
+    "standard_name": "IEC 61508",
+    "applicable_subject": "BEV",
+    "key_requirements": {
+      "hv_threshold_volts": 48,
+      "hv_label": "high voltage"
+    },
+    "tolerance_ranges": {},
+    "source_document": "IEC 61508:2010 Functional Safety of E/E/PE Safety-related Systems"
+  },
+  {
+    "standard_name": "EN 455",
+    "applicable_subject": "BEV",
+    "key_requirements": {
+      "ppe_type": "medical/electrical protective gloves",
+      "test_standard": "EN 455 series"
+    },
+    "tolerance_ranges": {},
+    "source_document": "EN 455 Medical Gloves for Single Use"
+  },
+  {
+    "standard_name": "IEC 62196",
+    "applicable_subject": "BEV",
+    "key_requirements": {
+      "connector_types": ["Type 1", "Type 2", "CCS", "CHAdeMO"],
+      "reference": "EV charging connector standard"
+    },
+    "tolerance_ranges": {},
+    "source_document": "IEC 62196 Plugs, socket-outlets, vehicle connectors for EV"
+  },
+  {
+    "standard_name": "ISO 18562",
+    "applicable_subject": "Aesthetic",
+    "key_requirements": {
+      "ultrasound_freq_khz_min": 20,
+      "ultrasound_freq_khz_max": 10000
+    },
+    "tolerance_ranges": {"ultrasound_freq_khz": [20, 10000]},
+    "source_document": "ISO 18562 / Clinical ultrasound therapeutic frequency range"
+  },
+  {
+    "standard_name": "ISO/IEC 11801",
+    "applicable_subject": "IT",
+    "key_requirements": {
+      "cabling_categories": ["Cat5e", "Cat6", "Cat6A", "Cat7"],
+      "reference": "Generic cabling for customer premises"
+    },
+    "tolerance_ranges": {},
+    "source_document": "ISO/IEC 11801:2017 Generic cabling systems"
+  }
+]
