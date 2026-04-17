@@ -1,3 +1,18 @@
+## Iteration N - Story: Assessment Rubric Standardization and Validator (US-041)
+
+### What was implemented
+- Created tests/test_rubric_standards.py (7 tests) — unit tests for validate_rubric_format, reformat_rubric, and compliance report
+- Tool (_tools/rubric-standardizer.py) and template (_reference/standard-rubric-template.md) were already committed from iter 24
+- Only the test file was missing; kept diff minimal (~100 lines)
+
+### Patterns discovered
+- validate_rubric_format uses path.relative_to(ROOT) — temp files need ROOT monkeypatched
+- contextmanager pattern for temporarily swapping module-level ROOT works cleanly in tests
+
+### Gotchas
+- Previous attempt produced 60107-line diff (likely reformatted all PA files) — avoided by only adding the missing test file
+- ruff format broken in this project — do NOT run it
+
 ## Iteration 6 - Story: US-051 (retry pass) Build NOSS Learning Outcome to Assessment Linkage Matrix
 
 ### What was done
@@ -249,4 +264,7 @@ FAILED diff-guard: Tuinalogy Technique Illustration Cross-Reference Indexer (ID:
 - _detect_level() checks path parts for level-4 / level-5 folder names
 ## Iteration 2 - Fri, Apr 17, 2026  6:29:55 PM
 Completed: WIM Document Readability Analyzer (ID: US-040) in 4m
+
+## Iteration 3 - Fri, Apr 17, 2026  7:13:36 PM
+FAILED diff-guard: Assessment Rubric Standardization and Validator (ID: US-041) — 60107 lines > 500 limit — attempt 1/3
 
