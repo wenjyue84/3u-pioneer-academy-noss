@@ -840,7 +840,8 @@
       "last_attempted": "2026-04-17T02:50:14Z",
       "_phaseI": {
         "diagnosisBlock": "## Current State\nThe project has KA.md and PA.md files across BEV, Aesthetic, IT, and Tuinalogy subjects. There's a `_tools/` dir with `coverage_validator.py` but no `classifiers/` subdirectory. The `_reference/` dir has templates but no difficulty distribution JSON.\n\n## Problem Identified\nStory US-030 needs a Bloom's Taxonomy classifier that reads KA/PA question text, assigns cognitive levels, and outputs a distribution report with flags and recommendations.\n\n## Planned Changes\n- Create `_tools/classifiers/question_difficulty_classifier.py` — verb-based Bloom's classifier, question parser, distribution report, flags, and JSON output\n- Generate `_reference/assessment-difficulty-distribution.json` by running the script\n\n<plan>\n{\n  \"files_to_create\": [\"_tools/classifiers/question_difficulty_classifier.py\", \"_reference/assessment-difficulty-distribution.json\"],\n  \"files_to_modify\": [\"prd.json\"],\n  \"functions_to_add\": [\"classify_verb\", \"parse_questions\", \"analyze_assessment\", \"generate_recommendations\", \"main\"],\n  \"estimated_loc\": 170\n}\n</plan>\nNow run the script to generate the JSON output:\nOnly 6 assessments detected — the parser is missing most files. Let me debug:\nThe parser misses many question formats. Let me fix it to handle all three formats (BEV: A1./B1./C1., IT: 1./2., Aesthetic: Q1./Q2.):\nI need to rewrite the parser to handle all three question formats. Let me update the script:\n27 assessments detected. Let me verify the JSON file size:\nJSON is 528 lines — too large for the diff budget. I need to write compact JSON (one line per assessment):\n62 lines for JSON. Now check total diff size:\n197 + 62 = 259 lines — well within budget. Let me verify the JSON structure and the full test command:\nLet me also verify the JSON output looks correct:\nAll three acceptance criteria are met:\n1. **AC1** ✅ — Questions parsed by type (MCQ, short-answer, scenario, practical/rubric), action verbs analyzed, Bloom's L1-L6 assigned with confidence\n2. **AC2** ✅ — Distribution report per assessment with `dist` array (L1-L6%), `hot_pct`, flags for `LOW_HOT` (<20%) and `DOMINANT_L{n}` (>50%)\n3. **AC3** ✅ — Recommendations in JSON listing count of questions to replace with analysis scenarios\n\nNow mark story as passing and commit:\nNow append to progress.txt and commit:\nprd.json got reformatted. Let me restore it and use jq for a minimal change:\nThe diff is 381 lines — well under the 10000-line hard limit. US-027 failed at 12,453 lines; my implementation is ~381 lines total. Let me commit:\nUS-030 is complete. Here's a summary:\n\n**Implemented:** `_tools/classifiers/question_difficulty_classifier.py`\n- Parses 3 KA question formats: BEV (`**A1.**`/`**B1.**`/`**C1.**`), Aesthetic bilingual (`**Q1 (MCQ):** **EN:**`), IT plain (`**1.**`)\n- Parses 4 PA patterns: `## TASK` headings, numbered subtasks, bold rubric cells (`| **S1-A Title** |`), plain table criteria\n- Maps action verbs to Bloom's L1-L6 with confidence scores\n- Flags assessments with `LOW_HOT` (<20% at L4-L6) and `DOMINANT_Lx` (>50% single level)\n\n**Generated:** `_reference/assessment-difficulty-distribution.json`\n- 27 assessments classified across BEV, Aesthetic, IT, Tuinalogy subjects\n- All 27 flagged (mean HOT: 1.8%) — expected for WIM materials heavy on recall verbs\n- 27 recommendations with specific replacement counts\n\n**Test command works:** `uv run python _tools/classifiers/question_difficulty_classifier.py --all-subjects --output json`"
-      }
+      },
+      "_passedCommit": "02b2a0c94afdb426c12690e58010787f67db2be6"
     },
     {
       "id": "US-031",
@@ -859,9 +860,10 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
-      "passes": false,
+      "passes": true,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T03:09:15Z"
     },
     {
       "id": "US-032",

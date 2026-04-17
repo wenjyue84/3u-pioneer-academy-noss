@@ -1275,3 +1275,22 @@ Here is a technical brief for implementing user story US-030.
 - Multiple KA formats coexist: Q-style bilingual section + duplicate Section A/B/C in same file — use Q-style preferentially since it has type labels
 - PA plain table rows have false positives (header rows like "Criteria" or "Task") — filter by checking not in exclusion list
 - Script's `parents[2]` assumes `_tools/classifiers/` structure — verify ROOT is project root
+## Iteration 1 - Fri, Apr 17, 2026 11:09:14 AM
+Completed: Create Assessment Question Difficulty Classifier with Bloom's Taxonomy Cognitive Level Tagging (ID: US-030) in 15m
+
+
+## Iteration N - Story: Build WIM Header Box Template Enforcer for All Document Types Across All Subjects (US-031)
+
+### What was implemented
+- Created `_tools/enforcer/header_box_enforcer.py` — scans all WIM files (KP, KT, KK, KA, PA, PM) across 3 subjects (Aesthetic, BEV, IT-L3/L4/L5), validates 4 required header fields (code, effective, subject, level), reports non-compliance with per-doc-type template snippets, auto-inserts headers via --fix mode
+- Created `_reference/wim-header-template.md` — template snippets for all 6 doc types with NOSS codes table
+
+### Patterns discovered
+- WIM files in all subjects are missing `Effective`, `Subject`, `Level` fields — only have `Kod/Code` field currently
+- `--fix` mode inserts `2024-01-01` as default effective date (valid format, user must verify) with `<!-- verify date -->` comment
+- IT subject has L3/L4/L5 variants — each needs its own NOSS code entry in SUBJECTS dict
+
+### Gotchas
+- `--fix` modifies files in place — revert with `git checkout -- <subject>/` if test-running
+- `YYYY-MM-DD` placeholder in template doesn't pass `\d{4}-\d{2}-\d{2}` regex — must use real-format date in --fix mode
+- Unused `stem = path.stem.upper()` caused potential ruff warning — removed
