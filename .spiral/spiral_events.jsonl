@@ -1066,3 +1066,6 @@
 {"ts":"2026-04-17T04:29:07Z","event":"phase_timeout","run_id":"69e180a1b4","level":"INFO","phase":"I","story_id":"US-036","iteration":10,"duration_ms":901000,"timeout_s":900,"trace_id":"547c60abbc8dca9960b7b3178e9e8aa3","span_id":"20b1f6b1d55a75ab"}
 {"ts":"2026-04-17T04:29:10Z","event":"plan_cache_store","run_id":"69e180a1b4","level":"INFO","story_id":"US-036","plan_key":"f0d8f254c62611169686f81ecb2b158b1d42be25ddc9b1d8e8b5fbc801248102","trace_id":"547c60abbc8dca9960b7b3178e9e8aa3","span_id":"20b1f6b1d55a75ab"}
 {"ts":"2026-04-17T04:29:10Z","event":"plugin_hook","run_id":"69e180a1b4","level":"INFO","plugin":"notify-slack","hook":"post-story","type":"POST","exit_code":0,"duration_s":0,"trace_id":"547c60abbc8dca9960b7b3178e9e8aa3","span_id":"20b1f6b1d55a75ab"}
+{"ts":"2026-04-17T04:40:18Z","event":"plan_cache_miss","story_id":"US-037"}
+{"ts":"2026-04-17T04:40:19Z","event":"anti_pattern_injected","story_id":"US-037","retry":1,"count":1}
+{"ts":"2026-04-17T04:45:21Z","event":"cost_update","story_id":"US-037","tokens_input":23,"tokens_output":7180,"estimated_usd":0.293769}
