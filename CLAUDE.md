@@ -67,6 +67,7 @@ Examples:
 - **Tuinalogy safety:** always preserve 孕期禁忌五穴 (pregnancy contraindications: 合谷 LI4, 三阴交 SP6, 肩井 GB21, 至阴 BL67, 昆仑 BL60) — never recommend these on pregnant clients
 - **Image licensing:** every image in `_assets/` must have an entry in `ATTRIBUTION.md` (CC BY / CC BY-SA / PD only — no arbitrary web scraping)
 - **Log every significant change** to `LOG.md` — append a new dated entry, do not rewrite history
+- **JPK envelope required on every WIM:** every `.md` in a CU folder must begin with the `<!-- JPK_ENVELOPE_v1 -->` block (logo + JPK address + Malay doc-type label + identification table). Spec: `07-jpk-format-spec.md`. Regenerate via `python .claude/skills/wim-jpk-format/scripts/enhance_wim_jpk.py <subject|all>` — idempotent.
 
 ## Build Commands
 

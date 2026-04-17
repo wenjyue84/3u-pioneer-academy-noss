@@ -28,6 +28,7 @@ Follow `00-` through `06-` for project context:
 | 04 | `04-wim-development-process.md` | Step-by-step WIM authoring workflow |
 | 05 | `05-noss-to-wim-mapping.md` | How to map CoCU items to KP/KT/KK |
 | 06 | `06-whatsapp-context.md` | Messages and context from stakeholders |
+| 07 | `07-jpk-format-spec.md` | **JPK envelope spec** — government logo + identification table every WIM must carry |
 | — | `CLAUDE.md` | Agent onboarding instructions |
 | — | `INDEX.md` (this file) | Directory manifest |
 | — | `LOG.md` | Append-only project activity log |
@@ -86,6 +87,8 @@ All Tuinalogy WIM markdown is written in **Simplified Chinese (简体中文)** w
 | `validators/` | Content validators (CoCU coverage, pregnancy check, terminology consistency) |
 | `test-reports/` | Latest validator output reports |
 | `raw/` | **Jennifer's reference WIM samples** — sample JPK-format PDFs from Google Drive |
+| `.claude/skills/wim-jpk-format/` | **JPK envelope skill** — `SKILL.md`, `scripts/enhance_wim_jpk.py`, `scripts/extract_logo.py`, `data/subjects.json` |
+| `<subject>/_assets/logos/jpk-logo.png` | JPK government crest (66 KB) — rendered at top of every WIM |
 
 ## Spiral State (autonomous enhancement loop)
 
