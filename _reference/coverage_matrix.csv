@@ -1,0 +1,154 @@
+Subject,CU,LO_Code,LO_Text,Covered_By,Coverage_Percent
+BEV,C01,LO-C01-01,"BEV rules and regulations: Licensing Legislative, Regulatory requirement, Certification requirement",NONE,0
+BEV,C01,LO-C01-02,"BEV schedule maintenance safety, health and environment guidelines: Provision of a safe and conducive workplace (anti-static flooring, ergonomic), Personal Protective Equipment (PPE)",NONE,0
+BEV,C01,LO-C01-03,"Overview of environmental impact in BEV industry: Guidelines in scheduled waste handling, Guidelines in prescribed activities (environmental impact)",NONE,0
+BEV,C01,LO-C01-04,"Maintenance tools and equipment: Insulated Tools, Common tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C01,LO-C01-05,"Hazard Identification in workshop environment: Definition of hazard, Type of hazard, Threat, Control measure",NONE,0
+BEV,C01,LO-C01-06,"Procedure of schedule waste management: Type of waste, Temporary waste disposal area",NONE,0
+BEV,C01,LO-C01-07,"Procedure for Scheduled maintenance preparation: Equipment list layout, Tool list location, Toolbox talk, Assembly point/emergency route escape",NONE,0
+BEV,C01,LO-C01-08,"BEV health check safety: Safety equipment inside the vehicle, Type of PPE and specification, Condition of BEV equipment or parts",NONE,0
+BEV,C01,LO-C01-09,BEV health check tools and equipment,NONE,0
+BEV,C01,LO-C01-10,"Procedure for BEV component active test: Checklist content, Testing procedure, Component condition",NONE,0
+BEV,C01,LO-C01-11,"Diagnostic test: Function and operating of diagnostic system, Type and category of fault code, Interpret fault code",NONE,0
+BEV,C01,LO-C01-12,Procedure for health check result report,NONE,0
+BEV,C01,LO-C01-13,"BEV maintenance safety: Safety requirement of high voltage system, Condition of BEV parts (HV cable, HV battery pack)",NONE,0
+BEV,C01,LO-C01-14,"Type of BEV and specification: BEV manufacturer, BEV model, Vehicle Identification Number (VIN), Component specification",NONE,0
+BEV,C01,LO-C01-15,"BEV schedule maintenance checklist: Type of maintenance item, Type of maintenance activity",NONE,0
+BEV,C01,LO-C01-16,"BEV maintenance tools and equipment: Insulated Tools, Common tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C01,LO-C01-17,"BEV Maintenance activity: Inspect, Top up, Replace",NONE,0
+BEV,C02,LO-C02-01,"BEV rules and regulation: Licensing Legislative, Regulatory requirement, Certification requirement",NONE,0
+BEV,C02,LO-C02-02,"BMS rectification safety & health requirements: Workplace safety guideline which includes anti-static flooring, BMS required PPE",NONE,0
+BEV,C02,LO-C02-03,"BMS tools and equipment: Insulated Tools, Common tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C02,LO-C02-04,"Hazard Identification in BMS rectification: Definition of hazard, Type of hazard, Threat, Control measure",NONE,0
+BEV,C02,LO-C02-05,"Procedure of schedule waste management: Waste classification, Waste disposal guideline",NONE,0
+BEV,C02,LO-C02-06,"Procedure for BMS rectification workplace preparation: Equipment list layout, Tool list location, Toolbox talks, Assembly point/emergency route escape",NONE,0
+BEV,C02,LO-C02-07,"BEV high voltage cable safety: Safety precaution of high voltage cable, Type of PPE and specification, Condition of BEV equipment or parts",NONE,0
+BEV,C02,LO-C02-08,"High voltage cable replacement tools & equipment: Common tools, Insulated tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C02,LO-C02-09,"BEV low voltage system: Basic principle of Ohm's Law, BEV electrical diagram, Low voltage definition, Fundamental of low voltage circuit, Procedure to disconnecting 12V battery",NONE,0
+BEV,C02,LO-C02-10,"BEV high voltage system: Fundamental of high voltage circuit, BEV standard electric wires colour, BEV bus-bar connection, Specification of electric wires",NONE,0
+BEV,C02,LO-C02-11,"Procedure to disconnecting high voltage circuit: Vehicle key in ""READY"" off mode, Storing of vehicle key in safety box, Understanding high voltage warning signage, Disconnect 12V battery negative terminal technique, Disconnect interlock/service plug connection technique, Storing interlock/service plug in safety box",NONE,0
+BEV,C02,LO-C02-12,"High voltage cable inspection activity and procedure: Cable connector condition, Cable insulation resistance test, Bus-bar insulation resistance test",NONE,0
+BEV,C02,LO-C02-13,"High voltage cable interlock connection: Introduction to interlock function, Continuity inspection, Procedure for interlock connection continuity",NONE,0
+BEV,C02,LO-C02-14,Procedure for high voltage cable replacement,NONE,0
+BEV,C02,LO-C02-15,Procedure for high voltage system functionality test,NONE,0
+BEV,C02,LO-C02-16,"BEV OBC safety: Safety precaution of high voltage cable, Type of PPE and specification, Condition for OBC parts",NONE,0
+BEV,C02,LO-C02-17,"BEV high voltage cable replacement tools and equipment: Common tools, Insulated tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C02,LO-C02-18,"On-board charger: Definition of OBC, OBC cooling system, OBC function, Procedure of OBC inspection",NONE,0
+BEV,C02,LO-C02-19,"BEV low voltage system: Low voltage definition, Basic principle of Ohm's Law, BEV electrical diagram, Procedure to disconnecting 12V battery",NONE,0
+BEV,C02,LO-C02-20,"BEV high voltage system: Fundamental of high voltage circuit, BEV standard electric wires colour, BEV bus-bar connection, Specification of electric wires",NONE,0
+BEV,C02,LO-C02-21,"Procedure to disconnecting high voltage circuit: Vehicle key in ""READY"" off mode, Storing of vehicle key in safety box, Understand high voltage warning signage, Disconnect 12V battery negative terminal technique, Disconnect interlock/service plug connection technique, Storing interlock/service plug in safety box",NONE,0
+BEV,C02,LO-C02-22,"Coolant drainage: Procedure for coolant drainage, Procedure for coolant disposal",NONE,0
+BEV,C02,LO-C02-23,Procedure to disconnecting OBC high voltage cable,NONE,0
+BEV,C02,LO-C02-24,Procedure on BEV OBC diagnosis,NONE,0
+BEV,C02,LO-C02-25,Procedure to replace BEV OBC,NONE,0
+BEV,C02,LO-C02-26,"Procedure to refill high voltage system coolant: Type of coolant, Volume of coolant",NONE,0
+BEV,C02,LO-C02-27,Procedure for OBC high voltage cable functionality test,NONE,0
+BEV,C02,LO-C02-28,"BEV pre-charge control system safety: Safety precaution of pre-charge control system, Type of PPE and its specification, Condition of pre-charge control system parts",NONE,0
+BEV,C02,LO-C02-29,"BEV high voltage cable replacement tools and equipment: Common tools, Insulated tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C02,LO-C02-30,"BEV pre-charge control system inspection: Pre-charge control system component, Procedure for pre-charge system inspection",NONE,0
+BEV,C02,LO-C02-31,"BEV low voltage system: Low voltage definition, Basic principle of Ohm's Law, BEV electrical diagram, Procedure to disconnecting 12V battery",NONE,0
+BEV,C02,LO-C02-32,"BEV high voltage system: Fundamental of high voltage circuit, BEV standard electric wires colour, BEV bus-bar connection, Specification of electric wires",NONE,0
+BEV,C02,LO-C02-33,Procedure to disconnecting high voltage circuit (same sub-items as 2.5),NONE,0
+BEV,C02,LO-C02-34,Procedure to interpret pre-charge control system diagnosis result,NONE,0
+BEV,C02,LO-C02-35,Procedure to replace defective pre-charge control system,NONE,0
+BEV,C02,LO-C02-36,Procedure for BEV pre-charge control system functionality test,NONE,0
+BEV,C02,LO-C02-37,"BEV traction battery pack safety: Safety precaution of traction battery pack servicing, Type of PPE and its specification, Condition for battery pack parts",NONE,0
+BEV,C02,LO-C02-38,"BEV traction battery pack tools and equipment: Insulated Tools, Common tools, Lifting Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C02,LO-C02-39,"Traction battery pack inspection: Traction battery pack component and specification, Procedure to inspect traction battery pack",NONE,0
+BEV,C02,LO-C02-40,BEV low voltage system (same sub-items as previous),NONE,0
+BEV,C02,LO-C02-41,BEV high voltage system (same sub-items as previous),NONE,0
+BEV,C02,LO-C02-42,Procedure to disconnecting high voltage circuit (same sub-items),NONE,0
+BEV,C02,LO-C02-43,"Traction battery coolant drainage: Procedure for coolant drainage, Procedure for coolant disposal activities",NONE,0
+BEV,C02,LO-C02-44,Procedure to remove traction battery pack,NONE,0
+BEV,C02,LO-C02-45,Procedure for battery module system inspection,NONE,0
+BEV,C02,LO-C02-46,Procedure for faulty battery module unit replacement,NONE,0
+BEV,C02,LO-C02-47,"Procedure to refill traction battery coolant: Type of coolant, Volume of coolant",NONE,0
+BEV,C02,LO-C02-48,Procedure for traction battery pack functionality test,NONE,0
+BEV,C02,LO-C02-49,"BEV DC-DC converter replacement safety: Safety precaution of DC-DC converter replacement, Type of PPE and its specification, Condition for DC-DC converter parts or equipment",NONE,0
+BEV,C02,LO-C02-50,"BEV DC-DC converter diagnosis & replacement tools and equipment: Common tools, Insulated tools, Lifting equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C02,LO-C02-51,"BEV DC-DC converter's inspection: DC-DC converter's component and specification, Procedure to inspect DC-DC converter",NONE,0
+BEV,C02,LO-C02-52,Procedure to diagnose BEV DC-DC converter,NONE,0
+BEV,C02,LO-C02-53,"BEV DC-DC converter coolant drainage: Procedure for coolant drainage, Procedure for coolant disposal activities",NONE,0
+BEV,C02,LO-C02-54,BEV low voltage system (same sub-items as previous),NONE,0
+BEV,C02,LO-C02-55,BEV high voltage system (same sub-items as previous),NONE,0
+BEV,C02,LO-C02-56,Procedure to disconnecting high voltage circuit (same sub-items),NONE,0
+BEV,C02,LO-C02-57,Procedure to interpret DC-DC converter unit diagnosis result,NONE,0
+BEV,C02,LO-C02-58,Procedure for faulty DC-DC converter replacement,NONE,0
+BEV,C02,LO-C02-59,"Procedure to refill traction battery coolant: Type of coolant, Volume of coolant",NONE,0
+BEV,C02,LO-C02-60,Procedure for DC-DC converter functionality test,NONE,0
+BEV,C03,LO-C03-01,"BEV rules and regulation: Licensing Legislative, Regulatory requirement, Certification requirement",NONE,0
+BEV,C03,LO-C03-02,"Thermal cooling system safety, health and environment procedures: Workplace safety procedure which includes anti-static flooring, Environmental control - Waste disposal",NONE,0
+BEV,C03,LO-C03-03,"Thermal cooling system tools & equipment: Insulated Tools, Common tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C03,LO-C03-04,"Hazard Identification in BEV thermal cooling system workshop environment: Hazard definition, Type of hazard, Threat, Control measure",NONE,0
+BEV,C03,LO-C03-05,"Procedure of schedule waste management: Type of waste, Temporary waste disposal area",NONE,0
+BEV,C03,LO-C03-06,"Procedure for thermal cooling system rectification workplace preparation: Manpower arrangement, Equipment list layout, Tool list location, Toolbox talk, Assembly point/Emergency escape route",NONE,0
+BEV,C03,LO-C03-07,"BEV cooling system safety: Safety precaution for liquid cooling system servicing, Type of PPE and specification, Condition of liquid cooling system",NONE,0
+BEV,C03,LO-C03-08,"Cooling servicing tools and equipment: Type of common tools, Special tools, Type of Equipment",NONE,0
+BEV,C03,LO-C03-09,"Cooling electric water pumps system: Function Electric water pump, Cooling system diagram, Checking procedure",NONE,0
+BEV,C03,LO-C03-10,"Procedure for cooling leakage, corrosion and clogging checking",NONE,0
+BEV,C03,LO-C03-11,Procedure to replace faulty cooling system component,NONE,0
+BEV,C03,LO-C03-12,Procedure to test cooling system functionality,NONE,0
+BEV,C03,LO-C03-13,BEV HVAC system safety,NONE,0
+BEV,C03,LO-C03-14,"HVAC system servicing tools and equipment: Type of common tools, Special tools, Type of Equipment",NONE,0
+BEV,C03,LO-C03-15,"Fundamental of HVAC system: Function of HVAC Component (Positive Temperature Coefficient (PTC) heater, electric water pump, 3-way valve), HVAC system diagram, HVAC system checking procedure",NONE,0
+BEV,C03,LO-C03-16,Procedure to replace faulty HVAC system,NONE,0
+BEV,C03,LO-C03-17,Procedure to test HVAC system functionality,NONE,0
+BEV,C04,LO-C04-01,"BEV rules and regulation: Licensing Legislative, Regulatory requirement, Certification requirement",NONE,0
+BEV,C04,LO-C04-02,"BEV electric drive train rectification safety, health and environment: Workplace safety procedure which includes anti-static flooring, Personal Protective Equipment (PPE), Environmental impact for prescribed activity",NONE,0
+BEV,C04,LO-C04-03,"BEV electric drive train system tools and equipment: Insulated Tools, Common tools, Special service tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C04,LO-C04-04,"Hazard Identification in electric drive train system workshop environment: Definition of hazard, Type of hazard, Threat, Control measure",NONE,0
+BEV,C04,LO-C04-05,"Procedure of schedule waste management: Type of waste, Temporary waste disposal area",NONE,0
+BEV,C04,LO-C04-06,"Procedure for BEV electric drive train system rectification workplace preparation: Equipment list, Tools list, Toolbox talks, Assembly point/emergency escape route",NONE,0
+BEV,C04,LO-C04-07,"BEV inverter unit replacement safety requirements: Safety precaution for inverter unit replacement, Type of PPE and specification, Condition of BEV inverter unit parts",NONE,0
+BEV,C04,LO-C04-08,"BEV inverter unit tools and equipment: Insulated Tools, Common tools, Special service tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C04,LO-C04-09,"BEV inverter unit functionality: Understanding of inverter components and functions, Inverter inspection and diagnostic procedure",NONE,0
+BEV,C04,LO-C04-10,"BEV Inverter unit diagnostic test: Function and operating of diagnostic system, Type and category of fault code, Interpret fault code",NONE,0
+BEV,C04,LO-C04-11,"BEV low voltage system: Basic principle of Ohm's Law, BEV electrical diagram, Low voltage definition, Fundamental of low voltage circuit, Procedure to disconnecting 12V battery",NONE,0
+BEV,C04,LO-C04-12,"BEV high voltage system: Fundamental of high voltage circuit, BEV standard electric wires colour, BEV bus-bar connection, Specification of electric wires",NONE,0
+BEV,C04,LO-C04-13,Procedure to disconnecting high voltage circuit (same sub-items),NONE,0
+BEV,C04,LO-C04-14,"BEV liquid cooling system: Type of coolant, Cooling system diagram, Draining procedure, Schedule waste management procedure",NONE,0
+BEV,C04,LO-C04-15,Procedure to replace faulty inverter unit,NONE,0
+BEV,C04,LO-C04-16,"BEV coolant refill procedure: Type of coolant, Volume of coolant, Bleeding",NONE,0
+BEV,C04,LO-C04-17,Procedure to test inverter unit functionality,NONE,0
+BEV,C04,LO-C04-18,"BEV traction motor replacement safety: Safety precaution of BEV traction motor replacement, Type of PPE and its specification, Condition of traction motor parts",NONE,0
+BEV,C04,LO-C04-19,"BEV traction motor replacement tools and equipment: Insulated Tools, Common tools, Special service tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C04,LO-C04-20,"BEV traction motor functionality: Understanding of traction motor component and function, Traction motor inspection procedure",NONE,0
+BEV,C04,LO-C04-21,"Traction motor diagnostic test: Function and operating of diagnostic system, Type and category of Fault code, Interpret fault code",NONE,0
+BEV,C04,LO-C04-22,BEV low voltage system (same sub-items),NONE,0
+BEV,C04,LO-C04-23,"BEV high voltage circuit: Fundamental of high voltage circuit, BEV standard electric wires colour, BEV bus-bar connection, Specification of electric wires",NONE,0
+BEV,C04,LO-C04-24,"Procedure to disconnecting high voltage circuit (same sub-items, includes disconnect interlock connection technique)",NONE,0
+BEV,C04,LO-C04-25,"BEV coolant drainage: Type of coolant, Coolant system diagram, Draining procedure, Schedule waste management procedure",NONE,0
+BEV,C04,LO-C04-26,Procedure for faulty traction motor unit replacement,NONE,0
+BEV,C04,LO-C04-27,"BEV coolant refill: Type of coolant, Filling quantity, Bleeding, Refill procedure",NONE,0
+BEV,C04,LO-C04-28,Procedure for traction motor functionality test,NONE,0
+BEV,C04,LO-C04-29,"BEV motorised transaxle replacement safety: Safety precaution for motorised transaxle servicing, Type of PPE and specification, Condition of motorised transaxle parts",NONE,0
+BEV,C04,LO-C04-30,"BEV motorised transaxle replacement tools and equipment: Insulated Tools, Common tools, Special service tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C04,LO-C04-31,"BEV motorised transaxle functionality: Understanding of motorised transaxle component and function, Motorised transaxle inspection procedure",NONE,0
+BEV,C04,LO-C04-32,Procedure for motorised transaxle diagnostic test,NONE,0
+BEV,C04,LO-C04-33,"BEV low voltage system: Basic principle of Ohm's Law, BEV electrical diagram, Low voltage definition, Fundamental of low voltage circuit, Procedure to disconnecting 12V battery",NONE,0
+BEV,C04,LO-C04-34,"BEV high voltage system: Fundamental of high voltage circuit, BEV standard electric wires colour, BEV bus-bar connection, Specification of electric wires",NONE,0
+BEV,C04,LO-C04-35,Procedure to disconnecting high voltage circuit (same sub-items),NONE,0
+BEV,C04,LO-C04-36,"Transaxle lubricant drainage: Procedure to drain transaxle lubricant, Scheduled waste management",NONE,0
+BEV,C04,LO-C04-37,Procedure for faulty transaxle replacement,NONE,0
+BEV,C04,LO-C04-38,"Procedure to refill transaxle lubricant: Type of lubricant, Filling quantity, Filling procedure",NONE,0
+BEV,C04,LO-C04-39,Procedure to test motorised transaxle functionality,NONE,0
+BEV,C04,LO-C04-40,"BEV integrated brake control system safety: Safety precaution for integrated brake control system, Type of PPE use and its specification, Condition of integrated brake control system parts",NONE,0
+BEV,C04,LO-C04-41,"BEV brake control system diagnosis & replacement tools and equipment: Insulated Tools, Common tools, Special service tools, Equipment, Dedicated BEV work bay which includes anti-static flooring",NONE,0
+BEV,C04,LO-C04-42,"BEV integrated brake control system functionality: Understanding of integrated brake control system component and function, Integrated brake control system inspection procedure",NONE,0
+BEV,C04,LO-C04-43,Procedure for Integrated brake control system diagnostic test,NONE,0
+BEV,C04,LO-C04-44,"BEV low voltage system: Basic principle of Ohm's Law, BEV electrical diagram, Low voltage definition, Fundamental of low voltage circuit, Procedure to disconnecting 12V battery",NONE,0
+BEV,C04,LO-C04-45,Procedure for faulty integrated brake control component replacement,NONE,0
+BEV,C04,LO-C04-46,Procedure to test integrated brake control system,NONE,0
+BEV,C05,LO-C05-01,"BEV small group communication: Technique, Content, Procedure, Attendance List",NONE,0
+BEV,C05,LO-C05-02,"Work activities briefing: Highlight safety requirement, Environment requirements, Work progress, New assignment, Service information update",NONE,0
+BEV,C05,LO-C05-03,"Daily briefing feedback/response report: Update job control board, Follow up work status",NONE,0
+BEV,C05,LO-C05-04,"Subordinate performance appraisal method: Format, Contents, Share to communication channel (hardcopy & softcopy)",NONE,0
+BEV,C05,LO-C05-05,"Overview on Subordinates' performance evaluation criteria: Attitude, Skills, Knowledge, Productivity & efficiency",NONE,0
+BEV,C05,LO-C05-06,"Performance improvement technique: On job training, Refresher course, Counselling",NONE,0
+BEV,C05,LO-C05-07,"Subordinates' performance report: Evaluation form, Counselling form, Training nomination form",NONE,0
+BEV,C05,LO-C05-08,"BEV Training Needs Identification (TNI): BEV related training program, Skill chart, BEV Service Information update",NONE,0
+BEV,C05,LO-C05-09,"BEV Training Needs Analysis (TNA): Skills matrix chart, TNA form, Training program availability",NONE,0
+BEV,C05,LO-C05-10,"Arrange subordinate's training: Training Plan (TP), Training location, Training provider, Training notification",NONE,0
+BEV,C05,LO-C05-11,"BEV safety, health, and environment: Employer and employee responsibility, Workplace safety and health, Waste management",NONE,0
+BEV,C05,LO-C05-12,"BEV safety, health and environment awareness: Basic of safety, health and environment (Proper BEV PPE, Workplace hazard, Accident prevention), Basic of waste disposal procedure (storage, segregation, tagging, signage etc.), Workshop best practice (Do's and Don'ts), Emergency response (First Aid training, firefighting technique, safety hooks)",NONE,0
+BEV,C05,LO-C05-13,"BEV safety, health, and environment finding report contents: Format and contents of safety, health, and environment finding report, Risk assessment report (photo, time and date, Recommendation)",NONE,0
