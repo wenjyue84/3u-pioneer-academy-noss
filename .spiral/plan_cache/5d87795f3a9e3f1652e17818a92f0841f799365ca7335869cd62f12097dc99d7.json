@@ -1,0 +1,11 @@
+{
+  "story_id": "US-037",
+  "story_title": "BEV Diagnostic Fault Code Scenario Generator",
+  "key_source": "ai-example|bev|diagnostic|fault|medium|",
+  "stored_ts": 1776402005.0370445,
+  "plan": {
+    "story_id": "US-037",
+    "duration_s": 1800,
+    "model": "unknown"
+  }
+}

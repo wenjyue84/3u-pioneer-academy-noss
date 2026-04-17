@@ -809,7 +809,8 @@
       "last_attempted": "2026-04-17T04:54:40Z",
       "_phaseI": {
         "diagnosisBlock": "## Current State\nImplementation already exists from a prior attempt — both `validators/kk_safety_checkpoint_validator.py` and `tests/test_kk_safety_validator.py` are present and all 7 tests pass.\n\n## Problem Identified\nStory was left with `passes: false` after prior attempt. All acceptance criteria are met.\n\n## Planned Changes\n- Update `prd.json` to mark US-028 `passes: true`\n- Append iteration learnings to `progress.txt`\n- Commit\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"prd.json\", \"progress.txt\"],\n  \"functions_to_add\": [],\n  \"estimated_loc\": 10\n}\n</plan>\nUS-028 is complete. The implementation was already present from a prior attempt:\n\n- **`validators/kk_safety_checkpoint_validator.py`** — `REQUIRED_CHECKPOINTS` for BEV (5 checkpoints: PPE, insulation test, ground continuity, HV isolation, LOTO) and Aesthetic (5 checkpoints: hygiene, contraindication screening, client comfort, patch test, equipment sterilisation), plus HTML report generation with risk levels and NOSS references.\n- **`tests/test_kk_safety_validator.py`** — 7 tests all pass, including `test_detect_missing_hv_safety_checkpoints` which confirms 8 missing checkpoints (5 BEV + 3 Aesthetic) in seeded test files.\n- `prd.json`: `passes: true` set for US-028."
-      }
+      },
+      "_passedCommit": "ff97b68a20d0b39e92e95e0c21df55f8c6d08058"
     },
     {
       "id": "US-029",
@@ -829,7 +830,8 @@
       "estimatedComplexity": "small",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T04:57:45Z"
     },
     {
       "id": "US-030",
