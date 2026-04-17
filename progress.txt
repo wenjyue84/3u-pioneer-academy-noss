@@ -161,3 +161,21 @@ FAILED diff-guard: Create BEV Battery Management System Architecture Reference G
 
 ### Gotchas
 - None; clean pass on first verification
+## Iteration 2 - Fri, Apr 17, 2026  5:14:12 PM
+Completed: Create Assessment Question Bank Indexer with Full-Text Search and Competency Tagging (ID: US-029) in 2m
+
+
+## Iteration N - Story: Implement Training Hours Distribution Validator (US-035)
+
+### What was implemented
+- scripts/validate_training_distribution.py: Multi-pattern duration parser for 4 subjects (aesthetic, BEV, IT, tuinalogy), K/P split calculator, compliance report, .spiral/monitor integration
+- tests/test_training_hours_validator.py: 18 tests — unit tests for each duration format, compliance logic, integration scans
+
+### Patterns discovered
+- Duration headers use 4 different formats: table row (Aesthetic/IT), inline bold (Aesthetic C04+), BEV "## Total..." with minutes, Tuinalogy Chinese "**时数：** N 小时"
+- importlib.util module_from_spec requires registering in sys.modules before exec when module uses @dataclass
+- BEV PM files store session-level minutes (not full CU hours), so BEV shows drift warnings — this is a data issue, not a script bug
+
+### Gotchas
+- sys.modules registration required: add `sys.modules["module_name"] = vtd` before `spec.loader.exec_module(vtd)` when loading modules with @dataclass via importlib
+- Aesthetic C03+ use `**Theory Duration:**` with colon inside bold — regex must be `Theory\s+Duration[*:]{0,3}` not `\*{1,2}...\*{1,2}`
