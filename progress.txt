@@ -1,0 +1,11 @@
+## Iteration 5 - Story: US-051 Build NOSS Learning Outcome to Assessment Linkage Matrix
+
+### What was implemented
+- Created `_tools/learning_outcome_mapper.py` (90 lines) with 3 functions
+- Created `_tools/test_learning_outcome_mapper.py` (87 lines) with 5 pytest tests
+- Generates `_reference/coverage_matrix.csv` when run
+
+### Patterns discovered
+- NOSS extract has one Learning Outcome per CU (not per WA), pattern: `**CU Code:**` followed by `**Learning Outcomes:**`
+- KA.md files currently have no `<!-- LO-xxx -->` tags — tool correctly reports 0% coverage as gaps
+- Keep new files compact to stay under 500-line diff limit
