@@ -1,21 +1,4 @@
 {
-  "passed_count": 38,
-  "timestamp": "2026-04-17T08:54:57.745649+00:00",
-  "kp_ratio_health": {
-    "timestamp": "2026-04-17T09:21:14.133225+00:00",
-    "cumulative_knowledge_pct": 30.3,
-    "target_pct": 30.0,
-    "compliant_range": [
-      25.0,
-      35.0
-    ],
-    "non_compliant_cus": [
-      "bev/C01",
-      "bev/C02",
-      "bev/C03",
-      "bev/C04",
-      "bev/C05"
-    ],
-    "status": "drift"
-  }
+  "passed_count": 41,
+  "timestamp": "2026-04-17T09:27:59.556698+00:00"
 }

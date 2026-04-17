@@ -1264,3 +1264,7 @@
 {"ts":"2026-04-17T09:14:12Z","event":"story_passed","storyId":"US-029","retryCount":0,"model":"sonnet"}
 {"ts":"2026-04-17T09:14:18Z","event":"plan_cache_miss","story_id":"US-035"}
 {"ts":"2026-04-17T09:22:42Z","event":"cost_update","story_id":"US-035","tokens_input":43,"tokens_output":16193,"estimated_usd":0.243024}
+{"ts":"2026-04-17T09:22:59Z","event":"scope_guard","story_id":"US-035","result":"skip","reason":"empty_filesTouch"}
+{"ts":"2026-04-17T09:23:20Z","event":"story_passed","storyId":"US-035","retryCount":0,"model":"sonnet"}
+{"ts":"2026-04-17T09:23:30Z","event":"plan_cache_miss","story_id":"US-038"}
+{"ts":"2026-04-17T09:28:57Z","event":"cost_update","story_id":"US-038","tokens_input":22,"tokens_output":12478,"estimated_usd":0.187236}
