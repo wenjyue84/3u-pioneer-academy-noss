@@ -1801,3 +1801,19 @@ This is a standalone Python scripting task, not a Frappe application task. The u
 ### Gotchas
 - Hyphenated tool filenames (audit-regulatory-compliance.py) cannot be imported with standard `import`; use importlib.util
 - Tests use tempfile.NamedTemporaryFile to avoid touching actual project files
+
+## Iteration 13 - Story: US-046 Malaysian T&CM Regulatory Compliance Audit Tool
+
+### What was implemented
+- tuinalogy-services/_reference/regulatory-compliance-matrix.md: 4 regulations × 15 sections with keywords, required coverage, verification points
+- tools/audit-regulatory-compliance.py: CLI tool parsing matrix, scanning 35+ .md docs, outputting CSV with [Regulation|Section|Required Coverage|Files Addressing|Status|Recommendation]
+- tests/test_regulatory_audit.py: 14 pytest tests covering parse_compliance_matrix, files_matching_keywords, generate_report, write_csv
+
+### Patterns discovered
+- All 3 files were already present from a prior failed attempt (US-046 previous run)
+- The test file used `from audit_regulatory_compliance import ...` (underscores) but tool file uses hyphens — test was already fixed with importlib.util to load hyphenated filename
+- Audit result: 15/15 regulation sections Compliant, 0 Critical gaps, 0 Medium gaps
+
+### Gotchas
+- Python cannot import modules with hyphens via normal import; must use importlib.util.spec_from_file_location
+- Test already had this fix in the latest version — iteration just needed to run and verify passes=True
