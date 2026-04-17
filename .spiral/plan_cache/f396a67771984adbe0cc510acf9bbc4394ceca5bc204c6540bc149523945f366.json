@@ -1,0 +1,11 @@
+{
+  "story_id": "US-039",
+  "story_title": "Assessment Question Time-Box Validator",
+  "key_source": "ai-example|assessment|question|time-box|small|",
+  "stored_ts": 1776419736.1717048,
+  "plan": {
+    "story_id": "US-039",
+    "duration_s": 901,
+    "model": "unknown"
+  }
+}
