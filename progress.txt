@@ -2039,3 +2039,54 @@ Based on the user story `US-047`, here is the technical brief for the implementa
 ### Gotchas
 - Avoid touching content files when the validator already passes — fixing "deviations" that don't exist inflates diff size
 - The 500-line diff limit means large content stories (80+ terms) need careful scoping
+## Iteration 2 - Fri, Apr 17, 2026  3:36:30 PM
+FAILED diff-guard: Tuinalogy TCM Theory Bilingual Terminology Index (ID: US-047) — 5388 lines > 500 limit — attempt 1/3
+
+
+## Pre-analysis for US-047 (Gemini 2.5 Pro)
+Based on the user story `US-047`, here is the technical brief for the implementation agent.
+
+**Clarification:** This user story does not involve a Frappe application. The tasks are confined to creating a standalone Python script and a Markdown documentation file within the existing project structure.
+
+---
+
+### **Technical Brief: US-047 - TCM Terminology Index**
+
+**1. Python Files to Create/Modify:**
+*   **Create New:** `tools/validate-terminology.py`. This is a new, standalone command-line script.
+*   **Modify Existing:** No existing *Python* files will be modified. The script will be used to find and report deviations in ~35 non-Python content files (`.md`, `.txt`, etc.) within the `tuinalogy-services/` directory, which will then need to be manually or programmatically corrected.
+
+**2. Frappe DocTypes / Hooks Involved:**
+*   None. This is not a Frappe task. The implementation should not involve any DocTypes, controllers, or framework hooks. All work is based on direct file system I/O.
+
+**3. Recommended Implementation Approach:**
+*   **Terminology Index:** Create `tuinalogy-services/_reference/tcm-terminology-index.md`. This file will contain a single Markdown table with the columns: `[Chinese] | [English] | [Malay] | [NOSS Reference] | [Frequency]`.
+*   **Validation Script (`tools/validate-terminology.py`):**
+    *   Use Python's `argparse` to accept command-line arguments: the index file path, the content directory to scan, and an output file path.
+    *   Read the markdown index and parse the table to build a canonical set of allowed terms.
+    *   Recursively scan the content directory for files.
+    *   For each file, read its content and use regex to find terms that deviate from the canonical set.
+    *   Write any deviations found to the specified output file, including the file name and line number.
+
+**4. Edge Cases & Gotchas:**
+*   **Character Encoding:** All file reading/writing must explicitly use `encoding='utf-8'` to handle Chinese and Malay characters correctly.
+*   **Term Normalization:** The check for ">1 character variant" can be implemented by normalizing both the canonical term and the found term (e.g., removing all spaces and hyphens) before comparison.
+*   **Test Command:** The provided test command `[ ! -s term-deviations.txt ]` is for Unix-based shells. It will not work on Windows. An equivalent check will be needed if running on Windows.
+
+
+## Iteration 17 - Story: US-047 Tuinalogy TCM Theory Bilingual Terminology Index (PASSED)
+
+### What was implemented
+- Rewrote tools/validate-terminology.py: replaced Levenshtein sliding-window with separator-insertion regex
+- Old approach: 192 false positives from CJK text without word boundaries
+- New approach: regex per term matching chars with optional separators between them, 0 false positives
+- Index (113 terms, 6 categories) was already committed in 0c5ab28; only validator logic changed
+
+### Patterns discovered
+- CJK terminology validation must NOT use edit distance — no word boundaries means everything nearby matches
+- Separator-insertion regex (char[sep]*char) is the right pattern for detecting corrupted CJK terms
+- Diff budget: 146 lines (50+96) vs 500 limit — minimal changes to validator only
+
+### Gotchas
+- Previous 2 attempts both exceeded 500-line diff limit by touching content files or producing large rewrites
+- The fix was surgical: only change the detection function, keep everything else (index, main, CLI) unchanged
