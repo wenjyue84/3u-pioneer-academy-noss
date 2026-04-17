@@ -1,0 +1,22 @@
+[
+  {"fault_code":"P0A80","component":"Battery Pack","symptoms":["reduced range","warning light"],"diagnosis_steps":["Read DTC","Check cell voltages","Inspect connections"],"relevant_kps":["C01/KP-01","C01/KP-02"]},
+  {"fault_code":"P0A7F","component":"Battery Pack","symptoms":["intermittent shutdown","thermal warning"],"diagnosis_steps":["Read DTC","Check coolant temp","Inspect thermal paste"],"relevant_kps":["C01/KP-01","C01/KP-03"]},
+  {"fault_code":"P0A1F","component":"BMS","symptoms":["SOC inaccurate","charge stops early"],"diagnosis_steps":["Calibrate BMS","Check voltage sensors","Update firmware"],"relevant_kps":["C01/KP-02","C01/KP-03"]},
+  {"fault_code":"P0A09","component":"BMS","symptoms":["no regen braking","fault light"],"diagnosis_steps":["Read DTC","Check current sensor","Inspect BMS harness"],"relevant_kps":["C01/KP-02"]},
+  {"fault_code":"P0A0D","component":"HV Battery","symptoms":["isolation fault","HV warning"],"diagnosis_steps":["Measure isolation resistance","Inspect HV cables","Check connectors"],"relevant_kps":["C01/KP-01","C02/KP-01"]},
+  {"fault_code":"P0A3F","component":"DC-DC Converter","symptoms":["12V battery drain","accessory failure"],"diagnosis_steps":["Check 12V output","Inspect converter","Test input voltage"],"relevant_kps":["C02/KP-02","C02/KP-03"]},
+  {"fault_code":"P0A78","component":"Drive Motor","symptoms":["reduced power","vibration"],"diagnosis_steps":["Read DTC","Check phase resistance","Inspect bearings"],"relevant_kps":["C02/KP-01","C02/KP-04"]},
+  {"fault_code":"P0A7A","component":"Motor Controller","symptoms":["torque fluctuation","overtemp"],"diagnosis_steps":["Read DTC","Check coolant flow","Inspect IGBT module"],"relevant_kps":["C02/KP-04","C02/KP-05"]},
+  {"fault_code":"P0A94","component":"Inverter","symptoms":["no drive","fault code stored"],"diagnosis_steps":["Read DTC","Check DC bus voltage","Test gate drivers"],"relevant_kps":["C02/KP-03","C02/KP-05"]},
+  {"fault_code":"P0AA6","component":"HV Contactor","symptoms":["no HV present","click no engage"],"diagnosis_steps":["Check coil voltage","Measure contact resistance","Inspect precharge"],"relevant_kps":["C02/KP-01","C02/KP-06"]},
+  {"fault_code":"P0A05","component":"Motor Temp Sensor","symptoms":["derating","false overtemp"],"diagnosis_steps":["Check sensor resistance","Compare with IR temp","Replace sensor"],"relevant_kps":["C02/KP-04","C03/KP-01"]},
+  {"fault_code":"P0ACB","component":"Thermal Management","symptoms":["battery overtemp","fan always on"],"diagnosis_steps":["Check coolant level","Inspect pump operation","Clean radiator"],"relevant_kps":["C03/KP-01","C03/KP-02"]},
+  {"fault_code":"P0A1A","component":"Thermal Management","symptoms":["slow charge in cold","preconditioning fail"],"diagnosis_steps":["Check heater circuit","Inspect PTC heater","Test thermostat"],"relevant_kps":["C03/KP-01","C03/KP-03"]},
+  {"fault_code":"P0AFA","component":"Onboard Charger","symptoms":["no AC charge","charger fault light"],"diagnosis_steps":["Check AC input","Test charger output","Inspect pilot signal"],"relevant_kps":["C02/KP-06","C03/KP-02"]},
+  {"fault_code":"P0A12","component":"Charging System","symptoms":["slow DC charge","connector overtemp"],"diagnosis_steps":["Check connector pins","Measure charge current","Inspect cooling"],"relevant_kps":["C02/KP-06","C03/KP-02"]},
+  {"fault_code":"P0AE0","component":"Regen Braking","symptoms":["no regen","brake feel change"],"diagnosis_steps":["Check motor controller","Test brake sensor","Inspect wiring"],"relevant_kps":["C02/KP-05","C03/KP-03"]},
+  {"fault_code":"P0A63","component":"HV Interlock","symptoms":["service disconnect active","no HV"],"diagnosis_steps":["Check interlock loop","Inspect MSD","Test continuity"],"relevant_kps":["C01/KP-03","C02/KP-01"]},
+  {"fault_code":"P0A7E","component":"Cell Balancing","symptoms":["reduced capacity","uneven SOC"],"diagnosis_steps":["Check cell voltages","Run balance cycle","Replace weak cells"],"relevant_kps":["C01/KP-01","C01/KP-02"]},
+  {"fault_code":"P0B3C","component":"HV Wiring","symptoms":["intermittent fault","arc damage"],"diagnosis_steps":["Visual inspect HV cables","Megger test insulation","Check torque specs"],"relevant_kps":["C02/KP-01","C02/KP-02"]},
+  {"fault_code":"P0ADB","component":"Coolant Pump","symptoms":["overtemp warning","pump noise"],"diagnosis_steps":["Check pump voltage","Measure flow rate","Inspect impeller"],"relevant_kps":["C03/KP-01","C03/KP-02"]}
+]
