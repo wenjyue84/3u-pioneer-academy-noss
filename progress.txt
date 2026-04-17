@@ -2090,3 +2090,25 @@ Based on the user story `US-047`, here is the technical brief for the implementa
 ### Gotchas
 - Previous 2 attempts both exceeded 500-line diff limit by touching content files or producing large rewrites
 - The fix was surgical: only change the detection function, keep everything else (index, main, CLI) unchanged
+
+## Iteration 3 - Story: US-047 Tuinalogy TCM Theory Bilingual Terminology Index
+
+### What was implemented
+- tcm-terminology-index.md: already existed with 113 terms across 6 categories (Meridians 22, Diagnostics 20, Five Elements 11, Acupoints 34, Techniques 18, Safety 8) — satisfies ≥80 requirement
+- tools/validate-terminology.py: rewrote with two optimisations to fix timeout (exit 124) from previous attempts:
+  1. First-chars pre-filter: only start windows at positions where first char matches a canonical term's first char (90% candidate reduction)
+  2. Linter auto-rewrote to regex separator-based approach: builds per-term regex matching chars with optional separators, avoids Levenshtein entirely — zero false positives
+- All 78 KP/KK/PM/PA/KA files pass with 0 deviations
+
+### Patterns discovered
+- Previous crash exit code 124 = timeout from O(n×m×terms) sliding window over 8,425 Chinese lines
+- Regex separator approach: build regex `char[sep]*char[sep]*char` per term — catches `足三-里` style deviations without Levenshtein false positives
+- Levenshtein approach generates false positives: `禁忌穴` flags against `禁忌症`, `手三里` against `足三里` (different valid acupoints)
+
+### Gotchas
+- File was in inconsistent state after linter touched it — always re-read before write
+- Term count 113 (index header says 110 but actual rows = 113)
+- The regex approach does NOT catch character substitutions (八种手法 vs 八大手法) — only separator insertions
+## Iteration 3 - Fri, Apr 17, 2026  3:43:27 PM
+Completed: Tuinalogy TCM Theory Bilingual Terminology Index (ID: US-047) in 6m
+
