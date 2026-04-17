@@ -956,3 +956,61 @@ Completed: Create Aesthetic C03 Knowledge Assessment with Manual Technique Compe
 - Aesthetic `### CU1: ... (S960-002-3:2020-C01)` regex must match the trailing `(code)` format exactly
 - The `| WA N: Title |` pattern must use `(.+?)` lazy to stop at first `|` delimiter
 - tests/ directory did not exist — created it with mkdir
+
+## Pre-analysis for US-022 (Gemini 2.5 Pro)
+Here is the technical brief for user story US-022.
+
+### Technical Brief: US-022 Competency-to-Assessment Validator
+
+**Objective:** Implement a Python CLI tool to validate the mapping of NOSS competencies to WIM instructional documents, reporting any coverage gaps based on a central JSON matrix.
+
+**Primary Files to Create:**
+*   `_data/coverage_matrix.json`: The JSON data source defining required mappings between NOSS work activities/knowledge and WIM document files (KK, KP, KA, PA).
+*   `_tools/coverage_validator.py`: The core Python script with validation logic and a CLI interface.
+*   `tests/test_coverage_validator.py`: Unit tests for the validator script.
+
+**Frappe DocTypes / Hooks:**
+*   This tool is a standalone file-system validator and does not directly interact with any Frappe DocTypes or `hooks.py`. It ensures content integrity before potential data import.
+
+**Recommended Implementation:**
+1.  **CLI:** Use Python's `argparse` in `coverage_validator.py` to accept `--subject` and `--output` arguments.
+2.  **Logic:**
+    *   Load and parse the `_data/coverage_matrix.json` file.
+    *   Based on the `--subject` argument, scan the corresponding content folders (e.g., `bev-diagnostic-rectification/`) using `pathlib` to find all existing WIM files.
+    *   Compare the matrix requirements against the found files, identifying any mappings where the specified document is missing.
+    *   Generate a human-readable gap report listing all "Not Covered" items.
+3.  **CI Integration:** The script should exit with a non-zero status code if validation fails to halt the CI/CD pipeline.
+
+**Edge Cases & Gotchas:**
+*   The script must handle the `--subject all` case by iterating through all relevant subject directories.
+*   File path handling should be robust (using `pathlib` is recommended).
+*   The definition of "covered" is strict: the file specified in the matrix must exist at the expected path.
+
+
+## Iteration 2 - Story: US-022 Build Automated Competency-to-Assessment Cross-Reference Matrix with Coverage Validation Tool
+
+### What was implemented
+- Created _data/coverage_matrix.json: Full JSON matrix for all 3 subjects (BEV, Aesthetic, IT)
+  - BEV: 5 CUs, 21 WAs, 21 KK, 21 KP, 10 assessments = 52 mapped documents
+  - Aesthetic: 8 CUs (C01-C07 + E01), 54 WAs, 54 KK, 48 KP, 16 assessments = 118 documents
+  - IT: 4 CUs (L3-C01 to L3-C04), 7 WAs + 7 KK + 7 KP (C01 only), 4 KA + 1 PA = 19 documents
+- Created _tools/coverage_validator.py: CLI validator with argparse
+  - --subject [BEV|Aesthetic|IT|all], --output <file>, --root override
+  - Checks file existence for WA→KK, RK→KP, and KA/PA assessments
+  - Exits with code 1 if gaps found, 0 if fully covered
+  - Text report with coverage % and "Not Covered" list per subject
+- Created tests/test_coverage_validator.py: 3 tests (all pass in 1.17s)
+  - test_no_unmapped_activities: BEV shows zero gaps (100% coverage)
+  - test_all_subjects_run_without_error: --subject all works for all 3
+  - test_coverage_report_format: validates report contains required sections
+
+### Patterns discovered
+- All 3 subjects are 100% covered: BEV 52/52, Aesthetic 118/118, IT 19/19
+- Aesthetic C04 (Body Electrotherapy) has 10 WAs but only 5 KP files — correct, each KP covers a knowledge module
+- IT NOSS extract has no explicit WA codes; L3-C02/C03/C04 have only KA (no KK/KP/PA)
+- IT-020-3:2013 WA codes were derived synthetically from file structure (no NOSS WA table available)
+
+### Gotchas
+- SPIRAL_MAX_DIFF_LINES=10000 in this project — no practical diff limit
+- Tests use sys.executable (not uv) to avoid uv overhead in subprocess calls
+- JSON matrix uses compact single-line object entries per WA/RK for readability

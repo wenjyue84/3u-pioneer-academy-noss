@@ -1,0 +1,308 @@
+{
+  "BEV": {
+    "noss_code": "G452-010-3:2023",
+    "folder": "bev-diagnostic-rectification",
+    "CUs": {
+      "C01": {
+        "title": "Perform BEV Scheduled Maintenance",
+        "work_activities": [
+          {"noss_code": "G452-010-3:2023-C01-W01", "title": "BEV Schedule Maintenance Workplace Preparation", "kk_file": "C01/KK-01.md"},
+          {"noss_code": "G452-010-3:2023-C01-W02", "title": "BEV Health Check Activities", "kk_file": "C01/KK-02.md"},
+          {"noss_code": "G452-010-3:2023-C01-W03", "title": "BEV Maintenance Activities", "kk_file": "C01/KK-03.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "G452-010-3:2023-C01-RK01", "title": "BEV Rules, Regulations and Safety", "kp_file": "C01/KP-01.md"},
+          {"noss_code": "G452-010-3:2023-C01-RK02", "title": "BEV Health Check Procedures", "kp_file": "C01/KP-02.md"},
+          {"noss_code": "G452-010-3:2023-C01-RK03", "title": "BEV Scheduled Maintenance Procedures", "kp_file": "C01/KP-03.md"}
+        ],
+        "assessments": {"KA": "C01/KA.md", "PA": "C01/PA.md"}
+      },
+      "C02": {
+        "title": "Perform Battery Management System (BMS) Rectification",
+        "work_activities": [
+          {"noss_code": "G452-010-3:2023-C02-W01", "title": "BMS Rectification Workplace Preparation", "kk_file": "C02/KK-01.md"},
+          {"noss_code": "G452-010-3:2023-C02-W02", "title": "BEV High Voltage Cable Replacement", "kk_file": "C02/KK-02.md"},
+          {"noss_code": "G452-010-3:2023-C02-W03", "title": "BEV On-Board Charger (OBC) Replacement", "kk_file": "C02/KK-03.md"},
+          {"noss_code": "G452-010-3:2023-C02-W04", "title": "BEV Pre-Charge Control System Servicing", "kk_file": "C02/KK-04.md"},
+          {"noss_code": "G452-010-3:2023-C02-W05", "title": "BEV Traction Battery Pack Replacement", "kk_file": "C02/KK-05.md"},
+          {"noss_code": "G452-010-3:2023-C02-W06", "title": "BEV DC-DC Converter Replacement", "kk_file": "C02/KK-06.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "G452-010-3:2023-C02-RK01", "title": "BMS Components and Safety", "kp_file": "C02/KP-01.md"},
+          {"noss_code": "G452-010-3:2023-C02-RK02", "title": "High Voltage Cable Systems", "kp_file": "C02/KP-02.md"},
+          {"noss_code": "G452-010-3:2023-C02-RK03", "title": "On-Board Charger Systems", "kp_file": "C02/KP-03.md"},
+          {"noss_code": "G452-010-3:2023-C02-RK04", "title": "Pre-Charge Control Systems", "kp_file": "C02/KP-04.md"},
+          {"noss_code": "G452-010-3:2023-C02-RK05", "title": "Traction Battery Pack Systems", "kp_file": "C02/KP-05.md"},
+          {"noss_code": "G452-010-3:2023-C02-RK06", "title": "DC-DC Converter Systems", "kp_file": "C02/KP-06.md"}
+        ],
+        "assessments": {"KA": "C02/KA.md", "PA": "C02/PA.md"}
+      },
+      "C03": {
+        "title": "Perform BEV Thermal Cooling System Rectification",
+        "work_activities": [
+          {"noss_code": "G452-010-3:2023-C03-W01", "title": "Thermal Cooling System Rectification Workplace Preparation", "kk_file": "C03/KK-01.md"},
+          {"noss_code": "G452-010-3:2023-C03-W02", "title": "BEV Liquid Cooling System Servicing", "kk_file": "C03/KK-02.md"},
+          {"noss_code": "G452-010-3:2023-C03-W03", "title": "BEV HVAC System Servicing", "kk_file": "C03/KK-03.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "G452-010-3:2023-C03-RK01", "title": "Thermal Cooling System Fundamentals", "kp_file": "C03/KP-01.md"},
+          {"noss_code": "G452-010-3:2023-C03-RK02", "title": "Liquid Cooling System Knowledge", "kp_file": "C03/KP-02.md"},
+          {"noss_code": "G452-010-3:2023-C03-RK03", "title": "HVAC System Knowledge", "kp_file": "C03/KP-03.md"}
+        ],
+        "assessments": {"KA": "C03/KA.md", "PA": "C03/PA.md"}
+      },
+      "C04": {
+        "title": "Perform BEV Electric Drive Train System Rectification",
+        "work_activities": [
+          {"noss_code": "G452-010-3:2023-C04-W01", "title": "Electric Drive Train System Rectification Workplace Preparation", "kk_file": "C04/KK-01.md"},
+          {"noss_code": "G452-010-3:2023-C04-W02", "title": "BEV Inverter Unit Replacement", "kk_file": "C04/KK-02.md"},
+          {"noss_code": "G452-010-3:2023-C04-W03", "title": "BEV Traction Motor Replacement", "kk_file": "C04/KK-03.md"},
+          {"noss_code": "G452-010-3:2023-C04-W04", "title": "BEV Motorised Transaxle Servicing", "kk_file": "C04/KK-04.md"},
+          {"noss_code": "G452-010-3:2023-C04-W05", "title": "BEV Integrated Brake Control System Replacement", "kk_file": "C04/KK-05.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "G452-010-3:2023-C04-RK01", "title": "Electric Drive Train Components", "kp_file": "C04/KP-01.md"},
+          {"noss_code": "G452-010-3:2023-C04-RK02", "title": "Inverter Unit Systems", "kp_file": "C04/KP-02.md"},
+          {"noss_code": "G452-010-3:2023-C04-RK03", "title": "Traction Motor Systems", "kp_file": "C04/KP-03.md"},
+          {"noss_code": "G452-010-3:2023-C04-RK04", "title": "Transaxle and Brake Control Systems", "kp_file": "C04/KP-04.md"},
+          {"noss_code": "G452-010-3:2023-C04-RK05", "title": "Drive Train Diagnostics and Testing", "kp_file": "C04/KP-05.md"}
+        ],
+        "assessments": {"KA": "C04/KA.md", "PA": "C04/PA.md"}
+      },
+      "C05": {
+        "title": "Perform BEV Workshop Supervisory Function",
+        "work_activities": [
+          {"noss_code": "G452-010-3:2023-C05-W01", "title": "Conduct BEV Daily Briefing", "kk_file": "C05/KK-01.md"},
+          {"noss_code": "G452-010-3:2023-C05-W02", "title": "Monitor BEV Subordinate's Performance", "kk_file": "C05/KK-02.md"},
+          {"noss_code": "G452-010-3:2023-C05-W03", "title": "Coordinate BEV Subordinate's Training", "kk_file": "C05/KK-03.md"},
+          {"noss_code": "G452-010-3:2023-C05-W04", "title": "Monitor BEV Workshop Safety, Health and Environment", "kk_file": "C05/KK-04.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "G452-010-3:2023-C05-RK01", "title": "Supervisory Principles and Briefing", "kp_file": "C05/KP-01.md"},
+          {"noss_code": "G452-010-3:2023-C05-RK02", "title": "Performance Management and Training", "kp_file": "C05/KP-02.md"},
+          {"noss_code": "G452-010-3:2023-C05-RK03", "title": "Workshop SHE Compliance", "kp_file": "C05/KP-03.md"},
+          {"noss_code": "G452-010-3:2023-C05-RK04", "title": "Quality and Productivity Management", "kp_file": "C05/KP-04.md"}
+        ],
+        "assessments": {"KA": "C05/KA.md", "PA": "C05/PA.md"}
+      }
+    }
+  },
+  "Aesthetic": {
+    "noss_code": "S960-002-3:2020",
+    "folder": "aesthetic-services",
+    "CUs": {
+      "C01": {
+        "title": "Body Consultation",
+        "work_activities": [
+          {"noss_code": "S960-002-3:2020-C01-W01", "title": "Prepare body consultation work area", "kk_file": "C01/KK-01.md"},
+          {"noss_code": "S960-002-3:2020-C01-W02", "title": "Prepare client for body consultation", "kk_file": "C01/KK-02.md"},
+          {"noss_code": "S960-002-3:2020-C01-W03", "title": "Carry out body consultation", "kk_file": "C01/KK-03.md"},
+          {"noss_code": "S960-002-3:2020-C01-W04", "title": "Carry out post body consultation advice", "kk_file": "C01/KK-04.md"},
+          {"noss_code": "S960-002-3:2020-C01-W05", "title": "Upkeep body consultation work area", "kk_file": "C01/KK-05.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "S960-002-3:2020-C01-RK01", "title": "Work Area Preparation", "kp_file": "C01/KP-01.md"},
+          {"noss_code": "S960-002-3:2020-C01-RK02", "title": "Client Preparation", "kp_file": "C01/KP-02.md"},
+          {"noss_code": "S960-002-3:2020-C01-RK03", "title": "Body Consultation Procedures", "kp_file": "C01/KP-03.md"},
+          {"noss_code": "S960-002-3:2020-C01-RK04", "title": "Post Consultation Advice", "kp_file": "C01/KP-04.md"},
+          {"noss_code": "S960-002-3:2020-C01-RK05", "title": "Work Area Upkeep", "kp_file": "C01/KP-05.md"}
+        ],
+        "assessments": {"KA": "C01/KA.md", "PA": "C01/PA.md"}
+      },
+      "C02": {
+        "title": "Body Thermal Therapy",
+        "work_activities": [
+          {"noss_code": "S960-002-3:2020-C02-W01", "title": "Carry out body thermal therapy consultation", "kk_file": "C02/KK-01.md"},
+          {"noss_code": "S960-002-3:2020-C02-W02", "title": "Prepare body thermal therapy work area", "kk_file": "C02/KK-02.md"},
+          {"noss_code": "S960-002-3:2020-C02-W03", "title": "Prepare client for body thermal therapy service", "kk_file": "C02/KK-03.md"},
+          {"noss_code": "S960-002-3:2020-C02-W04", "title": "Carry out body thermal therapy pre-procedure", "kk_file": "C02/KK-04.md"},
+          {"noss_code": "S960-002-3:2020-C02-W05", "title": "Carry out body thermal therapy service", "kk_file": "C02/KK-05.md"},
+          {"noss_code": "S960-002-3:2020-C02-W06", "title": "Carry out post body thermal therapy advice", "kk_file": "C02/KK-06.md"},
+          {"noss_code": "S960-002-3:2020-C02-W07", "title": "Upkeep body thermal therapy work area", "kk_file": "C02/KK-07.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "S960-002-3:2020-C02-RK01", "title": "Thermal Therapy Consultation", "kp_file": "C02/KP-01.md"},
+          {"noss_code": "S960-002-3:2020-C02-RK02", "title": "Work Area and Equipment Setup", "kp_file": "C02/KP-02.md"},
+          {"noss_code": "S960-002-3:2020-C02-RK03", "title": "Client Preparation", "kp_file": "C02/KP-03.md"},
+          {"noss_code": "S960-002-3:2020-C02-RK04", "title": "Pre-Procedure Techniques", "kp_file": "C02/KP-04.md"},
+          {"noss_code": "S960-002-3:2020-C02-RK05", "title": "Thermal Therapy Service Methods", "kp_file": "C02/KP-05.md"},
+          {"noss_code": "S960-002-3:2020-C02-RK06", "title": "Post-Therapy Advice", "kp_file": "C02/KP-06.md"},
+          {"noss_code": "S960-002-3:2020-C02-RK07", "title": "Work Area Upkeep", "kp_file": "C02/KP-07.md"}
+        ],
+        "assessments": {"KA": "C02/KA.md", "PA": "C02/PA.md"}
+      },
+      "C03": {
+        "title": "Manual Body Massage",
+        "work_activities": [
+          {"noss_code": "S960-002-3:2020-C03-W01", "title": "Carry out manual body massage consultation", "kk_file": "C03/KK-01.md"},
+          {"noss_code": "S960-002-3:2020-C03-W02", "title": "Prepare manual body massage work area", "kk_file": "C03/KK-02.md"},
+          {"noss_code": "S960-002-3:2020-C03-W03", "title": "Prepare client for manual body massage", "kk_file": "C03/KK-03.md"},
+          {"noss_code": "S960-002-3:2020-C03-W04", "title": "Carry out manual body massage", "kk_file": "C03/KK-04.md"},
+          {"noss_code": "S960-002-3:2020-C03-W05", "title": "Carry out post manual body massage advice", "kk_file": "C03/KK-05.md"},
+          {"noss_code": "S960-002-3:2020-C03-W06", "title": "Upkeep manual body massage work area", "kk_file": "C03/KK-06.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "S960-002-3:2020-C03-RK01", "title": "Massage Consultation and Contraindications", "kp_file": "C03/KP-01.md"},
+          {"noss_code": "S960-002-3:2020-C03-RK02", "title": "Massage Equipment and Media", "kp_file": "C03/KP-02.md"},
+          {"noss_code": "S960-002-3:2020-C03-RK03", "title": "Massage Techniques", "kp_file": "C03/KP-03.md"},
+          {"noss_code": "S960-002-3:2020-C03-RK04", "title": "Massage Anatomy and Physiology", "kp_file": "C03/KP-04.md"},
+          {"noss_code": "S960-002-3:2020-C03-RK05", "title": "Post-Massage Care and Upkeep", "kp_file": "C03/KP-05.md"}
+        ],
+        "assessments": {"KA": "C03/KA.md", "PA": "C03/PA.md"}
+      },
+      "C04": {
+        "title": "Body Electrotherapy",
+        "work_activities": [
+          {"noss_code": "S960-002-3:2020-C04-W01", "title": "Prepare body electrotherapy work area", "kk_file": "C04/KK-01.md"},
+          {"noss_code": "S960-002-3:2020-C04-W02", "title": "Prepare client for body electrotherapy services", "kk_file": "C04/KK-02.md"},
+          {"noss_code": "S960-002-3:2020-C04-W03", "title": "Carry out body faradic electrotherapy service", "kk_file": "C04/KK-03.md"},
+          {"noss_code": "S960-002-3:2020-C04-W04", "title": "Carry out body galvanic electrotherapy service", "kk_file": "C04/KK-04.md"},
+          {"noss_code": "S960-002-3:2020-C04-W05", "title": "Carry out body vacuum suction electrotherapy service", "kk_file": "C04/KK-05.md"},
+          {"noss_code": "S960-002-3:2020-C04-W06", "title": "Carry out body mechanical massage electrotherapy service", "kk_file": "C04/KK-06.md"},
+          {"noss_code": "S960-002-3:2020-C04-W07", "title": "Carry out body high frequencies electrotherapy services", "kk_file": "C04/KK-07.md"},
+          {"noss_code": "S960-002-3:2020-C04-W08", "title": "Carry out micro-current electrotherapy service", "kk_file": "C04/KK-08.md"},
+          {"noss_code": "S960-002-3:2020-C04-W09", "title": "Carry out post body electrotherapy advice", "kk_file": "C04/KK-09.md"},
+          {"noss_code": "S960-002-3:2020-C04-W10", "title": "Upkeep body electrotherapy work area", "kk_file": "C04/KK-10.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "S960-002-3:2020-C04-RK01", "title": "Electrotherapy Work Area and Equipment", "kp_file": "C04/KP-01.md"},
+          {"noss_code": "S960-002-3:2020-C04-RK02", "title": "Faradic and Galvanic Electrotherapy", "kp_file": "C04/KP-02.md"},
+          {"noss_code": "S960-002-3:2020-C04-RK03", "title": "Vacuum Suction and Mechanical Massage", "kp_file": "C04/KP-03.md"},
+          {"noss_code": "S960-002-3:2020-C04-RK04", "title": "High Frequency and Micro-Current", "kp_file": "C04/KP-04.md"},
+          {"noss_code": "S960-002-3:2020-C04-RK05", "title": "Post-Electrotherapy Care", "kp_file": "C04/KP-05.md"}
+        ],
+        "assessments": {"KA": "C04/KA.md", "PA": "C04/PA.md"}
+      },
+      "C05": {
+        "title": "Body Wrap Therapy",
+        "work_activities": [
+          {"noss_code": "S960-002-3:2020-C05-W01", "title": "Carry out body wrap work area preparation", "kk_file": "C05/KK-01.md"},
+          {"noss_code": "S960-002-3:2020-C05-W02", "title": "Carry out client consultation body wrap therapy", "kk_file": "C05/KK-02.md"},
+          {"noss_code": "S960-002-3:2020-C05-W03", "title": "Carry out pre-procedure body wrap therapy", "kk_file": "C05/KK-03.md"},
+          {"noss_code": "S960-002-3:2020-C05-W04", "title": "Carry out body wrap therapy", "kk_file": "C05/KK-04.md"},
+          {"noss_code": "S960-002-3:2020-C05-W05", "title": "Carry out post body wrap therapy advice", "kk_file": "C05/KK-05.md"},
+          {"noss_code": "S960-002-3:2020-C05-W06", "title": "Upkeep body wrap therapy work area", "kk_file": "C05/KK-06.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "S960-002-3:2020-C05-RK01", "title": "Body Wrap Work Area Setup", "kp_file": "C05/KP-01.md"},
+          {"noss_code": "S960-002-3:2020-C05-RK02", "title": "Body Wrap Client Consultation", "kp_file": "C05/KP-02.md"},
+          {"noss_code": "S960-002-3:2020-C05-RK03", "title": "Body Wrap Pre-Procedure", "kp_file": "C05/KP-03.md"},
+          {"noss_code": "S960-002-3:2020-C05-RK04", "title": "Body Wrap Therapy Methods", "kp_file": "C05/KP-04.md"},
+          {"noss_code": "S960-002-3:2020-C05-RK05", "title": "Post-Therapy Advice", "kp_file": "C05/KP-05.md"},
+          {"noss_code": "S960-002-3:2020-C05-RK06", "title": "Work Area Upkeep", "kp_file": "C05/KP-06.md"}
+        ],
+        "assessments": {"KA": "C05/KA.md", "PA": "C05/PA.md"}
+      },
+      "C06": {
+        "title": "Salon Operational Supervision",
+        "work_activities": [
+          {"noss_code": "S960-002-3:2020-C06-W01", "title": "Carry out salon cost saving practice", "kk_file": "C06/KK-01.md"},
+          {"noss_code": "S960-002-3:2020-C06-W02", "title": "Carry out sale procedures", "kk_file": "C06/KK-02.md"},
+          {"noss_code": "S960-002-3:2020-C06-W03", "title": "Maintain salon inventory", "kk_file": "C06/KK-03.md"},
+          {"noss_code": "S960-002-3:2020-C06-W04", "title": "Handle salon administration", "kk_file": "C06/KK-04.md"},
+          {"noss_code": "S960-002-3:2020-C06-W05", "title": "Prepare work schedule", "kk_file": "C06/KK-05.md"},
+          {"noss_code": "S960-002-3:2020-C06-W06", "title": "Carry out in-house training", "kk_file": "C06/KK-06.md"},
+          {"noss_code": "S960-002-3:2020-C06-W07", "title": "Monitor salon safety and hygiene", "kk_file": "C06/KK-07.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "S960-002-3:2020-C06-RK01", "title": "Cost Saving and Sales Procedures", "kp_file": "C06/KP-01.md"},
+          {"noss_code": "S960-002-3:2020-C06-RK02", "title": "Inventory Management", "kp_file": "C06/KP-02.md"},
+          {"noss_code": "S960-002-3:2020-C06-RK03", "title": "Salon Administration", "kp_file": "C06/KP-03.md"},
+          {"noss_code": "S960-002-3:2020-C06-RK04", "title": "Work Scheduling", "kp_file": "C06/KP-04.md"},
+          {"noss_code": "S960-002-3:2020-C06-RK05", "title": "In-House Training Methods", "kp_file": "C06/KP-05.md"},
+          {"noss_code": "S960-002-3:2020-C06-RK06", "title": "Salon Safety and Hygiene", "kp_file": "C06/KP-06.md"},
+          {"noss_code": "S960-002-3:2020-C06-RK07", "title": "Supervisory Principles", "kp_file": "C06/KP-07.md"}
+        ],
+        "assessments": {"KA": "C06/KA.md", "PA": "C06/PA.md"}
+      },
+      "C07": {
+        "title": "Salon Sales and Promotional Activities",
+        "work_activities": [
+          {"noss_code": "S960-002-3:2020-C07-W01", "title": "Obtain commercial promotional budget", "kk_file": "C07/KK-01.md"},
+          {"noss_code": "S960-002-3:2020-C07-W02", "title": "Identify clients needs and requirements", "kk_file": "C07/KK-02.md"},
+          {"noss_code": "S960-002-3:2020-C07-W03", "title": "Carry out periodical sales and promotional activities", "kk_file": "C07/KK-03.md"},
+          {"noss_code": "S960-002-3:2020-C07-W04", "title": "Prepare sales and promotional report", "kk_file": "C07/KK-04.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "S960-002-3:2020-C07-RK01", "title": "Promotional Budget Planning", "kp_file": "C07/KP-01.md"},
+          {"noss_code": "S960-002-3:2020-C07-RK02", "title": "Client Needs Analysis", "kp_file": "C07/KP-02.md"},
+          {"noss_code": "S960-002-3:2020-C07-RK03", "title": "Sales and Promotional Activities", "kp_file": "C07/KP-03.md"},
+          {"noss_code": "S960-002-3:2020-C07-RK04", "title": "Sales Reporting", "kp_file": "C07/KP-04.md"}
+        ],
+        "assessments": {"KA": "C07/KA.md", "PA": "C07/PA.md"}
+      },
+      "E01": {
+        "title": "Bust Firming Therapy (Elective)",
+        "work_activities": [
+          {"noss_code": "S960-002-3:2020-E01-W01", "title": "Prepare bust firming therapy work area", "kk_file": "E01/KK-01.md"},
+          {"noss_code": "S960-002-3:2020-E01-W02", "title": "Consult client for bust firming therapy", "kk_file": "E01/KK-02.md"},
+          {"noss_code": "S960-002-3:2020-E01-W03", "title": "Prepare client for bust firming therapy", "kk_file": "E01/KK-03.md"},
+          {"noss_code": "S960-002-3:2020-E01-W04", "title": "Cleanse client bust area", "kk_file": "E01/KK-04.md"},
+          {"noss_code": "S960-002-3:2020-E01-W05", "title": "Carry out bust firming massage", "kk_file": "E01/KK-05.md"},
+          {"noss_code": "S960-002-3:2020-E01-W06", "title": "Carry out bust firming mask application", "kk_file": "E01/KK-06.md"},
+          {"noss_code": "S960-002-3:2020-E01-W07", "title": "Carry out bust firming protective care", "kk_file": "E01/KK-07.md"},
+          {"noss_code": "S960-002-3:2020-E01-W08", "title": "Carry out post bust firming therapy advice", "kk_file": "E01/KK-08.md"},
+          {"noss_code": "S960-002-3:2020-E01-W09", "title": "Upkeep bust firming therapy work area", "kk_file": "E01/KK-09.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "S960-002-3:2020-E01-RK01", "title": "Bust Firming Work Area Setup", "kp_file": "E01/KP-01.md"},
+          {"noss_code": "S960-002-3:2020-E01-RK02", "title": "Bust Firming Client Consultation", "kp_file": "E01/KP-02.md"},
+          {"noss_code": "S960-002-3:2020-E01-RK03", "title": "Client Preparation", "kp_file": "E01/KP-03.md"},
+          {"noss_code": "S960-002-3:2020-E01-RK04", "title": "Bust Area Cleansing Techniques", "kp_file": "E01/KP-04.md"},
+          {"noss_code": "S960-002-3:2020-E01-RK05", "title": "Bust Firming Massage Techniques", "kp_file": "E01/KP-05.md"},
+          {"noss_code": "S960-002-3:2020-E01-RK06", "title": "Bust Firming Mask Application", "kp_file": "E01/KP-06.md"},
+          {"noss_code": "S960-002-3:2020-E01-RK07", "title": "Bust Firming Protective Care", "kp_file": "E01/KP-07.md"},
+          {"noss_code": "S960-002-3:2020-E01-RK08", "title": "Post-Therapy Advice", "kp_file": "E01/KP-08.md"},
+          {"noss_code": "S960-002-3:2020-E01-RK09", "title": "Work Area Upkeep", "kp_file": "E01/KP-09.md"}
+        ],
+        "assessments": {"KA": "E01/KA.md", "PA": "E01/PA.md"}
+      }
+    }
+  },
+  "IT": {
+    "noss_code": "IT-020-3:2013",
+    "folder": "it-computer-system",
+    "CUs": {
+      "L3-C01": {
+        "title": "Computer System Installation (Pemasangan Sistem Komputer)",
+        "work_activities": [
+          {"noss_code": "IT-020-3:2013-C01-W01", "title": "Identify computer system requirements", "kk_file": "L3-C01/KK-01.md"},
+          {"noss_code": "IT-020-3:2013-C01-W02", "title": "Assemble computer hardware components", "kk_file": "L3-C01/KK-02.md"},
+          {"noss_code": "IT-020-3:2013-C01-W03", "title": "Install operating system", "kk_file": "L3-C01/KK-03.md"},
+          {"noss_code": "IT-020-3:2013-C01-W04", "title": "Install application software", "kk_file": "L3-C01/KK-04.md"},
+          {"noss_code": "IT-020-3:2013-C01-W05", "title": "Configure network connectivity", "kk_file": "L3-C01/KK-05.md"},
+          {"noss_code": "IT-020-3:2013-C01-W06", "title": "Test computer system functionality", "kk_file": "L3-C01/KK-06.md"},
+          {"noss_code": "IT-020-3:2013-C01-W07", "title": "Document computer system installation", "kk_file": "L3-C01/KK-07.md"}
+        ],
+        "related_knowledge": [
+          {"noss_code": "IT-020-3:2013-C01-RK01", "title": "Computer Hardware Components", "kp_file": "L3-C01/KP-01.md"},
+          {"noss_code": "IT-020-3:2013-C01-RK02", "title": "Operating System Installation", "kp_file": "L3-C01/KP-02.md"},
+          {"noss_code": "IT-020-3:2013-C01-RK03", "title": "Software Installation and Configuration", "kp_file": "L3-C01/KP-03.md"},
+          {"noss_code": "IT-020-3:2013-C01-RK04", "title": "Network Configuration", "kp_file": "L3-C01/KP-04.md"},
+          {"noss_code": "IT-020-3:2013-C01-RK05", "title": "System Testing and Verification", "kp_file": "L3-C01/KP-05.md"},
+          {"noss_code": "IT-020-3:2013-C01-RK06", "title": "System Documentation", "kp_file": "L3-C01/KP-06.md"},
+          {"noss_code": "IT-020-3:2013-C01-RK07", "title": "Computer System Security", "kp_file": "L3-C01/KP-07.md"}
+        ],
+        "assessments": {"KA": "L3-C01/KA.md", "PA": "L3-C01/PA.md"}
+      },
+      "L3-C02": {
+        "title": "Computer System Maintenance (Penyelenggaraan Sistem Komputer)",
+        "work_activities": [],
+        "related_knowledge": [],
+        "assessments": {"KA": "L3-C02/KA.md"}
+      },
+      "L3-C03": {
+        "title": "Computer System Repair (Pembaikan Sistem Komputer)",
+        "work_activities": [],
+        "related_knowledge": [],
+        "assessments": {"KA": "L3-C03/KA.md"}
+      },
+      "L3-C04": {
+        "title": "Server Installation (Pemasangan Pelayan)",
+        "work_activities": [],
+        "related_knowledge": [],
+        "assessments": {"KA": "L3-C04/KA.md"}
+      }
+    }
+  }
+}
