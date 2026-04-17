@@ -6,3 +6,8 @@ warning: in the working copy of '.spiral/_checkpoint.json', LF will be replaced 
 warning: in the working copy of '.spiral/_phase_T_12.endtime', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of '.spiral/_sys_prompt_57572.txt', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of '.spiral/_user_prompt_57572.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_ralph_stderr_UB03C9.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/spiral_events.jsonl', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'results.tsv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_sys_prompt_57572.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.spiral/_user_prompt_57572.txt', LF will be replaced by CRLF the next time Git touches it
