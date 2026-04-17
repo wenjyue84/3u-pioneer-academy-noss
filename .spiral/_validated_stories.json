@@ -1,153 +1,235 @@
 {
   "stories": [
     {
-      "title": "Create BEV C02 Knowledge Assessment with Battery Management System Diagnostics",
-      "priority": "high",
-      "description": "Develop comprehensive KA for BEV C02 covering battery management system theory, diagnostics, and troubleshooting with scenario-based questions aligned to NOSS assessment criteria.",
-      "acceptanceCriteria": [
-        "Create file G452-010-3-2023-C02/KA(Batteries).md with minimum 15 multiple-choice and short-answer questions covering BMS components, charging protocols, fault detection codes",
-        "Include integrated answer scheme with point allocations and marking rubric (0-3 scale) aligned to CoCU assessment criteria emphasizing safety and diagnostic accuracy",
-        "Validate question distribution: 40% recall (Bloom's L1-L2), 50% application (L3-L4), 10% analysis (L5-L6) using bloom_level field in question metadata"
-      ],
-      "technicalNotes": [
-        "File to modify: bev-diagnostic-rectification/C02/KA(Batteries).md (create with question.yml structure for Bloom's parsing)",
-        "Test command: uv run pytest tests/test_bev_c02_ka_validation.py::test_blooms_distribution -v",
-        "Validate question count and rubric field presence using pydantic schema"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "bev-diagnostic-rectification/C02/KA(Batteries).md",
-        "tests/test_bev_c02_ka_validation.py"
-      ],
-      "_source": "ai-example",
-      "passes": false
-    },
-    {
-      "title": "Implement NOSS CoCU Related Knowledge Dependency Mapper",
-      "priority": "high",
-      "description": "Build automated tool that validates every Related Knowledge item in NOSS CoCU has supporting KP (knowledge paper) content, generating comprehensive coverage audit report.",
-      "acceptanceCriteria": [
-        "Create script scripts/validate_rk_coverage.py that reads prd.json RelatedKnowledge arrays for all 3 subjects and scans for corresponding KP files with matching RK reference codes",
-        "Generate audit report listing: (1) covered RK items with file paths, (2) missing KP files (orphaned RK), (3) KP files without CoCU reference (undocumented content)",
-        "Exit code 0 for 100% coverage, non-zero with stderr warnings for partial coverage; designed for CI/CD integration"
-      ],
-      "technicalNotes": [
-        "File to create: scripts/validate_rk_coverage.py (main), scripts/rk_parser.py (utility)",
-        "Test command: uv run python scripts/validate_rk_coverage.py bev aesthetic it && uv run pytest tests/test_rk_dependency_mapper.py -v",
-        "Use JSON schema validation for prd.json RelatedKnowledge structure"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "scripts/validate_rk_coverage.py",
-        "scripts/rk_parser.py",
-        "tests/test_rk_dependency_mapper.py"
-      ],
-      "_source": "ai-example",
-      "passes": false
-    },
-    {
-      "title": "Implement Training Hours Distribution Validator for 30/70 Knowledge/Performance Split",
+      "title": "BEV HV System Component Cross-Reference Indexer",
       "priority": "medium",
-      "description": "Automated tool ensuring lesson plan allocations comply with mandatory 30% knowledge-based / 70% performance-based training hour distribution across all CUs.",
+      "description": "Create an index of all High Voltage system components mentioned across BEV KPs (batteries, BMS, OBC, converters, etc). Capture component properties, safety ratings, and which CUs reference them. Enables traceability and consistency checking.",
       "acceptanceCriteria": [
-        "Create script scripts/validate_training_distribution.py that parses all PM-teori.md and PM-amali.md files, extracts duration hours from header metadata, calculates K/P split per CU",
-        "Generate compliance report: per-CU K/P split percentage, cumulative subject total, flag any CU with <25% or >35% knowledge allocation as non-compliant",
-        "Exit with warnings for distribution drift; integrate health check into .spiral/monitor to track K/P ratio stability"
+        "Create bev-diagnostic-rectification/_reference/hv-component-index.json containing at least 15 HV components with properties (name EN/BM, function, voltage range, safety standard, CUs that mention it)",
+        "CLI command 'uv run python scripts/index_hv_components.py' scans all bev-diagnostic-rectification/C**/KP*.md files and auto-builds index",
+        "Validation report flags any component mentioned in KP without corresponding safety rating or voltage specification"
       ],
       "technicalNotes": [
-        "File to create: scripts/validate_training_distribution.py with YAML duration parser from lesson plan headers",
-        "Test command: uv run python scripts/validate_training_distribution.py all_subjects && uv run pytest tests/test_training_hours_validator.py -v",
-        "Validate against requirements.md 30/70 specification using assertion math"
+        "File to create: scripts/index_hv_components.py (extract_components, validate_safety_fields functions)",
+        "File to create: bev-diagnostic-rectification/_reference/hv-component-index.json",
+        "Test command: uv run pytest tests/test_hv_component_index.py -v"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "scripts/validate_training_distribution.py",
-        "tests/test_training_hours_validator.py"
+        "scripts/index_hv_components.py",
+        "bev-diagnostic-rectification/_reference/hv-component-index.json",
+        "tests/test_hv_component_index.py"
       ],
       "_source": "ai-example",
       "passes": false
     },
     {
-      "title": "Implement WIM Document Structure Validator for Consistency Across All Subjects",
+      "title": "IT-020 Hands-On Lab Activity Mapper",
       "priority": "high",
-      "description": "Automated tool validating all WIM documents follow required JPK Buku Panduan WIM structure (TAJUK/TUJUAN/PENERANGAN, BAHAGIAN sections, LANGKAH KERJA tables, SENARAI SEMAK checklists).",
+      "description": "Map each IT KP to required hands-on lab exercises. Identify KPs without mapped labs. Supports training delivery planning and ensures practical coverage matches theoretical knowledge.",
       "acceptanceCriteria": [
-        "Create script scripts/validate_wim_structure.py that scans all .md files, validates required headers present per document type: KP requires TAJUK/TUJUAN/PENERANGAN; KT requires BAHAGIAN for each topic; KK requires LANGKAH KERJA table; PA requires SENARAI SEMAK checklist",
-        "Generate compliance report showing structure completeness percentage per document type and per subject; list file locations of missing/malformed sections with remediation guidance",
-        "Integrate into CI/CD pipeline (.spiral test-suites/compliance/) to prevent merge of non-compliant documents"
+        "Create it-computer-system/lab-activity-mapping.json linking each KP to required lab activities (Level 3, 4, 5 separately)",
+        "CLI command 'uv run python scripts/validate_it_lab_coverage.py' reports lab coverage % by level and total unmapped KPs",
+        "Identify minimum 8 KPs without mapped lab exercises and suggest lab activity creation titles"
       ],
       "technicalNotes": [
-        "File to create: scripts/validate_wim_structure.py with markdown header/section parser and document-type routing logic",
-        "Test command: uv run python scripts/validate_wim_structure.py all && uv run pytest tests/test_wim_structure_validator.py -v",
-        "Define validation rules per doc_type in JSON schema (wim_structure_spec.json)"
+        "File to create: scripts/validate_it_lab_coverage.py (analyze_kp_lab_map, report_coverage_gaps functions)",
+        "File to create: it-computer-system/lab-activity-mapping.json with structure {kp_id: [lab_activities]}",
+        "Test command: uv run pytest tests/test_it_lab_coverage.py -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "scripts/validate_it_lab_coverage.py",
+        "it-computer-system/lab-activity-mapping.json",
+        "tests/test_it_lab_coverage.py"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
+      "title": "Assessment Question Time-Box Validator",
+      "priority": "medium",
+      "description": "Estimate time required for each KA/PA question based on question type, length, and complexity. Flag assessments exceeding recommended durations. Supports trainer pacing and student time management.",
+      "acceptanceCriteria": [
+        "Create _tools/assessment-time-validator.py that parses all KA/PA files and estimates question time (multiple choice=2min, essay=5-8min, scenario=8-10min, practical=15min)",
+        "Generate time allocation CSV report by CU showing question count, total estimated time, and % of recommended limit (KA=60min, PA=90min)",
+        "Flag any assessment exceeding 110% of recommended duration and suggest question removal or splitting"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/assessment-time-validator.py (estimate_question_time, calculate_assessment_duration functions)",
+        "File to create: _tools/assessment-time-reports/ folder for CSV outputs",
+        "Test command: uv run pytest tests/test_assessment_timing.py -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_tools/assessment-time-validator.py",
+        "_tools/assessment-time-reports/timing-estimates.csv",
+        "tests/test_assessment_timing.py"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
+      "title": "WIM Document Readability Analyzer",
+      "priority": "medium",
+      "description": "Analyze FLESCH reading ease and GUNNING FOG readability metrics for all KP/KT/KK documents. Flag content below target readability for student level (Level 3, 4, 5). Supports content clarity improvement.",
+      "acceptanceCriteria": [
+        "Create _tools/readability-analyzer.py using textstat library, scoring FLESCH (target >60 for L3, >65 for L4, >70 for L5)",
+        "Generate HTML report showing readability scores, grade level, and problematic paragraphs for each file",
+        "CLI command 'uv run python _tools/readability-analyzer.py' scans all **/KP*.md, **/KT*.md, **/KK*.md files"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/readability-analyzer.py (analyze_file_readability, generate_html_report functions)",
+        "Dependency: uv add textstat",
+        "Test command: uv run pytest tests/test_readability.py -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_tools/readability-analyzer.py",
+        "_tools/readability-reports/readability-summary.html",
+        "tests/test_readability.py"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
+      "title": "BEV Diagnostic Fault Code Scenario Generator",
+      "priority": "high",
+      "description": "Generate diagnostic troubleshooting scenarios from actual BEV fault codes (battery, BMS, drivetrain, thermal). Each scenario links to relevant KPs. Creates realistic diagnostic practice cases for KT/KA.",
+      "acceptanceCriteria": [
+        "Create bev-diagnostic-rectification/_tools/fault-code-scenarios.json containing 20+ fault codes with symptoms, diagnostic steps, and solution KP links",
+        "CLI command 'uv run python bev-diagnostic-rectification/_tools/generate-scenarios.py' creates diagnostic scenario questions in KT markdown format",
+        "Each scenario includes fault code (e.g., P0A80), component, symptoms, diagnosis procedure, and links to relevant C01-C03 KPs"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/_tools/fault-code-scenarios.json with structure {fault_code, component, symptoms[], diagnosis_steps[], relevant_kps[]}",
+        "File to create: bev-diagnostic-rectification/_tools/generate-scenarios.py (load_fault_codes, create_scenario_question functions)",
+        "Test command: uv run pytest tests/test_fault_scenarios.py::test_scenario_kp_links -v"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "scripts/validate_wim_structure.py",
-        "tests/test_wim_structure_validator.py",
-        "configs/wim_structure_spec.json"
+        "bev-diagnostic-rectification/_tools/fault-code-scenarios.json",
+        "bev-diagnostic-rectification/_tools/generate-scenarios.py",
+        "tests/test_fault_scenarios.py"
       ],
       "_source": "ai-example",
       "passes": false
     },
     {
-      "title": "Build Assessment Question Progression Analyzer with Difficulty Level Distribution",
+      "title": "Aesthetic Electrotherapy Modality Parameter Specification Extractor",
       "priority": "medium",
-      "description": "Tool analyzing Bloom's taxonomy cognitive level distribution across all KA/PA questions to ensure balanced progression from basic recall to advanced synthesis.",
+      "description": "Extract all electrotherapy modality parameters (frequency, intensity, duration, electrode placement) from Aesthetic C04 KP/KK content. Create master specification sheet. Ensures parameter consistency across all training materials.",
       "acceptanceCriteria": [
-        "Create script scripts/analyze_question_progression.py that reads all KA/PA files, extracts Bloom's level tags (L1-L6) from question metadata, generates per-subject and per-CU distribution histograms",
-        "Output: distribution percentages (L1% | L2% | L3% | L4% | L5% | L6%), identify imbalance patterns with specific examples, generate recommendations for question rebalancing with CU+question ID suggestions",
-        "Integrate health check into .spiral monitoring to track if assessment progression drifts from target 20-20-20-20-15-5 distribution"
+        "Create aesthetic-services/electrotherapy-parameter-specs.json with 6+ modalities (microcurrent, EMS, RF, ultrasound, LED, laser) and their parameters (frequency Hz, intensity mA, duration min, safety limits)",
+        "Validate parameters are consistent across all C04 KP, KK, and KA references using validator script (flag discrepancies)",
+        "Include contraindication warnings and safety limits for each modality extracted from KP content"
       ],
       "technicalNotes": [
-        "File to create: scripts/analyze_question_progression.py with Bloom's level extraction from question metadata",
-        "Test command: uv run python scripts/analyze_question_progression.py bev && uv run pytest tests/test_question_progression_analyzer.py -v",
-        "Validate distribution percentages sum to 100% and flag outlier questions"
+        "File to create: aesthetic-services/electrotherapy-parameter-specs.json with structure {modality, frequency_hz, intensity_range, duration_limits, contraindications, safety_standard}",
+        "File to create: _tools/extract-modality-parameters.py (parse_kp_parameters, validate_consistency functions)",
+        "Test command: uv run pytest tests/test_modality_parameters.py -v"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "scripts/analyze_question_progression.py",
-        "tests/test_question_progression_analyzer.py"
+        "aesthetic-services/electrotherapy-parameter-specs.json",
+        "_tools/extract-modality-parameters.py",
+        "tests/test_modality_parameters.py"
       ],
       "_source": "ai-example",
       "passes": false
     },
     {
-      "title": "Implement IT-020 Knowledge Assessment Completeness Auditor for All Levels",
-      "priority": "high",
-      "description": "Automated audit tool verifying all IT CUs across Levels 3, 4, and 5 have complete KA files with minimum content requirements and proper marking schemes.",
+      "title": "Assessment Rubric Standardization and Validator",
+      "priority": "medium",
+      "description": "Ensure all PA (Performance Assessment) rubrics follow consistent format, scoring scale (1-5, % grades, or descriptive), and language. Standardize rubric structure across all subjects and CUs.",
       "acceptanceCriteria": [
-        "Create script scripts/audit_it_ka_completeness.py that scans it-computer-system/L{3,4,5}/ directories, validates KA files exist per CU with minimum 12 questions, complete answer scheme, and rubric (0-3 scale minimum)",
-        "Generate completeness matrix showing: per-level status (L3: 6/6 complete, L4: 5/6 missing C05, L5: 3/3 complete), file paths with status indicators, remediation plan with estimated effort per missing assessment",
-        "Integration hook: auto-alert when new CU added to prd.json without corresponding KA file (blocks incomplete CU PR merges)"
+        "Create _tools/rubric-standardizer.py that validates all PA files use standard rubric format (competency dimension | level descriptor | score | evidence)",
+        "CLI command 'uv run pytest tests/test_rubric_standards.py -v' audits all PA*.md files against standard format and reports compliance %",
+        "Generate report showing % compliance and list any rubrics needing reformatting"
       ],
       "technicalNotes": [
-        "File to create: scripts/audit_it_ka_completeness.py with directory scanner and KA validation rules",
-        "Test command: uv run python scripts/audit_it_ka_completeness.py && uv run pytest tests/test_it_ka_completeness_auditor.py -v",
-        "Validate KA markdown structure and question count using assertions and pydantic schemas"
+        "File to create: _tools/rubric-standardizer.py (validate_rubric_format, reformat_rubric functions)",
+        "File to create: _reference/standard-rubric-template.md defining format and structure",
+        "Test command: uv run pytest tests/test_rubric_standards.py::test_pa_rubric_format -v"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "scripts/audit_it_ka_completeness.py",
-        "tests/test_it_ka_completeness_auditor.py"
+        "_tools/rubric-standardizer.py",
+        "_reference/standard-rubric-template.md",
+        "tests/test_rubric_standards.py"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
+      "title": "Equipment and Tools Inventory with Safety Ratings",
+      "priority": "medium",
+      "description": "Extract all equipment and tools mentioned in KK (practical worksheets) across all subjects. Create master inventory with safety certifications, supplier info, and PPE requirements. Supports procurement and safety planning.",
+      "acceptanceCriteria": [
+        "Create _reference/tools-equipment-inventory.json containing 50+ tools/equipment with EN/BM names, safety standards (ISO/CE), usage frequency (high/medium/low), and PPE requirements",
+        "CLI command 'uv run python _tools/extract-tools-inventory.py' parses all **/KK*.md files and auto-populates inventory",
+        "Cross-reference each tool with relevant safety standard (ISO 4413 hydraulics, ISO 1545 electrical safety, OSHA, etc)"
+      ],
+      "technicalNotes": [
+        "File to create: _reference/tools-equipment-inventory.json with structure {tool_name_en, tool_name_bm, category, safety_standard, ppe_required, frequency}",
+        "File to create: _tools/extract-tools-inventory.py (scan_kk_files, extract_tools, classify_safety_level functions)",
+        "Test command: uv run pytest tests/test_tools_inventory.py -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_reference/tools-equipment-inventory.json",
+        "_tools/extract-tools-inventory.py",
+        "tests/test_tools_inventory.py"
+      ],
+      "_source": "ai-example",
+      "passes": false
+    },
+    {
+      "title": "Assessment Question Bloom's Cognitive Level Auditor",
+      "priority": "medium",
+      "description": "Classify all KA/PA questions by Bloom's Taxonomy cognitive level (Remember, Understand, Apply, Analyze, Evaluate, Create). Analyze distribution across all subjects. Identify imbalances and suggest rewriting suggestions.",
+      "acceptanceCriteria": [
+        "Create _tools/blooms-auditor.py that parses KA/PA question text and classifies each by cognitive level using keyword matching (define=Remember, explain=Understand, solve=Apply, compare=Analyze, critique=Evaluate, design=Create)",
+        "Generate report showing % of questions at each Bloom's level per CU and overall distribution across all subjects",
+        "Flag CUs with imbalanced cognitive distribution (e.g., >50% Remember questions) and suggest specific questions to upgrade to higher levels"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/blooms-auditor.py (classify_question_level, analyze_level_distribution, suggest_upgrades functions)",
+        "File to create: _reference/blooms-keyword-map.json mapping keywords/question structures to cognitive levels",
+        "Test command: uv run pytest tests/test_blooms_classification.py -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_tools/blooms-auditor.py",
+        "_reference/blooms-keyword-map.json",
+        "tests/test_blooms_classification.py"
       ],
       "_source": "ai-example",
       "passes": false
@@ -755,6 +837,54 @@
       "_source": "test-story",
       "_testType": "regression",
       "_forStoryId": "US-030"
+    },
+    {
+      "title": "[Regression Test] Build Cross-Subject Assessment Question Type Distribution Analyzer with Rebalancin",
+      "priority": "medium",
+      "description": "Write regression test to guard against future breakage of US-032. Story description: Tool analyzing question type diversity (MCQ, short-answer, scenario, practical, essay, matching, fill-in) across all assessments in BEV, Aesthetic, IT subjects, generates distribution metrics, and recommends rebalancing where diversity is low.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-032",
+        "Test would reliably fail if the US-032 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_032 -v"
+      ],
+      "dependencies": [
+        "US-032"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-032"
+    },
+    {
+      "title": "[Regression Test] Implement NOSS CoCU Related Knowledge Dependency Mapper",
+      "priority": "medium",
+      "description": "Write regression test to guard against future breakage of US-033. Story description: Build automated tool that validates every Related Knowledge item in NOSS CoCU has supporting KP (knowledge paper) content, generating comprehensive coverage audit report.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-033",
+        "Test would reliably fail if the US-033 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_033 -v"
+      ],
+      "dependencies": [
+        "US-033"
+      ],
+      "estimatedComplexity": "medium",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ],
+      "source": "",
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-033"
     }
   ]
 }

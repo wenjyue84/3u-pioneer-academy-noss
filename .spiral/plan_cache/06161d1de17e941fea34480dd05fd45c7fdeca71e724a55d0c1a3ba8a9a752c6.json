@@ -1,0 +1,11 @@
+{
+  "story_id": "US-034",
+  "story_title": "Implement IT-020 Knowledge Assessment Completeness Auditor for All Levels",
+  "key_source": "ai-example|implement|it-020|knowledge|small|",
+  "stored_ts": 1776398609.088783,
+  "plan": {
+    "story_id": "US-034",
+    "duration_s": 901,
+    "model": "unknown"
+  }
+}

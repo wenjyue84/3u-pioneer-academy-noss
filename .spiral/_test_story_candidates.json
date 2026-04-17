@@ -555,6 +555,50 @@
         "regression",
         "auto-generated"
       ]
+    },
+    {
+      "title": "[Regression Test] Build Cross-Subject Assessment Question Type Distribution Analyzer with Rebalancin",
+      "description": "Write regression test to guard against future breakage of US-032. Story description: Tool analyzing question type diversity (MCQ, short-answer, scenario, practical, essay, matching, fill-in) across all assessments in BEV, Aesthetic, IT subjects, generates distribution metrics, and recommends rebalancing where diversity is low.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-032",
+        "Test would reliably fail if the US-032 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_032 -v"
+      ],
+      "priority": "medium",
+      "dependencies": [
+        "US-032"
+      ],
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-032",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ]
+    },
+    {
+      "title": "[Regression Test] Implement NOSS CoCU Related Knowledge Dependency Mapper",
+      "description": "Write regression test to guard against future breakage of US-033. Story description: Build automated tool that validates every Related Knowledge item in NOSS CoCU has supporting KP (knowledge paper) content, generating comprehensive coverage audit report.",
+      "acceptanceCriteria": [
+        "Regression test covers core observable behaviour of US-033",
+        "Test would reliably fail if the US-033 feature were removed or broken"
+      ],
+      "technicalNotes": [
+        "Run: uv run pytest tests/ -k us_033 -v"
+      ],
+      "priority": "medium",
+      "dependencies": [
+        "US-033"
+      ],
+      "_source": "test-story",
+      "_testType": "regression",
+      "_forStoryId": "US-033",
+      "tags": [
+        "regression",
+        "auto-generated"
+      ]
     }
   ]
 }

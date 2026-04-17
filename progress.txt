@@ -1416,3 +1416,24 @@ Here is a technical brief for the Claude Code agent.
 ### Gotchas
 - aesthetic `### WA1:` has no space between WA and number; BEV uses `#### WA 1:` with space — handle both with `WA\s*(\d+):`
 - IT KP files use `## 1.0`, `## 2.0` numbered sections not matching K-codes — IT will always show 0% until KP files are updated to use K-code headings
+## Iteration 1 - Fri, Apr 17, 2026 11:55:33 AM
+FAILED diff-guard: Implement IT-020 Knowledge Assessment Completeness Auditor for All Levels (ID: US-034) — 3414 lines > 500 limit — attempt 1/3
+
+## Iteration 2 - Thu, Apr 17, 2026
+PASSED: US-034 - IT-020 KA Completeness Auditor (attempt 2, opus model)
+
+### What was implemented
+- scripts/audit_it_ka_completeness.py: Compact audit script (~150 lines) scanning L3/L4/L5
+- tests/test_it_ka_completeness_auditor.py: 7 tests covering matrix, JSON, field validation
+- Handles both KA formats: C01 uses `**N.**` questions, C02-C04 use `### QN` headings
+- Integration hook via check_prd_hook() scanning prd.json for IT CU references
+
+### Patterns discovered
+- NEVER use `ruff format` in this repo — it destroys files with NOT_YET_IMPLEMENTED stubs
+- L3-C01 KA has 22 questions (full exam format); C02-C04 have 5 each (compact format)
+- Keep scripts under 150 lines and tests under 80 lines to stay under 500-line diff limit
+
+### Gotchas
+- ruff format is broken (work-in-progress version), only use ruff check
+- Previous attempt was 3414 lines because it generated KA content; this attempt only audits
+

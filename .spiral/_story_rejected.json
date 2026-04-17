@@ -1,234 +1,162 @@
 {
   "stories": [
     {
-      "title": "Create Aesthetic C02 Performance Assessment with Thermal Body Therapy Treatment Protocol",
-      "priority": "high",
-      "description": "Build PA for Aesthetic C02 that evaluates practical competency in thermal therapy treatments through patient scenario-based assessments and observer checklists.",
-      "acceptanceCriteria": [
-        "Create file S960-002-3-2020-C02/PA(ThermalTherapy).md with 8+ treatment scenario cases covering different body zones, client age groups, and skin conditions",
-        "Include multi-point performance rubric (technique, hygiene, safety, communication) with observer checklist containing 10+ mandatory safety checkpoints",
-        "Ensure all scenarios map to Related Knowledge items from C02 KP (heat application safety, duration limits, temperature monitoring, client communication)"
-      ],
-      "technicalNotes": [
-        "File to create: aesthetic-services/C02/PA(ThermalTherapy).md with YAML front-matter linking to RK items in prd.json",
-        "Test command: uv run pytest tests/test_aesthetic_c02_pa_scenarios.py::test_rk_alignment -v",
-        "Validate scenario count and rubric structure using JSON schema"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "aesthetic-services/C02/PA(ThermalTherapy).md",
-        "tests/test_aesthetic_c02_pa_scenarios.py"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Build IT-020 Level 4 Knowledge Assessment with System Administration Competency Questions",
+      "title": "Aesthetic Client Consultation Script Generator",
       "priority": "medium",
-      "description": "Create comprehensive KA for IT-020 Level 4 focused on advanced system administration tasks, user management policies, and security configuration.",
+      "description": "Generate client consultation scripts from Aesthetic C01 (body consultation) KP content. Auto-create bilingual EN/BM dialogue templates for greeting, assessment questions, recommendations, and closing. Used for trainer reference and trainee practice.",
       "acceptanceCriteria": [
-        "Create file it-computer-system/L4/KA(SystemAdministration).md with 20+ questions addressing L4-specific CoCU requirements for advanced user management, security hardening, and policy enforcement",
-        "Include answer scheme with L4+ cognitive level (Bloom's L4-L5) questions requiring application and analysis of administrative concepts",
-        "Map each question to specific CoCU item IDs in prd.json IT-020 Level 4 section for traceability and audit"
+        "Create aesthetic-services/_tools/consultation-script-generator.py that reads C01/KP*.md and extracts consultation topics",
+        "Generate 5+ consultation scripts with EN/BM dialogue structure (greeting→client questions→assessment→recommendations→closing)",
+        "Each script includes suggested duration, key assessment points, and product/service recommendation categories"
       ],
       "technicalNotes": [
-        "File to create: it-computer-system/L4/KA(SystemAdministration).md with cocu_mapping field for each question",
-        "Test command: uv run pytest tests/test_it_l4_ka_cocus.py::test_cocu_coverage -v",
-        "Validate prd.json reference resolution using JSON path queries"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "it-computer-system/L4/KA(SystemAdministration).md",
-        "tests/test_it_l4_ka_cocus.py"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Create Aesthetic C01 Knowledge Assessment with Client Consultation Competency Framework",
-      "priority": "high",
-      "description": "Develop KA for Aesthetic C01 evaluating theoretical knowledge of client consultation, needs assessment, and treatment planning with scenario-based questions.",
-      "acceptanceCriteria": [
-        "Create file S960-002-3-2020-C01/KA(Consultation).md with 12+ scenario-based questions covering consultation techniques, problem identification, recommendation justification, and documentation requirements",
-        "Include detailed marking rubric assessing 4 competency dimensions: active listening, analytical thinking, professional communication, documentation accuracy (each 0-3 scale)",
-        "Ensure bilingual completeness: all scenarios, questions, answer schemes in English and Malay with consistency validation against glossary.json"
-      ],
-      "technicalNotes": [
-        "File to create: aesthetic-services/C01/KA(Consultation).md with bilingual content markers (EN / BM) in YAML",
-        "Test command: uv run pytest tests/test_aesthetic_c01_ka_bilingual.py::test_terminology_consistency -v",
-        "Cross-reference terminology against glossary.json using term_pair validation"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "aesthetic-services/C01/KA(Consultation).md",
-        "tests/test_aesthetic_c01_ka_bilingual.py"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: description has only 19 words -- explain what, why, and which files"
-    },
-    {
-      "title": "Build Assessment Answer Scheme Validation Tool Against CoCU Assessment Criteria",
-      "priority": "medium",
-      "description": "Automated tool that validates KA/PA answer schemes and marking rubrics align with official NOSS CoCU Assessment Criteria requirements and competency emphasis.",
-      "acceptanceCriteria": [
-        "Create script scripts/validate_answer_schemes.py that parses KA/PA markdown files, extracts answer_scheme and rubric metadata, cross-references against prd.json AssessmentCriteria for each CoCU",
-        "Generate report showing: (1) criteria coverage percentage per KA/PA, (2) rubric point allocation alignment, (3) safety/compliance emphasis gaps relative to CoCU",
-        "Flag if assessment rubric weight distribution (safety %, technical %, soft skills %) differs from CoCU criteria thresholds"
-      ],
-      "technicalNotes": [
-        "File to create: scripts/validate_answer_schemes.py with YAML parser for KA/PA metadata",
-        "Test command: uv run python scripts/validate_answer_schemes.py bev_c01_ka && uv run pytest tests/test_answer_scheme_validator.py::test_criteria_alignment -v",
-        "Validate using pydantic AssessmentRubric schema with criteria_mapping constraints"
+        "File to create: aesthetic-services/_tools/consultation-script-generator.py (extract_consultation_topics, generate_script_dialogue functions)",
+        "File to modify: aesthetic-services/C01/KP(1/3).md (extract consultation framework)",
+        "Test command: uv run pytest tests/test_consultation_scripts.py::test_script_dialogue_completeness -v"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "scripts/validate_answer_schemes.py",
-        "tests/test_answer_scheme_validator.py"
+        "aesthetic-services/_tools/consultation-script-generator.py",
+        "aesthetic-services/_tools/scripts/consultation-templates.md",
+        "tests/test_consultation_scripts.py"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Create BEV C01 Performance Assessment with High-Voltage Safety Competency Rubrics",
+      "title": "Cross-Subject Safety Protocol Consolidator",
       "priority": "high",
-      "description": "Build comprehensive PA for BEV C01 evaluating hands-on HV safety competency including PPE usage, lockout procedures, and emergency response with multi-level rubrics.",
+      "description": "Extract all safety procedures mentioned in BEV, Aesthetic, and IT KPs. Consolidate into master safety index with bilingual labels (EN/BM). Identify common safety protocols that could be unified across subjects.",
       "acceptanceCriteria": [
-        "Create file G452-010-3-2023-C01/PA(HVSafety).md with 5+ safety scenario cases: HV isolation procedures, PPE verification, fault response, emergency shutdown, tool inspection",
-        "Include multi-point performance rubric (0-3 scale: Cannot demonstrate / Demonstrates with support / Demonstrates independently / Demonstrates & mentors) for each procedure step",
-        "Embed observer/assessor checklist with 12+ mandatory safety checkpoints (PPE inspection, isolation verification, tool condition, lockout tag placement, emergency equipment access)"
+        "Create _reference/master-safety-protocols.md listing 30+ safety procedures with bilingual names, CU references, and harmonization notes",
+        "Link each safety protocol to source files (file path, CU code, KP section) with cross-reference counts",
+        "Identify 10+ safety protocols (PPE, emergency response, hygiene, electrical safety) applicable across multiple subjects"
       ],
       "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/C01/PA(HVSafety).md with scenario_id and safety_checkpoint fields",
-        "Test command: uv run pytest tests/test_bev_c01_pa_safety.py::test_safety_checkpoint_count -v",
-        "Validate rubric scale consistency (0-3 across all checkpoints) using JSON schema"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "bev-diagnostic-rectification/C01/PA(HVSafety).md",
-        "tests/test_bev_c01_pa_safety.py"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Build Cross-Subject Bilingual Terminology Consistency Validator",
-      "priority": "medium",
-      "description": "Tool to detect EN/BM terminology inconsistencies and variations across BEV, Aesthetic, IT documents to ensure uniform professional language.",
-      "acceptanceCriteria": [
-        "Create script scripts/validate_bilingual_consistency.py that scans all .md files for bilingual term patterns (EN/BM or EN(BM) format), extracts and builds term occurrence map",
-        "Output: (1) term frequency report, (2) inconsistency list showing duplicate terms with different translations and file/section locations, (3) auto-generated suggestions for glossary harmonization",
-        "Integrate with glossary.json update mechanism to propose single-source-of-truth entries for conflicting terms"
-      ],
-      "technicalNotes": [
-        "File to create: scripts/validate_bilingual_consistency.py with regex pattern matching for EN/BM pairs",
-        "Test command: uv run python scripts/validate_bilingual_consistency.py && uv run pytest tests/test_bilingual_consistency.py::test_inconsistency_detection -v",
-        "Use glossary.json schema to validate proposed term mappings"
+        "File to create: _reference/master-safety-protocols.md with markdown table structure [Safety Procedure] | EN | BM | CUs | Unified?",
+        "File to create: _tools/safety-protocol-consolidator.py (extract_safety_procedures, cross_reference_protocols functions)",
+        "Test command: uv run pytest tests/test_safety_consolidation.py -v"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "scripts/validate_bilingual_consistency.py",
-        "tests/test_bilingual_consistency.py"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: description has only 18 words -- explain what, why, and which files"
-    },
-    {
-      "title": "Create Aesthetic C03 Knowledge Assessment with Manual Technique Anatomy Competency",
-      "priority": "high",
-      "description": "Develop KA for Aesthetic C03 evaluating theoretical knowledge of manual massage techniques, anatomical structures, therapeutic effects, and contraindications.",
-      "acceptanceCriteria": [
-        "Create file S960-002-3-2020-C03/KA(ManualTechnique).md with 14+ questions covering technique classification (effleurage, petrissage, etc.), muscle/bone anatomy, pressure points, contraindications, therapeutic benefits",
-        "Include marking rubric requiring anatomical accuracy (muscle names EN/BM, nerve pathway identification, blood flow effects) with explicit reference citations to KP content sections",
-        "Questions incorporate practical scenario elements (client positioning, therapist posture, pressure adjustment, duration) aligned to PA (performance) competency expectations"
-      ],
-      "technicalNotes": [
-        "File to create: aesthetic-services/C03/KA(ManualTechnique).md with anatomy_reference field linking to C03/KP(Anatomy).md sections",
-        "Test command: uv run pytest tests/test_aesthetic_c03_ka_anatomy.py::test_anatomy_references -v",
-        "Validate KP cross-references using markdown link resolution"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "aesthetic-services/C03/KA(ManualTechnique).md",
-        "tests/test_aesthetic_c03_ka_anatomy.py"
+        "_reference/master-safety-protocols.md",
+        "_tools/safety-protocol-consolidator.py",
+        "tests/test_safety_consolidation.py"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Build IT-020 Level 5 Performance Assessment with Enterprise System Management Scenarios",
+      "title": "Assessment Evidence Traceability Matrix Generator",
       "priority": "medium",
-      "description": "Create PA for IT-020 Level 5 with complex enterprise-scale system management scenarios requiring strategic decision-making and advanced problem-solving skills.",
+      "description": "Link each KA/PA question to specific NOSS CoCU Assessment Criteria and learning outcomes. Create audit trail showing which questions assess which competencies. Validates assessment completeness against CoCU.",
       "acceptanceCriteria": [
-        "Create file it-computer-system/L5/PA(EnterpriseManagement).md with 4+ multi-stage enterprise case studies: network infrastructure design, disaster recovery planning, system optimization, security incident response",
-        "Include decision rubric (0-4 scale) evaluating strategic thinking, technical depth, business alignment, risk assessment, and cost-benefit analysis for each major decision point",
-        "Each scenario tied to specific L5 CoCU competency items with explicit traceability IDs in prd.json IT-020 Level 5 section"
+        "Create _tools/evidence-traceability-generator.py that parses KA/PA files and extracts question metadata (question text, type, CoCU criterion link, bloom's level)",
+        "Generate JSON matrix showing question ID → CoCU assessment criterion → expected learning outcome mapping",
+        "Identify any CoCU assessment criteria not covered by any question for each subject"
       ],
       "technicalNotes": [
-        "File to create: it-computer-system/L5/PA(EnterpriseManagement).md with decision_point and cocu_mapping fields",
-        "Test command: uv run pytest tests/test_it_l5_pa_enterprise.py::test_scenario_cocu_mapping -v",
-        "Validate L5 cognitive level using Bloom's L5+ assertion checks"
+        "File to create: _tools/evidence-traceability-generator.py (extract_question_metadata, build_traceability_matrix functions)",
+        "File to create: _tools/traceability-reports/evidence-matrix.json with structure {question_id, kp_link, cocu_criterion, learning_outcome, question_type}",
+        "Test command: uv run pytest tests/test_traceability.py::test_criterion_coverage -v"
       ],
       "dependencies": [],
-      "estimatedComplexity": "medium",
+      "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "it-computer-system/L5/PA(EnterpriseManagement).md",
-        "tests/test_it_l5_pa_enterprise.py"
+        "_tools/evidence-traceability-generator.py",
+        "_tools/traceability-reports/evidence-matrix.json",
+        "tests/test_traceability.py"
       ],
       "_source": "ai-example",
       "passes": false,
-      "_rejection_reason": "too_simple: description has only 19 words -- explain what, why, and which files"
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Create BEV C04 Performance Assessment with Electric Drive Train Diagnostics Troubleshooting",
+      "title": "WIM Document Maturity Scorecard Generator",
       "priority": "high",
-      "description": "Build PA for BEV C04 evaluating practical competency in diagnosing and troubleshooting electric drive train faults through systematic diagnostic procedures and decision trees.",
+      "description": "Rate each WIM document (KP/KT/KK/KA/PA) on multiple maturity dimensions: content completeness, format compliance, technical accuracy, bilingual coverage, and assessment quality. Generate scorecards per CU and project-wide summary.",
       "acceptanceCriteria": [
-        "Create file G452-010-3-2023-C04/PA(DrivetrainDiagnostics).md with 5+ diagnostic fault scenarios: motor noise/vibration, performance loss, cooling failure, control unit errors, sensor malfunction with realistic vehicle parameter data",
-        "Include diagnostic decision tree rubric (0-3 scale: Cannot diagnose / Identifies symptoms only / Applies diagnostic procedure / Isolates root cause with technical justification) for each scenario",
-        "Each scenario references aligned KK practical procedures (testing steps, measurement tools, expected values) and electrical schematic sections from C04 KP"
+        "Create _tools/maturity-scorecard.py that scores each document on 10+ criteria (header box present, bilingual coverage >80%, internal consistency, no dead links, assessment questions mapped to CoCU, safety procedures documented, etc)",
+        "Generate HTML scorecards for each CU folder showing maturity scores and recommendations",
+        "Show overall project maturity % broken down by subject (BEV, Aesthetic, IT) and document type (KP, KT, KK, KA, PA)"
       ],
       "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/C04/PA(DrivetrainDiagnostics).md with scenario_id, fault_symptoms, expected_procedure, and schematic_reference fields",
-        "Test command: uv run pytest tests/test_bev_c04_pa_diagnostics.py::test_scenario_structure -v",
-        "Validate scenario data structure and diagnostic tree logic using JSON schema"
+        "File to create: _tools/maturity-scorecard.py (score_document_maturity, generate_scorecard_html functions)",
+        "File to create: _tools/maturity-reports/ folder for HTML scorecards",
+        "Test command: uv run pytest tests/test_maturity_scoring.py -v"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "bev-diagnostic-rectification/C04/PA(DrivetrainDiagnostics).md",
-        "tests/test_bev_c04_pa_diagnostics.py"
+        "_tools/maturity-scorecard.py",
+        "_tools/maturity-reports/",
+        "tests/test_maturity_scoring.py"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "IT Network Scenario Contemporary Standards Validator",
+      "priority": "medium",
+      "description": "Scan IT KP/KT/KA files for outdated technology references (pre-2020 networking standards, deprecated protocols, legacy systems). Flag for modernization. Ensures IT scenarios reflect current industry practices.",
+      "acceptanceCriteria": [
+        "Create _tools/it-scenario-validator.py that flags references to deprecated technologies (IPv4-only, Windows Server 2012, SSL 3.0, unsegmented networks, MPLS-only, physical servers only)",
+        "CLI command reports all deprecated references by file with modernization suggestions (IPv6, containers, zero-trust security, cloud integration, microservices)",
+        "Flag 10+ outdated references and suggest contemporary equivalents with rationale"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/it-scenario-validator.py (identify_deprecated_tech, suggest_modernization functions)",
+        "File to create: _reference/it-deprecated-tech-map.json mapping old→new tech equivalents with rationale",
+        "Test command: uv run pytest tests/test_it_standards.py -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_tools/it-scenario-validator.py",
+        "_reference/it-deprecated-tech-map.json",
+        "tests/test_it_standards.py"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Practical Assessment Safety Checklist Auto-Generator",
+      "priority": "high",
+      "description": "Extract all safety considerations from KK (practical worksheets) procedures. Auto-generate comprehensive bilingual safety checklists for each PA (Performance Assessment). Each checkpoint includes procedure step, hazard, control measure, and evidence criteria.",
+      "acceptanceCriteria": [
+        "Create _tools/pa-safety-checklist-generator.py that parses all KK*.md files and extracts safety keywords (hazard, warning, precaution, PPE, procedure step, danger)",
+        "Generate bilingual safety checklists (EN/BM) for each CU PA with minimum 15 checkpoints covering procedure safety, hazard identification, and control measures",
+        "Each checkpoint includes: procedure step | hazard description | control measure | evidence criteria (verbal/observation/signature)"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/pa-safety-checklist-generator.py (extract_safety_points, generate_checklist_markdown functions)",
+        "File to create: _tools/safety-checklist-templates/pa-checklist-template.md",
+        "Test command: uv run pytest tests/test_safety_checklists.py::test_checklist_coverage -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_tools/pa-safety-checklist-generator.py",
+        "_tools/safety-checklist-templates/pa-checklist-template.md",
+        "tests/test_safety_checklists.py"
       ],
       "_source": "ai-example",
       "passes": false,
