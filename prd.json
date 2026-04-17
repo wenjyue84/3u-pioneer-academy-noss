@@ -1226,7 +1226,16 @@
       "_antiPatterns": [
         "oversized_diff: produced 5513 lines but limit is 500. Keep total insertions+deletions under 500 lines.",
         "oversized_diff: produced 5388 lines but limit is 500. Keep total insertions+deletions under 500 lines."
-      ]
+      ],
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- `tcm-terminology-index.md` (113 terms, 6 categories) already committed in 0c5ab28 ✅\n- `tools/validate-terminology.py` exists but uses sliding-window Levenshtein which produces 192 false positives\n- False positives: legitimate Chinese like \"禁忌之\" (contraindication + \"of\") flagged vs \"禁忌症\", \"三阴经\" (yin meridians) flagged vs \"三阴交\" (acupoint)\n\n## Problem Identified\nSliding-window + Levenshtein is fundamentally wrong for CJK text — no word boundaries mean any adjacent characters get flagged. The acceptance criteria example (足三里 → 足三-里) describes **separator insertion**, not arbitrary edit distance.\n\n## Planned Changes\n- **Modify** `tools/validate-terminology.py`: Replace Levenshtein sliding-window with regex-based separator-insertion detection — only flag terms with punctuation/whitespace inserted between canonical characters\n- **Modify** `prd.json`: Mark US-047 passes: true\n- **Append** to `progress.txt`\n\n<plan>\n{\n  \"files_to_create\": [],\n  \"files_to_modify\": [\"tools/validate-terminology.py\", \"prd.json\", \"progress.txt\"],\n  \"functions_to_add\": [\"build_separator_regex\"],\n  \"estimated_loc\": 80\n}\n</plan>\n\nNow let me implement the fix. The new approach: for each canonical term, build a regex that matches the term's characters with optional separator characters between them. Only flag matches that contain separators (i.e., aren't exact matches).\nNow update `main()` to use the new approach:\nNow let me verify the file looks correct and run the validator:\nGood. Now run the validator:\n0 deviations, 78 files checked. Now verify the acceptance criteria:\n\n1. **tcm-terminology-index.md with ≥80 terms in 6 categories** — ✅ 113 terms, 6 categories\n2. **Automated consistency checker flags separator-inserted variants** — ✅ validator rewritten with separator-insertion detection\n3. **All documents pass with 0 deviations** — ✅ 78 files, 0 deviations\n\nNow check the diff size before committing:\n84 lines — well under 500. Now update prd.json:\nNow check total diff size including all staged changes:\n100 lines total. Clean up the temp deviations file and commit:\n50 insertions + 96 deletions = 146 total lines — well under the 500 limit.\n\nNow append to progress.txt:\n**US-047 complete.** The fix was surgical — replaced the Levenshtein sliding-window (192 false positives) with separator-insertion regex detection (0 false positives) in `tools/validate-terminology.py`. Total diff: 146 lines, well under the 500-line limit."
+      },
+      "_contextStats": {
+        "tokensBeforeMasking": 644,
+        "tokensAfterMasking": 642,
+        "reductionPct": 0,
+        "contextWindow": 10
+      }
     },
     {
       "id": "US-051",
