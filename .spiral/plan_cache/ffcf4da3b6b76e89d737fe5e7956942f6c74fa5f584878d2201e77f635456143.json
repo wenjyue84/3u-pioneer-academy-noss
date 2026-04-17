@@ -1,0 +1,11 @@
+{
+  "story_id": "US-030",
+  "story_title": "Create Assessment Question Difficulty Classifier with Bloom's Taxonomy Cognitive Level Tagging",
+  "key_source": "ai-example|create|assessment|question|medium|",
+  "stored_ts": 1776396015.8859448,
+  "plan": {
+    "story_id": "US-030",
+    "duration_s": 1801,
+    "model": "unknown"
+  }
+}
