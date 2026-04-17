@@ -419,5 +419,50 @@
       "regression",
       "auto-generated"
     ]
+  },
+  {
+    "title": "[Regression Test] Build Automated Competency-to-Assessment Cross-Reference Matrix with Coverage Vali",
+    "description": "Write regression test to guard against future breakage of US-022. Story description: Develop JSON-based competency matrix and Python validator mapping each NOSS CoCU work activity and related knowledge to corresponding WIM documents (KP/KT/KK/KA/PA), with CLI report generation for coverage gaps.",
+    "acceptanceCriteria": [
+      "Regression test covers core observable behaviour of US-022",
+      "Test would reliably fail if the US-022 feature were removed or broken"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_022 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-022"
+    ],
+    "_source": "test-story",
+    "_testType": "regression",
+    "_forStoryId": "US-022",
+    "tags": [
+      "regression",
+      "auto-generated"
+    ]
+  },
+  {
+    "title": "[Performance Test] Create Aesthetic C04 Performance Assessment with Electrotherapy Modality Paramete",
+    "description": "Write performance benchmark for the operation in US-023. Story description: Develop PA for Aesthetic C04 (Electrotherapy) covering safe operation of 6 electrotherapy modalities, parameter setting competency, client screening, and equipment maintenance with evaluator rubrics.",
+    "acceptanceCriteria": [
+      "Performance test measures key metrics for US-023",
+      "Baseline captured and acceptable threshold defined",
+      "Test fails if response time degrades more than 20% from baseline"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_023 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-023"
+    ],
+    "_source": "test-story",
+    "_testType": "performance",
+    "_forStoryId": "US-023",
+    "tags": [
+      "performance",
+      "auto-generated"
+    ]
   }
 ]

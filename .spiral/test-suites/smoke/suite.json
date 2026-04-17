@@ -248,6 +248,32 @@
       "last_result": "pending",
       "obsolete": false,
       "run_count": 0
+    },
+    {
+      "title": "[smoke] Build Automated Competency-to-Assessment Cross-Reference Matrix with Coverage Validation Tool",
+      "description": "Auto-generated smoke test from US-022",
+      "from_story": "US-022",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-020",
+      "created_ts": "2026-04-17T01:52:03Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
+    },
+    {
+      "title": "[smoke] Create Aesthetic C04 Performance Assessment with Electrotherapy Modality Parameter Setting and Safety Competency",
+      "description": "Auto-generated smoke test from US-023",
+      "from_story": "US-023",
+      "command": "",
+      "priority": "medium",
+      "id": "smoke-021",
+      "created_ts": "2026-04-17T01:52:03Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "iteration": 3,
   "suite_type": "security",
-  "timestamp": "2026-04-16T13:46:10Z",
+  "timestamp": "2026-04-17T01:52:05Z",
   "summary": {
-    "total": 4,
+    "total": 8,
     "passed": 0,
     "failed": 0,
-    "skipped": 4
+    "skipped": 8
   },
   "tests": [
     {
@@ -62,6 +62,66 @@
       "priority": "high",
       "id": "security-004",
       "created_ts": "2026-04-16T13:46:09Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
+    },
+    {
+      "title": "[security] Enhance Aesthetic C04 KP — electrotherapy modalities (6 types) with safety",
+      "description": "Auto-generated security test from US-009",
+      "from_story": "US-009",
+      "command": "",
+      "priority": "high",
+      "id": "security-005",
+      "created_ts": "2026-04-16T14:24:25Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
+    },
+    {
+      "title": "[security] Enhance Aesthetic KK practical procedures — treatment techniques and hygiene",
+      "description": "Auto-generated security test from US-012",
+      "from_story": "US-012",
+      "command": "",
+      "priority": "high",
+      "id": "security-006",
+      "created_ts": "2026-04-16T14:46:08Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
+    },
+    {
+      "title": "[security] Create BEV C05 Performance Assessment with Supervisor Competency Rubrics",
+      "description": "Auto-generated security test from US-015",
+      "from_story": "US-015",
+      "command": "",
+      "priority": "high",
+      "id": "security-007",
+      "created_ts": "2026-04-16T16:02:00Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
+    },
+    {
+      "title": "[security] Enhance BEV KT question quality — varied formats with answer schemes",
+      "description": "Auto-generated security test from US-004",
+      "from_story": "US-004",
+      "command": "",
+      "priority": "high",
+      "id": "security-008",
+      "created_ts": "2026-04-16T16:23:32Z",
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,

@@ -1,8 +1,8 @@
 {
   "phase": "I",
-  "iteration": 2,
-  "started_at": 1776387534,
+  "iteration": 5,
+  "started_at": 1776391202,
   "pct_done": 60,
-  "story_id": "US-022",
-  "story_title": "Build Automated Competency-to-Assessment Cross-Reference Matrix with Coverage Validation Tool"
+  "story_id": "US-024",
+  "story_title": "Create BEV C04 Knowledge Assessment with Electric Drive Train Diagnostics Scenarios"
 }

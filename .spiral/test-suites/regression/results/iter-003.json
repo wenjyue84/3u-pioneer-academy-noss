@@ -1,12 +1,12 @@
 {
   "iteration": 3,
   "suite_type": "regression",
-  "timestamp": "2026-04-16T13:46:10Z",
+  "timestamp": "2026-04-17T01:52:04Z",
   "summary": {
-    "total": 4,
+    "total": 7,
     "passed": 0,
     "failed": 0,
-    "skipped": 4
+    "skipped": 7
   },
   "tests": [
     {
@@ -62,6 +62,51 @@
       "priority": "high",
       "id": "regression-004",
       "created_ts": "2026-04-16T13:46:09Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
+    },
+    {
+      "title": "[regression] Enhance Aesthetic C04 KP — electrotherapy modalities (6 types) with safety",
+      "description": "Auto-generated regression test from US-009",
+      "from_story": "US-009",
+      "command": "",
+      "priority": "high",
+      "id": "regression-005",
+      "created_ts": "2026-04-16T14:24:25Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
+    },
+    {
+      "title": "[regression] Enhance Aesthetic KK practical procedures — treatment techniques and hygiene",
+      "description": "Auto-generated regression test from US-012",
+      "from_story": "US-012",
+      "command": "",
+      "priority": "high",
+      "id": "regression-006",
+      "created_ts": "2026-04-16T14:46:08Z",
+      "last_run_ts": "",
+      "last_result": "pending",
+      "obsolete": false,
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
+    },
+    {
+      "title": "[regression] Enhance BEV KT question quality — varied formats with answer schemes",
+      "description": "Auto-generated regression test from US-004",
+      "from_story": "US-004",
+      "command": "",
+      "priority": "high",
+      "id": "regression-007",
+      "created_ts": "2026-04-16T16:23:32Z",
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
