@@ -143,3 +143,21 @@ Here is a technical brief for implementing user story US-051.
 *   The final CSV output column headers should match the technical notes: `Subject, CU, LO_Code, LO_Text, Covered_By, Coverage_Percent`.
 >>>>>>> Stashed changes
 
+## Iteration 1 - Fri, Apr 17, 2026  5:11:31 PM
+FAILED diff-guard: Create BEV Battery Management System Architecture Reference Guide with Functional Blocks (ID: US-055) — 6685 lines > 500 limit — attempt 1/3
+
+
+## Iteration N - Story: Create Assessment Question Bank Indexer with Full-Text Search and Competency Tagging (US-029)
+
+### What was implemented
+- tools/question_bank_indexer.py: SQLite + FTS5 indexer for all KA/KT .md files across BEV, Aesthetic, IT, Tuinalogy subjects
+- tests/test_question_indexer.py: 6 tests covering index count (200+), schema, FTS search, cognitive inference, qtype classification
+- All 6 tests pass; test_index_and_search confirms 200+ questions, correct schema, multi-subject, sub-100ms latency
+
+### Patterns discovered
+- Files were already implemented from prior attempt; only prd.json update was needed
+- Both tools/ and tests/ directories are established patterns for this project
+- importlib.util.spec_from_file_location used for loading tools without __init__.py
+
+### Gotchas
+- None; clean pass on first verification
