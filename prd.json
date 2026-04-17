@@ -775,7 +775,7 @@
       "_antiPatterns": [
         "oversized_diff: produced 12453 lines but limit is 10000. Keep total insertions+deletions under 10000 lines."
       ],
-      "last_attempted": "2026-04-17T02:44:32Z"
+      "last_attempted": "2026-04-17T04:46:12Z"
     },
     {
       "id": "US-028",
@@ -1045,7 +1045,8 @@
         "tokensAfterMasking": 540,
         "reductionPct": 0,
         "contextWindow": 10
-      }
+      },
+      "_passedCommit": "e4c00d878d7754bc79b9d8fee997bea6b0331513"
     },
     {
       "id": "US-038",

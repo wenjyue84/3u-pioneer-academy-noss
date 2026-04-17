@@ -1,6 +1,11 @@
 """BEV Diagnostic Fault Code Scenario Generator.
 
 Generates KT-format diagnostic troubleshooting scenarios from fault-code-scenarios.json.
+
+Usage:
+    uv run python bev-diagnostic-rectification/_tools/generate-scenarios.py
+    uv run python bev-diagnostic-rectification/_tools/generate-scenarios.py --output C02
+    uv run python bev-diagnostic-rectification/_tools/generate-scenarios.py --list
 """
 from __future__ import annotations
 
@@ -13,19 +18,31 @@ DATA_FILE = Path(__file__).parent / "fault-code-scenarios.json"
 
 def load_fault_codes(path: Path = DATA_FILE) -> list[dict]:
     """Load fault code scenarios from JSON file."""
-    return json.loads(path.read_text(encoding="utf-8"))
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return data["fault_codes"]
 
 
 def create_scenario_question(entry: dict, idx: int = 1) -> str:
-    """Format a single fault code entry as a KT markdown scenario."""
-    symptoms = ", ".join(entry["symptoms"])
+    """Format a single fault code entry as a KT-format markdown scenario question."""
+    code = entry["fault_code"]
+    component = entry["component"]
+    system = entry.get("system", "")
+    symptoms = "\n".join(f"   - {s}" for s in entry["symptoms"])
     steps = "\n".join(f"   {i}. {s}" for i, s in enumerate(entry["diagnosis_steps"], 1))
     kps = ", ".join(entry["relevant_kps"])
     return (
-        f"### Scenario {idx}: {entry['fault_code']} — {entry['component']}\n\n"
-        f"**Fault Code:** {entry['fault_code']}\n"
-        f"**Component:** {entry['component']}\n"
-        f"**Symptoms:** {symptoms}\n\n"
+        f"### Senario {idx} / Scenario {idx}: {code} — {component}\n\n"
+        f"**Kod Kesalahan / Fault Code:** {code}\n"
+        f"**Komponen / Component:** {component}\n"
+        f"**Sistem / System:** {system}\n"
+        f"**KP Rujukan / Reference KPs:** {kps}\n\n"
+        f"**Simptom / Symptoms:**\n{symptoms}\n\n"
+        f"**B1.** Namakan komponen yang terlibat dan terangkan fungsi utamanya.\n"
+        f"*(Name the component involved and explain its main function.)*\n\n"
+        f"**B2.** Berdasarkan simptom di atas, senaraikan tiga (3) punca yang mungkin.\n"
+        f"*(Based on the symptoms above, list three (3) possible causes.)*\n\n"
+        f"**B3.** Huraikan prosedur diagnosis langkah-demi-langkah:\n"
+        f"*(Describe the step-by-step diagnosis procedure:)*\n\n"
         f"**Diagnosis Procedure:**\n{steps}\n\n"
         f"**Reference:** {kps}\n"
     )
@@ -42,21 +59,34 @@ def main() -> None:
 
     if args.list:
         for c in codes:
-            print(f"{c['fault_code']}  {c['component']:20s}  {', '.join(c['relevant_kps'])}")
+            print(f"{c['fault_code']}  {c['component']:30s}  {', '.join(c['relevant_kps'])}")
         return
 
-    if args.output:
-        codes = [c for c in codes if any(args.output in kp for kp in c["relevant_kps"])]
+    cu_filter = args.output
+    if cu_filter:
+        codes = [c for c in codes if any(cu_filter in kp for kp in c["relevant_kps"])]
 
-    md = "# BEV Diagnostic Fault Code Scenarios\n\n"
+    suffix = cu_filter or "all"
+    md_lines = [
+        "# KERTAS TUGASAN / ASSIGNMENT SHEET — BEV Diagnostic Fault Code Scenarios\n",
+        f"**WIM Standard:** G452-010-3:2023 — {suffix.upper()}",
+        "**Kertas Warna / Paper Color:** MERAH JAMBU / PINK",
+        f"**Jumlah Senario / Total Scenarios:** {len(codes)}",
+        "",
+        "---",
+        "",
+    ]
     for i, entry in enumerate(codes, 1):
-        md += create_scenario_question(entry, i) + "\n---\n\n"
+        md_lines.append(create_scenario_question(entry, i))
+        md_lines.append("---\n")
+
+    md = "\n".join(md_lines)
 
     if args.out_dir:
         args.out_dir.mkdir(parents=True, exist_ok=True)
-        dest = args.out_dir / f"scenarios-{args.output or 'all'}.md"
+        dest = args.out_dir / f"KT-fault-scenarios-{suffix}.md"
         dest.write_text(md, encoding="utf-8")
-        print(f"Written to {dest}")
+        print(f"Generated {len(codes)} scenarios -> {dest}")
     else:
         print(md)
 

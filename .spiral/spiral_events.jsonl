@@ -1069,3 +1069,7 @@
 {"ts":"2026-04-17T04:40:18Z","event":"plan_cache_miss","story_id":"US-037"}
 {"ts":"2026-04-17T04:40:19Z","event":"anti_pattern_injected","story_id":"US-037","retry":1,"count":1}
 {"ts":"2026-04-17T04:45:21Z","event":"cost_update","story_id":"US-037","tokens_input":23,"tokens_output":7180,"estimated_usd":0.293769}
+{"ts":"2026-04-17T04:45:39Z","event":"scope_guard","story_id":"US-037","result":"skip","reason":"empty_filesTouch"}
+{"ts":"2026-04-17T04:46:10Z","event":"story_passed","storyId":"US-037","retryCount":0,"model":"opus"}
+{"ts":"2026-04-17T04:46:16Z","event":"plan_cache_miss","story_id":"US-027"}
+{"ts":"2026-04-17T04:46:17Z","event":"anti_pattern_injected","story_id":"US-027","retry":1,"count":1}

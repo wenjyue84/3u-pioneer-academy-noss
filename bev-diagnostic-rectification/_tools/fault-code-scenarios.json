@@ -1,22 +1,430 @@
-[
-  {"fault_code":"P0A80","component":"Battery Pack","symptoms":["reduced range","warning light"],"diagnosis_steps":["Read DTC","Check cell voltages","Inspect connections"],"relevant_kps":["C01/KP-01","C01/KP-02"]},
-  {"fault_code":"P0A7F","component":"Battery Pack","symptoms":["intermittent shutdown","thermal warning"],"diagnosis_steps":["Read DTC","Check coolant temp","Inspect thermal paste"],"relevant_kps":["C01/KP-01","C01/KP-03"]},
-  {"fault_code":"P0A1F","component":"BMS","symptoms":["SOC inaccurate","charge stops early"],"diagnosis_steps":["Calibrate BMS","Check voltage sensors","Update firmware"],"relevant_kps":["C01/KP-02","C01/KP-03"]},
-  {"fault_code":"P0A09","component":"BMS","symptoms":["no regen braking","fault light"],"diagnosis_steps":["Read DTC","Check current sensor","Inspect BMS harness"],"relevant_kps":["C01/KP-02"]},
-  {"fault_code":"P0A0D","component":"HV Battery","symptoms":["isolation fault","HV warning"],"diagnosis_steps":["Measure isolation resistance","Inspect HV cables","Check connectors"],"relevant_kps":["C01/KP-01","C02/KP-01"]},
-  {"fault_code":"P0A3F","component":"DC-DC Converter","symptoms":["12V battery drain","accessory failure"],"diagnosis_steps":["Check 12V output","Inspect converter","Test input voltage"],"relevant_kps":["C02/KP-02","C02/KP-03"]},
-  {"fault_code":"P0A78","component":"Drive Motor","symptoms":["reduced power","vibration"],"diagnosis_steps":["Read DTC","Check phase resistance","Inspect bearings"],"relevant_kps":["C02/KP-01","C02/KP-04"]},
-  {"fault_code":"P0A7A","component":"Motor Controller","symptoms":["torque fluctuation","overtemp"],"diagnosis_steps":["Read DTC","Check coolant flow","Inspect IGBT module"],"relevant_kps":["C02/KP-04","C02/KP-05"]},
-  {"fault_code":"P0A94","component":"Inverter","symptoms":["no drive","fault code stored"],"diagnosis_steps":["Read DTC","Check DC bus voltage","Test gate drivers"],"relevant_kps":["C02/KP-03","C02/KP-05"]},
-  {"fault_code":"P0AA6","component":"HV Contactor","symptoms":["no HV present","click no engage"],"diagnosis_steps":["Check coil voltage","Measure contact resistance","Inspect precharge"],"relevant_kps":["C02/KP-01","C02/KP-06"]},
-  {"fault_code":"P0A05","component":"Motor Temp Sensor","symptoms":["derating","false overtemp"],"diagnosis_steps":["Check sensor resistance","Compare with IR temp","Replace sensor"],"relevant_kps":["C02/KP-04","C03/KP-01"]},
-  {"fault_code":"P0ACB","component":"Thermal Management","symptoms":["battery overtemp","fan always on"],"diagnosis_steps":["Check coolant level","Inspect pump operation","Clean radiator"],"relevant_kps":["C03/KP-01","C03/KP-02"]},
-  {"fault_code":"P0A1A","component":"Thermal Management","symptoms":["slow charge in cold","preconditioning fail"],"diagnosis_steps":["Check heater circuit","Inspect PTC heater","Test thermostat"],"relevant_kps":["C03/KP-01","C03/KP-03"]},
-  {"fault_code":"P0AFA","component":"Onboard Charger","symptoms":["no AC charge","charger fault light"],"diagnosis_steps":["Check AC input","Test charger output","Inspect pilot signal"],"relevant_kps":["C02/KP-06","C03/KP-02"]},
-  {"fault_code":"P0A12","component":"Charging System","symptoms":["slow DC charge","connector overtemp"],"diagnosis_steps":["Check connector pins","Measure charge current","Inspect cooling"],"relevant_kps":["C02/KP-06","C03/KP-02"]},
-  {"fault_code":"P0AE0","component":"Regen Braking","symptoms":["no regen","brake feel change"],"diagnosis_steps":["Check motor controller","Test brake sensor","Inspect wiring"],"relevant_kps":["C02/KP-05","C03/KP-03"]},
-  {"fault_code":"P0A63","component":"HV Interlock","symptoms":["service disconnect active","no HV"],"diagnosis_steps":["Check interlock loop","Inspect MSD","Test continuity"],"relevant_kps":["C01/KP-03","C02/KP-01"]},
-  {"fault_code":"P0A7E","component":"Cell Balancing","symptoms":["reduced capacity","uneven SOC"],"diagnosis_steps":["Check cell voltages","Run balance cycle","Replace weak cells"],"relevant_kps":["C01/KP-01","C01/KP-02"]},
-  {"fault_code":"P0B3C","component":"HV Wiring","symptoms":["intermittent fault","arc damage"],"diagnosis_steps":["Visual inspect HV cables","Megger test insulation","Check torque specs"],"relevant_kps":["C02/KP-01","C02/KP-02"]},
-  {"fault_code":"P0ADB","component":"Coolant Pump","symptoms":["overtemp warning","pump noise"],"diagnosis_steps":["Check pump voltage","Measure flow rate","Inspect impeller"],"relevant_kps":["C03/KP-01","C03/KP-02"]}
-]
+{
+  "metadata": {
+    "noss_code": "G452-010-3:2023",
+    "subject": "Battery Electric Vehicle Diagnostic and Rectification",
+    "level": 3,
+    "description": "BEV diagnostic fault code scenarios for KT/KA practice — covers battery, BMS, drivetrain, and thermal systems"
+  },
+  "fault_codes": [
+    {
+      "fault_code": "P0A80",
+      "component": "High Voltage Traction Battery",
+      "system": "BMS",
+      "symptoms": [
+        "Reduced driving range",
+        "Battery warning light illuminated",
+        "Reduced power mode activated",
+        "BMS fault message on dashboard"
+      ],
+      "diagnosis_steps": [
+        "Connect OBD-II scanner and read DTCs",
+        "Check individual cell voltages via BMS data stream",
+        "Identify cells with voltage deviation >50mV from average",
+        "Measure cell temperature differentials across pack",
+        "Review charge/discharge cycle history in BMS memory"
+      ],
+      "relevant_kps": ["C02/KP-05", "C02/KP-01"],
+      "severity": "high"
+    },
+    {
+      "fault_code": "P0A04",
+      "component": "Battery Management System (BMS) Control Module",
+      "system": "BMS",
+      "symptoms": [
+        "No communication with BMS on diagnostic bus",
+        "All battery parameters unavailable",
+        "Vehicle may not start",
+        "Multiple related DTCs present"
+      ],
+      "diagnosis_steps": [
+        "Verify 12V supply to BMS control module",
+        "Check CAN bus communication on BMS network",
+        "Inspect BMS harness for open circuits or shorts",
+        "Test BMS ground connections",
+        "Replace BMS module if hardware fault confirmed"
+      ],
+      "relevant_kps": ["C02/KP-01", "C02/KP-02"],
+      "severity": "critical"
+    },
+    {
+      "fault_code": "P0A1A",
+      "component": "Battery Thermal Management System",
+      "system": "Thermal",
+      "symptoms": [
+        "Battery over-temperature warning",
+        "Thermal management fault light",
+        "Charging speed reduced",
+        "Power output limited by thermal protection"
+      ],
+      "diagnosis_steps": [
+        "Check coolant level in battery thermal circuit",
+        "Inspect coolant pump operation and flow rate",
+        "Measure battery pack inlet/outlet coolant temperatures",
+        "Check for coolant leaks at hose connections",
+        "Verify thermostat and chiller operation"
+      ],
+      "relevant_kps": ["C03/KP-02", "C03/KP-03"],
+      "severity": "high"
+    },
+    {
+      "fault_code": "P0A78",
+      "component": "Drive Motor Control Module",
+      "system": "Drivetrain",
+      "symptoms": [
+        "Loss of drive power",
+        "Drivetrain fault warning",
+        "Vehicle limited to reduced speed",
+        "Abnormal motor noise during acceleration"
+      ],
+      "diagnosis_steps": [
+        "Read motor controller DTCs with OEM scanner",
+        "Check HV bus voltage at inverter input",
+        "Measure phase current balance across motor windings",
+        "Inspect motor temperature sensor readings",
+        "Check motor resolver/encoder signal integrity"
+      ],
+      "relevant_kps": ["C02/KP-06", "C02/KP-03"],
+      "severity": "critical"
+    },
+    {
+      "fault_code": "P0A94",
+      "component": "DC-DC Converter",
+      "system": "BMS",
+      "symptoms": [
+        "12V battery not charging",
+        "Low 12V system voltage warning",
+        "Multiple 12V accessory failures",
+        "Vehicle may not start after parking"
+      ],
+      "diagnosis_steps": [
+        "Measure 12V battery voltage with engine running (expect 13.5-14.5V)",
+        "Check DC-DC converter HV input voltage",
+        "Verify DC-DC converter enable signal from VCU",
+        "Measure DC-DC output current under load",
+        "Inspect HV connector at DC-DC converter for corrosion"
+      ],
+      "relevant_kps": ["C02/KP-06", "C02/KP-01"],
+      "severity": "high"
+    },
+    {
+      "fault_code": "P0AFA",
+      "component": "HV Battery Contactor",
+      "system": "BMS",
+      "symptoms": [
+        "Battery contactors fail to close",
+        "Isolation fault warning",
+        "Vehicle unable to activate Ready mode",
+        "Clicking sound from battery pack area"
+      ],
+      "diagnosis_steps": [
+        "Check main positive and negative contactor coil resistance",
+        "Verify pre-charge contactor and resistor function",
+        "Measure HV bus voltage before and after contactors",
+        "Inspect contactor wiring harness for damage",
+        "Test contactor activation with bi-directional control"
+      ],
+      "relevant_kps": ["C02/KP-04", "C02/KP-02"],
+      "severity": "critical"
+    },
+    {
+      "fault_code": "P0AC4",
+      "component": "Battery Current Sensor",
+      "system": "BMS",
+      "symptoms": [
+        "Inaccurate State of Charge (SOC) display",
+        "Unexpected range reduction",
+        "BMS reporting conflicting data",
+        "Regen braking reduced or disabled"
+      ],
+      "diagnosis_steps": [
+        "Read current sensor value in BMS data stream at rest (should be near 0A)",
+        "Apply known current load and compare sensor reading",
+        "Check Hall-effect sensor supply voltage (typically 5V)",
+        "Inspect current sensor signal wire for interference",
+        "Replace current sensor if offset error exceeds +/-2A at rest"
+      ],
+      "relevant_kps": ["C02/KP-02", "C02/KP-05"],
+      "severity": "medium"
+    },
+    {
+      "fault_code": "P0A3F",
+      "component": "Battery Temperature Sensor",
+      "system": "BMS",
+      "symptoms": [
+        "Battery temperature reading out of range",
+        "Thermal management system fault",
+        "Charging disabled at moderate temperatures",
+        "Inconsistent temperature readings across pack"
+      ],
+      "diagnosis_steps": [
+        "Read all battery temperature sensor values in BMS data stream",
+        "Compare readings — sensors within pack should be within 5 degrees C",
+        "Check NTC thermistor resistance vs temperature curve",
+        "Inspect sensor connectors inside battery pack",
+        "Replace individual NTC sensors if resistance deviation confirmed"
+      ],
+      "relevant_kps": ["C02/KP-05", "C03/KP-02"],
+      "severity": "medium"
+    },
+    {
+      "fault_code": "P0A1F",
+      "component": "Battery Coolant Pump",
+      "system": "Thermal",
+      "symptoms": [
+        "Battery thermal management fault",
+        "Coolant pump not running audibly",
+        "Battery temperature rising during operation",
+        "Thermal runaway risk warning"
+      ],
+      "diagnosis_steps": [
+        "Check coolant pump relay and fuse",
+        "Verify pump power supply voltage",
+        "Test pump manually via bi-directional control on scanner",
+        "Measure pump current draw (compare to spec)",
+        "Inspect pump impeller for blockage"
+      ],
+      "relevant_kps": ["C03/KP-02", "C03/KP-01"],
+      "severity": "high"
+    },
+    {
+      "fault_code": "P0A0C",
+      "component": "HV Cable Insulation",
+      "system": "BMS",
+      "symptoms": [
+        "Isolation monitoring fault",
+        "HV insulation resistance below threshold",
+        "Vehicle shuts down in rain or wet conditions",
+        "IMD fault warning light"
+      ],
+      "diagnosis_steps": [
+        "Disconnect HV battery following HV service procedures",
+        "Use 500V insulation resistance tester on HV cables",
+        "Minimum acceptable: 500 kOhm (1 MOhm preferred)",
+        "Inspect HV cable routing for chafe points",
+        "Check orange HV cable connectors for moisture ingress"
+      ],
+      "relevant_kps": ["C01/KP-03", "C02/KP-02"],
+      "severity": "critical"
+    },
+    {
+      "fault_code": "P0AE0",
+      "component": "On-Board Charger (OBC)",
+      "system": "BMS",
+      "symptoms": [
+        "AC charging not initiating",
+        "OBC fault on dashboard",
+        "Charging indicator flashes and stops",
+        "Grid-side fuse blown repeatedly"
+      ],
+      "diagnosis_steps": [
+        "Read OBC-specific DTCs with OEM scanner",
+        "Check AC input voltage at OBC (should match grid: 220V +/-10%)",
+        "Verify charge port contact resistance (<0.1 Ohm)",
+        "Check pilot signal (CP) voltage and PWM duty cycle",
+        "Test OBC outlet DC voltage to battery"
+      ],
+      "relevant_kps": ["C02/KP-03", "C02/KP-01"],
+      "severity": "high"
+    },
+    {
+      "fault_code": "P0A7A",
+      "component": "Traction Motor Winding",
+      "system": "Drivetrain",
+      "symptoms": [
+        "Motor overheating fault",
+        "Reduced torque output",
+        "Abnormal motor temperature rise under light load",
+        "Motor efficiency significantly reduced"
+      ],
+      "diagnosis_steps": [
+        "Measure motor winding resistance per phase (should be balanced)",
+        "Perform insulation resistance test on motor windings",
+        "Check motor temperature sensor against known ambient",
+        "Inspect motor cooling circuit flow rate",
+        "Review motor thermal model data in VCU"
+      ],
+      "relevant_kps": ["C02/KP-06", "C03/KP-03"],
+      "severity": "high"
+    },
+    {
+      "fault_code": "P0A9B",
+      "component": "Inverter / Power Module",
+      "system": "Drivetrain",
+      "symptoms": [
+        "Inverter fault warning",
+        "No propulsion despite motor turning",
+        "Excessive inverter heat generation",
+        "Phase current imbalance detected"
+      ],
+      "diagnosis_steps": [
+        "Read inverter DTCs and freeze frame data",
+        "Check IGBT gate driver voltage levels",
+        "Measure inverter output phase voltages",
+        "Verify inverter coolant temperature and flow",
+        "Test IGBT modules for short circuit (with HV disconnected)"
+      ],
+      "relevant_kps": ["C02/KP-06", "C03/KP-02"],
+      "severity": "critical"
+    },
+    {
+      "fault_code": "P0C6A",
+      "component": "Vehicle Control Unit (VCU)",
+      "system": "BMS",
+      "symptoms": [
+        "Multiple simultaneous system faults",
+        "Vehicle enters failsafe mode",
+        "CAN communication errors across multiple networks",
+        "Inconsistent vehicle behavior"
+      ],
+      "diagnosis_steps": [
+        "Download all DTCs from all control modules",
+        "Check CAN bus network topology and termination resistance",
+        "Verify VCU power supply and ground quality",
+        "Update VCU firmware if calibration mismatch detected",
+        "Inspect VCU connector for moisture or corrosion"
+      ],
+      "relevant_kps": ["C02/KP-01", "C02/KP-06"],
+      "severity": "critical"
+    },
+    {
+      "fault_code": "P0A1C",
+      "component": "Battery Chiller / Refrigerant Circuit",
+      "system": "Thermal",
+      "symptoms": [
+        "Battery unable to cool in hot ambient",
+        "Charging speed reduced above 35 degrees C ambient",
+        "AC system pressure faults linked to battery chiller",
+        "Thermal runaway risk in extreme heat"
+      ],
+      "diagnosis_steps": [
+        "Check refrigerant pressure in battery chiller circuit",
+        "Verify chiller valve operation and opening",
+        "Measure refrigerant temperature drop across chiller",
+        "Check compressor output when chiller is demanded",
+        "Inspect refrigerant lines for leaks using UV dye test"
+      ],
+      "relevant_kps": ["C03/KP-03", "C03/KP-02"],
+      "severity": "high"
+    },
+    {
+      "fault_code": "U0100",
+      "component": "CAN Bus — BMS Network",
+      "system": "BMS",
+      "symptoms": [
+        "Lost communication with BMS",
+        "All battery parameters show default values",
+        "Multiple U-code DTCs across modules",
+        "Intermittent fault correlating with vibration"
+      ],
+      "diagnosis_steps": [
+        "Measure CAN bus high/low voltage (expected: H=2.5-3.5V, L=1.5-2.5V)",
+        "Check CAN termination resistance (should be ~60 Ohm between H and L)",
+        "Locate and inspect CAN harness for damage at flex points",
+        "Test CAN bus with oscilloscope for signal quality",
+        "Check BMS module for internal communication fault"
+      ],
+      "relevant_kps": ["C02/KP-01", "C02/KP-02"],
+      "severity": "high"
+    },
+    {
+      "fault_code": "P0562",
+      "component": "12V Auxiliary Battery",
+      "system": "BMS",
+      "symptoms": [
+        "Vehicle fails to wake from sleep mode",
+        "DC-DC converter compensating at maximum output",
+        "Multiple low-voltage DTCs",
+        "Slow wake-up time after parking"
+      ],
+      "diagnosis_steps": [
+        "Measure 12V battery voltage (key off, key on, Ready mode)",
+        "Load test 12V battery at rated CCA",
+        "Check 12V battery age and cycle count",
+        "Measure DC-DC converter output voltage stability",
+        "Verify 12V battery venting and charging connections"
+      ],
+      "relevant_kps": ["C02/KP-06", "C01/KP-02"],
+      "severity": "medium"
+    },
+    {
+      "fault_code": "P0A82",
+      "component": "Cell Balancing Circuit",
+      "system": "BMS",
+      "symptoms": [
+        "Cell voltage spread >100mV after full charge",
+        "Reduced usable capacity over time",
+        "BMS reports balancing fault",
+        "One module charges/discharges faster than others"
+      ],
+      "diagnosis_steps": [
+        "Read individual cell voltages in BMS data stream",
+        "Identify cells or modules with persistent high/low deviation",
+        "Check passive balancing resistors for continuity",
+        "Verify balancing is active during charge (BMS should balance top-of-charge)",
+        "Assess if deviation indicates cell degradation requiring replacement"
+      ],
+      "relevant_kps": ["C02/KP-05", "C02/KP-04"],
+      "severity": "medium"
+    },
+    {
+      "fault_code": "P0A02",
+      "component": "State of Charge (SOC) Estimation",
+      "system": "BMS",
+      "symptoms": [
+        "Range display jumps unexpectedly",
+        "SOC does not return to 100% after full charge",
+        "BMS shows different SOC from expected based on energy consumed",
+        "Sudden range anxiety at moderate SOC"
+      ],
+      "diagnosis_steps": [
+        "Perform full charge cycle and record SOC at charger cutoff",
+        "Run discharge test comparing BMS SOC to actual energy out",
+        "Check current sensor calibration",
+        "Verify BMS software version and SOC algorithm calibration",
+        "Perform battery capacity test (full charge-discharge cycle measurement)"
+      ],
+      "relevant_kps": ["C02/KP-05", "C02/KP-02"],
+      "severity": "medium"
+    },
+    {
+      "fault_code": "P0A93",
+      "component": "Pre-charge Circuit",
+      "system": "BMS",
+      "symptoms": [
+        "Vehicle fails to enter Ready mode",
+        "Pre-charge timeout fault",
+        "Loud contactor click followed by immediate disconnect",
+        "Capacitor bank voltage not rising during pre-charge"
+      ],
+      "diagnosis_steps": [
+        "Measure pre-charge resistor value (compare to spec: typically 10-100 Ohm)",
+        "Monitor HV bus capacitor voltage during pre-charge attempt",
+        "Check pre-charge contactor for welding or failure to close",
+        "Calculate expected pre-charge time constant (RC)",
+        "Inspect for HV loads that may be drawing current during pre-charge"
+      ],
+      "relevant_kps": ["C02/KP-04", "C02/KP-01"],
+      "severity": "high"
+    },
+    {
+      "fault_code": "P0A16",
+      "component": "Battery Pack Structural Integrity",
+      "system": "BMS",
+      "symptoms": [
+        "Coolant leak detected inside battery enclosure",
+        "Battery pack weight increase from water ingress",
+        "Corrosion on battery module connections",
+        "Intermittent faults after rain or car wash"
+      ],
+      "diagnosis_steps": [
+        "Inspect battery pack enclosure seal with pressure test (5 kPa)",
+        "Check drain plugs and vent valves for blockage",
+        "Use borescope to inspect inside battery pack for moisture",
+        "Measure insulation resistance after drying pack (should exceed 1 MOhm)",
+        "Replace compromised seals and gaskets per OEM specification"
+      ],
+      "relevant_kps": ["C02/KP-05", "C01/KP-03"],
+      "severity": "critical"
+    }
+  ]
+}
