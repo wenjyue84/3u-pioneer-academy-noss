@@ -1260,3 +1260,7 @@
 {"ts":"2026-04-17T09:03:16Z","event":"plugin_hook","run_id":"69e180a1b4","level":"INFO","plugin":"notify-slack","hook":"post-story","type":"POST","exit_code":0,"duration_s":0,"trace_id":"547c60abbc8dca9960b7b3178e9e8aa3","span_id":"20b1f6b1d55a75ab"}
 {"ts":"2026-04-17T09:11:37Z","event":"plan_cache_miss","story_id":"US-029"}
 {"ts":"2026-04-17T09:13:41Z","event":"cost_update","story_id":"US-029","tokens_input":12,"tokens_output":2373,"estimated_usd":0.035631}
+{"ts":"2026-04-17T09:13:58Z","event":"scope_guard","story_id":"US-029","result":"skip","reason":"empty_filesTouch"}
+{"ts":"2026-04-17T09:14:12Z","event":"story_passed","storyId":"US-029","retryCount":0,"model":"sonnet"}
+{"ts":"2026-04-17T09:14:18Z","event":"plan_cache_miss","story_id":"US-035"}
+{"ts":"2026-04-17T09:22:42Z","event":"cost_update","story_id":"US-035","tokens_input":43,"tokens_output":16193,"estimated_usd":0.243024}
