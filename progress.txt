@@ -1458,3 +1458,15 @@ FAILED diff-guard: IT-020 Hands-On Lab Activity Mapper (ID: US-036) — 4038 lin
 ## Iteration 1 - Fri, Apr 17, 2026 12:25:01 PM
 FAILED diagnosis-block gate: IT-020 Hands-On Lab Activity Mapper (ID: US-036) — no diagnosis block found — attempt 2/3
 
+## Iteration 4 - Story: IT-020 Hands-On Lab Activity Mapper (US-036) - PASSED
+
+### What was implemented
+- Code was already complete from iteration 3 (committed at 479b8c7)
+- Marked passes: true after verifying all 5 tests pass and CLI works correctly
+
+### Patterns discovered
+- When code is already committed and tests pass, just verify and mark passes:true
+- Diagnosis block must be output BEFORE any file edits (plain text, not in tool calls)
+
+### Gotchas
+- Previous failures were process gates, not code issues — always check git log first
