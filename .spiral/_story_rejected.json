@@ -1,309 +1,364 @@
 {
   "stories": [
     {
-      "title": "Tuinalogy C01-C05 Meridian Chart Image Placeholders and Captions",
+      "title": "Create Answer Key Completeness Validator for All Knowledge Assessments",
       "priority": "high",
-      "description": "Add markdown image syntax with anatomical landmarks and bilingual labels for meridian pathway illustrations in theory lessons across all CUs, supporting clinical accuracy and WIM readability standards.",
+      "description": "Validate that every knowledge assessment (KA) document has complete, well-formatted answer keys with scoring guidance for all assessment items. Scans KA/KT markdown files and ensures answer schemes are present with marking rubrics and source references.",
       "acceptanceCriteria": [
-        "All C01-C05 PM-teori.md files contain at least 2 meridian diagram placeholders with markdown syntax ![meridian](path) and Chinese/English captions including acupoint locations and anatomical landmarks",
-        "Meridian diagram captions include bilingual formatting (Simplified Chinese + English) with acupoint references (穴位) and pathway descriptions per WIM format MP-031-3:2016-C0X/meridian-(seq).png",
-        "Image placeholders follow WIM naming convention with alt-text and reference numbers, enabling future PDF export with proper figure numbering"
+        "Validator script reads all */KA.md and */KT.md files and checks 100% of assessment items have model answers",
+        "Each answer includes point allocation, marking guidance (for essays), and KP section reference—flags missing details",
+        "Report output lists: subject/CU, total items, items with answers, coverage %, and list of incomplete items with file:line_number"
       ],
       "technicalNotes": [
-        "File to edit: tuinalogy-services/C01/PM-teori.md (insert markdown image blocks with alt-text and bilingual captions)",
-        "Test command: grep -r '!\\[.*meridian' tuinalogy-services/*/PM-teori.md | wc -l (verify >= 10 placeholders across 7 CUs)"
+        "File to create: _tools/answer_key_validator.py (functions: parse_assessment_questions, validate_answer_scheme, generate_completeness_report)",
+        "Test command: uv run pytest _tools/test_answer_key_validator.py::test_answer_key_coverage_100_percent -v",
+        "Input: finds all KA.md/KT.md via glob pattern bev-diagnostic-rectification/C*/KA.md, aesthetic-services/C*/KA.md, it-computer-system/L*/KA.md"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_tools/answer_key_validator.py",
+        "_tools/test_answer_key_validator.py",
+        "_reference/answer_key_audit_report.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Create PM Lesson Plan Completeness Auditor",
+      "priority": "high",
+      "description": "Validate all Lesson Plans (PM-teori.md and PM-amali.md) contain required sections with sufficient detail per Buku Panduan WIM 2020 guidelines. Enforces 4-phase structure and mandatory section headers.",
+      "acceptanceCriteria": [
+        "Auditor scans all PM-teori.md and PM-amali.md files; checks for TAJUK, TUJUAN (2-3 learning outcomes), PENERANGAN header, and 4 phases: Persediaan, Pengenalan, Penyajian, Kesimpulan",
+        "Each phase must include: Tempoh (duration in minutes), Kaedah Pengajaran, Sumber Pembelajaran, and Penilaian",
+        "Report lists files with missing sections, incomplete phase details, and estimated lesson duration; flags lessons without all required content"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/lesson_plan_auditor.py (functions: parse_lesson_plan, validate_sections, check_four_phases)",
+        "Test command: uv run pytest _tools/test_lesson_plan_auditor.py::test_mandatory_sections_present -v",
+        "Pattern matching: uses regex to identify section headers (##\\s+(Persediaan|Pengenalan|Penyajian|Kesimpulan)) and validate structure"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tuinalogy-services/C01/PM-teori.md",
-        "tuinalogy-services/C02/PM-teori.md",
-        "tuinalogy-services/C03/PM-teori.md",
-        "tuinalogy-services/C04/PM-teori.md",
-        "tuinalogy-services/C05/PM-teori.md"
+        "_tools/lesson_plan_auditor.py",
+        "_tools/test_lesson_plan_auditor.py",
+        "_reference/lesson_plan_audit_report.md"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Tuinalogy Pregnancy Contraindications (禁忌五穴) Safety Matrix",
+      "title": "Build Practical Procedure Safety Checkpoint Intensity Classifier",
       "priority": "high",
-      "description": "Create comprehensive safety reference document mapping 5 forbidden acupoints during pregnancy (禁忌五穴) with clinical rationale, alternative techniques, assessment scenarios, and compliance with T&CM Act 2013 and MOH guidelines.",
+      "description": "Analyze BEV and Aesthetic KK procedures and classify safety checkpoint intensity (Low/Medium/High risk) with automated gap detection for missing safety measures. Flags high-risk steps lacking adequate PPE or emergency procedures.",
       "acceptanceCriteria": [
-        "New document MP-031-3:2016-Safety/pregnancy-contraindications.md contains contraindicated acupoints table (穴位 | EN | Clinical Rationale | Alternative Technique), ≥3 KT-format exam questions on pregnancy screening, and citations to T&CM Act 2013 and MOH guidelines",
-        "KT documents in C01-C02 each integrated with ≥2 scenario-based pregnancy screening questions (MCQ or case analysis format) with full answer schemes in bilingual format",
-        "PA (Performance Assessment) rubrics updated to include pregnancy safety competency criterion with 4-point scale (Novice through Exemplary)"
+        "Classifier scans all KK-*.md files and identifies high-risk keywords (HV exposure, >48V, chemical handling, moving parts, compressed air) and assigns risk level",
+        "For each high-risk step, checks presence of corresponding safety checkpoints: PPE requirement, hazard warning, emergency procedure reference",
+        "Generates heatmap CSV: File, Line, Risk_Level, Step_Description, Missing_Safety_Measures; flags procedures with >2 uncovered high-risk steps"
       ],
       "technicalNotes": [
-        "File to create: tuinalogy-services/_reference/pregnancy-contraindications.md (markdown table with acupoint details, rationale, alternatives, plus scenario questions with bilingual answers)",
-        "Test command: grep -c '禁忌' tuinalogy-services/_reference/pregnancy-contraindications.md && grep -c 'pregnancy\\|妊娠' tuinalogy-services/C0[12]/KT*.md"
+        "File to create: _tools/safety_intensity_classifier.py (functions: detect_risk_keywords, check_ppe_presence, find_emergency_procedures)",
+        "Test command: uv run pytest _tools/test_safety_intensity_classifier.py::test_high_voltage_flagged_as_high_risk -v",
+        "Risk keywords file: _reference/safety_risk_keywords.json with keyword→risk_level mapping and required safety countermeasures"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tuinalogy-services/_reference/pregnancy-contraindications.md",
-        "tuinalogy-services/C01/KT-01.md",
-        "tuinalogy-services/C02/KT-01.md",
-        "tuinalogy-services/C01/PA.md",
-        "tuinalogy-services/C02/PA.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Tuinalogy KT Enhanced Question Types with Simplified Chinese Answer Schemes",
-      "priority": "high",
-      "description": "Expand all KT (assignment sheet) documents with varied question formats (MCQ, matching, short-answer, case analysis) tagged with Bloom's cognitive levels and complete bilingual answer schemes; increase content depth 3x per CU.",
-      "acceptanceCriteria": [
-        "All 7 CU KT documents (C01-C05, E01-E02) contain ≥3 distinct question types (MCQ, matching, short-answer, scenario-based) with each question tagged with Bloom's level (记忆/理解/应用/分析/评价) as markdown comment",
-        "Complete bilingual answer schemes provided: English model answer (150-200 words) + 简体中文 detailed explanation (150-200 words) for every question; documents expand from ~500 to ≥1500 words per CU",
-        "KT documents demonstrate varied cognitive levels across all 5-6 Bloom's stages per CU, avoiding >40% concentration at any single level"
-      ],
-      "technicalNotes": [
-        "File to edit: tuinalogy-services/C01/KT-01.md (add question type diversity, Bloom's level comments, bilingual answer schemes)",
-        "Test command: uv run python scripts/validate_ktt_bloom_tags.py tuinalogy-services/ --check-answer-schemes && echo 'Bloom diversity validated'"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "tuinalogy-services/C01/KT-01.md",
-        "tuinalogy-services/C01/KT-02.md",
-        "tuinalogy-services/C02/KT-01.md",
-        "tuinalogy-services/C02/KT-02.md",
-        "tuinalogy-services/C03/KT-01.md",
-        "tuinalogy-services/C04/KT-01.md",
-        "tuinalogy-services/C05/KT-01.md",
-        "tuinalogy-services/E01/KT-01.md",
-        "tuinalogy-services/E02/KT-01.md",
-        "scripts/validate_ktt_bloom_tags.py"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_complex: touches 10 files (limit 8) -- split into smaller stories"
-    },
-    {
-      "title": "Tuinalogy C03 Technique Illustration Step-by-Step Breakdown with Humanized Instructor Notes",
-      "priority": "high",
-      "description": "Enhance C03 KK (practical work sheets) with annotated technique diagrams, common student mistakes with corrections, scaffolded practice progressions, and instructor talking points for improved clinical accuracy and pedagogical clarity.",
-      "acceptanceCriteria": [
-        "C03 KK-*.md documents include ≥4 technique illustrations (markdown ![technique](path)) with numbered step-by-step annotations and anatomical landmarks labeled in bilingual format (EN + 简体中文)",
-        "Each KK technique section contains: (1) 3-step Basic Progression, (2) ≥2 Common Mistakes with specific corrections, (3) Instructor Notes callout box (~100 words) identifying assessment checkpoints and common student misconceptions; documents increase from ~800 to ≥2000 words",
-        "KK documents cross-reference related KP theory sections (e.g., 'Review C03-KP-01 八纲 application before practicing this technique') for scaffolded learning progression"
-      ],
-      "technicalNotes": [
-        "File to edit: tuinalogy-services/C03/KK-01.md (add diagram placeholders, step-by-step annotations, Common Mistakes section, and > **Instructor Notes:** callout)",
-        "Test command: grep -c 'Instructor Notes\\|Common Mistakes' tuinalogy-services/C03/KK*.md && wc -l tuinalogy-services/C03/KK-01.md"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "tuinalogy-services/C03/KK-01.md",
-        "tuinalogy-services/C03/KK-02.md",
-        "tuinalogy-services/C03/KK-03.md"
+        "_tools/safety_intensity_classifier.py",
+        "_tools/test_safety_intensity_classifier.py",
+        "_reference/safety_checkpoint_audit.md",
+        "_reference/safety_risk_keywords.json"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "IT-020 Lab Activity Hands-On Equipment Mapper",
+      "title": "Build WIM Format Section Validator for Consistent Structure",
       "priority": "medium",
-      "description": "Create CLI tool and reference documentation indexing IT-020 practical activities (KK documents) against required lab equipment, software versions, network configurations; generate per-CU equipment checklists and setup prerequisites for instructors.",
+      "description": "Validate that all WIM documents maintain consistent section structure per document type per Buku Panduan WIM 2020. Enforces KP structure (TAJUK, TUJUAN, PENERANGAN), KT BAHAGIAN format, KK LANGKAH KERJA tables, and PM 4-phase sections.",
       "acceptanceCriteria": [
-        "New CLI script scripts/it020_lab_mapper.py reads IT-020 KK documents and outputs: (1) per-CU equipment manifest (CSV format with: equipment | part_number | quantity | estimated_cost), (2) software dependency matrix with version pinning (software | min_version | max_version | license_type), (3) network topology requirements (topology_desc | vlans | bandwidth_req | security_groups)",
-        "Reference doc _reference/it-020-lab-equipment.md lists ≥30 equipment items with model numbers, quantity per lab, estimated cost, and safety/certification ratings per OSHA standards",
-        "Script validates that every KK work activity (≥15 across L3/L4/L5) maps to ≥1 equipment item; generated checklists include time estimates per CU and prerequisite equipment setup order"
+        "KP validator: Checks all KP-*.md files have TAJUK, TUJUAN (learning outcomes in bullet form), PENERANGAN (main content); fails if headers missing",
+        "KT validator: Ensures KT-*.md files have BAHAGIAN 1, BAHAGIAN 2, BAHAGIAN 3 sections with exactly 1 table per BAHAGIAN; validates table has columns: Soalan, Jawapan, Nilai",
+        "KK validator: Checks all KK-*.md files have LANGKAH KERJA table with columns: No, Langkah, Alatan, Keselamatan, Tempoh; validates consistent formatting and no missing cells"
       ],
       "technicalNotes": [
-        "File to create: scripts/it020_lab_mapper.py (argument parser, CSV generation from YAML/JSON config, validation logic)",
-        "Test command: uv run python scripts/it020_lab_mapper.py --output /tmp/it020_manifest.csv && head -20 /tmp/it020_manifest.csv && wc -l /tmp/it020_manifest.csv"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "scripts/it020_lab_mapper.py",
-        "it-computer-system/_reference/lab-equipment.md",
-        "it-computer-system/L3/C01/KK-01.md",
-        "it-computer-system/L3/C02/KK-01.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "BEV Diagnostic Fault Code Scenario Randomizer",
-      "priority": "medium",
-      "description": "Build CLI tool generating ≥50 unique fault code diagnosis scenarios for BEV KK practice by combining OBD-II codes, symptom clusters, root causes, and repair procedures; enable realistic case-based learning and assessment variety.",
-      "acceptanceCriteria": [
-        "Script scripts/bev_scenario_generator.py generates ≥50 unique fault code scenarios by combining: (1) OBD-II codes extracted from BEV NOSS (P0xxx, P1xxx, P3xxx ranges), (2) symptom clusters (loss of power, battery warning, thermal runaway), (3) root causes linked to CU content, (4) repair step references with CU cross-references",
-        "Each scenario includes: fault code, symptom description, expected diagnostics (tools/procedures), repair steps with CU reference (e.g., 'Refer to C02-KP-03 BMS Diagnostics'), and 3-5 assessment questions at Bloom's levels 3-4 (Application/Analysis)",
-        "Generated scenarios saved as markdown case studies compatible with KK format (MP-031-3:2016-Scenarios/fault_scenario_001.md); script supports filtering by CU, severity level (critical/major/minor), and tool requirements"
-      ],
-      "technicalNotes": [
-        "File to create: scripts/bev_scenario_generator.py (OBD-II code data structure, symptom clustering, template-based scenario generation, question generation)",
-        "Test command: uv run python scripts/bev_scenario_generator.py --count 10 --output /tmp/ && ls /tmp/scenario_*.md | wc -l"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "scripts/bev_scenario_generator.py",
-        "bev-diagnostic-rectification/_reference/fault-code-matrix.json",
-        "bev-diagnostic-rectification/scenarios/"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Tuinalogy T&CM Act 2013 Compliance Annotations",
-      "priority": "high",
-      "description": "Audit all Tuinalogy KP/KK/PA documents and add inline compliance citations referencing T&CM Act 2013 (licensing/registration), PDPA 2010 (client consent), OSHA 1994 (workplace safety), MOH Code of Ethics 2007; create compliance reference guide with CU mappings.",
-      "acceptanceCriteria": [
-        "All KP/KK/PA documents contain ≥2 inline compliance citations as markdown footnotes: [^1] = 'T&CM Act 2013, Section X - Professional Registration' or [^2] = 'PDPA 2010 - Client Consent and Privacy'; total ≥14 footnotes across 7 CUs per document type",
-        "New reference doc tuinalogy-services/_reference/compliance-guide.md lists: (1) Licensing/registration requirements (T&CM Act 2013), (2) Client consent procedures (PDPA 2010), (3) Workplace safety requirements (OSHA 1994, accident reporting), (4) Professional ethics (MOH 2007, confidentiality, professional conduct) with applicable CU mappings and scenario examples",
-        "KT/KA documents include ≥2 scenario-based compliance questions (e.g., 'What PDPA requirement applies before collecting client medical history?') with full answer schemes; PA rubrics include compliance competency criterion (4-point scale from 'Novice' to 'Exemplary')"
-      ],
-      "technicalNotes": [
-        "File to create: tuinalogy-services/_reference/compliance-guide.md (markdown regulatory table with EN/BM/Simplified Chinese terminology, CU mapping, and scenario examples)",
-        "Test command: grep -r '\\[\\^[0-9]\\]' tuinalogy-services/C*/KP*.md | wc -l (verify >= 14 footnotes)"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "tuinalogy-services/_reference/compliance-guide.md",
-        "tuinalogy-services/C01/KP-01.md",
-        "tuinalogy-services/C01/KP-02.md",
-        "tuinalogy-services/C02/KP-01.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Tuinalogy ARCS Motivation Elements Audit and Enhancement",
-      "priority": "medium",
-      "description": "Audit all Tuinalogy KP/KK/PM documents against ARCS motivation model (Attention/Relevance/Confidence/Satisfaction); enhance weak areas with clinical vignettes, case studies, reflection prompts, and confidence-building scaffolds; generate gap analysis report.",
-      "acceptanceCriteria": [
-        "New script scripts/arcs_audit.py scans KP/KK/PM documents and categorizes content against ARCS dimensions; generates per-CU report identifying gaps (e.g., 'C02 KP lacks Satisfaction closure; recommend adding reflection prompt')",
-        "Each KP/KK document enhanced with: (1) Attention hook (opening clinical vignette or compelling question, ≥50 words), (2) Relevance callout (Why this technique matters clinically, ≥80 words with patient outcomes), (3) Confidence builder (scaffolded practice progression, 'Did you know?' tips), (4) Satisfaction closure (reflection prompt inviting metacognition or success celebration statement)",
-        "PM-teori.md documents include ≥1 clinical vignette per CU (~200 words) demonstrating technique application in realistic patient scenarios; KK documents include ≥1 reflection prompt callout prompting clinical reasoning"
-      ],
-      "technicalNotes": [
-        "File to create: scripts/arcs_audit.py (content pattern matching for ARCS dimensions, gap identification, report generation with recommendations)",
-        "Test command: grep -c 'Clinical vignette:\\|Reflection:' tuinalogy-services/C01/PM-teori.md && uv run python scripts/arcs_audit.py tuinalogy-services/C01/ --output /tmp/arcs_report.md"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "scripts/arcs_audit.py",
-        "tuinalogy-services/C01/KP-01.md",
-        "tuinalogy-services/C01/KK-01.md",
-        "tuinalogy-services/C01/PM-teori.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "BEV HV System Component Cross-Reference Index with Supply Chain Variants",
-      "priority": "medium",
-      "description": "Create searchable JSON/markdown index mapping BEV HV components (batteries, inverters, OBC, BMS) across manufacturers with part numbers, specifications, fault diagnosis trees, and supply chain sourcing notes; integrate cross-references into KP/KK documents.",
-      "acceptanceCriteria": [
-        "New reference doc bev-diagnostic-rectification/_reference/hv-component-index.json contains ≥20 major components (Tesla, LG Chem, Panasonic batteries; ABB, Siemens inverters; Delta OBC) with fields: component_type | part_number | manufacturer | voltage_range | amperage | specs_pdf_link | common_fault_codes | diagnosis_tree_ref | supply_chain_notes",
-        "Companion markdown file hv-component-index.md provides human-readable cross-reference with searchable tables by component type and manufacturer; includes variant notes (e.g., 'Panasonic 4680: 5000mAh vs. LG M50: 3000mAh - impact on BMS algorithm')",
-        "KP/KK documents link to component entries for cross-referencing (e.g., '[Panasonic 4680 Battery Pack Diagnostics](../reference/hv-component-index.md#panasonic-4680)'); KT documents include ≥5 multi-manufacturer variant comparison questions"
-      ],
-      "technicalNotes": [
-        "File to create: bev-diagnostic-rectification/_reference/hv-component-index.json (structured data with manufacturer variants, fault codes, diagnostic references)",
-        "Test command: uv run python -m json.tool bev-diagnostic-rectification/_reference/hv-component-index.json | head -30 && grep -c 'component_type' bev-diagnostic-rectification/_reference/hv-component-index.json"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "bev-diagnostic-rectification/_reference/hv-component-index.json",
-        "bev-diagnostic-rectification/_reference/hv-component-index.md",
-        "bev-diagnostic-rectification/C02/KP-01.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Tuinalogy C01-C02 TCM Foundation Theory Callout Boxes and Mnemonic Aids",
-      "priority": "medium",
-      "description": "Enhance readability of foundational TCM concepts (八纲 Eight Principles / 四诊 Four Diagnostics / 经络 Meridians) in C01-C02 KP documents with highlighted callout boxes, visual mnemonic acronyms, and digestible theory summaries; create TCM glossary.",
-      "acceptanceCriteria": [
-        "All C01-C02 KP documents reorganized with structured sections per key concept: (1) Key Concept Callout box (> **Key Concept:** with ≥100 words explanation), (2) Visual Summary (markdown table or diagram reference), (3) Mnemonic Aid (memory trick, e.g., '八纲 = Yin/Yang + Cold/Heat + Excess/Deficiency + Interior/Exterior = 8 Principles'), (4) Clinical Bridge (how concept applies to technique selection)",
-        "Markdown callout syntax implemented (> **Key Concept:** or > ⭐ **Remember:**); new _reference/tcm-foundation-glossary.md contains ≥15 bilingual term triplets (简体中文 | English | 馬來文): 八纲, 四诊, 经络, 穴位, 气血, 阴阳, 虚实",
-        "C01-C02 KP documents expand from ~500 to ≥1200 words per document, with ≥2 callout boxes per KP containing mnemonic aids and clinical applications"
-      ],
-      "technicalNotes": [
-        "File to edit: tuinalogy-services/C01/KP-01.md (restructure with callout syntax, mnemonic boxes, clinical bridges; create _reference/tcm-foundation-glossary.md with bilingual triplets)",
-        "Test command: grep -c '> \\*\\*' tuinalogy-services/C0[12]/KP*.md | awk '{s+=$NF} END {print s}' (verify >= 4 callout boxes)"
+        "File to create: _tools/format_section_validator.py (functions: validate_kp_structure, validate_kt_bahagian, validate_kk_langkah_kerja)",
+        "Test command: uv run pytest _tools/test_format_section_validator.py::test_kp_mandatory_headers_present -v",
+        "Schema file: _reference/wim_section_schema.json defining required headers per doc type, table column orders, and naming conventions"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tuinalogy-services/C01/KP-01.md",
-        "tuinalogy-services/C01/KP-02.md",
-        "tuinalogy-services/C02/KP-01.md",
-        "tuinalogy-services/_reference/tcm-foundation-glossary.md"
+        "_tools/format_section_validator.py",
+        "_tools/test_format_section_validator.py",
+        "_reference/wim_section_schema.json"
       ],
       "_source": "ai-example",
       "passes": false,
-      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Tuinalogy Performance Assessment Rubric with Video Reference Anchor Points",
-      "priority": "high",
-      "description": "Create comprehensive PA (Performance Assessment) documents for C01-C05 with detailed 4-point competency rubrics, performance indicators, and video timestamp anchors for consistent technique grading; include inter-rater reliability guidance.",
+      "title": "IT-020 Hands-On Lab Activity Mapper",
+      "priority": "medium",
+      "description": "Create mapping between IT-020 NOSS CoCU work activities and hands-on lab exercises, with equipment requirements, software prerequisites, and duration estimates. Auto-generates lab activity index linked to assessment items.",
       "acceptanceCriteria": [
-        "PA documents for C01-C05 each contain: (1) rubric table with 4-point scale (Novice/Developing/Proficient/Exemplary) for ≥5 competencies per CU (e.g., 'Acupoint Identification Accuracy', 'Pressure Application Consistency', 'Client Communication', 'Safety Protocol Adherence', 'Tissue Palpation Sensitivity'), (2) performance indicators per competency level with specific, observable criteria (e.g., Novice = 'Cannot locate acupoint without reference'; Exemplary = 'Locates acupoint with ±5mm accuracy')",
-        "New reference doc tuinalogy-services/_reference/pa-video-anchors.md maps each PA competency to video segment: competency_id | video_url | timestamp_start-end | technique_name | exemplary_indicator (e.g., 'C03-Comp-1 | https://...tuinalogy-c03.mp4 | 2:35-3:10 | Three-Finger Push Technique | Student applies even pressure throughout; wrist maintains neutral position')",
-        "PA scoring template includes evidence collection space (e.g., 'Acupoint location correct - compare to 2:45 video exemplar'); inter-rater reliability guide provided with ≥3 sample student performance descriptions (Novice/Proficient/Exemplary) per competency (~100 words each) to enable consistent instructor grading"
+        "Script parses IT-020 NOSS extracts and maps each CU work activity to lab exercise names, prerequisites (e.g., 'Install Windows Server 2022 first'), and equipment list (OS, software versions)",
+        "CSV output: CU_Code, Work_Activity, Lab_Name, Duration_Minutes, Equipment_List, Software_Prerequisites, IT-KA_Assessment_Item_Linked",
+        "Validator checks all labs document required tools/software with version specs; flags labs missing equipment or duration estimates"
       ],
       "technicalNotes": [
-        "File to create: tuinalogy-services/C01/PA.md (4-point rubric table structure, performance indicators per level, video anchor references)",
-        "Test command: grep -c 'Novice\\|Exemplary\\|Proficient' tuinalogy-services/C0[12345]/PA.md | awk '{s+=$NF} END {print s}' (verify >= 5 per CU)"
+        "File to create: it-computer-system/tools/lab_activity_mapper.py (functions: parse_work_activities, create_lab_mapping, validate_equipment_specs)",
+        "Test command: uv run pytest it-computer-system/tools/test_lab_activity_mapper.py::test_all_work_activities_mapped -v",
+        "Input: it-computer-system/00-noss-extract.md; Output: it-computer-system/reference/lab_activities_index.csv"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tuinalogy-services/C01/PA.md",
-        "tuinalogy-services/C02/PA.md",
-        "tuinalogy-services/C03/PA.md",
-        "tuinalogy-services/C04/PA.md",
-        "tuinalogy-services/C05/PA.md",
-        "tuinalogy-services/_reference/pa-video-anchors.md",
-        "tuinalogy-services/_reference/pa-assessment-guide.md"
+        "it-computer-system/tools/lab_activity_mapper.py",
+        "it-computer-system/tools/test_lab_activity_mapper.py",
+        "it-computer-system/reference/lab_activities_index.csv"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "BEV Diagnostic Fault Code Scenario Generator",
+      "priority": "high",
+      "description": "Auto-generate realistic BEV fault code scenarios with diagnostic procedures for knowledge assessments. Each scenario includes fault code, symptoms, expected diagnostic tool outputs, and corrective actions mapped to NOSS CoCU diagnostics competencies.",
+      "acceptanceCriteria": [
+        "Generator produces 5-10 fault scenarios per BEV CU (C01-C05); each scenario includes: Fault Code (e.g., P3456), Symptom Description, Root Cause, Diagnostic Steps, Expected Tool Outputs (voltage readings, CAN signals), Corrective Actions",
+        "Each scenario maps to 1-2 NOSS CU Learning Outcomes and includes model answer with step-by-step diagnostics guidance",
+        "Scenarios stored as JSON: bev-diagnostic-rectification/C*/fault_scenarios.json with schema: fault_code, symptom, root_cause, diagnostic_procedure[], expected_output[], corrective_action, learning_outcome_codes[]"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/tools/fault_scenario_generator.py (functions: generate_fault_scenario, validate_scenario_completeness, export_scenarios_json)",
+        "Test command: uv run pytest bev-diagnostic-rectification/tools/test_fault_scenario_generator.py::test_fault_code_format_valid -v",
+        "Reference data: bev-diagnostic-rectification/reference/bev_fault_code_database.json containing actual BEV fault codes and typical causes"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "bev-diagnostic-rectification/tools/fault_scenario_generator.py",
+        "bev-diagnostic-rectification/tools/test_fault_scenario_generator.py",
+        "bev-diagnostic-rectification/C01/fault_scenarios.json",
+        "bev-diagnostic-rectification/C02/fault_scenarios.json",
+        "bev-diagnostic-rectification/reference/bev_fault_code_database.json"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "BEV HV System Component Cross-Reference Indexer",
+      "priority": "high",
+      "description": "Build searchable index linking BEV high-voltage components mentioned in KP documents to manufacturer datasheets, electrical specifications, safety standards, and related diagnostic procedures in KK documents.",
+      "acceptanceCriteria": [
+        "Indexer extracts all HV component names from KP-*.md (e.g., 'battery pack', 'BMS', 'OBC', 'HV connector type 2', 'insulation tester') and cross-references to manufacturer specs",
+        "Each component entry contains: Part Name, Manufacturer, Part Number, Voltage/Current Rating, Safety Standards (IEC 61508, EN 50272), Related KP Sections, Related KK Procedures, Datasheet URL",
+        "Generates searchable JSON index + CLI lookup: `uv run python bev-diagnostic-rectification/tools/component_lookup.py --search 'HV connector'` returns matching components and related docs"
+      ],
+      "technicalNotes": [
+        "File to create: bev-diagnostic-rectification/tools/hv_component_indexer.py (functions: extract_component_names, build_cross_reference_index, export_searchable_index)",
+        "Test command: uv run pytest bev-diagnostic-rectification/tools/test_hv_component_indexer.py::test_component_extraction_accuracy -v",
+        "Index file: bev-diagnostic-rectification/reference/hv_components_index.json with schema: component_name, manufacturer, part_number, voltage_rating, safety_standards[], related_kp[], related_kk[], datasheet_url"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "bev-diagnostic-rectification/tools/hv_component_indexer.py",
+        "bev-diagnostic-rectification/tools/test_hv_component_indexer.py",
+        "bev-diagnostic-rectification/tools/component_lookup.py",
+        "bev-diagnostic-rectification/reference/hv_components_index.json"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Assessment Question Time-Box Validator",
+      "priority": "medium",
+      "description": "Analyze and validate that assessment questions have realistic time estimates matching question type, complexity level, and cognitive domain. Flags unrealistic time allocations and ensures total exam duration fits allocated time slots.",
+      "acceptanceCriteria": [
+        "Validator reads all KA.md/KT.md files and extracts question type (MCQ, essay, calculation, short answer) and Bloom's level (remember/understand/apply/analyze/evaluate/create)",
+        "Checks time estimates: MCQ ≤5min, short answer ≤10min, essay ≤30min, calculation ≤15min based on complexity (easy/medium/hard); flags outliers",
+        "Report: Subject, Assessment, Total Items, Allocated Time (min), Recommended Time (min), Status (Realistic/Tight/Excess); identifies specific questions needing time adjustment"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/assessment_time_validator.py (functions: extract_question_metadata, estimate_realistic_time, compute_total_duration)",
+        "Test command: uv run pytest _tools/test_assessment_time_validator.py::test_mcq_under_5_minutes -v",
+        "Config file: _reference/time_estimate_benchmarks.json with question_type→base_time_minutes and complexity_multipliers"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_tools/assessment_time_validator.py",
+        "_tools/test_assessment_time_validator.py",
+        "_reference/time_estimate_benchmarks.json",
+        "_reference/assessment_time_audit_report.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "WIM Document Readability Analyzer",
+      "priority": "medium",
+      "description": "Analyze WIM documents for readability metrics including Flesch reading ease, sentence complexity, paragraph structure, passive voice percentage, and BM translation naturalness. Generates readability report with simplification recommendations.",
+      "acceptanceCriteria": [
+        "Analyzer computes per-document: Flesch Reading Ease score (0-100), average sentence length (words), passive voice percentage, technical term density, BM translation consistency checks",
+        "Flags sentences >30 words in KP content, paragraphs >5 sentences, excessive passive voice (>30%); checks BM translations for naturalness and consistency with terminology glossary",
+        "Report: Document, Flesch Score (with grade level), Issues Found, Sentences Needing Simplification, BM Translation Quality Assessment, Recommendations"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/readability_analyzer.py (functions: compute_flesch_score, analyze_sentence_structure, check_passive_voice, validate_bm_naturalness)",
+        "Test command: uv run pytest _tools/test_readability_analyzer.py::test_flesch_calculation_accuracy -v",
+        "Dependencies: Python textstat library for Flesch scoring; BM analysis uses spacy-udpipe for parsing"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_tools/readability_analyzer.py",
+        "_tools/test_readability_analyzer.py",
+        "_reference/readability_analysis_report.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Assessment Rubric Standardization and Validator",
+      "priority": "medium",
+      "description": "Ensure all performance assessment rubrics (PA/KK assessments) follow standardized structure with consistent 4-level competency scale, measurable performance descriptors, and proper point allocations across all subjects.",
+      "acceptanceCriteria": [
+        "Validator enforces rubric structure: 4-level scale (1=Novice, 2=Developing, 3=Proficient, 4=Advanced) with observable behavior descriptions, performance indicators, and point values per level",
+        "Checks total rubric points sum to intended value (e.g., 100); validates criterion descriptors are measurable/observable (not vague); ensures consistency across same assessment type",
+        "Report: Assessment File, Rubric Compliance Status, Issues Found (missing levels, vague descriptors, wrong totals), Recommended Standardization Actions"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/rubric_standardizer.py (functions: parse_rubric_table, validate_competency_levels, check_point_allocation, enforce_descriptor_clarity)",
+        "Test command: uv run pytest _tools/test_rubric_standardizer.py::test_four_level_competency_required -v",
+        "Template: _reference/standard_rubric_template.json defining canonical 4-level structure and point allocation rules per assessment type"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_tools/rubric_standardizer.py",
+        "_tools/test_rubric_standardizer.py",
+        "_reference/standard_rubric_template.json",
+        "_reference/rubric_audit_report.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Equipment and Tools Inventory with Safety Ratings",
+      "priority": "high",
+      "description": "Build comprehensive inventory of all equipment and tools referenced in BEV and Aesthetic KK procedures with safety certifications, maintenance schedules, hazard classifications, and cross-references to procedures using each tool.",
+      "acceptanceCriteria": [
+        "Inventory extracts all tools/equipment from KK-*.md LANGKAH KERJA tables and maps to: Brand, Model, Part Number, Voltage/Power Rating, Safety Certification (CE/UL/TUV), Hazard Level (Low/Medium/High), Maintenance Schedule",
+        "For each tool: tracks which KK procedures use it, calibration/maintenance frequency, safety datasheet URL, manufacturer contact info; flags tools with missing certifications or safety documentation",
+        "Generator creates subject-specific equipment lists (BEV lab, Aesthetic salon) with total cost estimate and safety compliance checklist"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/equipment_inventory_manager.py (functions: extract_equipment_from_kk, build_inventory_record, validate_safety_certs, generate_equipment_list)",
+        "Test command: uv run pytest _tools/test_equipment_inventory_manager.py::test_safety_cert_required_for_electrical -v",
+        "Inventory file: _reference/equipment_inventory.json with schema: equipment_name, brand, model, voltage_rating, safety_certs[], hazard_level, maintenance_months, used_in_procedures[]"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "_tools/equipment_inventory_manager.py",
+        "_tools/test_equipment_inventory_manager.py",
+        "_reference/equipment_inventory.json",
+        "_reference/bev_lab_equipment_checklist.md",
+        "_reference/aesthetic_salon_equipment_checklist.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Aesthetic Services Knowledge Assessment Item Analysis Report Generator",
+      "priority": "medium",
+      "description": "Generate item analysis reports for Aesthetic knowledge assessments showing facility index, discrimination index, distractor effectiveness, and identifying problematic items needing revision or retirement.",
+      "acceptanceCriteria": [
+        "Analysis tool computes per-question: Facility Index (% of students who answered correctly; target 0.4-0.8), Discrimination Index (difficulty difference between high/low performers; target >0.2), Option Analysis (% choosing each distractor)",
+        "Identifies problematic items: facility <0.2 (too hard) or >0.9 (too easy), discrimination <0.2 (not differentiating), ineffective distractors (chosen <5%)",
+        "Report: Question ID, Item Type, Facility Index, Discrimination Index, Distractor Analysis, Recommendation (Revise/Retire/Keep), Priority for Revision"
+      ],
+      "technicalNotes": [
+        "File to create: aesthetic-services/tools/item_analysis_generator.py (functions: calculate_facility_index, calculate_discrimination_index, analyze_distractors, generate_item_analysis_report)",
+        "Test command: uv run pytest aesthetic-services/tools/test_item_analysis_generator.py::test_discrimination_index_calculation -v",
+        "Input: student response data (CSV: student_id, item_id, response, correct) from assessment administration; outputs: aesthetic-services/reference/item_analysis_report.md"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "aesthetic-services/tools/item_analysis_generator.py",
+        "aesthetic-services/tools/test_item_analysis_generator.py",
+        "aesthetic-services/reference/item_analysis_report.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "IT-020 Bilingual Terminology Standardization for Networking Concepts",
+      "priority": "high",
+      "description": "Create comprehensive standardized EN/BM terminology glossary for IT-020 networking and system management concepts with usage consistency validator. Ensures bilingual terms are used consistently across all KP/KA documents.",
+      "acceptanceCriteria": [
+        "Glossary covers 100+ networking/system mgmt terms (OSI layers, TCP/IP, DNS, DHCP, firewall, subnet mask, protocol, etc.) with: English term, Malay translation (approved by MySPIKE), Definition, Example Usage Sentence (EN+BM), Related Terms",
+        "Validator scans all IT KP/KA documents; flags non-standard translations or inconsistent usage (e.g., mixing 'DNS' and 'Sistem Nama Domain' in same doc); reports term consistency score per document",
+        "Generates bilingual glossary PDF + searchable JSON index; outputs consistency audit report identifying terminology improvements needed per CU"
+      ],
+      "technicalNotes": [
+        "File to create: it-computer-system/tools/terminology_validator.py (functions: extract_terminology_from_docs, compare_against_glossary, flag_inconsistencies, generate_consistency_report)",
+        "Test command: uv run pytest it-computer-system/tools/test_terminology_validator.py::test_no_mixing_protocols -v",
+        "Glossary file: it-computer-system/reference/networking_glossary.json with schema: en_term, bm_term, definition_en, definition_bm, example_sentence_en, example_sentence_bm, approved_by_myspike"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "it-computer-system/tools/terminology_validator.py",
+        "it-computer-system/tools/test_terminology_validator.py",
+        "it-computer-system/reference/networking_glossary.json",
+        "it-computer-system/reference/terminology_consistency_report.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     }
   ]
 }

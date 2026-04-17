@@ -1706,3 +1706,20 @@ This is a file-system-level scripting task, not a Frappe DocType/controller task
 - The story specifies BL-32/BL-33 but E02/KP-02.md previously used BL-67/BL-60 — both sets are valid pregnancy contraindications per different classical sources
 - Warning insertion produces 2 blank lines before section heading — cosmetically minor, functionally correct
 - SPIRAL plan gate: 19 file modifications done via runtime script (not listed in files_to_modify), keeping plan within 8-file limit
+
+## Iteration 5 - Fri, Apr 17, 2026
+Completed: Tuinalogy Pregnancy Contraindication Safety Reference Generator (ID: US-045) — all files already implemented from prior attempt
+
+### What was implemented
+- tuinalogy-services/_reference/pregnancy-safety-reference.md: 5 forbidden points (LI-4, SP-6, GB-21, BL-32, BL-33) with English/Chinese names, codes, rationale, alternatives, T&CM Act 2013 §28 citation
+- tools/check-pregnancy-safety.py: scans KP-*/KK-* files for forbidden point refs; reports missing ⚠️ **Pregnancy Contraindication** callouts; CSV output with TOTAL,N last line
+- 19 KP/KK files across C01–C05, E01–E02 all have inline warning callouts — 0 violations confirmed
+
+### Patterns discovered
+- Prior iteration had completed all file modifications; iteration 5 only needed to verify and mark passes=True
+- check-pregnancy-safety.py: FORBIDDEN_POINTS uses regex with word boundaries (\bLI-?4\b) plus Chinese name fallback
+- CSV last line format: `TOTAL,{n},` — cut -d, -f2 extracts the violation count correctly
+
+### Gotchas
+- The _reference/ directory must be created manually (mkdir) before Write tool can create the file
+- All 19 files found via grep for Chinese character names (合谷/三阴交/肩井/次髎/中髎) as many files use Chinese names, not acupuncture codes

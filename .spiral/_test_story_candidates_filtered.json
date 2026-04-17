@@ -598,5 +598,27 @@
       "regression",
       "auto-generated"
     ]
+  },
+  {
+    "title": "[Regression Test] BEV Diagnostic Fault Code Scenario Generator",
+    "description": "Write regression test to guard against future breakage of US-037. Story description: Generate diagnostic troubleshooting scenarios from actual BEV fault codes (battery, BMS, drivetrain, thermal). Each scenario links to relevant KPs. Creates realistic diagnostic practice cases for KT/KA.",
+    "acceptanceCriteria": [
+      "Regression test covers core observable behaviour of US-037",
+      "Test would reliably fail if the US-037 feature were removed or broken"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_037 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-037"
+    ],
+    "_source": "test-story",
+    "_testType": "regression",
+    "_forStoryId": "US-037",
+    "tags": [
+      "regression",
+      "auto-generated"
+    ]
   }
 ]

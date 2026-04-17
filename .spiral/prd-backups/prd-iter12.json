@@ -1226,13 +1226,10 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
-      "passes": true,
+      "passes": false,
       "_source": "ai-example",
       "model": "sonnet",
-      "last_attempted": "2026-04-17T05:04:53Z",
-      "_phaseI": {
-        "diagnosisBlock": "## Current State\n19 KP/KK files in tuinalogy-services/ reference forbidden acupoints (LI-4/合谷, SP-6/三阴交, GB-21/肩井) but have no `⚠️ **Pregnancy Contraindication**` warning callouts. The `_reference/` dir and `tools/check-pregnancy-safety.py` don't exist yet.\n\n## Problem Identified\nNeed a safety reference document, a validator script, and an apply-warnings script that backfills warnings to all 19 affected files so the validator reports 0 violations.\n\n## Planned Changes\n- Create `tuinalogy-services/_reference/pregnancy-safety-reference.md` — 5 forbidden points reference table with MOH/T&CM Act citations\n- Create `tools/apply-pregnancy-warnings.py` — backfill warnings to all KP/KK files mentioning forbidden points\n- Create `tools/check-pregnancy-safety.py` — scan all .md files, report violations as CSV\n- Run apply script so check yields 0 violations\n\n<plan>\n{\n  \"files_to_create\": [\n    \"tuinalogy-services/_reference/pregnancy-safety-reference.md\",\n    \"tools/apply-pregnancy-warnings.py\",\n    \"tools/check-pregnancy-safety.py\"\n  ],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\"scan_file\", \"check_file\", \"main\"],\n  \"estimated_loc\": 210\n}\n</plan>\nNow create the apply-warnings script:\nNow create the check/validation script:\nNow run the apply script to backfill warnings to all 19 affected files:\n0 violations. Now run the CSV test to verify the exact test command from the story:\nGood - warning is properly placed after the second `---` separator. Now check diff size:\n57 lines for the KP/KK modifications. The 3 new files add ~240 lines. Total ~297 lines, well within budget. Now mark story as passed and commit:\nUS-045 is complete. Summary of what was implemented:\n\n**Created:**\n- `tuinalogy-services/_reference/pregnancy-safety-reference.md` — Full reference table for 5 forbidden acupoints (LI-4/合谷, SP-6/三阴交, GB-21/肩井, BL-32/次髎, BL-33/中髎) with clinical rationale, alternatives, and T&CM Act 2013 Section 28 citations\n- `tools/apply-pregnancy-warnings.py` — Idempotent backfill script; added `⚠️ **Pregnancy Contraindication**` callouts to 19 KP/KK files\n- `tools/check-pregnancy-safety.py` — CSV validator; scans KP/KK/PA files, outputs `TOTAL,0,` (0 violations)\n\n**Result:** `python tools/check-pregnancy-safety.py tuinalogy-services/ --format csv` → `TOTAL,0,` ✓"
-      }
+      "last_attempted": "2026-04-17T05:03:09Z"
     },
     {
       "id": "US-046",
@@ -1338,48 +1335,6 @@
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
-      "passes": false,
-      "_source": "ai-example",
-      "model": "sonnet"
-    },
-    {
-      "id": "US-051",
-      "title": "Build NOSS Learning Outcome to Assessment Linkage Matrix",
-      "priority": "high",
-      "description": "Create bidirectional mapping showing which assessment items in KA/KT documents cover which NOSS CoCU Learning Outcomes. Generate coverage matrix and identify gaps in assessment coverage per competency unit.",
-      "acceptanceCriteria": [
-        "Matrix generator reads NOSS extracts (bev-diagnostic-rectification/00-noss-extract.md) and parses Learning Outcomes per CU",
-        "Cross-references each assessment item in KA.md to one or more Learning Outcomes via comment tags in markdown (e.g., `<!-- LO-C01-03 -->`)",
-        "Outputs CSV: Subject, CU Code, Learning Outcome, Assessment Item ID, Coverage %; flags any LO with 0% coverage"
-      ],
-      "technicalNotes": [
-        "File to create: _tools/learning_outcome_mapper.py (functions: parse_noss_learning_outcomes, extract_assessment_item_tags, compute_coverage_percentage)",
-        "Test command: uv run pytest _tools/test_learning_outcome_mapper.py::test_noss_extract_parsing -v",
-        "Output file: _reference/coverage_matrix.csv with columns: Subject, CU, LO_Code, LO_Text, Covered_By, Coverage_Percent"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "passes": false,
-      "_source": "ai-example",
-      "model": "sonnet"
-    },
-    {
-      "id": "US-052",
-      "title": "Create Technical Content Accuracy Auditor Against Industry Standards",
-      "priority": "high",
-      "description": "Validate technical content accuracy by cross-referencing against current industry standards: IEC standards for BEV HV safety, medical/anatomy standards for Aesthetic, ISO networking standards for IT. Flags outdated information with revision recommendations.",
-      "acceptanceCriteria": [
-        "BEV auditor: Checks voltage thresholds match IEC 61508 (≥48V = high voltage), validates PPE specs against EN 455/EN standards, checks connector types match IEC 62196",
-        "Aesthetic auditor: Validates anatomy terms against standard medical references, checks modality safety ranges (e.g., ultrasound frequency 40kHz within safe range), verifies chemical compatibility warnings",
-        "Report lists: KP Section, Technical Claim, Industry Standard Reference, Compliance Status (Pass/Fail/Outdated), Recommended Action"
-      ],
-      "technicalNotes": [
-        "File to create: _tools/accuracy_auditor.py (functions: audit_bev_standards, audit_aesthetic_standards, audit_it_standards, format_audit_report)",
-        "Test command: uv run pytest _tools/test_accuracy_auditor.py::test_48v_high_voltage_requirement -v",
-        "Standards reference file: _reference/industry_standards_index.json containing: standard_name, applicable_subject, key_requirements, tolerance_ranges, source_document"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
       "passes": false,
       "_source": "ai-example",
       "model": "sonnet"
