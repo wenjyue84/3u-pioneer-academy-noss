@@ -247,3 +247,6 @@ FAILED diff-guard: Tuinalogy Technique Illustration Cross-Reference Indexer (ID:
 - ruff format broken in this project — do NOT run it
 - CJK text (Tuinalogy Chinese files) must be detected and skipped; textstat syllable counting is English-only
 - _detect_level() checks path parts for level-4 / level-5 folder names
+## Iteration 2 - Fri, Apr 17, 2026  6:29:55 PM
+Completed: WIM Document Readability Analyzer (ID: US-040) in 4m
+
