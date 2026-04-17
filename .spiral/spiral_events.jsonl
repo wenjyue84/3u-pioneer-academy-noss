@@ -1147,3 +1147,5 @@
 {"ts":"2026-04-17T05:04:47Z","event":"phase_start","run_id":"69e180a1b4","level":"INFO","phase":"I","iteration":12,"trace_id":"547c60abbc8dca9960b7b3178e9e8aa3","span_id":"20b1f6b1d55a75ab"}
 {"ts":"2026-04-17T05:04:59Z","event":"plan_cache_miss","story_id":"US-045"}
 {"ts":"2026-04-17T05:12:51Z","event":"cost_update","story_id":"US-045","tokens_input":29,"tokens_output":16893,"estimated_usd":0.253482}
+{"ts":"2026-04-17T05:12:55Z","event":"scope_guard","story_id":"US-045","result":"skip","reason":"empty_filesTouch"}
+{"ts":"2026-04-17T05:13:40Z","event":"cost_update","story_id":"US-045","tokens_input":40,"tokens_output":16658,"estimated_usd":0.503472}
