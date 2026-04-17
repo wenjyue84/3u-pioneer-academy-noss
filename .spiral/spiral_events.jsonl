@@ -1073,3 +1073,11 @@
 {"ts":"2026-04-17T04:46:10Z","event":"story_passed","storyId":"US-037","retryCount":0,"model":"opus"}
 {"ts":"2026-04-17T04:46:16Z","event":"plan_cache_miss","story_id":"US-027"}
 {"ts":"2026-04-17T04:46:17Z","event":"anti_pattern_injected","story_id":"US-027","retry":1,"count":1}
+{"ts":"2026-04-17T04:47:55Z","event":"diagnosis_block_missing","storyId":"US-037","retryCount":1}
+{"ts":"2026-04-17T04:48:01Z","event":"plan_cache_miss","story_id":"US-037"}
+{"ts":"2026-04-17T04:48:02Z","event":"anti_pattern_injected","story_id":"US-037","retry":1,"count":1}
+{"ts":"2026-04-17T04:51:03Z","event":"cost_update","story_id":"US-037","tokens_input":15,"tokens_output":3481,"estimated_usd":0.346029}
+{"ts":"2026-04-17T04:51:08Z","event":"scope_guard","story_id":"US-037","result":"skip","reason":"empty_filesTouch"}
+{"ts":"2026-04-17T04:52:41Z","event":"story_passed","storyId":"US-037","retryCount":0,"model":"opus"}
+{"ts":"2026-04-17T04:52:47Z","event":"plan_cache_miss","story_id":"US-028"}
+{"ts":"2026-04-17T04:53:40Z","event":"cost_update","story_id":"US-027","tokens_input":2261,"tokens_output":12948,"estimated_usd":0.518382}
