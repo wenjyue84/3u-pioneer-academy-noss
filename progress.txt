@@ -222,3 +222,28 @@ FAILED diff-guard: Assessment Question Time-Box Validator (ID: US-039) — 7061 
 ## Iteration 2 - Fri, Apr 17, 2026  5:55:18 PM
 Completed: Assessment Question Time-Box Validator (ID: US-039) in 7m
 
+## Iteration 1 - Fri, Apr 17, 2026  6:24:04 PM
+FAILED diff-guard: Tuinalogy Technique Illustration Cross-Reference Indexer (ID: US-055) — 6849 lines > 500 limit — attempt 2/3
+
+
+## Iteration N - Story: WIM Document Readability Analyzer (US-040)
+
+### What was implemented
+- _tools/readability-analyzer.py: analyze_file_readability(), generate_html_report(), CLI entry point
+  - textstat FLESCH + Gunning FOG scoring for KP/KT/KK .md files
+  - Level detection from path (level-4/, level-5/ → L4/L5, else L3)
+  - FLESCH targets: L3>60, L4>65, L5>70
+  - CJK text detection (>30% CJK chars) → skips with passes=None (textstat unreliable for Chinese)
+  - Generates HTML report to _tools/readability-reports/readability-report.html
+  - Problem paragraphs: per-paragraph FLESCH check on paragraphs >80 chars
+- tests/test_readability.py: 9 tests — all pass
+
+### Patterns discovered
+- textstat already installed in venv (0.7.13)
+- Scanned 321 KP/KT/KK files; 86 CJK (Tuinalogy) skipped gracefully
+- importlib.util loading pattern works cleanly for _tools/ scripts
+
+### Gotchas
+- ruff format broken in this project — do NOT run it
+- CJK text (Tuinalogy Chinese files) must be detected and skipped; textstat syllable counting is English-only
+- _detect_level() checks path parts for level-4 / level-5 folder names
