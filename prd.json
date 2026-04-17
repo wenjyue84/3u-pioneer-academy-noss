@@ -1259,7 +1259,8 @@
       "last_attempted": "2026-04-17T05:17:14Z",
       "_phaseI": {
         "diagnosisBlock": "## Current State\n- `tuinalogy-services/_reference/` exists with only `pregnancy-safety-reference.md`\n- `tools/` exists with audit-related Python scripts\n- `tests/` exists with multiple test files\n- No regulatory compliance matrix, audit script, or compliance test yet\n\n## Problem Identified\nUS-046 requires:\n1. `tuinalogy-services/_reference/regulatory-compliance-matrix.md` — regulation definitions with keyword triggers\n2. `tools/audit-regulatory-compliance.py` — scans 35 Tuinalogy docs, outputs CSV\n3. `tests/test_regulatory_audit.py` — unit tests for the audit tool\n4. Run audit, identify and fix all Critical gaps\n\n## Planned Changes\n- Create `tuinalogy-services/_reference/regulatory-compliance-matrix.md` with 4 regulations and their sections/keywords\n- Create `tools/audit-regulatory-compliance.py` with argparse CLI, matrix parser, keyword scanner, CSV output\n- Create `tests/test_regulatory_audit.py` with pytest tests for coverage detection and CSV format\n- Run the audit to find and fix Critical gaps\n\n<plan>\n{\n  \"files_to_create\": [\n    \"tuinalogy-services/_reference/regulatory-compliance-matrix.md\",\n    \"tools/audit-regulatory-compliance.py\",\n    \"tests/test_regulatory_audit.py\"\n  ],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\n    \"parse_compliance_matrix\",\n    \"scan_documents\",\n    \"generate_report\",\n    \"main\"\n  ],\n  \"estimated_loc\": 280\n}\n</plan>\n\nLet me check the existing tools for patterns to follow:\nNow let me look at one tuinalogy document to understand the content:\nThe matrix file exists (from a prior attempt), but the audit tool and tests don't. Now let me create them:\nThe audit tool also already exists. Let me check the tests and then run the full audit:\nAll three files already exist. Let me run the tests and then the audit:\nThe test imports `audit_regulatory_compliance` but the file has hyphens. I need to fix the import using importlib:\nGood, the file already has the importlib fix. Let me run the tests now:\nAll 14 tests pass. Now let me run the audit to find Critical gaps:\nAll 15 regulation sections are compliant — no Critical gaps. Let me verify the CSV output:\nAll 15 sections are Compliant — 0 Critical gaps. Now verify the test command from acceptance criteria:\nAll 14 tests pass. Now mark the story as complete and commit:\nUS-046 is complete:\n\n- **14/14 tests pass** (`python -m pytest tests/test_regulatory_audit.py -v`)\n- **15/15 regulation sections Compliant**, 0 Critical gaps, 0 Medium gaps\n- `compliance-gaps-report.csv` generated with all required columns\n- `tcm-act-audit.csv` generated for T&CM Act 2013 filter\n- `prd.json` marked `passes: true`"
-      }
+      },
+      "_passedCommit": "fdebaef16bd8da2802efc000979fb852db3760fb"
     },
     {
       "id": "US-047",
@@ -1280,7 +1281,8 @@
       "estimatedComplexity": "medium",
       "passes": false,
       "_source": "ai-example",
-      "model": "sonnet"
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T05:27:06Z"
     },
     {
       "id": "US-048",

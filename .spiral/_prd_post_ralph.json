@@ -1208,6 +1208,188 @@
       "passes": false,
       "_source": "ai-example",
       "model": "sonnet"
+    },
+    {
+      "id": "US-045",
+      "title": "Tuinalogy Pregnancy Contraindication Safety Reference Generator",
+      "priority": "critical",
+      "description": "Create a standardized safety reference document detailing the 禁忌五穴 (5 forbidden acupoints during pregnancy: LI-4, SP-6, GB-21, BL-32, BL-33) with clinical rationale, alternative techniques, and regulatory citations (T&CM Act 2013, MOH Code of Ethics 2007). Generate inline safety callouts for all KP and KK documents that reference these points.",
+      "acceptanceCriteria": [
+        "pregnancy-safety-reference.md created in tuinalogy-services/_reference/ with 5 forbidden points (English name, Chinese name, acupuncture code, contraindication rationale, alternative point/technique, MOH/T&CM Act 2013 citation)",
+        "All KP and KK documents referencing LI-4, SP-6, GB-21, BL-32, BL-33 include warning callout: `⚠️ **Pregnancy Contraindication** — [point] is forbidden during pregnancy per T&CM Act 2013 Section X`",
+        "Validation script (tools/check-pregnancy-safety.py) scans all .md files and reports files missing pregnancy warning for forbidden points (expect 0 violations after fix)"
+      ],
+      "technicalNotes": [
+        "Create: tuinalogy-services/_reference/pregnancy-safety-reference.md",
+        "Create: tools/check-pregnancy-safety.py (regex: forbidden point codes, scan all KP/KK/PA files, output missing-warning CSV)",
+        "Test command: python tools/check-pregnancy-safety.py tuinalogy-services/ --format csv > pregnancy-check-report.csv; [ $(tail -1 pregnancy-check-report.csv | cut -d, -f2) -eq 0 ]"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": true,
+      "_source": "ai-example",
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T05:04:53Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\nNo `tuinalogy-services/_reference/` directory exists; no pregnancy contraindication callouts in any KP/KK files; 19 KP/KK files reference forbidden points (合谷/LI-4, 三阴交/SP-6, 肩井/GB-21, 次髎/BL-32, 中髎/BL-33) without warnings.\n\n## Problem Identified\nUS-045 requires: (1) a reference doc for 禁忌五穴, (2) a validation script, and (3) warning callouts in all KP/KK files that mention forbidden points.\n\n## Planned Changes\n- Create `tuinalogy-services/_reference/pregnancy-safety-reference.md` — detailed 5-point safety reference\n- Create `tools/check-pregnancy-safety.py` — scanner with `--fix` mode to both validate and apply callouts\n- Run script with `--fix` to patch all 19 KP/KK files programmatically (stays under diff budget)\n- Mark `prd.json` passes=true\n\n<plan>\n{\n  \"files_to_create\": [\"tuinalogy-services/_reference/pregnancy-safety-reference.md\", \"tools/check-pregnancy-safety.py\"],\n  \"files_to_modify\": [\"prd.json\"],\n  \"functions_to_add\": [\"scan_files\", \"check_file\", \"fix_file\", \"main\"],\n  \"estimated_loc\": 180\n}\n</plan>\n\nLet me read more target files to ensure correct warning placement:\nLet me check existing tools pattern:\nNow I have all the context I need. Let me implement the solution:\nBoth files exist from prior attempts. Let me run the check script to see current state:\n0 violations already. Let me verify the warning format matches acceptance criteria and run the test command:\nAll acceptance criteria are met. Let me verify all three criteria formally:\nAll 3 acceptance criteria pass. Now update `prd.json`:\nNow update progress.txt and commit:\nUS-045 is complete. All three acceptance criteria verified:\n\n1. **`pregnancy-safety-reference.md`** — exists in `tuinalogy-services/_reference/` with all 5 forbidden points (LI-4, SP-6, GB-21, BL-32, BL-33), English/Chinese names, acupuncture codes, clinical rationale, alternative points/techniques, and T&CM Act 2013 §28 + MOH Code of Ethics 2007 citations.\n\n2. **Warning callouts** — All 19 KP/KK files that reference forbidden points include `⚠️ **Pregnancy Contraindication** — [point(s)] ... per T&CM Act 2013 Section 28`.\n\n3. **Validation script** — `tools/check-pregnancy-safety.py` scans all KP/KK files and reports `TOTAL,0,` (zero violations). Test command `[ $(tail -1 ... | cut -d, -f2) -eq 0 ]` passes."
+      },
+      "_passedCommit": "b4866c429f0e4ff0d0f11598665ee538191d1c04"
+    },
+    {
+      "id": "US-046",
+      "title": "Malaysian T&CM Regulatory Compliance Audit Tool for Tuinalogy",
+      "priority": "critical",
+      "description": "Build an audit tool that cross-references all Tuinalogy safety, ethical, and procedural content against Malaysian regulatory frameworks: T&CM Act 2013 (registration, scope of practice), OSHA 1994 (workplace safety, ergonomics), PDPA 2010 (patient data confidentiality), and MOH Code of Ethics 2007 (professional conduct). Generate compliance matrix identifying gaps, required citations, and corrective actions.",
+      "acceptanceCriteria": [
+        "regulatory-compliance-matrix.md created in tuinalogy-services/_reference/ with 4 sections (T&CM Act 2013 | OSHA 1994 | PDPA 2010 | MOH Code of Ethics 2007); each section lists applicable regulations/sections, required coverage in WIM, and linked verification points in KP/KK/PA docs",
+        "Compliance audit tool (tools/audit-regulatory-compliance.py) scans all 35 Tuinalogy documents and cross-references keyword matches (e.g., 'consent', 'infection control', 'ergonomic', 'confidential') against regulation keywords; output: compliance-gaps-report.csv with [Regulation] | [Section] | [Required Coverage] | [Files Addressing] | [Status: Compliant/Gap] | [Recommendation]",
+        "Run audit; identify and fix all Critical gaps (zero documents addressing required area); resolve Medium gaps within CUs addressing that competency (e.g., if C01 covers basic assessment, PDPA data-handling requirements must appear in C01 docs)"
+      ],
+      "technicalNotes": [
+        "Create: tuinalogy-services/_reference/regulatory-compliance-matrix.md (organize by regulation, include keyword triggers for audit tool)",
+        "Create: tools/audit-regulatory-compliance.py (load keyword mapping from compliance-matrix.md, scan all .md files, tally keyword coverage per regulation, output CSV report with gap flags)",
+        "Create: tests/test_regulatory_audit.py (mock docs with regulated terms, verify audit tool detects coverage correctly)",
+        "Test command: python tools/audit-regulatory-compliance.py tuinalogy-services/ --regulation 'T&CM Act 2013' --output tcm-act-audit.csv; python -m pytest tests/test_regulatory_audit.py -v"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": true,
+      "_source": "ai-example",
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T05:17:14Z",
+      "_phaseI": {
+        "diagnosisBlock": "## Current State\n- `tuinalogy-services/_reference/` exists with only `pregnancy-safety-reference.md`\n- `tools/` exists with audit-related Python scripts\n- `tests/` exists with multiple test files\n- No regulatory compliance matrix, audit script, or compliance test yet\n\n## Problem Identified\nUS-046 requires:\n1. `tuinalogy-services/_reference/regulatory-compliance-matrix.md` — regulation definitions with keyword triggers\n2. `tools/audit-regulatory-compliance.py` — scans 35 Tuinalogy docs, outputs CSV\n3. `tests/test_regulatory_audit.py` — unit tests for the audit tool\n4. Run audit, identify and fix all Critical gaps\n\n## Planned Changes\n- Create `tuinalogy-services/_reference/regulatory-compliance-matrix.md` with 4 regulations and their sections/keywords\n- Create `tools/audit-regulatory-compliance.py` with argparse CLI, matrix parser, keyword scanner, CSV output\n- Create `tests/test_regulatory_audit.py` with pytest tests for coverage detection and CSV format\n- Run the audit to find and fix Critical gaps\n\n<plan>\n{\n  \"files_to_create\": [\n    \"tuinalogy-services/_reference/regulatory-compliance-matrix.md\",\n    \"tools/audit-regulatory-compliance.py\",\n    \"tests/test_regulatory_audit.py\"\n  ],\n  \"files_to_modify\": [],\n  \"functions_to_add\": [\n    \"parse_compliance_matrix\",\n    \"scan_documents\",\n    \"generate_report\",\n    \"main\"\n  ],\n  \"estimated_loc\": 280\n}\n</plan>\n\nLet me check the existing tools for patterns to follow:\nNow let me look at one tuinalogy document to understand the content:\nThe matrix file exists (from a prior attempt), but the audit tool and tests don't. Now let me create them:\nThe audit tool also already exists. Let me check the tests and then run the full audit:\nAll three files already exist. Let me run the tests and then the audit:\nThe test imports `audit_regulatory_compliance` but the file has hyphens. I need to fix the import using importlib:\nGood, the file already has the importlib fix. Let me run the tests now:\nAll 14 tests pass. Now let me run the audit to find Critical gaps:\nAll 15 regulation sections are compliant — no Critical gaps. Let me verify the CSV output:\nAll 15 sections are Compliant — 0 Critical gaps. Now verify the test command from acceptance criteria:\nAll 14 tests pass. Now mark the story as complete and commit:\nUS-046 is complete:\n\n- **14/14 tests pass** (`python -m pytest tests/test_regulatory_audit.py -v`)\n- **15/15 regulation sections Compliant**, 0 Critical gaps, 0 Medium gaps\n- `compliance-gaps-report.csv` generated with all required columns\n- `tcm-act-audit.csv` generated for T&CM Act 2013 filter\n- `prd.json` marked `passes: true`"
+      },
+      "_passedCommit": "fdebaef16bd8da2802efc000979fb852db3760fb"
+    },
+    {
+      "id": "US-047",
+      "title": "Tuinalogy TCM Theory Bilingual Terminology Index",
+      "priority": "high",
+      "description": "Build a comprehensive bilingual lookup table (Simplified Chinese / English / Malay) for all TCM terminology used in Tuinalogy (经络/meridians, 八纲/8 principles, 四诊/4 diagnostic methods, 五行/5 elements, acupoint names, techniques). Index by category with cross-references to NOSS sections and usage frequency.",
+      "acceptanceCriteria": [
+        "tcm-terminology-index.md created with ≥80 terms organized in 6 categories (Meridians, Diagnostics, Five Elements, Acupoints, Techniques, Safety) with columns: [Chinese] | [English] | [Malay] | [NOSS Reference] | [Frequency]",
+        "Automated consistency checker (tools/validate-terminology.py) flags any term used in KP/KK/PM files that deviates from the index by >1 character variant (e.g., 足三里 vs 足三-里)",
+        "All 35 documents (C01-C05, E01, E02 KP/KK/PM/PA/KA files) pass terminology validation with 0 deviations after correction"
+      ],
+      "technicalNotes": [
+        "Create: tuinalogy-services/_reference/tcm-terminology-index.md (markdown table with 6 columns)",
+        "Create: tools/validate-terminology.py (regex-based term checker, outputs mismatches + suggestion)",
+        "Test command: python tools/validate-terminology.py tuinalogy-services/_reference/tcm-terminology-index.md tuinalogy-services/ --output term-deviations.txt; [ ! -s term-deviations.txt ]"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet",
+      "last_attempted": "2026-04-17T05:27:06Z"
+    },
+    {
+      "id": "US-048",
+      "title": "Tuinalogy ARCS Motivation Model Content Enhancer",
+      "priority": "medium",
+      "description": "Enhance all PM (Lesson Plans) and KP (Information Sheets) across Tuinalogy with ARCS motivation design: Attention hooks (clinical relevance opening), Relevance (link to NOSS competencies + career context), Confidence scaffolding (prerequisite reviews + step-by-step structure), and Satisfaction (reflection prompts + mastery checks). Add structured callout boxes for each ARCS element.",
+      "acceptanceCriteria": [
+        "Each PM-teori.md (7 files: C01-C05, E01, E02) includes 4 ARCS callout boxes: `📌 Attention:`, `🎯 Relevance:`, `🆙 Confidence:`, `✓ Satisfaction:` with specific clinical examples",
+        "Each KP doc (21 total) includes ≥1 confidence-scaffolding section with prerequisites + learning pathway, and ≥1 satisfaction reflection prompt (e.g., 'After mastering [technique], you can independently...')",
+        "arcs-checklist.md created in tuinalogy-services/_reference/ with 4-column table [Document] | [Attention] | [Relevance] | [Confidence] | [Satisfaction]; all 28 docs scored as Complete/Partial/Missing"
+      ],
+      "technicalNotes": [
+        "Edit files: tuinalogy-services/C0[1-5],E0[1-2]/PM-teori.md and all KP*.md files",
+        "Create: tuinalogy-services/_reference/arcs-checklist.md",
+        "Test command: grep -c '📌 Attention:' tuinalogy-services/C0*/PM-teori.md | grep -v ':0' | wc -l (expect 7 matches)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-049",
+      "title": "IT-020 Level 4 Networking Bilingual Glossary with Consistency Validator",
+      "priority": "medium",
+      "description": "Create a comprehensive bilingual glossary for IT-020 Level 4 networking concepts (TCP/IP suite, routing protocols, network security, VPN, firewall, intrusion detection). Include English/Malay/Chinese technical terms with NOSS curriculum references. Build a validator to flag inconsistent terminology usage across all L4 KP/KT/KK documents.",
+      "acceptanceCriteria": [
+        "networking-L4-glossary.md created in it-computer-system/L4/_reference/ with ≥60 terms (4 columns: [English] | [Malay] | [Chinese] | [NOSS L4 Module Reference]) organized by topic (5 sections: TCP/IP, Routing, Security, VPN, Monitoring)",
+        "Consistency validator (tools/validate-it-L4-terms.py) cross-references glossary against all L4 KP/KT/KK files and outputs term-variance report (expect <5% variance after fixes)",
+        "All 15 L4 documents (5 CUs × 3 doc types) updated to use glossary-approved terminology; no ad-hoc translations or abbreviations remain"
+      ],
+      "technicalNotes": [
+        "Create: it-computer-system/L4/_reference/networking-L4-glossary.md",
+        "Create: tools/validate-it-L4-terms.py (load glossary, scan L4 KP/KT/KK files, detect unapproved variants via regex, output CSV report)",
+        "Edit: it-computer-system/L4/C01-C05/KP*.md, KT*.md, KK*.md (standardize all networking terms to glossary variants)",
+        "Test command: python tools/validate-it-L4-terms.py it-computer-system/L4/_reference/networking-L4-glossary.md it-computer-system/L4/ --output variance-report.csv; [ $(wc -l < variance-report.csv) -le 5 ]"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-050",
+      "title": "Tuinalogy Mnemonic Memory Device Generator for Procedures",
+      "priority": "medium",
+      "description": "Create visual mnemonic devices (acronyms, memory rhymes, hand-position mnemonics) for complex Tuinalogy procedures and sequences. Examples: 8-point tui na routine, meridian sequence in diagnosis (四诊 order), pregnancy contraindication checklist. Generate mnemonic boxes with Chinese characters and English equivalents. Embed 2+ mnemonics in each KP/KK document for major procedures.",
+      "acceptanceCriteria": [
+        "mnemonic-library.md created in tuinalogy-services/_reference/ with ≥15 procedure mnemonics: [Procedure Name] | [Mnemonic Format] | [Chinese] | [English] | [Hand Position / Sequence Diagram] | [Usage CUs] (e.g., '8-Point Tui Na: 推拿8法 = Press-Knead-Roll-Grasp-Push-Rub-Vibrate-Flick'; includes simple ASCII diagram)",
+        "All 21 KP documents (C01-C05, 3 per CU, plus E01/E02) include ≥2 mnemonic callout boxes (format: `🧠 **Mnemonic:** [name] — [formula]`) for key procedures or terminology sequences",
+        "Mnemonic memorability validator (tools/validate-mnemonic-quality.py) checks mnemonic-library.md for: phonetic clarity (no excessive similar-sounding elements), length (≤6 elements for acronyms), cultural appropriateness; output: quality-check report with pass/flag status"
+      ],
+      "technicalNotes": [
+        "Create: tuinalogy-services/_reference/mnemonic-library.md (markdown with ASCII diagrams for hand positions; include pinyin for Chinese terms)",
+        "Create: tools/validate-mnemonic-quality.py (simple heuristics: check acronym length, detect phonetic collisions in pinyin, validate structure)",
+        "Edit: tuinalogy-services/C01-C05,E01,E02/KP*.md and KK*.md (add mnemonic callout boxes for major procedures)",
+        "Test command: grep -c '🧠 \\*\\*Mnemonic:\\*\\*' tuinalogy-services/C0*/KP*.md | grep -v ':0' | wc -l (expect ≥42, i.e., 21 KPs × ≥2 mnemonics)"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-051",
+      "title": "Build NOSS Learning Outcome to Assessment Linkage Matrix",
+      "priority": "high",
+      "description": "Create bidirectional mapping showing which assessment items in KA/KT documents cover which NOSS CoCU Learning Outcomes. Generate coverage matrix and identify gaps in assessment coverage per competency unit.",
+      "acceptanceCriteria": [
+        "Matrix generator reads NOSS extracts (bev-diagnostic-rectification/00-noss-extract.md) and parses Learning Outcomes per CU",
+        "Cross-references each assessment item in KA.md to one or more Learning Outcomes via comment tags in markdown (e.g., `<!-- LO-C01-03 -->`)",
+        "Outputs CSV: Subject, CU Code, Learning Outcome, Assessment Item ID, Coverage %; flags any LO with 0% coverage"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/learning_outcome_mapper.py (functions: parse_noss_learning_outcomes, extract_assessment_item_tags, compute_coverage_percentage)",
+        "Test command: uv run pytest _tools/test_learning_outcome_mapper.py::test_noss_extract_parsing -v",
+        "Output file: _reference/coverage_matrix.csv with columns: Subject, CU, LO_Code, LO_Text, Covered_By, Coverage_Percent"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
+    },
+    {
+      "id": "US-052",
+      "title": "Create Technical Content Accuracy Auditor Against Industry Standards",
+      "priority": "high",
+      "description": "Validate technical content accuracy by cross-referencing against current industry standards: IEC standards for BEV HV safety, medical/anatomy standards for Aesthetic, ISO networking standards for IT. Flags outdated information with revision recommendations.",
+      "acceptanceCriteria": [
+        "BEV auditor: Checks voltage thresholds match IEC 61508 (≥48V = high voltage), validates PPE specs against EN 455/EN standards, checks connector types match IEC 62196",
+        "Aesthetic auditor: Validates anatomy terms against standard medical references, checks modality safety ranges (e.g., ultrasound frequency 40kHz within safe range), verifies chemical compatibility warnings",
+        "Report lists: KP Section, Technical Claim, Industry Standard Reference, Compliance Status (Pass/Fail/Outdated), Recommended Action"
+      ],
+      "technicalNotes": [
+        "File to create: _tools/accuracy_auditor.py (functions: audit_bev_standards, audit_aesthetic_standards, audit_it_standards, format_audit_report)",
+        "Test command: uv run pytest _tools/test_accuracy_auditor.py::test_48v_high_voltage_requirement -v",
+        "Standards reference file: _reference/industry_standards_index.json containing: standard_name, applicable_subject, key_requirements, tolerance_ranges, source_document"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "passes": false,
+      "_source": "ai-example",
+      "model": "sonnet"
     }
   ]
 }
