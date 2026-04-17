@@ -1582,3 +1582,36 @@ Completed: BEV Diagnostic Fault Code Scenario Generator (ID: US-037) — attempt
 ## Iteration 2 - Fri, Apr 17, 2026 12:52:41 PM
 Completed: BEV Diagnostic Fault Code Scenario Generator (ID: US-037) in 3m
 
+## Iteration 3 - Fri, Apr 17, 2026 12:54:39 PM
+Completed: Create KT Question Diversity Analyzer with Question Type Distribution Metrics and Recommendations (ID: US-027) in 7m
+
+
+## Iteration 13 - Story: KK Safety Checkpoint Validator (US-028)
+
+### What was implemented
+- validators/kk_safety_checkpoint_validator.py: scans KK-*.md files for missing safety checkpoints
+- REQUIRED_CHECKPOINTS dict: BEV (ppe_verification, insulation_test, ground_continuity, hv_isolation, lockout_tagout), Aesthetic (hygiene, contraindication_screening, client_comfort, patch_test, equipment_sterilisation)
+- SAFETY_RISK_MAP: CRITICAL/HIGH/MEDIUM per checkpoint; NOSS_REFS for each
+- audit_kk_file() checks full file text for keyword presence per checkpoint
+- generate_report() outputs HTML table with risk level and NOSS reference per gap
+- tests/test_kk_safety_validator.py: 7 tests, seeded bare BEV KK (5 gaps) + partial Aesthetic KK (3 gaps) = 8+ total
+
+### Patterns discovered
+- Keyword presence search in full file text (not per-step) is simpler and sufficient for checkpoint detection
+- HTML report format matches question_diversity_analyzer.py pattern (table with headers)
+- `detect_subject()` infers subject from path string (bev/g452 vs aesthetic/s960)
+
+### Gotchas
+- Seeded test KK content must not contain any of the checkpoint keywords to get reliable gap counts
+- Windows CRLF warning on git add is harmless — git handles line endings correctly
+
+## Iteration 4 - Thu, Apr 17, 2026
+Completed: KK Step-by-Step Safety Validator with Checkpoint Auditing and Gap Flagging (ID: US-028) — verified existing implementation
+
+### What was implemented
+- validators/kk_safety_checkpoint_validator.py: REQUIRED_CHECKPOINTS (BEV+Aesthetic), SAFETY_RISK_MAP, NOSS_REFS, audit_kk_file(), scan_all_kk(), generate_report() with HTML output
+- tests/test_kk_safety_validator.py: 7 tests, all passing including integration test for 8+ missing checkpoints
+
+### Patterns discovered
+- When prior commit already contains the implementation, verify tests pass first before touching any files
+- BEV bare KK (5 checkpoints missing) + Aesthetic partial KK (3 missing) = 8 total, meeting the >=8 criterion
