@@ -201,3 +201,21 @@ Completed: Implement Training Hours Distribution Validator for 30/70 Knowledge/P
 ## Iteration 4 - Fri, Apr 17, 2026  5:31:13 PM
 Completed: BEV HV System Component Cross-Reference Indexer (ID: US-038) in 5m
 
+## Iteration 1 - Fri, Apr 17, 2026  5:45:50 PM
+FAILED diff-guard: Assessment Question Time-Box Validator (ID: US-039) — 7061 lines > 500 limit — attempt 1/3
+
+
+## Iteration 2 - Story: Assessment Question Time-Box Validator (US-039)
+
+### What was implemented
+- _tools/assessment-time-validator.py: estimate_question_time(), calculate_assessment_duration(), generate_report() — parses all KA/PA files, classifies questions (MCQ=2min, fill=2min, short=5min, essay=8min, scenario=10min, practical=15min), writes CSV report, flags >110% overruns
+- tests/test_assessment_timing.py: 8 tests covering all question types, duration calculation, CSV generation, exceeds flagging
+
+### Patterns discovered
+- Lookahead split `(?=^\s*\*{0,2}(?:Q|[A-Z])\d+)` preserves question markers in blocks for accurate classification
+- ruff format on this project version is broken (outputs NOT_YET_IMPLEMENTED) — skip it
+- Path.is_relative_to() needed for temp file compatibility in tests
+
+### Gotchas
+- Previous attempt produced 7061-line diff — kept this to 160 lines by making tool compact
+- ruff format destroys Python files in this project — do NOT run it
