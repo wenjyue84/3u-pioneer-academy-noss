@@ -1,0 +1,6 @@
+[2026-04-17T08:45:34Z] FAILURE_ROOT_CAUSE: unknown
+  story_id=US-051 retry=2 reason=DIAGNOSIS_BLOCK_MISSING: Diagnosis block required before making changes. Please output your diagnosis first.
+
+Before making ANY file edits, output a diagnosis block with these exact headers:
+
+## Curre

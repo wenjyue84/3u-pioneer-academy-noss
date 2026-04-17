@@ -38,5 +38,9 @@ timestamp	spiral_iter	ralph_iter	story_id	story_title	status	duration_sec	model	
 2026-04-17T07:36:30Z	16	2	US-047	Tuinalogy TCM Theory Bilingual Terminology Index	reject	671	opus	1		69e180a1b4	false	0	0	0	0	0	0	0		0	0	0	0				
 2026-04-17T07:43:26Z	16	3	US-047	Tuinalogy TCM Theory Bilingual Terminology Index	keep	369	opus	1	735bbd00c705c9f75741a8d2425aacf1bf213d15	69e180a1b4	false	0	0	0	0	0	0	0		0	0	0	0				
 2026-04-17T07:43:50Z	16	2	US-047	Tuinalogy TCM Theory Bilingual Terminology Index	reject	1058	sonnet	1		69e180a1b4	false	0	0	0	0	0	0	0		0	0	0	0	unknown			
+<<<<<<< Updated upstream
 2026-04-17T08:53:56Z	20	5	US-051	Build NOSS Learning Outcome to Assessment Linkage Matrix	keep	191	opus	1	05edbe84d9220864134f5174d62ebbb202765937	69e180a1b4	false	0	0	0	0	0	0	0		0	0	0	0	unknown			
 2026-04-17T08:57:15Z	19	3	US-052	Create Technical Content Accuracy Auditor Against Industry Standards	keep	433	sonnet	0	3f79a87a3576013779c408fcb82d896b6aa6b40f	69e180a1b4	false	0	0	0	0	0	0	0		0	0	0	0	unknown			
+=======
+2026-04-17T08:47:19Z	20	3	US-051	Build NOSS Learning Outcome to Assessment Linkage Matrix	reject	100	sonnet	1		69e180a1b4	false	0	0	0	0	0	0	0		0	0	0	0	unknown			
+>>>>>>> Stashed changes

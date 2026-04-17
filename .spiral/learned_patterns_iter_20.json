@@ -1,0 +1,39 @@
+{
+  "iteration": 20,
+  "timestamp": "2026-04-17T09:03:11.039628+00:00",
+  "summary": {
+    "0_retries": {
+      "count": 37,
+      "avg_ac_count": 3.08,
+      "avg_description_length": 256.5,
+      "common_tags": [],
+      "common_file_patterns": []
+    },
+    "1_retry": {
+      "count": 2,
+      "avg_ac_count": 3.0,
+      "avg_description_length": 255.0,
+      "common_tags": [],
+      "common_file_patterns": []
+    },
+    "2_retries": {
+      "count": 0,
+      "avg_ac_count": 0.0,
+      "avg_description_length": 0.0,
+      "common_tags": [],
+      "common_file_patterns": []
+    },
+    "3plus_retries": {
+      "count": 0,
+      "avg_ac_count": 0.0,
+      "avg_description_length": 0.0,
+      "common_tags": [],
+      "common_file_patterns": []
+    }
+  },
+  "insights": {
+    "total_analyzed": 39,
+    "easy_count": 39,
+    "hard_count": 0
+  }
+}

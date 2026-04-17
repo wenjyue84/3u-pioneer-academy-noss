@@ -21,6 +21,7 @@
 - KA.md files currently have no `<!-- LO-xxx -->` tags — tool correctly reports 0% coverage as gaps
 - Keep new files compact to stay under 500-line diff limit
 
+<<<<<<< Updated upstream
 ## Pre-analysis for US-052 (Gemini 2.5 Pro)
 Here is a technical brief for the Claude Code agent based on the user story.
 
@@ -112,4 +113,33 @@ This user story focuses on content authoring and validation, not direct modifica
 *   **Markdown Parsing:** The test script's parsing of the `KA.md` file is the biggest risk. A structured format (e.g., using specific headers or code blocks for rubrics) is critical for validation.
 *   **Scope:** The task is confined to content and its validator. Avoid altering unrelated Frappe application logic.
 *   **Rubric Logic:** Ensure the partial-credit values in the Markdown are unambiguous (e.g., `[1.0 pt]`, `[0.5 pts]`) to facilitate simple parsing and accurate calculations in the Python test.
+=======
+## Iteration 3 - Fri, Apr 17, 2026  4:47:19 PM
+FAILED diagnosis-block gate: Build NOSS Learning Outcome to Assessment Linkage Matrix (ID: US-051) — no diagnosis block found — attempt 1/3
+
+
+## Pre-analysis for US-051 (Gemini 2.5 Pro)
+Here is a technical brief for implementing user story US-051.
+
+**Objective:** Create a Python script to build a bidirectional mapping matrix between NOSS Learning Outcomes (LOs) and the assessment items that cover them, identifying any coverage gaps.
+
+**Python Files to Modify/Create:**
+*   `_tools/learning_outcome_mapper.py`: New file to house the core logic.
+*   `_tools/test_learning_outcome_mapper.py`: Corresponding new test file for `pytest`.
+
+**Frappe DocTypes / Hooks:**
+*   None. This is a standalone data processing script and does not interact with the Frappe framework, database, DocTypes, or hooks.
+
+**Implementation Approach:**
+1.  In `_tools/learning_outcome_mapper.py`, create a function `parse_noss_learning_outcomes` to read `bev-diagnostic-rectification/00-noss-extract.md` and extract all Learning Outcomes per Competency Unit (CU).
+2.  Create a function `extract_assessment_item_tags` to glob for `KA.md`/`KT.md` files, parse them, and map assessment items to their LOs via the `<!-- LO-CU-XX -->` comment tags.
+3.  Create a primary function, `compute_coverage_percentage`, to orchestrate the process. It will use the data from the previous functions to build a matrix.
+4.  Calculate the coverage for each LO and use Python's `csv` module to write the final report to `_reference/coverage_matrix.csv`, flagging any LOs with zero coverage.
+5.  Follow the function and file naming conventions specified in the technical notes.
+
+**Gotchas & Edge Cases:**
+*   The markdown parsing logic must be robust to handle minor formatting inconsistencies in the source files.
+*   The script should gracefully handle assessment items with malformed or missing `LO-` tags.
+*   The final CSV output column headers should match the technical notes: `Subject, CU, LO_Code, LO_Text, Covered_By, Coverage_Percent`.
+>>>>>>> Stashed changes
 

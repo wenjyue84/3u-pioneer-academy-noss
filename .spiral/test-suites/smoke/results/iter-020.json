@@ -1,6 +1,13 @@
 {
-  "type": "smoke",
-  "version": 1,
+  "iteration": 20,
+  "suite_type": "smoke",
+  "timestamp": "2026-04-17T09:02:41Z",
+  "summary": {
+    "total": 39,
+    "passed": 0,
+    "failed": 0,
+    "skipped": 39
+  },
   "tests": [
     {
       "title": "[smoke] Enhance BEV C01 KP technical depth — HV safety procedures and PPE specifications",
@@ -13,7 +20,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance BEV C02 KP — BMS components, HV cable, OBC, battery pack theory",
@@ -26,7 +35,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance BEV C03-C04 KP — thermal cooling and electric drive train theory",
@@ -39,7 +50,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance BEV KK practical procedures — step-by-step accuracy and safety checklists",
@@ -52,7 +65,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance Aesthetic C01-C02 KP — body consultation and thermal therapy theory",
@@ -65,7 +80,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance Aesthetic C03 KP — manual body massage techniques and anatomy",
@@ -78,7 +95,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance Aesthetic C04 KP — electrotherapy modalities (6 types) with safety",
@@ -91,7 +110,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance Aesthetic KK practical procedures — treatment techniques and hygiene",
@@ -104,7 +125,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create BEV C01-C02 Knowledge Assessments with Integrated Answer Schemes",
@@ -117,7 +140,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Build Aesthetic Services Bilingual Terminology Glossary with Consistency Validator",
@@ -130,7 +155,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create BEV C05 Performance Assessment with Supervisor Competency Rubrics",
@@ -143,7 +170,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance BEV KT question quality — varied formats with answer schemes",
@@ -156,7 +185,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Enhance BEV C05 supervisory content — briefing, training, SHE monitoring",
@@ -169,7 +200,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create BEV C03 Thermal System Knowledge Assessment with Scenario-Based Diagnostics",
@@ -182,7 +215,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Build WIM Format Compliance Validator Against Buku Panduan WIM Edisi 2020 Standards",
@@ -195,7 +230,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create Aesthetic Services Knowledge Assessment Suite with Bilingual Answer Schemes",
@@ -208,7 +245,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Implement IT Level 3 Knowledge Assessment with Competency-Based Rubrics",
@@ -221,7 +260,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create Aesthetic C03 Knowledge Assessment with Manual Technique Competency Questions",
@@ -234,7 +275,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Build NOSS CoCU Work Activity Coverage Validator for All Subjects",
@@ -247,7 +290,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Build Automated Competency-to-Assessment Cross-Reference Matrix with Coverage Validation Tool",
@@ -260,7 +305,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create Aesthetic C04 Performance Assessment with Electrotherapy Modality Parameter Setting and Safety Competency",
@@ -273,7 +320,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create BEV C04 Knowledge Assessment with Electric Drive Train Diagnostics Scenarios",
@@ -286,7 +335,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create Aesthetic C01 Performance Assessment with Client Consultation Scenario Rubrics",
@@ -299,7 +350,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Build WIM Markdown to DOCX Export Pipeline with JPK Format Compliance and Style Templates",
@@ -312,7 +365,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create Assessment Question Difficulty Classifier with Bloom's Taxonomy Cognitive Level Tagging",
@@ -325,7 +380,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Build WIM Header Box Template Enforcer for All Document Types Across All Subjects",
@@ -338,7 +395,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Build Cross-Subject Assessment Question Type Distribution Analyzer with Rebalancing Recommendations",
@@ -351,7 +410,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Implement NOSS CoCU Related Knowledge Dependency Mapper",
@@ -364,7 +425,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Implement IT-020 Knowledge Assessment Completeness Auditor for All Levels",
@@ -377,7 +440,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] IT-020 Hands-On Lab Activity Mapper",
@@ -390,7 +455,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create KT Question Diversity Analyzer with Question Type Distribution Metrics and Recommendations",
@@ -403,7 +470,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create KK Step-by-Step Safety Validator with Checkpoint Auditing and Gap Flagging",
@@ -416,7 +485,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] BEV Diagnostic Fault Code Scenario Generator",
@@ -429,7 +500,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Tuinalogy Pregnancy Contraindication Safety Reference Generator",
@@ -442,7 +515,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Malaysian T&CM Regulatory Compliance Audit Tool for Tuinalogy",
@@ -455,7 +530,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Tuinalogy TCM Theory Bilingual Terminology Index",
@@ -468,7 +545,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Build NOSS Learning Outcome to Assessment Linkage Matrix",
@@ -481,7 +560,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] Create Technical Content Accuracy Auditor Against Industry Standards",
@@ -494,7 +575,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     },
     {
       "title": "[smoke] IT-020 Level 4 Knowledge Assessment with Network Diagnostics Scenarios",
@@ -507,7 +590,9 @@
       "last_run_ts": "",
       "last_result": "pending",
       "obsolete": false,
-      "run_count": 0
+      "run_count": 0,
+      "result": "skip",
+      "reason": "no command defined"
     }
   ]
 }
