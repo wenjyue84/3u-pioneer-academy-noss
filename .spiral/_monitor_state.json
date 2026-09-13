@@ -1,4 +1,15 @@
 {
   "passed_count": 44,
-  "timestamp": "2026-04-17T10:30:37.501159+00:00"
+  "timestamp": "2026-04-17T10:30:37.501159+00:00",
+  "kp_ratio_health": {
+    "timestamp": "2026-04-17T16:29:05.115347+00:00",
+    "cumulative_knowledge_pct": 30.0,
+    "target_pct": 30.0,
+    "compliant_range": [
+      25.0,
+      35.0
+    ],
+    "non_compliant_cus": [],
+    "status": "ok"
+  }
 }

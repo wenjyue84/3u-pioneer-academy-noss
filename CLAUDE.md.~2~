@@ -1,0 +1,69 @@
+# CLAUDE.md — NOSS IT-020 Textbook Project
+
+## Project
+
+NOSS-compliant textbook for **3U Pioneer Academy Sdn Bhd** — IT-020 Computer System Management series (Levels 3, 4, 5). Output: 3 separate .docx files synced to Google Docs.
+
+## Key Paths
+
+| What | Path |
+|------|------|
+| Content source (single truth) | `content/IT-020-{3,4,5}/*.md` |
+| Generated .docx | `output/NOSS-IT-020-{3,4,5}-*.docx` |
+| Reference materials | `_reference/` (read-only) |
+| Kitchen template (formatting) | `_reference/kitchen-template/Kitchen LV2 C01.docx` |
+| Google Doc IDs | `scripts/.gdrive-state.json` |
+| Agent prompts | `scripts/agent_prompts/*.md` |
+| Build logs | `logs/` |
+
+## Google Doc IDs
+
+- **L3:** `1LHPCgRvy4rGVxCcIEoZAm5CVOtPRW_ubflvJSs8WsEo`
+- **L4:** `1c8K5bgHxgRABNyjNuhyNWBDIJ4FDgChwd8Oy_bafRog`
+- **L5:** `1lUAmUsevG4OwJ94pSq8TD2CnwXAuMe2Y3ubm2ySzxTg`
+
+## NOSS Structure per CoCu
+
+Each CoCu .md file in `content/` follows this structure:
+1. NOSS header table (Program Code, Level, Unit Title, Work Activities, Code, Page)
+2. Set-up context table (2 scenarios)
+3. Key terms / tools table (Type + Description)
+4. Contact hour distribution (% / Hrs / Activity / Knowledge 30% / Performance 70%)
+5. Hardware/Software component descriptions
+6. Common faults table (Fault / Cause / Action)
+
+Gold standard: `content/IT-020-3/01_cocu-1-computer-system-set-up.md`
+
+## Build Commands
+
+```bash
+# Generate .docx from .md content
+uv run --with python-docx --with markdown scripts/generate_docx.py
+
+# Upload to Google Drive
+uv run scripts/sync_to_gdrive.py
+
+# Run full cron cycle (AI refine + rebuild + upload)
+powershell -ExecutionPolicy Bypass -File scripts/cron_refine.ps1
+```
+
+## CoCu Counts
+
+| Level | CoCu Units | Contact Hours |
+|-------|-----------|--------------|
+| IT-020-3 (L3) | 7 | 1200 |
+| IT-020-4 (L4) | 6 | per COURSE reference |
+| IT-020-5 (L5) | 7 (6 core + 1 elective) | per COURSE reference |
+
+## Rules
+
+- Content .md files are the single source of truth — never edit .docx directly
+- NOSS allocation: 30% Knowledge / 70% Performance per competency unit
+- All CoCu enrichment must match the L3 CoCu 1 gold standard pattern
+- Use `uv` for all Python operations
+
+## Updated Structure (2026-04-22)
+
+Karpathy raw/wiki layout applied:
+- **raw/** — source docx, json, jsonl, py, sh, progress files, output/content/logs/scripts subdirs
+- **wiki/** — analysis .md files (01 Main, NOSS-IT-020-Textbook.md, NotebookLM notes, WhatsApp reference)

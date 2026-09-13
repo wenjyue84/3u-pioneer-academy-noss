@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "Generate capstone project briefs aligned to ISCO-08 job roles and learning outcomes",
+      "priority": "medium",
+      "description": "Create templates for capstone projects that map to real Malaysian IT job roles with measurable success criteria and industry context. Each brief should reference relevant learning outcomes and provide estimated completion time.",
+      "acceptanceCriteria": [
+        "uv run scripts/generate_capstone_briefs.py reads all CoCu learning outcomes and generates 2-3 project briefs per level (L3/L4/L5)",
+        "Output files created: output/capstone_briefs_L3.json, output/capstone_briefs_L4.json, output/capstone_briefs_L5.json containing project title, learning outcomes covered, industry context, success criteria, and estimated hours",
+        "Each capstone brief includes explicit mapping to ISCO-08 job classification (e.g., '2523 - Software and applications developers and analysts')"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Validate skill progression from L3→L4→L5 with explicit prerequisite callouts in CoCu headers",
+      "priority": "high",
+      "description": "Ensure competencies build sequentially across levels with clear prerequisite relationships. Analyze learning outcomes across all CoCu files to identify prerequisite chains and generate callout text for CoCu header tables.",
+      "acceptanceCriteria": [
+        "uv run scripts/validate_competency_scaffolding.py analyzes all learning outcomes across L3/L4/L5 CoCu files and identifies prerequisite relationships using semantic similarity (threshold ≥0.75)",
+        "Output: output/scaffolding_report.json contains prerequisite chains with detected gaps or circular dependencies; exit code 1 if critical gaps found",
+        "CoCu files are updated with 'Prerequisites' row in NOSS header table (e.g., 'Prerequisites: L3-CoCu-1.3, L3-CoCu-2.1') for any prerequisites detected; markdown template preserved"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Create interactive student self-assessment for prerequisite competencies before level advancement",
+      "priority": "medium",
+      "description": "Build an interactive HTML form allowing students to assess their readiness before advancing from L3→L4 or L4→L5. Form includes targeted assessment questions mapped to prerequisite outcomes with scoring and remediation suggestions.",
+      "acceptanceCriteria": [
+        "uv run scripts/generate_prerequisite_checker.py creates output/prerequisite_checker.html with tabbed interfaces for L3→L4 and L4→L5 assessment pathways",
+        "Form includes 8-12 multiple-choice questions per level pathway, directly mapped to prerequisite learning outcomes; question bank stored in output/prerequisite_questions.json",
+        "Form submission generates output/student_readiness_[timestamp].json report with competency scores (0-100% per outcome) and hyperlinked remediation resources from scripts/resources/"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Map all learning outcomes to Malaysian IT job postings and salary data for career alignment",
+      "priority": "medium",
+      "description": "Cross-reference all CoCu learning outcomes with Malaysian IT job market data showing career progression, salary ranges, and job availability. This demonstrates practical industry relevance for students.",
+      "acceptanceCriteria": [
+        "uv run scripts/map_employment_pathways.py processes all CoCu learning outcomes and maps to sample Malaysian IT job dataset (CSV provided at scripts/data/my_it_jobs_2025.csv)",
+        "Output: output/employment_pathways.xlsx with columns: CoCu Unit, Learning Outcome ID, Related Job Titles (top 3), Salary Range (MYR), Job Demand % in Malaysian market",
+        "generate_docx.py is enhanced to embed career pathway micro-section in CoCu introduction area; command: generate_docx.py --embed-career-data"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Generate detailed instructor facilitation guides per CoCu with timing and assessment strategies",
+      "priority": "high",
+      "description": "Create comprehensive facilitation guides helping instructors deliver content effectively with embedded assessment strategies, timing budgets per section, common misconceptions, and remediation approaches aligned to the 30% Knowledge / 70% Performance split.",
+      "acceptanceCriteria": [
+        "uv run scripts/generate_facilitation_guides.py processes all 20 CoCu markdown files and generates output/facilitation_guides_L3.docx, output/facilitation_guides_L4.docx, output/facilitation_guides_L5.docx",
+        "Each guide includes per-section breakdown: timing (50-minute session blocks), learning outcome checklist, formative assessment suggestions labeled as 'Knowledge' (30%) or 'Performance' (70%), and 3-5 common misconceptions per CoCu with evidence-based remediation",
+        "Guides embed practical exercise timing estimates and assessment rubric references; generated via enhanced generate_docx.py function process_facilitation_template()"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Audit all referenced hardware/software against vendor EOL and release schedules",
+      "priority": "high",
+      "description": "Validate all hardware/software products mentioned in CoCu files are not deprecated or reaching end-of-life before JPK submission. Cross-reference with vendor databases and flag items requiring curriculum updates.",
+      "acceptanceCriteria": [
+        "uv run scripts/audit_content_currency.py parses all CoCu files, extracts hardware/software references, and validates against vendor EOL database (CSV: scripts/data/vendor_eol_2025.csv with columns: product, vendor, eol_date, status)",
+        "Output: output/content_currency_report.json lists each reference with: current status (Active/Nearing EOL in <2 yrs/Deprecated), recommended replacement if available, CoCu file location, and remediation script recommendation",
+        "Exit code 1 if any items reach EOL within 24 months of expected JPK submission; report includes actionable commands (e.g., 'Run: uv run scripts/replace_deprecated_references.py --product=WindowsServer2016')"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Verify English and Bahasa Malaysia assessment items have equivalent cognitive difficulty",
+      "priority": "high",
+      "description": "Ensure translated assessment questions maintain semantic equivalence and cognitive complexity. Validate that English and Bahasa Malaysia versions are equally clear and test the same Bloom's cognitive level.",
+      "acceptanceCriteria": [
+        "uv run scripts/validate_assessment_equivalence.py analyzes all bilingual assessment sections from CoCu files using sentence-transformers for semantic similarity (target ≥0.85 per pair) and NLTK for Bloom's level extraction",
+        "Output: output/assessment_equivalence_report.json with: semantic similarity scores, Bloom's level match validation, and HTML side-by-side comparison view (output/assessment_equivalence_review.html) for flagged pairs below 0.85 threshold",
+        "Exit code 1 if ≥10% of assessment pairs fall below 0.85 similarity; identifies which CoCu units require translation review; generates output/review_queue.json with prioritized items"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Generate interactive HTML dashboard tracking student competency progress across all CoCu outcomes",
+      "priority": "medium",
+      "description": "Create a visual dashboard for instructors to monitor class-wide competency acquisition and individual student progress across all 20 CoCu units. Dashboard displays competency matrix, mastery status, and exportable reports.",
+      "acceptanceCriteria": [
+        "uv run scripts/generate_progress_dashboard.py creates output/progress_dashboard.html with interactive competency matrix (rows=all learning outcomes across 20 CoCu, columns=individual students or cohorts)",
+        "Dashboard displays: color-coded mastery status (Red: 0-50%, Yellow: 51-79%, Green: 80-100% per outcome), drill-down detail views, CSV/Excel export capability, and class-wide aggregation statistics (mean mastery per CoCu, trend analysis)",
+        "Includes sample dataset (25 students across 20 CoCu units with simulated time-series progress data) for demonstration and testing; data structure: output/dashboard_data_sample.json"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Generate bilingual scoring rubrics for all practical exercises with performance level descriptors",
+      "priority": "high",
+      "description": "Create detailed scoring rubrics for every practical exercise aligned to the 30% Knowledge / 70% Performance split, with specific observable behaviors for each performance level in both English and Bahasa Malaysia.",
+      "acceptanceCriteria": [
+        "uv run scripts/generate_exercise_rubrics.py processes all practical exercise sections from CoCu markdown files and generates output/exercise_rubrics_L3.xlsx, output/exercise_rubrics_L4.xlsx, output/exercise_rubrics_L5.xlsx",
+        "Each rubric includes minimum 3 assessment criteria per exercise, 4 performance levels (Below Target/Developing/Proficient/Advanced) with descriptors in English and Bahasa Malaysia, point allocations reflecting 30% Knowledge / 70% Performance weighting",
+        "generate_docx.py extended to embed rubric tables directly into practical exercise sections via new function embed_exercise_rubrics(); output DOCX includes formatted rubric tables with color-coded performance bands"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Generate interactive pre-submission compliance checklist with auto-remediation suggestions",
+      "priority": "high",
+      "description": "Create a comprehensive JPK submission readiness validation tool that checks all 25+ NOSS compliance requirements and provides specific, actionable remediation suggestions with traffic-light status indicators.",
+      "acceptanceCriteria": [
+        "uv run scripts/validate_jkp_submission.py runs 25+ compliance checks covering: bilingual titles (all 20 CoCu present), contact hours totals (L3=1200, L4/L5 per COURSE reference), assessment criteria sections, K/P split allocation (30/70), learning outcome SMART validation, references presence, tools/equipment lists, practical exercises, formatting standards",
+        "Output: output/jkp_compliance_report.html with traffic-light summary (Green/Yellow/Red per check), detailed findings per CoCu, and auto-remediation CLI commands (e.g., 'Run: uv run scripts/add_bilingual_titles.py' or 'Review learning outcomes in CoCu-5 for SMART alignment')",
+        "Exit code 0 if all checks pass, 1 if critical failures found; enables CI/CD gating to prevent submission of non-compliant versions; generates output/jkp_checklist_[timestamp].json with detailed pass/fail metadata"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    }
+  ]
+}

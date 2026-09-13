@@ -1,0 +1,25 @@
+# Spiral runtime (changes every iteration — must not block Phase I)
+.spiral/
+spiral_events.jsonl
+progress.txt
+prd.json.bak
+prd.json.lock
+
+# Generated outputs — rebuild from content/ via generate_docx.py
+output/*.docx
+
+# Build logs
+logs/
+
+# Google Drive sync state
+scripts/.gdrive-state.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,4270 @@
+
+
+===== [PAGE 1] =====
+ 
+ 
+ 
+ 
+ 
+ 
+STANDARD KEMAHIRAN PEKERJAAN KEBANGSAAN 
+(NATIONAL OCCUPATIONAL SKILLS STANDARD) 
+ 
+ 
+ 
+ 
+ 
+G471-001-3:2018 
+RETAIL OUTLET OPERATIONS 
+(OPERASI OUTLET PERUNCITAN) 
+LEVEL 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+JPK 
+ 
+Jabatan Pembangunan Kemahiran 
+Kementerian Sumber Manusia, Malaysia 
+ 
+
+===== [PAGE 2] =====
+ 
+ 
+ 
+Copyright © DSD 2017 
+ 
+ 
+ 
+ 
+Department of Skills Development (DSD) 
+Federal Government Administrative Centre 
+62530 PUTRAJAYA, MALAYSIA 
+ 
+ 
+ 
+ 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD 
+   
+ 
+ 
+RETAIL OUTLET OPERATIONS 
+LEVEL 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+All rights reserved. 
+ No part of this publication may be produced, stored in data base, retrieval system, or in any 
+form by any means, electronic, mechanical, photocopying, recording or otherwise without prior 
+written permission from Department of Skills Development (DSD). 
+ 
+ 
+
+===== [PAGE 3] =====
+ 
+ 
+TABLE OF CONTENTS 
+Abbreviation....................................................................................................................................i 
+Glossary...........................................................................................................................................ii 
+Acknowledgement .........................................................................................................................iii 
+STANDARD PRACTICE ............................................................................................................ 1 
+1. Introduction ........................................................................................................................... 2 
+1.1. Occupation Overview .............................................................................................................. 3 
+1.2. Rational of NOSS Development .............................................................................................. 3 
+1.3. Rational of Occupational Structure and Occupational Area Structure .................................... 3 
+2. Occupational Structure (OS) ................................................................................................. 3 
+3. Occupational Area Structure (OAS) ..................................................................................... 4 
+4. Definition of Competency Levels ......................................................................................... 4 
+5. Award of Certificate ............................................................................................................. 5 
+6. Occupational Competencies.................................................................................................. 5 
+7. Work Conditions ................................................................................................................... 5 
+8. Employment Prospects.......................................................................................................... 5 
+9. Up Skilling Opportunities ..................................................................................................... 6 
+10. Organisation Reference for Sources of Additional Information ........................................... 6 
+11. Standard Technical Evaluation Committee .......................................................................... 9 
+12. Standard Development Committee ..................................................................................... 10 
+STANDARD CONTENT ........................................................................................................... 11 
+13. Competency Profile Chart (CPC) ..................................................................................... 122 
+14. Competency Profile (CP) .................................................................................................. 133 
+CURRICULUM OF COMPETENCY UNIT...........................................................................27  
+15. Curriculum of Competency Unit.........................................................................................28 
+15.1. Back End Operations.................................................................................................28 
+15.2. Sales Floor Operations……………………………………………………………...36 
+15.3. Front End Services.....................................................................................................41 
+15.4. Retail Outlet Supervision...........................................................................................48 
+15.5. Retail Outlet Security, Safety and Hygiene Practice.................................................53 
+16.      Delivery Mode....................................................................................................................58 
+17. Tools, Equipment and Materials (TEM)...........................................................................59 
+18. Training Hour Summary....................................................................................................61 
+
+===== [PAGE 4] =====
+i 
+ 
+Abbreviation 
+ 
+1. CoCU 
+2. CP 
+Curriculum of Competency Unit 
+Competency Profile 
+3. CPC Competency Profile Chart 
+4. CU Competency Unit 
+5. DKM Diploma Kemahiran Malaysia 
+6. DLKM Diploma Lanjutan Kemahiran Malaysia 
+7. DSD Department of Skills Development 
+8. D/O 
+9. FEFO 
+10. FIFO 
+Delivery Order 
+First Expire Fire Out 
+First In First Out 
+11. GST Government Service Tax 
+12. GHP Good Hygiene Practice 
+13. GRN 
+14. ID 
+15. JTPS 
+Good Return Note 
+Identity Document 
+Jawatankuasa Teknikal Penilaian Standard 
+16. KPDNKK 
+17. NOSS 
+Kementerian Perdagangan Dalam Negeri, Koperasi dan Kepenggunaan 
+National Occupational Skills Standard 
+18. OAS Occupational Area Structure 
+19. OS Occupational Structure 
+20. OSHA Occupational Safety and Health Act 
+21. PBL 
+22. PC 
+Problem Based Learning 
+Performance Criteria 
+23. POS 
+24. P/O 
+25. SBT 
+26. SKM 
+Point of Sales 
+Purchase Order 
+Scenario Based Training 
+Sijil Kemahiran Malaysia 
+
+===== [PAGE 5] =====
+ii 
+ 
+27. SKU 
+28. STC 
+Stock Keeping Unit 
+Standard Technical Committee 
+29. STEC Standard Technical Evaluation Committee 
+30. SOP Standard Operation Procedure 
+31. TEM Tools, Equipment and Materials 
+
+===== [PAGE 6] =====
+iii 
+ 
+Glossary 
+ 
+1. Back End Business activities that take place behind the scenes and serve more of a suppo rtive 
+function such as information technology, human resources and inventory 
+management. 
+2. Sales Floor The part of a business devoted to retail activities, such as showroom or selling area 
+of a shop or department store, usually manned by sales staff and having free public 
+access with goods on display. 
+3. Front End The designated area of a retail store for customer checkout and where merchandise 
+is displayed. It may include a service center, counting room for monies, MIS office 
+and Store Manager’s Office.  
+4. Stock Take The physical verification of the qualities and condition of items held in an 
+inventory or warehouse. This may be done to provide an audit of existing stock. It 
+is also the source of stock discrepancy information. 
+5. Stock Count 
+ 
+An act of checking th e number of goods that is  available for sale in a shop or 
+business. 
+6. Planogram A diagram that shows how and where specific retail products should be placed on 
+retail shelves or displays in order to increase customer purchases. 
+7. Halal Things or actions perm itted by Islamic law without punishment imposed on the 
+doer. 
+8. Corrective 
+action 
+Improvements to an organization’s process taken to eliminate causes of non – 
+conformities or other undesirable situation. 
+9. Stock Keeping 
+Unit 
+A product and service identification code for a store or product, often portrayed as a 
+machine – readable bar code that helps track the item for inventory. In the field of 
+inventory management it is a distinct type of item for sale and all attribute with the 
+item type that distinguish it from other items types.  
+10. Point of Sales  The cashier counters in the retail store or a location where such transaction can 
+occur. 
+11. Point of Sales 
+system 
+Electronic cash register system, touch – screen display, barcode scanner, receipt 
+printers, scales and pole displays. Also include a debit / credit card reader. 
+12. Cash Float Cash put into the cash register at the beginning of the day or week to allow change 
+to be given to customers 
+13. Price integrity A matching of the price of a product and the price charged on the electronic scanner 
+at the checkout. 
+14. Retail store A place of business owned and operated by a retailer or a manufacturer or by 
+someone other than a retailer in which merchandise is sold primarily to consumers. 
+
+===== [PAGE 7] =====
+iv 
+ 
+Acknowledgement 
+ 
+The Director General of DSD would like to extend his gratitude to the organisations and 
+individuals who have been involved in developing this Standard including: 
+ 
+i. National Skills Development Council (NSDC) 
+ii. Standard Technical Committee (STC) 
+iii. Standard Technical Evaluation Committee (STEC)  
+iv. Standard Development Committee (SDC) 
+v. Facilitator 
+vi. Secretariat 
+vii. Related Organisation 
+
+===== [PAGE 8] =====
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STANDARD PRACTICE 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+RETAIL OUTLET OPERATIONS 
+ 
+LEVEL 3 
+
+===== [PAGE 9] =====
+2 
+ 
+ 
+1. Introduction 
+ 
+1.1. Occupation Overview 
+ 
+The retail outlet whether it is a convenience store, grocery store, mart, supermarket or 
+departmental store is the place where the customer makes decision on the purchase of 
+the products offered by the retailer. Managing store operations for a small retail 
+business of any size or complexity is a  challenging task. It requires integration among 
+various functions within the store. When all the functions are performed in an 
+integration manner, the store operations run smoothly.  Managing the operations of a 
+retail outlet starts by determining how the tasks pertaining  to the premises are to be 
+performed. Firstly, the duration of the hours for business need  to be determined. It is 
+also necessary to specify with whom the responsibility of opening  and closing the store 
+lies with. Security of the outlet premises and of the merc handise in the store is equally 
+important. The size of the retail store and the level of operations determine the level of 
+security required. Security of merchandise is needed to ensure that pilferag e of 
+merchandise or shrinkage as it is commonly termed is minimal.  
+ 
+Retailers are part of an integrated system called the supply chain. Retailing can be done 
+in either fixed locations like stores or markets, door-to-door or through delivery service. 
+Retailing in Malaysia demonstrated stronger value growth in last few years  despite the 
+slowly recovering economic conditions. Although consume rs remained cautious about 
+overspending on non -grocery products, sales continued to be stimulated by various 
+marketing efforts, such as price reductions and major promotional activities. Consumers 
+who opted for non -grocery products were more price -sensitive, since these products 
+were considered non -necessities compared with groceries, which are needed on a daily 
+basis. In general, r etailing in Malaysia is projected to increase, with a po sitive outlook 
+for the next few  years, with more retailers planning to expand their numbers of outlets, 
+which will further assist in boosting sales. Despite a slow economic condition being 
+forecasted in Malaysia, consumers will continue to be encouraged to purchase by 
+various promotional activities by retailers.  
+ 
+Retail outlet operation personnel is responsible for the various works at the retail store 
+namely back end, sales floor and front -end sections to ensure stocks are readily 
+available, products being displayed for sales activities and ensuring that the store 
+provides proper customer service. Staff and sales team regular supervision is to ensure 
+the smooth functioning of the day -to-day operations of the store. On the other  hand, he 
+also has to ensure that the policies and the guidelines as laid down by the  management 
+are adhered to by the store and all employees within the store. The retail outlet operation 
+personnel is responsible for all the activities that are conducted within the  environs of 
+the store and would include the opening of the store on time, scheduling of s taff, 
+
+===== [PAGE 10] =====
+3 
+ 
+cleanliness, ensuring adequate stock on the floor, cashiering, closing of the store and 
+also dealing with the customer grievances and complaints.  
+ 
+1.2. Rationale of NOSS Development 
+ 
+This is a new NOSS for retail outlet operations since the previous NOSS  Retail 
+Operations (Department) is found to be specifically for hypermarket and irrelevant to 
+most retail outlets such as convenience store, departmental store, grocery store and mart. 
+ 
+The previous NOSS is designed for big scale retail operations which comprise of various 
+sections and departments. Therefore, this new NOSS is more focusing on small scale 
+retail operations that normally practice by these retails outlets.  
+ 
+1.3. Rationale of Occupational Structure and Occupational Area Structure 
+ 
+Previously, the discussion among the industry experts, Level 1 is regarded as general 
+assistant, by considering the work condition and situation, personnel of Level 1 scope of 
+work is merely assisting personnel of Level 2 in performing the core work processes.  
+ 
+As for Level 3, the personnel of this level shares common competencies with Level 2 but 
+the scope of work is more of supervisory functions. In reference to industry practice, 
+operation of the retail is done in a group consisting of Level 1, 2 and 3. In which, each 
+level complementing the work of others. Therefore, panel of experts came with a 
+consensus that in skills training it is best to shrink the levels and merge the areas into 
+single tier entry. 
+ 
+2. Occupational Structure (OS) 
+ 
+Section (G)WHOLESALE AND RETAIL TRADE, REPAIR OF MOTOR 
+VEHICLES AND MOTORCYCLE 
+Group (47) RETAIL SALE IN NON – SPECIALIZED STORES 
+Area RETAIL STORE OPERATIONS 
+Level 5  Retail Store Manager 
+Level 4  Head of Department 
+Level 3  Retail Store Supervisor 
+Level 2  Retail Assistant 
+Level 1  General Assistant  
+ 
+Figure 1: Occupational Structure 
+ 
+
+===== [PAGE 11] =====
+4 
+ 
+3. Occupational Area Structure (OAS) 
+ 
+Section (G) WHOLESALE AND RETAIL TRADE, REPAIR OF MOTOR 
+VEHICLES AND MOTORCYCLE 
+Group (47) RETAIL SALE IN NON – SPECIALIZED STORES 
+Area  RETAIL STORE OPERATIONS 
+Level 5  Retail Outlet Management 
+Level 4  Retail Outlet Administration 
+Level 3  Retail Outlet Operations  
+Level 2  Embedded to L3 Level 1  
+ 
+Figure 2: Occupational Area Structure 
+ 
+ 
+4. Definition of Competency Levels 
+ 
+The NOSS is developed for various occ upational areas. Below is a guideline of each NOSS 
+Level as defined by the Department of Skills Development, Ministry of Human Resources, 
+Malaysia. 
+ 
+Level 1:
+  
+Competent in performing a range of varied work activities, most of which 
+are routine and predictable. 
+  
+Level 2: Competent in performing a significant range of varied work activities, 
+performed in a variety of contexts. Some of the activities are non -routine 
+and required individual responsibility and autonomy. 
+  
+Level 3: Competent in performing a broad range of varied work activities, 
+performed in a variety of contexts, most of which are complex and non -
+routine. There is considerable responsibility and autonomy and control or 
+guidance of others is often required. 
+  
+Level 4: Competent in performin g a broad range of complex technical or 
+professional work activities performed in a wide variety of contexts and 
+with a substantial degree of personal responsibility and autonomy. 
+Responsibility for the work of others and allocation of resources is often 
+present. 
+  
+Level 5:   Competent in applying a significant range of fundamental principles and 
+complex techniques across a wide and often unpredictable variety of 
+contexts. Very substantial personal autonomy and often significant 
+responsibility for the wor k of others and for the allocation of substantial 
+resources features strongly, as do personal accountabilities for analysis, 
+diagnosis, planning, execution and evaluation. 
+
+===== [PAGE 12] =====
+5 
+ 
+5. Award of Certificate 
+ 
+The Director General may award, to any person upon conforming to the Standards the 
+following skills qualifications  as stipulated under the National Skills Development Act  
+2006(Act 652): 
+ 
+ Malaysian Skills Certificate 
+ Malaysian Skills Diploma 
+ Malaysian Skills Advanced Diploma 
+ Statements of Achievement 
+ 
+ 
+6. Occupational Competencies 
+ 
+The Retail Outlet Operations Level 3  personnel is competent in performing t he following 
+core competencies: 
+ 
+a. Back End Operations 
+b. Sales Floor Operations 
+c. Front End Services 
+d. Retail Outlet Supervision 
+e. Retail Outlet Security, Safety and Hygiene Practice 
+ 
+ 
+7. Work Conditions 
+ 
+Due to the huge variety and diversity of retail jobs there is no one set of working condition. 
+Depending upon your role in retail, the job may be very physical - such as moving stock in a 
+storage area or a more desk-based role requiring critical thinking and number crunching. 
+ 
+Retail operators are often required to work flexible hours, including late nights and 
+weekends. Most retail operator spend long hours standing up, and the job may involve lifting 
+and carrying. However, the shop  floor is considered a vibrant and exciting place to work 
+with the opportunity to interact with customers on a daily basis. 
+ 
+ 
+8. Employment Prospects 
+ 
+The retail industry is a key sector of  Malaysia's vibrant economy. There is an increasing 
+focus on creating clear skills and career advancement routes to raise the professionalism of 
+jobs, improve customer service and retail productivity to make the retail industry an 
+attractive long-term employment option.  
+ 
+This course will train students exclusively in the pr ocesses, technologies and trends of retail 
+operations. The training aims to help both large as well as small retailers in Malaysia to level 
+up and bring world class service standards in the specialised field of retailing. Students will 
+
+===== [PAGE 13] =====
+6 
+ 
+be exposed to a powe rful set of concepts that will serve them, not just in a retailing career 
+pathway, but in any business field they choose that requires serving customers and 
+successfully meeting corporate goals. 
+ 
+ 
+9. Up Skilling Opportunities 
+ 
+Retailing offers exciting, chall enging and rewarding career opportunities.  The field of retail 
+is large and opportunities for employment are available in many business organisations. 
+With the multi-disciplinary skills and relevant shop -floor practice acquired from the course, 
+it will be suitable for a wide range of retailing careers. In retail firms, career opportunities 
+occur in the merchandising/buying, store management and corporate staff functions. It could 
+also be Entrepreneurs in managing own businesses or be employed as Retail Supe rvisors, 
+Retail Business Development Executives, Merchandisers, Visual Merchandisers, Marketing 
+Executives and Retail Operations Executives. Corporate positions include accounting, 
+finance, promotions and advertising, information and distribution systems, and human 
+resource management. 
+ 
+ 
+10. Organisation Reference for Sources of Additional Information 
+ 
+The following organisations can be referred as sources of additional information which can 
+assist in defining the document's contents.  
+ 
+National 
+ 
+a. Kementerian Perdagangan Dalam Negeri, Koperasi Dan Kepenggunaan 
+No.13, Persiaran Perdana,  
+Presint 2, 62623 Putrajaya 
+Tel  : 1800-886-800 
+Fax  : 603-8882 5762 
+Website : webadmin@kpdnkk.gov.my 
+ 
+b. Malaysia Retailers Association (MRA) 
+A-11-11 & A-11-12, Level 11, Tower A 
+Menara UOA Bangsar 
+No. 5 Jalan Bangsar Utama 1 
+59000 Kuala Lumpur  
+Tel  : 603-22848322 
+Fax  : 603-22018322 
+Website : http://www.mra.com.my 
+
+===== [PAGE 14] =====
+7 
+ 
+c. Malaysian Retailer-Chains Association (MRCA) 
+A-05-02,3,3A Block A, Level 5,  
+Sky Park One City, Jalan USJ 25/1,  
+47650 Subang Jaya, Selangor  
+Tel  : 03-5882 4333 
+Fax  : 1700-810-950 
+Website : www.mrca.org.my 
+ 
+d. Asean Retail-Chains & Franchise Federation 
+ARFF Malaysia Chapter Secretariat 
+Block C-10-7 & 8, Menara Uncang Emas,  
+85, Jalan Loke Yew 
+55200 Kuala Lumpur 
+Website : http://www.arff.org.my/ 
+ 
+e. AcNielsen (M) Sdn Bhd 
+20th Floor Menara MPPJ Jalan Tengah 
+46200 Petaling Jaya, Selangor 
+Tel  : 03-7956 2311 
+ 
+INTERNATIONAL 
+ 
+a. Federation Of Asia-Pacific Retailers Association (FAPRA) 
+NO., 25, Yuetan North Street, Xicheng District, Beijing, China 
+Tel  : (+86 10) 6839 1370 
+Fax  : (+86 10) 6839 1373 
+Website  : http://www.fapra.com/ 
+ 
+b. Indonesian Retail Merchants Association (APRINDO) 
+E-Trade Bldg, Ground Floor, Jalan Wachid Hasyim  
+No. 55, Jakarta 10350 Indonesia 
+Tel  : (+62 21) 315 4241 
+Fax  : (+62 21) 392 8545 
+Website  : www.aprindoor.id 
+ 
+c. Singapore Retailers Association (SRA) 
+371 Beach Road, #02-04/-5 Keypoint, Singapore 199597 
+Tel  : (+65) 6295 2622 
+Fax  : (+65) 6295 2722 
+Website : www.retail.org.sg 
+
+===== [PAGE 15] =====
+8 
+ 
+d. Australian Retailers Association (ARA) 
+Level 10, 136 Exhibition Street Melbourn Vic 3000 Australia 
+Tel  : (+61) 1300 368 041 
+Fax  : (+61 3) 8660 3399 
+Website : www.retail.org.au 
+ 
+e. Association Of Vietnam Retailers (AVR) 
+25, Ngo Ouyen, Hoan Kiem, Ha Noi, Vietnam 
+Tel  : (+84 4) 2220 54 52 
+Fax  : (+84 4) 2220 54 11 
+ 
+f. Federation Of Indian Chambers Of Commerce And Industry (FCCI) 
+FCCI Head Office Federation House 
+Tansen Marg, New Delgi 110001 India 
+Tel  : (+91 11) 2331 5442 
+Fax  : (+91 11) 2331 9369 
+Website : www.fcci.com 
+ 
+
+===== [PAGE 16] =====
+9 
+ 
+11. Standard Technical Evaluation Committee 
+ 
+NO NAME POSITION & ORGANISATION 
+1. Halim bin Hamim Assistant General Manager 
+Mydin Retail Academy 
+2. Mejar Abdul Aziz Bin Munaji Group Manager,  
+Human Resource Department 
+UO Superstore 
+3. Steven Lee Teng Sun Senior Manager 
+Business Operation Control 
+KK Supermart & Superstore Sdn Bhd 
+4 Kennady Soosay Regional Operations Manager 
+Lulu Group Retail Sdn Bhd 
+ 
+
+===== [PAGE 17] =====
+10 
+ 
+12. Standard Development Committee 
+ 
+RETAIL OUTLET OPERATIONS 
+LEVEL 3 
+ 
+ 
+NO NAME POSITION & ORGANISATION 
+1. Riswardi Abdul Rajak Director 
+Mentor Skills Sdn Bhd 
+2. Hilmey bin Md Aris Deputy General Manager 
+Iskandar Malaysia Cooperatives Bhd 
+3. Mohd Hanafi bin Jamiat Head of ILB Project 
+Halal Industry Development Corporation Sdn Bhd 
+4. Mohd Rodi bin Apri Assistant Training Manager 
+Mydin Mohamed Holdings Bhd 
+5. Nur Azhar bin Laba Trainer Executive 
+KK Supermart Superstore Sdn Bhd 
+6. Shaiful Anuar bin Abdullah Manager, Operational Training  
+Segi Value Holdings Sdn Bhd 
+7. Muhammad Hairin bin Ahmad Supian Retail Strategy Consultant 
+Strategic HRM PLT 
+8. Shahrine bin Mohammed Isa Branch Manager 
+Mydin Mohamed Holdings Bhd 
+9. Zuwati binti Mustafa @ Tarmizi Assistant Training Manager 
+Pakson Corporation Sdn Bhd 
+10. Wan Masdurianita binti Wan 
+Muhamad Nawi 
+Trainer 
+7 Eleven Malaysia Sdn Bhd 
+11. Norsafarina binti Muhamad Nazir Senior Executive/Trainer 
+7 Eleven Malaysia Sdn Bhd 
+ 
+FACILITATOR 
+ 
+1. Saiful Anwar bin Abu Hasan Facilitator 
+FACTS Consultance 
+ 
+
+===== [PAGE 18] =====
+11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STANDARD CONTENT 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+RETAIL OUTLET OPERATIONS 
+ 
+LEVEL 3 
+ 
+ 
+
+===== [PAGE 19] =====
+12 
+ 
+13. Competency Profile Chart (CPC) 
+ 
+SECTION (G) WHOLESALE AND RETAIL TRADE, REPAIR OF MOTOR VEHICLES AND MOTORCYCLE 
+GROUP (47) RETAIL SALE IN NON – SPECIALIZED STORES 
+AREA RETAIL STORE OPERATIONS 
+NOSS TITLE RETAIL OUTLET OPERATIONS  
+NOSS LEVEL THREE (3) NOSS CODE G471-001-3:2018 
+ 
+ COMPETENCY UNIT 
+ 
+ 
+ 
+CORE 
+ 
+ 
+ 
+ 
+BACK END 
+OPERATIONS  
+SALES FLOOR 
+OPERATIONS  
+FRONT END 
+SERVICES  
+RETAIL OUTLET 
+SUPERVISION 
+G471-001-3:2018-C01 G471-001-3:2018-C02  G471-001-3:2018-C03  G471-001-3:2018-C04 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ RETAIL OUTLET 
+SECURITY, 
+SAFETY AND 
+HYGIENE 
+PRACTICE 
+ 
+ G471-001-3:2018-C05 
+
+===== [PAGE 20] =====
+13 
+ 
+         
+14. Competency Profile (CP) 
+ 
+SECTION (G) WHOLESALE AND RETAIL TRADE, REPAIR OF MOTOR VEHICLES AND MOTORCYCLE 
+GROUP (47) RETAIL SALE IN NON – SPECIALIZED STORES 
+AREA RETAIL STORE OPERATIONS 
+NOSS TITLE RETAIL OUTLET OPERATIONS 
+NOSS LEVEL THREE (3) NOSS CODE G471-001-3:2018 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+1. Back End 
+Operations 
+ 
+G471-001-
+3:2018-C01 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Back End Operations involve in 
+managing and controlling stock 
+and inventory . G oods and 
+materials that  a retail 
+outlet holds for the ultimate 
+purpose of resale needs to be 
+ordered and arranged properly  
+to refill the inventory  replenish 
+shelves and regularly monitored 
+to ensure that all goods are  kept 
+under favourable conditions for 
+retail operations. 
+ 
+A competent person in this CU 
+shall be able to  prepare retail 
+store back end documentation,  
+carry out back end stock take, 
+carry out stock ordering, carry 
+out stock receiving, carry out 
+stock arrang ement, carry out 
+inter store stock transfer, carry 
+out product return, carry out 
+1. Prepare back end 
+documentation                          
+1.1 Stock category , quantity and status 
+determined based on stock movement record, 
+price change, stock card, and order proposal 
+list 
+1.2 Return and non-returnable stocks determined 
+and listed out 
+1.3 Stock documentation such as ordering, 
+receiving, disposal, returns and transfer 
+documents prepared according to retail store 
+standards operation procedures (SOP) 
+2. Carry out back end 
+stock take 
+ 
+2.1 Relevant documents interpreted and location 
+code determined according to scope of work 
+2.2 Stock Keeping Unit ( SKU) to be counted 
+segregated and arranged according to 
+product category 
+2.3 Physical SKU quantity confirmed and 
+recorded according to product category 
+2.4 Amended stock take report checked 
+according to product category 
+2.5 Variance finding confirmed by recounting 
+stock according to product category 
+2.6 Stock take finding conveyed to superior and 
+
+===== [PAGE 21] =====
+14 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+product disposal  
+ 
+The outcome of this 
+competency is to  ensure s tock 
+received is arranged according 
+to FIFO and FEFO 
+requirements, stock par level 
+maintained and properly 
+stacked according to latest 
+regulatory requirements such 
+Food and Hygiene guideline, 
+OSHA, Drug and  Poison Act. 
+Efficiency in ordering stock will 
+reduce stock shortage, reduce 
+customer complaint and 
+increase regular customer & 
+sales 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+approval on finding obtained 
+3. Carry out stock 
+ordering 
+ 
+ 
+3.1 Stock ordering planned base on stock level 
+and delivery schedule 
+3.2 Sales trend on promotional, seasonal and 
+festive items determined based on sales 
+history 
+3.3 SKU availability checked based on actual 
+physical balance and stock replenishment 
+report 
+3.4 Sales performance checked based on weekly 
+and monthly sales reports 
+3.5 Stock ordering carried o ut based on sales 
+trend, sales performance and availability 
+4. Carry out stock 
+receiving  
+ 
+ 
+ 
+4.1 Stock type and quantity checked according 
+to Good Receive Note (GRN) / Good 
+Receive Document accord ing to numbers / 
+quantity of accepted SKU  
+4.2 Halal products checked according to Halal 
+standards requirements 
+4.3 Stock quality checked base on acceptance 
+quality levels guidelines. 
+4.4 Corrective action of stock discrepancies and 
+variances recommended to supplier and 
+approved by superior 
+5. Carry out stock 
+arrangement 
+ 
+ 
+5.1 Back e nd stock arranged according to First 
+In First Out ( FIFO) and First Expire First 
+Out (FEFO) requirements 
+5.2 Stock segregated according to product 
+
+===== [PAGE 22] =====
+15 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ category and type 
+5.3 Halal product segregated from non – halal 
+product and placed at the designated area 
+5.4 Storage area condition checked according to 
+retail store SOP   
+5.5 Back end s tock arranged according to latest 
+statutory regulation requirements such as 
+Food and Hygiene guideline, Occupational 
+Safety and Health Act ( OSHA), Drug and 
+Poison Act  
+6. Carry out stock 
+transfer 
+ 
+6.1 Category and type of stock for transferring 
+determined base on stock status such as low 
+stock, out of stock or overstock 
+6.2 Stock transfer documentations prepared 
+according to stock status  
+6.3 Stock transfer documentations submitted to 
+superior for approval 
+6.4 Stock transfer executed and monitored 
+according to respective store requisition 
+6.5 Inter company stock transfer carried out 
+when stock is being transferred within the 
+company’s branches or outlets. 
+6.6 Intra company stock transfer carried out  
+when stock is being tr ansferred to other 
+company    
+7. Carry out product 
+return 
+ 
+7.1 Quantity and quality of product return 
+checked and verified according to 
+specification. 
+7.2 Category, type and quantity of product return 
+determined and documented.  
+7.3 Product return documentations prepa red and 
+
+===== [PAGE 23] =====
+16 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+ 
+ 
+submitted to superior for approval 
+7.4 Product return status conveyed to supplier 
+for corrective actions 
+7.5 Suppliers pick up schedule for product return 
+arranged and confirmed 
+7.6 Product returns to supplier monitored during 
+collection time according to retail store SOP. 
+8. Carry out product 
+disposal  
+ 
+ 
+8.1 Products for disposal  sorted and segregated 
+according to retail store SOP 
+8.2 Non-returnable SKU determined for 
+clearance such as markdown or discount/ 
+purchase with purchase 
+8.3 Disposal products details recorded acc ording 
+to non – conformance criteria such as 
+damage, dented and expired products 
+8.4 Retail store non – trade item disposal 
+monitored according to retail store SOP 
+8.5 Disposal product records submitted to 
+superior for approval 
+8.6 Disposal activities carried out  and monitored 
+according to retail store SOP 
+9. Produce back end 
+reports 
+9.1 Back end documents such as Delivery Order 
+(D/O), Purchase Order (P/O) and Goods 
+Return Note (GRN) determined according to 
+retail store requirements  
+9.2 Back end documents verified according t o 
+retail store requirements 
+9.3 Verified back end documents submitted to 
+Superior 
+9.4 Back end document s compiled according to 
+retail store SOP 
+
+===== [PAGE 24] =====
+17 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+2. Sales Floor 
+Operations 
+ 
+ G471-001-
+3:2018-C02 
+Sales Floor Operations  involves 
+in product m erchandising, 
+selling and replenishment 
+activities. Merchandising refers 
+to the variety of products 
+available for sale and the 
+display of those products in 
+such a way that it stimulates 
+interest and entices customers to 
+make a purchase 
+ 
+A competent person in this CU 
+shall be able to  prepare product 
+merchandising, carry out 
+product merchandising, update 
+selling floor stock  status, carry 
+out selling floor stock take and 
+produce sales floor operations 
+reports 
+ 
+The outcome of this 
+competency is to  ensure that 
+products being displayed for 
+sales activities according to 
+according to promotion plan, 
+high pilferage products are 
+arranged at designated fixtures 
+according to retail store SOP  
+and price label is displayed 
+according to KPDNKK  
+ 
+1. Prepare product 
+merchandising   
+ 
+ 
+1.1 Retail store planogram obtained to determine 
+product category 
+1.2 Retail store promotion plan obtained  to 
+determine festive season and promotion 
+activities requirements 
+1.3 Retail store planogram determined according 
+to retail store promotion plan  
+1.4 Retail store product category deter mined 
+according to retail store promotion plan 
+1.5 Retail store display fixtures determined  
+according to product category 
+1.6 Product assortment determined according to 
+floor space availability 
+2. Carry out product 
+merchandising 
+ 
+ 
+2.1 Product display fixtures cleanlin ess checked 
+according to retail store SOP 
+2.2 Product displayed according to promotion 
+plan, product launching and events 
+requirements 
+2.3 High pilferage products arranged at 
+designated fixtures according to retail store 
+SOP 
+2.4 Price label displayed according to latest 
+Ministry of Domestic Trade, Co -operatives 
+and Consumerism ( KPDNKK) requirements 
+and retail store SOP 
+2.5 Price change updated according to  latest 
+Ministry of Domestic Trade, Co -operatives 
+and Consumerism (KPDNKK) requirements, 
+retail store promotional plan and retail store 
+SOP 
+2.6 Stock replenishment activities carried out 
+
+===== [PAGE 25] =====
+18 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+. 
+ 
+ 
+when stock reached minimum level 
+3. Update selling floor 
+stock status  
+ 
+ 
+3.1 Stock count area determined according to 
+retail store plan layout 
+3.2 Stock counting documents such as stock 
+coun sheet prepared according to stock count 
+area 
+3.3 Selling floor stock report generated to 
+determine stock status 
+3.4 SKU to be counted segregated and arranged 
+according to product category and type such 
+as food and non – food items 
+3.5 Physical count carried out and stock variance 
+determined 
+3.6 Physical SKU quantity confirmed and 
+recorded according to product category 
+3.7 Stock summary variance report produced and 
+submitted to superior for verification 
+4. Carry out selling floor 
+stock take 
+ 
+4.1 Selling floor stock arranged according to 
+product category 
+4.2 Physical SKU quantity counted and recorded 
+according to product category 
+4.3 Stock take finding compared with stock 
+record according to product category 
+4.4 Amended stock take report checked 
+according to product category 
+4.5 Variance finding confirmed by  recounting 
+stock according to product category 
+4.6 Stock take finding conveyed to superior and 
+approved  
+5. Produce sales floor 
+operations reports 
+5.1 Retail floor sales floor operations documents 
+such as price change, promotion, stock card 
+
+===== [PAGE 26] =====
+19 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+ and end of day report s verified according to 
+retail store daily requirements 
+5.2 Sales floor operations reports generated 
+according to company’s management 
+requirements 
+5.3 Sales floor operations reports submitted to 
+superior and reviewed 
+5.4 Sales floor operations reports systematically 
+compiled 
+3. Front End 
+Services  
+ 
+    G471-001- 
+    3:2018-C03 
+Front End Services involve in 
+providing customer service such 
+as item exchange and refund, 
+attending to customer enquiries, 
+complaints or feedback, 
+availability of customer 
+shopping equipment and 
+receiving customer payment.  
+ 
+A competent person in this CU 
+shall be able to  carry out retail 
+store sales floor inspection, 
+carry out customer information 
+services, carry out front end 
+customer services, check retail 
+store shopping equipment, 
+handle customer item exchange 
+and refund, handle customer 
+enquiries, complaints and 
+feedback, carry out retail store 
+cashiering and produce front 
+end services reports 
+1. Carry out retail store 
+sales floor inspection 
+ 
+ 
+1.1 Sales floor inspection checklist prepared 
+according to retail store daily requirements 
+1.2 Sufficient retail store staff determined 
+according to retail store staff schedule 
+1.3 Selling floor p roduct display arrangement 
+checked according to retail store promotion 
+plan requirements 
+1.4 Selling floor cleanliness checked  according 
+to retail store SOP 
+1.5 Point of Sales (POS) system cash register 
+function checked according to system 
+instruction manual 
+1.6 Sales floor inspection checklist 
+systematically compiled  
+2. Carry out customer 
+information services 
+ 
+ 
+ 
+2.1 Product information and promotion materials 
+collected and prepared according to latest 
+retail store activities 
+2.2 Customer service form such as lost & found, 
+Good Service Tax ( GST) and return forms 
+provided to customer 
+2.3 Retail store promotion price verified 
+according to latest retai l store promotion 
+
+===== [PAGE 27] =====
+20 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+ 
+The outcome of this 
+competency is to ensure  price is 
+updated, customer enquiry, 
+complaint and feedbac k are 
+attended, cashiers are arranged, 
+shopping equipment are in good 
+condition and item exchange 
+and refund handled according to 
+retail store SOP  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+activities 
+2.4 Customer bulletin board updated according 
+to latest retail store activities 
+3. Carry out front end 
+customer services 
+ 
+ 
+ 
+3.1 Customer free gifts provided according to 
+latest retail store and suppliers promotion 
+activities  
+3.2 Customer utilities billing services such as 
+ASTRO, Touch and Go and mobile prepaid 
+provided according to merchant 
+requirements 
+3.3 Customer loyalty programs monitored 
+according to retail store SOP 
+3.4 Special needs customer such as handicapped, 
+senior citizen, disable  and pregnant women 
+assistance provided to meet their specific 
+requirements 
+4. Check retail store 
+shopping equipment  
+  
+4.1 Retail store shop ping equipment such as 
+basket, trolley list obtained to determine 
+availability status 
+4.2 Shopping equipment condition checked t o 
+ensure in good shape 
+4.3 Shopping equipment condition recorded in 
+retail store shopping equipment list 
+4.4 Shopping equipment arranged at specific 
+retail store area according to customer traffic 
+flow 
+4.5 Shopping equipment availability status 
+reported to superior  
+5. Handle customer item 
+exchange and refund 
+ 
+5.1 Customer proof of purchase obtained from 
+customer 
+5.2 Item condition checked according to causes 
+
+===== [PAGE 28] =====
+21 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+ 
+ 
+of defect  
+5.3 Item warranty determined according to item 
+validity period 
+5.4 Customer item exchange verified according 
+to retail store SOP 
+5.5 Customer refund verified according to retail 
+store SOP 
+5.6 Customer item exchange and refund  cases 
+reported to superior 
+6. Handle customers 
+enquiries, complaints 
+and feedback 
+ 
+ 
+6.1 Customer enquiry, complaint or feedback 
+determined according to nature of the case 
+6.2 Customer solution proposed based on type of 
+enquiry, complaint or feedback  and 
+according to retail store SOP 
+6.3 Customer enquiry, complaint or feedback 
+written down in retail store standard form 
+6.4 Customer enquiry, complaint or feedback 
+form submitted to superior for further action 
+7. Carry out retail store 
+cashiering  
+7.1 POS system cash register checked to ensure 
+the system is functioning 
+7.2 Cashier briefing conducted on related 
+matters such as promotion activities, process 
+and procedures, appearance  
+7.3 Cashier counter opened according to cashier 
+Identity Document (ID) 
+7.4 Cashier c ash float prepared to ensure 
+minimum amount of cash at each counter 
+maintained 
+7.5 Product scanned and cash received according 
+to total amount displayed on POS system 
+cash register 
+
+===== [PAGE 29] =====
+22 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+7.6 Cancellation of transaction checked and 
+verified according to retail store SOP 
+7.7 Cash collection handover carried out  during 
+off duty / end of shift and based on retail 
+store SOP 
+7.8 Cashier day end reports produced to 
+determine daily sales transaction , 
+discrepancies and reconciliation 
+7.9 Cash in hand, credit cards transaction and 
+vouchers are compared with daily sales 
+transaction report to determine shortages and 
+discrepancies  
+8. Produce front end 
+services reports 
+ 
+8.1 GST refund for tourist and wholesaler reports 
+prepared according to standard format 
+8.2 Customer Suggestion / feedback report  
+prepared according to standard format 
+8.3 Refund and return report  prepared according 
+to standard format 
+8.4 Lost and found reports prepared according to 
+standard format 
+8.5 Redemption and Voucher r eports prepared 
+according to standard format 
+8.6 Redundant card members cancellation 
+reports prepared according to standard 
+format 
+8.7 Customer services reports submitted to 
+superior 
+
+===== [PAGE 30] =====
+23 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+4. Retail Outlet 
+Supervision 
+ 
+G471-001-
+3:2018-C04 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Retail Outlet Supervision 
+involves in monitoring day -to-
+day operations of staffs to 
+ensure that all work activities 
+are done within  their duties and 
+responsibilities and scope of 
+work. 
+ 
+The person who is competence 
+in this work shall be able to 
+prepare staff w ork schedule, 
+conduct staff briefing  and 
+meeting, carry out staff 
+coaching and monitor staff 
+performance 
+ 
+The outcome of this 
+competency is to ensure retail 
+store staffs are briefed, coached 
+and monitored according to  
+staff duty and responsibility and 
+retail store rules and regulation. 
+ 
+ 
+ 
+ 
+1. Prepare staff work 
+schedule 
+ 
+ 
+1.1 Sufficient number of retail store staff 
+determined according to retail store 
+promotion plan, festive seasons and public 
+holidays 
+1.2 Staff shift and working hours determined 
+according to retail s tore promotion plan, 
+festive seasons and public holidays 
+1.3 Staff job tasks and work instruction assigned 
+to meet retail store sales target 
+1.4 Staff work schedule produced to meet retail 
+store promotion plan, festive seasons and 
+public holidays 
+1.5 Staff work schedu le submitted to superior 
+for approval 
+2. Conduct staff briefing 
+and meeting 
+ 
+ 
+ 
+ 
+2.1 Latest retail store activities information 
+obtained from superior 
+2.2 Staff briefing contents prepared according to 
+latest retail store procedures, promotion and 
+fraud attempt activities 
+2.3 Staff meeting organised to discuss on sales 
+forecast  
+2.4 Staff briefing conducted to inform on latest 
+retail store procedures, promotion and fraud 
+attempt activities 
+2.5 Latest procedures, promotion and fraud 
+attempt activities updated to retail store staff 
+3. Carry out staff 
+coaching 
+3.1 Staff skill and knowledge evaluated  
+according to staff job requirements 
+3.2 Staff coaching carried out to enhance 
+product knowledge and skill in retailing 
+3.3 Staff performance evaluated according to 
+
+===== [PAGE 31] =====
+24 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+ 
+ 
+ 
+staff skill and knowledge 
+3.4 Training program proposed according to 
+staff performance  
+3.5 Staff performance reports prepared and 
+submitted to superior for review 
+4. Monitor staff 
+performance 
+ 
+ 
+ 
+4.1 Staff attendance checked according to retail 
+store rules and regulation 
+4.2 Staff discipline checked accor ding to retail 
+store rules and regulation 
+4.3 Staff knowledge and skill measured 
+according to retail store staff duties and 
+responsibilities  
+4.4 Staff appearance checked according to retail 
+store staff rules and regulation 
+4.5 Staff performance reviewed and submitted to 
+superior for verification and as reference for 
+staff development 
+5. Retail Outlet 
+Security, 
+Safety and 
+Hygiene 
+Practice 
+ 
+G471-001-
+3:2018-C05 
+ 
+ 
+ 
+ 
+ 
+ 
+Retail Outlet Security, Safety 
+and Hygiene Practice  involves 
+in monitoring equipment 
+maintenance and utilit ies 
+services, hygiene conditions, 
+security and safety practice  of a 
+retail store 
+ 
+The person who is competence 
+in this work shall be able to  
+check retail store equipment 
+maintenance and utilit ies 
+services, check retail store 
+hygiene practice, monitor retail 
+1. Check retail store 
+equipment 
+maintenance and 
+utilities services  
+ 
+ 
+ 
+1.1 Retail store inspection checklist prepared to 
+check equipment condition and utilitie s 
+supply 
+1.2 Equipment condition checked as per retail 
+store inspection checklist 
+1.3 Utilities supply checked as per retail store 
+inspection checklist 
+1.4 Equipment malfunction reported to superior 
+1.5 Utilities supply insufficiency  reported to 
+superior 
+2. Check retail store 
+hygiene practice 
+ 
+ 
+2.1 Retail store hygiene practice checklist 
+prepared for verification purpose  
+2.2 Work area hygiene practiced verified 
+according to Good Hygienic Practice (GHP) 
+
+===== [PAGE 32] =====
+25 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+store security and safety 
+practice, and monitor retail 
+store house keeping.  
+ 
+The outcome of this 
+competency is to ensure  retail 
+store equipment maintenance, 
+utilities, hygiene, security and 
+safety practice are monitored 
+according t o Good Hygiene 
+Practice, Good Housekeeping 
+Practice and Standard Operation 
+Procedure (SOP) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ requirements and retail store SOP  
+2.3 Staff hygiene practice verified according to 
+GHP requirements and retail store SOP 
+2.4 Updated retail store hygiene practice 
+checklist submitted to superior 
+3. Monitor retail store 
+security and safety 
+practice 
+ 
+ 
+ 
+3.1 Work area security and safety practice 
+checked according to retail store SOP 
+3.2 Fire prevent ive system function checked 
+according to retail store SOP 
+3.3 Equipment safety practice checked according 
+to retail store SOP  
+3.4 Staff safety practice evaluated to ensure  
+emergency situation such as robbery, fire 
+and natural disaster handled according to 
+retail store safety standard practice 
+3.5 Retail store loss and prevention reports 
+produced and submitted to superior for 
+verification 
+4. Monitor retail store 
+housekeeping  
+ 
+ 
+4.1 Retail store housekeeping checklist obtained 
+to evaluate back end, sales floor and front  
+end cleanliness 
+4.2 Back end cleanliness checked according to 
+Good Housekeeping Practice requirements 
+and retail store SOP 
+4.3 Sales floor cleanliness checked according to 
+Good Housekeeping Practice requirements 
+and retail store SOP 
+4.4 Front end cleanliness checked acco rding to 
+Good Housekeeping Practice requirements 
+and retail store SOP 
+4.5 Solid waste disposal checked according to 
+
+===== [PAGE 33] =====
+26 
+ 
+CU TITLE& 
+CU CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+retail store SOP 
+4.6 Retail store housekeeping checklist updated 
+and submitted to superior 
+ 
+
+===== [PAGE 34] =====
+27 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CURRICULUM OF COMPETENCY UNIT 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+RETAIL OUTLET OPERATIONS  
+ 
+LEVEL 3  
+
+===== [PAGE 35] =====
+28 
+ 
+15. Curriculum of Competency Unit  
+15.1. Back End Operations 
+ 
+SECTION (G) WHOLESALE AND RETAIL TRADE, REPAIR OF MOTOR VEHICLES AND MOTORCYCLE 
+GROUP (47) RETAIL SALE IN NON – SPECIALIZED STORES 
+AREA RETAIL STORE OPERATIONS 
+NOSS TITLE RETAIL OUTLET OPERATIONS  
+COMPETENCY UNIT TITLE BACK END OPERATIONS 
+LEARNING OUTCOMES The outcome of this competency unit is to ensure stock is order ed, receive d, arrange d, transferred, 
+returned and d isposed according to sales trend, food safety regulation, FIFO and FEFO requirements,  
+collection time and non – conformance criteria  and par level maintained .  Upon completion of this 
+competency unit, trainees shall be able to: 
+1. Prepare back end documentation 
+2. Carry out back end stock take 
+3. Carry out stock ordering  
+4. Carry out stock receiving  
+5. Carry out stock arrangement  
+6. Carry out stock transfer  
+7. Carry out product return  
+8. Carry out product disposal 
+9. Produce back end reports  
+TRAINING PRE-REQUISITE  
+CU CODE  G471-001-3:2018-C01 NOSS LEVEL THREE (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+1. Prepare back 
+end 
+documentation 
+ 
+1.1 Principle of retail 
+inventory process 
+1.2 Procedure of stock 
+documentation 
+ 
+ 
+1.1 Obtain ba ck end 
+documents 
+1.2 Determine stock 
+category  
+1.3 Determine stock status 
+1.4 Determine stock 
+quantity 
+ATTITUDE 
+ Detail in stock 
+documentation 
+ Precise in stock category 
+ Precise in stock quantity 
+ 
+SAFETY 
+1.1 Principle of retail inventory 
+process described 
+1.2 Stock documentation 
+procedure elaborated 
+1.3 Back end documents acquired 
+1.4 Stock category identified 
+1.5 Stock status identified 
+
+===== [PAGE 36] =====
+29 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+1.5 Conduct back end 
+stock documentation 
+ 
+ Adhere to retail store 
+SOP 
+ 
+ENVIRONMENT 
+       N/A 
+1.6 Stock quantity identified 
+1.7 Back end stock documentation 
+completed 
+2. Carry out back 
+end stock take 
+2.1 Type of stock take 
+documents 
+2.2 Type of stock take 
+tools and materials 
+2.3 Procedure of back end 
+stock counting 
+2.4 Method of back end 
+stock counting 
+2.5 Report of stock take 
+comprehension  
+2.1 Obtain back end stock 
+take documents 
+2.2 Determine back end 
+stock location code 
+2.3 Segregate back end 
+SKU 
+2.4 Conduct back end 
+physical SKU 
+counting 
+2.5 Record SKU quantity 
+2.6 Produce back end 
+stock take report 
+ATTITUDE 
+ Meticulous in carrying 
+out stock take activity 
+ Uphold integrity in 
+accepting documents 
+ 
+SAFETY 
+ Adhere to retail store 
+stock count SOP 
+ Adhere to safety 
+practice during back end 
+stock count  
+ 
+ENVIRONMENT 
+     N/A 
+2.1 Stock take documents, tools 
+and materials types identified  
+2.2 Back end stock counting 
+procedure and method 
+elaborated 
+2.3 Back end physical SKU 
+counting performed 
+2.4 SKU quantity updated 
+2.5 Back end stock take report 
+produced 
+3. Carry out 
+stock ordering 
+ 
+3.1 Procedure of stock 
+ordering 
+3.2 Basic of retail sales 
+trend 
+3.3 Guideline of ordering 
+schedule 
+3.4 Report of stock 
+replenishment 
+ 
+ 
+3.1 Obtain sales history 
+3.2 Obtain stock 
+replenishment report 
+3.3 Determine stock level 
+3.4 Determine sales 
+performance 
+3.5 Plan stock delivery 
+schedule 
+3.6 Perform stock 
+ordering 
+ 
+ATTITUDE 
+ Precise in stock level 
+ Meticulous in stock 
+ordering 
+ Meticulous in planning 
+stock delivery schedule 
+ Knowledgeable on sales 
+trend 
+ 
+SAFETY 
+3.1 Stock take ordering procedure 
+elaborated 
+3.2 Retail sales trend explained 
+3.3 Ordering schedule guideline 
+followed 
+3.4 Stock level identified 
+3.5 Stock delivery schedule 
+arranged 
+3.6 Stock ordering completed 
+
+===== [PAGE 37] =====
+30 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+    N/A 
+ 
+ENVIRONMENT 
+    N/A 
+4. Carry out 
+stock 
+receiving 
+ 
+4.1 Type of re ceiving 
+documents 
+4.2 Schedule of stock 
+receiving  
+4.3 Procedure of stock 
+receiving  
+4.4 Requirement of retail 
+safety and security on 
+stock receiving 
+ 
+ 
+4.1 Obtain stock receiving 
+documents 
+4.2 Determine stock 
+receiving SKU 
+4.3 Determine stock 
+receiving quantities 
+4.4 Check stock rece iving 
+quantities 
+4.5 Check stock receiving 
+qualities 
+4.6 Determine Halal 
+products 
+4.7 Check Halal products  
+quantities 
+4.8 Check Halal product 
+qualities 
+4.9 Determine stock 
+receiving 
+discrepancies 
+4.10 Perform stock 
+receiving 
+4.11 Record stock 
+receiving 
+discrepancies 
+ATTITUDE 
+ Accuracy in selecting 
+particular documents 
+ Meticulous in recording 
+stock receiving 
+ Thorough in checking 
+stock discrepancies 
+ 
+SAFETY 
+ Safety conscious 
+ Ensure safety in 
+receiving area 
+ 
+ 
+ENVIRONMENT 
+     N/A 
+4.1 Type of receiving documents 
+listed out and explained 
+4.2 Stock rec eiving schedule 
+determined 
+4.3 Stock receiving procedure 
+elaborated 
+4.4 Stock receiving quantities and 
+qualities checked 
+4.5 Halal products identified 
+4.6 Halal products quantities and 
+qualities checked 
+4.7 Stock receiving completed 
+4.8 Stock receiving discrepancies  
+identified and recorded 
+
+===== [PAGE 38] =====
+31 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+5. Carry out 
+stock 
+arrangement 
+ 
+5.1 Procedure of food item 
+storage 
+5.2 Procedure of non -food 
+items storage 
+5.3 Procedure of Halal 
+items storage 
+5.4 Food and Hygiene Act 
+5.5 Occupational Safety 
+and Health Act 
+(OSHA) 
+5.6 Drug and Poison Act 
+5.1 Check storage area 
+condition 
+5.2 Determine Halal items 
+storage area 
+5.3 Determine non -Halal 
+items storage area  
+5.4 Determine non – food 
+items storage area 
+5.5 Segregate food items  
+5.6 Segregate non – food 
+items 
+5.7 Arrange food items 
+5.8 Arrange non – food 
+items 
+5.9 Record food items 
+storage location 
+5.10 Record non – food 
+storage location 
+ 
+ 
+ATTITUDE 
+ Knowledgeable in FIFO 
+and FEFO method 
+ Knowledgeable in Food 
+Safety Act 
+ Systematic in stock 
+arrangement 
+ Meticulous in determine 
+storage area 
+ Systematic in record 
+items storage location 
+ 
+SAFETY 
+ Adhere to retail store 
+SOP 
+ Safety conscious 
+ Ensure safety in stock 
+arrangement 
+ 
+ENVIRONMENT 
+   N/A 
+5.1 Food item storage procedure 
+elaborated 
+5.2 Non – food item storage 
+procedure elaborated 
+5.1 Storage area condition 
+inspected 
+5.2 Food items stored 
+5.3 Non – food items stored 
+5.4 Food items storage location 
+updated 
+5.5 Non – food items storage 
+location updated 
+5.6 Stock arrangement carried out 
+according to storage 
+procedure. 
+6. Carry out 
+stock transfer 
+ 
+6.1 Type and purpose of 
+stock transfer 
+6.2 Procedure of stock 
+transfer 
+6.3 Documentation of 
+stock transfer  
+ 
+ 
+6.1 Obtain stock status 
+report 
+6.2 Determine stock 
+transfer item 
+6.3 Segregate stock 
+transfer item  
+6.4 Plan stock transfer 
+delivery schedule 
+6.5 Perform stock transfer  
+6.6 Record stock transfer  
+ATTITUDE 
+ Systematic in 
+segregating stock 
+transfer item 
+ Meticulous in planning 
+stock transfer delivery 
+schedule 
+ Systematic in preparing 
+documents 
+6.1 Stock transfer type and 
+purpose explained 
+6.2 Stock transfer procedure 
+elaborated 
+6.3 Stock transfer documentation 
+determined 
+6.4 Stock transfer item separated 
+6.5 Stock transfer delivery 
+schedule arranged 
+6.6 Stock transfer completed 
+
+===== [PAGE 39] =====
+32 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+6.7 Prepare stock transfer 
+items documents  
+ Precise in record stock 
+transfer 
+ 
+SAFETY 
+   N/A 
+ 
+ENVIRONMENT 
+   N/A 
+ 
+7. Carry out 
+product return 
+ 
+7.1 Type of product return 
+7.2 Procedure of product 
+return 
+7.3 Process of product 
+return 
+7.4 Documentation of 
+product return 
+ 
+ 
+ 
+7.1 Obtain stock status 
+report 
+7.2 Determine product 
+return category 
+7.3 Determine product 
+return quality 
+7.4 Determine product 
+return quantity 
+7.5 Segregate product 
+return item 
+7.6 Plan product return 
+delivery schedule 
+7.7 Perform product 
+return  
+7.8 Record product return   
+7.9 Prepare product return 
+documents 
+ATTITUDE 
+ Systematic in 
+segregating product 
+return 
+ Meticulous in planning 
+product return delivery 
+schedule 
+ Systematic in preparing 
+documents 
+ Precise in record 
+product return 
+ 
+SAFETY 
+  N/A 
+ 
+ENVIRONMENT 
+   N/A 
+7.1 Type of product return 
+identified 
+7.2 Product return procedure 
+elaborated 
+7.3 Product return process 
+explained 
+7.4 Product return documentation 
+determined 
+7.5 Product return item separated 
+7.6 Product return delivery 
+schedule arranged 
+7.7 Product return documentations 
+completed 
+ 
+
+===== [PAGE 40] =====
+33 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+8. Carry out 
+product 
+disposal 
+ 
+8.1 Purpose of pro duct 
+disposal 
+8.2 Procedure of product 
+disposal 
+8.3 Process of product 
+disposal 
+8.4 Documentation of 
+product disposal 
+ 
+ 
+8.1 Obtain stock status 
+report 
+8.2 Determine product 
+disposal category 
+8.3 Determine product 
+disposal quality 
+8.4 Determine product 
+disposal quantity 
+8.5 Segregate product 
+disposal item 
+8.6 Plan product disposal 
+schedule 
+8.7 Perform product 
+disposal 
+8.8 Record product 
+disposal 
+8.9 Prepare product 
+disposal documents 
+ATTITUDE 
+ Systematic in 
+segregating product for 
+disposal  
+ Meticulous in planning 
+product disposal 
+schedule 
+ Systematic in preparing 
+documents 
+ Precise in record 
+product disposal 
+ 
+SAFETY 
+ Adhere to retail store 
+SOP 
+ Ensure safety in product 
+disposal 
+ 
+ENVIRONMENT 
+   N/A 
+8.1 Purpose of product disposal 
+explained 
+8.2 Product disposal procedure 
+elaborated 
+8.3 Product disposal process 
+determined 
+8.4 Product disposal item 
+separated 
+8.5 Product disposal schedule 
+arranged 
+8.6 Product disposal 
+documentations completed 
+ 
+9. Produce back 
+end reports 
+ 
+9.1 Type of back end 
+documents 
+9.2 Procedure of back end 
+documentation report 
+9.3 Method of back end 
+documentation  
+ 
+ 
+9.1 Determine back end 
+documents 
+9.2 Check back end 
+documents 
+9.3 Record back end 
+documents 
+9.4 Compile back end 
+document 
+9.5 Generate back end 
+reports 
+ 
+ATTITUDE 
+ Accuracy in selecting 
+particular documents 
+ Detail in producing 
+reports 
+ Systematic in compiling 
+documents 
+ 
+SAFETY 
+ Ensure retail store back 
+end reports are private 
+9.1 Back end documents type 
+identified 
+9.2 Back end documentation 
+report procedure elaborated 
+9.3 Back end documents up-dated 
+9.4 Back end reports produced and 
+presented 
+
+===== [PAGE 41] =====
+34 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+and confidential 
+ 
+ENVIRONMENT 
+ Conducive working 
+environment 
+ 
+Employability Skills  
+ 
+Core Abilities 
+ Utilize database applications to locate and process information   
+ Utilize spreadsheets applications to locate and process information  
+ Utilize business graphic application to process information  
+ Apply a variety of mathematical techniques  
+ Apply thinking skills and creativity 
+ Prepare flowcharts 
+ Prepare reports and instructions 
+ Convey information and ideas to people 
+ Manage and improve performance of individuals 
+ Provide consultation and counselling 
+ Monitor and evaluate performance of human resources 
+ Provide coaching/on-the job training 
+ Develop and maintain team harmony and resolve conflicts 
+ Facilitate and coordinate teams and ideas 
+ Liaise to achieve identified outcomes 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== [PAGE 42] =====
+35 
+ 
+Social Values & Social Skills 
+ Communication skills 
+ Conceptual skills 
+ Interpersonal skills 
+ Learning skills 
+ Leadership skills 
+ Multitasking and priotizing 
+ Self – discipline  
+ Teamwork 
+ 
+References for Learning Material Development 
+ 
+1 Vishal Agrawal (2011) Retail Store Operations, Dreamtech Press; 2nd Edition, ISBN 13: 978-8177225167. 
+2 Sriram Iyer (2011) Retail Store Operations, Tata McGraw Hill Edu. Publishing, ISBN 13: 978-0070700840 
+3 Max Muller (2011) Essentials of Inventory Management, AMACOM Publishing; 2nd Edition, ISBN-13: 978-0814416556 
+4 Michael Levy , Barton A. Weitz and Dhruv Grewal (2014) Retailing Management, Publisher McGraw-Hill Education - Europe; 9th 
+Edition, ISBN13: 978-1259060663 
+5 Agrawal, Narendra, Smith, Stephen A (2015) Retail Supply Chain Management: Quantitative Models and Empirical Studies, Springer US 
+Publishing, ISBN 13: 978-1489975614 
+6 Robin Lewis and Michael Dart (2010), The New Rules of Retail: Competing in the World's Toughest Marketplace, ISBN-13: 978-
+0230105720  
+7 Michael Levy, Barton A. Weitz (2012), Retail Management, Eight Edition, The McGraw-Hill Companies, ISBN 13: 978-1259010170 
+8 Doug Stephens, The Retail Revival: Reimagining Business for the New Age Consumerism, Wiley, ISBN-13: 978-1118489673 
+9 Willard N. Ander, Neil Z. Stern (2004), Winning At Retail: Developing a Sustained Model for Retail Success, Wiley, ISBN 13: 978-
+0471473572 
+ 
+
+===== [PAGE 43] =====
+36 
+ 
+15.2. Sales Floor Operations 
+ 
+SECTION (G) WHOLESALE AND RETAIL TRADE, REPAIR OF MOTOR VEHICLES AND MOTORCYCLE 
+GROUP (47) RETAIL SALE IN NON – SPECIALIZED STORES 
+AREA RETAIL STORE OPERATIONS 
+NOSS TITLE RETAIL OUTLET OPERATIONS  
+COMPETENCY UNIT TITLE SALES FLOOR OPERATIONS 
+LEARNING OUTCOMES The outcome of this competency unit is to ensure product is updated, displayed and arranged according to 
+retail store SOP and KPDNKK requirements . Upon complet ion of this competency unit, trainees shall be 
+able to: 
+1. Prepare product merchandising 
+2. Carry out product merchandising  
+3. Update selling floor stock status 
+4. Carry out selling floor stock take   
+5. Produce sales floor operations reports  
+TRAINING PRE-REQUISITE  
+CU CODE  G471-001-3:2018-C02 NOSS LEVEL THREE (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+1. Prepare product 
+merchandising 
+ 
+1.1 Principle of product 
+merchandising 
+1.2 Type of display 
+fixtures 
+1.3 Function of r etail 
+planogram / schematic 
+drawing 
+1.4 Type of retail 
+promotion  
+ 
+ 
+1.1 Obtain retail store 
+planogram 
+1.2 Obtain retail store 
+promotion plan 
+1.3 Determine product 
+category  
+1.4 Determine product 
+display fixtures 
+1.5 Propose product 
+display location 
+ 
+ATTITUDE 
+ Knowledgeable in retail 
+outlet plan layout 
+ Detail in determine 
+product display fixtures 
+ Detail in determine 
+product category 
+ Adhere to promotion 
+plan 
+ 
+SAFETY 
+   N/A 
+ 
+1.1 Product merchandising 
+principle defined 
+1.2 Display fixtures type 
+identified and explained 
+1.3 Retail planogram function 
+elaborated 
+1.4 Product category identified  
+1.5 Product display fixtures 
+identified 
+1.6 Product display location 
+proposed and presented 
+
+===== [PAGE 44] =====
+37 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+ENVIRONMENT 
+   N/A 
+2. Carry out 
+product 
+merchandising  
+ 
+2.1 Procedure of product  
+display 
+2.2 Technique of product 
+display 
+2.3 Procedure of price 
+display 
+2.4 Process of price 
+change 
+2.5 Determination of stock 
+level 
+2.6 Procedure of stock 
+replenishment 
+ 
+2.1 Locate product display 
+area 
+2.2 Check display fixtures 
+cleanliness 
+2.3 Perform product 
+display 
+2.4 Perform price label 
+display 
+2.5 Update price change 
+2.6 Check product display 
+stock level 
+2.7 Check product display 
+quality 
+2.8 Conduct selling floor 
+stock replenishment 
+2.9 Record product 
+display stock level 
+ 
+ATTITUDE 
+ Meticulous in locating 
+product display area 
+ Thorough in displaying 
+product 
+ Thorough in checking 
+product display stock 
+level 
+ Meticulous in stock 
+replenishment 
+ 
+SAFETY 
+ Meticulous in displaying 
+high pilferage products 
+ Adhere to retail store 
+SOP 
+ 
+ENVIRONMENT 
+   N/A 
+2.1 Product display procedure 
+elaborated 
+2.2 Price display procedure 
+elaborated 
+2.3 Stock replenishment 
+procedure elaborated 
+2.4 Product display completed 
+2.5 Price label display completed 
+2.6 Price change completed 
+2.7 Selling floor s tock 
+replenishment completed 
+2.8 Product display stock level 
+updated 
+3. Update selling 
+floor stock status  
+ 
+3.1 Type of stock count 
+document 
+3.2 Procedure of stock 
+count 
+3.3 Determination of stock 
+variance   
+ 
+ 
+3.1 Obtain selling floor 
+stock report 
+3.2 Determine selling 
+floor stock status 
+3.3 Prepare selling floor 
+stock count document 
+3.4 Perform selling floor 
+stock count 
+3.5 Produce stock 
+ATTITUDE 
+ Adhere to product 
+category 
+ Meticulous in stock 
+counting 
+ Systematic in preparing 
+selling floor stock count 
+document 
+ 
+3.1 Stock count record type 
+identifed 
+3.2 Stock count procedure 
+elaborated 
+3.3 Selling floor stock count 
+document arranged 
+3.4 Selling floor stock count 
+completed 
+3.5 Stock variance report produced  
+
+===== [PAGE 45] =====
+38 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+variance report SAFETY 
+   N/A 
+ 
+ENVIRONMENT 
+   N/A 
+4. Carry out selling 
+floor stock take 
+4.1 Type of stock take 
+documents 
+4.2 Procedure of selling 
+floor stock counting 
+4.3 Method of selling 
+floor stock counting 
+4.1 Obtain selling floor 
+stock take documents 
+4.2 Determine selling 
+floor stock location 
+area 
+4.3 Segregate selling floor 
+SKU 
+4.4 Conduct selling floor 
+physical SKU 
+counting 
+4.5 Record SKU quantity 
+4.6 Produce selling floor 
+stock take report 
+ATTITUDE 
+ Meticulous in carrying 
+out stock take activity 
+ Uphold integrity in 
+accepting documents 
+ 
+SAFETY 
+ Adhere to retail store 
+stock count SOP 
+ Adhere to safety 
+practice during back end 
+stock count  
+ 
+ENVIRONMENT 
+   N/A 
+4.1 Stock take documents type 
+identified 
+4.2 Selling floor stock counting 
+procedure elaborated 
+4.3 Selling floor stock counting 
+method determined 
+4.4 Selling floor physical SKU 
+counting performed 
+4.5 Selling floor stock take report 
+produced and presented 
+5. Produce sales 
+floor operations 
+reports 
+ 
+5.1 Type of sales reports 
+5.2 Procedure of sales 
+report documentation 
+5.3 Steps in updating sales 
+reports 
+ 
+ 
+5.1 Obtain sales floor 
+operations documents 
+5.2 Update sales floor 
+operations documents 
+5.3 Generate sales floor 
+operations reports 
+5.4 Compile sales floor 
+operations reports 
+  
+ATTITUDE 
+ Accuracy in selecting 
+particular documents 
+ Accuracy in updating 
+sales floor operations 
+documents 
+ Systematic in compiling 
+sales floor operations 
+report 
+ 
+SAFETY 
+4.1 Sales reports type determined 
+4.2 Procedure of sales report 
+documentations explained 
+4.3 Steps in updating reports 
+applied  
+4.4 Sales floor operations reports 
+produced and presented 
+
+===== [PAGE 46] =====
+39 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+ Ensure retail store sales 
+floor operation reports 
+are private and 
+confidential 
+ 
+ENVIRONMENT 
+ Conducive working 
+environment  
+ 
+ 
+Employability Skills  
+ 
+Core Abilities 
+ Utilize database applications to locate and process information   
+ Utilize spreadsheets applications to locate and process information  
+ Utilize business graphic application to process information  
+ Apply a variety of mathematical techniques  
+ Apply thinking skills and creativity 
+ Prepare flowcharts 
+ Prepare reports and instructions 
+ Convey information and ideas to people 
+ Manage and improve performance of individuals 
+ Provide consultation and counselling 
+ Monitor and evaluate performance of human resources 
+ Provide coaching/on-the job training 
+ Develop and maintain team harmony and resolve conflicts 
+ Facilitate and coordinate teams and ideas 
+ Liaise to achieve identified outcomes 
+ 
+ 
+
+===== [PAGE 47] =====
+40 
+ 
+Social Values & Social Skills 
+ Communication skills 
+ Conceptual skills 
+ Interpersonal skills 
+ Learning skills 
+ Leadership skills 
+ Multitasking and priotizing 
+ Self – discipline  
+ Teamwork 
+ 
+References for Learning Material Development 
+ 
+1 Harland E. Samson, Wayne G. Little (1993) Retail Merchandising: Consumer Goods & Services, South-Western Pub; 11th Edition, ISBN-
+13: 978-0538613262  
+2 Rosemary Varley (2006) Retail Product Management: Buying and Merchandising, Routledge Publishing; 2nd Edition, ISBN-13: 978-
+0415327152 
+3 Grace I Kunz (1998) Merchandising: Theory, Principles, and Practice, Fairchild Books Publishing, ISBN-13: 978-1563671463 
+4 Jerry M Rosenberg (1995) Dictionary of Retailing and Merchandising (National Retail Federation), Wiley Publishing; 1 edition, ISBN-
+13: 978-0471110231 
+5 Robin Lewis and Michael Dart (2010), The New Rules of Retail: Competing in the World's Toughest Marketplace, ISBN-13: 978-
+0230105720  
+6 Emmett Cox (2011), Retail Analytics: The Secret Weapon Hardcover, Wiley, ISBN-13: 978-1118099841 
+7 Michael Levy, Barton A. Weitz (2012), Retail Management, Eight Edition, The McGraw-Hill Companies, ISBN-13: 978-1259010170 
+8 Doug Stephens, The Retail Revival: Reimagining Business for the New Age Consumerism, Wiley, ISBN-10: 1118489675, 13: 978-
+1118489673 
+9 Willard N. Ander, Neil Z. Stern (2004), Winning At Retail: Developing a Sustained Model for Retail Success, Wiley, ISBN-13: 978-
+0471473572 
+
+===== [PAGE 48] =====
+41 
+ 
+15.3. Front End Services 
+ 
+SECTION (G) WHOLESALE AND RETAIL TRADE, REPAIR OF MOTOR VEHICLES AND MOTORCYCLE 
+GROUP (47) RETAIL SALE IN NON – SPECIALIZED STORES 
+AREA RETAIL STORE OPERATIONS 
+NOSS TITLE RETAIL OUTLET OPERATIONS  
+COMPETENCY UNIT TITLE FRONT END SERVICES 
+LEARNING OUTCOMES The outcome of thi s competency unit is to ensure  price is updated, customer enquiry , complaint and 
+feedback are  attended, cashiers are arranged, shopping equipment are in good condition and item 
+exchange and refund  handled according to retail store SOP . Upon completion of t his competency unit, 
+trainees shall be able to: 
+1. Carry out retail store sales floor inspection 
+2. Carry out customer information services 
+3. Carry out front end customer services  
+4. Check retail store shopping equipment 
+5. Handle customer item exchange and refund 
+6. Handle customers enquiries, complaints and feedback  
+7. Carry out retail store cashiering 
+8. Produce front end services reports  
+TRAINING PRE-REQUISITE  
+CU CODE  G471-001-3:2018-C03 NOSS LEVEL THREE (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+1. Carry out 
+retail store 
+sales floor 
+inspection 
+ 
+1.1 Type and function of 
+Point of Sales (POS) 
+system 
+1.2 Checklist of sales 
+floor inspection 
+1.3 Procedure of sales 
+floor inspection 
+1.4 Schedule of retail 
+store staff 
+1.1 Generate sales floor 
+inspection checklist 
+1.2 Determine sufficient 
+retail store staff 
+1.3 Check selling floor 
+product display 
+arrangement  
+1.4 Check selling floor 
+cleanliness 
+ATTITUDE 
+ Meticulous in sales floor 
+inspection 
+ Adhere to retail store 
+SOP 
+ 
+SAFETY 
+  N/A 
+ 
+1.1 Type and function of Point of 
+Sales interpreted 
+1.2 Sales floor inspection 
+checklist prepared 
+1.3 Sales floor inspection 
+procedure elaborated 
+1.4 Sufficient retail store staff 
+identified 
+1.5 Selling floor product display 
+
+===== [PAGE 49] =====
+42 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+1.5 Procedure of sal es 
+floor house keeping 
+ 
+1.5 Check Point of Sales 
+(POS) system cash 
+register function  
+1.6 Compile sal es floor 
+inspection checklist  
+ENVIRONMENT 
+  N/A 
+arrangement inspected 
+1.6 Selling floor cleanliness 
+inspected 
+1.7 Point of Sales (POS) system 
+cash register function 
+inspected 
+1.1 Sales floor inspection 
+checklist filed 
+2. Carry out 
+customer 
+information 
+services 
+ 
+2.1 Type of product 
+information 
+2.2 Type of customer 
+service forms 
+2.3 Introduction to Goods 
+Service Tax (GST) 
+2.4 Procedure of price 
+changes on 
+promotional items  
+ 
+  
+ 
+2.1 Obtain retail store 
+latest product 
+information 
+2.2 Obtain retail store 
+latest pr omotion 
+materials 
+2.3 Prepare customer 
+service form 
+2.4 Verify retail store 
+promotion price 
+2.5 Update c ustomer 
+bulletin board 
+information 
+ 
+ATTITUDE 
+ Systematic in preparing 
+customer related 
+documents 
+ Precise in updating 
+prices 
+ Meticulous in carrying 
+out price changes 
+ 
+SAFETY 
+  N/A 
+ 
+ENVIRONMENT 
+  N/A 
+2.1 Customer service forms type 
+identified 
+2.2 Goods Service Tax (GST)  
+described 
+2.3 Procedure of price changes 
+elaborated 
+2.4 Customer service forms 
+prepared 
+2.5 Customer bulletin board 
+information prepared 
+ 
+3. Carry out 
+front end 
+customer 
+services 
+ 
+3.1 Procedure of customer 
+redemption and free 
+gifts  
+3.2 Process of handling 
+customer utilities 
+billing services 
+3.3 Procedure of handling 
+customer loyalty 
+3.1 Provide customer free 
+gifts 
+3.2 Provide customer 
+utilities billing 
+services 
+3.3 Provide customer 
+loyalty program 
+3.4 Provide special needs 
+ATTITUDE 
+ Hospitality in assisting 
+special needs customer 
+ Knowledgeable in 
+customer utilities billing 
+services 
+ Knowledgeable in 
+customer loyalty 
+3.1 Procedure of customer 
+redemption and free gifts 
+explained 
+3.2 Process of handling customer 
+utilities billing services  
+elaborated 
+3.3 Procedure of handling 
+customer loyalty program  
+
+===== [PAGE 50] =====
+43 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+program 
+3.4 Procedure of handling 
+special needs 
+customer  
+ 
+customer assistance  
+ 
+ 
+program 
+ 
+SAFETY 
+  N/A 
+ 
+ENVIRONMENT 
+  N/A 
+explained 
+3.5 Procedure of handling special 
+needs customer explained 
+ 
+ 
+ 
+4. Check retail 
+store shopping 
+equipment  
+4.1 Type and function of 
+retail store shopping 
+equipment 
+ 
+4.1 Obtained retail store 
+shopping equipment 
+list 
+4.2 Check shopping 
+equipment condition 
+4.3 Record shopping 
+equipment condition 
+4.4 Arrange shopping 
+equipment 
+4.5 Report sho pping 
+equipment availability 
+status 
+ATTITUDE 
+ Awareness in observing 
+customer traffic flow 
+ Responsible in 
+determining shopping 
+equipment condition 
+ 
+SAFETY 
+   N/A 
+ 
+ENVIRONMENT 
+  N/A 
+4.1 Retail store shopping 
+equipment type and function 
+determined 
+4.2 Shopping equipment condition 
+inspected 
+4.3 Shopping equipment prepared 
+4.4 Shopping equipment 
+availability status informed 
+ 
+5. Handle 
+customer item 
+exchange and 
+refund 
+ 
+5.1 Type of refund 
+5.2 Procedure of customer 
+item exchange 
+5.3 Procedure of customer 
+refund 
+5.4 Documentation of 
+item exchange 
+5.5 Documentation of 
+refund 
+ 
+5.1 Obtain customer proof 
+of purchase 
+5.2 Check item condition 
+5.3 Determine item 
+warranty 
+5.4 Verify customer 
+exchange item 
+5.5 Verify customer 
+refund  
+5.6 Compile customer 
+proof of purchase   
+ATTITUDE 
+ Thorough in determine 
+item condition 
+ Responsible for 
+approving exchange 
+item 
+ Systematic in compiling 
+customer exchange item 
+receipt 
+ Adhere to retail store 
+SOP 
+ 
+5.1 Type of refund listed out 
+5.2 Customer item exchange 
+procedure elaborated 
+5.3 Customer refund procedure 
+elaborated 
+5.4 Customer excha nge item 
+documentations completed 
+5.5 Customer refund 
+documentations completed 
+ 
+
+===== [PAGE 51] =====
+44 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+SAFETY 
+  N/A 
+ 
+ENVIRONMENT 
+  N/A 
+6. Handle 
+customers 
+enquiries, 
+complaints 
+and feedback 
+6.1 Type of customer 
+enquiries 
+6.2 Type of customer 
+complaints 
+6.3 Purpose of customer 
+feedback 
+6.4 Procedure of handling 
+customer complaint 
+6.5 Procedure of handling 
+customer enquiry 
+6.6 Procedure of handling 
+customer feedback 
+6.7 Technique of writing 
+customer enquiry 
+report 
+6.8 Technique of writing 
+customer complaint 
+report 
+6.9 Technique of writing 
+customer feedback 
+report  
+6.1 Determine customer 
+enquiry 
+6.2 Determine cus tomer 
+complaint 
+6.3 Determine customer 
+feedback 
+6.4 Propose customer 
+solution 
+6.5 Record customer 
+enquiry  
+6.6 Record customer 
+complaint 
+6.7 Record customer 
+feedback 
+ 
+ 
+ 
+ 
+ATTITUDE 
+ Honest in propose 
+customer solution 
+ Meticulous in recording 
+customer complaints 
+and enquiries 
+ Adhere to retail store 
+SOP 
+ Detailed in writing 
+customer enquiry, 
+complaint and feedback 
+ 
+SAFETY 
+ N/A 
+ 
+ENVIRONMENT 
+  N/A 
+6.1 Types of customer enquiries 
+and complaints identified 
+6.2 Procedure of h andling 
+customer enquir ies and 
+complaints elaborated 
+6.3 Procedure of h andling 
+customer feedback elaborated   
+6.4 Customer enquiry written 
+down 
+6.5 Customer complaint written 
+down 
+6.6 Customer feedback written 
+down 
+6.7 Customer solution 
+recommended 
+ 
+ 
+7. Carry out 
+retail store 
+cashiering 
+ 
+7.1 Function of POS  
+system cash register 
+7.2 Procedure of handling 
+POS system cash 
+register 
+7.1 Conduct cashier 
+briefing 
+7.2 Prepare cashier cash 
+float 
+7.3 Check Point of Sales 
+ATTITUDE 
+ Systematic in preparing 
+cashier cash float 
+ Knowledgeable in using 
+POS system 
+7.1 Function of POS system cash 
+register explained 
+7.2 Handling of POS system cash 
+register procedure elaborated 
+7.3 Receiving payment procedure 
+
+===== [PAGE 52] =====
+45 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+7.3 Process of receiving 
+payment   
+7.4 Type of payment 
+mode 
+7.5 Type of common 
+fraud 
+7.6 Procedure of handling 
+fraud 
+7.7 Procedure of handling 
+robbery 
+ 
+ 
+(POS) system cash 
+register function 
+7.4 Perform product 
+scanning 
+7.5 Receive customer 
+payment 
+7.6 Verify sales 
+transaction 
+cancellation 
+7.7 Generate daily sales 
+transaction report 
+7.8 Determine sales 
+transaction shortages 
+7.9 Determine sales 
+transaction 
+discrepancies 
+7.10 Perform sales 
+transaction 
+reconciliation 
+ Knowledgeable in using 
+scanner 
+ Precise in sales 
+transaction 
+reconciliation 
+ Adhere to retail store 
+SOP 
+ 
+SAFETY 
+ Ensure security in 
+handing over cash 
+ 
+ENVIRONMENT 
+  N/A 
+elaborated 
+7.4 Handling fraud procedure 
+elaborated 
+7.5 Handling robbery  procedure 
+elaborated 
+7.6 Cashier cash float  
+arrangement explained 
+7.7 Product scanning completed 
+7.8 Sales t ransaction cancellation  
+validated 
+7.9 Daily sales transaction report  
+produced 
+7.10 Sales transaction shortages  
+identified 
+7.11 Sales transaction 
+discrepancies identified 
+7.12 Sales transaction 
+reconciliation carried out 
+8. Produce front 
+end services 
+reports 
+ 
+8.1 Type of front end 
+services reports 
+8.2 Purpose of front end 
+services reports 
+8.3 Procedure of front end 
+reports 
+8.4 Technique of writing 
+front end service 
+reports 
+ 
+ 
+8.1 Determine front end 
+services reports 
+8.2 Produce front end 
+services reports 
+8.3 Compile front en d 
+services reports 
+ 
+ATTITUDE 
+ Accuracy in selecting 
+particular reports 
+ Meticulous in creating 
+front end services 
+reports 
+ Systematic in compiling 
+retail store front end 
+services reports 
+ 
+SAFETY 
+ Ensure retail store front 
+8.1 Front end services reports type 
+identified 
+8.2 Front end services reports 
+purpose determined 
+8.3 Writing front end service 
+reports technique identified 
+8.4 Front end service s reports 
+generated 
+8.5 Front end service s reports 
+produced and presented 
+
+===== [PAGE 53] =====
+46 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+end services reports are 
+private and confidential 
+ 
+ENVIRONMENT 
+ Conducive working 
+environment  
+ 
+Employability Skills  
+ 
+Core Abilities 
+ Utilize database applications to locate and process information   
+ Utilize spreadsheets applications to locate and process information  
+ Utilize business graphic application to process information  
+ Apply a variety of mathematical techniques  
+ Apply thinking skills and creativity 
+ Prepare flowcharts 
+ Prepare reports and instructions 
+ Convey information and ideas to people 
+ Manage and improve performance of individuals 
+ Provide consultation and counselling 
+ Monitor and evaluate performance of human resources 
+ Provide coaching/on-the job training 
+ Develop and maintain team harmony and resolve conflicts 
+ Facilitate and coordinate teams and ideas 
+ Liaise to achieve identified outcomes. 
+ 
+ 
+ 
+ 
+ 
+
+===== [PAGE 54] =====
+47 
+ 
+ 
+ 
+ 
+Social Values & Social Skills 
+ Communication skills 
+ Conceptual skills 
+ Interpersonal skills 
+ Learning skills 
+ Leadership skills 
+ Multitasking and priotizing 
+ Self – discipline  
+ Teamwork 
+ 
+References for Learning Material Development 
+ 
+1 Lee Cockerell (2013) The Customer Rules: The 39 Essential Rules for Delivering Sensational Service, Publisher: Currency Publishing 1st 
+Edition (2013), ISBN-13: 978-0770435608 
+2 Renee Evenson (2012) Powerful Phrases for Effective Customer Service: Over 700 Ready-to-Use Phrases and Scripts That Really Get 
+Results, AMACOM Publishing, ISBN-13: 978-0814420324 
+3 Robert Bacal (2010) Perfect Phrases for Customer Service, McGraw-Hill Education Pub.; 2nd Edition, ISBN-13: 978-0071745062 
+4 Janelle Barlow and Claus Moller (2008) A Complaint Is a Gift: Recovering Customer Loyalty When Things Go Wrong, Berrett-Koehler 
+Publishers; 2nd Edition, ISBN-13: 978-1576755822 
+5 Robin Lewis and Michael Dart (2010), The New Rules of Retail: Competing in the World's Toughest Marketplace, ISBN-13: 978-
+0230105720  
+6 Michael Levy, Barton A.Weitz (2012), Retail Management, Eight Edition, The McGraw-Hill Companies, ISBN-13: 978-1259010170 
+7 Doug Stephens, The Retail Revival: Reimagining Business for the New Age Consumerism, Wiley, ISBN-13: 978-1118489673 
+8 Willard N. Ander, Neil Z. Stern (2004), Winning At Retail: Developing a Sustained Model for Retail Success, Wiley, ISBN-13: 978-
+0471473572 
+
+===== [PAGE 55] =====
+48 
+ 
+15.4. Retail Outlet Supervision 
+ 
+SECTION (G) WHOLESALE AND RETAIL TRADE, REPAIR OF MOTOR VEHICLES AND MOTORCYCLE 
+GROUP (47) RETAIL SALE IN NON – SPECIALIZED STORES 
+AREA RETAIL STORE OPERATIONS 
+NOSS TITLE RETAIL OUTLET OPERATIONS  
+COMPETENCY UNIT TITLE RETAIL OUTLET SUPERVISION 
+LEARNING OUTCOMES The outcome of this competency unit is to ensure staffs are briefed, coached and monitored according to 
+duty and responsibilities; and retail store rules and regulation. Upon completion of this competency unit, 
+trainees shall be able to: 
+1. Prepare staff work schedule 
+2. Conduct staff briefing and meeting 
+3. Carry out staff coaching 
+4. Monitor staff performance 
+TRAINING PRE-REQUISITE  
+CU CODE  G471-001-3:2018-C04 NOSS LEVEL THREE (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+1. Prepare staff 
+work schedule 
+ 
+1.1 Principle of retail 
+Supervision 
+1.2 Assessment of event 
+calendar 
+1.3 Purpose of work 
+schedule 
+1.4 Guideline of retail 
+working hours 
+1.5 Job descriptions of 
+retail staff 
+ 
+ 
+ 
+1.1 Determine sufficient 
+number of retail store 
+staff 
+1.2 Determine staff shift 
+1.3 Determine staff 
+working hours 
+1.4 Assign staff job tasks 
+1.5 Assign staff work  
+1.6 Prepare staff work 
+schedule 
+1.7 Compile staff work 
+schedule 
+ATTITUDE 
+ Detail in assigning staff 
+work instruction  
+ Detail in drafting staff 
+work instruction 
+ Meticulous in creating 
+staff work schedule 
+ Systematic in compiling 
+staff work schedule 
+ 
+SAFETY 
+  N/A 
+ 
+ENVIRONMENT 
+1.1 Principle of retail supervision 
+described 
+1.2 Work schedule type identified  
+and purpose explained 
+1.3 Retail working hours 
+determined according to 
+guideline  
+1.4 Retail staff job descriptions 
+determined 
+1.5 Staff work schedule  prepared 
+and presented 
+
+===== [PAGE 56] =====
+49 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+  N/A 
+2. Conduct staff 
+briefing and 
+meeting 
+ 
+2.1 Importance of staff 
+briefing 
+2.2 Importance of staff 
+meeting 
+2.3 Guideline of staff 
+briefing 
+2.4 Procedure of staff 
+meeting 
+ 
+ 
+2.1 Prepare staff briefing 
+contents 
+2.2 Organise staff meeting 
+2.3 Perform staff briefing 
+2.4 Inform latest retail 
+store activities 
+ 
+ATTITUDE 
+ Detail in staff briefing 
+contents 
+ Awareness in latest 
+retail store promotion 
+activities, processes and 
+procedures 
+ Responsible in updating 
+latest retail store 
+activities 
+ 
+SAFETY 
+  N/A 
+ 
+ENVIRONMENT 
+  N/A 
+2.1 Staff briefing guideline 
+identified 
+2.2 Staff meeting procedure 
+elaborated 
+2.3 Staff meeting arranged 
+2.4 Staff briefing completed 
+2.5 Latest retail store activities 
+updated 
+3. Carry out staff 
+coaching 
+ 
+3.1 Method of staff  skills 
+evaluation 
+3.2 Technique of staff 
+coaching 
+3.3 Procedures of retail 
+store operations 
+3.1 Evaluate staff skill 
+3.2 Evaluate staff 
+knowledge 
+3.3 Perform staff coaching 
+3.4 Evaluate staff 
+performance 
+3.5 Produce staff 
+performance report 
+3.6 Propose staff training 
+program 
+  
+ 
+ATTITUDE 
+ Honest in evaluating 
+staff skills and 
+knowledge 
+ Responsible in staff 
+coaching 
+ Detail in creating staff 
+coaching report 
+ Adhere to retail store 
+SOP 
+ 
+SAFETY 
+ Ensure staff coaching 
+reports are private and 
+3.1 Staff evaluation method 
+identified 
+3.2 Staff coaching technique 
+determined 
+3.3 Retail store operations 
+procedure elaborated 
+3.4 Staff skill measured 
+3.5 Staff knowledge measured 
+3.6 Staff training program 
+arranged 
+3.7 Staff coaching conducted 
+3.8 Staff coaching and 
+performance reports produced 
+and explained. 
+
+===== [PAGE 57] =====
+50 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+confidential 
+ 
+ENVIRONMENT 
+ Conducive working 
+environment 
+4. Monitor staff 
+performance  
+ 
+4.1 Procedure of staff 
+appraisal 
+4.2 Rules and regulation 
+of retail store staff 
+4.3 Duties and 
+responsibilities of 
+retail store staff 
+ 
+4.1 Obtain retail store 
+staff attendance 
+4.2 Check staff attendance 
+4.3 Check staff discipline 
+4.4 Check staff 
+appearance  
+4.5 Evaluate staff 
+knowledge 
+4.6 Evaluate staff skill 
+4.7 Review staff 
+performance 
+ 
+ATTITUDE 
+ Honest in evaluating 
+staff skills and 
+knowledge 
+ Responsible in 
+reviewing staff 
+performance 
+ Knowledgeable in latest 
+employment act 
+ Adhere to retail store 
+SOP 
+ 
+SAFETY 
+ N/A 
+ 
+ENVIRONMENT 
+  N/A 
+4.1 Staff appraisal procedure 
+elaborated 
+4.2 Retail store staff  rules and 
+regulation identified 
+4.3 Retail store staff duties and 
+responsibilities described 
+4.4 Verification on s taff 
+attendance and punctuality 
+explained 
+4.5 Evaluation on s taff 
+appearance, knowledge and 
+skill explained 
+4.6 Staff performance  reviewed 
+according to appraisal 
+procedure 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== [PAGE 58] =====
+51 
+ 
+Employability Skills  
+ 
+Core Abilities 
+ Utilize database applications to locate and process information   
+ Utilize spreadsheets applications to locate and process information  
+ Utilize business graphic application to process information  
+ Apply a variety of mathematical techniques  
+ Apply thinking skills and creativity 
+ Prepare flowcharts 
+ Prepare reports and instructions 
+ Convey information and ideas to people 
+ Manage and improve performance of individuals 
+ Provide consultation and counselling 
+ Monitor and evaluate performance of human resources 
+ Provide coaching/on-the job training 
+ Develop and maintain team harmony and resolve conflicts 
+ Facilitate and coordinate teams and ideas 
+ Liaise to achieve identified outcomes. 
+ 
+Social Values & Social Skills 
+ Communication skills 
+ Conceptual skills 
+ Interpersonal skills 
+ Learning skills 
+ Leadership skills 
+ Multitasking and priotizing 
+ Self – discipline  
+ Teamwork 
+ 
+ 
+ 
+ 
+
+===== [PAGE 59] =====
+52 
+ 
+References for Learning Material Development 
+ 
+1 Anne Johnson (2016) First-Line Supervisor of Retail Sales Workers Career (Special Edition): The Insider's Guide to Finding a Job at an 
+Amazing Firm, Acing the Interview & Getting Promoted, Createspace Independent Publishing Platform, USA; Special Edition, 
+ISBN13 9781530615810 
+2 Michael Levy , Barton A. Weitz and Dhruv Grewal (2014) Retailing Management, Publisher McGraw-Hill Education - Europe; 9th 
+Edition, ISBN13 9781259060663 
+3 Agrawal, Narendra, Smith, Stephen A (2015) Retail Supply Chain Management: Quantitative Models and Empirical Studies, Springer US 
+Publishing, ISBN 9781489975614 
+4 Matthew Schwartz (2006) Fundamentals of Sales Management for the Newly Appointed Sales Manager, Publisher Amacom Publishing, 
+New York, ISBN13 9780814408735 
+5 Robin Lewis and Michael Dart (2010), The New Rules of Retail: Competing in the World's Toughest Marketplace, ISBN-10: 
+0230105726, 13: 978-0230105720  
+6 Marshall Fisher, Ananth Raman (2010), The New Science of Retailing: How Analytics are Transforming the Supply Chain and Improving 
+Performance, Harvard Business Review Press, ISBN-10: 1422110575, 13: 978-1422110577 
+ 
+
+===== [PAGE 60] =====
+53 
+ 
+15.5. Retail Outlet Hygiene, Safety and Security Practice 
+ 
+SECTION (G) WHOLESALE AND RETAIL TRADE, REPAIR OF MOTOR VEHICLES AND MOTORCYCLE 
+GROUP (47) RETAIL SALE IN NON – SPECIALIZED STORES 
+AREA RETAIL STORE OPERATIONS 
+NOSS TITLE RETAIL OUTLET OPERATIONS  
+COMPETENCY UNIT TITLE RETAIL OUTLET SECURITY, SAFETY AND HYGIENE PRACTICE 
+LEARNING OUTCOMES The outcome of this competency unit is  to ensure retail store equipment maintenance; utilities, hygiene, 
+security and safety  practice are checked  according to  Good Hy giene Practice (GHP), Good 
+Housekeeping Practice and Standard Operation Procedure (SOP) . Upon completion of this competency 
+unit, trainees shall be able to: 
+1. Check retail store equipment maintenance and utilities services  
+2. Check retail store hygiene practice  
+3. Monitor retail store security and safety practice  
+4. Monitor retail store housekeeping   
+TRAINING PRE-REQUISITE  
+CU CODE  G471-001-3:2018-C05 NOSS LEVEL THREE (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+1. Check retail 
+store 
+equipment 
+maintenance 
+and utilities 
+services  
+ 
+1.1 Type and function of 
+retail store equipment 
+1.2 Inspection c hecklist 
+of retail store 
+equipment 
+maintenance 
+1.3 Inspection c hecklist 
+of retail store utilit ies 
+service 
+1.4 Guideline of store 
+equipment 
+maintenance 
+ 
+1.1 Obtain retail store 
+equipment 
+maintenance checklist 
+1.2 Obtain retail store 
+utilities service 
+checklist 
+1.3 Check equipment  
+condition  
+1.4 Check utilities supply 
+sufficiency  
+1.5 Report equipment 
+malfunction  
+1.6 Report utilities supply 
+ATTITUDE 
+ Thorough in verifying 
+retail store maintenance 
+ Thorough in verifying 
+retail store utility 
+services 
+ 
+SAFETY 
+ Safety conscious in 
+inspecting equipment 
+and utilities supply 
+ 
+ENVIRONMENT 
+1.1 Retail store equipment type 
+and function determined 
+1.2 Retail store equipment 
+maintenance inspection 
+checklist identified 
+1.3 Retail store utilities service 
+inspection checklist identified 
+1.4 Equipment condition 
+inspected 
+1.5 Utilities supply sufficiency 
+inspected 
+1.6 Equipment malfunction 
+informed 
+
+===== [PAGE 61] =====
+54 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+    
+ 
+insufficiency    N/A 1.7 Utilities supply insufficiency 
+informed  
+2. Check retail 
+store hygiene 
+practice 
+ 
+2.1 Good Hygienic 
+Practice (GHP) in 
+retail sector 
+2.2 Procedure of retail 
+store hygiene   
+ 
+ 
+ 
+2.1 Prepare retail store 
+hygiene practice 
+checklist 
+2.2 Verify work area 
+hygiene practice 
+2.3 Verify staff hygiene 
+practice 
+2.4 Update reta il store 
+hygiene practice 
+checklist 
+ATTITUDE 
+ Thorough in verifying 
+retail store work area 
+hygiene practice 
+ Thorough in verifying 
+staff hygiene practice 
+ Knowledgeable in Good 
+Hygiene Practice 
+ 
+SAFETY 
+  N/A 
+ 
+ENVIRONMENT 
+  N/A 
+2.1 Retail store hygiene procedure 
+elaborated 
+2.2 Retail store hygiene practice 
+checklist generated 
+2.3 Retail store work area hygiene 
+practice validated 
+2.4 Staff hygiene practice 
+validated 
+2.5 Retail store hygiene practice 
+checklist recorded 
+3. Monitor retail 
+store security 
+and safety 
+practice  
+ 
+3.1 Type of retai l store 
+loss  
+3.2 Type and function of 
+preventive devices 
+3.3 Technique of loss 
+prevention 
+3.4 Procedure of loss and 
+prevention 
+3.5 Documentation of loss 
+and prevention 
+3.6 Type of retail store 
+crisis 
+3.7 Procedure of handling 
+emergency situation 
+3.8 Fire preventive system 
+3.1 Check work area 
+security and safety 
+practice 
+3.2 Check fire preventive 
+system function 
+3.3 Check equipment 
+safety practice 
+3.4 Evaluate staff safety 
+practice  
+3.5 Produce retail store 
+loss and prevention  
+reports 
+ 
+ 
+ 
+ATTITUDE 
+ Meticulous in evaluating 
+retail store security and 
+safety practice 
+ Detail in evaluating 
+retail store security and 
+safety practice 
+ Meticulous in creating 
+retail store security and 
+safety practice reports 
+ Knowledgeable in crisis 
+handling 
+ 
+SAFETY 
+ Ensure retail store 
+3.1 Loss and prevention 
+procedure elaborated 
+3.2 Loss and prevention 
+documentation identified 
+3.3 Handling emergency situation 
+procedure elaborated 
+3.4 Work area security and safety 
+practice described 
+3.5 Fire preventive system 
+function explained 
+3.6 Staff safety practice measured 
+3.7 Retail store loss and 
+prevention reports produced 
+and presented 
+ 
+
+===== [PAGE 62] =====
+55 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE 
+RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT 
+ASSESSMENT CRITERIA 
+ 
+ 
+security and safety 
+reports are private and 
+confidential 
+ 
+ENVIRONMENT 
+ N/A 
+4. Monitor retail 
+store house 
+keeping 
+ 
+4.1 Type of housekeeping 
+activities 
+4.2 Type and function of 
+pest control 
+4.3 Retail Store Good 
+Housekeeping Practice  
+4.4 Procedure of 
+housekeeping 
+4.5 Procedure of solid 
+waste disposal 
+ 
+ 
+4.1 Obtain retail store 
+housekeeping 
+checklist 
+4.2 Check back end 
+cleanliness 
+4.3 Check sales floor 
+cleanliness 
+4.4 Check front end 
+cleanliness 
+4.5 Compile retail store 
+housekeeping 
+documents 
+ 
+ATTITUDE 
+ Detail in evaluating 
+retail store cleanliness 
+ Meticulous in creating 
+retail store 
+housekeeping report 
+ Adhere to retail store 
+SOP 
+ Knowledgeable in Good 
+Housekeeping Practice 
+ 
+SAFETY 
+ Ensure retail store 
+housekeeping report is 
+private and confidential 
+ 
+ENVIRONMENT 
+  N/A 
+4.1 Housekeeping activit ies type 
+identified 
+4.2 Pest control function 
+identified 
+4.3 Housekeeping procedure 
+elaborated 
+4.4 Back end cleanliness verified 
+4.5 Sales floor cleanliness verified 
+4.6 Front end cleanliness verified 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== [PAGE 63] =====
+56 
+ 
+Employability Skills  
+ 
+Core Abilities 
+ Utilize database applications to locate and process information   
+ Utilize spreadsheets applications to locate and process information  
+ Utilize business graphic application to process information  
+ Apply a variety of mathematical techniques  
+ Apply thinking skills and creativity 
+ Prepare flowcharts 
+ Prepare reports and instructions 
+ Convey information and ideas to people 
+ Manage and improve performance of individuals 
+ Provide consultation and counselling 
+ Monitor and evaluate performance of human resources 
+ Provide coaching/on-the job training 
+ Develop and maintain team harmony and resolve conflicts 
+ Facilitate and coordinate teams and ideas 
+ Liaise to achieve identified outcomes 
+ 
+Social Values & Social Skills 
+ Communication skills 
+ Conceptual skills 
+ Interpersonal skills 
+ Learning skills 
+ Leadership skills 
+ Multitasking and priotizing 
+ Self – discipline  
+ Teamwork 
+ 
+ 
+ 
+ 
+
+===== [PAGE 64] =====
+57 
+ 
+References for Learning Material Development 
+ 
+1 Vishal Agrawal (2011) Retail Store Operations, Dreamtech Press; 2nd Edition, ISBN-13: 978-8177225167. 
+2 Mancomm (2017) OSHA General Industry CFR 1910 Standards and Regulations, Mancomm Publisher; ISBN-13: 978-1599597751 
+3 Shyam Bhatawdekar and Dr Kalpana Bhatawdeka (2012) Essentials of 5S Housekeeping (Essentials of a Subject) (Volume 3) 
+CreateSpace Independent Publishing Platform, ISBN-13: 978-1481010818 
+4 Marshall Fisher, Ananth Raman (2010), The New Science of Retailing: How Analytics are Transforming the Supply Chain and Improving 
+Performance, Harvard Business Review Press, ISBN-13: 978-1422110577 
+5 Michael Levy, Barton A.Weitz (2012), Retail Management, Eight Edition, The McGraw-Hill Companies, ISBN: 978-1259010170. 
+Lembaga Penyelidikan Undang-undang (2008), Akta Keselamatan dan Kesihatan Pekerjaan 1994 (Akta 514), International Law Book 
+Services, ISBN 13: 967-8914948 
+ 
+
+===== [PAGE 65] =====
+58 
+ 
+16. Delivery Mode 
+ 
+The following are the recommended training delivery modes: 
+ 
+KNOWLEDGE SKILL 
+ Lecture 
+ Group discussion 
+ E-learning, self-paced 
+ E-learning, facilitate 
+ Case study or Problem based learning (PBL) 
+ Self-paced learning, non-electronic 
+ One-on-one tutorial 
+ Shop talk 
+ Seminar 
+ Demonstration 
+ Simulation 
+ Project  
+ Scenario based training (SBT) 
+ Role play 
+ Coaching  
+ Observation 
+ Mentoring 
+ 
+ 
+
+===== [PAGE 66] =====
+59 
+ 
+17. Tools, Equipment and Materials (TEM)  
+RETAIL OUTLET OPERATIONS 
+ LEVEL 3 
+ 
+CU 
+No. 
+CU CODE COMPETENCY UNIT TITLE 
+CU1  G471-001-3:2018-C01 Back End Operations 
+CU2  G471-001-3:2018-C02 Sales Floor Operations 
+CU3  G471-001-3:2018-C03 Front End Services 
+CU4  G471-001-3:2018-C04 Retail Outlet Supervision 
+CU5  G471-001-3:2018-C05 Retail Outlet Security, Safety and Hygiene Practice 
+ 
+* Items listed refer to TEM’s minimum requirement for skills delivery only. 
+ 
+No ITEM* RATIO  
+(TEM : Trainees) 
+CU1 CU2 CU3 CU4 CU5 
+A. Tools  Tick () where relevant 
+1  Housekeeping tools 1:5      
+B. Equipment  Tick () where relevant 
+1  Product display fixtures 1:5      
+2  Customer bulletin board 1:5      
+3  Electronic payment device 1:25      
+4  POS system cash register 1:25      
+5  Hand Held Terminal 1:25      
+6  Computer 1:5      
+7  Printer 1:5      
+8  Shopping equipment 1:25      
+C. Materials  Tick () where relevant 
+1  Stock card 1:1      
+2  Sample of Retail store SOP 1:1      
+3  Sample of Good Receive Note 1:1      
+
+===== [PAGE 67] =====
+60 
+ 
+4  Guideline of Food and Hygiene 1:1      
+5  Drug and Poison Act 1:1      
+6  Sample of Delivery Order 1:1      
+7  Sample of Invoice 1:1      
+8  Sample of retail store plan layout 1:1      
+9  Sample of stock count sheet 1:1      
+10  Sample of promotion material 1:1      
+11  Sample of GST form 1:1      
+12  Sample of customer return form 1:1      
+13  Sample of customer complaint form 1:1      
+14  Sample of customer enquiry form 1:1      
+15  Sample of loyalty card 1:1      
+16  Sample of customer voucher 1:1      
+17  Sample of retail store policy 1:1      
+18  Sample of employee handbook 1:1      
+19  Manual of Good Hygiene Practice 1:1      
+20  Sample of vendor agreement 1:1      
+21  Visual of CCTV 1:1      
+22  Visual of Fire Prevention System 1:1      
+23  Malaysian Standard  1:1      
+24  Manual of Crisis Management 1:1      
+25  Sample of non – trade items 1:1      
+26  Sample of product for display 1:1      
+ 
+
+===== [PAGE 68] =====
+61 
+ 
+18. Training Hour Summary 
+ 
+The following table shows the nominal training hours based on recommendations made by the St andard Development Committee 
+(SDC). For purpose of Malaysia n Skills Certification through accredited centre training, the program duration is subject to Malaysi an 
+Skills Certification System. 
+RETAIL OUTLET OPERATIONS 
+NOSS LEVEL 3 
+ 
+CU CODE COMPETENCY UNIT 
+TITLE 
+WORK ACTIVITIES RELATED 
+KNOWLEDGE 
+(HOURS) 
+RELATED 
+SKILLS 
+(HOURS) 
+TRAINING 
+DURATION 
+(HOURS) 
+SKILLS 
+CREDIT 
+ G471-001-
+3:2018-C01 Back End Operations 
+Prepare back end 
+documentation 12 18 
+420 42 
+Carry out back end 
+stock take 18 36 
+Carry out stock 
+ordering 18 36 
+Carry out stock 
+receiving 18 36 
+Carry out stock 
+arrangement 18 36 
+Carry out stock transfer 12 30 
+Carry out product 
+return 18 36 
+Carry out product 
+disposal 18 36 
+Produce back end 
+reports 6 18 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Prepare product 
+merchandising 18 36  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Carry out product 
+merchandising 24 48 
+Update selling floor 18 36 
+
+===== [PAGE 69] =====
+62 
+ 
+ 
+G471-001-
+3:2018-C02 
+ 
+Sales Floor Operations 
+stock status  
+300 
+ 
+30 Carry out selling floor 
+stock take 18 42 
+Produce sales floor 
+operations reports 12 30 
+ G471-001-
+3:2018-C03 Front End Services 
+Carry out retail store 
+sales floor inspection 18 36 
+360 36 
+Carry out customer 
+information services 18 36 
+Carry out front end 
+customer services 18 36 
+Check retail store 
+shopping equipment  12 24 
+Handle customer item 
+exchange and refund 12 24 
+Handle customer 
+enquiries, complaints 
+and feedback 
+18 36 
+Carry out retail store 
+cashiering 18 36 
+Produce front end 
+services reports 6 12 
+ G471-001-
+3:2018-C04 
+Retail Outlet 
+Supervision 
+Prepare staff work 
+schedule 12 24 
+270 27 
+Conduct staff briefing 
+and meeting 18 36 
+Carry out staff 
+coaching 18 36 
+Monitor staff 
+performance 18 36 
+ 
+ 
+ 
+ 
+ 
+ 
+Check retail store 
+maintenance and 
+utilities services  
+24 48 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== [PAGE 70] =====
+63 
+ 
+ G471-001-
+3:2018-C05 
+Retail Outlet Security, 
+Safety and Hygiene 
+Practice 
+Check retail store 
+hygiene practice 18 42  252 25 
+Monitor retail store 
+security and safety 
+practice 
+24 48 
+Monitor retail store 
+house keeping 18  42 
+TOTAL HOURS (CORE COMPETENCY) 534 1068  1602 160 
+ 

@@ -1,0 +1,154 @@
+<!-- JPK_ENVELOPE_v1 -->
+<table border="0" cellspacing="0" cellpadding="8" width="100%">
+<tr>
+<td width="130" valign="top"><img src="../_assets/logos/jpk-logo.png" alt="JPK Logo" width="110"></td>
+<td valign="middle">
+<b>JABATAN PEMBANGUNAN KEMAHIRAN (JPK)</b><br>
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,<br>
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,<br>
+62530 PUTRAJAYA
+</td>
+</tr>
+</table>
+
+## KERTAS PENERANGAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | IT-020-3:2013 OPERASI SISTEM KOMPUTER |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | IT-020-3:2013-C01 COMPUTER SYSTEM SET-UP |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. ANALYSE JOB ORDER/CHANGE REQUEST<br>2. PREPARE COMPUTER SET-UP TOOLS, COMPUTER HARDWARE PARTS AND COMPUTER SOFTWARE<br>3. SET-UP COMPUTER HARDWARE<br>4. CARRY OUT COMPUTER SOFTWARE INSTALLATION<br>5. SET-UP COMPUTER PERIPHERALS<br>6. CARRY OUT UNIT FUNCTIONALITY TEST<br>7. PREPARE COMPUTER SET-UP REPORT |
+| NO. KOD | IT-020-3:2013-C01/KP(7/7) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | PUTIH (White) |
+
+**TAJUK:** KP-07-computer-system-set-up-documentation-reporting
+
+**TUJUAN:** Kertas rujukan untuk KP-07-computer-system-set-up-documentation-reporting.
+
+<!-- /JPK_ENVELOPE_v1 -->
+## Objektif Pembelajaran / Learning Objectives
+
+Upon completion of this Information Sheet, trainees shall be able to:
+
+1. Explain the purpose and importance of the computer system set-up report
+2. Describe the contents and structure of a set-up report
+3. Identify the information that must be recorded for each hardware and software component
+4. State the procedures for report sign-off and user handover
+
+---
+
+## 1.0 Introduction
+
+The computer system set-up report is the formal documentation that records everything about the completed set-up. It serves as a reference for future maintenance, troubleshooting, and audit. Accurate and complete documentation demonstrates professionalism and supports the organisation's IT asset management.
+
+---
+
+## 2.0 Purpose of the Set-up Report
+
+- **Traceability:** Links the completed system to the original job request
+- **Asset management:** Records serial numbers, licence keys, and configurations for the asset register
+- **Troubleshooting:** Provides baseline configuration data for future fault diagnosis
+- **Accountability:** Documents who performed the set-up and who accepted the system
+- **Compliance:** Meets organisational and JPK requirements for documentation
+
+---
+
+## 3.0 Report Contents
+
+A complete set-up report includes the following sections:
+
+### 3.1 Header Information
+
+| Field | Content |
+|-------|---------|
+| Job request number | Reference to the original job request |
+| Date completed | Date the set-up was finished |
+| Technician name | Name and ID of the technician who performed the set-up |
+| Location | Where the system is deployed (room, desk, rack position) |
+
+### 3.2 Hardware Configuration
+
+| Item | Details to Record |
+|------|-------------------|
+| CPU | Model, speed, socket type, serial number |
+| RAM | Total capacity, speed, number of modules, configuration (dual-channel) |
+| Motherboard | Model, serial number, BIOS/UEFI version |
+| Storage | Drive type (HDD/SSD/NVMe), capacity, model, serial number, partition layout |
+| PSU | Wattage, model, certification (80 Plus rating) |
+| GPU | Model, VRAM (if discrete GPU installed) |
+| Case | Model, form factor |
+| Peripherals | Monitor model/serial, keyboard, mouse, printer (with serial numbers) |
+
+### 3.3 Software Configuration
+
+| Item | Details to Record |
+|------|-------------------|
+| Operating system | Name, version, edition, build number, licence key |
+| Drivers | List of installed drivers with version numbers |
+| Applications | List of installed applications with version numbers and licence keys |
+| BIOS/UEFI settings | Non-default settings (boot order, secure boot, XMP, TPM status) |
+
+### 3.4 Network Configuration
+
+| Item | Details to Record |
+|------|-------------------|
+| IP address | Static or DHCP; the assigned IP address |
+| Subnet mask | Network mask |
+| Default gateway | Gateway IP address |
+| DNS servers | Primary and secondary DNS addresses |
+| Domain | Domain name if joined to a domain |
+| Computer name | The hostname assigned to the system |
+
+### 3.5 Test Results
+
+- Summary of functionality test results (pass/fail for each test category)
+- Device Manager screenshot showing all recognised devices
+- Temperature readings during stress test
+- Notes on any issues encountered and how they were resolved
+
+### 3.6 Deviations
+
+- Any differences between the original job request and the final set-up
+- Explanation for each deviation (e.g. part substitution due to stock)
+- Approval for deviations (if applicable)
+
+### 3.7 Sign-off
+
+| Signature | Name | Date |
+|-----------|------|------|
+| Technician | | |
+| Senior technician / Supervisor | | |
+| User / Client | | |
+
+---
+
+## 4.0 Supporting Attachments
+
+The following should be attached or referenced in the report:
+
+- Device Manager screenshot
+- Photos of hardware configuration and cable management
+- Bill of materials with actual parts used
+- Test result logs
+
+---
+
+## 5.0 User Handover
+
+The handover process includes:
+
+1. Walk the user through the system -- show hardware location, power button, peripherals
+2. Explain any special configuration (e.g. dual-boot, VPN)
+3. Provide support contact information
+4. Obtain user sign-off on the set-up report
+5. File the report in the organisational records system
+
+---
+
+## Rujukan / References
+
+- NOSS IT-020-3:2013 Computer System Operation -- CoCu 1
+- Organisational IT asset management and documentation policy
+- CompTIA A+ Certification Study Guide -- Documentation and Professionalism

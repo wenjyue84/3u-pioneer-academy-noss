@@ -1,0 +1,66 @@
+[
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-b-skema.md.",
+    "evidence": "| **SENARAI KOMPETENSI ELEKTIF** | E01 INVENTORY CONTROL |",
+    "line": 19
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded but its title 'INVENTORY CONTROL' still appears in fb-018-3-set-b-skema.md.",
+    "evidence": "INVENTORY CONTROL",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-b-soalan.md.",
+    "evidence": "| **SENARAI KOMPETENSI ELEKTIF** | E01 INVENTORY CONTROL |",
+    "line": 9
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded but its title 'INVENTORY CONTROL' still appears in fb-018-3-set-b-soalan.md.",
+    "evidence": "INVENTORY CONTROL",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V06",
+    "severity": "error",
+    "message": "cover lists E01, which the profile does not assess.",
+    "evidence": "fb-018-3-set-b-skema.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V06",
+    "severity": "error",
+    "message": "cover lists E01, which the profile does not assess.",
+    "evidence": "fb-018-3-set-b-soalan.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "warn",
+    "message": "page count is hardcoded to 16; verify it against the rendered PDF.",
+    "evidence": "MENGANDUNGI 16 MUKA SURAT",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "warn",
+    "message": "page count is hardcoded to 12; verify it against the rendered PDF.",
+    "evidence": "MENGANDUNGI 12 MUKA SURAT",
+    "line": null
+  }
+]

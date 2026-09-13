@@ -1,0 +1,547 @@
+{
+  "version": 1,
+  "seededAt": "2026-08-23T23:30:00+08:00",
+  "projects": [
+    {
+      "id": "ppt-ppa",
+      "tab": "PPT-PPA 考卷",
+      "name": "PPT-PPA 实操考卷开发",
+      "client": "Character Intl. Academy Sdn. Bhd.",
+      "contact": "Jennifer (Tan Siow Inn) · +60 12-611 1677",
+      "goal": "开发 JPK PPT-PPA 实操考卷 → Panel Soalan 审核签名 → 提交 pentauliahan 申请",
+      "examDuration": "3 小时",
+      "deadline": "",
+      "deadlineNote": "⚠️ Jennifer 只说「下个星期四」，未给日期 —— 可能是 2026-08-27（剩 4 天）或 2026-09-03（剩 11 天），差 7 天，未确认。提交前还须 Panel Soalan 审核签名，实际死线更早。",
+      "driveFolder": "11ATUjjbzsg7lbnZIRblc9x1ejoTlMHRg",
+      "completeRule": "以 NOSS 计：每个 Level 需 Set A + Set B + relative attachment（Jennifer 2026-08-23 定义）",
+      "matrix": {
+        "rowLabel": "NOSS / Level",
+        "groups": [
+          "SET A",
+          "SET B"
+        ],
+        "cols": [
+          "SOALAN",
+          "SKEMA",
+          "ANSWER SHEET",
+          "EQUIPMENT"
+        ]
+      },
+      "courses": [
+        {
+          "code": "FB-018-3:2012",
+          "name": "Sales & Marketing Operation",
+          "level": "L3",
+          "driveFolder": "1grg0ck28lAZHeMhmVB7g1vh4V80NlY_o",
+          "note": "Jennifer 自备 SET A（已通过）；我方补 SET B。此 Level 已齐。",
+          "cells": {
+            "SET A|SOALAN": {
+              "status": "approved",
+              "owner": "Jennifer",
+              "pages": 14,
+              "declared": 13,
+              "fileId": "1aXOCpgJaT5grOt7ER7MKH8QuGF6tGXFn",
+              "issues": [
+                "D1 页数声明错 −1"
+              ]
+            },
+            "SET A|SKEMA": {
+              "status": "approved",
+              "owner": "Jennifer",
+              "pages": 11,
+              "declared": 14,
+              "fileId": "1TwY-fPMkviqWlhYIFOemOWvafby1PelR",
+              "issues": [
+                "D1 页数声明错 +3",
+                "D2 E01 声明却无题",
+                "D3 封面缺 E01 代码",
+                "D4 拼写 Terlibut"
+              ]
+            },
+            "SET A|ANSWER SHEET": {
+              "status": "approved",
+              "owner": "Jennifer",
+              "fileId": "17OhhRHGcWVdHu31z4WhRMGhew2DrRetN",
+              "issues": []
+            },
+            "SET A|EQUIPMENT": {
+              "status": "approved",
+              "owner": "Jennifer",
+              "fileId": "1hDi-MSwvSH4vy629B37uUyTKXdOaRhHP",
+              "issues": []
+            },
+            "SET B|SOALAN": {
+              "status": "uploaded",
+              "owner": "我方",
+              "pages": 14,
+              "declared": 14,
+              "fileId": "1cOCUetSutESp0CTtOOqgoSdnPhSrIu1L",
+              "issues": []
+            },
+            "SET B|SKEMA": {
+              "status": "uploaded",
+              "owner": "我方",
+              "pages": 24,
+              "declared": 24,
+              "fileId": "1315CZJbdvKbna_cffAzy_lvETreBsQ2n",
+              "issues": []
+            },
+            "SET B|ANSWER SHEET": {
+              "status": "uploaded",
+              "owner": "我方",
+              "pages": 4,
+              "fileId": "1U_LvxlDVArEZuZjqNtR7erQK2_0_e0r1",
+              "issues": []
+            },
+            "SET B|EQUIPMENT": {
+              "status": "uploaded",
+              "owner": "我方",
+              "pages": 4,
+              "fileId": "1rsEHEAh9tLgBSUOnjuebjssbHV7bAH6J",
+              "issues": []
+            }
+          }
+        },
+        {
+          "code": "N821-001-3:2020",
+          "name": "Office Administration",
+          "level": "L3",
+          "driveFolder": "169-72I6UsuhSU55ExxVUDfSNzgmonCf1",
+          "note": "7 个 CU（C01–C07），我方全新开发 SET A。SET B 未做。",
+          "cells": {
+            "SET A|SOALAN": {
+              "status": "uploaded",
+              "owner": "我方",
+              "pages": 20,
+              "declared": 20,
+              "fileId": "1e_xZzCQxyNWAp_8ZJZH9U2RLWWDEje2O",
+              "issues": []
+            },
+            "SET A|SKEMA": {
+              "status": "uploaded",
+              "owner": "我方",
+              "pages": 19,
+              "declared": 19,
+              "fileId": "10u8OvIkKWgPYHHFVOvTSX3DrvgRBIk1o",
+              "issues": []
+            },
+            "SET A|ANSWER SHEET": {
+              "status": "uploaded",
+              "owner": "我方",
+              "pages": 4,
+              "fileId": "1WvB-22ZGA83GFwC0SmZe7QlP63amjOv4",
+              "issues": []
+            },
+            "SET A|EQUIPMENT": {
+              "status": "uploaded",
+              "owner": "我方",
+              "pages": 5,
+              "fileId": "1bFwSZuGjR-TTJtfmYwMqiCCOmcoLMWNM",
+              "issues": []
+            },
+            "SET B|SOALAN": {
+              "status": "none"
+            },
+            "SET B|SKEMA": {
+              "status": "none"
+            },
+            "SET B|ANSWER SHEET": {
+              "status": "none"
+            },
+            "SET B|EQUIPMENT": {
+              "status": "none"
+            }
+          }
+        },
+        {
+          "code": "FB-018-45:2012",
+          "name": "Sales & Marketing Management",
+          "level": "L4",
+          "driveFolder": "1wUQAjssYsz82dfszg_QaUjFYH9w4RZNb",
+          "note": "Drive 内无任何题目。属「完整 Sales & Marketing」的一部分。",
+          "cells": {
+            "SET A|SOALAN": {
+              "status": "none"
+            },
+            "SET A|SKEMA": {
+              "status": "none"
+            },
+            "SET A|ANSWER SHEET": {
+              "status": "none"
+            },
+            "SET A|EQUIPMENT": {
+              "status": "none"
+            },
+            "SET B|SOALAN": {
+              "status": "none"
+            },
+            "SET B|SKEMA": {
+              "status": "none"
+            },
+            "SET B|ANSWER SHEET": {
+              "status": "none"
+            },
+            "SET B|EQUIPMENT": {
+              "status": "none"
+            }
+          }
+        },
+        {
+          "code": "FB-018-45:2012",
+          "name": "Sales & Marketing Management",
+          "level": "L5",
+          "driveFolder": "1wUQAjssYsz82dfszg_QaUjFYH9w4RZNb",
+          "note": "Drive 内无任何题目。属「完整 Sales & Marketing」的一部分。",
+          "cells": {
+            "SET A|SOALAN": {
+              "status": "none"
+            },
+            "SET A|SKEMA": {
+              "status": "none"
+            },
+            "SET A|ANSWER SHEET": {
+              "status": "none"
+            },
+            "SET A|EQUIPMENT": {
+              "status": "none"
+            },
+            "SET B|SOALAN": {
+              "status": "none"
+            },
+            "SET B|SKEMA": {
+              "status": "none"
+            },
+            "SET B|ANSWER SHEET": {
+              "status": "none"
+            },
+            "SET B|EQUIPMENT": {
+              "status": "none"
+            }
+          }
+        },
+        {
+          "code": "M731-001-3:2021",
+          "name": "Digital Marketing Operation",
+          "level": "L3",
+          "driveFolder": "1UVrPhmrG0dkE-2YbSeFcQCzT-JZH_h30",
+          "note": "NOSS PDF 已读。取代旧 proposal 误用的 DM-001-3:2026（JPK 不存在该编码）。",
+          "cells": {
+            "SET A|SOALAN": {
+              "status": "none"
+            },
+            "SET A|SKEMA": {
+              "status": "none"
+            },
+            "SET A|ANSWER SHEET": {
+              "status": "none"
+            },
+            "SET A|EQUIPMENT": {
+              "status": "none"
+            },
+            "SET B|SOALAN": {
+              "status": "none"
+            },
+            "SET B|SKEMA": {
+              "status": "none"
+            },
+            "SET B|ANSWER SHEET": {
+              "status": "none"
+            },
+            "SET B|EQUIPMENT": {
+              "status": "none"
+            }
+          }
+        },
+        {
+          "code": "G471-001-3:2018",
+          "name": "Retail Outlet Operations",
+          "level": "L3",
+          "driveFolder": "1w_BdONXPVyTBVDUQOUv7dKCkq3K8RQOn",
+          "note": "NOSS PDF 已读，未动。",
+          "cells": {
+            "SET A|SOALAN": {
+              "status": "none"
+            },
+            "SET A|SKEMA": {
+              "status": "none"
+            },
+            "SET A|ANSWER SHEET": {
+              "status": "none"
+            },
+            "SET A|EQUIPMENT": {
+              "status": "none"
+            },
+            "SET B|SOALAN": {
+              "status": "none"
+            },
+            "SET B|SKEMA": {
+              "status": "none"
+            },
+            "SET B|ANSWER SHEET": {
+              "status": "none"
+            },
+            "SET B|EQUIPMENT": {
+              "status": "none"
+            }
+          }
+        }
+      ],
+      "blockers": [
+        {
+          "sev": "high",
+          "who": "Jennifer",
+          "q": "下周四交的是「完整 3 Level 的 Sales & Marketing」还是「按 Level 拆开申请」？",
+          "why": "决定本周是否要赶 FB-018-45 L4/L5 共 8 份。答案不同工作量差 8 倍。",
+          "since": "2026-08-23"
+        },
+        {
+          "sev": "high",
+          "who": "Jennifer → PPL",
+          "q": "R1：C02/C03/C06 只靠口试、无实作，是否满足 JPK 对 Penilaian Amali 的要求？",
+          "why": "此缺陷源自她已通过的 SET A，我方 SET B 沿用同结构。若 Panel 挑出，两份一起挂。",
+          "since": "2026-08-21"
+        },
+        {
+          "sev": "med",
+          "who": "Jennifer",
+          "q": "她的 SET A 要不要一并修（D1 页数、D2 E01 无题、D3 缺代码、D4 拼写）？",
+          "why": "我方 SET B 已修，她的 SET A 未修。两份同时送 Panel 会显出不一致。",
+          "since": "2026-08-21"
+        },
+        {
+          "sev": "med",
+          "who": "Jennifer",
+          "q": "Character 的 pentauliahan 涵盖哪些 NOSS（N821 / M731 / G471）？",
+          "why": "pentauliahan 按 programme 发放，Beauty(S960-002) 不自动覆盖其他。没答案就有做白工风险。",
+          "since": "2026-07-24"
+        }
+      ],
+      "refs": [
+        {
+          "label": "已批准格式基准：Beauty L1/L2/L3 全套（S960-002 系列）",
+          "id": "1pqZbaTSER1j-5J_VsnyJysKk8dHeO0RT"
+        },
+        {
+          "label": "TO DEVELOP SOALAN 文件夹",
+          "id": "16XyTxJ5pCLre8fle2NnNJsWGbfQd1tkK"
+        }
+      ]
+    },
+    {
+      "id": "wim",
+      "tab": "WIM 教材",
+      "name": "WIM 教材生成（Written Instructional Materials）",
+      "client": "3U Pioneer Academy Sdn Bhd",
+      "contact": "Jennifer · +60 12-611 1677",
+      "goal": "把 NOSS 标准转成 JPK 格式 WIM，作为 pentauliahan 的强制教学材料",
+      "examDuration": "—",
+      "deadline": "",
+      "deadlineNote": "无硬性截止（PTPK 线已于 2026-08-21 关闭，不再追踪）",
+      "driveFolder": "",
+      "completeRule": "每个 CU 需 7 种文档：PM-teori · KP · KT · PM-amali · KK · KA · PA",
+      "matrix": {
+        "rowLabel": "科目 / NOSS",
+        "groups": [
+          ""
+        ],
+        "cols": [
+          "NOSS 提取",
+          "JPW 分配",
+          "KP/KT",
+          "KK/PA",
+          "JPK 封套"
+        ]
+      },
+      "courses": [
+        {
+          "code": "MP-031-3:2016",
+          "name": "Tuinalogy 推拿疗法",
+          "level": "L3",
+          "note": "简体中文 + 中英马术语。孕期禁忌五穴规则必须保留。",
+          "cells": {
+            "|NOSS 提取": {
+              "status": "approved"
+            },
+            "|JPW 分配": {
+              "status": "approved"
+            },
+            "|KP/KT": {
+              "status": "approved"
+            },
+            "|KK/PA": {
+              "status": "approved"
+            },
+            "|JPK 封套": {
+              "status": "approved"
+            }
+          }
+        },
+        {
+          "code": "S960-002-3:2020",
+          "name": "Aesthetic Services",
+          "level": "L3",
+          "note": "内容完成，封套已套。",
+          "cells": {
+            "|NOSS 提取": {
+              "status": "approved"
+            },
+            "|JPW 分配": {
+              "status": "approved"
+            },
+            "|KP/KT": {
+              "status": "approved"
+            },
+            "|KK/PA": {
+              "status": "approved"
+            },
+            "|JPK 封套": {
+              "status": "approved"
+            }
+          }
+        },
+        {
+          "code": "G452-010-3:2023",
+          "name": "BEV Diagnostic & Rectification",
+          "level": "L3",
+          "note": "内容完成，封套已套。",
+          "cells": {
+            "|NOSS 提取": {
+              "status": "approved"
+            },
+            "|JPW 分配": {
+              "status": "approved"
+            },
+            "|KP/KT": {
+              "status": "approved"
+            },
+            "|KK/PA": {
+              "status": "approved"
+            },
+            "|JPK 封套": {
+              "status": "approved"
+            }
+          }
+        },
+        {
+          "code": "IT-020-3/4/5:2013",
+          "name": "IT Computer System",
+          "level": "L3/4/5",
+          "note": "L3 为主。内容完成，封套已套。",
+          "cells": {
+            "|NOSS 提取": {
+              "status": "approved"
+            },
+            "|JPW 分配": {
+              "status": "approved"
+            },
+            "|KP/KT": {
+              "status": "approved"
+            },
+            "|KK/PA": {
+              "status": "approved"
+            },
+            "|JPK 封套": {
+              "status": "approved"
+            }
+          }
+        },
+        {
+          "code": "DM-001-3:2026",
+          "name": "AI-Powered Digital Marketing",
+          "level": "L3",
+          "note": "⚠️ 此 NOSS 编码在 JPK 不存在，正确应为 M731-001-3:2021。55 个 WIM 文件已盖章。",
+          "cells": {
+            "|NOSS 提取": {
+              "status": "issue"
+            },
+            "|JPW 分配": {
+              "status": "uploaded"
+            },
+            "|KP/KT": {
+              "status": "uploaded"
+            },
+            "|KK/PA": {
+              "status": "draft"
+            },
+            "|JPK 封套": {
+              "status": "approved"
+            }
+          }
+        },
+        {
+          "code": "J582-001-3:2019",
+          "name": "Multimedia Interactive Design",
+          "level": "L3",
+          "note": "COPTPA 2023，进行中。",
+          "cells": {
+            "|NOSS 提取": {
+              "status": "approved"
+            },
+            "|JPW 分配": {
+              "status": "uploaded"
+            },
+            "|KP/KT": {
+              "status": "draft"
+            },
+            "|KK/PA": {
+              "status": "none"
+            },
+            "|JPK 封套": {
+              "status": "none"
+            }
+          }
+        },
+        {
+          "code": "J582-001-4:2025",
+          "name": "Creative Multimedia Development",
+          "level": "L4",
+          "note": "Stub —— 等 NOSS PDF。",
+          "cells": {
+            "|NOSS 提取": {
+              "status": "none"
+            },
+            "|JPW 分配": {
+              "status": "none"
+            },
+            "|KP/KT": {
+              "status": "none"
+            },
+            "|KK/PA": {
+              "status": "none"
+            },
+            "|JPK 封套": {
+              "status": "none"
+            }
+          }
+        }
+      ],
+      "blockers": [
+        {
+          "sev": "med",
+          "who": "Jennifer",
+          "q": "J582-001-4:2025 的 NOSS 正本 PDF",
+          "why": "creative-multimedia-development 无 NOSS 就无法开工，目前只是 stub。",
+          "since": "2026-07-17"
+        },
+        {
+          "sev": "low",
+          "who": "Jay",
+          "q": "ai-digital-marketing 的 NOSS 编码要不要从 DM-001-3:2026 全量改为 M731-001-3:2021？",
+          "why": "DM- 前缀不合 JPK 格式且该编码不存在。55 个文件受影响。",
+          "since": "2026-08-20"
+        }
+      ],
+      "refs": [
+        {
+          "label": "Buku Panduan WIM Edisi 2020",
+          "url": "https://anyflip.com/jpvdh/aagk/basic"
+        },
+        {
+          "label": "MySPIKE 持牌中心查询",
+          "url": "https://www.myspike.my"
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-08-24T08:21:24+08:00"
+}

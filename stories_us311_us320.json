@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "Implement bilingual semantic equivalence validator for assessment sections",
+      "priority": "high",
+      "description": "Validate that assessment sections are semantically equivalent between English and Bahasa Malaysia across all 20 CoCu files using sentence-transformers embeddings. Detect translation gaps and misaligned competency descriptors that could cause JPK submission issues.",
+      "acceptanceCriteria": [
+        "Script loads all 20 CoCu markdown files from content/IT-020-{3,4,5}/, extracts assessment section pairs (EN/BM), embeds with sentence-transformers, calculates cosine similarity",
+        "Outputs JSON to output/bilingual_semantic_variance_report.json with per-CoCu similarity scores; flags pairs below 0.85 threshold with line numbers for manual review",
+        "CLI: `uv run scripts/validate_bilingual_assessments.py --threshold 0.85 --output output/bilingual_semantic_variance_report.json` with exit code 0 if all ≥0.85, exit 1 if mismatches found"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral-noss"
+    },
+    {
+      "title": "Create learning outcome coverage analyzer to validate exercise/assessment pairing",
+      "priority": "high",
+      "description": "Ensure every learning outcome defined in the learning outcome matrix has at least one linked practical exercise AND one assessment item. Report coverage percentage and identify orphaned outcomes across all levels.",
+      "acceptanceCriteria": [
+        "Script parses learning outcome matrices from all 20 CoCu files, extracts outcome IDs/descriptions, cross-references against practical exercise sections and assessment criteria sections",
+        "Outputs coverage_report.json to output/ with per-CoCu statistics (total outcomes, covered outcomes, %) and uncovered_outcomes.json listing all orphaned outcomes with file:linenum",
+        "CLI: `uv run scripts/analyze_outcome_coverage.py` reports coverage percentage; exits with 0 if ≥95%, exits 1 if <95% with summary to stderr"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral-noss"
+    },
+    {
+      "title": "Develop cognitive load analyzer using readability metrics and passive voice detection",
+      "priority": "medium",
+      "description": "Scan all CoCu descriptions (key terms, hardware/software components) to flag overly complex language that exceeds the intended cognitive level. Use Flesch-Kincaid grade level and passive voice metrics.",
+      "acceptanceCriteria": [
+        "Script runs textstat library on key_terms and hardware/software descriptions in all 20 CoCu files; extracts grade level and passive voice percentage; flags grade >12 or passive >30%",
+        "Outputs readability_report.csv to output/ with columns: file, section, grade_level, passive_percent, flag_status; includes file:line for each flagged sentence",
+        "CLI: `uv run scripts/analyze_cognitive_load.py --max_grade 12 --max_passive 30` outputs summary counts and detailed CSV"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral-noss"
+    },
+    {
+      "title": "Build comprehensive JPK compliance checker with 25+ automated validations",
+      "priority": "high",
+      "description": "Automated validation of critical JPK requirements: NOSS header completeness, contact hour mathematics (L3=1200), 30/70 knowledge/performance split per competency, assessment allocation, bilingual title presence, and reference completeness.",
+      "acceptanceCriteria": [
+        "Script runs 25+ checks on all 20 CoCu files: (1-5) NOSS header table structure/presence/fields, (6-8) contact hour math for L3/L4/L5, (9-12) knowledge/performance allocation per CoCu, (13-16) bilingual title presence/format, (17-20) assessment section completeness, (21-25) references section presence/format",
+        "Outputs jpk_compliance_report.json to output/ with per-CoCu compliance status (pass/fail) and per-check details; generates jpk_compliance_summary.txt with red/yellow/green status",
+        "CLI: `uv run scripts/validate_jpk_compliance.py` exits 0 if all checks pass, exits 1 if any fail; outputs summary to stdout"
+      ],
+      "estimatedComplexity": "large",
+      "_source": "product-owner-spiral-noss"
+    },
+    {
+      "title": "Generate competency prerequisite DAG and visual dependency graph",
+      "priority": "medium",
+      "description": "Build a directed acyclic graph of competency prerequisites by analyzing learning outcome sequences across all levels. Detect circular dependencies and generate SVG visualization for instructor curriculum planning.",
+      "acceptanceCriteria": [
+        "Script extracts competency titles and learning outcomes from all 20 CoCu files, infers prerequisite relationships from outcome sequence within each level and cross-level progression (L3→L4→L5)",
+        "Outputs competency_prerequisites.json to output/ with adjacency structure; generates competency_graph.svg showing node colors (L3=blue, L4=green, L5=red) and detects/reports circular deps to stderr",
+        "CLI: `uv run scripts/build_competency_dag.py --format json,svg` generates both outputs; validates DAG structure with exit 1 if cycles detected"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral-noss"
+    },
+    {
+      "title": "Calculate assessment psychometrics (item difficulty, discrimination, Bloom's alignment)",
+      "priority": "medium",
+      "description": "Analyze assessment items across all CoCu files to extract Bloom's taxonomy distribution, estimate difficulty/discrimination indices, and validate alignment with learning outcomes. Ensure 10/20/30/25/15 split across Remember/Understand/Apply/Analyze/Evaluate.",
+      "acceptanceCriteria": [
+        "Script parses assessment criteria sections from all 20 CoCu files, classifies each assessment item by Bloom's 2023 taxonomy verb, calculates per-level distribution percentages",
+        "Outputs assessment_psychometrics.json to output/ with per-CoCu Bloom's distribution, flags deviations from target (10% Remember, 20% Understand, 30% Apply, 25% Analyze, 15% Evaluate), includes item-level metadata",
+        "CLI: `uv run scripts/analyze_assessment_psychometrics.py` generates report; exits 0 if distribution within ±5% of target, exits 1 if major deviations found"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral-noss"
+    },
+    {
+      "title": "Auto-generate Malaysian workplace integration scenarios for L5 capstone with SIRIM/BNM context",
+      "priority": "medium",
+      "description": "Create realistic IT workplace scenarios for L5 competencies that reference Malaysian industry standards (SIRIM, BNM, ISCO-08). Generate role cards, decision points, and assessment rubrics aligned to capstone project expectations.",
+      "acceptanceCriteria": [
+        "Script reads L5 learning outcomes from content/IT-020-5/*.md, generates 3-5 workplace scenario narratives per competency referencing actual SIRIM standards (SME1300, SME1345) or BNM guidelines",
+        "Outputs L5_workplace_scenarios.md to output/ with formatted scenarios including role cards (IT Manager, Network Admin, etc.), decision points, success criteria; includes references to ISCO-08 classification codes",
+        "CLI: `uv run scripts/generate_workplace_scenarios.py --level 5 --standard sirim,bnm,isco08` generates markdown with embedded rubric tables"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral-noss"
+    },
+    {
+      "title": "Validate bilingual glossary consistency across all 20 CoCu files",
+      "priority": "medium",
+      "description": "Identify inconsistent translations of key terms across all CoCu files. Detect cases where the same English term is translated differently in Bahasa Malaysia or where translations are missing entirely.",
+      "acceptanceCriteria": [
+        "Script extracts all key_terms sections from all 20 CoCu files, groups by English term, identifies variant BM translations and missing BM entries",
+        "Outputs glossary_variance_report.json to output/ with term entries showing all variant translations, frequency count per variant, and recommendation for standardized term",
+        "CLI: `uv run scripts/validate_glossary_consistency.py` generates report; flags terms with >1 variant translation or missing BM entries in output/glossary_inconsistencies.json"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner-spiral-noss"
+    },
+    {
+      "title": "Generate instructor facilitation guides with 50-minute session plans and talking points",
+      "priority": "medium",
+      "description": "Produce structured facilitation guides for each CoCu that map learning outcomes to 50-minute classroom sessions. Include timing breakdowns, discussion questions, common misconceptions, and assessment talking points.",
+      "acceptanceCriteria": [
+        "Script reads each CoCu's learning outcomes and practical exercises, generates session plans breaking content into 5-min intro, 30-min teaching+demo, 10-min practice, 5-min recap segments",
+        "Outputs facilitation guides as DOCX files per level (L3_facilitation_guides.docx, L4_facilitation_guides.docx, L5_facilitation_guides.docx) to output/ with instructor notes, Bloom's progression callouts, and formative assessment checkpoints",
+        "CLI: `uv run scripts/generate_facilitation_guides.py --output output/` generates three DOCX files; each includes 7-20 session plans depending on level CoCu count"
+      ],
+      "estimatedComplexity": "large",
+      "_source": "product-owner-spiral-noss"
+    },
+    {
+      "title": "Build DOCX quality metrics dashboard for accessibility and formatting compliance",
+      "priority": "medium",
+      "description": "Generate an interactive HTML dashboard analyzing all three NOSS .docx outputs (L3, L4, L5) for formatting consistency, heading hierarchy, image alt-text presence, and WCAG 2.1 AA color contrast compliance.",
+      "acceptanceCriteria": [
+        "Script reads generated DOCX files from output/, extracts formatting metadata (fonts, heading levels, colors, images), validates against NOSS standard (Arial 11pt, 1.5 line spacing, heading hierarchy)",
+        "Outputs docx_quality_dashboard.html to output/ with interactive HTML showing pass/fail per check, per-file; includes WCAG contrast ratio validation on all text colors and background combinations",
+        "CLI: `uv run scripts/generate_docx_quality_report.py --input output/NOSS-IT-020-*.docx` generates dashboard; exits 0 if all pass, exits 1 if accessibility issues detected; outputs summary to stdout"
+      ],
+      "estimatedComplexity": "large",
+      "_source": "product-owner-spiral-noss"
+    }
+  ]
+}

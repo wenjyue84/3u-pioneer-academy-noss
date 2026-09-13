@@ -27,8 +27,8 @@ def find_ka_files(patterns: list[str]) -> list[str]:
         else:
             p = Path(pattern)
             parent = p.parents[1] if len(p.parts) >= 3 else Path("it-computer-system")
-            fallback = str(parent / "L3-C0[2-4]" / "KA.md")
-            files.extend(glob_module.glob(fallback))
+            for cu in sorted((parent).glob("L3-C0[2-4]")):
+                files.extend(str(p) for p in cu.glob("KA*.md"))
     return sorted(set(files))
 
 

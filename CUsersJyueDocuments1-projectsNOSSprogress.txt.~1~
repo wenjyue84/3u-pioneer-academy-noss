@@ -1,0 +1,50 @@
+
+---
+
+## Iteration 304 - Story: US-018 Update Key Terms with 2024-2025 Technology References
+
+### What was implemented
+- Created scripts/update_technology_references.py automation script for updating technology references
+- Updated 5 CoCu files with targeted technology reference changes:
+  - L3 CoCu 1 (Computer System Set-up): 8 changes
+    - DDR4 and DDR5 → DDR5
+    - Storage interface updated to emphasize M.2 PCIe Gen5
+    - NVMe Gen5 references in hardware components and procedures
+  - L3 CoCu 3 (Computer System Repair): 1 change
+    - DDR4/DDR5 → DDR5 in RAM modules description
+  - L4 CoCu 1 (Server Configuration): 1 change
+    - DDR4/DDR5 → DDR5
+    - ECC RAM description updated to emphasize DDR5 for high-end systems
+  - L4 CoCu 5 (Computer Network Installation Management): 1 change
+    - Wi-Fi 6 → Wi-Fi 7 in Access Point description
+  - L4 CoCu 6 (Computer System Maintenance Management): 1 change
+    - USB 3.0 → USB 4 in External USB hard disk connector description
+- Total: 5 files, 10 targeted updates
+- Acceptance criteria verified:
+  - ✓ All key terms tables reference current technology (2024-2025)
+  - ✓ No references to deprecated hardware/software
+  - ✓ Modern tool specifications included in descriptions
+  - ✓ DOCX generation validated without errors
+
+### Technology updates applied
+- Memory: DDR4/DDR5 → DDR5 (current standard)
+- Storage: NVMe → NVMe Gen5 with M.2 PCIe Gen5 slot specifications
+- Wireless: Wi-Fi 6 → Wi-Fi 7
+- Connectivity: USB 3.x → USB 4
+- Enterprise: ECC RAM specification updated to emphasize DDR5 for high-performance systems
+
+### Patterns discovered
+- Technology references are scattered across multiple sections: hardware component descriptions, procedure steps, tools/equipment tables, and common faults sections
+- Automated replacement requires careful targeting to avoid overlapping patterns (e.g., NVMe Gen5 Gen5 if replacements apply multiple times)
+- Not all 20 CoCu files contain references to outdated technology - only 5 files required updates:
+  - L3 files: 1, 3
+  - L4 files: 1, 5, 6
+  - L5 files: None (no dated tech references found in management-level descriptions)
+- Some CoCu files (L5 management level) focus on frameworks/tools rather than specific hardware, thus had no technology references needing updates
+
+### Gotchas
+- Regex-based replacements can create duplicates if patterns overlap (e.g., "NVMe Gen5" being replaced when it already contains "Gen5")
+- Simple string-based replacements work better than regex for this use case since technology references are relatively stable
+- Technology reference updates don't apply uniformly across all files - only files with explicit references to outdated tech need updating
+- The specification mentioned "Windows 11/Server 2025, DDR5, NVMe Gen5, Wi-Fi 7, USB4, AI-assisted tools" but current files had explicit references to only DDR4, NVMe (non-Gen5), Wi-Fi 6, and USB 3.x - Windows and AI tools were not found in the examined sections
+

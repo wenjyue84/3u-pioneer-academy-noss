@@ -1,0 +1,183 @@
+# Apply NOSS: IT-020 Computer System Management
+
+**Status:** Active Development (In progress)  
+**Notion:** [Apply NOSS IT-020](https://www.notion.so/Apply-NOSS-IT-020-Computer-System-Management-9e9f17156dca436d845848ca90597701)  
+**AOR:** 3U Pioneer Academy  
+**WhatsApp group:** 商学院ADI IT Program → [[WhatsApp-Group-Reference-商学院ADI-IT-Program]]. Related docs → `From-WhatsApp/` (Computer L3 CoCu .doc/.pdf).
+
+---
+
+## Detailed description
+
+### What this project is
+
+Apply to **JPK (Jabatan Pembangunan Kemahiran)** under the Ministry of Human Resources (MOHR) so that **3U Pioneer Academy** can deliver and certify training under the **NOSS IT-020 series: Computer System Management**. NOSS (National Occupational Skills Standard) is Malaysia’s skills standard; training providers must be approved to run NOSS-based programmes. Approval is managed via **MySPIKE** (Malaysian Skills Integrated Management System): https://www.myspike.my
+
+### IT-020 series (scope)
+
+| Code | Level | Title (EN) |
+|------|--------|------------|
+| IT-020-3:2013 | Level 3 | Computer System *Operation* (Operasi Sistem Komputer) |
+| IT-020-4:2013 | Level 4 | Computer Systems *Administration* |
+| IT-020-5:2013 | Level 5 | Computer Systems *Management* (Pengurusan Sistem Komputer) |
+
+- **Level 3** typically includes competency units such as: Computer System Set-up, Maintenance, Repair, Server Installation/Maintenance, Network Connectivity Set-up, Mobile Device Configuration.
+- **Level 5** includes **Computer System Asset Management** (e.g. asset inventory, operational status, cost/space estimation, tagging, disposal, reporting); training duration for this unit is ~350 hours.
+
+The project aims to obtain NOSS approval for the **IT-020 series** (3, 4, 5) so 3U Pioneer Academy can run the ADI IT Program (商学院ADI IT Program) with nationally recognised certification.
+
+### Why now
+
+Align with **3U Pioneer Academy** timelines for offering the ADI IT programme under NOSS.
+
+### Goal
+
+Obtain NOSS approval for the **IT-020 series: Computer System Management** for 3U Pioneer Academy.
+
+### Status
+
+- **Notion:** In progress  
+- **STEM:** Yes | **HGHV:** Yes (designations to be confirmed against current JPK references)
+
+---
+
+## Next steps (what to do)
+
+### Immediate (foundation)
+
+1. **Retrieve official NOSS guidelines and application forms**  
+   Get current JPK/MySPIKE application pack and confirm latest version (forms, checklist, submission process).
+
+2. **Confirm designations**  
+   Confirm STEM and HGHV designation references for the IT-020 series (JPK/MySPIKE or DSD).
+
+3. **Lock application version and checklist**  
+   Fix which NOSS version (e.g. 2013) and which application form/checklist you will use for submission.
+
+### Curriculum and people
+
+4. **Map curriculum to competency units**  
+   Map 3U Pioneer Academy curriculum and facilities to **IT-020-3 / 4 / 5** competency units (use MySPIKE CPC / job descriptions: search “IT-020” on https://www.myspike.my).
+
+5. **Compile trainer TTT certs or equivalencies**  
+   Gather trainer qualifications and TTT (Train The Trainer) or equivalent certificates for the application.
+
+### Facilities and compliance
+
+6. **Inventory lab equipment vs requirement list**  
+   List existing lab equipment and software; compare against NOSS/JPK requirement list for IT-020 and identify gaps.
+
+7. **Prepare company documents**  
+   SSM, MSIC alignment, premise licence, safety/compliance docs as required by JPK for training provider approval.
+
+### Planning and review
+
+8. **Create submission checklist, timeline, and responsibilities**  
+   One-page checklist with dates and owners (who does what by when).
+
+9. **Schedule internal review**  
+   Meeting with Academics, Ops, and Compliance to review package before submission.
+
+10. **Draft assessment plan and tools**  
+    For each level (3, 4, 5): assessment plan and instruments aligned to NOSS competency units.
+
+---
+
+## Prepare a textbook following NOSS
+
+Use this section to guide building a **textbook / training manual** aligned to NOSS IT-020 so 3U Pioneer Academy can deliver competency-based training that matches JPK requirements.
+
+### NOSS textbook (3 codes)
+
+**[[NOSS-IT-020-Textbook/00-Index]]** — Textbook is a **folder** with one subfolder per code; each contains NOSS documents (contact hour + CoCu .md) in the same style as `From-WhatsApp/` but for IT content. **IT-020-3:** contact hour + 7 CoCu docs (full). **IT-020-4:** contact hour + 4 CoCu docs (templates). **IT-020-5:** contact hour + 2 CoCu docs (templates). Complete L4/L5 from MySPIKE CPC.
+
+### Source material (converted to Markdown)
+
+All documents in **`From-WhatsApp/`** have been converted to `.md` for easy editing and reference:
+
+| File | Use for textbook |
+|------|------------------|
+| [[10_CoCU Contact hour_Computer L3]] | **Contact-hour blueprint**: total 1200 hrs L3, 30% Knowledge / 70% Performance per competency unit. |
+| [[3_Computer L3_ CoCu 1  (pg 37 - 58)]] … [[9.Computer L3_ CoCu 7_(pg124-136)]] | **CoCu 1–7 content**: work activities, learning outcomes, and page ranges. *If .md shows a placeholder, open the original .doc in Word → Save As .docx → re-run `convert_to_md.py`.* |
+| [[Kitchen LV2 C01]] | **NOSS structure example**: program code, level, competency unit title, work activity statements, codes (e.g. C01/P(1/3)). Use as a template for layout and numbering. |
+
+- **Location:** `01 📋 PROJECTS/Apply NOSS IT-020 Computer System Management/From-WhatsApp/`
+- **Re-convert:** run `uv run --with pypdf --with python-docx convert_to_md.py` from the project folder (PDF and .docx are converted; legacy .doc need Word → docx first).
+
+### IT-020 Level 3 competency units (Computer System Operation)
+
+Use the contact-hour document and CoCu .md files to align each chapter to one competency unit:
+
+| CoCu | Competency unit | Contact hrs (L3) | % of 1200 |
+|------|-----------------|-----------------|-----------|
+| 1 | Computer System Set-up | 300 | 25% |
+| 2 | Computer System Maintenance | 120 | 10% |
+| 3 | Computer System Repair | 180 | 15% |
+| 4 | Server Installation | 240 | 20% |
+| 5 | Server Maintenance | 180 | 15% |
+| 6 | Computer Network Connectivity Set-up | 120 | 10% |
+| 7 | Mobile Device Configuration | 60 | 5% |
+| **Total** | | **1200** | 100% |
+
+- **Knowledge vs performance:** NOSS typically uses **30% theory (Knowledge)** and **70% practice (Performance)** per unit. Allocate each chapter’s contact hours accordingly (see work activities in the contact-hour .md).
+
+### How to structure the textbook (step-by-step)
+
+1. **One chapter per competency unit (CoCu)**  
+   Chapter 1 = CoCu 1 (Computer System Set-up), Chapter 2 = CoCu 2, … Chapter 7 = CoCu 7. Use the CoCu .md files as content sources.
+
+2. **Inside each chapter, follow NOSS elements:**
+   - **Program code and name:** e.g. IT-020-3:2013 Computer System Operation.
+   - **Level:** L3 (and L4/L5 if you extend later).
+   - **Competency unit title:** exact wording from NOSS (see contact-hour .md).
+   - **Work activity statements:** list from NOSS (e.g. “Analyse job request/change order”, “Set-up computer hardware”). Allocate % and contact hours per activity as in the contact-hour table.
+   - **Learning outcomes:** for each work activity, define what the trainee must **know** (Knowledge) and **do** (Performance). Map theory to ~30% and hands-on to ~70% of the unit’s hours.
+
+3. **Numbering and codes**  
+   Use the same style as the Kitchen example: e.g. **IT-020-3:2013 - CoCu 1 / P(1/3)** for CoCu 1, performance element 1 of 3. Keep a consistent code list so assessments and JPK submissions match.
+
+4. **Contact hours and appendix**  
+   - Include a **contact hour distribution** table (copy from [[10_CoCU Contact hour_Computer L3]]).
+   - Add an **appendix** with total hours per CoCu and per work activity so trainers and assessors can check coverage.
+
+5. **Assessment alignment**  
+   For each chapter, note which **knowledge** items are tested (e.g. written/short answer) and which **performance** items are tested (e.g. practical checklist). This will feed into your assessment plan (next step #10 above).
+
+6. **Quality check**  
+   - Cross-check every work activity in the NOSS CPC (MySPIKE) against your chapter headings and learning outcomes.  
+   - Ensure no NOSS work activity is missing and that contact hours add up to 1200 for L3.
+
+### Quick reference
+
+- **NOSS CPC / job descriptions:** https://www.myspike.my (search “IT-020”).  
+- **Contact hours and work activities:** [[10_CoCU Contact hour_Computer L3]].  
+- **CoCu content (chapters):** [[3_Computer L3_ CoCu 1  (pg 37 - 58)]], [[4. Computer L3_ CoCu 2_(pg 59 -73)]], … [[9.Computer L3_ CoCu 7_(pg124-136)]].  
+- **Layout/numbering example:** [[Kitchen LV2 C01]].
+
+---
+
+## Decision log
+
+| Date | Decision | Rationale |
+|------|----------|-----------|
+| — | — | — |
+
+---
+
+## Knowledge base (NotebookLM)
+
+- **ADI IT Program** — JPK/ADI programme, Skills4Johor, NOSS/SKM materials. [Open in NotebookLM](https://notebooklm.google.com/notebook/b6d5e54d-0ac1-4bc2-bcc4-c1a7c4db87b5)
+- **Adi training** — SLDN dual training, MOE/BPLTV, DSD/MOHR. [Open in NotebookLM](https://notebooklm.google.com/notebook/0a33af48-8808-48a9-893b-bb3761b89e90)
+- See [[NotebookLM - ADI IT Program]], [[NotebookLM - Adi training]] for summaries and source lists.
+
+---
+
+## Related
+
+- [[PROJECT-PORTFOLIO]]
+- [[WhatsApp-Group-Reference-商学院ADI-IT-Program]] — 商学院ADI IT Program
+- **NOSS textbook:** [[NOSS-IT-020-Textbook/00-Index]] — Folder with IT-020-3, IT-020-4, IT-020-5 (NOSS docs per code, like From-WhatsApp).
+- **Textbook sources:** `From-WhatsApp/*.md` — contact hours, CoCu 1–7 content, Kitchen example (all converted from doc/docx/pdf).
+- **Notion:** 1. Jay Projects · Page ID `9e9f1715-6dca-436d-8458-48ca90597701`
+- **MySPIKE NOSS:** https://www.myspike.my (search IT-020 for CPC and job descriptions)
+- **JPK/DSD:** Department of Skills Development, MOHR — NOSS and training provider accreditation

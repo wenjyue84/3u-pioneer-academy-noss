@@ -1,0 +1,446 @@
+{
+  "noss_code": "N821-001-3:2020",
+  "noss_title": "OFFICE ADMINISTRATION",
+  "level": 3,
+  "source_file": "raw/noss-character/txt/n821-L3-noss.txt",
+  "sector": "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES",
+  "sub_sector": "OFFICE ADMINISTRATIVE AND SUPPORT ACTIVITIES",
+  "job_area": "OFFICE OPERATION",
+  "source_notes": [
+    "CP table p.15 (page 23 of txt): C02 WA2 'Handle bills collection' has two performance criteria both numbered '2.1'. The first is 'Selected bills from mails and hand delivery compiled...' and the second (which should logically be 2.3) is 'Bills collection report prepared...'. Both are transcribed exactly as printed; neither is an error introduced here.",
+    "CoCU p.64 (page 73 of txt): C06 WA1 Assessment Criteria item 1.5 reads only '1.5 Document' — the sentence is cut off mid-word in the extracted text with no continuation on the next page. The truncated item is transcribed as printed; no content has been invented to complete it.",
+    "Section 6 'Occupational Competencies' (p.6) lists C07 as 'Staff Administration Supervision'. The CPC chart (p.11) and CoCU 15.7 (p.71) also use 'Staff Administration Supervision'. This is consistent throughout the standard and is transcribed verbatim. A previous project deliverable mislabelled this unit — see CLAUDE.md project note."
+  ],
+  "competency_units": [
+    {
+      "code": "C01",
+      "type": "core",
+      "title_en": "FRONT OFFICE RECEPTION",
+      "title_bm": "PENERIMAAN PEJABAT HADAPAN",
+      "descriptor": "Front Office Reception describes the first point of contact of visitors at the office and handling them professionally. The person competent in this CU should be able to attend to visitors, handle office incoming/outgoing communication, handle office incoming/outgoing items and record front office reception activities.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Attend to visitor.",
+          "title_bm": "Melayan pelawat.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Visitor greeted in accordance with meet and greet guidelines."},
+            {"id": "1.2", "text": "Issue acknowledged which include enquiry, complaint and delivery in accordance with organization requirements."},
+            {"id": "1.3", "text": "Action taken in accordance with organization requirements."},
+            {"id": "1.4", "text": "Issue delegated to department/person concerned in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Handle office incoming/ outgoing communication.",
+          "title_bm": "Mengendalikan komunikasi masuk/keluar pejabat.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Incoming/outgoing communication acknowledged which include telephone, fax, email and postage in accordance with organization requirements."},
+            {"id": "2.2", "text": "Recipient communication acknowledged in accordance with organization directory."},
+            {"id": "2.3", "text": "Communication information generated in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Handle office incoming/ outgoing items.",
+          "title_bm": "Mengendalikan barangan masuk/keluar pejabat.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Items which includes mails, documents and parcel confirmed with intended owner."},
+            {"id": "3.2", "text": "Items notification provided to recipient and of mode delivery acknowledged in accordance with organization requirements."},
+            {"id": "3.3", "text": "Item delivery record generated in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Record front office reception activities.",
+          "title_bm": "Merekod aktiviti penerimaan pejabat hadapan.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Reception activities related information compiled."},
+            {"id": "4.2", "text": "Accuracy of compiled information confirmed."},
+            {"id": "4.3", "text": "Front office reception activities report prepared accordance with organization requirement."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C02",
+      "type": "core",
+      "title_en": "OFFICE FINANCE HANDLING",
+      "title_bm": "PENGENDALIAN KEWANGAN PEJABAT",
+      "descriptor": "Office Finance Handling describes the process of preparing and balancing finance documents for the daily operations of the office. The person competent in this CU should be able to prepare petty cash, handle bills collection, handle payment vouchers and prepare office finance report summary.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Prepare petty cash.",
+          "title_bm": "Menyediakan wang runcit.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Petty cash payment form with serial number selected."},
+            {"id": "1.2", "text": "Petty cash payment requirements completed."},
+            {"id": "1.3", "text": "Petty cash payment form progress checked in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Handle bills collection.",
+          "title_bm": "Mengendalikan kutipan bil.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Selected bills from mails and hand delivery compiled in accordance with organization requirements."},
+            {"id": "2.2", "text": "Bills segregated manually or automatically in accordance with organization requirements."},
+            {"id": "2.1", "text": "Bills collection report prepared in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Handle payment vouchers.",
+          "title_bm": "Mengendalikan baucar bayaran.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Selected payment voucher from mails and hand delivery compiled in accordance with organization requirements."},
+            {"id": "3.2", "text": "Payment voucher segregated manually or automatically in accordance with organization requirements."},
+            {"id": "3.3", "text": "Payment voucher report prepared in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Prepare office finance report summary.",
+          "title_bm": "Menyediakan ringkasan laporan kewangan pejabat.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Selected confidential finance documentation compiled in accordance with organization requirements."},
+            {"id": "4.2", "text": "Payment acknowledgement finance documentation confirmed in accordance with organization requirements."},
+            {"id": "4.3", "text": "Finance summary report generated."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C03",
+      "type": "core",
+      "title_en": "OFFICE PROCUREMENT HANDLING",
+      "title_bm": "PENGENDALIAN PEROLEHAN PEJABAT",
+      "descriptor": "Office Procurement Handling describes the acquisition of office required materials and process in procurement cycle of the organization. The person competent in this CU should be able to prepare requisition form, handle incoming procurement documents, handle purchase items, coordinate procurement licensing renewal and record office procurement handling activities.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Prepare requisition form.",
+          "title_bm": "Menyediakan borang requisisi.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Selected requisition form acquired."},
+            {"id": "1.2", "text": "Requisition form comprises of date, product/items, amount and quantity produced in accordance with organization requirements."},
+            {"id": "1.3", "text": "Requisition form progress checked accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Handle incoming procurement documents.",
+          "title_bm": "Mengendalikan dokumen perolehan masuk.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Procurement nature which includes online, product/items and service confirmed in accordance with organization requirements."},
+            {"id": "2.2", "text": "Procurement document which includes quotation, purchase order and capital asset confirmed in accordance with organization requirements."},
+            {"id": "2.3", "text": "Purchase requisition acknowledgment confirmed and endorsed in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Handle purchase items.",
+          "title_bm": "Mengendalikan barangan yang dibeli.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Selected purchased items acquired in accordance with purchase order."},
+            {"id": "3.2", "text": "Purchase items tally with requisition form."},
+            {"id": "3.3", "text": "Purchase items acknowledgment confirmed to recipient by selected delivery method."},
+            {"id": "3.4", "text": "Purchase items record produced."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Coordinate procurement licensing renewal.",
+          "title_bm": "Menyelaras pembaharuan lesen perolehan.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Procurement licensing requirements which includes authority specification confirmed."},
+            {"id": "4.2", "text": "Renewal information expiry date confirmed in accordance with authority requirements."},
+            {"id": "4.3", "text": "Procurement licensing renewal report produced."}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Record office procurement handling activities.",
+          "title_bm": "Merekod aktiviti pengendalian perolehan pejabat.",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Office procurement activities confirmed in accordance with organization requirements."},
+            {"id": "5.2", "text": "Effectiveness of office procurement activities execution confirmed."},
+            {"id": "5.3", "text": "Procurement activities report prepared in accordance with organization requirements."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C04",
+      "type": "core",
+      "title_en": "OFFICE INVENTORY HANDLING",
+      "title_bm": "PENGENDALIAN INVENTORI PEJABAT",
+      "descriptor": "Office Inventory Handling describes the process of monitoring and ensuring the office items and stock is under control. The person competent in this CU should be able to check office inventory availability, perform office inventory requisition, perform office inventory issuance, monitor office equipment's movement/transfer and maintenance, monitor expired/recycled office items and record inventory handling activities.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Check office inventory availability.",
+          "title_bm": "Menyemak ketersediaan inventori pejabat.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Actual inventory status confirmed based physical counting result."},
+            {"id": "1.2", "text": "Variance between actual and inventory record confirmed."},
+            {"id": "1.3", "text": "Inventory profile updated in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Perform office inventory requisition.",
+          "title_bm": "Melaksanakan requisisi inventori pejabat.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Requisition form completed in accordance with organisation requirements."},
+            {"id": "2.2", "text": "Purchase requirements which include product/item, amount and quantity confirmed in accordance with organization requirements."},
+            {"id": "2.3", "text": "Supplier contacted for quotation as per approved supplier list."},
+            {"id": "2.4", "text": "Selected supplier notified with confirmed purchase order."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Perform office inventory issuance.",
+          "title_bm": "Melaksanakan pengeluaran inventori pejabat.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Goods delivered in order and complied with purchase order."},
+            {"id": "3.2", "text": "Stock card completed in accordance with organization requirements."},
+            {"id": "3.3", "text": "Stock acceptance acknowledgment confirmed in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Monitor office equipment's movement/ transfer and maintenance.",
+          "title_bm": "Memantau pergerakan/pemindahan dan penyelenggaraan peralatan pejabat.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Equipment movement checklist acquired."},
+            {"id": "4.2", "text": "Equipment movement status confirmed and recorded in accordance with manufacturer specifications."},
+            {"id": "4.3", "text": "Equipment condition confirmed and recorded in accordance with manufacturer specifications."}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Monitor expired/recycled office items.",
+          "title_bm": "Memantau barangan pejabat yang luput/dikitar semula.",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Office items status report interpreted."},
+            {"id": "5.2", "text": "Warranty, expiry date and damage/malfunction of items confirmed based on status report."},
+            {"id": "5.3", "text": "Expired/recycled items separated from storage in accordance with organization requirements."},
+            {"id": "5.4", "text": "Office items status record updated in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Record inventory handling activities.",
+          "title_bm": "Merekod aktiviti pengendalian inventori.",
+          "performance_criteria": [
+            {"id": "6.1", "text": "Office inventory handling activities confirmed in accordance with organization requirement."},
+            {"id": "6.2", "text": "Effectiveness of office inventory activities execution confirmed in accordance with organization requirements."},
+            {"id": "6.3", "text": "Finalised report submitted to superior for notification."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C05",
+      "type": "core",
+      "title_en": "OFFICE LOGISTIC HANDLING",
+      "title_bm": "PENGENDALIAN LOGISTIK PEJABAT",
+      "descriptor": "Office Logistic Handling describes staff travel arrangements, dispatch assignment and event arrangement handled in order to meet the requirements. The person competent in this CU should be able to arrange staff travel and accommodation, coordinate despatch assignment, coordinate meetings/event arrangements and record logistic handling activities.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Arrange staff travel and accommodation.",
+          "title_bm": "Mengatur perjalanan dan penginapan kakitangan.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Travel requirements interpreted based on travelling requisition."},
+            {"id": "1.2", "text": "Travel and accommodation specification which includes mode of transport, date, destination, pax, and name recipient and booking confirmed in accordance with organization requirements."},
+            {"id": "1.3", "text": "Travel arrangement coordinated and travel itinerary forwarded to recipient."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Coordinate dispatch assignment.",
+          "title_bm": "Menyelaras tugasan penghantaran.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Despatch assignment details interpreted in accordance with organization requirements."},
+            {"id": "2.2", "text": "Despatch assignment deployed to selected dispatch personnel in accordance with organization requirements."},
+            {"id": "2.3", "text": "Despatch assignment related documents compiled and recorded in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Coordinate meetings/ event arrangement.",
+          "title_bm": "Menyelaras pengaturan mesyuarat/acara.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Meeting/event arrangements requirements which includes date, venue, participant and theme acquired from superior."},
+            {"id": "3.2", "text": "Meeting/event arrangements particulars prepared in accordance with organization requirements."},
+            {"id": "3.3", "text": "Meeting/event arrangements liaison with other departments, local authorities and suppliers notified."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Record logistic handling activities.",
+          "title_bm": "Merekod aktiviti pengendalian logistik.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Office logistic handling activities confirmed in accordance with organization requirements."},
+            {"id": "4.2", "text": "Effectiveness of logistic activities execution confirmed in accordance with organization requirements."},
+            {"id": "4.3", "text": "Logistic handling report prepared in accordance with organization requirements."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C06",
+      "type": "core",
+      "title_en": "OFFICE DOCUMENTATION PREPARATION",
+      "title_bm": "PENYEDIAAN DOKUMENTASI PEJABAT",
+      "descriptor": "Office Documentation Preparation describes the activities in producing office documents with adopting good documentation practice. The person competent in this CU should be able to produce office document, register office documentation, print office documents, bind office documents, file office documents and maintain office documents.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Produce office documents.",
+          "title_bm": "Menghasilkan dokumen pejabat.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Office document which includes correspondence, minutes of meeting and reports are determined in accordance with organization requirements."},
+            {"id": "1.2", "text": "Office documents drafted with specified reference number in accordance with document format."},
+            {"id": "1.3", "text": "Format, language and contents confirmed in accordance with organization requirements."},
+            {"id": "1.4", "text": "Drafted document submitted to superior for endorsement."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Register office documentation.",
+          "title_bm": "Mendaftar dokumentasi pejabat.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Document reference which includes general, semi confidential and confidential specified in accordance with organization coding."},
+            {"id": "2.2", "text": "Office document updated in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Print office documents.",
+          "title_bm": "Mencetak dokumen pejabat.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Specified types of office equipment which includes printer, scanner and computer selected in accordance with organization requirements."},
+            {"id": "3.2", "text": "Office documents which includes general, semi confidential and confidential produced in accordance with organization requirements."},
+            {"id": "3.3", "text": "Office document printing information updated."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Bind office documents.",
+          "title_bm": "Mengikat dokumen pejabat.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Specified types of binding equipment selected in accordance with organization requirements."},
+            {"id": "4.2", "text": "Office documents which includes general, semi confidential and confidential gathered and produced in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "File office documents.",
+          "title_bm": "Memfailkan dokumen pejabat.",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Filing process which includes coding, indexing, labelling and sorting selected in accordance with organization requirements."},
+            {"id": "5.2", "text": "Coding, indexing and labelling confirmed in accordance with filing requirements."},
+            {"id": "5.3", "text": "Office documents which include general, semi confidential and confidential kept and record updated in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Maintain office documents.",
+          "title_bm": "Menyelenggara dokumen pejabat.",
+          "performance_criteria": [
+            {"id": "6.1", "text": "Office documents maintenance system selected in accordance with organization requirements."},
+            {"id": "6.2", "text": "Office documents which include general, semi confidential and confidential coded in accordance with organization requirements."},
+            {"id": "6.3", "text": "Storage report updated and generated in accordance with organization requirements."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C07",
+      "type": "core",
+      "title_en": "STAFF ADMINISTRATION SUPERVISION",
+      "title_bm": "PENYELIAAN PENTADBIRAN KAKITANGAN",
+      "descriptor": "Staff Administration Supervision describes the process of offering guidance in ensuring smooth work flow in the office. The person competent in this CU should be able to conduct in-house training, compile staff appraisal, monitor waste disposal, prepare section budget, conduct staff meeting/briefing, monitor occupational, safety, health and environment implementation and monitor work flow and work progress.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Conduct in-house training.",
+          "title_bm": "Mengendalikan latihan dalaman.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Staff training needs identified and prioritized."},
+            {"id": "1.2", "text": "Training requirement which includes venue, date, refreshment, time, and number of participants confirmed."},
+            {"id": "1.3", "text": "Training methodology adopted and convey to participant."},
+            {"id": "1.4", "text": "Participant feedback obtained and summarized in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Perform staff appraisal.",
+          "title_bm": "Melaksanakan penilaian prestasi kakitangan.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Staff information acquired from human resources."},
+            {"id": "2.2", "text": "Key performance indicator of staff updated in accordance with organization requirements."},
+            {"id": "2.3", "text": "Appraisal form completed and staff appraisal progress checked in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Monitor office waste disposal.",
+          "title_bm": "Memantau pelupusan sisa pejabat.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Waste disposal requirements which include product/items, disposal method and location confirmed in accordance with organization requirements."},
+            {"id": "3.2", "text": "Disposal vendor acknowledge and process completed."},
+            {"id": "3.3", "text": "Waste disposal activities produced."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Prepare section budget.",
+          "title_bm": "Menyediakan bajet bahagian.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Budget plan allocation identified."},
+            {"id": "4.2", "text": "Section budget allocation draft submitted for approval."},
+            {"id": "4.3", "text": "Budgeting related documents compiled and recorded in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Conduct staff meeting/briefing.",
+          "title_bm": "Mengendalikan mesyuarat/taklimat kakitangan.",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Type of meeting/briefing requirement which includes staff and department meeting confirmed."},
+            {"id": "5.2", "text": "Meeting/briefing conveyed to target group."},
+            {"id": "5.3", "text": "meeting/briefing report produced and forwarded to superior in accordance with organization requirements."}
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Monitor occupational health, safety, security and environment implementation.",
+          "title_bm": "Memantau pelaksanaan keselamatan, kesihatan, keselamatan pekerjaan dan alam sekitar.",
+          "performance_criteria": [
+            {"id": "6.1", "text": "Occupational, safety, health and environment implementation guidelines acquired from superior."},
+            {"id": "6.2", "text": "Related guidelines for department identified and confirmed."},
+            {"id": "6.3", "text": "Working group for occupational, safety, health and environment implementation formulated and work responsibilities acknowledged in accordance with organization requirements."},
+            {"id": "6.4", "text": "Occupational, safety, health and environment implementation success recorded and remedial action taken."},
+            {"id": "6.5", "text": "Occupational, safety, health and environment implementation status report produced."}
+          ]
+        },
+        {
+          "id": "WA7",
+          "title": "Monitor work flow and work progress.",
+          "title_bm": "Memantau aliran kerja dan kemajuan kerja.",
+          "performance_criteria": [
+            {"id": "7.1", "text": "Company Standard Operating Procedure (SOP) interpreted."},
+            {"id": "7.2", "text": "Work flow and work progress structure acquired from superior."},
+            {"id": "7.3", "text": "Work schedule and work flow acknowledged by stakeholder."},
+            {"id": "7.4", "text": "Work progress reviewed and reported in accordance with SOP and organization requirements."}
+          ]
+        }
+      ]
+    }
+  ]
+}

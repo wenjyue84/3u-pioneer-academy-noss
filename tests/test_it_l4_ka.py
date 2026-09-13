@@ -5,7 +5,9 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).parents[1]
-KA_PATH = ROOT / "it-computer-system" / "level-4" / "KA.md"
+_KA_DIR = ROOT / "it-computer-system" / "level-4"
+_ka_matches = sorted(_KA_DIR.glob("KA*.md")) if _KA_DIR.is_dir() else []
+KA_PATH = _ka_matches[0] if _ka_matches else _KA_DIR / "KA.md"
 
 REQUIRED_TYPES = ("switching", "routing", "vpn", "firewall")
 RFC_PATTERN = re.compile(r"\bRFC\s+\d{3,}", re.IGNORECASE)

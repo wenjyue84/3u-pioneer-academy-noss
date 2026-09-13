@@ -1,0 +1,36 @@
+# Index — NOSS
+
+**Status:** Active  
+**Last updated:** 2026-04-22
+
+---
+
+## Quick Navigation
+
+| File | Purpose |
+|------|---------|
+| [CLAUDE.md](CLAUDE.md) | Agent instructions |
+| [index.md](index.md) | This file |
+| [log.md](log.md) | Change log |
+
+---
+
+## Wiki (Derived Knowledge)
+
+| File | Summary |
+|------|---------|
+| [wiki/01 Main - Apply NOSS IT-020 Computer System Management.md](<wiki/01 Main - Apply NOSS IT-020 Computer System Management.md>) | Main project overview |
+| [wiki/270326_Apply-NOSS-IT-020-Computer-System-Manage_9e9f1715.md](wiki/270326_Apply-NOSS-IT-020-Computer-System-Manage_9e9f1715.md) | Dated snapshot |
+| [wiki/NOSS-IT-020-Textbook.md](wiki/NOSS-IT-020-Textbook.md) | Textbook notes |
+| [wiki/NotebookLM - ADI IT Program.md](<wiki/NotebookLM - ADI IT Program.md>) | NotebookLM ADI IT Program notes |
+| [wiki/NotebookLM - Adi training.md](<wiki/NotebookLM - Adi training.md>) | NotebookLM Adi training notes |
+| [wiki/WhatsApp-Group-Reference-商学院ADI-IT-Program.md](wiki/WhatsApp-Group-Reference-商学院ADI-IT-Program.md) | WhatsApp group reference |
+| [wiki/README.md](wiki/README.md) | Project README |
+
+---
+
+## Raw Source Data
+
+| File | Type | Summary |
+|------|------|---------|
+| [raw/](raw/) | folder | NOSS docx files (L3/L4/L5 with duplicates), stories JSON files, spiral config, prd.json, scripts, content, logs, output, templates, From-WhatsApp, NOSS-IT-020-Textbook folder |

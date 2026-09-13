@@ -1,0 +1,233 @@
+# Malaysian Skills Development Framework
+
+## Overview
+
+The Malaysian Skills Development Framework is a comprehensive national system designed to develop a skilled workforce that meets the demands of Malaysia's growing economy. This framework is coordinated by the **Department of Skills Development (DSD)** under the **Ministry of Human Resources, Malaysia**.
+
+## National Skills Development Policy
+
+### Vision
+To develop Malaysia as a high-income nation with a skilled, competitive, and innovative workforce by 2025.
+
+### Mission
+- To enhance the quality and relevance of skills training
+- To increase workforce productivity and employability
+- To support economic transformation and industrial development
+- To promote lifelong learning and continuous skills development
+
+## Key Components of the Framework
+
+### 1. National Occupational Skills Standards (NOSS)
+- **Purpose**: Define competency standards for various occupational areas
+- **Scope**: Covers multiple industry sectors including ICT, manufacturing, services, construction, and agriculture
+- **Structure**: Five competency levels (Level 1-5) with clear progression pathways
+- **Implementation**: Industry-driven development with government coordination
+
+### 2. Malaysian Skills Certification System
+- **Malaysia Skills Certificate (SKM)** - Levels 1-3
+- **Malaysia Skills Diploma (DKM)** - Level 4
+- **Malaysia Skills Advanced Diploma (DLKM)** - Level 5
+- **Recognition**: Nationally and internationally recognized qualifications
+
+### 3. Training Provider Accreditation
+- **Public Training Institutions**: Government-funded skills training centers
+- **Private Training Providers**: Accredited private institutions
+- **Industry Training Centers**: Company-based training facilities
+- **Quality Assurance**: Regular monitoring and evaluation
+
+### 4. Assessment and Certification
+- **Competency-Based Assessment**: Practical demonstration of skills
+- **Assessment Centers**: Accredited centers for skills evaluation
+- **Continuous Assessment**: Ongoing evaluation throughout training
+- **Quality Standards**: Consistent assessment criteria and methods
+
+## Government Initiatives and Programs
+
+### 1. National Skills Development Act 2006
+- **Purpose**: Establish legal framework for skills development
+- **Scope**: Regulates training providers, assessment centers, and certification
+- **Enforcement**: Department of Skills Development (DSD)
+
+### 2. Human Resource Development Fund (HRDF)
+- **Purpose**: Fund skills development initiatives
+- **Funding**: Levy-based system from employers
+- **Support**: Training grants, scholarships, and development programs
+- **Target**: Malaysian workforce and employers
+
+### 3. National Dual Training System (NDTS)
+- **Approach**: Combination of classroom and workplace training
+- **Duration**: 2-3 years of structured training
+- **Partnership**: Collaboration between training institutions and industry
+- **Outcome**: Industry-ready skilled workers
+
+### 4. Technical and Vocational Education and Training (TVET)
+- **Focus**: Practical skills and technical competencies
+- **Levels**: Secondary and post-secondary education
+- **Integration**: Academic and skills-based learning
+- **Pathways**: Multiple entry and exit points
+
+## Industry Sectors Covered
+
+### Information Communication Technology (ICT)
+- **Application Development**: Programming, systems development, software engineering
+- **Infrastructure Support**: System administration, network management, data center operations
+- **Digital Services**: Web development, mobile applications, cloud computing
+- **Cybersecurity**: Information security, network security, digital forensics
+
+### Manufacturing
+- **Automotive**: Vehicle assembly, maintenance, quality control
+- **Electronics**: Component manufacturing, testing, quality assurance
+- **Chemical**: Process control, safety management, quality systems
+- **Food Processing**: Production, quality control, safety standards
+
+### Services
+- **Tourism and Hospitality**: Customer service, hotel management, culinary arts
+- **Financial Services**: Banking operations, insurance, financial planning
+- **Healthcare**: Medical support, nursing, allied health services
+- **Education**: Teaching, training, educational technology
+
+### Construction
+- **Building Construction**: Residential, commercial, industrial projects
+- **Infrastructure**: Roads, bridges, utilities, transportation
+- **Specialized Trades**: Electrical, plumbing, HVAC, finishing works
+- **Project Management**: Planning, coordination, quality control
+
+## Skills Development Programs
+
+### 1. Apprenticeship Programs
+- **Duration**: 2-4 years
+- **Structure**: On-the-job training with classroom instruction
+- **Certification**: Industry-recognized qualifications
+- **Employment**: Direct pathway to skilled employment
+
+### 2. Skills Upgrading Programs
+- **Target**: Existing workforce
+- **Focus**: Current industry needs and emerging technologies
+- **Delivery**: Flexible learning modes
+- **Recognition**: Skills certification and career advancement
+
+### 3. Youth Skills Programs
+- **Target**: School leavers and young adults
+- **Focus**: Employability skills and technical competencies
+- **Support**: Career guidance and job placement
+- **Outcome**: Skilled workforce entry
+
+### 4. Professional Development
+- **Target**: Mid-career professionals
+- **Focus**: Advanced skills and leadership development
+- **Delivery**: Executive education and specialized training
+- **Recognition**: Professional certifications and career advancement
+
+## Quality Assurance Framework
+
+### 1. Standards Development
+- **Industry Consultation**: Regular engagement with employers
+- **International Benchmarking**: Alignment with global standards
+- **Continuous Review**: Regular updates and improvements
+- **Validation**: Stakeholder feedback and testing
+
+### 2. Training Quality
+- **Accreditation**: Regular evaluation of training providers
+- **Curriculum Review**: Industry relevance and currency
+- **Trainer Qualifications**: Professional development and certification
+- **Facilities**: Modern equipment and learning environments
+
+### 3. Assessment Standards
+- **Consistency**: Standardized assessment criteria
+- **Reliability**: Valid and reliable assessment methods
+- **Fairness**: Equal opportunity for all candidates
+- **Transparency**: Clear assessment processes and outcomes
+
+### 4. Monitoring and Evaluation
+- **Performance Tracking**: Regular monitoring of outcomes
+- **Feedback Systems**: Continuous improvement mechanisms
+- **Impact Assessment**: Measurement of program effectiveness
+- **Reporting**: Regular reporting to stakeholders
+
+## International Recognition and Collaboration
+
+### 1. ASEAN Skills Recognition Framework
+- **Purpose**: Facilitate skills mobility within ASEAN
+- **Recognition**: Mutual recognition of qualifications
+- **Standards**: Harmonized competency standards
+- **Implementation**: Regional cooperation and coordination
+
+### 2. International Labour Organization (ILO)
+- **Standards**: Alignment with ILO competency standards
+- **Best Practices**: Adoption of international best practices
+- **Collaboration**: Technical assistance and capacity building
+- **Recognition**: Global recognition of Malaysian qualifications
+
+### 3. Bilateral Agreements
+- **Partnerships**: Skills development partnerships with other countries
+- **Recognition**: Mutual recognition of qualifications
+- **Exchange**: Student and trainer exchange programs
+- **Collaboration**: Joint research and development projects
+
+## Future Directions
+
+### 1. Digital Skills Development
+- **Focus**: Emerging technologies and digital transformation
+- **Areas**: Artificial intelligence, machine learning, data science
+- **Delivery**: Online and blended learning approaches
+- **Outcome**: Digital-ready workforce
+
+### 2. Industry 4.0 Skills
+- **Technologies**: IoT, automation, robotics, cybersecurity
+- **Integration**: Cross-disciplinary skills development
+- **Innovation**: Creative problem-solving and innovation skills
+- **Adaptability**: Continuous learning and adaptation
+
+### 3. Green Skills
+- **Sustainability**: Environmental awareness and sustainable practices
+- **Technologies**: Renewable energy, energy efficiency, waste management
+- **Integration**: Green skills across all sectors
+- **Leadership**: Environmental leadership and innovation
+
+### 4. Lifelong Learning
+- **Culture**: Continuous learning culture
+- **Access**: Flexible learning opportunities
+- **Support**: Learning support and guidance
+- **Recognition**: Recognition of prior learning and experience
+
+## Success Indicators
+
+### 1. Workforce Development
+- **Employment Rate**: High employment rates for skilled workers
+- **Wage Levels**: Competitive wages for skilled workers
+- **Career Progression**: Clear career advancement pathways
+- **Job Satisfaction**: High levels of job satisfaction
+
+### 2. Industry Impact
+- **Productivity**: Increased workforce productivity
+- **Innovation**: Enhanced innovation capacity
+- **Competitiveness**: Improved industry competitiveness
+- **Growth**: Support for economic growth and development
+
+### 3. Social Impact
+- **Inclusivity**: Equal access to skills development opportunities
+- **Mobility**: Social and economic mobility through skills
+- **Community Development**: Skills development for community development
+- **National Development**: Contribution to national development goals
+
+## Contact Information
+
+### Department of Skills Development (DSD)
+**Ministry of Human Resources, Malaysia**
+- **Address**: Level 1-7, Block C4 & C5, Complex C, Federal Government Administrative Centre, 62662 Putrajaya, Malaysia
+- **Phone**: +603-8885 8000
+- **Email**: info@dsd.gov.my
+- **Website**: www.dsd.gov.my
+
+### National Skills Development Board (NSDB)
+- **Role**: Policy development and strategic oversight
+- **Composition**: Government, industry, and academic representatives
+- **Functions**: Standards approval, policy guidance, strategic planning
+
+### Malaysian Skills Certification Agency (MSCA)
+- **Role**: Skills certification and quality assurance
+- **Functions**: Assessment center accreditation, certification issuance, quality monitoring
+
+---
+
+*This document provides an overview of the Malaysian Skills Development Framework and its relationship to NOSS. For detailed information about specific programs and initiatives, please refer to the official DSD website and related publications.* 

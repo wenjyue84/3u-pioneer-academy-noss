@@ -1,0 +1,61 @@
+# The Textbook That Unlocks a Certification
+
+> *This is not a technical document. This is a story.*
+
+---
+
+## Chapter 1: A Training Academy Chasing a National Stamp
+
+3U Pioneer Academy is a private training institution with ambitions beyond the usual short courses. It runs a flagship IT programme — the ADI IT Program (商学院ADI IT Program) — aimed at producing graduates with real, recognised skills in computer systems. But in Malaysia, "recognised" means one thing above all: a JPK stamp.
+
+JPK is the Jabatan Pembangunan Kemahiran — the Department of Skills Development under the Ministry of Human Resources. If you want to issue a nationally-recognised skills certificate to a graduate, you need JPK's approval to run programmes under NOSS, the National Occupational Skills Standard. NOSS defines, at excruciating detail, exactly what a competent technician must know and be able to do at each skill level.
+
+The standard 3U needs is IT-020: Computer System Management — three levels stacked in a ladder:
+
+| Code | Level | Title |
+|------|-------|-------|
+| IT-020-3:2013 | Level 3 | Computer System Operation |
+| IT-020-4:2013 | Level 4 | Computer Systems Administration |
+| IT-020-5:2013 | Level 5 | Computer Systems Management |
+
+Without NOSS approval, the academy's graduates leave with an internal certificate. With it, they leave with a nationally portable credential that employers — especially government-linked bodies and large manufacturers — actually recognise.
+
+---
+
+## Chapter 2: The Compliance Wall
+
+The pathway to NOSS approval is not simple. JPK manages approvals through MySPIKE (Malaysian Skills Integrated Management System), and the requirements are layered: trainer qualifications (TTT certificates), lab equipment matching competency unit specs, company documents (SSM, MSIC alignment, premise licence), and critically — curriculum documentation that maps exactly to each CoCu (Competency Unit).
+
+The IT-020 series alone spans dozens of competency units across three levels. Each CoCu requires its own structured textbook chapter: a NOSS header table, setup context scenarios, key terms, contact-hour breakdowns (30% knowledge / 70% performance), hardware/software descriptions, and a common-faults table. Writing this manually for every unit, at JPK's required format, is hundreds of hours of painstaking work.
+
+That is where this project began — not as a simple "write a textbook" task, but as an engineering problem: how do you generate NOSS-compliant content at scale, fast enough to actually be useful?
+
+---
+
+## Chapter 3: The Machine That Writes Textbooks
+
+Jay's approach was to turn the textbook generation into a software pipeline. The source material — original NOSS .docx files for L3, L4, and L5 — sits in the project folder. A set of Python scripts and agent prompts convert this into structured Markdown (`.md`) files in the `content/` directory, with each CoCu as its own file following a strict template.
+
+The gold standard file — `content/IT-020-3/01_cocu-1-computer-system-set-up.md` — serves as the calibration template. Every other CoCu is generated to match it.
+
+From Markdown, a build pipeline generates `.docx` output files and syncs them to Google Docs, where the academy can review and edit:
+
+- **L3 Google Doc:** `1LHPCgRvy4rGVxCcIEoZAm5CVOtPRW_ubflvJSs8WsEo`
+- **L4 Google Doc:** `1c8K5bgHxgRABNyjNuhyNWBDIJ4FDgChwd8Oy_bafRog`
+- **L5 Google Doc:** `1lUAmUsevG4OwJ94pSq8TD2CnwXAuMe2Y3ubm2ySzxTg`
+
+SPIRAL — Jay's structured agent framework — was used to generate and validate the hundreds of user stories that underpin the content. Progress is tracked in `progress.txt` and `results.tsv`, with calibration data in `calibration.jsonl`.
+
+---
+
+## Chapter 4: Where Things Stand
+
+As of 2026-04-22, the project is active and in development. The pipeline exists and is producing content. The immediate blockers are on the compliance side rather than the content side: the official JPK application forms need to be retrieved, STEM and HGHV designations confirmed, trainer TTT certificates compiled, and lab equipment inventoried against JPK's requirement list.
+
+The stakes are clear: if 3U Pioneer Academy secures NOSS IT-020 approval, it can run all three levels of its ADI IT Program with nationally-recognised certification — a significant upgrade in market credibility and student employability. If it stalls at the compliance wall, the pipeline of generated content sits unused, and the academy remains one rung below the certification tier it needs.
+
+The textbook content is being built. The application machinery still needs assembling.
+
+---
+
+*Written: 2026-05-22 | Status: Active*

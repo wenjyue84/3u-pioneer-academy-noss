@@ -1,0 +1,18 @@
+[
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "warn",
+    "message": "page count is hardcoded to 20; verify it against the rendered PDF.",
+    "evidence": "MENGANDUNGI 20 MUKA SURAT",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "warn",
+    "message": "page count is hardcoded to 12; verify it against the rendered PDF.",
+    "evidence": "MENGANDUNGI 12 MUKA SURAT",
+    "line": null
+  }
+]

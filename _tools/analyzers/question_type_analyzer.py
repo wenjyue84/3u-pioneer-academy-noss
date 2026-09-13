@@ -159,7 +159,12 @@ def main() -> None:
     for subj, subj_dir in SUBJECTS.items():
         if not subj_dir.exists():
             continue
-        files = sorted(subj_dir.rglob("KA.md")) + sorted(subj_dir.rglob("PA.md"))
+        files = (
+            sorted(subj_dir.rglob("KA.md"))
+            + sorted(subj_dir.rglob("KA-*.md"))
+            + sorted(subj_dir.rglob("PA.md"))
+            + sorted(subj_dir.rglob("PA-*.md"))
+        )
         results_by_subject[subj] = [parse_assessment(f) for f in files]
 
     report = build_report(results_by_subject)

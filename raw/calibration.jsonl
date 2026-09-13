@@ -1,0 +1,13 @@
+{"story_id": "US-004", "estimated_complexity": "large", "actual_duration_s": 357, "phase_retries": 0, "passed": true}
+{"story_id": "US-005", "estimated_complexity": "large", "actual_duration_s": 848, "phase_retries": 0, "passed": true}
+{"story_id": "US-006", "estimated_complexity": "large", "actual_duration_s": 356, "phase_retries": 0, "passed": true}
+{"story_id": "US-001", "estimated_complexity": "medium", "actual_duration_s": 296, "phase_retries": 0, "passed": true}
+{"story_id": "US-002", "estimated_complexity": "medium", "actual_duration_s": 803, "phase_retries": 0, "passed": true}
+{"story_id": "US-010", "estimated_complexity": "medium", "actual_duration_s": 712, "phase_retries": 0, "passed": true}
+{"story_id": "US-009", "estimated_complexity": "large", "actual_duration_s": 707, "phase_retries": 0, "passed": true}
+{"story_id": "US-019", "estimated_complexity": "large", "actual_duration_s": 333, "phase_retries": 0, "passed": true}
+{"story_id": "US-013", "estimated_complexity": "large", "actual_duration_s": 849, "phase_retries": 0, "passed": true}
+{"story_id": "US-014", "estimated_complexity": "large", "actual_duration_s": 476, "phase_retries": 0, "passed": true}
+{"story_id": "US-015", "estimated_complexity": "large", "actual_duration_s": 657, "phase_retries": 0, "passed": true}
+{"story_id": "US-018", "estimated_complexity": "large", "actual_duration_s": 658, "phase_retries": 0, "passed": true}
+{"story_id": "US-020", "estimated_complexity": "medium", "actual_duration_s": 617, "phase_retries": 0, "passed": true}

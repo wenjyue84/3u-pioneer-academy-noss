@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "Extract and validate bilingual glossary database from all CoCu files",
+      "priority": "high",
+      "description": "Create a Python script that extracts 200+ technical terms from all 20 CoCu files (content/IT-020-{3,4,5}/*.md), builds a glossary with English/Bahasa Malaysia translations and phonetic guides in IPA notation. Validate semantic equivalence using word embeddings to ensure translations convey the same technical meaning, not just keyword-for-keyword. Output SQLite database (glossary.db) and JSON export (glossary.json) for learner reference tools.",
+      "acceptanceCriteria": [
+        "scripts/extract_glossary.py creates glossary.db with 200+ entries including English term, Bahasa Malaysia translation, part of speech, context (e.g., L3/L4/L5), phonetic guide (IPA), and embedding vector for semantic validation",
+        "Script validates semantic similarity between English/Bahasa pairs using sentence-transformers; outputs validation_report.json flagging low-similarity pairs (<0.85 cosine similarity) for manual review",
+        "Generated output/glossary.json exports all terms with export_date, term_count, validation_status fields; glossary.db queryable via schema: SELECT * FROM glossary WHERE level='L3' AND part_of_speech='noun'"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Equipment specification catalog with vendor EOL tracking and curriculum impact analysis",
+      "priority": "high",
+      "description": "Create scripts/equipment_eol_tracker.py that scans all 20 CoCu files for hardware/software mentions (e.g., DDR5, NVMe, Windows Server versions), cross-references against vendor EOL databases (NIST, vendor websites), and flags curriculum items using obsolete or end-of-life technology. Generate equipment_specs.json with vendor EOL dates, deprecation warnings, and recommended replacement specs. Output impact_analysis.json showing which CoCu units reference deprecated components.",
+      "acceptanceCriteria": [
+        "Script scans content/ for hardware/software patterns (regex or NLP), outputs equipment_specs.json with fields: component_name, type (hardware/software), first_mentioned_in (file path), vendor, eol_date, deprecation_status (active/deprecated/eol), recommended_replacement",
+        "For L3/L4/L5 each, generates impact_analysis.json showing which CoCu units reference components with EOL <2026; includes remediation priority (high for EOL, medium for deprecated)",
+        "Script exits with code 0 if all referenced tech is active, code 1 if EOL items found, code 2 if deprecated items found; integrates with CI/CD pipelines"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Competency progression validator ensuring L3→L4→L5 skill chain continuity",
+      "priority": "high",
+      "description": "Create scripts/validate_competency_progression.py that analyzes learning outcome hierarchies across all three levels, ensuring each L4 CoCu builds on L3 foundations and L5 extends both. Extract competency codes from learning outcome matrices, validate dependency chains, and flag missing prerequisites or skill gaps where L4 outcomes don't clearly extend L3 counterparts. Output validation report with remediation suggestions for disconnected outcome chains.",
+      "acceptanceCriteria": [
+        "Script parses learning outcome sections from all 20 CoCu files, builds competency dependency graph; outputs progression_validation.json with fields: competency_code, l3_outcome, l4_extension (exists/missing), l5_extension (exists/missing), gap_analysis",
+        "Detects when L4 competency has no matching L3 prerequisite; flags as 'orphaned_outcome' in report; when L3→L4→L5 chain is complete, validates that outcome complexity increases per Bloom's taxonomy",
+        "Script generates remediation_suggestions.json recommending which L3 outcomes need addition to L4 curricula; outputs summary: total_competencies, connected_chains (%), orphaned_outcomes (count) for tracking"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Bloom's taxonomy cognitive depth analyzer for learning outcome classification",
+      "priority": "high",
+      "description": "Create scripts/analyze_bloom_taxonomy.py that classifies all learning outcomes across all 20 CoCu files by Bloom's level (Remember, Understand, Apply, Analyze, Evaluate, Create) using NLP pattern matching and semantic analysis. Analyze each CoCu unit to ensure Create-level (highest cognitive depth) outcomes represent at least 20% of total outcomes. Flag units below threshold with recommendations to add higher-order outcomes. Output visualization (output/bloom_taxonomy_heatmap.html) showing cognitive depth distribution per level and unit.",
+      "acceptanceCriteria": [
+        "Script scans learning outcome sections using Bloom's taxonomy action verbs (Remember: recall/list, Understand: explain/describe, Apply: solve/demonstrate, Analyze: distinguish/analyze, Evaluate: judge/justify, Create: design/construct); outputs bloom_analysis.json with fields: cocu_code, outcome_text, bloom_level, confidence_score, category_distribution",
+        "For each level (L3/L4/L5), calculates percentage of Create-level outcomes; flags units with Create < 20%; outputs flagged_units.json with remediation count and sample Create-level action verbs to use",
+        "Generates output/bloom_heatmap.html showing cognitive depth distribution (Remember-Create) as stacked bar chart per CoCu unit; includes export_date, analysis_timestamp, total_outcomes_analyzed"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "JPK submission manifest aggregator with 15+ compliance checks",
+      "priority": "high",
+      "description": "Create scripts/generate_jpk_manifest.py that aggregates all NOSS compliance data into single manifest.json for JPK/MySPIKE submission. Consolidate: total contact hours per level (L3=1200, L4/L5 per spec), assessment coverage %, bilingual completeness %, references per unit, Bloom's depth metrics, equipment currency score, competency progression completion %. Calculate single compliance score and identify blocking issues that prevent submission. Output blocking issue list with remediation steps and owner assignment.",
+      "acceptanceCriteria": [
+        "Script reads all validation outputs (from contact_hour_validator.py, bloom_analyzer.py, equipment_eol_tracker.py, etc.), generates manifest.json with fields: level, total_contact_hours, assessment_coverage_pct, bilingual_completeness_pct, avg_references_per_cocu, create_level_pct, equipment_currency_score (0-100), competency_chain_completion_pct, overall_compliance_score (0-100), submission_ready (true/false)",
+        "Identifies blocking issues: missing contact hours, <70% assessment coverage, <90% bilingual completeness, <20% Create-level outcomes, <10% equipment deprecated; outputs blocking_issues.json with fields: issue_code, severity (blocking/warning), affected_cocu (list), remediation_steps, estimated_effort_hours",
+        "Script exits with code 0 if submission_ready=true and all blocking issues cleared; code 1 if blocking issues exist; includes manifest_generated_timestamp and validation_snapshot_id for audit trail"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Student competency badge pathway visualizer with D3.js interactive diagram",
+      "priority": "medium",
+      "description": "Create output/competency_badge_pathway.html with interactive D3.js visualization showing L3→L4→L5 skill progression as node-link diagram. Each node represents a competency unit (CoCu 1-7 per level), edges show skill progression dependencies. Clicking nodes reveals learning outcomes, assessment criteria, and equipment specifications. Include export-to-SVG for learner portfolios and printable pathway diagrams for career planning.",
+      "acceptanceCriteria": [
+        "HTML file loads competency data from scripts/competency_graph.json (generated by competency_progression_validator.py); renders D3.js force-directed graph with L3/L4/L5 nodes color-coded by level",
+        "Clicking node displays modal with: CoCu title, learning outcomes (bulleted), assessment criteria section, equipment required, contact hours; modal includes 'Add to Portfolio' button (stores selection in localStorage)",
+        "SVG export button generates pathway diagram as SVG file (competency_pathway_<date>.svg) suitable for printing (A3 landscape); includes legend for node colors and edge types (prerequisite/extension/independent)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Bilingual terminology consistency checker across all 20 CoCu files",
+      "priority": "high",
+      "description": "Create scripts/check_terminology_consistency.py that scans all 20 CoCu files for English-Bahasa Malaysia term pairs, identifies inconsistent translations (same English concept translated differently across files), and suggests standardized terminology. Output consistency report showing all English terms, their Bahasa translations by file, translation frequency, and recommended standard translation. Flag high-priority inconsistencies affecting core technical concepts.",
+      "acceptanceCriteria": [
+        "Script extracts all English-Bahasa pairs from all .md files, builds frequency table: {english_term: {bahasa_translation: count}}; outputs terminology_variants.json showing: english_term, all_bahasa_variants (with file sources), recommended_standard_translation, files_needing_update (list)",
+        "Identifies 'high-priority' inconsistencies (core technical terms used >5 times with >1 translation variant); outputs priority_inconsistencies.json with fields: english_term, usage_count, variant_count, current_variants (array), recommendation, affected_cocu_files",
+        "Script generates remediation_spreadsheet.csv with columns: english_term, recommended_bahasa, current_usage_count, files_to_update (pipe-delimited), owner_assigned; exit code 0 if all core terms standardized, code 1 if inconsistencies remain"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Bilingual assessment item bank generator with semantic translation validation",
+      "priority": "medium",
+      "description": "Create scripts/generate_assessment_items.py that auto-generates 150+ assessment questions per level from learning outcomes, creates bilingual English/Bahasa pairs, and validates semantic equivalence using sentence embeddings. Ensure questions span all Bloom's levels (Remember through Create), assign difficulty/discrimination indices, and organize by competency unit. Output assessment_items.json suitable for importing into learning management systems or generating test banks.",
+      "acceptanceCriteria": [
+        "Script generates assessment_items.json with 150+ questions per level (450+ total), each with fields: question_id, cocu_code, learning_outcome_code, english_question, bahasa_question, bloom_level, question_type (multiple_choice/short_answer/essay), difficulty_estimate (1-5), semantic_similarity_score (0-1), alternatives (array of 3-4 wrong answers for MC)",
+        "Validates semantic equivalence using sentence-transformers (fine-tuned model for English-Bahasa); flags questions with similarity <0.85 for manual review; outputs validation_report.json with low-similarity item IDs and suggested revisions",
+        "Organizes output by level and CoCu code; provides export to CSV (assessment_items_export.csv) with columns: question_id, level, cocu, bloom_level, english_text, bahasa_text, difficulty, similarity_score for review and LMS import"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Knowledge/Performance allocation validator enforcing 30/70 split per competency",
+      "priority": "high",
+      "description": "Create scripts/validate_kp_allocation.py that scans all CoCu contact hour tables, extracts Knowledge (K) and Performance (P) hour allocations per competency activity, and enforces NOSS requirement: 30% Knowledge / 70% Performance. Flag deviations >5 percentage points, calculate total K and P hours per CoCu and level, and suggest reallocation strategies to meet compliance. Output JSON report with violations and Excel-based remediation template.",
+      "acceptanceCriteria": [
+        "Script parses all contact_hour_distribution tables from 20 CoCu files, extracts activity rows with Knowledge% and Performance% columns; builds kp_allocation_report.json with fields: cocu_code, activity_name, knowledge_hours, performance_hours, k_pct (calculated), p_pct (calculated), compliance_status (compliant/deviation), deviation_pct",
+        "Aggregates per CoCu: total_knowledge_hours, total_performance_hours, overall_k_pct, overall_p_pct; flags CoCu where (30-5 <= k_pct <= 30+5) is false; outputs violations.json showing all non-compliant activities with remediation count",
+        "Generates remediation_template.xlsx with columns: cocu_code, activity, current_k_hrs, current_p_hrs, target_k_hrs, target_p_hrs, suggested_reallocation, owner; script exits code 0 if all compliant, code 1 if violations exist"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Contact hour activity budgeting tool with timing allocations and performance assessment",
+      "priority": "medium",
+      "description": "Create scripts/generate_activity_budgets.py that generates Excel workbook (activity_budgets.xlsx) with detailed timing allocations for all competency activities across all levels. For each CoCu unit, break down knowledge/performance activities with estimated duration per activity type (lecture, demo, hands-on, assessment), performance assessment percentage allocation, and practical exercise time budgets. Validate total hours per CoCu match targets (L3=1200, L4/L5 per spec). Include instructor facilitation notes and timing constraints.",
+      "acceptanceCriteria": [
+        "Script generates activity_budgets.xlsx with worksheets: Overview (summary by level), L3 Details, L4 Details, L5 Details; each detail sheet has columns: cocu_code, activity_name, knowledge_hours, performance_hours, lecture_mins, demo_mins, hands_on_mins, assessment_mins, practical_exercise_pct, instructor_notes",
+        "For each CoCu, validates: sum(knowledge_hours) + sum(performance_hours) = target_hours (L3=1200); calculates performance_assessment_allocation_pct per activity; ensures practical_exercise_pct ≥ 20% for performance activities",
+        "Overview worksheet shows: level, cocu_count, total_scheduled_hours, target_hours, variance_hours, variance_pct, activities_requiring_facilitation (count), exercises_requiring_materials (count); all timing estimates include confidence intervals (±min-max range)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    }
+  ]
+}

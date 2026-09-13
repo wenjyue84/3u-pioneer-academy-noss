@@ -1,0 +1,6495 @@
+
+
+===== [PAGE 1] =====
+ 
+ 
+Jabatan Pembangunan Kemahiran 
+Kementerian Sumber Manusia, Malaysia 
+ 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD 
+(STANDARD KEMAHIRAN PEKERJAAN KEBANGSAAN) 
+ 
+ 
+ 
+ 
+ 
+M731-001-3:2021 
+ 
+DIGITAL MARKETING OPERATION 
+ 
+OPERASI PEMASARAN DIGITAL 
+ 
+LEVEL 3 
+ 
+
+
+===== [PAGE 2] =====
+ 
+ 
+ 
+ 
+Copyright © DSD 2021  
+ 
+ 
+ 
+ 
+Department of Skills Development (DSD) 
+Federal Government Administrative Centre 
+62530 PUTRAJAYA, MALAYSIA 
+ 
+ 
+ 
+ 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD 
+ 
+ 
+ 
+DIGITAL MARKETING OPERATION 
+ 
+OPERASI PEMASARAN DIGITAL 
+ 
+LEVEL 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+All rights reserved. 
+No part of this publication may be produced, stored in data base, retrieval system, or in any 
+form by any means, electronic, mechanical, photocopying, recording or otherwise without 
+prior written permission from Department of Skills Development (DSD). 
+ 
+
+
+===== [PAGE 3] =====
+ 
+TABLE OF CONTENTS 
+Preface ....................................................................................................................................... i 
+Abbreviation ............................................................................................................................ ii 
+Glossary .................................................................................................................................. iii 
+List of Figure ........................................................................................................................ viii 
+Acknowledgement .................................................................................................................. ix 
+STANDARD PRACTICE .......................................................................................................1 
+1. Introduction .......................................................................................................................2 
+1.1. Occupation Overview ..............................................................................................2 
+1.2. Rationale of NOSS Development ...........................................................................2 
+1.3. Rationale of Occupational Structure and Occupational Area Structure ...........3 
+1.4. Regulatory/Statutory Body Requirements Related to Occupation ....................3 
+1.5. Occupational Prerequisites .....................................................................................3 
+1.6. General Training Prerequisites for Malaysian Skills Certification System ......3 
+2. Occupational Structure (OS) ...........................................................................................4 
+3. Occupational Area Structure (OAS) ...............................................................................4 
+4. Definition of Competency Levels .....................................................................................5 
+5. Award of Certificate .........................................................................................................6 
+6. Occupational Competencies .............................................................................................6 
+7. Work Conditions ...............................................................................................................6 
+8. Employment Prospects .....................................................................................................6 
+9. Up Skilling Opportunities ................................................................................................7 
+10. Organisation Reference for Sources of Additional Information ..................................8 
+11. Standard Technical Evaluation Committee .................................................................11 
+12. Standard Development Committee ...............................................................................12 
+STANDARD CONTENT ......................................................................................................13 
+13. Competency Profile Chart (CPC) .................................................................................14 
+14. Competency Profile (CP) ................................................................................................17 
+CURRICULUM OF COMPETENCY UNIT ......................................................................30 
+15. Curriculum of Competency Unit ...................................................................................31 
+15.1. Execute social media marketing activities. ..........................................................31 
+15.2. Execute search engine optimisation activities. ....................................................42 
+15.3. Execute search engine marketing activities. .......................................................50 
+15.4. Execute e-commerce marketing activities. ..........................................................59 
+15.5. Execute mobile marketing activities. ...................................................................71 
+
+===== [PAGE 4] =====
+ 
+15.6. Execute email marketing activities. .....................................................................80 
+16. Delivery Mode .................................................................................................................89 
+17. Tools, Equipment and Materials (TEM) ......................................................................90 
+18. Competency Weightage ..................................................................................................91 
+APPENDICES ........................................................................................................................93 
+19. Appendices .......................................................................................................................94 
+19.1 Appendix A: Competency Profile Chart (CPCPdP) For Teaching & Learning94 
+19.2 Appendix B: Element Content Weightage ..........................................................98 
+
+===== [PAGE 5] =====
+M731-001-3:2021 
+ i 
+Preface 
+ 
+Standard Definition 
+ 
+The National Occupational Skills Standard (NOSS) is a Standard document that outlines the 
+minimum competencies required by a skilled worker working in Malaysia for a particular area 
+and level of occupational, also the path to achieve the competencies. The competencies are 
+based on the needs of employment, according to the career structure for the occupational area 
+and developed by industry experts and skilled workers. 
+ 
+The National Competency Standard (NCS) is a Standard document that outlines the 
+competencies required by a skilled worker in Malaysia. 
+ 
+Description of Standard Components 
+ 
+The document is divided into three (3) components which includes: - 
+ 
+Component I  Standard Practice 
+This component is about the i nformation related to occupational area 
+including introduction to the industry, Standard requirements, occupational 
+structure, levelling of competency, authority and industry requirements as a 
+whole. 
+ 
+Component II  Standard Content 
+This component is a reference to industry employers in assessing and  
+improving the competencies that is required for a skilled worker. The 
+competencies are sp ecific to the occupational area. The component is 
+divided into two (2) section which are the chart (Competency Profile Chart, 
+CPC) and details of the competencies (Competency Profile, CP). 
+ 
+Component III  Curriculum of Competency Unit 
+This component is a reference for the training personnel to identify training 
+requirements, design the curriculum, and develop assessment. The training 
+hours that included in this component is based on the recommendations by 
+the Standard Development Committee ( SDC). If there are modifications to 
+the training hours, the Department provides the medium for discussion and 
+consideration for the matter. 
+ 
+  
+
+===== [PAGE 6] =====
+M731-001-3:2021 
+ ii 
+Abbreviation 
+ 
+1 KPI Key Performance Index 
+2 MMS Multimedia Messaging Service 
+3 SEM Search Engine Marketing 
+4 SEO Search Engine Optimisation 
+5 SMS Short Messaging Service 
+6 SWOT Strengths, Weaknesses, Opportunities, and Threats 
+7 URL Uniform Resource Locator 
+ 
+  
+
+===== [PAGE 7] =====
+M731-001-3:2021 
+ iii 
+Glossary 
+ 
+1 Automated 
+responses 
+Pre-designated reply that is generated by a software program me for 
+incoming messages. 
+2 Average cost 
+per click 
+The backward-looking metric indicating the average amount paid per click 
+on an ad for any given keyword 
+3 Banned 
+product 
+Product that shall not be offered or prohibited for sale on an e-commerce 
+platform. 
+4 Banner Small, often rectangular -shaped graphic that appears at the top of a web 
+page. 
+5 Behavioural 
+Emails 
+An automated email sent to recipients based on their actions and behaviour 
+displayed during interactions with a business on social media, company's 
+website, email, and other channels. 
+6 Bounce rate The percentage of bounced emails or messages divided by the total number 
+of emails or messages sent or viewed. 
+7 Call to action  The part of a marketing message that attempts to persuade a person to 
+perform a desired action. 
+8 Campaign 
+Budget 
+An estimate of a company's promotional expenditures over a certain time 
+period allocated to accomplish its marketing objectives. 
+9 Campaign 
+Objectives 
+The ultimate goals of a marketing campaign. 
+10 Click 
+Through Rate 
+A digital marketing metric that measures the ratio of total impressions to 
+clicks in search and display advertising, email marketing, and other online 
+mediums. 
+11 Content Text, video, images and other creatives used in marketing campaigns to   
+communicate with the target audience. 
+12 Conversion 
+Rate 
+The rate (expressed in a percentage) at which website users complete a 
+desired action. (Total number of conversions/ traffic x 100) 
+13 Conversion 
+tracking 
+Tool in an account that can help measure how clicks on the ads and free 
+product listings lead to meaningful actions such as sales or leads. 
+14 Copyright A type of intellectual property that gives its owner the exclusive right to 
+make copies of a creative work. 
+15 Copywriting Process of writing persuasive marketing and promotional materials that 
+motivate people to take some form s of action, such as make a purchase, 
+click on a link and others. 
+16 Cost per click  The price an advertiser pays for a click on an ad from a potential customer.  
+
+===== [PAGE 8] =====
+M731-001-3:2021 
+ iv 
+17 Cost per mille 
+/ Cost per 
+thousand 
+An advertising revenue system used by search engines and ad networks in 
+which advertising companies pay an agreed amount for every 1,000 users 
+who see their ads, regardless of whether a click -through or conversion is 
+achieved.  
+18 Display 
+Network 
+A pay per click ( PPC) advertising platform that displays an advertiser’s 
+ads across a network of websites and mobile apps.  
+19 E-commerce   Activity of buying and selling of goods and services over the internet. 
+20 E-commerce 
+stock 
+The goods or merchandise kept at e-commerce store and available for sale 
+or distribution. 
+21 Email 
+marketing 
+A form of marketing that make s customers aware of new products, 
+discounts, and other services. It can also be a softer sell to educate the 
+audience on the value of a brand or keep them engaged between purchases. 
+22 Email 
+marketing 
+template 
+A pre-made template that gives marketers a starting point for their email.  
+ 
+23 Email 
+marketing 
+tools 
+Tools marketers use to create, send, test, optimize, and report on their 
+email campaigns.  Examples of email marketing tools include Mailchimp, 
+GetResponse and AWeber. 
+24 Email 
+Newsletters 
+A type of email that informs the audience of the latest news, tips, or 
+updates about a product or company. 
+25 Fulfilment The entire process behind get ting an order delivered to customer s after 
+they order it online.  
+26 Impressions The number of times an ad appears as a result of a search on a search 
+engine in pay per click (PPC) advertising, 
+27 Keyword Words or phrases that ad campaigns are based upon  and selected  
+depending on what potential customers are looking for when searching 
+with those words or phrases.  
+28 Keyword 
+ranking 
+A page's specific spot on the search results pages for a particular search 
+query in search engine optimisation. 
+29 Keyword 
+research 
+A practice search engine optimi sation professionals use d to find and 
+search terms that users enter into search engines when loo king for 
+products, services or general information. 
+30 Keyword 
+research tool 
+A programme that helps find words and phrases that users are searching 
+for major search engines. Examples include Google Keyword Planner, 
+SEMRush, MOZ Pro and Ubersuggest. 
+ 
+31 Key 
+Performance 
+Indicators 
+The critical (key) indicators of progress toward an intended result.  
+
+===== [PAGE 9] =====
+M731-001-3:2021 
+ v 
+32 Link building Actions aimed at increasing the number and quality of inbound links to a 
+webpage with the goal of increasing the search engine rankings of that 
+page or website. 
+33 Market 
+segmentation 
+The process of dividing a target market into smaller, more defined 
+categories that share similar characteristics such as demographics, 
+interests, needs, or location. The four bases of market segmentation are 
+demographic, psychographic, behavioural and geographic. 
+34 Marketing 
+mix (4Ps) 
+A foundation model for businesses, historically centred around product, 
+price, place, and promotion defined as the "set of marketing tools that a 
+company uses to pursue its marketing objectives in the target market".  
+35 Media design The process of creating and producing print, online and mobile media 
+using visual elements. 
+36 MMS A store and forward messaging service that allows subscribers to exchange 
+multimedia files as messages. 
+37 Open Rate The percentage of subscribers who open a specific email or message out 
+of a total number of subscribers. 
+38 Optimisation The process of enhancing an ad’s performance by adjusting aspects of the 
+campaign. Examples include modifying bids, changing keywords and 
+adding targeting. 
+39 Order 
+Management 
+System 
+The back-end process for managing and fulfilling online orders including 
+everything from order routing and printing shipping labels to returns and 
+subscription management. 
+40 Organic 
+content 
+Content that does not need to be paid and can be found by users through 
+keyword search. 
+41 Pageview An instance of a page being loaded (or reloaded) in a browser. Pageviews 
+is a metric defined as the total number of pages viewed. 
+42 Paid content Involves paying for any media space or placement and target toward s 
+audience segmentation. 
+43 Personalisation The act of tailoring an experience or communication based on information 
+a company has learned about an individual. 
+44 Placement Location of content display including all media spaces, offered by online 
+publishers, websites, and social networks to marketers. 
+45 Product life 
+cycle 
+The amount of time a product goes from being introduced into the market 
+until it is taken off the shelves. The four stages in a product's life cycle are 
+introduction, growth, maturity, and decline. 
+46 Product 
+listing 
+A page on a website that presents a list of products based on a category or 
+search query. It funnels site visitors to product detail pages and closer to 
+conversion. 
+
+===== [PAGE 10] =====
+M731-001-3:2021 
+ vi 
+47 Safety stock An additional quantity of an item held by a company in inventory in order 
+to reduce the risk that the item will be out of stock. 
+48 Search engine A software system that is designed to carry out web searches in the World 
+Wide Web in a systematic way for particular information specified in a 
+textual web search query. 
+49 Search 
+Engine 
+Marketing  
+The process of advertising on search engines, which involves bidding on 
+keywords to make your ads appear on the first page of search results. Also 
+known as Pay per Click (PPC), paid search and search advertising. 
+50 Search engine 
+optimization 
+The process of improving the quality and quantity of website traffic to a 
+website or a web page from search engines  that targets unpaid traffic 
+(known as "natural" or "organic" results) rather than direct traffic or paid 
+traffic. 
+51 Search 
+Network 
+A group of search-related websites and apps where ads can appear.  
+52 Shop rating An average of all product ratings within the shop. 
+53 SMS A messaging service that a llows users to send and receive personal text 
+messages directly between mobile phones or sometimes to email 
+addresses.  
+54 Social Media 
+Platform 
+An application or website through which users are able to create and share 
+content and find and connect with other users. 
+55 Stock level The different levels of stock which are required for an efficient and 
+effective control of materials and to avoid over and under -stocking of 
+materials. 
+56 SWOT 
+analysis 
+A planning process that analyses strengths, weaknesses, opportunities and 
+threats to help a company overcome challenges and determine what new 
+leads to pursue. 
+57 Total number 
+of clicks 
+The total number of times tracked links are clicked by recipients. This 
+count includes multiple clicks from individual recipients.  
+58 Traffic The number of visitors that come to a website from organic search results. 
+59 Transactional 
+emails 
+A type of email sent to facilitate an agreed -upon transaction between the 
+sender and the recipient. Transactional emails typically contain 
+information a recipient wants or needs and consequently have very high 
+open rates. 
+60 Unsubscribe 
+Rate 
+A measure that indicates the percentage of users who have opted-out from 
+the mailing list after an email campaign. 
+61 URL An acronym that stands for uniform resource locator, the URL is the 
+website address that is displayed in the browser’s address bar.  
+
+===== [PAGE 11] =====
+M731-001-3:2021 
+ vii 
+62 Webmaster 
+tools 
+Tool that helps to evaluate and maintain a website's performance in search 
+results. 
+
+===== [PAGE 12] =====
+M731-001-3:2021 
+ viii 
+List of Figure 
+ 
+1. Figure 1 Occupational Structure for Digital Marketing. 
+2. Figure 2 Occupational Area Structure for Digital Marketing. 
+ 
+List of Appendix 
+ 
+1. Appendix A Competency Profile Chart (CPCPdP) For Teaching & Learning. 
+2. Appendix B Element Content Weightage. 
+ 
+  
+
+===== [PAGE 13] =====
+M731-001-3:2021 
+ ix 
+Acknowledgement 
+ 
+The Director General of Department of Skills Development (DSD) would like to extend his 
+gratitude to the National Skills Development Council (MPKK), Standard Technical Committee 
+(JTS), Standard Technical Evaluation Committee (JTPS), Standard Development Committee 
+(JPS), and organisations and individuals who have been involved directly or indirectly for the 
+contribution, persistence, and support in the development of this Standard until it is completed. 
+ 
+ 
+ 
+ 
+
+===== [PAGE 14] =====
+M731-001-3:2021 
+1 / 99 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STANDARD PRACTICE 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+DIGITAL MARKETING OPERATION 
+ 
+LEVEL 3 
+  
+
+===== [PAGE 15] =====
+M731-001-3:2021 
+2 / 99 
+1. Introduction 
+ 
+1.1. Occupation Overview 
+ 
+Digital marketing is the strategy and processes that connect businesses with their 
+audiences across digital channels. Digital refers to a number of different channels, 
+all used to uniquely engage audiences and tackle various goals of the conversion 
+funnel. The digital channels include display, search, mobile, social, and video.   
+Digital marketing encompasses all marketing efforts that use electronic device s and 
+the internet. Businesses leverage digital channels such as search  engines, social 
+media, email, and other websites to connect with current and prospective customers. 
+Digital marketing helps businesses reach specific audiences more effectively than 
+through traditional methods and target the prospects who are most likely to buy the 
+product or service. Additionally, it  is often more cost -effective than traditional 
+advertising, and enables businesses to measure success on a daily basis or as required. 
+Digital marketing consists of several main areas or categories namely social media 
+marketing, search engine optimisation, search engine marketing,  e-commerce 
+marketing, mobile marketing and email marketing.  
+ 
+As of January 2021, with a population of 32 .57 million, there are 27.43 million 
+internet users, 28 million active social media users, 30.00 million mobile connections 
+in Malaysia with an internet penetration rate of 84.2% 1. Malaysia is one of the key 
+players when it comes to the growth of the digital marketing scene in Southeast Asia.  
+With digital marketing now an integral part of any industry, the need for 
+professionals with digital skills has become a priority for most businesses.  Due to 
+the changeable and fast -paced nature of the digital marke ting sector the role is 
+challenging but rewarding. 
+ 
+Marketing can be performed offline or through digital channels.   Offline marketing 
+is the process of selling products or goods through offline channels like print ads, 
+telemarketing.  This NOSS focuses on online digital marketing only.  Nevertheless, 
+both types of marketing can be used to optimise business performance.   
+ 
+1.2. Rationale of NOSS Development 
+ 
+The rapid evolution of digital marketing has led to a shortage of suitable talent in the 
+technology job market, including digital marketing technology. Digital professionals 
+are yet to reach the expected level of digital skill sets. Currently digital mar keting 
+courses are conducted at various institutes based on curricul um developed by the 
+respective institutes and digital platforms.  There is no national occupational standard 
+related to digital marketing that can be used as a basis to develop curricul um for 
+training digital marketers.  As Malaysia is moving forward to embrace digitalisation 
+in every aspect of life, it is imperative that an occupational standard be developed for 
+digital marketing in order to meet quality manpower requirements in this sector.   The 
+development of this new NOSS will provide a standard reference to align digital 
+marketing courses and certifications offered by different training providers, charter 
+career path, benchmark for best practices and solicit recognition from both publi c 
+and private sector regulatory bodies.   
+ 
+1 Source: https://datareportal.com/digital-in-malaysia 
+
+===== [PAGE 16] =====
+M731-001-3:2021 
+3 / 99 
+ 
+1.3. Rationale of Occupational Structure and Occupational Area Structure 
+ 
+The scope and nature of work for digital marketing fall under Section M Professional, 
+Scientific and Technical Activities in the Malaysia Standard Industrial Classification 
+2008 (MSIC 2008 ). Further analysis shows that the most appropriate division and 
+group for digital marketing are Division 73: Advertising and Market Research and 
+Group 731: Advertising respectively as stated in Figure 1 and Figure 2. 
+ 
+Detailed analysis of the roles and responsibilities of digital marketing personnel at 
+the operational level shows that most of the activities carried out require them to be 
+competent in performing a broad range of varied work activities, performed in a 
+variety of contexts, most of which are complex and non -routine. There is 
+considerable responsibility , autonomy and control .  Based on the occ upational 
+structure, it is also observed that most of the job titles start at Level 3 for the identified 
+areas in digital marketing.  The duties and tasks of Level 2 personnel can also be 
+embedded into Level 3.  Thus, the standard development committee decide that this 
+NOSS shall start at Level 3.   
+ 
+1.4. Regulatory/Statutory Body Requirements Related to Occupation 
+ 
+The occupation of digital marketing in Malaysia in general is subject to the following 
+acts and regulatory requirements: 
+ 
+a) Section 211(a) and 233 Communications and Multimedia Act 1998; 
+b) Personal Data Protection Act 2010; 
+c) Ministry of Domestic Trade and Consumer Affairs (KPDNKK) 
+Acts/Policies/Guidelines; 
+i) Consumer Protection (Amendment) Act 2017 . 
+ii) Electronic Commerce Act 2006. 
+iii) Registration of Businesses Act 1956. 
+d) Digital Business Laws and Regulations 2020; and 
+e) Policies and Requirements as stipulated by the respective digital platforms. 
+ 
+1.5. Occupational Prerequisites 
+ 
+Individual employers may set the selection criteria based on specific requirements.  
+In general, digital marketers should have at least the following pre-requisites: 
+a) Computer literacy in office applications; 
+b) Access to internet; and 
+c) Relevant digital and social media skills. 
+ 
+1.6. General Training Prerequisites for Malaysian Skills Certification System 
+ 
+The minimum requirement to register for Digital Marketing Operation Level 3 at 
+accredited training centres is the ability to speak and write in Bahasa Melayu and 
+English Language.  Nevertheless, the accredited training centres can specify other 
+requirements for their potential trainees. 
+  
+
+===== [PAGE 17] =====
+M731-001-3:2021 
+4 / 99 
+2. Occupational Structure (OS) 
+ 
+Section (M) Professional, Scientific and Technical Activities 
+Group (731) Advertising 
+Area Digital Marketing 
+Social Media 
+Search 
+Engine 
+Optimisation 
+Search 
+Engine 
+Marketing 
+E-Commerce Mobile 
+Marketing 
+Email 
+Marketing 
+Level 5  
+Social Media 
+Manager 
+Search 
+Engine 
+Optimisation 
+Manager 
+Search 
+Engine 
+Marketing 
+Manager 
+E-Commerce 
+Manager 
+Mobile 
+Marketing 
+Manager 
+Email 
+Marketing 
+Manager 
+Level 4  
+Social Media 
+Executive 
+Search 
+Engine 
+Optimisation 
+Executive 
+Search 
+Engine 
+Marketing 
+Executive 
+E-Commerce 
+Executive 
+Mobile 
+Marketing 
+Executive 
+Email 
+Marketing 
+Executive 
+Level 3  
+Social Media 
+Junior 
+Executive 
+Search 
+Engine 
+Optimisation 
+Junior 
+Executive 
+Search 
+Engine 
+Marketing 
+Junior 
+Executive 
+E-Commerce 
+Junior 
+Executive 
+Mobile 
+Marketing 
+Junior 
+Executive 
+Email 
+Marketing 
+Junior 
+Executive 
+Level 2  Social Media 
+Administrator No Job Title No Job 
+Title 
+E-Commerce 
+Administrator 
+No Job 
+Title 
+No Job 
+Title 
+Level 1  No Job Title No Job Title No Job Title No Job Title No Job 
+Title 
+No Job 
+Title 
+ 
+Figure 1: Occupational Structure for Digital Marketing 
+ 
+ 
+3. Occupational Area Structure (OAS) 
+ 
+Section (M) Professional, Scientific and Technical Activities 
+Group (731) Advertising 
+Area Digital Marketing 
+Social 
+Media 
+Search Engine 
+Optimisation 
+Search 
+Engine 
+Marketing 
+E-
+Commerce 
+Mobile 
+Marketing 
+Email 
+Marketing 
+Level 5  Digital Marketing Management 
+Level 4  Digital Marketing Planning & Implementation 
+Level 3  Digital Marketing Operation  
+Level 2  Embedded to Level 3 
+Level 1  No Level 
+ 
+Figure 2: Occupational Area Structure for Digital Marketing 
+  
+
+===== [PAGE 18] =====
+M731-001-3:2021 
+5 / 99 
+4. Definition of Competency Levels 
+ 
+The NOSS is developed for various occupational areas. Below is a guideline of each 
+NOSS Level as defined by the Department of Skills Development, Ministry of Human 
+Resources, Malaysia. 
+ 
+Level 1:  Competent in performing a range of varied work activities, most of 
+which are routine and predictable. 
+  
+Level 2: Competent in performing a significant range of varied work activities, 
+performed in a variety of contexts. Some of the activities are non -
+routine and required individual responsibility and autonomy. 
+  
+Level 3: Competent in performing a broad range of var ied work activities, 
+performed in a variety of contexts, most of which are complex and 
+non-routine. There is considerable responsibility and autonomy and 
+control or guidance of others is often required. 
+  
+Level 4: Competent in performing a broad range of  complex technical or 
+professional work activities performed in a wide variety of contexts 
+and with a substantial degree of personal responsibility and 
+autonomy. Responsibility for the work of others and allocation of 
+resources is often present. 
+  
+Level 5:   Competent in applying a significant range of fundamental principles 
+and complex techniques across a wide and often unpredictable variety 
+of contexts. Very substantial personal autonomy and often significant 
+responsibility for the work of others and for the allocation of 
+substantial resources features strongly, as do personal accountabilities 
+for analysis, diagnosis, planning, execution and evaluation. 
+ 
+  
+
+===== [PAGE 19] =====
+M731-001-3:2021 
+6 / 99 
+5. Award of Certificate 
+ 
+The Director General may award, to any person upon conforming to the Standards the 
+following skills qualifications as stipulated under the National Skills Development Act 
+2006 (Act 652): 
+ 
+a) Malaysian Skills Certificate (MSC); or 
+b) Statements of Achievement. 
+ 
+6. Occupational Competencies 
+ 
+The Digital Marketing Operation  Level 3 personnel are competent in performing t he 
+following core competencies: 
+ 
+a) Execute social media marketing activities; 
+b) Execute search engine optimisation activities; 
+c) Execute search engine marketing activities; 
+d) Execute e-commerce marketing activities; 
+e) Execute mobile marketing activities; and 
+f) Execute email marketing activities. 
+ 
+7. Work Conditions 
+ 
+In digital marketing change is the only constant. This applies to the flexible working hours 
+too.  For those working normal office hours, their w orking time may also extend during 
+large-scale marketing campaigns and project work.  Part -time work and short -term 
+contracts are also available.  Flexible working patterns and working from home 
+arrangements are other options .  Self-employment or freelance  work is possible for 
+experienced digital marketers who choose to become independent consultants.  In fact, 
+the digital marketers can work from anywhere as long as internet connection is available 
+and accessible.  They may work individually or in collaboration with others such as the 
+marketing or web development team.  Since digital marketers spend a significant amount 
+of time on computers and other gadgets, it is important for them to apply ergonomic 
+principles at their workstations to minimise occupational risks. 
+ 
+8. Employment Prospects 
+ 
+Digital marketing personnel may be employed as digital marketers by companies  
+including e-commerce industry as part of their branding team.  They may also work for 
+digital marketing agencies in  various job areas such as social media marketing, search 
+engine optimisation, search engine marketing, e-commerce marketing, mobile marketing 
+and email marketing.  In the last several years, the gig economy and outsourcing trend is 
+growing in Malaysia as more people are opting for flexible working hours.  Thus, self -
+employment or freelance work is another option for digital marketers who choo se to 
+become independent consultants.  In fact, digital marketing is borderless as long as 
+internet connection is available and accessible.   
+According to Job Street 2019 Salary Report, the salary range for this occupation at the 
+entry level is between RM 1,879- RM2447 per month depending on the region in the 
+
+===== [PAGE 20] =====
+M731-001-3:2021 
+7 / 99 
+country.2  According to the Glassdoor portal, t he national average salary for Digital 
+Marketing Intern is $77,758 per year in the United States. 3  In comparison, the Indeed 
+portal states that the average salary for a digital marketing intern is SGD $1,100 per month 
+in Singapore.4 
+ 
+ 
+9. Up Skilling Opportunities 
+ 
+The Level 3 Digital Marketing Operation personnel may upgrade themselves by pursuing 
+the Digital Marketing Planning & Implementation Level 4 diploma programme.  They 
+may also undertake specific courses offered by the various digital platforms such as 
+Facebook Social Media Marketing Professional Certificate, Microsoft Advertising 
+Certified Professional, LinkedIn Fundamentals & Marketing Strategy Certificate and Go 
+E-Commerce (MDEC) as part of their continuing professional development.   
+ 
+  
+ 
+2 JobStreet.com 2019 Salary Report 
+3 https://www.glassdoor.com/Salaries/digital-marketing-intern-salary-SRCH_KO0,24.htm 
+4 https://sg.indeed.com/career/digital-marketing-intern/salaries 
+
+===== [PAGE 21] =====
+M731-001-3:2021 
+8 / 99 
+10. Organisation Reference for Sources of Additional Information 
+ 
+The following organisations can be referred as sources of additional information which 
+can assist in defining the document's contents.  
+ 
+a) Malaysia External Trade Development Corporation (MATRADE) 
+Menara MATRADE, 
+Jalan Sultan Haji Ahmad Shah, 
+50480 Kuala Lumpur, Malaysia 
+Tel: +603-6207 7077 
+Fax: +603-6203 7037 
+Official Website: www.matrade.gov.my 
+Official Email: info@matrade.gov.my 
+ 
+b) Institut Keusahawanan Negara (INSKEN) 
+Kampus INSKEN, CoPlace 1, 
+2270 Jalan Usahawan 2, 
+Cyber 6, 63000 Cyberjaya, 
+Selangor Darul Ehsan. 
+Tel: +603-8314 8800 
+Fax: +603-8314 8900 
+Official Website: www.insken.gov.my 
+Official Email: insken@insken.gov.my 
+ 
+c) Malaysia Digital Economy Corporation (MDEC) Sdn Bhd 
+2360 Persiaran APEC 
+63000 Cyberjaya, Selangor 
+Tel: +603-8315 3000 
+Fax: +603 8315 3115 
+Official Website: www.mdec.my 
+Official Email: clic@mdec.com.my 
+ 
+d) Selangor Information Technology and Digital Economy Corporation (SIDEC) 
+E-28-1, City Park, I-City, Jalan Multimedia 7/AG, 
+Seksyen 7, 40000 Shah Alam, 
+Selangor, Malaysia 
+Tel: +603 - 5521 8580 
+Official Website: www.matrade.gov.my 
+Official Email: info@sidec.com.my 
+ 
+ 
+e) Malaysian Global Innovation & Creativity Centre (MAGIC) 
+Block 3730, Persiaran APEC, 
+63000 Cyberjaya, Malaysia. 
+Tel: +60 3 8324 4801 
+Official Website: www.sidec.com.my 
+Official Email: enquiries@mymagic.my 
+ 
+ 
+ 
+
+===== [PAGE 22] =====
+M731-001-3:2021 
+9 / 99 
+f) Digital Marketing Association Malaysia (DMAM) 
+Pusat Dagangan Phileo Damansara 1, 
+Block E – Level 3, Unit 01 (E301), 
+No.9, Jalan 16/11, Off Jalan Damansara 
+43650 Petaling Jaya, Selangor. 
+Tel: +603 7968 2282 
+Official Website: www.dmam.com.my 
+Official Email: info@dmam.com.my 
+ 
+g) Malaysian Digital Association (MDA) 
+Unit 706, Block B,  
+Pusat Dagangan Phileo,  
+Damansara 1, 9, Jalan 16/11,  
+Off Jalan Damansara,  
+46350 Petaling Jaya, Selangor. 
+Tel: +603 7660 8535 
+Official Website: www.malaysiandigitalassociation.org.my 
+Official Email: mda@macomm.com.my 
+ 
+h) Technopreneur Training Academy (TENTRA MTDC) 
+Malaysian Technology Development Corporation Sdn. Bhd (MTDC) 
+Ground Floor, Menara Yayasan Tun Razak,  
+Jalan Bukit Bintang,  
+55100 Kuala Lumpur, Malaysia 
+Tel: +603-2172 6000 
+Fax:  +603-2163 7541 
+Official Website: www.mtdc.com.my 
+Official Email: comms@mtdc.com.my 
+ 
+i) Pertubuhan Pereka Grafik Kebangsaan (PERGRAKAN) 
+No. C08/3, Garden City, 
+Business Centre, Jalan Dagang Besar,  
+43300 Shah Alam, Selangor 
+Tel: +6014 724 0979 
+Official Website: www.pergrakan.org 
+Official Email: pergrakan@gmail.com 
+ 
+j) Persatuan Usahawan Internet Malaysia (PUIM) 
+F-8-1, Blok F, Putrawalk Jalan PP25, 
+Taman Pinggiran Putra Sek 2, 
+43300 Seri Kembangan, 
+Selangor 
+Tel: +6010 -237 0055 
+Fax: +603-8958 0277 
+Official Website: www.puim.my 
+Official Email: salam@puim.my 
+ 
+ 
+ 
+ 
+
+===== [PAGE 23] =====
+M731-001-3:2021 
+10 / 99 
+k) ICDL Asia Pte Ltd 
+50 Raffles Place 
+Level 19, Singapore Land Tower 
+Singapore 048623 
+Tel: +65 6631 2807 
+Official Website: www.icdlasia.org 
+Official Email: info@icdlasia.org 
+ 
+  
+
+===== [PAGE 24] =====
+M731-001-3:2021 
+11 / 99 
+11. Standard Technical Evaluation Committee 
+ 
+NO NAME POSITION & ORGANISATION 
+CHAIRMAN 
+1  Sukri bin Awang Principal Assistant Director 
+Department of Skills Development 
+EVALUATION PANEL 
+1  Azlinda binti Mohd Hairon Manager, E-Usahawan 
+Malaysian Digital Economy Corporation 
+(MDEC) Sdn Bhd 
+2  Yong Kai Ping Chief Executive Officer 
+Selangor Information Technology & 
+Digital Economy Corporation (SIDEC) 
+3  Abdul Qayyum Adzim bin Azmi Assistant Manager, Digital Marketing, 
+Marketing & Community 
+Malaysian Global Innovation & 
+Creativity Centre (MaGIC) 
+4  Goh Boon Peng Chief Executive Officer/ Founder 
+MyStartr Sdn Bhd 
+5  Cheah Ka Wai Head of Digital Marketing, 
+Superdough Sdn Bhd. 
+SECRETARIAT 
+1  Norliah binti Samah Assistant Director 
+Department of Skills Development 
+ 
+  
+
+===== [PAGE 25] =====
+M731-001-3:2021 
+12 / 99 
+12. Standard Development Committee 
+ 
+DIGITAL MARKETING OPERATION 
+ 
+LEVEL 3 
+ 
+NO NAME POSITION & ORGANISATION 
+DEVELOPMENT PANEL 
+1  Azizee Bin Aziz Head of Entrepreneurship Unit 
+Politeknik Tuanku Syed Sirajuddin  
+2  Muhammad Syukran Bin Jamil 
+ 
+Head of Diploma Technopreneurship 
+Institute Kemahiran Malaysia 
+3  Efina Binti Hamdan Program Coordinator of Diploma in 
+Communication and Media 
+Universiti Teknologi MARA Malaysia 
+4  Chew Soo Wang Digital Marketing Trainer 
+Cevile Enterprise 
+5  Mohd Shazreeq Bin Mohd Alhadi Chief Content Developer 
+Salam Web Technologies MY Sdn Bhd 
+6  Muhamad Fadlishah Bin Rusli Managing Director 
+Akar Digital Sdn Bhd 
+7  Vinod a/l Veeramani Executive Director 
+Califf Vein Enterprise 
+8  Goay Tze Ying Managing Director 
+Digital Biz Institution (M) Sdn Bhd 
+FACILITATOR 
+1  Nabilah Ooi Binti Abdullah CIAST/PPL/FDS-0119/2013 
+Certified NOSS Facilitator 
+ 
+ 
+  
+
+===== [PAGE 26] =====
+M731-001-3:2021 
+13 / 99 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STANDARD CONTENT 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+DIGITAL MARKETING OPERATION 
+ 
+LEVEL 3 
+ 
+
+===== [PAGE 27] =====
+M731-001-3:2021 
+14 / 99 
+13. Competency Profile Chart (CPC) 
+ 
+SECTION (M) PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES 
+GROUP (731) ADVERTISING 
+AREA DIGITAL MARKETING 
+NOSS TITLE DIGITAL MARKETING OPERATION 
+NOSS LEVEL THREE (3) NOSS CODE M731-001-3:2021 
+ 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+   
+    
+CORE 
+ 
+EXECUTE SOCIAL 
+MEDIA 
+MARKETING 
+ACTIVITIES 
+ 
+CREATE SOCIAL 
+MEDIA BUSINESS 
+ACCOUNTS 
+ 
+CARRY OUT 
+SOCIAL MEDIA 
+MARKETING 
+CAMPAIGNS 
+ 
+PRODUCE 
+SOCIAL MEDIA 
+MARKETING 
+CONTENT 
+ 
+MODERATE 
+SOCIAL MEDIA 
+MARKETING 
+POSTS 
+ M731-001-3:2021- 
+C01  M731-001-3:2021- 
+C01-W01  M731-001-3:2021- 
+C01-W02  M731-001-3:2021- 
+C01-W03  M731-001-3:2021- 
+C01-W04 
+     
+ 
+    
+   
+MONITOR SOCIAL 
+MEDIA 
+MARKETING 
+PERFORMANCE 
+      
+   M731-001-3:2021- 
+C01-W05       
+      
+ 
+    
+ 
+ 
+ 
+
+===== [PAGE 28] =====
+M731-001-3:2021 
+15 / 99 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+           
+CORE 
+ 
+EXECUTE SEARCH 
+ENGINE 
+OPTIMISATION 
+ACTIVITIES 
+ 
+BUILD ON-PAGE 
+SEARCH ENGINE 
+OPTIMISATION 
+ 
+BUILD OFF-PAGE 
+SEARCH ENGINE 
+OPTIMISATION 
+ 
+MONITOR 
+SEARCH ENGINE 
+OPTIMISATION 
+RANKING 
+PERFORMANCE 
+  
+ M731-001-3:2021-
+C02  M731-001-3:2021-
+C02-W01  M731-001-3:2021-
+C02-W02  M731-001-3:2021-
+C02-W03   
+          
+ 
+EXECUTE SEARCH 
+ENGINE 
+MARKETING 
+ACTIVITIES 
+ 
+CREATE SEARCH 
+ENGINE 
+MARKETING 
+ACCOUNTS 
+ 
+CARRY OUT 
+SEARCH ENGINE 
+MARKETING 
+CAMPAIGNS 
+ 
+PRODUCE 
+SEARCH ENGINE 
+MARKETING 
+CONTENT 
+ 
+MONITOR 
+SEARCH ENGINE 
+MARKETING 
+PERFORMANCE 
+ M731-001-3:2021-
+C03  M731-001-3:2021-
+C03-W01  M731-001-3:2021-
+C03-W02  M731-001-3:2021-
+C03-W03  M731-001-3:2021-
+C03-W04 
+          
+ 
+EXECUTE E-
+COMMERCE 
+MARKETING 
+ACTIVITIES 
+ 
+CREATE E-
+COMMERCE 
+ACCOUNTS 
+ 
+CARRY OUT E-
+COMMERCE 
+MARKETING 
+CAMPAIGNS 
+ 
+PRODUCE E-
+COMMERCE 
+MARKETING 
+CONTENT 
+ 
+MODERATE E-
+COMMERCE 
+STORE 
+MANAGEMENT 
+ M731-001-3:2021-
+C04  M731-001-3:2021-
+C04-W01  M731-001-3:2021-
+C04-W02  M731-001-3:2021-
+C04-W03  M731-001-3:2021-
+C04-W04 
+ 
+ 
+ 
+
+===== [PAGE 29] =====
+M731-001-3:2021 
+16 / 99 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+           
+CORE 
+   
+MONITOR E-
+COMMERCE 
+MARKETING 
+PERFORMANCE 
+      
+   M731-001-3:2021-
+C04 -W05       
+   
+ 
+EXECUTE MOBILE 
+MARKETING 
+ACTIVITIES 
+ 
+ 
+ 
+CREATE MOBILE 
+MARKETING 
+ACCOUNTS 
+ 
+CARRY OUT 
+MOBILE 
+MARKETING 
+CAMPAIGNS 
+ 
+PRODUCE 
+MOBILE 
+MARKETING 
+CONTENT 
+ 
+MONITOR 
+MOBILE 
+MARKETING 
+PERFORMANCE 
+ M731-001-3:2021-
+C05  M731-001-3:2021-
+C05-W01  M731-001-3:2021-
+C05-W02  M731-001-3:2021-
+C05-W03  M731-001-3:2021-
+C05-W04 
+          
+ 
+EXECUTE EMAIL 
+MARKETING 
+ACTIVITIES 
+ 
+CREATE EMAIL 
+MARKETING 
+ACCOUNTS 
+ 
+CARRY OUT 
+EMAIL 
+MARKETING 
+CAMPAIGNS 
+ 
+PRODUCE EMAIL 
+MARKETING 
+CONTENT 
+ 
+MONITOR EMAIL 
+MARKETING 
+PERFORMANCE 
+ M731-001-3:2021-
+C06  M731-001-3:2021-
+C06-W01  M731-001-3:2021-
+C06-W02  M731-001-3:2021-
+C06-W03  M731-001-3:2021-
+C06-W04 
+  
+
+===== [PAGE 30] =====
+M731-001-3:2021 
+17 / 99 
+14. Competency Profile (CP) 
+ 
+SECTION (M) Professional, Scientific and Technical Activities 
+GROUP (731) Advertising 
+AREA Digital Marketing 
+NOSS TITLE Digital Marketing Operation 
+NOSS LEVEL Three (3) NOSS CODE M731-001-3:2021 
+ 
+CU TITLE &  
+CU CODE 
+Execute social media marketing activities. 
+M731-001-3:2021- C01 
+CU 
+DESCRIPTOR 
+Execute social media marketing activities describes the competencies in using social media platforms to connect with 
+audience to market a company’s products or services. 
+ 
+The person who is competent in this CU should be able to create social media business accounts, carry out social 
+media marketing campaigns, produce social media marketing content, moderate social media marketing posts and 
+monitor social media marketing performance. 
+ 
+The outcome of this CU is optimal use of social media marketing strategies to build brand awareness  as well as to 
+increase engagement and conversion. 
+ 
+ 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1. Create social 
+media 
+business 
+accounts. 
+1.1 Obtain business accounts 
+credentials. 
+1.2 Set up social media business 
+accounts. 
+1.3 Publish social media business 
+accounts. 
+ 
+1.1 Business accounts credentials obtained from superior for all mandatory 
+fields required to set up social media business accounts. 
+1.2 Social media business accounts setup completed with all specified 
+mandatory fields. 
+1.3 Social media business accounts published as per scheduled timeline upon 
+approval. 
+
+===== [PAGE 31] =====
+M731-001-3:2021 
+18 / 99 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+2. Carry out 
+social media 
+marketing 
+campaigns. 
+2.1 Determine social media 
+campaigns requirements. 
+2.2 Identify social media content 
+requirements. 
+2.3 Set up social media campaigns. 
+ 
+2.1 Social media campaigns requirements identified as per work instructions. 
+2.2 Social media content requirements identified as per work instructions. 
+2.3 Social media campaign s set up according to campaign s requirements 
+upon approval. 
+ 
+3. Produce 
+social media 
+marketing 
+content. 
+3.1 Identify social media hashtags.  
+3.2 Select social media 
+placements. 
+3.3 Prepare social media 
+copywriting. 
+3.4 Coordinate creative media 
+preparation. 
+3.5 Publish social media content. 
+ 
+3.1 Social media hashtags identified as per campaign objectives. 
+3.2 Social media placements selected as per campaign objectives. 
+3.3 Social media copywriting prepared as per campaign objective and social 
+media content policy. 
+3.4 Creative media preparation coordinated  according to  creative media 
+requirements. 
+3.5 Social media content published as per scheduled timeline upon approval. 
+ 
+4. Moderate 
+social media 
+marketing 
+posts. 
+ 
+4.1 Monitor social media 
+engagement. 
+4.2 Provide public posting 
+feedback. 
+4.3 Provide assistance to  solve 
+audience’s problems.  
+4.1 Social media engagement monitored regularly to meet specified response 
+rate. 
+4.2 Public posting f eedback provided according to audience engagement 
+strategies. 
+4.3 Assistance provided to solve audience’s problems according to audience 
+requests. 
+ 
+5. Monitor 
+social media 
+marketing 
+performance. 
+5.1 Check social media marketing 
+performance. 
+5.2 Carry out social media 
+campaigns optimisation 
+strategies.  
+5.3 Compile social media 
+marketing performance 
+reports. 
+5.1 Social media marketi ng performance checked using performance 
+monitoring tools. 
+5.2 Social media marketi ng campaigns optimisation strategies carried out 
+according to work instructions. 
+5.3 Social media marketing performance reports compiled in required format 
+as per work instructions. 
+5.4 Social media marketing performance reports submitted to superior as per 
+scheduled timeline. 
+
+===== [PAGE 32] =====
+M731-001-3:2021 
+19 / 99 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+5.4 Submit social media marketing 
+performance reports to 
+superior. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== [PAGE 33] =====
+M731-001-3:2021 
+20 / 99 
+CU TITLE &  
+CU CODE 
+Execute search engine optimisation activities. 
+M731-001-3:2021-C02 
+CU 
+DESCRIPTOR 
+Execute search engine optimisation activities  describes the competencies required to perform the process of 
+optimising online content to improve its visibility for relevant searches of a certain keyword.  
+ 
+The person who is competent in this CU should be able to build on -page search engine optimisation, build off-page 
+search engine optimisation and monitor search engine optimisation ranking performance. 
+ 
+The outcome of this CU is optimisation of online content that will improve search engine ranking and increase traffic 
+to the required website through search engine results. 
+ 
+ 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1. Build on-page 
+search engine 
+optimisation. 
+ 
+1.1 Perform target keyword 
+research. 
+1.2 Identify search engine 
+optimisation essentials.  
+1.3 Produce on-page search engine 
+optimisation content. 
+1.4 Insert search engine 
+optimisation essential s into 
+content. 
+1.5 Publish on-page search engine 
+optimisation. 
+ 
+1.1 Target keyword research performed based on work instructions. 
+1.2 Search engine optimisation essentials identified according to on-page 
+search engine optimisation requirements. 
+1.3 On-page search engine optimisation  contents produced relevant to 
+targeted keyword. 
+1.4 Search engine optimisation essentials inserted into content completed 
+with all specified mandatory fields.   
+1.5 On-page search engine optimisation published as per scheduled timeline 
+upon approval. 
+ 
+2. Build off-
+page search 
+engine 
+optimisation. 
+ 
+2.1 Perform off-page search engine 
+optimisation components 
+research. 
+2.2 Produce off-page search engine 
+optimisation content. 
+2.1 Off-page search engine optimisation components research performed 
+based on work instructions. 
+2.2 Off-page search engine optimisation  content produced relevant to 
+targeted keyword. 
+2.3 Off-page search engine optimisation components identified according to 
+off-page search engine optimisation requirements. 
+
+===== [PAGE 34] =====
+M731-001-3:2021 
+21 / 99 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+2.3 Identify off-page search engine 
+optimisation components. 
+2.4 Insert off-page search engine 
+optimisation essentials into 
+content. 
+2.5 Publish off-page search engine 
+optimisation. 
+ 
+2.4 Off-page s earch engine optimisation essentials inserted into content 
+complete with all specified mandatory fields. 
+2.5 Off-page search engine optimisation published as per scheduled timeline 
+upon approval. 
+ 
+3. Monitor 
+search engine 
+optimisation 
+ranking 
+performance. 
+ 
+3.1 Check search engine 
+optimisation performance. 
+3.2 Carry out  search engine 
+optimisation strategies. 
+3.3 Compile search engine 
+optimisation performance 
+reports. 
+3.4 Submit search engine 
+optimisation performance 
+reports to superior.  
+3.1 Search engine optimisation performance checked using performance 
+monitoring tools. 
+3.2 Search engine optimisation strategies carried out  according to  work 
+instructions. 
+3.3 Search engine optimisation performance reports compiled in required 
+format as per work instructions. 
+3.4 Search engine optimisation performance reports submitted to superior as 
+per scheduled timeline. 
+ 
+  
+
+===== [PAGE 35] =====
+M731-001-3:2021 
+22 / 99 
+CU TITLE &  
+CU CODE 
+Execute search engine marketing activities. 
+M731-001-3:2021-C03 
+CU 
+DESCRIPTOR 
+Execute search engine marketing activities describes the competencies required to perform marketing of a business 
+using paid strategies to increase search visibility on search engine results pages. 
+ 
+The person who is competent in this CU should be able to create search engine marketing accounts, carry out search 
+engine marketing campaign s, produce search engine marketing content, and monitor search engine marketing 
+performance. 
+ 
+The outcome of this CU is the optimisation of paid search activities that will result in greater visibility and traffic in 
+search engine result pages. 
+ 
+ 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1. Create search 
+engine 
+marketing 
+accounts. 
+1.1 Obtain business accounts 
+credentials. 
+1.2 Set up search engine marketing 
+accounts. 
+1.3 Publish search engine 
+marketing accounts. 
+ 
+1.1 Business accounts credentials obtained from superior for all mandatory 
+fields required to set up search engine marketing accounts. 
+1.2 Search engine marketing accounts setup completed with all required 
+mandatory fields. 
+1.3 Search engine marketing business accounts published as per scheduled 
+timeline upon approval. 
+ 
+2. Carry out 
+search engine 
+marketing 
+campaigns. 
+ 
+2.1 Identify search engine 
+marketing campaign s 
+requirements. 
+2.2 Identify search engine 
+marketing content 
+requirements. 
+2.3 Set up search engine marketing 
+campaigns. 
+ 
+2.1 Search engine marketing campaigns requirements identified as per work 
+instructions. 
+2.2 Search engine marketing  content requirements identified as per work 
+instructions. 
+2.3 Search engine marketing campaign s set up according to campaign s 
+requirements upon approval. 
+ 
+
+===== [PAGE 36] =====
+M731-001-3:2021 
+23 / 99 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+3. Produce 
+search engine 
+marketing 
+content. 
+ 
+3.1 Identify target keywords. 
+3.2 Specify search engine 
+placement. 
+3.3 Prepare search engine 
+marketing copywriting. 
+3.4 Coordinate creative media 
+preparation. 
+3.5 Link call to action  to target 
+destination. 
+3.6 Publish search engine 
+marketing content.  
+ 
+3.1 Target keywords identified as per campaign objectives. 
+3.2 Search engine placement specified as per campaign objectives. 
+3.3 Search engine marketing  copywriting prepared in line with identified 
+keywords. 
+3.4 Creative media preparation coordinated  according to  creative format 
+requirements. 
+3.5 Call to action linked to target destination. 
+3.6 Search engine marketing content published as per scheduled timeline  
+upon approval. 
+ 
+4. Monitor 
+search engine 
+marketing 
+performance. 
+ 
+4.1 Check search engine marketing 
+performance. 
+4.2 Carry out  search engine 
+marketing campaign s 
+optimisation strategies.  
+4.3 Compile search engine 
+marketing performance 
+reports. 
+4.4 Submit search engine 
+marketing performance reports 
+to superior. 
+4.1 Search engine marketing performance checked using performance 
+monitoring tools. 
+4.2 Search engine marketing campaigns optimisation strategies carried out 
+according to work instructions. 
+4.3 Search engine marketing performance reports compiled in required 
+format as per work instructions. 
+4.4 Search engine marketing performance reports submitted to superior as 
+per scheduled timeline. 
+ 
+ 
+  
+
+===== [PAGE 37] =====
+M731-001-3:2021 
+24 / 99 
+CU TITLE &  
+CU CODE 
+Execute e-commerce marketing activities. 
+M731-001-3:2021-C04 
+CU 
+DESCRIPTOR 
+Execute e-commerce marketing activities describes the competencies required to perform commercial transactions 
+conducted electronically via the internet. 
+ 
+The person who is competent in this CU should be abl e to create e -commerce accounts, carry out  e-commerce 
+marketing campaigns, produce e -commerce content, moderate e -commerce store management and monitor e -
+commerce marketing performance. 
+ 
+The outcome of this CU is optimal application of strategies that will result in a profitable and successful e-commerce 
+business. 
+ 
+ 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1. Create e-
+commerce 
+accounts. 
+1.1 Obtain business accounts 
+credentials. 
+1.2 Set up e-commerce accounts. 
+1.3 Publish e-commerce accounts. 
+ 
+1.1 Business accounts credentials obtained from superior for all mandatory 
+fields required to set up e-commerce accounts. 
+1.2 E-commerce accounts setup completed with all required mandatory 
+fields. 
+1.3 E-commerce accounts published as per scheduled timeline  upon 
+approval. 
+ 
+2. Carry out e-
+commerce 
+marketing 
+campaigns. 
+2.1 Determine e -commerce 
+campaigns requirements. 
+2.2 Identify e-commerce content 
+requirements. 
+2.3 Set up e- commerce 
+campaigns. 
+ 
+2.1 E-commerce campaigns requirements identified as per work instructions. 
+2.2 E-commerce content requirements identified as per work instructions. 
+2.3 E-commerce campaigns set up according to campaign requirements upon 
+approval. 
+ 
+3. Produce e-
+commerce 
+3.1 Key-in product information. 
+3.2 Prepare product content. 
+3.1 Product information keyed-in according to required format. 
+3.2 Product content prepared according to content guidelines and publishing 
+policy. 
+
+===== [PAGE 38] =====
+M731-001-3:2021 
+25 / 99 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+marketing 
+content. 
+3.3 Coordinate creative media 
+preparation. 
+3.4 Publish product listing. 
+ 
+3.3 Creative media preparation coordinated  according to  creative format 
+requirements. 
+3.4 Product listing published as per scheduled timeline. 
+ 
+4. Moderate e-
+commerce 
+store 
+management. 
+ 
+4.1 Process e-commerce orders. 
+4.2 Update e -commerce store 
+information. 
+4.3 Monitor e-commerce stock. 
+4.4 Monitor e-commerce 
+fulfilment. 
+4.5 Submit store management 
+reports to superior.  
+ 
+4.1 E-commerce orders processed according to order details. 
+4.2 E-commerce store information updated according to work instruction. 
+4.3 Stock inventory monitored based on inventory status. 
+4.4 E-commerce fulfilment monitored within delivery timeline. 
+4.5 Store management report s submitted to superior as per scheduled 
+timeline. 
+ 
+5. Monitor e-
+commerce 
+marketing 
+performance. 
+ 
+ 
+5.1 Check e-commerce marketing 
+performance. 
+5.2 Carry out  e-commerce 
+marketing campaigns 
+optimisation strategies.  
+5.3 Compile e-commerce 
+marketing performance 
+reports. 
+5.4 Submit e-commerce marketing 
+performance reports to 
+superior. 
+ 
+5.1 E-commerce performance checked using performance monitoring tools. 
+5.2 E-commerce marketing campaigns optimisation strategies carried out  
+according to work instructions. 
+5.3 E-commerce marketing performance reports compiled in required format 
+as per work instructions. 
+5.4 E-commerce marketing performance reports submitted to superior as per 
+scheduled timeline. 
+ 
+ 
+  
+
+===== [PAGE 39] =====
+M731-001-3:2021 
+26 / 99 
+CU TITLE &  
+CU CODE 
+Execute mobile marketing activities. 
+M731-001-3:2021-C05 
+CU 
+DESCRIPTOR 
+Execute mobile marketing activities  describes the competencies required in applying a multi -channel, digital 
+marketing strategy aimed at reaching a target audience on their smartphones, tablets, and/or other mobile devices, 
+via websites, email, SMS and MMS, social media, and apps. 
+ 
+The pers on who is competent in this CU should be able to create mobile marketing accounts, carry out  mobile 
+marketing campaigns, produce mobile marketing content and monitor mobile marketing performance. 
+ 
+The outcome of this CU is enhancement of brand value and de mand for products or services by leveraging mobile 
+devices to connect direct to the consumers in real time at any point in the customer lifecycle.  
+ 
+ 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1 Create mobile 
+marketing 
+accounts. 
+1.1 Obtain business accounts 
+credentials. 
+1.2 Set up mobile marketing 
+accounts. 
+1.3 Publish mobile marketing 
+accounts. 
+ 
+1.1 Business accounts credentials obtained from superior for all mandatory 
+fields required to set up mobile marketing accounts. 
+1.2 Mobile marketing accounts setup completed with all required mandatory 
+fields. 
+1.3 Mobile marketing accounts published as per scheduled timeline  upon 
+approval. 
+2 Carry out 
+mobile 
+marketing 
+campaigns. 
+2.1 Identify mobile marketing 
+campaigns requirements. 
+2.2 Identify mobile marketing 
+content requirements. 
+2.3 Set up mobile marketing 
+campaigns. 
+ 
+2.1 Mobile marketing campaigns requirements identified as per work 
+instructions. 
+2.2 Mobile marketing c ontent requirements identified as per work 
+instructions. 
+2.3 Mobile marketing campaigns set up according to campaign requirements 
+upon approval. 
+ 
+
+===== [PAGE 40] =====
+M731-001-3:2021 
+27 / 99 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+3 Produce 
+mobile 
+marketing 
+content. 
+3.1 Prepare mobile marketing 
+copywriting. 
+3.2 Coordinate creative media 
+preparation. 
+3.3 Publish mobile marketing 
+content. 
+ 
+3.1 Mobile marketing c opywriting prepared as per campaign objective and 
+mobile marketing content policy. 
+3.2 Creative media preparation coordinated  according to  creative format 
+requirements. 
+3.3 Mobile marketing content published as per scheduled timeline  upon 
+approval. 
+4 Monitor 
+mobile 
+marketing 
+performance. 
+4.1 Check mobile marketing 
+performance. 
+4.2 Carry out mobile marketing 
+campaigns optimisation 
+strategies.  
+4.3 Compile mobile marketing 
+performance reports. 
+4.4 Submit mobile marketing 
+performance reports to 
+superior. 
+ 
+4.1 Mobile marketing performance checked using performance monitoring 
+tools. 
+4.2 Mobile marketing campaigns optimisation strategies carried out  
+according to work instructions. 
+4.3 Mobile marketing performance reports compiled in required format as 
+per work instructions. 
+4.4 Mobile marketing performance reports submitted to superior as per 
+scheduled timeline. 
+ 
+ 
+  
+
+===== [PAGE 41] =====
+M731-001-3:2021 
+28 / 99 
+CU TITLE &  
+CU CODE 
+Execute email marketing activities. 
+M731-001-3:2021-C06 
+CU 
+DESCRIPTOR 
+Execute email marketing activities describes the competencies in marketing business products or services via email. 
+Email marketing strategies are used for lead generation, brand awareness, building relationships or keeping customers 
+engaged between purchases through different types of marketing emails.  
+ 
+The person who is competent in this CU should be able to create email marketing accounts, carry out email marketing 
+campaigns, produce email marketing content and monitor email marketing performance. 
+ 
+The outcome of this CU is effective app lication of email marketing strategies that will optimise connection with 
+target audience in a personalised way. 
+ 
+ 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1 Create email 
+marketing 
+accounts. 
+1.1 Obtain business accounts 
+credentials. 
+1.2 Set up  email marketing 
+accounts. 
+1.3 Publish email marketing 
+accounts. 
+ 
+1.1 Business accounts credentials obtained from superior for all mandatory 
+fields required to set up email marketing accounts. 
+1.2 Email marketing accounts setup completed with all required mandatory 
+fields.  
+1.3 Email marketing accounts published as per scheduled timeline  upon 
+approval. 
+2 Carry out 
+email 
+marketing 
+campaigns. 
+2.1 Identify email marketing 
+campaigns requirements. 
+2.2 Select audience email list. 
+2.3 Identify email marketing  
+content requirements. 
+2.4 Set up email marketing 
+campaigns. 
+ 
+2.1 Email marketing campaigns requirements identified as per work 
+instruction. 
+2.2 Email list selected according to targeted audience. 
+2.3 Email marketing  content requirements identified as per campaign 
+objective. 
+2.4 Email marketing campaigns set up according to campaign objective upon 
+approval. 
+ 
+
+===== [PAGE 42] =====
+M731-001-3:2021 
+29 / 99 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+3 Produce 
+email 
+marketing 
+content. 
+3.1 Set up email marketing 
+template. 
+3.2 Prepare email marketing  
+copywriting. 
+3.3 Coordinate creative media  
+preparation.  
+3.4 Publish email marketing 
+campaigns. 
+3.1 Email marketing template set up according to work instructions. 
+3.2 Email copywriting prepared according to campaign objective and privacy 
+policies. 
+3.3 Creative media preparation coordinated  according to  creative format 
+requirements. 
+3.4 Email marketing campaigns published as per scheduled timeline. 
+ 
+4 Monitor 
+email 
+marketing 
+performance. 
+4.1 Check email marketing 
+performance. 
+4.2 Carry out email marketing 
+campaigns optimisation 
+strategies. 
+4.3 Compile email marketing 
+performance reports. 
+4.4 Submit email marketing 
+performance reports to 
+superior. 
+ 
+4.1 Email marketing performance checked using performance monitoring 
+tools. 
+4.2 Email marketing campaigns optimisation strategies carried out according 
+to work instructions. 
+4.3 Email marketing performance reports compiled in required format as per 
+work instructions. 
+4.4 Email marketing performance reports submitted to superior as per 
+scheduled timeline. 
+ 
+ 
+ 
+
+===== [PAGE 43] =====
+M731-001-3:2021 
+30 / 99 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CURRICULUM OF COMPETENCY UNIT 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+DIGITAL MARKETING OPERATION 
+ 
+LEVEL 3 
+ 
+
+===== [PAGE 44] =====
+M731-001-3:2021 
+31 / 99 
+15. Curriculum of Competency Unit  
+15.1. Execute social media marketing activities. 
+ 
+SECTION (M) Professional, Scientific and Technical Activities 
+GROUP (731) Advertising 
+AREA Digital Marketing 
+NOSS TITLE Digital Marketing Operation 
+COMPETENCY UNIT TITLE Execute social media marketing activities. 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to use social media platforms 
+to connect with audience to market a company’s products or services as well as to apply strategies 
+to build brand awareness, increase engagement and conversion.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Create social media business accounts. 
+2. Carry out social media marketing campaigns. 
+3. Produce social media marketing content. 
+4. Moderate social media marketing posts. 
+5. Monitor social media marketing performance. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not available. 
+CU CODE M731-001-3:2021- C01 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Create social 
+media 
+business 
+accounts. 
+1.1 Fundamentals 
+of marketing  
+which include: 
+• Marketing 
+mix (4Ps). 
+1.1 Obtain business 
+accounts credentials. 
+1.2 Set up social media 
+business accounts. 
+ATTITUDE 
+1.1 Carry out  work plan 
+according to specified 
+instructions. 
+COGNITIVE DOMAIN 
+1.1 Fundamentals of marketing 
+explained. 
+1.2 Social media marketing 
+explained. 
+
+===== [PAGE 45] =====
+M731-001-3:2021 
+32 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Market 
+segmentation. 
+• Unique 
+selling point / 
+proposition. 
+• SWOT 
+analysis. 
+• Product life 
+cycle. 
+1.2 Introduction to 
+social media 
+marketing: 
+• Definition. 
+• Purpose. 
+• Organic 
+versus paid 
+content. 
+• Digital 
+carbon 
+footprint, 
+environmental 
+impact and 
+green 
+initiatives. 
+1.3 Business 
+account 
+credentials 
+which include: 
+1.3 Publish social media 
+business accounts. 
+ 
+1.2 Maintain business 
+data confidentiality. 
+1.3 Accomplish work task 
+within allocated time 
+frame. 
+ 
+SAFETY 
+1.1 Comply with 
+workplace health and 
+safety requirements. 
+1.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+1.1 Apply clean and green 
+workplace practices. 
+1.3 Business account credentials 
+listed. 
+1.4 Social media account 
+information described. 
+1.5 Social media account setup 
+described. 
+1.6 Social media marketing policy 
+explained. 
+ 
+PSYCHOMOTOR DOMAIN 
+1.1 Business accounts’ credentials 
+obtained for all mandatory 
+fields. 
+1.2 Social media business accounts 
+setup completed with all 
+specified mandatory fields. 
+1.3 Social media business accounts 
+published as per scheduled 
+timeline. 
+ 
+AFFECTIVE DOMAIN 
+1.1 Work plan carried out 
+according to specified 
+instructions. 
+1.2 Business data confidentiality  
+maintained. 
+1.3 Work task accomplished 
+within allocated time frame. 
+
+===== [PAGE 46] =====
+M731-001-3:2021 
+33 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Username. 
+• Password. 
+• Business 
+profile. 
+• Billing 
+information. 
+ 
+1.4 Social media 
+account 
+information 
+which includes: 
+• Business 
+category. 
+• Business 
+name. 
+• Contact 
+number. 
+• Email. 
+• Business 
+description. 
+• Banner. 
+• Profile 
+picture. 
+1.5 Social media 
+account setup 
+which includes: 
+• Synchronise 
+posting 
+1.4 Workplace health and safety 
+requirements complied. 
+1.5 Good ergonomics practised. 
+1.6 Clean and green workplace 
+practices applied. 
+
+===== [PAGE 47] =====
+M731-001-3:2021 
+34 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+across 
+platform. 
+• User role. 
+• Automated 
+responses. 
+1.6 Social media 
+marketing 
+policy: 
+• Platform 
+guidelines. 
+• Compliance 
+requirement. 
+ 
+2. Carry out 
+social media 
+marketing 
+campaigns. 
+2.1 Social media 
+marketing 
+campaign 
+requirements 
+which include: 
+• Campaign 
+objectives. 
+• Types of 
+campaign. 
+• Allocated 
+campaign 
+budget. 
+• Specified 
+campaign 
+duration. 
+2.1 Determine social 
+media campaign s 
+requirements. 
+2.2 Identify social media 
+content requirements. 
+2.3 Set up social media 
+campaigns. 
+ 
+ATTITUDE 
+2.1 Carry out  work plan 
+thoroughly. 
+2.2 Comply with 
+regulatory 
+requirements. 
+2.3 Complete task with 
+minimum supervision. 
+2.4 Accept feedback 
+positively. 
+2.5 Observe latest 
+technology trends. 
+2.6 Accomplish work task 
+within allocated time 
+frame. 
+COGNITIVE DOMAIN 
+2.1 Social media marketing 
+campaign requirements 
+explained. 
+2.2 Types of social media 
+marketing content described. 
+2.3 Social media marketing  
+content requirements 
+explained. 
+2.4 Social media marketing 
+campaign setup described. 
+ 
+PSYCHOMOTOR DOMAIN 
+2.1 Social media campaign s 
+requirements identified. 
+
+===== [PAGE 48] =====
+M731-001-3:2021 
+35 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Campaign 
+results. 
+2.2 Types of social 
+media 
+marketing 
+content which 
+include: 
+• Banner/ 
+Poster. 
+• Video. 
+• Hashtag. 
+• Copywriting. 
+2.3 Social media 
+marketing 
+content 
+requirements 
+which include: 
+• Compliance 
+with social 
+media 
+marketing 
+platform 
+recommende
+d guidelines. 
+• Compliance 
+with social 
+media 
+marketing 
+ 
+SAFETY 
+2.1 Comply with 
+workplace health and 
+safety requirements. 
+2.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+2.1 Apply clean and green 
+workplace practices. 
+2.2 Social media content 
+requirements identified  
+according to campaign 
+requirements. 
+2.3 Social media campaign set up 
+according to campaign 
+requirements. 
+ 
+AFFECTIVE DOMAIN 
+2.1 Work plan carried out 
+thoroughly. 
+2.2 Regulatory requirements 
+complied. 
+2.3 Task completed with minimum 
+supervision. 
+2.4 Feedback accepted positively. 
+2.5 Latest technology trends  
+observed. 
+2.6 Work task accomplished 
+within allocated time frame. 
+2.7 Workplace health and safety 
+requirements complied. 
+2.8 Good ergonomics practised. 
+2.9 Clean and green workplace 
+practices applied. 
+ 
+ 
+
+===== [PAGE 49] =====
+M731-001-3:2021 
+36 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+platform 
+terms and 
+conditions. 
+2.4 Social media 
+marketing 
+campaign setup  
+which includes: 
+• Billing. 
+• Structure. 
+• Conversion 
+tracking. 
+ 
+3. Produce 
+social media 
+marketing 
+content. 
+3.1 Types of social 
+media hashtag 
+which include: 
+• Brand 
+specific. 
+• Content. 
+• Trending 
+3.2 Types of social 
+media 
+placement 
+which include: 
+• Display 
+network. 
+• Audience 
+network. 
+3.1 Identify social media 
+hashtags.  
+3.2 Select social media 
+placements. 
+3.3 Prepare social media 
+copywriting. 
+3.4 Coordinate creative 
+media preparation.  
+3.5 Publish social media 
+content. 
+ 
+ATTITUDE 
+3.1 Carry out  work plan 
+meticulously. 
+3.2 Comply with 
+regulatory 
+requirements. 
+3.3 Apply creative and 
+alternative thinking in 
+work tasks. 
+3.4 Accomplish work 
+tasks within allocated 
+time frame. 
+ 
+SAFETY 
+3.1 Comply with 
+workplace health and 
+safety requirements. 
+COGNITIVE DOMAIN 
+3.1 Types of social media hashtag 
+described. 
+3.2 Types of social media 
+placement described. 
+3.3 Placement selection criteria 
+explained. 
+3.4 Social media marketing 
+copywriting explained. 
+3.5 Creative media described. 
+ 
+PSYCHOMOTOR DOMAIN 
+3.1 Social media  hashtags 
+identified as per campaign 
+objective. 
+
+===== [PAGE 50] =====
+M731-001-3:2021 
+37 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3.3 Placement 
+selection 
+criteria which 
+include: 
+• Client 
+request. 
+• Work 
+instruction. 
+3.4 Social media 
+marketing 
+copywriting:  
+• Copywriting 
+techniques. 
+• Copywriting 
+guidelines. 
+• Platform 
+publishing 
+policy. 
+3.5 Creative media: 
+• Design 
+elements and 
+principles. 
+• Types of 
+creative 
+media. 
+• Sources of 
+creative 
+media. 
+3.2 Practise good 
+ergonomics. 
+ 
+ 
+ 
+ENVIRONMENT 
+3.1 Apply clean and green 
+workplace practices. 
+ 
+3.2 Social media placement 
+selected as per campaign 
+objective. 
+3.3 Social media c opywriting 
+prepared as per campaign 
+objective in adherence to social 
+media content policy. 
+3.4 Creative media preparation 
+coordinated according to  
+creative media requirements. 
+3.5 Social media content published 
+as per scheduled timeline. 
+. 
+AFFECTIVE DOMAIN 
+3.1 Work plan carried out 
+meticulously. 
+3.2 Regulatory requirements 
+complied. 
+3.3 Creative and alternative 
+thinking applied in work tasks. 
+3.4 Work tasks accomplished 
+within allocated time frame. 
+3.5 Workplace health and safety 
+requirements complied. 
+3.6 Good ergonomics practised. 
+3.7 Clean and green workplace 
+practices applied. 
+ 
+ 
+
+===== [PAGE 51] =====
+M731-001-3:2021 
+38 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Creative 
+media 
+format. 
+• Copyright 
+policy. 
+ 
+4. Moderate 
+social media 
+marketing 
+posts. 
+4.1 Social media 
+engagement: 
+• Definition. 
+• Purpose. 
+4.2 Social media 
+engagement 
+techniques 
+which include: 
+• Create polls 
+and surveys. 
+• Continue the 
+flow of the 
+conversation 
+of 
+engagement. 
+• Immediate 
+response to 
+trending 
+topics. 
+4.3 Public posting 
+feedback 
+techniques. 
+4.1 Monitor social media 
+engagement. 
+4.2 Provide public 
+posting feedback. 
+4.3 Provide assistance to 
+solve audience’s 
+problems.  
+ATTITUDE 
+4.1 Demonstrate effective 
+communication skills. 
+4.2 Keep up dated with 
+trending topics. 
+4.3 Provide feedback 
+tactfully. 
+4.4 Provide prompt 
+assistance to solve 
+audience problem. 
+ 
+SAFETY 
+4.1 Comply with 
+workplace health and 
+safety requirements. 
+4.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+4.1 Apply clean and green 
+workplace practices. 
+ 
+ 
+COGNITIVE DOMAIN 
+4.1 Social media engagement 
+explained. 
+4.2 Social media engagement 
+techniques described. 
+4.3 Public posting f eedback 
+techniques described. 
+4.4 Types of assistance described. 
+ 
+PSYCHOMOTOR DOMAIN 
+4.1 Social media engagement 
+monitored regularly. 
+4.2 Public posting feedback 
+provided according to audience 
+engagement strategies. 
+4.3 Assistance provided to solve 
+audience’s problems according 
+to audience requests. 
+ 
+AFFECTIVE DOMAIN 
+4.1 Effective communication skills 
+demonstrated. 
+4.2 Trending topics kept up to date. 
+
+===== [PAGE 52] =====
+M731-001-3:2021 
+39 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+4.4 Types of 
+assistance 
+which include: 
+• Providing 
+solution for 
+technical 
+problems. 
+• Addressing 
+complaints. 
+• Responding 
+to p roduct / 
+service 
+enquiry. 
+• Responding 
+to g eneral 
+enquiry. 
+ 
+4.3 Trending topics kept up to date. 
+4.4 Public posting  feedback 
+provided tactfully. 
+4.5 Prompt assistance provided. 
+4.6 Workplace health and safety 
+requirements complied. 
+4.7 Good ergonomics practised. 
+4.8 Clean and green workplace 
+practices applied. 
+ 
+ 
+5. Monitor 
+social media 
+marketing 
+performance
+. 
+5.1 Social media 
+marketing 
+performance 
+indicators 
+which include: 
+• Pageview. 
+• Social media 
+followers / 
+likes / 
+subscribers. 
+• Post reach. 
+5.1 Check social media 
+marketing 
+performance. 
+5.2 Carry out social media 
+campaigns 
+optimisation 
+strategies.  
+5.3 Compile social media 
+marketing 
+performance reports. 
+ATTITUDE 
+5.1 Carry out  work tasks 
+thoroughly. 
+5.2 Ensure work 
+performance delivery 
+meets target key 
+performance 
+indicators. 
+5.3 Address work issues 
+and problems 
+rationally. 
+COGNITIVE DOMAIN 
+5.1 Social media marketing 
+performance indicators 
+explained. 
+5.2 Social media marketing 
+performance tool described. 
+5.3 Social media marketing 
+performance optimisation 
+methods described. 
+ 
+PSYCHOMOTOR DOMAIN 
+
+===== [PAGE 53] =====
+M731-001-3:2021 
+40 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Post 
+engagement. 
+• Responsive 
+time. 
+5.2 Performance 
+monitoring tool  
+(social media 
+marketing 
+report). 
+5.3 Social media 
+marketing 
+campaign 
+optimisation 
+methods which 
+include: 
+• Improve the 
+copywriting. 
+• Share to 
+relevant 
+groups or 
+channel. 
+• Improve 
+quality of 
+engagement. 
+• Use different 
+types of 
+creative 
+media. 
+5.4 Submit social media 
+marketing 
+performance reports 
+to superior. 
+ 
+SAFETY 
+5.1 Comply with 
+workplace health and 
+safety requirements. 
+5.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+5.1 Apply clean and green 
+workplace practices. 
+ 
+ 
+5.1 Social media marketi ng 
+performance checked using 
+performance monitoring tools. 
+5.2 Social media marketi ng 
+performance optimisation 
+strategies carried out. 
+5.3 Social media marketi ng 
+performance reports compiled 
+in required format. 
+5.4 Social media marketi ng 
+performance reports submitted 
+as per scheduled timeline. 
+ 
+AFFECTIVE DOMAIN 
+5.1 Work tasks carried out 
+thoroughly. 
+5.2 Work performance delivery 
+ensured to meet target 
+indicators. 
+5.3 Work issues and problems  
+addressed rationally. 
+5.4 Workplace health and safety 
+requirements complied. 
+5.5 Good ergonomics practised. 
+5.6 Clean and green workplace 
+practices applied. 
+ 
+
+===== [PAGE 54] =====
+M731-001-3:2021 
+41 / 99 
+Employability Skills  
+ 
+Core Abilities 
+• Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+• Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 Armstrong, G., Kotler, P. & Opresnik, M. O. 2019. Marketing: An Introduction Global Edition (14th edition). Pearson. ISBN -
+9781292294865 
+2 Department of Skills Development (DSD). 2015. Z-009-1:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+3 Department of Skills Development (DSD). 2015. Z-009-2:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+4 Department of Skills Development (DSD). 2015. Z-009-3:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+5 Kotler, P. & Armstrong, G. 2020. Principles of Marketing Global Edition (18th Edition). Pearson. ISBN-9781292341132. 
+6 Rahim M. Sail et al. 2007. Handbook on Social Skills and Social Values in Technical Education and Vocational Training. Serdan g. 
+Department of Skills Development (DSD). ISBN 978-967-5026-21-8. 
+7 Shiv, Singh. 2010. Social Media Marketing for Dummies. Indianapolis, Indiana. ISBN-9780470289341. 
+  
+
+===== [PAGE 55] =====
+M731-001-3:2021 
+42 / 99 
+15.2. Execute search engine optimisation activities. 
+ 
+SECTION (M) Professional, Scientific and Technical Activities 
+GROUP (731) Advertising 
+AREA Digital Marketing 
+NOSS TITLE Digital Marketing Operation 
+COMPETENCY UNIT TITLE Execute search engine optimisation activities. 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to perform the process of 
+optimising online content to improve its visibility for relevant searches of a certain keyword. 
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Build on-page search engine optimisation. 
+2. Build off-page search engine optimisation. 
+3. Monitor search engine optimisation ranking performance. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not available. 
+CU CODE M731-001-3:2021-C02 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Build on-
+page search 
+engine 
+optimisation. 
+1.1 Fundamentals 
+of marketing  
+which include: 
+• Marketing 
+mix (4Ps). 
+• Market 
+segmentation. 
+1.1 Perform target 
+keyword research.  
+1.2 Identify search engine 
+optimisation 
+essentials. 
+1.3 Produce on-page 
+search engine 
+optimisation content. 
+ATTITUDE 
+1.1 Carry out  work plan 
+meticulously. 
+1.2 Analyse information 
+logically. 
+1.3 Comply with 
+regulatory 
+requirements. 
+COGNITIVE DOMAIN 
+1.1 Fundamentals of marketing 
+explained. 
+1.2 On-page search engine 
+optimisation explained. 
+1.3 On-page search engine 
+optimisation essentials 
+explained. 
+
+===== [PAGE 56] =====
+M731-001-3:2021 
+43 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Unique 
+selling point / 
+proposition. 
+• SWOT 
+analysis. 
+• Product life 
+cycle. 
+1.2 Introduction to 
+on-page search 
+engine 
+optimisation: 
+• Definition. 
+• Purpose. 
+• Digital 
+carbon 
+footprint, 
+environment
+al impact and 
+green 
+initiatives. 
+1.3 On-page s earch 
+engine 
+optimisation 
+essentials which 
+include: 
+• Website 
+Structure. 
+1.4 Insert search engine 
+optimisation 
+essentials into the 
+content. 
+1.5 Publish on -page 
+search engine 
+optimisation. 
+1.4 Accomplish work task 
+within allocated time 
+frame. 
+1.5 Complete task with 
+minimum 
+supervision. 
+ 
+SAFETY 
+1.1 Comply with 
+workplace health and 
+safety requirements. 
+1.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+1.1 Apply clean and green 
+workplace practices. 
+1.4 Keyword research tools 
+described. 
+1.5 On-page search engine 
+optimisation copywriting 
+explained. 
+ 
+PSYCHOMOTOR DOMAIN 
+1.1 Target k eyword research 
+performed. 
+1.2 On-page search engine 
+optimisation contents produced 
+relevant to target keyword. 
+1.3 Search engine optimisation 
+essentials identified according 
+to on -page search engine 
+optimisation requirements. 
+1.4 Search engine optimisation 
+essentials inserted into content 
+completed with all specified 
+mandatory fields.   
+1.5 On-page search engine 
+optimisation published as per 
+scheduled timeline. 
+ 
+AFFECTIVE DOMAIN 
+1.1 Work plan carried out 
+meticulously. 
+1.2 Information analysed logically. 
+
+===== [PAGE 57] =====
+M731-001-3:2021 
+44 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Title Tag & 
+Meta 
+description 
+optimization. 
+• Permalink / 
+URL. 
+• Header tags 
+optimization 
+(H1, H2, 
+H3). 
+• Image 
+optimisation. 
+1.4 Keyword 
+research tools. 
+1.5 On-page search 
+engine 
+optimisation 
+copywriting:  
+• Copywriting 
+techniques. 
+• Copywriting 
+guidelines. 
+• Search 
+engine 
+optimisation 
+article health 
+check. 
+1.3 Regulatory requirements 
+complied. 
+1.4 Work task accomplished 
+within allocated time frame. 
+1.5 Task completed with minimum 
+supervision. 
+ 
+
+===== [PAGE 58] =====
+M731-001-3:2021 
+45 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Publishing 
+policy. 
+ 
+2. Build off-
+page search 
+engine 
+optimisation. 
+2.1 Introduction to 
+off-page search 
+engine 
+optimisation: 
+• Definition. 
+• Purpose. 
+2.2 Search engine 
+optimisation 
+essentials which 
+include: 
+• Link 
+Building.  
+• Guest 
+blogging. 
+2.3 Off-page search 
+engine 
+optimisation 
+copywriting:  
+• Copywriting 
+techniques. 
+• Copywriting 
+guidelines. 
+• Search 
+engine 
+optimisation 
+2.1 Perform off-page 
+search engine 
+optimisation 
+components research. 
+2.2 Produce off-page 
+search engine 
+optimisation contents. 
+2.3 Identify off-page 
+search engine 
+optimisation 
+components. 
+2.4 Insert off-page search 
+engine optimisation 
+essentials into the 
+content. 
+2.5 Publish off -page 
+search engine 
+optimisation. 
+ 
+ATTITUDE 
+2.1 Carry out  work plan 
+meticulously. 
+2.2 Analyse information 
+logically. 
+2.3 Comply with 
+regulatory 
+requirements. 
+2.4 Accomplish work task 
+within allocated time 
+frame. 
+2.5 Work with minimum 
+supervision. 
+ 
+SAFETY 
+2.1 Comply with 
+workplace health and 
+safety requirements. 
+2.2 Practise good 
+ergonomics. 
+    
+ENVIRONMENT 
+2.1 Apply clean and green 
+workplace practices. 
+    
+COGNITIVE DOMAIN 
+2.1 Fundamentals of marketing 
+explained. 
+2.2 Off-page search engine 
+optimisation explained. 
+2.3 Off-page search engine 
+optimisation essentials 
+explained. 
+2.4 Off-page search engine 
+optimisation copywriting 
+explained. 
+ 
+PSYCHOMOTOR DOMAIN 
+2.1 Off-page search engine 
+optimisation components 
+research performed. 
+2.2 Off-page search engine 
+optimisation contents produced 
+relevant to target keyword. 
+2.3 Search engine optimisation off-
+page components identified. 
+2.4 Search engine optimisation off-
+page components inserted into 
+the content completed with all 
+specified mandatory fields. 
+
+===== [PAGE 59] =====
+M731-001-3:2021 
+46 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+article health 
+check. 
+• Publishing 
+policy. 
+ 
+2.5 Off-page search engine 
+optimisation published as per 
+scheduled timeline. 
+ 
+AFFECTIVE DOMAIN 
+2.1 Work plan carried out 
+meticulously. 
+2.2 Information analysed logically. 
+2.3 Regulatory requirements 
+complied. 
+2.4 Work task accomplished 
+within allocated time frame. 
+2.5 Task completed with minimum 
+supervision. 
+ 
+3. Monitor 
+search 
+engine 
+optimisation 
+ranking 
+performance
+. 
+3.1 Search engine 
+optimisation 
+performance 
+indicators 
+which include: 
+• Number of 
+visits. 
+• Click-
+through rate. 
+• Keyword 
+ranking. 
+• Competitor 
+analysis. 
+3.1 Check search engine 
+optimisation 
+performance. 
+3.2 Carry out search 
+engine optimisation 
+strategies. 
+3.3 Compile search 
+engine optimisation 
+performance reports. 
+3.4 Submit search engine 
+optimisation 
+performance reports. 
+ATTITUDE 
+3.1 Carry out  work tasks 
+thoroughly. 
+3.2 Ensure work 
+performance deli very 
+meets target 
+indicators. 
+3.3 Address work issues 
+and problems 
+rationally. 
+ 
+SAFETY 
+COGNITIVE DOMAIN 
+3.1 Search engine optimisation 
+performance indicators 
+explained. 
+3.2 Performance monitoring tools 
+described. 
+3.3 Search engine optimisation 
+performance optimisation 
+methods described. 
+3.4 Search engine optimisation 
+report metrics described. 
+ 
+ 
+ 
+
+===== [PAGE 60] =====
+M731-001-3:2021 
+47 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3.2 Performance 
+monitoring 
+tools which 
+include: 
+• Search 
+engine 
+analytic 
+tools. 
+• Webmaster 
+tools. 
+3.3 Search engine 
+optimisation 
+performance 
+optimisation 
+methods which 
+include: 
+• Building 
+more 
+backlinks. 
+• Keyword 
+change.  
+• Optimisation 
+of content. 
+3.4 Search engine 
+optimisation 
+performance 
+report metrics 
+which include: 
+3.1 Comply with 
+workplace health and 
+safety requirements. 
+3.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+3.1 Apply clean and green 
+workplace practices. 
+ 
+ 
+PSYCHOMOTOR DOMAIN 
+3.1 Search engine optimisation 
+performance checked using 
+performance monitoring tools. 
+3.2 Search engine optimisation 
+strategies carried out. 
+3.3 Search engine optimisation 
+performance reports compiled 
+in required format. 
+3.4 Search engine optimisation 
+performance reports submitted 
+as per scheduled timeline. 
+ 
+AFFECTIVE DOMAIN 
+3.1 Work tasks carried out 
+thoroughly. 
+3.2 Work performance delivery 
+ensured to meet target 
+indicators. 
+3.3 Work issues and problems 
+addressed rationally. 
+3.4 Workplace health and safety 
+requirements complied. 
+3.5 Good ergonomics practised. 
+3.6 Clean and green workplace 
+practices applied. 
+ 
+
+===== [PAGE 61] =====
+M731-001-3:2021 
+48 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Volume of 
+traffic per 
+day / week / 
+month. 
+• Search 
+engine 
+optimisation 
+ranking. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== [PAGE 62] =====
+M731-001-3:2021 
+49 / 99 
+Employability Skills  
+ 
+Core Abilities 
+• Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+• Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 Armstrong, G., Kotler, P. & Opresnik, M. O. 2019. Marketing: An Introduction Global Edition (14th edition). Pearson. ISBN -
+9781292294865 
+2 Department of Skills Development (DSD). 2015. Z-009-1:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+3 Department of Skills Development (DSD). 2015. Z-009-2:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+4 Department of Skills Development (DSD). 2015. Z-009-3:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+5 Gajan Retnasaba Thomas Parker & Meyling Lau. 2012. SEO Keyword Strategy, 1st Edition. ISBN-9780985872007. 
+6 Kotler, P. & Armstrong, G. 2020. Principles of Marketing Global Edition (18th Edition). Pearson. ISBN-9781292341132. 
+7 Lorrie, Thomas. 2011. Online Marketing, 1st Edition. New York. ISBN-9780071750394. 
+8 Rafiq, Elmansy. 2013. Search Engine Optimization. Indianapolis, Indiana. ISBN-9781118470664. 
+9 Rahim M. Sail et al. 2007. Handbook on Social Skills and Social Values in Technical Education and Vocational Training. Serdan g. 
+Department of Skills Development (DSD). ISBN 978-967-5026-21-8. 
+  
+
+===== [PAGE 63] =====
+M731-001-3:2021 
+50 / 99 
+15.3. Execute search engine marketing activities. 
+ 
+SECTION (M) Professional, Scientific and Technical Activities 
+GROUP (731) Advertising 
+AREA Digital Marketing 
+NOSS TITLE Digital Marketing Operation 
+COMPETENCY UNIT TITLE Execute search engine marketing activities. 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to perform marketing of a 
+business using paid strategies to that will result in greater visibility and traffic in search engine 
+result pages. 
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Create search engine marketing accounts. 
+2. Carry out search engine marketing campaigns. 
+3. Produce search engine marketing content. 
+4. Monitor search engine marketing performance. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not available. 
+CU CODE M731-001-3:2021-C03 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Create 
+search 
+engine 
+marketing 
+accounts. 
+1.1 Fundamentals 
+of marketing  
+which include: 
+• Marketing 
+mix (4Ps). 
+• Market 
+segmentation. 
+1.1 Obtain business 
+accounts credentials. 
+1.2 Set up search engine 
+marketing accounts. 
+1.3 Publish search engine 
+marketing accounts. 
+ 
+ATTITUDE 
+1.1 Carry out work plan 
+according to specified 
+instructions. 
+1.2 Maintain business 
+data confidentiality. 
+COGNITIVE DOMAIN 
+1.1 Fundamentals of marketing 
+explained. 
+1.2 Introduction to s earch engine 
+marketing explained. 
+1.3 Business account credentials 
+listed. 
+
+===== [PAGE 64] =====
+M731-001-3:2021 
+51 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Unique 
+selling point / 
+proposition. 
+• SWOT 
+analysis. 
+• Product life 
+cycle. 
+1.2 Introduction to 
+search engine 
+marketing: 
+• Definition. 
+• Purpose. 
+• Digital 
+carbon 
+footprint, 
+environment
+al impact and 
+green 
+initiatives. 
+1.3 Business 
+account 
+credentials 
+which include: 
+• Username. 
+• Password. 
+• Business 
+profile. 
+1.3 Accomplish work task 
+within allocated time 
+frame. 
+ 
+SAFETY 
+1.1 Comply with 
+workplace health and 
+safety requirements. 
+1.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+1.1 Apply clean and green 
+workplace practices. 
+1.4 Search engine marketing 
+account information described. 
+1.5 Search engine marketing 
+account setup described. 
+1.6 Search engine marketing 
+policy explained. 
+ 
+PSYCHOMOTOR DOMAIN 
+1.1 Business accounts credentials 
+obtained for all mandatory 
+fields. 
+1.2 Search engine marketing 
+accounts setup completed with 
+all required mandatory fields. 
+1.3 Search engine marketing 
+business accounts published as 
+per scheduled timeline. 
+ 
+AFFECTIVE DOMAIN 
+1.1 Work plan carried out 
+according to specified 
+instructions. 
+1.2 Business data confidentiality 
+maintained. 
+1.3 Work task accomplished 
+within allocated time frame. 
+1.4 Workplace health and safety 
+requirements complied. 
+1.5 Good ergonomics practised. 
+
+===== [PAGE 65] =====
+M731-001-3:2021 
+52 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Billing 
+information. 
+1.4 Search engine 
+marketing 
+account 
+information: 
+• Email. 
+• Destination 
+URL. 
+1.5 Search engine 
+marketing 
+policy: 
+• Platform 
+policy. 
+• Compliance 
+with 
+platform 
+policy. 
+ 
+1.6 Clean and green workplace 
+practices applied. 
+2. Carry out 
+search 
+engine 
+marketing 
+campaigns. 
+2.1 Search engine 
+marketing 
+campaign 
+requirements 
+which include: 
+• Campaign 
+objectives. 
+• Types of 
+campaign. 
+2.1 Identify search engine 
+marketing campaign 
+requirements. 
+2.2 Identify search engine 
+marketing content 
+requirements. 
+2.3 Set up search engine 
+marketing campaign. 
+ 
+ATTITUDE 
+2.1 Carry out work plan 
+thoroughly. 
+2.2 Comply with 
+regulatory 
+requirements. 
+2.3 Analyse information 
+logically. 
+COGNITIVE DOMAIN 
+2.1 Search engine marketing 
+campaign requirements 
+explained. 
+2.2 Types of search engine 
+marketing content described. 
+2.3 Search engine marketing 
+content requirements 
+explained. 
+
+===== [PAGE 66] =====
+M731-001-3:2021 
+53 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Allocated 
+campaign 
+budget. 
+• Specified 
+campaign 
+duration. 
+• Campaign 
+results. 
+2.2 Types of search 
+engine 
+marketing 
+content: 
+• Text  
+• Image. 
+• Video. 
+2.3 Search engine 
+marketing 
+content 
+requirements: 
+• Compliance 
+with search 
+engine 
+marketing 
+platform 
+recommende
+d guidelines. 
+• Compliance 
+with search 
+2.4 Keep update with latest 
+technology trends. 
+2.5 Accomplish work task 
+within allocated time 
+frame. 
+ 
+SAFETY 
+2.1 Comply with 
+workplace health and 
+safety requirements. 
+2.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+2.1 Apply clean and green 
+workplace practices. 
+2.4 Search engine marketing 
+campaign setup described. 
+ 
+PSYCHOMOTOR DOMAIN 
+2.1 Search engine marketing 
+campaign requirements 
+identified. 
+2.2 Search engine marketing  
+content requirements 
+identified. 
+2.3 Search engine marketing 
+campaign set up according to 
+campaign requirements.  
+ 
+AFFECTIVE DOMAIN 
+2.1 Work plan carried out 
+thoroughly. 
+2.2 Regulatory requirements 
+complied. 
+2.3 Task completed with minimum 
+supervision. 
+2.4 Feedback accepted positively. 
+2.5 Kept updated with latest 
+technology trends. 
+2.6 Work task accomplished 
+within allocated time frame. 
+2.7 Workplace health and safety 
+requirements complied. 
+2.8 Good ergonomics practised. 
+
+===== [PAGE 67] =====
+M731-001-3:2021 
+54 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+engine 
+marketing 
+platform 
+terms and 
+conditions. 
+2.4 Search engine 
+marketing 
+campaign setup: 
+• Billing. 
+• Campaign 
+structure. 
+• Conversion 
+tracking. 
+ 
+2.9 Clean and green workplace 
+practices applied. 
+ 
+ 
+3. Produce 
+search 
+engine 
+marketing 
+content. 
+3.1 Keyword 
+research tools. 
+3.2 Types of search 
+engine 
+marketing 
+placement: 
+• Display 
+network. 
+• Search 
+network. 
+3.3 Placement 
+selection 
+criteria: 
+3.1 Identify target 
+keywords. 
+3.2 Specify search engine 
+placements. 
+3.3 Prepare search engine 
+marketing 
+copywriting. 
+3.4 Coordinate creative 
+media preparation.  
+3.5 Link call to action to 
+target destination. 
+3.6 Publish search engine 
+marketing content.  
+ 
+ATTITUDE 
+3.1 Carry out  work plan 
+meticulously. 
+3.2 Comply with 
+regulatory 
+requirements. 
+3.3 Apply creative and 
+alternative thinking in 
+work tasks. 
+3.4 Accomplish work task 
+within allocated time 
+frame. 
+ 
+SAFETY 
+COGNITIVE DOMAIN 
+3.1 Keyword research tools  
+described. 
+3.2 Types of search engine 
+marketing placement 
+described. 
+3.3 Search engine marketing 
+placement selection criteria 
+explained. 
+3.4 Search engine  marketing 
+copywriting explained. 
+3.5 Creative media described. 
+ 
+PSYCHOMOTOR DOMAIN 
+
+===== [PAGE 68] =====
+M731-001-3:2021 
+55 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Client 
+request. 
+• Work 
+instruction. 
+3.4 Search engine 
+marketing 
+copywriting: 
+• Copywriting 
+techniques. 
+• Copywriting 
+guidelines. 
+• Platform 
+publishing 
+policy. 
+3.5 Creative media: 
+• Design 
+elements and 
+principles. 
+• Types of 
+creative 
+media. 
+• Sources of 
+creative 
+media. 
+• Creative 
+media 
+format. 
+3.1 Comply with 
+workplace health and 
+safety requirements. 
+3.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+3.1 Apply clean and green 
+workplace practices. 
+3.1 Target k eywords identified as 
+per campaign objective. 
+3.2 Search engine p lacement 
+specified as per campaign 
+objective. 
+3.3 Search engine marketing 
+copywriting prepared in line 
+with identified keywords. 
+3.4 Creative media preparation 
+coordinated according to  
+creative format requirements. 
+3.5 Call to action  linked to target 
+destination. 
+3.6 Search engine marketing 
+content published as per 
+scheduled timeline. 
+ 
+AFFECTIVE DOMAIN 
+3.1 Work plan carried out 
+meticulously. 
+3.2 Regulatory requirements 
+complied. 
+3.3 Creative and alternative 
+thinking applied in work tasks. 
+3.4 Work tasks accomplished 
+within allocated time frame. 
+3.5 Workplace health and safety 
+requirements complied. 
+3.6 Good ergonomics practised. 
+
+===== [PAGE 69] =====
+M731-001-3:2021 
+56 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Copyright 
+policy. 
+ 
+3.7 Clean and green workplace 
+practices applied. 
+ 
+ 
+4. Monitor 
+search 
+engine 
+marketing 
+performance
+. 
+ 
+4.1 Search engine 
+marketing 
+performance 
+indicators 
+which include: 
+• Click-
+through rate. 
+• Conversion 
+rate. 
+• Impressions. 
+• Average cost 
+per click  
+• Cost per 
+mille / c ost 
+per thousand. 
+• Total number 
+of clicks. 
+• Cost per 
+Acquisition. 
+4.2 Performance 
+monitoring 
+tools (Search 
+engine 
+4.1 Check search engine 
+marketing 
+performance. 
+4.2 Carry out search 
+engine marketing 
+campaigns 
+optimisation 
+strategies.  
+4.3 Compile search 
+engine marketing 
+performance reports. 
+4.4 Submit search engine 
+marketing 
+performance reports. 
+ATTITUDE 
+4.1 Execute work tasks 
+thoroughly. 
+4.2 Ensure work 
+performance delivery 
+meets target 
+indicators. 
+4.3 Address work issues 
+and problems 
+rationally. 
+ 
+SAFETY 
+4.1 Comply with 
+workplace health and 
+safety requirements. 
+4.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+4.1 Apply clean and green 
+workplace practices. 
+ 
+COGNITIVE DOMAIN 
+4.1 Search engine marketing 
+performance indicators 
+explained. 
+4.2 Search engine marketing 
+performance tool described. 
+4.3 Search engine marketing 
+performance optimisation 
+methods described. 
+ 
+PSYCHOMOTOR DOMAIN 
+4.1 Search engine marketing 
+performance checked using 
+performance monitoring tools. 
+4.2 Search engine marketing 
+campaign optimisation 
+strategies carried out. 
+4.3 Search engine marketing 
+performance reports compiled 
+according to required format. 
+4.4 Search engine marketing 
+performance reports submitted 
+as per scheduled timeline. 
+ 
+ 
+
+===== [PAGE 70] =====
+M731-001-3:2021 
+57 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+marketing 
+report). 
+4.3 Search engine 
+marketing 
+campaign 
+optimisation 
+methods which 
+include: 
+• Keyword 
+change.  
+• Optimisation 
+of content. 
+ 
+AFFECTIVE DOMAIN 
+4.1 Work tasks carried out 
+thoroughly. 
+4.2 Work performance delivery 
+ensured to meet target 
+indicators. 
+4.3 Work issues and problems 
+addressed rationally. 
+4.4 Workplace health and safety 
+requirements complied. 
+4.5 Good ergonomics practised. 
+4.6 Clean and green workplace 
+practices applied. 
+ 
+ 
+  
+
+===== [PAGE 71] =====
+M731-001-3:2021 
+58 / 99 
+Employability Skills  
+ 
+Core Abilities 
+• Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+• Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 Armstrong, G., Kotle r, P. & Opresnik, M. O. 2019. Marketing: An Introduction Global Edition (14th edition). Pearson. ISBN -
+9781292294865 
+2 Department of Skills Development (DSD). 2015. Z-009-1:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+3 Department of Skills Development (DSD). 2015. Z-009-2:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+4 Department of Skills Development (DSD). 2015. Z-009-3:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+5 Gajan Retnasaba Thomas Parker & Meyling Lau. 2012. SEO Keyword Strategy, 1st Edition. ISBN-9780985872007. 
+6 Kotler, P. & Armstrong, G. 2020. Principles of Marketing Global Edition (18th Edition). Pearson. ISBN-9781292341132. 
+7 Lorrie, Thomas. 2011. Online Marketing, 1st Edition. New York. ISBN-9780071750394. 
+8 Rafiq, Elmansy. 2013. Search Engine Optimization. Indianapolis, Indiana. ISBN-9781118470664. 
+9 Rahim M. Sail et al. 2007. Handbook on Social Skills and Social Values in Technical Education and Vocational Training. Serdang. 
+Department of Skills Development (DSD). ISBN 978-967-5026-21-8. 
+  
+
+===== [PAGE 72] =====
+M731-001-3:2021 
+59 / 99 
+15.4. Execute e-commerce marketing activities. 
+ 
+SECTION (M) Professional, Scientific and Technical Activities 
+GROUP (731) Advertising 
+AREA Digital Marketing 
+NOSS TITLE Digital Marketing Operation 
+COMPETENCY UNIT TITLE Execute e-commerce marketing activities. 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to perform commercial 
+transactions conducted electronically via the internet and apply strategies that will result in a 
+profitable and successful e-commerce business.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Create e-commerce accounts. 
+2. Carry out e-commerce marketing campaigns. 
+3. Produce e-commerce marketing content. 
+4. Moderate e-commerce store management. 
+5. Monitor e-commerce marketing performance. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not available. 
+CU CODE M731-001-3:2021-C04 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Create e-
+commerce 
+accounts. 
+ 
+1.1 Fundamentals 
+of marketing  
+which include: 
+• Marketing 
+mix (4Ps). 
+1.1 Obtain business 
+accounts credentials. 
+1.2 Set up e -commerce 
+accounts. 
+1.3 Publish e -commerce 
+accounts. 
+ATTITUDE 
+1.1 Carry out  work plan 
+according to specified 
+instructions. 
+1.2 Maintain business 
+data confidentiality. 
+COGNITIVE DOMAIN 
+1.1 Fundamentals of marketing 
+explained. 
+1.2 E-commerce explained. 
+1.3 Business account credentials 
+listed. 
+
+===== [PAGE 73] =====
+M731-001-3:2021 
+60 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Market 
+segmentation. 
+• Unique 
+selling point / 
+proposition. 
+• SWOT 
+analysis. 
+• Product life 
+cycle. 
+1.2 Introduction to 
+e-commerce: 
+• Definition. 
+• Purpose. 
+• Digital 
+carbon 
+footprint, 
+environment
+al impact and 
+green 
+initiatives. 
+1.3 Business 
+account 
+credentials 
+which include: 
+• Username. 
+• Password. 
+• Business 
+profile. 
+ 1.3 Accomplish work task 
+within allocated time 
+frame. 
+ 
+SAFETY 
+1.1 Comply with 
+workplace health and 
+safety requirements. 
+1.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+1.1 Apply clean and green 
+workplace practices. 
+ 
+1.4 E-commerce account 
+information described. 
+1.5 E-commerce account setup 
+described. 
+1.6 E-commerce policy explained. 
+ 
+PSYCHOMOTOR DOMAIN 
+1.1 Business accounts credentials 
+obtained for all mandatory 
+fields. 
+1.2 E-commerce accounts setup 
+completed with all required 
+mandatory fields  
+1.3 E-commerce accounts 
+published as per scheduled 
+timeline. 
+ 
+AFFECTIVE DOMAIN 
+1.1 Work plan carried out 
+according to specified 
+instructions. 
+1.2 Business data confidentiality 
+maintained. 
+1.3 Work task accomplished 
+within allocated time frame.  
+1.4 Workplace health and safety 
+requirements complied. 
+1.5 Good ergonomics practised. 
+
+===== [PAGE 74] =====
+M731-001-3:2021 
+61 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Billing 
+information. 
+• Shipping 
+information. 
+1.4 E-commerce 
+account 
+information: 
+• Business 
+category. 
+• Business 
+name. 
+• Contact 
+number. 
+• Email. 
+• Business 
+description. 
+• Banner. 
+• Profile 
+picture. 
+1.5 E-commerce 
+account setup: 
+• User role. 
+• Automated 
+responses. 
+1.6 E-commerce 
+policy: 
+• Platform 
+policy.  
+1.6 Clean and green workplace 
+practices applied. 
+
+===== [PAGE 75] =====
+M731-001-3:2021 
+62 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Compliance 
+with e -
+commerce 
+platform 
+policy. 
+ 
+2. Carry out e-
+commerce 
+marketing 
+campaigns. 
+ 
+2.1 E-commerce 
+campaign 
+requirements 
+which include: 
+• Campaign 
+objectives. 
+• Types of 
+campaign. 
+• Allocated 
+campaign 
+budget. 
+• Specified 
+campaign 
+duration. 
+• Campaign 
+results. 
+2.2 Types of e-
+commerce 
+content which 
+include: 
+• Images. 
+• Video. 
+2.1 Determine e -
+commerce campaign s 
+requirements. 
+2.2 Identify e-commerce 
+content requirements. 
+2.3 Set up e -commerce 
+campaigns. 
+ 
+ATTITUDE 
+2.1 Carry out  work plan 
+thoroughly. 
+2.2 Comply with 
+regulatory 
+requirements. 
+2.3 Complete task with 
+minimum supervision 
+2.4 Keep up to date with  
+trending topics. 
+2.5 Accomplish work task 
+within allocated time 
+frame. 
+2.6 Work with minimum 
+supervision. 
+ 
+SAFETY 
+2.1 Comply with 
+workplace health and 
+safety requirements. 
+2.2 Practise good 
+ergonomics. 
+ 
+COGNITIVE DOMAIN 
+2.1 E-commerce campaign 
+requirements explained. 
+2.2 Types of e -commerce content 
+described. 
+2.3 E-commerce content 
+requirements explained. 
+2.4 E-commerce campaign setup 
+described. 
+ 
+PSYCHOMOTOR DOMAIN 
+2.1 E-commerce campaign 
+requirements identified. 
+2.2 E-commerce content 
+requirements identified 
+according to campaign 
+requirements. 
+2.3 E-commerce campaign set up 
+according to campaign 
+requirements. 
+ 
+AFFECTIVE DOMAIN 
+
+===== [PAGE 76] =====
+M731-001-3:2021 
+63 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Copywriting. 
+2.3 E-commerce 
+content 
+requirements: 
+• Compliance 
+with e -
+commerce 
+platform 
+recommende
+d guidelines. 
+• Compliance 
+with e -
+commerce 
+platform 
+terms and 
+conditions. 
+2.4 E-commerce 
+campaign setup: 
+• Billing. 
+• Shipping.  
+• Campaign 
+structure. 
+• Conversion 
+tracking. 
+ 
+ENVIRONMENT 
+2.1 Apply clean and green 
+workplace practices. 
+2.1 Work plan carried out 
+thoroughly. 
+2.2 Regulatory requirements 
+complied. 
+2.3 Task completed with minimum 
+supervision. 
+2.4 Feedback accepted positively. 
+2.5 Trending topics kept up to date. 
+2.6 Work task accomplished 
+within allocated time frame. 
+2.7 Workplace health and safety 
+requirements complied. 
+2.8 Good ergonomics practised. 
+2.9 Clean and green workplace 
+practices applied. 
+ 
+ 
+ 
+3. Produce e-
+commerce 
+3.1 Product 
+information: 
+• Category. 
+3.1 Key-in product 
+information. 
+ATTITUDE 
+3.1 Execute work plan 
+meticulously. 
+COGNITIVE DOMAIN 
+3.1 Product information described. 
+
+===== [PAGE 77] =====
+M731-001-3:2021 
+64 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+marketing 
+content. 
+ 
+ 
+• Description. 
+• Shipping. 
+• Product 
+price. 
+3.2 E-commerce 
+product content:  
+• Types of 
+content 
+(Images, 
+copywriting, 
+video). 
+• Platform 
+publishing 
+policy. 
+3.3 Creative media: 
+• Design 
+elements and 
+principles. 
+• Types of 
+creative 
+media. 
+• Sources of 
+creative 
+media. 
+• Creative 
+media 
+format. 
+3.2 Prepare product 
+content. 
+3.3 Coordinate creative 
+media preparation.  
+3.4 Publish product 
+listing. 
+ 
+3.2 Comply with 
+regulatory 
+requirements. 
+3.3 Apply creative and 
+alternative thinking in 
+work tasks. 
+3.4 Accomplish work task 
+within allocated time 
+frame. 
+ 
+SAFETY 
+3.1 Comply with 
+workplace health and 
+safety requirements. 
+3.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+3.1 Apply clean and green 
+workplace practices. 
+. 
+ 
+3.2 E-commerce product content  
+described. 
+3.3 Creative media described. 
+3.4 Product listing described. 
+ 
+ 
+ 
+PSYCHOMOTOR DOMAIN 
+3.1 Product information keyed -in 
+according to required format. 
+3.2 Product content prepared 
+according to content guidelines 
+and publishing policy. 
+3.3 Creative media preparation 
+coordinated according to  
+creative format requirements. 
+3.4 Product listing published as per 
+scheduled timeline.  
+ 
+AFFECTIVE DOMAIN 
+3.1 Work plan carried out 
+meticulously. 
+3.2 Regulatory requirements 
+complied. 
+3.3 Creative and alternative 
+thinking applied in work tasks. 
+3.4 Work tasks accomplished 
+within allocated time frame. 
+
+===== [PAGE 78] =====
+M731-001-3:2021 
+65 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Copyright 
+policy. 
+3.4 Product listing: 
+• Product 
+information. 
+• Product 
+listing 
+guidelines. 
+• Platform 
+policy. 
+ 
+3.5 Workplace health and safety 
+requirements complied. 
+3.6 Good ergonomics practised. 
+3.7 Clean and green workplace 
+practices applied. 
+ 
+ 
+ 
+4. Moderate e-
+commerce 
+store 
+management
+. 
+ 
+4.1 E-commerce 
+order 
+processing 
+procedures. 
+4.2 E-commerce 
+order 
+processing 
+system: 
+• Enterprise 
+Resource 
+Planning 
+system. 
+• Order 
+management 
+system. 
+4.1 Process e -commerce 
+orders. 
+4.2 Update e -commerce 
+store information. 
+4.3 Monitor e-commerce 
+stock. 
+4.4 Monitor e-commerce 
+fulfilment. 
+4.5 Submit store 
+management reports.  
+ 
+ATTITUDE 
+4.1 Carry out work tasks 
+in a meticulous 
+manner. 
+4.2 Maintain high 
+accuracy and 
+thoroughness. 
+4.3 Adhere to workplace 
+ethics. 
+ 
+SAFETY 
+4.1 Comply with 
+workplace health and 
+safety requirements. 
+4.2 Practise good 
+ergonomics. 
+ 
+COGNITIVE DOMAIN 
+4.1 E-commerce order processing 
+procedures described. 
+4.2 E-commerce order processing 
+system described. 
+4.3 Stock inventory management 
+explained. 
+4.4 E-commerce fulfilment  
+described. 
+4.5 Store management report 
+contents described. 
+ 
+PSYCHOMOTOR DOMAIN 
+4.1 E-commerce order processed 
+according to order details. 
+4.2 E-commerce store information 
+updated. 
+
+===== [PAGE 79] =====
+M731-001-3:2021 
+66 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Online order 
+management 
+software. 
+4.3 Stock inventory  
+management: 
+• Stock 
+availability. 
+• Stock 
+keeping unit. 
+• Safety stock. 
+• Stock level. 
+• Stock 
+forecast. 
+4.4 E-commerce 
+fulfilment 
+which includes: 
+• Pick up. 
+• Delivery.  
+• Delivery 1st 
+attempt. 
+• Self-collect 
+(delivery 
+failed). 
+• Return. 
+• Refund. 
+• Cancellation. 
+• Delivered. 
+ENVIRONMENT 
+4.1 Apply clean and green 
+workplace practices. 
+ 
+ 
+4.3 Stock inventory monitored 
+based on inventory status. 
+4.4 E-commerce fulfilment 
+monitored within delivery 
+timeline. 
+4.5 Store management report 
+submitted as per scheduled 
+timeline. 
+ 
+AFFECTIVE DOMAIN 
+4.1 Carry out work tasks in a 
+meticulous manner. 
+4.2 Maintain high accuracy and 
+thoroughness. 
+4.3 Adhere to workplace ethics. 
+4.4 Workplace health and safety 
+requirements complied. 
+4.5 Good ergonomics practised. 
+4.6 Clean and green workplace 
+practices applied. 
+ 
+ 
+ 
+ 
+
+===== [PAGE 80] =====
+M731-001-3:2021 
+67 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+4.5 Store 
+management 
+report content  
+which includes: 
+• Stock 
+inventory. 
+• Unpaid. 
+• To-process 
+shipment. 
+• Pending 
+cancellation. 
+• Processed 
+shipment. 
+• Sold out 
+products. 
+• Banned 
+products. 
+• Pending 
+return/ 
+refund. 
+ 
+5. Monitor e-
+commerce 
+marketing 
+performance
+. 
+ 
+ 
+5.1 E-commerce 
+performance 
+indicators 
+which include: 
+• Pageview. 
+• Total orders. 
+5.1 Check e -commerce 
+marketing 
+performance. 
+5.2 Carry out e-commerce 
+marketing campaign s 
+optimisation 
+strategies.  
+ATTITUDE 
+5.1 Carry out  work tasks 
+thoroughly. 
+5.2 Ensure work 
+performance delivery 
+meets target 
+indicators. 
+COGNITIVE DOMAIN 
+5.1 E-commerce performance 
+indicators explained. 
+5.2 E-commerce performance tool 
+described. 
+
+===== [PAGE 81] =====
+M731-001-3:2021 
+68 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Conversion 
+rate. 
+• Number of 
+visits. 
+• Shop rating. 
+• Total sales. 
+5.2 Performance 
+monitoring 
+tools (E-
+commerce 
+report). 
+5.3 E-commerce 
+campaign 
+optimisation 
+methods which 
+include: 
+• Improving 
+product 
+pages. 
+• Creating 
+compelling 
+call to action. 
+• Improving 
+media 
+design. 
+ 
+5.3 Compile e-commerce 
+marketing 
+performance reports. 
+5.4 Submit e-commerce 
+marketing 
+performance reports. 
+5.3 Address work issues 
+and problems 
+rationally. 
+ 
+ 
+ 
+ 
+SAFETY 
+5.1 Comply with 
+workplace health and 
+safety requirements. 
+5.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+5.1 Apply clean and green 
+workplace practices. 
+ 
+5.3 E-commerce performance 
+optimisation methods 
+described. 
+ 
+PSYCHOMOTOR DOMAIN 
+5.1 E-commerce marketing 
+performance checked using 
+performance monitoring tools. 
+5.2 E-commerce marketing 
+performance optimisation 
+strategies carried out. 
+5.3 E-commerce marketing 
+performance reports compiled  
+in required format. 
+5.4 E-commerce marketing 
+performance reports submitted 
+as per scheduled timeline. 
+ 
+AFFECTIVE DOMAIN 
+5.1 Work tasks carried out 
+thoroughly. 
+5.2 Work performance delivery 
+ensured to meet target 
+indicators. 
+5.3 Work issues and problems 
+addressed rationally. 
+5.4 Workplace health and safety 
+requirements complied. 
+5.5 Good ergonomics practised. 
+
+===== [PAGE 82] =====
+M731-001-3:2021 
+69 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+5.6 Clean and green workplace 
+practices applied. 
+ 
+ 
+  
+
+===== [PAGE 83] =====
+M731-001-3:2021 
+70 / 99 
+Employability Skills  
+ 
+Core Abilities 
+• Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+• Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 Armstrong, G., Kotler, P. & Opresnik, M. O. 2019. Marketing: An Introduction Global Edition (14th edition). Pearson. ISBN -
+9781292294865 
+2 Department of Skills Development (DSD). 2015. Z-009-1:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+3 Department of Skills Development (DSD). 2015. Z-009-2:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+4 Department of Skills Development (DSD). 2015. Z-009-3:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+5 Kotler, P. & Armstrong, G. 2020. Principles of Marketing Global Edition (18th Edition). Pearson. ISBN-9781292341132. 
+6 Laudon, K. & Traver, C. 2020. E-commerce 2020: Business, Technology and Society (16th edition). Pearson. ISBN-9781292343167 
+7 Rahim M. Sail et al. 2007. Handbook on Social Skills and Social Values in Technical Education and Vocational Training. Serdang. 
+Department of Skills Development (DSD). ISBN 978-967-5026-21-8. 
+8 Turban. E., King. D., Lee. J. K., Liang, T. P., and Turban, D.C., 2015, Electronic Commerce: A Managerial and Social Networks Perspective 
+(8th Edition). Springer. ISBN-9783319100906 
+  
+
+===== [PAGE 84] =====
+M731-001-3:2021 
+71 / 99 
+15.5. Execute mobile marketing activities. 
+ 
+SECTION (M) Professional, Scientific and Technical Activities 
+GROUP (731) Advertising 
+AREA Digital Marketing 
+NOSS TITLE Digital Marketing Operation 
+COMPETENCY UNIT TITLE Execute mobile marketing activities. 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to leverage on mobile devices 
+to connect direct to the consumers in real time at any point in the customer lifecycle.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Create mobile marketing accounts. 
+2. Carry out mobile marketing campaigns. 
+3. Produce mobile marketing content. 
+4. Monitor mobile marketing performance. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not available. 
+CU CODE M731-001-3:2021-C05 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Create 
+mobile 
+marketing 
+accounts. 
+ 
+1.1 Fundamentals 
+of marketing  
+which include: 
+• Marketing 
+mix (4Ps). 
+• Market 
+segmentation
+. 
+1.1 Obtain business 
+accounts credentials. 
+1.2 Set up mobile 
+marketing accounts. 
+1.3 Publish mobile 
+marketing accounts. 
+ 
+ATTITUDE 
+1.1 Carry out work plan 
+according to specified 
+instructions. 
+1.2 Maintain high 
+accuracy and 
+thoroughness. 
+COGNITIVE DOMAIN 
+1.1 Fundamentals of marketing 
+explained. 
+1.2 Introduction to m obile 
+marketing explained. 
+1.3 Business account credentials 
+listed. 
+
+===== [PAGE 85] =====
+M731-001-3:2021 
+72 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Unique 
+selling point / 
+proposition. 
+• SWOT 
+analysis. 
+• Product life 
+cycle. 
+1.2 Introduction to 
+mobile 
+marketing: 
+• Definition. 
+• Purpose. 
+• Types of 
+mobile 
+marketing 
+(WhatsApp 
+blaster, SMS, 
+in-apps 
+purchase). 
+• Digital 
+carbon 
+footprint, 
+environment
+al impact and 
+green 
+initiatives. 
+1.3 Business 
+account 
+1.3 Maintain business 
+data confidentiality. 
+1.4 Accomplish work task 
+within allocated time 
+frame. 
+ 
+SAFETY 
+1.1 Comply with 
+workplace health and 
+safety requirements. 
+1.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+1.1 Apply clean and green 
+workplace practices. 
+ 
+ 
+1.4 Mobile marketing account 
+information described. 
+1.5 Mobile marketing account 
+setup described. 
+1.6 Mobile marketing policy 
+explained. 
+ 
+PSYCHOMOTOR DOMAIN 
+1.1 Business accounts’ credentials 
+obtained for all mandatory 
+fields. 
+1.2 Mobile marketing accounts 
+setup completed with all 
+required mandatory fields. 
+1.3 Mobile marketing accounts 
+published as per scheduled 
+timeline. 
+ 
+AFFECTIVE DOMAIN 
+1.1 Work plan carried out 
+according to specified 
+instructions. 
+1.2 Business data confidentiality 
+maintained. 
+1.3 Work task accomplished 
+within allocated time frame. 
+1.4 Workplace health and safety 
+requirements complied. 
+1.5 Good ergonomics practised. 
+
+===== [PAGE 86] =====
+M731-001-3:2021 
+73 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+credentials 
+which include: 
+• Username / 
+phone 
+number. 
+• Password. 
+• Business 
+profile. 
+• Billing 
+information. 
+1.4 Mobile 
+marketing 
+account 
+information 
+which includes: 
+• Business 
+category. 
+• Business 
+name. 
+• Contact 
+number. 
+• Email. 
+• Business 
+description. 
+1.5 Mobile 
+marketing 
+account setup 
+which includes: 
+1.6 Clean and green workplace 
+practices applied. 
+
+===== [PAGE 87] =====
+M731-001-3:2021 
+74 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• User role. 
+• Automated 
+responses. 
+1.6 Mobile 
+marketing 
+policy: 
+• Policy 
+statements. 
+• Compliance 
+with mobile 
+marketing 
+policy. 
+ 
+2. Carry out 
+mobile 
+marketing 
+campaigns. 
+ 
+2.1 Mobile 
+marketing 
+campaign 
+requirements 
+which include: 
+• Campaign 
+objectives. 
+• Types of 
+campaign. 
+• Types of 
+mobile 
+channel 
+preferences. 
+2.1 Identify mobile 
+marketing campaigns 
+requirements. 
+2.2 Identify mobile 
+marketing content 
+requirements. 
+2.3 Set up mobile 
+marketing campaigns. 
+ 
+ATTITUDE 
+2.1 Carry out work plan 
+thoroughly. 
+2.2 Comply with 
+regulatory 
+requirements. 
+2.3 Keep up to date  with 
+latest technology 
+trends. 
+2.4 Accept feedback 
+positively. 
+2.5 Accomplish work task 
+within allocated time 
+frame. 
+COGNITIVE DOMAIN 
+2.1 Mobile marketing campaign 
+requirements explained. 
+2.2 Types of mobile marketing 
+content described. 
+2.3 Mobile marketing content 
+requirements explained. 
+2.4 Mobile marketing campaign 
+setup described. 
+ 
+PSYCHOMOTOR DOMAIN 
+2.1 Mobile marketing 
+requirements identified. 
+2.2 Mobile marketing content 
+requirements identified. 
+
+===== [PAGE 88] =====
+M731-001-3:2021 
+75 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Allocated 
+campaign 
+budget. 
+• Specified 
+campaign 
+duration. 
+• Campaign 
+results. 
+2.2 Types of mobile 
+marketing 
+content which 
+include: 
+• Text. 
+• Images.  
+• Video. 
+2.3 Mobile 
+marketing 
+content 
+requirements 
+which include: 
+• Compliance 
+with mobile 
+marketing 
+platform 
+recommended 
+guidelines. 
+• Compliance 
+with mobile 
+2.6 Complete task with 
+minimum supervision. 
+ 
+SAFETY 
+2.1 Comply with 
+workplace health and 
+safety requirements. 
+2.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+2.1 Apply clean and green 
+workplace practices. 
+ 
+2.3 Mobile marketing campaign 
+set up according to campaign 
+requirements. 
+ 
+AFFECTIVE DOMAIN 
+2.1 Work plan carried out 
+thoroughly. 
+2.2 Regulatory requirements 
+complied. 
+2.3 Task completed with minimum 
+supervision. 
+2.4 Feedback accepted positively. 
+2.5 Latest technology trends  kept 
+up to date. 
+2.6 Work task accomplished 
+within allocated time frame. 
+2.7 Workplace health and safety 
+requirements complied. 
+2.8 Good ergonomics practised. 
+2.9 Clean and green workplace 
+practices applied. 
+ 
+ 
+ 
+
+===== [PAGE 89] =====
+M731-001-3:2021 
+76 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+marketing 
+platform 
+terms and 
+conditions. 
+2.4 Mobile 
+marketing 
+campaign setup  
+which includes: 
+• Billing. 
+• Structure. 
+• Conversion 
+tracking. 
+ 
+3. Produce 
+mobile 
+marketing 
+content. 
+ 
+ 
+3.1 Mobile 
+marketing 
+copywriting:  
+• Copywriting 
+techniques. 
+• Copywriting 
+guidelines. 
+• Platform 
+publishing 
+policy. 
+3.2 Creative media: 
+• Design 
+elements and 
+principles. 
+3.1 Prepare mobile 
+marketing 
+copywriting. 
+3.2 Coordinate creative 
+media preparation.  
+3.3 Publish mobile 
+marketing content. 
+ 
+ATTITUDE 
+3.1 Carry out  work plan 
+meticulously. 
+3.2 Comply with 
+regulatory 
+requirements. 
+3.3 Apply creative and 
+alternative thinking in 
+work tasks. 
+3.4 Accomplish work task 
+within allocated time 
+frame. 
+ 
+SAFETY 
+COGNITIVE DOMAIN 
+3.1 Mobile marketing copywriting 
+explained. 
+3.2 Creative media described. 
+ 
+PSYCHOMOTOR DOMAIN 
+3.1 Mobile marketing c opywriting 
+prepared as per campaign 
+objective. 
+3.2 Creative media preparation 
+coordinated according to  
+creative format requirements. 
+3.3 Mobile marketing content 
+published as per scheduled 
+timeline. 
+ 
+
+===== [PAGE 90] =====
+M731-001-3:2021 
+77 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Types of 
+creative 
+media. 
+• Sources of 
+creative 
+media. 
+• Creative 
+media 
+format. 
+• Copyright 
+policy. 
+ 
+3.1 Comply with 
+workplace health and 
+safety requirements. 
+3.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+3.1 Apply clean and green 
+workplace practices. 
+ 
+ 
+AFFECTIVE DOMAIN 
+3.1 Work plan carried out 
+meticulously. 
+3.2 Regulatory requirements 
+complied. 
+3.3 Creative and alternative 
+thinking applied in work tasks. 
+3.4 Work tasks accomplished 
+within allocated time frame. 
+3.5 Workplace health and safety 
+requirements complied. 
+3.6 Good ergonomics practised. 
+3.7 Clean and green workplace 
+practices applied. 
+ 
+4. Monitor 
+mobile 
+marketing 
+performance
+. 
+ 
+ 
+4.1 Mobile 
+marketing 
+performance 
+indicators: 
+• Reach. 
+• Open rate. 
+• Response 
+rate. 
+• Conversion 
+rate. 
+4.2 Performance 
+monitoring tool  
+(Mobile 
+4.1 Check mobile 
+marketing 
+performance. 
+4.2 Carry out mobile 
+marketing campaigns 
+optimisation 
+strategies.  
+4.3 Compile mobile 
+marketing 
+performance reports. 
+4.4 Submit mobile 
+marketing 
+performance reports. 
+ 
+ATTITUDE 
+4.1 Execute work tasks 
+thoroughly. 
+4.2 Address work issues 
+and problems 
+rationally. 
+4.3 Ensure work 
+performance delivery 
+meets target 
+indicators. 
+ 
+SAFETY 
+COGNITIVE DOMAIN 
+4.1 Mobile marketing performance 
+indicators explained. 
+4.2 Mobile marketing performance 
+tool described. 
+4.3 Mobile marketing performance 
+optimisation methods 
+described. 
+ 
+PSYCHOMOTOR DOMAIN 
+4.1 Mobile marketing performance 
+checked using performance 
+monitoring tools. 
+
+===== [PAGE 91] =====
+M731-001-3:2021 
+78 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+marketing 
+report). 
+4.3 Mobile 
+marketing 
+campaign 
+optimisation 
+methods. 
+• Processing 
+leads. 
+• Improving 
+copywriting. 
+• Using 
+personalisati
+on. 
+• Creating 
+compelling 
+call to action. 
+ 
+4.1 Comply with 
+workplace health and 
+safety requirements. 
+4.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+4.1 Apply clean and green 
+workplace practices. 
+ 
+4.2 Mobile marketing performance 
+optimisation strategies carried 
+out. 
+4.3 Mobile marketing performance 
+reports compiled in required 
+format. 
+4.4 Mobile marketing performance 
+reports submitted as per 
+scheduled timeline. 
+ 
+AFFECTIVE DOMAIN 
+4.1 Work tasks carried out 
+thoroughly. 
+4.2 Work performance delivery 
+ensured to meet target 
+indicators. 
+4.3 Work issues and problems 
+addressed rationally. 
+4.4 Workplace health and safety 
+requirements complied. 
+4.5 Good ergonomics practised. 
+4.6 Clean and green workplace 
+practices applied. 
+ 
+ 
+ 
+  
+
+===== [PAGE 92] =====
+M731-001-3:2021 
+79 / 99 
+Employability Skills  
+ 
+Core Abilities 
+• Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+• Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 Armstrong, G., Kotler, P. & Opresnik, M. O. 2019. Marketing: An Introduction Global Edition (14th edition). Pearson. ISBN -
+9781292294865 
+2 Department of Skills Development (DSD). 2015. Z-009-1:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+3 Department of Skills Development (DSD). 2015. Z-009-2:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+4 Department of Skills Development (DSD). 2015. Z-009-3:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+5 Kotler, P. & Armstrong, G. 2020. Principles of Marketing Global Edition (18th Edition). Pearson. ISBN-9781292341132. 
+6 Okazaki, S., 2012. Fundamentals of Mobile Marketing. New York: Peter Lang. ISBN- 9781433115622 
+7 Rahim M. Sail et al. 2007. Handbook on Social Skills and Social Values in Technical Education and Vocational Training. Serdang. 
+Department of Skills Development (DSD). ISBN 978-967-5026-21-8. 
+8 Rowles, D., 2017. Mobile Marketing: How Mobile Technology  Is Revolutionizing Marketing, Communications and Advertising. Kogan 
+Page Publishers. ISBN- 9780749476113 
+  
+
+===== [PAGE 93] =====
+M731-001-3:2021 
+80 / 99 
+15.6. Execute email marketing activities. 
+ 
+SECTION (M) Professional, Scientific and Technical Activities 
+GROUP (731) Advertising 
+AREA Digital Marketing 
+NOSS TITLE Digital Marketing Operation 
+COMPETENCY UNIT TITLE Execute email marketing activities. 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to apply email marketing 
+strategies that will optimise connection with target audience in a personalised way, generate leads, 
+enhance brand awareness, build relationships or keep customers  engaged between purchases 
+through different types of marketing emails.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Create email marketing accounts. 
+2. Carry out email marketing campaigns. 
+3. Produce email marketing content. 
+4. Monitor email marketing performance. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not Available. 
+CU CODE M731-001-3:2021-C06 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Create email 
+marketing 
+accounts. 
+1.1 Fundamentals 
+of marketing  
+which include: 
+• Marketing 
+mix (4Ps). 
+1.1 Obtain business 
+accounts credentials. 
+1.2 Set up  email 
+marketing accounts. 
+1.3 Publish email 
+marketing accounts. 
+ATTITUDE 
+1.1 Carry out work plan 
+according to specified 
+instructions. 
+COGNITIVE DOMAIN 
+1.1 Fundamentals of marketing 
+explained. 
+1.2 Introduction to e mail 
+marketing explained. 
+
+===== [PAGE 94] =====
+M731-001-3:2021 
+81 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Market 
+segmentation. 
+• Unique 
+selling point / 
+proposition. 
+• SWOT 
+analysis. 
+• Product life 
+cycle. 
+1.2 Introduction to 
+email 
+marketing: 
+• Definition. 
+• Purpose. 
+• Type of 
+email 
+marketing 
+(email 
+newsletters, 
+transactional 
+emails, 
+behavioural 
+emails). 
+• Digital 
+carbon 
+footprint, 
+environment
+al impact and 
+ 1.2 Maintain high 
+accuracy and 
+thoroughness. 
+1.3 Maintain business 
+data confidentiality. 
+1.4 Accomplish work task 
+within allocated time 
+frame. 
+ 
+SAFETY 
+1.1 Comply with 
+workplace health and 
+safety requirements. 
+1.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+1.1 Apply clean and green 
+workplace practices. 
+ 
+ 
+ 
+1.3 Business account credentials 
+listed. 
+1.4 Email marketing account 
+information described. 
+1.5 Email marketing account setup 
+described. 
+1.6 Email marketing policy 
+explained. 
+ 
+PSYCHOMOTOR DOMAIN 
+1.1 Business accounts credentials 
+obtained for all mandatory 
+fields. 
+1.2 Email marketing accounts 
+setup completed with all 
+required mandatory fields  
+1.3 Email marketing accounts 
+published as per scheduled 
+timeline. 
+ 
+AFFECTIVE DOMAIN 
+1.1 Work plan carried out 
+according to specified 
+instructions. 
+1.2 Business data confidentiality 
+maintained. 
+1.3 Work task accomplished 
+within allocated time frame. 
+
+===== [PAGE 95] =====
+M731-001-3:2021 
+82 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+green 
+initiatives. 
+• . 
+1.3 Business 
+account 
+credentials 
+which include: 
+• Username / 
+phone 
+number. 
+• Password. 
+• Business 
+profile. 
+• Billing 
+information. 
+1.4 Email 
+marketing 
+policy: 
+• Platform 
+policy. 
+• Compliance 
+with 
+platform 
+policy. 
+ 
+1.4 Workplace health and safety 
+requirements complied. 
+1.5 Good ergonomics practised. 
+1.6 Clean and green workplace 
+practices applied. 
+2. Carry out 
+email 
+2.1 Email 
+marketing 
+campaign 
+2.1 Identify email 
+marketing campaign 
+requirements. 
+ATTITUDE 
+2.1 Carry out work plan 
+thoroughly. 
+COGNITIVE DOMAIN 
+2.1 Email marketing campaign 
+requirements explained. 
+
+===== [PAGE 96] =====
+M731-001-3:2021 
+83 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+marketing 
+campaigns. 
+requirements 
+which include: 
+• Campaign 
+objectives. 
+• Types of 
+campaign. 
+• Specified 
+campaign 
+duration. 
+• Campaign 
+results. 
+2.2 Types of email 
+marketing 
+content which 
+include: 
+• Text. 
+• Images.  
+• Links. 
+2.3 Email 
+marketing 
+content 
+requirements 
+which include: 
+• Compliance 
+with email 
+marketing 
+platform 
+2.2 Select audience email 
+list. 
+2.3 Identify email 
+marketing content 
+requirements. 
+2.4 Set up email 
+marketing campaigns 
+ 
+2.2 Comply with 
+regulatory 
+requirements. 
+2.3 Keep update with 
+latest technology 
+trends. 
+2.4 Accept feedback 
+positively. 
+2.5 Accomplish work task 
+within allocated time 
+frame. 
+2.6 Work with minimum 
+supervision. 
+ 
+SAFETY 
+2.1 Comply with 
+workplace health and 
+safety requirements. 
+2.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+2.1 Apply clean and green 
+workplace practices. 
+ 
+ 
+2.2 Types of email marketing 
+content described. 
+2.3 Email marketing content 
+requirements explained. 
+2.4 Email marketing campaign 
+setup described. 
+ 
+PSYCHOMOTOR DOMAIN 
+2.1 Email marketing campaign 
+requirements identified. 
+2.2 Email list selected according to 
+targeted audience. 
+2.3 Email marketing content 
+requirements identified as per 
+campaign objective. 
+2.4 Email marketing campaign set 
+up according to campaign 
+objective. 
+ 
+AFFECTIVE DOMAIN 
+2.1 Work plan carried out 
+thoroughly. 
+2.2 Regulatory requirements 
+complied. 
+2.3 Task completed with minimum 
+supervision. 
+2.4 Feedback accepted positively. 
+2.5 Kept updated with latest 
+technology trends. 
+
+===== [PAGE 97] =====
+M731-001-3:2021 
+84 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+recommended 
+guidelines. 
+• Compliance 
+with email 
+marketing 
+platform 
+terms and 
+conditions. 
+2.4 Email 
+marketing 
+campaign setup  
+which includes: 
+• Billing. 
+• Campaign 
+structure. 
+ 
+2.6 Work task accomplished 
+within allocated time frame. 
+2.7 Workplace health and safety 
+requirements complied. 
+2.8 Good ergonomics practised. 
+2.9 Clean and green workplace 
+practices applied. 
+ 
+3. Produce 
+email 
+marketing 
+content. 
+3.1 Email 
+marketing 
+template and 
+tools. 
+3.2 Email 
+marketing 
+copywriting:  
+• Copywriting 
+techniques. 
+• Copywriting 
+guidelines. 
+3.1 Set up email 
+marketing template. 
+3.2 Prepare email 
+marketing 
+copywriting. 
+3.3 Coordinate creative 
+media preparation.  
+3.4 Publish email 
+marketing campaigns. 
+ATTITUDE 
+3.1 Carry out  work plan 
+meticulously. 
+3.2 Comply with 
+regulatory 
+requirements. 
+3.3 Apply creative and 
+alternative thinking in 
+work tasks. 
+3.4 Accomplish work task 
+within allocated time 
+frame. 
+ 
+COGNITIVE DOMAIN 
+3.1 Email marketing template  
+described. 
+3.2 Email marketing copywriting 
+explained. 
+3.3 Creative media described. 
+ 
+PSYCHOMOTOR DOMAIN 
+3.1 Email marketing template set 
+up. 
+3.2 Email marketing c opywriting 
+prepared according to  with 
+
+===== [PAGE 98] =====
+M731-001-3:2021 
+85 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Platform 
+publishing 
+policy. 
+3.3 Creative media: 
+• Design 
+elements and 
+principles. 
+• Types of 
+creative 
+media. 
+• Sources of 
+creative 
+media. 
+• Creative 
+media 
+format. 
+• Copyright 
+policy. 
+ 
+SAFETY 
+3.1 Comply with 
+workplace health and 
+safety requirements. 
+3.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+3.1 Apply clean and green 
+workplace practices. 
+ 
+ 
+ 
+campaign objective and 
+privacy policies. 
+3.3 Creative media preparation 
+coordinated according to  
+creative format requirements. 
+3.4 Email marketing campaign 
+published as per scheduled 
+timeline. 
+ 
+AFFECTIVE DOMAIN 
+3.1 Work plan carri ed out 
+meticulously. 
+3.2 Regulatory requirements 
+complied. 
+3.3 Creative and alternative 
+thinking applied in work tasks. 
+3.4 Work tasks accomplished 
+within allocated time frame. 
+3.5 Workplace health and safety 
+requirements complied. 
+3.6 Good ergonomics practised. 
+3.7 Clean and green workplace 
+practices applied. 
+ 
+4. Monitor 
+email 
+marketing 
+performance
+. 
+4.1 Email 
+marketing 
+performance 
+indicators 
+which include: 
+4.1 Check email 
+marketing 
+performance. 
+4.2 Carry out  email 
+marketing campaigns 
+ATTITUDE 
+4.1 Execute work tasks 
+thoroughly. 
+4.2 Ensure work 
+performance delivery 
+COGNITIVE DOMAIN 
+4.1 Email marketing performance 
+indicators explained. 
+4.2 Email marketing performance 
+tool described. 
+
+===== [PAGE 99] =====
+M731-001-3:2021 
+86 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+ • Total number 
+of emails 
+sent. 
+• Open rate. 
+• Click 
+through rate. 
+• Bounce rate.  
+• Unsubscribe 
+rate. 
+4.2 Performance 
+monitoring tool  
+(Email 
+marketing 
+report). 
+4.3 Email 
+marketing 
+campaign 
+optimisation 
+methods which 
+include: 
+• Improving 
+copywriting 
+technique. 
+• Creating 
+compelling 
+call to action. 
+• Improving 
+creative 
+optimisation 
+strategies.  
+4.3 Compile email 
+marketing 
+performance reports. 
+4.4 Submit email 
+marketing 
+performance reports. 
+ 
+meets target 
+indicators. 
+4.3 Address work issues 
+and problems 
+rationally. 
+SAFETY 
+4.1 Comply with 
+workplace health and 
+safety requirements. 
+4.2 Practise good 
+ergonomics. 
+ 
+ENVIRONMENT 
+4.1 Apply clean and green 
+workplace practices. 
+ 
+ 
+4.3 Email marketing performance 
+optimisation methods 
+described. 
+ 
+ 
+PSYCHOMOTOR DOMAIN 
+4.1 Email marketing performance 
+checked using performance 
+monitoring tools. 
+4.2 Email marketing campaign 
+optimisation strategies carried 
+out. 
+4.3 Email marketing performance 
+reports compiled in required 
+format. 
+4.4 Email marketing performance 
+reports submitted as per 
+scheduled timeline. 
+ 
+AFFECTIVE DOMAIN 
+4.1 Work tasks carried out 
+thoroughly. 
+4.2 Work performance delivery 
+ensured to meet target 
+indicators. 
+4.3 Work issues and problems 
+addressed rationally. 
+4.4 Workplace health and safety 
+requirements complied. 
+
+===== [PAGE 100] =====
+M731-001-3:2021 
+87 / 99 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+media 
+design. 
+ 
+4.5 Good ergonomics practised. 
+4.6 Clean and green workplace 
+practices applied. 
+ 
+  
+
+===== [PAGE 101] =====
+M731-001-3:2021 
+88 / 99 
+Employability Skills  
+ 
+Core Abilities 
+• Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+• Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 Armstrong, G., Kotler, P. & Opresnik, M. O.  2019. Marketing: An Introduction Global Edition (14th edition). Pearson. ISBN -
+9781292294865 
+2 Arnold, J., 2011. E-mail Marketing for Dummies. John Wiley & Sons. ISBN-9780470947678 
+3 Brodie, I., 2013. Email Persuasion: Captivate and Engage Your Audience, Build Authority and Generate More Sales With Email Marketing 
+(1st ed.). Rainmaker Publishing. ISBN- 9780992763114 
+4 Department of Skills Development (DSD). 2015. Z-009-1:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+5 Department of Skills Development (DSD). 2015. Z-009-2:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+6 Department of Skills Development (DSD). 2015. Z-009-3:2015 NCS-Core Abilities. Putrajaya: Department of Skills Development (DSD). 
+7 Kotler, P. & Armstrong, G. 2020. Principles of Marketing Global Edition (18th Edition). Pearson. ISBN-9781292341132. 
+8 Paulson, M., 2015. Email Marketing Demystified: Build a Massive Mailing List, Write Copy that Converts and Generate More Sales. 
+American Consumer News, LLC. ISBN- 9780990530015 
+9 Rahim M. Sail et al. 2007. Handbook on Social Skills and Social Values in Technical Education and Vocational Training. Serdang. 
+Department of Skills Development (DSD). ISBN 978-967-5026-21-8. 
+10 White, C. S., 2017a. Email Marketing Rules: Checklists, Frameworks, and 150 Best Practices for Business Success (3rd ed.). CreateSpace 
+Independent Publishing Platform. ISBN- 9781546910633 
+  
+
+===== [PAGE 102] =====
+M731-001-3:2021 
+89 / 99 
+16. Delivery Mode 
+ 
+The following are the recommended training delivery modes: - 
+ 
+KNOWLEDGE SKILL 
+• Lecture 
+• Group discussion 
+• E-learning, self-paced 
+• E-learning, facilitate 
+• Case study or Problem based learning (PBL) 
+• Self-paced learning, non-electronic 
+• One-on-one tutorial 
+• Shop talk 
+• Seminar 
+• Demonstration 
+• Simulation 
+• Project  
+• Scenario based training (SBT) 
+• Role play 
+• Coaching  
+• Observation 
+• Mentoring 
+ 
+Skills training and skills assessment of trainees should be implemented in accordance with TEM requirements and actual situation. 
+  
+
+===== [PAGE 103] =====
+M731-001-3:2021 
+90 / 99 
+17. Tools, Equipment and Materials (TEM)  
+ 
+DIGITAL MARKETING OPERATION 
+ 
+LEVEL 3 
+ 
+CU CU CODE COMPETENCY UNIT TITLE 
+C01 M731-001-3:2021- C01 Execute social media marketing activities. 
+C02 M731-001-3:2021-C02 Execute search engine optimisation activities. 
+C03 M731-001-3:2021-C03 Execute search engine marketing activities. 
+C04 M731-001-3:2021-C04 Execute e-commerce marketing activities. 
+C05 M731-001-3:2021-C05 Execute mobile marketing activities. 
+C06 M731-001-3:2021-C06 Execute email marketing activities. 
+ 
+* Items listed refer to TEM’s minimum requirement for skills delivery only. 
+ 
+NO. ITEM* RATIO (TEM: Trainees or AR = As Required) 
+C01 C02 C03 C04 C05 C06 
+A. Tools  
+1  Social media platform. 1:2      
+2  Search engine optimisation tools.   1:2     
+3  Search engine marketing tools.   1:2    
+4  E-commerce platform.    1:2   
+5  Mobile marketing platform.     1:2  
+6  Email marketing platform.      1:2 
+7  Multimedia software. 1:2 1:2 1:2 1:2 1:2 1:2 
+B. Equipment  
+1  Computer  1:2 1:2 1:2 1:2 1:2 1:2 
+C. Materials  
+1  Internet connection. AR AR AR AR AR AR 
+2  Stationery. AR AR AR AR AR AR 
+
+===== [PAGE 104] =====
+M731-001-3:2021 
+91 / 99 
+18. Competency Weightage 
+ 
+The following table shows the percentage of training priorities based on consensus made by the Standard Development Committee (SDC). 
+ 
+DIGITAL MARKETING OPERATION 
+ 
+LEVEL 3 
+ 
+CU CODE COMPETENCY UNIT TITLE 
+COMPETENCY 
+UNIT 
+WEIGHTAGE 
+WORK ACTIVITIES 
+WORK 
+ACTIVITIES 
+WEIGHTAGE 
+M731-001-
+3:2021- C01 
+Execute social media 
+marketing activities. 25% 
+1. Create social media business 
+accounts. 10% 
+2. Carry out social media marketing 
+campaigns. 10% 
+3. Produce social media marketing 
+content. 30% 
+4. Moderate social media marketing 
+posts. 30% 
+5. Monitor social media marketing 
+performance. 20% 
+M731-001-
+3:2021-C02 
+Execute search engine 
+optimisation activities. 20% 
+1. Build on-page search engine 
+optimisation. 40% 
+2. Build off-page search engine 
+optimisation. 40% 
+3. Monitor search engine optimisation 
+ranking performance. 
+ 
+20% 
+M731-001-
+3:2021-C03 
+Execute search engine 
+marketing activities. 20% 
+1. Create search engine marketing 
+accounts. 10% 
+2. Carry out search engine marketing 
+campaigns. 15% 
+
+===== [PAGE 105] =====
+M731-001-3:2021 
+92 / 99 
+CU CODE COMPETENCY UNIT TITLE 
+COMPETENCY 
+UNIT 
+WEIGHTAGE 
+WORK ACTIVITIES 
+WORK 
+ACTIVITIES 
+WEIGHTAGE 
+3. Produce search engine marketing 
+content. 40% 
+4. Monitor search engine marketing 
+performance. 35% 
+M731-001-
+3:2021-C04 
+Execute e-commerce 
+marketing activities. 25% 
+1. Create e-commerce accounts. 5% 
+2. Carry out e-commerce marketing 
+campaigns. 10% 
+3. Produce e-commerce marketing 
+content. 35% 
+4. Moderate e-commerce store 
+management. 35% 
+5. Monitor e-commerce marketing 
+performance. 15% 
+M731-001-
+3:2021-C05 
+Execute mobile marketing 
+activities. 5% 
+1. Create mobile marketing accounts. 10% 
+2. Carry out mobile marketing 
+campaigns. 20% 
+3. Produce mobile marketing content. 40% 
+4. Monitor mobile marketing 
+performance. 30% 
+M731-001-
+3:2021-C06 
+Execute email marketing 
+activities. 5% 
+1. Create email marketing accounts. 10% 
+2. Carry out email marketing 
+campaigns. 20% 
+3. Produce email marketing content. 50% 
+4. Monitor email marketing 
+performance. 20% 
+TOTAL PERCENTAGE (CORE 
+COMPETENCY) = 100%  
+  
+
+===== [PAGE 106] =====
+M731-001-3:2021 
+93 / 99 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDICES 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+DIGITAL MARKETING OPERATION 
+ 
+LEVEL 3 
+ 
+
+===== [PAGE 107] =====
+M731-001-3:2021 
+94 / 99 
+19. Appendices 
+19.1 Appendix A: Competency Profile Chart (CPCPdP) For Teaching & Learning 
+ 
+i. CU to CUPdP Correlation 
+ 
+SECTION (M) PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES 
+GROUP (731) ADVERTISING 
+AREA DIGITAL MARKETING 
+NOSS TITLE DIGITAL MARKETING OPERATION 
+NOSS LEVEL THREE (3) NOSS CODE M731-001-3:2021 
+ 
+CU CODE CU TITLE CUPdP TITLE FOR TEACHING & LEARNING 
+M731-001-3:2021- C01 EXECUTE SOCIAL MEDIA MARKETING 
+ACTIVITIES SOCIAL MEDIA MARKETING 
+M731-001-3:2021-C02 EXECUTE SEARCH ENGINE 
+OPTIMISATION ACTIVITIES SEARCH ENGINE OPTIMISATION 
+M731-001-3:2021-C03 EXECUTE SEARCH ENGINE MARKETING 
+ACTIVITIES SEARCH ENGINE MARKETING 
+M731-001-3:2021-C04 EXECUTE E-COMMERCE MARKETING 
+ACTIVITIES E-COMMERCE MARKETING 
+M731-001-3:2021-C05 EXECUTE MOBILE MARKETING 
+ACTIVITIES MOBILE MARKETING 
+M731-001-3:2021-C06 EXECUTE EMAIL MARKETING 
+ACTIVITIES EMAIL MARKETING 
+ 
+  
+
+===== [PAGE 108] =====
+M731-001-3:2021 
+95 / 99 
+ii. Competency Profile Chart for Teaching & Learning (CPCPdP) 
+ 
+SECTION (M) PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES 
+GROUP (731) ADVERTISING 
+AREA DIGITAL MARKETING 
+NOSS TITLE DIGITAL MARKETING OPERATION 
+NOSS LEVEL THREE (3) NOSS CODE M731-001-3:2021 
+ 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+   
+    
+CORE 
+ SOCIAL MEDIA 
+MARKETING   
+CREATE SOCIAL 
+MEDIA BUSINESS 
+ACCOUNTS 
+ 
+CARRY OUT 
+SOCIAL MEDIA 
+MARKETING 
+CAMPAIGNS 
+ 
+PRODUCE 
+SOCIAL MEDIA 
+MARKETING 
+CONTENT 
+ 
+MODERATE 
+SOCIAL MEDIA 
+MARKETING 
+POSTS 
+ M731-001-3:2021- 
+C01  M731-001-3:2021- 
+C01-W01  M731-001-3:2021- 
+C01-W02  M731-001-3:2021- 
+C01-W03  M731-001-3:2021- 
+C01-W04 
+     
+ 
+    
+   
+MONITOR SOCIAL 
+MEDIA 
+MARKETING 
+PERFORMANCE 
+      
+   M731-001-3:2021- 
+C01-W05       
+      
+ 
+    
+ 
+ 
+
+===== [PAGE 109] =====
+M731-001-3:2021 
+96 / 99 
+ 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+           
+CORE 
+ SEARCH ENGINE 
+OPTIMISATION  
+BUILD ON-PAGE 
+SEARCH ENGINE 
+OPTIMISATION 
+ 
+BUILD OFF-PAGE 
+SEARCH ENGINE 
+OPTIMISATION 
+ 
+MONITOR 
+SEARCH ENGINE 
+OPTIMISATION 
+RANKING 
+PERFORMANCE 
+  
+ CODE C01  CODE C01-W01  CODE C01-W02  CODE C01-W03   
+          
+ SEARCH ENGINE 
+MARKETING  
+CREATE SEARCH 
+ENGINE 
+MARKETING 
+ACCOUNTS 
+ 
+CARRY OUT 
+SEARCH ENGINE 
+MARKETING 
+CAMPAIGNS 
+ 
+PRODUCE 
+SEARCH ENGINE 
+MARKETING 
+CONTENT 
+ 
+MONITOR 
+SEARCH ENGINE 
+MARKETING 
+PERFORMANCE 
+ M731-001-3:2021-
+C03  M731-001-3:2021-
+C03-W01  M731-001-3:2021-
+C03-W02  M731-001-3:2021-
+C03-W03  M731-001-3:2021-
+C03-W04 
+          
+ E-COMMERCE 
+MARKETING  
+CREATE E-
+COMMERCE 
+ACCOUNTS 
+ 
+CARRY OUT E-
+COMMERCE 
+MARKETING 
+CAMPAIGNS 
+ 
+PRODUCE E-
+COMMERCE 
+MARKETING 
+CONTENT 
+ 
+MODERATE E-
+COMMERCE 
+STORE 
+MANAGEMENT 
+ M731-001-3:2021-
+C04  M731-001-3:2021-
+C04-W01  M731-001-3:2021-
+C04-W02  M731-001-3:2021-
+C04-W03  M731-001-3:2021-
+C04-W04 
+ 
+
+===== [PAGE 110] =====
+M731-001-3:2021 
+97 / 99 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+           
+CORE 
+   
+MONITOR E-
+COMMERCE 
+MARKETING 
+PERFORMANCE 
+      
+   CODE C04-W05       
+   
+ MOBILE 
+MARKETING 
+ 
+ 
+ 
+CREATE MOBILE 
+MARKETING 
+ACCOUNTS 
+ 
+CARRY OUT 
+MOBILE 
+MARKETING 
+CAMPAIGNS 
+ 
+PRODUCE 
+MOBILE 
+MARKETING 
+CONTENT 
+ 
+MONITOR 
+MOBILE 
+MARKETING 
+PERFORMANCE 
+ M731-001-3:2021-
+C05  M731-001-3:2021-
+C05-W01  M731-001-3:2021-
+C05-W02  M731-001-3:2021-
+C05-W03  M731-001-3:2021-
+C05-W04 
+          
+ EMAIL 
+MARKETING  
+CREATE EMAIL 
+MARKETING 
+ACCOUNTS 
+ 
+CARRY OUT 
+EMAIL 
+MARKETING 
+CAMPAIGNS 
+ 
+PRODUCE EMAIL 
+MARKETING 
+CONTENT 
+ 
+MONITOR EMAIL 
+MARKETING 
+PERFORMANCE 
+ M731-001-3:2021-
+C06  M731-001-3:2021-
+C06-W01  M731-001-3:2021-
+C06-W02  M731-001-3:2021-
+C06-W03  M731-001-3:2021-
+C06-W04 
+ 
+Notes:  
+CPCPdP is meant to be used in Teaching & Learning context which is generated by conversion of the action verb in the CU Title to a noun in the CUPdP 
+Title from the given CPC sets. 
+ 
+
+===== [PAGE 111] =====
+M731-001-3:2021 
+98 / 99 
+19.2 Appendix B: Element Content Weightage 
+ 
+ 
+OSH - OCCUPATIONAL SAFETY AND HEALTH 
+SD - SUSTAINABLE DEVELOPMENT 
+M&A - MANAGEMENT AND ADMINISTRATION 
+IT - INDUSTRY TECHNOLOGICAL ADVANCES 
+ 
+DIGITAL MARKETING OPERATION 
+LEVEL 3 
+ 
+ 
+CU CODE CU TITLE ELEMENT CONTENT WEIGHTAGE NOTES OSH SD M&A IT 
+M731-001-
+3:2021- 
+C01 
+Execute social media 
+marketing activities. 16% 18% 18% 15% 
+OSH: Application of safety guidelines in using 
+electronic devices and ergonomic practices to 
+minimise work fatigue and health problems as well 
+green workplace practices.  E -commerce has the 
+highest percentage as it also involves physical 
+inventory handling. 
+ 
+SD:  Awareness on d igital carbon footprint , 
+environmental impact  and related green initiatives.  
+This element is almost equally distributed among the 
+competency units. 
+M&A:  As this NOSS starts at Level 3, M&A is not 
+prominent.  Application of M & A is only for 
+guidance of digital marketers who newly join the 
+organisation or team. 
+ 
+M731-001-
+3:2021-C02 
+Execute search engine 
+optimisation activities. 16% 18% 18% 20% 
+M731-001-
+3:2021-C03 
+Execute search engine 
+marketing activities. 16% 18% 18% 20% 
+M731-001-
+3:2021-C04 
+Execute e-commerce 
+marketing activities. 20% 18% 18% 15% 
+M731-001-
+3:2021-C05 
+Execute mobile 
+marketing activities. 16% 18% 18% 15% 
+
+===== [PAGE 112] =====
+M731-001-3:2021 
+99 / 99 
+CU CODE CU TITLE ELEMENT CONTENT WEIGHTAGE NOTES OSH SD M&A IT 
+M731-001-
+3:2021-C06 
+Execute email 
+marketing activities. 16% 10% 10% 15% 
+IT: Applied in search engine database as well as u se 
+of bigdata in terms of reports and automated 
+responses as well as   The highest percentage is 
+applied in Search Engine Optimisation and Search 
+Engine Marketing. 
+ Total 100% 100% 100% 100% 
+ 
+ 
+ 

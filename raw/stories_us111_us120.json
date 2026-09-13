@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "Bilingual Terminology Consistency Validator Across All CoCu Files",
+      "priority": "high",
+      "description": "Create automated script to detect translation inconsistencies where the same English term is translated differently into Bahasa Malaysia across different CoCu files. Builds centralized glossary of approved term pairs and flags deviations to ensure learner comprehension and professional translation standards.",
+      "acceptanceCriteria": [
+        "scripts/validate_bilingual_glossary.py reads all 20 CoCu files, extracts English-Bahasa Malaysia term pairs from headers/tables/sections, and outputs output/glossary_inconsistencies.json with {english_term, bahasa_variants[], files_using_each_variant, recommended_standardized_term}",
+        "Script identifies terms used 2+ times with different translations (e.g., 'server configuration' translated as both 'konfigurasi pelayan' and 'konfigurasi server'), flags Critical where confusion impacts learning",
+        "CLI: uv run scripts/validate_bilingual_glossary.py --output json,html generates report and creates scripts/approved_glossary.csv with standardized {english, bahasa_malaysia} term pairs for future CoCu writing"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral"
+    },
+    {
+      "title": "Equipment Lifecycle Management System with Replacement Path Planning",
+      "priority": "high",
+      "description": "Build equipment tracking system that monitors hardware/software EOL dates, calculates years remaining until end-of-support, and recommends upgrade paths with technical compatibility notes. Generates quarterly maintenance plan showing which curriculum updates are needed before equipment falls out of support.",
+      "acceptanceCriteria": [
+        "scripts/plan_equipment_lifecycle.py reads content/IT-020-*/01_CoCu-*.md equipment tables and scripts/equipment_inventory.json (containing {item_name, current_version, vendor, eol_date, support_tier}) and outputs output/equipment_lifecycle_plan.json with {item, years_remaining, upgrade_recommendation, estimated_curriculum_impact, priority_tier}",
+        "Script calculates EOL status (Critical=<6mo, High=6-12mo, Medium=12-24mo, Low=>24mo) and flags items with <5 years remaining as needing 2026 curriculum review",
+        "CLI: uv run scripts/plan_equipment_lifecycle.py --current-year 2026 --warning-threshold 5years outputs JSON and HTML timeline showing which items need attention and by when"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral"
+    },
+    {
+      "title": "Competency Progression Validator with L3→L4→L5 Skill Chain Visualization",
+      "priority": "high",
+      "description": "Create validator that maps competency progression across qualification levels, ensuring each L3 competency has proper L4 extension and L4 skills enable L5 strategic application. Generates visual skill chain diagram showing coverage gaps where progression is missing and validates >95% competency continuity.",
+      "acceptanceCriteria": [
+        "scripts/validate_competency_chains.py parses learning outcomes from all 20 CoCu files and outputs output/competency_chain_validation.json with array of {competency_code, l3_learning_outcomes[], l4_progression_mapping[], l5_strategic_application[], chain_completeness_percent, missing_progression_flags[]}",
+        "Script validates L3→L4 progression (>95% coverage required) and L4→L5 strategic mapping (>85% required), identifies orphan competencies with no progression path",
+        "CLI: uv run scripts/validate_competency_chains.py --min-l3-l4 0.95 --min-l4-l5 0.85 generates JSON validation and creates output/competency_chain_diagram.html with visual chain maps per competency area; exits 1 if coverage below thresholds"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral"
+    },
+    {
+      "title": "Contact Hour Distribution Analyzer with Real-Time Allocation Dashboard",
+      "priority": "medium",
+      "description": "Build interactive dashboard that parses contact hour distribution tables from all CoCu files and visualizes time allocation across competencies, activity types, and Knowledge vs Performance split. Flags under/over-allocated activities where 70% Performance requirement cannot be met with assigned hours.",
+      "acceptanceCriteria": [
+        "scripts/analyze_contact_hour_distribution.py reads all CoCu contact hour tables and outputs output/contact_hours_dashboard.html showing: (1) total hours per competency with pie chart, (2) Knowledge% vs Performance% breakdown per activity (validate 70% Performance minimum), (3) red flags for activities allocated <4 hours (insufficient for practical performance assessment)",
+        "Script parses tables with format: Activity | Hrs | Knowledge | Performance and validates L3=1200 total, calculates L4/L5 from COURSE reference values",
+        "CLI: uv run scripts/analyze_contact_hour_distribution.py --level 3,4,5 --validate-70-percent produces interactive HTML dashboard with sortable tables; exits 2 if any competency has <70% Performance allocation"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner-spiral"
+    },
+    {
+      "title": "Industry Relevance Auditor Detecting 2024-2026 Technology Gaps",
+      "priority": "medium",
+      "description": "Create auditor that scans all CoCu content against 2024-2026 technology standards database (Windows versions, Linux distros, cloud platforms, databases, security frameworks). Flags outdated technology mentions, obsolete best practices, and suggests modern replacements with compatibility impact analysis.",
+      "acceptanceCriteria": [
+        "scripts/audit_technology_relevance.py reads content/IT-020-*/*.md and cross-references technology mentions against scripts/tech_standards_2024-2026.json (containing current stable versions of OS, databases, platforms with EOL dates). Outputs output/tech_relevance_audit.json with {outdated_item, current_standard, suggested_replacement, files_affected, estimated_update_scope}",
+        "Script flags items like 'Windows Server 2012 R2' (EOL 2023) and suggests 'Windows Server 2022', estimates how many lines/tables need updating",
+        "CLI: uv run scripts/audit_technology_relevance.py --report-year 2026 --severity critical,warning produces JSON audit; exits 1 if Critical items found requiring immediate update"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner-spiral"
+    },
+    {
+      "title": "Bloom's Taxonomy Coverage Mapper for Cognitive Depth Analysis",
+      "priority": "medium",
+      "description": "Build script that classifies all learning outcomes against Bloom's taxonomy levels (Remember, Understand, Apply, Analyze, Evaluate, Create). Maps coverage per competency per level, identifies gaps (e.g., no Create-level outcomes), and recommends enrichment to improve cognitive rigor and assessability.",
+      "acceptanceCriteria": [
+        "scripts/map_blooms_coverage.py parses learning outcomes from all 20 CoCu files and outputs output/blooms_taxonomy_analysis.json with {competency, remember_count, understand_count, apply_count, analyze_count, evaluate_count, create_count, coverage_distribution[], gaps_identified[]}",
+        "Script uses keyword matching/NLP to classify (e.g., 'Install' and 'Configure' → Apply; 'Troubleshoot' and 'Diagnose' → Analyze; 'Design system architecture' → Create) and flags competencies with <20% Create-level outcomes as lacking strategic depth",
+        "CLI: uv run scripts/map_blooms_coverage.py --min-create-percent 0.2 produces JSON and HTML heatmap visualization per competency; flags low-depth competencies for enrichment planning"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral"
+    },
+    {
+      "title": "Assessment Rubric Generator from Learning Outcomes with 4-Point Scales",
+      "priority": "medium",
+      "description": "Create script that auto-generates standardized 4-point rubrics (Novice, Developing, Proficient, Advanced) from each learning outcome. Maps rubric descriptors to the 70% Performance requirement. Output as DOCX templates instructors can immediately use for practical exercise grading.",
+      "acceptanceCriteria": [
+        "scripts/generate_assessment_rubrics.py reads all CoCu learning outcomes and generates output/assessment_rubrics_L3.docx, output/assessment_rubrics_L4.docx, output/assessment_rubrics_L5.docx with one rubric per unique learning outcome showing 4-point scale (Novice=0-25%, Developing=26-50%, Proficient=51-75%, Advanced=76-100%)",
+        "Each rubric includes: outcome title (English + Bahasa Malaysia), performance descriptors per level aligned to activity context, point allocation, and example evidence",
+        "CLI: uv run scripts/generate_assessment_rubrics.py --levels 3,4,5 --scale 4point --language en,ms produces publication-ready DOCX with consistent NOSS formatting (table headers, fonts, page breaks)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral"
+    },
+    {
+      "title": "Formative Question Bank Generator with Difficulty Leveling and Bilingual Support",
+      "priority": "medium",
+      "description": "Build automation that generates formative assessment questions (multiple choice, short answer, practical scenario) directly from learning outcomes with difficulty levels (Basic, Intermediate, Advanced) and Bloom's taxonomy mapping. Output as JSON banks importable into learning platforms or as printable worksheets.",
+      "acceptanceCriteria": [
+        "scripts/generate_question_bank.py reads learning outcomes from all CoCu files and outputs output/question_bank_L3.json, output/question_bank_L4.json, output/question_bank_L5.json with minimum 3 questions per outcome in format: {outcome_id, question_text_en, question_text_ms, question_type, difficulty, bloom_level, answer_key, distractor_explanations[]}",
+        "Script generates variety: 40% multiple choice (4 options), 40% short answer (3-5 lines), 20% practical scenario (hands-on task). Validates question clarity via readability metrics",
+        "CLI: uv run scripts/generate_question_bank.py --min-per-outcome 3 --question-types mc,short_answer,scenario --languages en,ms generates JSON (min 150 questions per level); can output output/worksheet_L3.docx for printing"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral"
+    },
+    {
+      "title": "Instructor Facilitation Guide Generator with Time Budgets and Misconceptions",
+      "priority": "medium",
+      "description": "Create script that generates instructor preparation guides from each CoCu with suggested time allocation per section, documented common student misconceptions, differentiation strategies for mixed-ability classes, and facilitation prompts. Output as DOCX ready for instructor training.",
+      "acceptanceCriteria": [
+        "scripts/generate_instructor_guides.py reads all CoCu sections and generates output/instructor_guide_L3.docx, output/instructor_guide_L4.docx, output/instructor_guide_L5.docx with per-competency guidance: (1) recommended timing in hours:minutes, (2) 3-5 teaching points per competency (English + Bahasa Malaysia), (3) common student misconceptions with correction strategies, (4) differentiation tips for slower/advanced learners",
+        "Script extracts assessment criteria and learning outcomes to generate misconceptions list based on pedagogical research patterns (e.g., for 'install OS' → typical misconception: 'drivers aren't needed')",
+        "CLI: uv run scripts/generate_instructor_guides.py --levels 3,4,5 --include-timing --include-misconceptions produces DOCX guides (10-15 pages per level) formatted with NOSS headers, bilingual section titles, printable quality"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral"
+    },
+    {
+      "title": "JPK Submission Readiness Aggregator with Final Compliance Dashboard",
+      "priority": "high",
+      "description": "Build final validation aggregator that consolidates all compliance checks (bilingual, contact hours, learning outcomes, assessment criteria, equipment currency, Bloom's coverage, rubric completeness) into single JPK/MySPIKE submission readiness report. Generates executive dashboard and audit trail for regulatory submission.",
+      "acceptanceCriteria": [
+        "scripts/generate_jmk_submission_report.py runs all validation scripts internally and outputs output/jmk_submission_readiness.html with checklist of 15+ validation items (✓/✗/⚠), overall compliance score (%), blocking issues preventing submission, audit timestamp, and recommended next steps",
+        "Report validates: all 20 CoCu complete and bilingual, contact hour totals correct, 100% learning outcomes coverage, 70% Performance allocation met, >95% L3→L4 progression, >85% L4→L5 progression, equipment none at Critical EOL, Bloom's coverage minimum thresholds, assessment rubrics generated, question bank populated",
+        "CLI: uv run scripts/generate_jmk_submission_report.py --target-compliance 100 outputs HTML dashboard and creates output/jmk_submission_package.zip containing: prd.json, all .docx files, validation artifacts, glossary.csv; exits 0 only if 100% compliant (blocking issues=0), exits 1 if blockers found"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner-spiral"
+    }
+  ]
+}

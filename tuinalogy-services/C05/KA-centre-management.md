@@ -1,0 +1,180 @@
+<!-- JPK_ENVELOPE_v1 -->
+<table border="0" cellspacing="0" cellpadding="8" width="100%">
+<tr>
+<td width="130" valign="top"><img src="../_assets/logos/jpk-logo.png" alt="JPK Logo" width="110"></td>
+<td valign="middle">
+<b>JABATAN PEMBANGUNAN KEMAHIRAN (JPK)</b><br>
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,<br>
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,<br>
+62530 PUTRAJAYA
+</td>
+</tr>
+</table>
+
+## KERTAS PENILAIAN PENGETAHUAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | MP-031-3:2016 PERKHIDMATAN TUINALOGI |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | MP-031-3:2016-C05 TUINALOGY SERVICES ADMINISTRATION |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. PREPARE TUINALOGY SERVICES DOCUMENTATION<br>2. MAINTAIN CUSTOMER RECORDS<br>3. PERFORM INVENTORY MANAGEMENT<br>4. PREPARE TUINALOGY SERVICES REPORT |
+| NO. KOD | MP-031-3:2016-C05/KA |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** 知识评估 / Knowledge Assessment (KA)
+
+**TUJUAN:** 推拿中心 Sinaran Wellness 年营收 RM 800,000，雇员 8 人（4 推拿师持 MOH 注册、1 Admin、2 接待、1 清洁）。 近 3 个月发生： (1) EPF 3 个月未缴； (2) 1 位客户在推拿后瘀青剧痛送医； (3) FB 贴文写"陈师傅治愈 50 位糖尿病患者"； (4) 前台离职员工外泄 50 位客户资料至保险经纪。 Manager 收到 MOH、JPDP、LHDN 三方调查函。
+
+**ARAHAN:** Jawab semua soalan / laksanakan semua tugas penilaian. Penilaian ini adalah sebahagian daripada Penilaian Akhir CU.
+
+<!-- /JPK_ENVELOPE_v1 -->
+# 知识评估 / Knowledge Assessment (KA)
+
+
+## 评估说明
+
+- C05 综合理论考试，覆盖 KP-01 至 KP-06 全部知识
+- 闭卷考试，独立完成
+- 不允许使用电子设备或参考资料
+- 满分 100 分，及格 ≥ 70 分
+- 不及格可补考一次
+
+## 评估目标
+
+- 测试 C05 全部 6 项工作活动的相关知识 (RK)
+- 与 NOSS 评估准则对齐
+- 覆盖认知层次 C2（理解）至 C4（分析）
+
+---
+
+## 第一部分：填空题（10 题，每题 2 分，共 20 分）
+
+1. PDPA 全称 ____________。
+2. T&CM 法令规定客户记录保留 ____________ 年。
+3. EPF 雇主分担（薪 <RM5k）为 ____________%。
+4. 2024 年最低工资 RM ____________。
+5. 推拿床消毒使用 ____________ % IPA。
+6. 漂白水稀释比例为 ____________。
+7. MyInvois 由 ____________ 推行。
+8. SST Service Tax 在 2025 调升至 ____________%。
+9. LEARN 五步法首步为 ____________。
+10. 重大伤亡须在 ____________ 小时内上报 MOH。
+
+---
+
+## 第二部分：选择题（15 题，每题 2 分，共 30 分）
+
+11. PDPA 数据泄露通报时限：A) 24h B) 48h C) 72h D) 7 天
+
+12. Employment Act 每周最高工时：A) 40 B) 44 C) 45 D) 48
+
+13. 公共假日加班费率：A) 1.5× B) 2.0× C) 2.5× D) 3.0×
+
+14. SOCSO 雇主分担：A) 0.2% B) 0.5% C) 1.0% D) 1.75%
+
+15. 下列何者**不属于** OSHA 1994 要求：A) MSDS B) PPE C) 营销预算 D) 应急冲淋
+
+16. 下列**违反** T&CM 广告：A) 放松肌肉 B) 改善循环 C) 治愈糖尿病 D) 专业手法
+
+17. 下列**非**法定扣款：A) EPF B) SOCSO C) HRDF 员工 D) PCB
+
+18. e-Invoice 必备包括：A) 买家 TIN B) 客户血型 C) 员工年龄 D) 竞争对手
+
+19. LEARN 中"R"代表：A) Refund B) Respond C) Record D) Recover
+
+20. 中心毛利率基准：A) ≥50% B) ≥60% C) ≥70% D) ≥80%
+
+21. 职场性骚扰法令：A) 1994 B) 2013 C) 2022 D) 2024
+
+22. 下列**非**重大上报情况：A) 客户骨折 B) 服务迟到 C) 性侵指控 D) 数据泄露
+
+23. 下列**属于** OpEx：A) 房租 B) 银行存款 C) 应收账款 D) 库存
+
+24. 客户档案销毁须：A) 丢垃圾桶 B) 碎纸 + 记录 C) 烧毁无记录 D) 存永久
+
+25. 客户投诉率目标：A) <1% B) <5% C) <10% D) <20%
+
+---
+
+## 第三部分：简答题（5 题，每题 6 分，共 30 分）
+
+26. 列出运营文件 3 大分类（员工/客户/公司）及各类至少 3 项细分文件。
+
+27. 说明员工薪资单 5 项扣款并注明法定依据。
+
+28. 描述推拿床每客消毒 SOP 6 个步骤。
+
+29. 阐述 T&CM 广告 5 项禁例并各举一例。
+
+30. 列出 LEARN 五步法并说明关键动作。
+
+---
+
+## 第四部分：综合案例题（共 20 分）
+
+**案例：**
+
+推拿中心 Sinaran Wellness 年营收 RM 800,000，雇员 8 人（4 推拿师持 MOH 注册、1 Admin、2 接待、1 清洁）。
+近 3 个月发生：
+(1) EPF 3 个月未缴；
+(2) 1 位客户在推拿后瘀青剧痛送医；
+(3) FB 贴文写"陈师傅治愈 50 位糖尿病患者"；
+(4) 前台离职员工外泄 50 位客户资料至保险经纪。
+Manager 收到 MOH、JPDP、LHDN 三方调查函。
+
+请回答：
+
+(a) 列出本中心违反的**至少 6 条**法规名称与条文。（6 分）
+(b) 按优先级列出 Manager **7 日内**必须完成的补救措施。（8 分）
+(c) 提出中心长期合规治理框架（≥ 5 项制度）。（6 分）
+
+---
+
+## 答案要点（导师参考）
+
+| 题号 | 答案 |
+|------|------|
+| 1 | Personal Data Protection Act |
+| 2 | 6 |
+| 3 | 13 |
+| 4 | 1700 |
+| 5 | 70 |
+| 6 | 1:10 |
+| 7 | LHDN |
+| 8 | 8 |
+| 9 | Listen |
+| 10 | 24 |
+| 11 | C | 12 | C | 13 | D | 14 | D | 15 | C |
+| 16 | C | 17 | C | 18 | A | 19 | B | 20 | D |
+| 21 | C | 22 | B | 23 | A | 24 | B | 25 | A |
+| 26 | 员工：聘书/IC/薪资；客户：档案/病历/同意；公司：SSM/SOP/证照 |
+| 27 | EPF 11%（EPF Act）、SOCSO 0.5%（SOCSO Act）、EIS 0.2%（EIS Act）、PCB（ITA Sec 83）、HRDF 0%（雇主专责） |
+| 28 | 换床纸 → IPA 喷 → 风干 → 擦拭 → 废物分类 → 填日志 |
+| 29 | 治愈（Med Adv Act）、比较医疗、医生头衔、未授权照、假资质 |
+| 30 | Listen 倾听 / Empathize 同理 / Apologize 道歉 / Respond 回应方案 / Notify 登记跟进 |
+| 案例 (a) | EPF Act Sec 43、SOCSO Act Sec 94、T&CM Act Sec 20/22、PDPA Sec 42、Med Adv Act 1956、Consumer Protection Act Sec 10、OSHA Sec 32 |
+| 案例 (b) | Day1: 冻结系统 + 报警 + JPDP 72h 通报；Day2: 补缴 EPF/SOCSO + 罚息；Day3: 受伤客户法定上报 + 保险；Day4: 删除违规贴文 + 公开道歉；Day5: 法律顾问 + 应对 MOH 函；Day6: 内部调查 + 员工培训；Day7: 合规报告呈 MOH |
+| 案例 (c) | (1) 月度合规审查；(2) 外包薪资服务；(3) 广告审批 SOP；(4) PDPA DPO 任命；(5) 投诉登记簿；(6) 年度审计；(7) 员工培训 |
+
+---
+
+## 评分等级
+
+| 等级 | 分数 |
+|------|------|
+| Distinction | ≥ 90 |
+| Pass with Credit | 80–89 |
+| Pass | 70–79 |
+| Fail | < 70 |
+
+**不及格者：** 与导师面谈后，14 天内可补考一次。
+
+## 评估签字
+
+| 评估员 | 签字 + 日期 |
+|--------|------------|
+| 主考评估员 (PB) |  |
+| 内部审核 (PPD) |  |
+| 学员姓名 |  | IC：__________ |

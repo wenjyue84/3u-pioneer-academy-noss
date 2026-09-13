@@ -1,0 +1,40 @@
+# Index — Apply NOSS IT-020 Computer System Management
+
+**Status:** Active  
+**Last updated:** 2026-04-22
+
+---
+
+## Quick Navigation
+
+| File | Purpose |
+|------|---------|
+| [CLAUDE.md](CLAUDE.md) | Agent instructions |
+| [index.md](index.md) | This file |
+| [log.md](log.md) | Change log |
+
+---
+
+## Wiki (Derived Knowledge)
+
+| File | Summary |
+|------|---------|
+| [wiki/01 Main - Apply NOSS IT-020 Computer System Management.md](<wiki/01 Main - Apply NOSS IT-020 Computer System Management.md>) | Main project overview |
+| [wiki/NOSS-IT-020-Textbook.md](wiki/NOSS-IT-020-Textbook.md) | Textbook overview |
+| [wiki/NotebookLM - ADI IT Program.md](<wiki/NotebookLM - ADI IT Program.md>) | NotebookLM ADI IT Program notes |
+| [wiki/NotebookLM - Adi training.md](<wiki/NotebookLM - Adi training.md>) | NotebookLM Adi training notes |
+| [wiki/WhatsApp-Group-Reference-商学院ADI-IT-Program.md](wiki/WhatsApp-Group-Reference-商学院ADI-IT-Program.md) | WhatsApp group reference |
+
+---
+
+## Raw Source Data
+
+| File | Type | Summary |
+|------|------|---------|
+| [raw/NOSS IT-020-3 Computer System Operation (Level 3).docx](<raw/NOSS IT-020-3 Computer System Operation (Level 3).docx>) | docx | Level 3 NOSS document |
+| [raw/NOSS IT-020-4 Computer Systems Administration (Level 4).docx](<raw/NOSS IT-020-4 Computer Systems Administration (Level 4).docx>) | docx | Level 4 NOSS document |
+| [raw/NOSS IT-020-5 Computer Systems Management (Level 5).docx](<raw/NOSS IT-020-5 Computer Systems Management (Level 5).docx>) | docx | Level 5 NOSS document |
+| [raw/convert_to_md.py](raw/convert_to_md.py) | python | Conversion script |
+| [raw/download_whatsapp_media.py](raw/download_whatsapp_media.py) | python | WhatsApp media download script |
+| [raw/From-WhatsApp/](raw/From-WhatsApp/) | folder | WhatsApp media files |
+| [raw/NOSS-IT-020-Textbook/](raw/NOSS-IT-020-Textbook/) | folder | Textbook source files |

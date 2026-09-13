@@ -1,0 +1,301 @@
+---
+title: "NOSS Programs Quick Reference Guide"
+date: 2026-03-25
+tags:
+  - project
+  - education
+  - noss
+project: "NOSS"
+status: active
+---
+
+# NOSS Programs Quick Reference Guide
+
+## Overview
+This document provides a quick reference to all NOSS (National Occupational Skills Standards) programs available in this collection.
+
+## IT-010 Series: Application Development
+
+### IT-010-23: Application Development – Programmer
+**Level**: Various  
+**Focus**: Programming and application development fundamentals
+
+**Key Documents**:
+- Executive Summary
+- Job Profile
+- Standard Practice
+- Task Analysis (Duties 1-9)
+
+### IT-010-45-2013: Systems Module Development & Systems Implementation Integration
+
+#### Level 4: Systems Module Development
+**Focus**: Application system programming and development
+
+**Core Competencies**:
+- Application System Programming
+- Application Database Programming
+- Application Data Entry Administration
+- Application System Development Administration
+
+**Elective Competencies**:
+- Multimedia Programming
+- Web-based & Mobile Programming
+- Desktop Programming
+- Server Programming
+
+**Key Documents**:
+- Standard Practice (SP L4 Appdev)
+- Table of Contents
+- Competency Profile Charts
+- Curriculum of Competency Units (CoCU)
+
+#### Level 5: Systems Implementation & Integration
+**Focus**: Systems implementation and integration management
+
+**Core Competencies**:
+- Application System Software Project Management
+- Application System Implementation Management
+- Application System Integration Management
+- Application System Quality Assurance Management
+
+**Key Documents**:
+- Standard Practice & Competency Profile
+- Curriculum of Competency Units (CoCU)
+
+---
+
+## IT-020 Series: Computer System Management
+
+### IT-020-3-2013: Computer System Operation
+**Level**: 3 (Supervisory)  
+**Focus**: Computer system operation and maintenance
+
+**Core Competencies**:
+- Computer System Set-up
+- Computer System Maintenance
+- Computer System Repair
+- Server Installation
+
+**Key Documents**:
+- Standard Practice & Standard Content
+- Competency Profile Chart
+- Curriculum of Competency Units
+
+### IT-020-4-2013: Computer System Administration
+**Level**: 4 (Executive)  
+**Focus**: Computer system administration and management
+
+**Core Competencies**:
+- Server Configuration
+- Computer Network Set-up
+- Computer System Security Control
+- Computer System Maintenance Management
+- Computer System and Network Procurement
+- Cabling
+
+**Key Documents**:
+- Standard Practice & Standard Content
+- Competency Profile Chart
+- Curriculum of Competency Units
+
+### IT-020-5-2013: Computer System Management
+**Level**: 5 (Managerial)  
+**Focus**: Computer system management and strategic planning
+
+**Core Competencies**:
+- Computer Network Maintenance Administration
+- Computer System Asset Management
+- Computer System Security Management
+- Disaster Recovery Management
+- Computer System Project Management
+- Computer System Standard Operating Procedure (SOP) Development and Implementation Management
+
+**Elective Competencies**:
+- Server Scripting
+
+**Key Documents**:
+- Standard Practice & Standard Content
+- Competency Profile Chart
+- Curriculum of Competency Units
+
+---
+
+## IT-120 Series: Multimedia Programming
+
+### IT-120-45-2011: Multimedia Programming
+
+#### Level 4: Multimedia Programming
+**Focus**: Multimedia product development and authoring
+
+**Core Competencies**:
+- Product Visualisation
+- Multimedia Authoring
+- Multimedia Product Testing
+
+**Key Documents**:
+- Standard Practice
+- Job Profile Chart & Competency Profile
+- Curriculum of Competency Units (CoCU)
+
+#### Level 5: Multimedia Programming
+**Focus**: Multimedia project management and strategic development
+
+**Core Competencies**:
+- Requirement Analysis
+- Product Blueprint Development
+- Guideline Development
+
+**Key Documents**:
+- Standard Practice
+- Job Profile Chart & Competency Profile
+- Curriculum of Competency Units (CoCU)
+
+---
+
+## IT-121 Series: Database Programming
+
+### IT-121-45-2011: Database Programming
+
+#### Level 4: Database Programming
+**Focus**: Database structure creation and manipulation
+
+**Core Competencies**:
+- Data Structure Creation
+- Data Manipulation
+- Stored Procedure Programming
+
+**Elective Competencies**:
+- Database Software Installation and Configuration
+- Database Testing
+
+**Key Documents**:
+- Standard Practice
+- Job Profile Chart & Competency Profile
+- Curriculum of Competency Units (CoCU)
+
+#### Level 5: Database Programming
+**Focus**: Database design and optimization
+
+**Core Competencies**:
+- Database Designing
+- Data Optimisation Management
+- Database Security Management
+
+**Key Documents**:
+- Standard Practice
+- Job Profile Chart & Competency Profile
+- Curriculum of Competency Units (CoCU)
+
+---
+
+## IT-122 Series: Server Application Development and Management
+
+### IT-122-45-2011: Server Application Development and Management
+
+#### Level 4: Server Application Development
+**Focus**: Server application development and planning
+
+**Core Competencies**:
+- Server Requirements Planning
+- Network Planning
+- Server Application Architecture Design
+
+**Key Documents**:
+- Standard Practice
+- Job Profile Chart & Competency Profile
+- Curriculum of Competency Units (CoCU)
+
+#### Level 5: Server Application Management
+**Focus**: Server project management and security
+
+**Core Competencies**:
+- Server Project Management
+- Server Configuration
+- Server Security Hardening
+
+**Key Documents**:
+- Standard Practice
+- Job Profile Chart & Competency Profile
+- Curriculum of Competency Units (CoCU)
+
+---
+
+## Document Types in This Collection
+
+### Standard Practice (SP) Documents
+- Provide overview and framework information
+- Include occupational structure and career paths
+- Define competency levels and certification requirements
+- List employment prospects and working conditions
+
+### Standard Content (SC) Documents
+- Detailed competency profiles
+- Assessment criteria and methods
+- Tools, equipment, and materials requirements
+- Training duration and delivery modes
+
+### Curriculum of Competency Units (CoCU)
+- Detailed breakdown of each competency unit
+- Work activities and knowledge requirements
+- Applied skills and attitudes
+- Assessment criteria and employability skills
+
+### Supporting Documents
+- Executive Summaries
+- Job Profiles
+- Task Analysis
+- Training Hour Summaries
+- Contact Hour Information
+
+---
+
+## File Organization
+
+### Directory Structure
+```
+COURSE/
+├── IT-010-23 APPLICATION DEVELOPMENT – PROGRAMMER/
+├── IT-010-45-2013 SYS MODULE DEV & SYS IMPLEMENTATION INTEGRATION/
+│   ├── IT-010-4 2013/ (Level 4)
+│   └── IT-010-5 2013/ (Level 5)
+├── IT-020-3-2013 COMPUTER SYSTEM OPERATION/
+├── IT-020-4 2013/
+├── IT-020-5 2013/
+├── IT-120-45-2011 MULTIMEDIA PROGRAMMING/
+│   ├── MULTIMEDIA PROGRAMMING L4/
+│   └── MULTIMEDIA PROGRAMMING L5/
+├── IT-121-45-2011 DATABASE PROGRAMMING/
+│   ├── DATABASE PROGRAMMING L4/
+│   └── DATABASE PROGRAMMING L5/
+└── IT-122-45-2011 SERVER APPLICATION DEVELOPMENT AND MANAGEMENT/
+    ├── LEVEL 4/
+    └── LEVEL 5/
+```
+
+### File Formats
+- **Original Documents**: `.doc` files (Microsoft Word)
+- **Converted Documents**: `.md` files (Markdown format)
+- **Supporting Files**: `.pdf`, `.xls`, `.ec4`
+
+---
+
+## Quick Access Guide
+
+### For Application Development
+- **Entry Level**: IT-010-23
+- **Intermediate**: IT-010-45-2013 Level 4
+- **Advanced**: IT-010-45-2013 Level 5
+
+### For System Administration
+- **Entry Level**: IT-020-3-2013
+- **Intermediate**: IT-020-4-2013
+- **Advanced**: IT-020-5-2013
+
+### For Specialized Programming
+- **Multimedia**: IT-120-45-2011 (Levels 4 & 5)
+- **Database**: IT-121-45-2011 (Levels 4 & 5)
+- **Server Applications**: IT-122-45-2011 (Levels 4 & 5)
+
+---
+
+*This quick reference guide provides an overview of all NOSS programs in this collection. For detailed information, refer to the individual program documents.* 

@@ -1,0 +1,2962 @@
+[
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V02",
+    "severity": "error",
+    "message": "C01 is marked practical but is never referenced in the TUGASAN section.",
+    "evidence": "fb-018-3-set-b-soalan.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V02",
+    "severity": "error",
+    "message": "C04 is marked practical but is never referenced in the TUGASAN section.",
+    "evidence": "fb-018-3-set-b-soalan.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V02",
+    "severity": "error",
+    "message": "C05 is marked practical but is never referenced in the TUGASAN section.",
+    "evidence": "fb-018-3-set-b-soalan.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V03",
+    "severity": "error",
+    "message": "C02 is marked oral but no oral question maps to it.",
+    "evidence": "fb-018-3-set-a-skema.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V03",
+    "severity": "error",
+    "message": "profile asks for 10 oral questions; the skema has 12.",
+    "evidence": "fb-018-3-set-b-skema.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-a-skema.md.",
+    "evidence": "Unit Kompetensi: C01 C02 C03 C04 C05 C06 | Elektif: E01 INVENTORY CONTROL",
+    "line": 16
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-a-skema.md.",
+    "evidence": "### TASK C — PERFORMANCE REVIEW + INVENTORY CONTROL (C04 + E01)",
+    "line": 351
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-a-skema.md.",
+    "evidence": "### 2.18 Inventory status for each item is correctly determined (E01).",
+    "line": 452
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-a-skema.md.",
+    "evidence": "### 2.19 Reorder action recommendation is prepared for items below reorder point (E01).",
+    "line": 478
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-a-skema.md.",
+    "evidence": "### 3.3 Self Sales Performance Assessment Report and Inventory Report are complete, accurate and usable (C04 + E01).",
+    "line": 567
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-a-skema.md.",
+    "evidence": "**Kriteria Laporan Inventori (E01):**",
+    "line": 580
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded but its title 'INVENTORY CONTROL' still appears in fb-018-3-set-a-skema.md.",
+    "evidence": "INVENTORY CONTROL",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-a-soalan.md.",
+    "evidence": "- E01 INVENTORY CONTROL",
+    "line": 31
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-a-soalan.md.",
+    "evidence": "**TUGASAN C — Penilaian Prestasi Jualan & Kawalan Inventori / Sales Performance Assessment & Inventory Control (C04 + E01)**",
+    "line": 83
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-a-soalan.md.",
+    "evidence": "**TUGASAN C — PENILAIAN PRESTASI JUALAN & KAWALAN INVENTORI / SALES PERFORMANCE ASSESSMENT & INVENTORY CONTROL (C04 + E01)**",
+    "line": 566
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-a-soalan.md.",
+    "evidence": "**BAHAGIAN 2 — KAWALAN INVENTORI / INVENTORY CONTROL (E01)**",
+    "line": 630
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded but its title 'INVENTORY CONTROL' still appears in fb-018-3-set-a-soalan.md.",
+    "evidence": "INVENTORY CONTROL",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded but its title 'KAWALAN INVENTORI' still appears in fb-018-3-set-a-soalan.md.",
+    "evidence": "KAWALAN INVENTORI",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-b-skema.md.",
+    "evidence": "Unit Kompetensi: C01 C02 C03 C04 C05 C06 | Elektif: E01 INVENTORY CONTROL",
+    "line": 16
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-b-skema.md.",
+    "evidence": "| 5.11 | State three (3) types of information that should be recorded when carrying out inventory control for sales items. | E01 | Item name / code, quantity in",
+    "line": 605
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-b-skema.md.",
+    "evidence": "| 5.12 | Explain three (3) appropriate actions to be taken when a stock discrepancy is identified during inventory checking. | E01 | Recount stock, check delive",
+    "line": 606
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-b-skema.md.",
+    "evidence": "*(Markah: 10 soalan wajib (5.1–5.10) + soalan E01 pilihan (5.11–5.12) diberi 3 markah masing-masing; soalan dipilih oleh Penilai mengikut CU yang terlibat; juml",
+    "line": 608
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded but its title 'INVENTORY CONTROL' still appears in fb-018-3-set-b-skema.md.",
+    "evidence": "INVENTORY CONTROL",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded by the profile but appears in fb-018-3-set-b-soalan.md.",
+    "evidence": "- E01 INVENTORY CONTROL",
+    "line": 31
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V04",
+    "severity": "error",
+    "message": "E01 is excluded but its title 'INVENTORY CONTROL' still appears in fb-018-3-set-b-soalan.md.",
+    "evidence": "INVENTORY CONTROL",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Online Sales Collateral / Product Listing",
+    "line": 72
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Template Katalog Produk Elektronik / Electronics Product Catalogue Template",
+    "line": 58
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Senarai Inventori Produk VIZTECH / VIZTECH Product Inventory List",
+    "line": 60
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Kertas cetak / Printing Paper",
+    "line": 61
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Folder kerja calon / Candidate Working Folder",
+    "line": 62
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Lembaran Jawapan / Assessment Answer Sheet",
+    "line": 64
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PERSEKITARAN PENILAIAN / ASSESSMENT ENVIRONMENT",
+    "line": 68
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| 1.1 | The candidate uses the market, product and sales information provided without falsifying or materially altering the source information or data. | ☐ | ☐ ",
+    "line": 41
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Market Survey Raw Data (20 respondents, electronics buyers) is identified and used as the primary data source.",
+    "line": 60
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All three required source materials are correctly identified and consistently applied throughout the survey task. | 3 |",
+    "line": 64
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Two of the three required sources are correctly identified, with one minor omission. | 2 |",
+    "line": 65
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only one source is identified or sources are used inconsistently across the task. | 1 |",
+    "line": 66
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Survey objective is relevant to customer electronics preferences, budget and buying considerations at VIZTECH TRADING SDN. BHD.",
+    "line": 75
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Objective and scope are consistent with the VIZTECH product range (VZ-P50 Pro and VZ-T10 Lite).",
+    "line": 77
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Survey objective is clear and relevant, and the scope covers at least four appropriate information areas consistent with the electronics retail context. |",
+    "line": 81
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Survey objective is relevant and scope covers two to three appropriate areas, with minor omissions. | 2 |",
+    "line": 82
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Survey objective and scope are not determined or are unrelated to the product. | 0 |",
+    "line": 84
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Target respondent is not determined or is unrelated to the survey. | 0 |",
+    "line": 101
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | A suitable survey methodology is selected and clearly justified according to the target respondent profile and survey objective. | 3 |",
+    "line": 113
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | A suitable methodology is selected but justification is brief or only partially linked to the respondent. | 2 |",
+    "line": 114
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 2.5 Information required for the market survey is determined.",
+    "line": 122
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Relevant purchase intent / purpose information is identified",
+    "line": 128
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | At least five relevant information requirements are identified and clearly support the survey objective. | 3 |",
+    "line": 132
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Three to four relevant information requirements are identified and generally support the survey objective. | 2 |",
+    "line": 133
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | At least six of the seven major survey findings are correctly calculated / identified, systematically presented, with only insignificant rounding differen",
+    "line": 159
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Four to five major findings are correctly calculated / identified, with minor calculation or classification errors. | 2 |",
+    "line": 160
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only one to three major findings are correct or the analysis contains several errors. | 1 |",
+    "line": 161
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Survey data is not analysed or the analysis substantially fails to reflect the raw data. | 0 |",
+    "line": 162
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (8 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Target segment is clearly derived from survey data, customer needs are correctly identified from at least three findings, and product recommendation is lo",
+    "line": 190
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Target segment and two customer needs are identified from data, with a reasonable product recommendation and minor weakness in justification. | 2 |",
+    "line": 191
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only segment or needs are identified, or recommendation is weakly linked to data. | 1 |",
+    "line": 192
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Target segment is not determined or recommendation is unrelated to survey findings. | 0 |",
+    "line": 193
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 2.8 Customer need is correctly identified from the walk-in scenario.",
+    "line": 204
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | At least three customer needs are correctly identified from the scenario and clearly stated. | 3 |",
+    "line": 218
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Two customer needs are correctly identified from the scenario. | 2 |",
+    "line": 219
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Customer need is not identified or is unrelated to the scenario. | 0 |",
+    "line": 221
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Sales pitch is 3–5 sentences, clearly links at least two specific VZ-P50 Pro features to Puan Siti's stated needs, uses appropriate language and includes ",
+    "line": 245
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Sales pitch is present and links the correct product to the customer but has only one specific feature connection or weak call-to-action. | 2 |",
+    "line": 246
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Sales pitch is too brief, recommends the wrong product, or does not connect features to customer needs. | 1 |",
+    "line": 247
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Listing title is clear and attractive, includes product name and at least one USP; description is 2–3 sentences, accurately states price (RM2,199) and hig",
+    "line": 268
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Two of three features are relevant and specific; one is vague or weakly stated. | 2 |",
+    "line": 295
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only one relevant and specific feature is stated or features are too generic to be useful. | 1 |",
+    "line": 296
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Platform is selected (Shopee or TikTok Shop) and justified with at least two relevant reasons linked to the target customer profile or electronics product",
+    "line": 314
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Platform is correctly selected and one relevant justification is provided. | 2 |",
+    "line": 315
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Platform is selected but justification is generic, very brief or weakly linked to the target. | 1 |",
+    "line": 316
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Both FAQs are relevant to the product / online purchase context and answers are accurate",
+    "line": 342
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Both FAQs are relevant to the product / online purchase context and answers are accurate, useful and clearly written. | 3 |",
+    "line": 342
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Only one FAQ is relevant / accurate or both are present but substantially weak",
+    "line": 344
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only two to three KPI are correctly identified or data is poorly organised. | 1 |",
+    "line": 370
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (7 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All five KPI are correctly compared against their targets, below/above status is correctly identified for each, and the strongest and weakest performers a",
+    "line": 416
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Four KPI are correctly compared and status is correctly identified, with minor omission in interpretation. | 2 |",
+    "line": 417
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (7 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | At least two relevant performance issues are correctly identified from KPI data and at least two practical improvement actions are clearly linked to the i",
+    "line": 443
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | At least two issues are identified and one improvement action is linked, or one issue with two linked actions. | 2 |",
+    "line": 444
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only one issue is identified or improvement actions are not meaningfully linked to data. | 1 |",
+    "line": 445
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 2.18 Inventory status for each item is correctly determined (E01).",
+    "line": 452
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (7 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Inventory status for all three items is correctly determined by comparing current stock against the reorder point, with correct above/below classification",
+    "line": 469
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Inventory status for two of three items is correctly determined with appropriate action stated. | 2 |",
+    "line": 470
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Reorder recommendations are clearly prepared for both items below reorder point (VZ-P50 Pro and VZ Accessories Set), with correct status justification; co",
+    "line": 501
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Reorder recommendation is correctly prepared for one of the two items below reorder point, with correct status reasoning. | 2 |",
+    "line": 502
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (6 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All major survey findings are accurately reported, target segment is clearly derived from data, and product recommendation with justification is complete ",
+    "line": 536
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | At least five major findings are accurate and recommendation is generally supported by data, with minor omissions. | 2 |",
+    "line": 537
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Only two to four major findings are accurate or the final summary / recommendation is substantially incomplete",
+    "line": 538
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only two to four major findings are accurate or the final summary / recommendation is substantially incomplete. | 1 |",
+    "line": 538
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Fewer than two major findings are accurate or the Market Survey Analysis and Summary is not completed. | 0 |",
+    "line": 539
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Sales pitch and all online collateral components (listing, features, FAQ, platform rationale) are complete, accurate and suitable for the target customer,",
+    "line": 558
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Sales pitch and most collateral components are complete and accurate, with one or two minor omissions or weaknesses. | 2 |",
+    "line": 559
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Sales pitch or online collateral is not completed or is substantially inconsistent with the product information. | 0 |",
+    "line": 561
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (6 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Both reports are complete, accurate and internally consistent; all KPI achievements are correctly computed; all three inventory statuses are correctly det",
+    "line": 589
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Both reports are generally complete and accurate, with one or two minor omissions or computational errors that do not materially affect the conclusions. ",
+    "line": 590
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | One report is substantially complete but the other has significant omissions / errors, or both reports have moderate weaknesses. | 1 |",
+    "line": 591
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Reports are not completed or substantially fail to reflect the performance and inventory data. | 0 |",
+    "line": 592
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 4.1 Candidate attends the assessment at the specified time.",
+    "line": 604
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 4.2 Information is collected, processed and applied according to task requirements.",
+    "line": 617
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All digital equipment is handled correctly, safely and responsibly throughout the assessment; left in proper working condition upon completion. | 3 |",
+    "line": 634
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All required answer sheets / files, documents, equipment and work area are properly organised and ready for submission upon task completion. | 3 |",
+    "line": 660
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only part of the required items are properly organised for submission. | 1 |",
+    "line": 662
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "SOAL JAWAB / ORAL ASSESSMENT",
+    "line": 671
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### Soalan 1 (C03): State TWO types of after-sales service that can be offered to customers after purchasing a smartphone.",
+    "line": 687
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Perkhidmatan waranti / warranty service",
+    "line": 690
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Perkhidmatan pembaikan / repair service",
+    "line": 691
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Penggantian produk / product replacement",
+    "line": 692
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### Soalan 3 (C03): What is a product warranty and what are the standard terms for consumer electronics in Malaysia?",
+    "line": 723
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### Soalan 4 (C03): Describe the steps to process a product exchange request from a customer.",
+    "line": 743
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### Soalan 5 (C03): State TWO ways to follow up with a customer after an after-sales service case is resolved.",
+    "line": 761
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### Soalan 7 (C06): Explain what is meant by USP (Unique Selling Proposition) and give ONE example for the VZ-P50 Pro.",
+    "line": 794
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Kerjasama influencer / influencer marketing",
+    "line": 818
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Promosi e-dagang / online marketplace promotion",
+    "line": 819
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### Soalan 9 (C06): State THREE elements that should be included in a product brochure or flyer for a tablet.",
+    "line": 829
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "C02 DIRECT / RETAIL SALES",
+    "line": 24
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "merangkumi aktiviti-aktiviti berikut / The candidate is required to carry out sales and marketing activities for",
+    "line": 73
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (12 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "1. Calon dikehendaki menjalankan aktiviti jualan dan pemasaran bagi **Viztech Trading Sdn. Bhd.** berdasarkan maklumat dan data yang disediakan, merangkumi akti",
+    "line": 73
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Tinjauan Pasaran & Produk / Market & Product Survey",
+    "line": 75
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Analyze market survey data from 20 respondents (consumer electronics buyers), identify the target market segment, and recommend a suitable product with justific",
+    "line": 77
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Padang Jualan Terus & Cagaran Jualan Dalam Talian / Direct Sales Pitch & Online Sales Collateral",
+    "line": 79
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Prepare a written sales pitch for an identified walk-in customer and prepare an online product listing with Frequently Asked Questions (FAQ) for a selected plat",
+    "line": 81
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Penilaian Prestasi Jualan & Kawalan Inventori / Sales Performance Assessment & Inventory Control",
+    "line": 83
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Calon dikehendaki melengkapkan semua borang kerja yang disediakan seperti berikut / The candidate is required to complete all required working forms provided as below",
+    "line": 87
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (9 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "2. Calon dikehendaki melengkapkan semua borang kerja yang disediakan seperti berikut / The candidate is required to complete all required working forms provided",
+    "line": 87
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Tulisan tangan atau penyerahan Borang Digital adalah diterima / Handwriting or Digital Form submission are acceptable",
+    "line": 89
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Analisis Tinjauan Pasaran & Produk / Market & Product Survey Analysis Form",
+    "line": 91
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Padang Jualan Terus & Cagaran Jualan Dalam Talian / Direct Sales Pitch & Online Sales Collateral Form",
+    "line": 92
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Penilaian Prestasi Jualan & Kawalan Inventori / Sales Performance Assessment & Inventory Control Form",
+    "line": 93
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Semua tugasan hendaklah dilaksanakan secara sistematik dan tepat menggunakan dokumen, peralatan dan alatan digital yang disediakan. / All tasks shall be carried",
+    "line": 95
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Calon akan dinilai melalui Peperiksaan Lisan / Oral Examination bagi unit kompetensi C03 AFTER SALES SERVICE dan C06 PRODUCT MARKETING",
+    "line": 97
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (8 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "3. Calon akan dinilai melalui Peperiksaan Lisan / Oral Examination bagi unit kompetensi C03 AFTER SALES SERVICE dan C06 PRODUCT MARKETING. Soalan lisan akan dik",
+    "line": 97
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Kertas Cetak / Printing Paper",
+    "line": 110
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Folder Kerja Calon / Candidate Working Folder",
+    "line": 111
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Papan Kip / Folder Pemfailan",
+    "line": 124
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Prestasi calon akan dinilai berdasarkan kriteria berikut / Your performance will be assessed based on the following criteria",
+    "line": 130
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Prestasi calon akan dinilai berdasarkan kriteria berikut / Your performance will be assessed based on the following criteria:",
+    "line": 130
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Calon menggunakan maklumat pasaran, produk dan jualan yang disediakan tanpa memalsukan atau mengubah secara material maklumat atau data sumber. / The candidate ",
+    "line": 134
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (6 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Proses kerja dinilai daripada analisis data tinjauan pasaran, penyediaan padang jualan dan cagaran jualan dalam talian, pengiraan kadar pencapaian KPI, penilaia",
+    "line": 138
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "a) Calon hadir pada masa yang ditetapkan untuk penilaian. / Candidate attends the assessment at the specified time.",
+    "line": 150
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "b) Maklumat dikumpul, diproses dan digunakan mengikut keperluan tugasan. / Information is collected, processed and applied according to task requirements.",
+    "line": 151
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (7 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "> Sekiranya perkara kritikal ini tidak dilaksanakan maka calon dianggap tidak terampil bagi keseluruhan penilaian. / If this critical item is not fulfilled, the",
+    "line": 157
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "MAKLUMAT SYARIKAT DAN PRODUK / COMPANY AND PRODUCT INFORMATION",
+    "line": 165
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Jawatan Calon / Candidate Position",
+    "line": 172
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (11 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Viztech Trading Sdn. Bhd. *(rekaan)* adalah sebuah kedai runcit telefon bimbit dan elektronik pengguna yang beroperasi di IOI City Mall, Putrajaya. Syarikat ini",
+    "line": 175
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "MAKLUMAT PRODUK / PRODUCT INFORMATION",
+    "line": 177
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Jenis Produk / Product Type",
+    "line": 183
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Eksekutif Jualan / Sales Executive",
+    "line": 215
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Eksekutif Jualan / Sales Executive",
+    "line": 227
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PRODUK PILIHAN / PREFERRED PRODUCT",
+    "line": 231
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "DATA TINJAUAN PASARAN YANG DISAHKAN / VERIFIED MARKET SURVEY DATA",
+    "line": 256
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Produk Pilihan / Preferred Product",
+    "line": 264
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "ANALISIS TINJAUAN PASARAN & PRODUK / MARKET & PRODUCT SURVEY ANALYSIS FORM",
+    "line": 307
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "TINJAUAN PASARAN & PRODUK / MARKET & PRODUCT SURVEY",
+    "line": 309
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PERANCANGAN TINJAUAN / SURVEY PLANNING",
+    "line": 315
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "SUMBER MAKLUMAT PASARAN / SOURCE OF MARKET INFORMATION",
+    "line": 317
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "OBJEKTIF TINJAUAN PASARAN & PRODUK / MARKET & PRODUCT SURVEY OBJECTIVE",
+    "line": 323
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "SKOP TINJAUAN / SCOPE OF SURVEY",
+    "line": 329
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "KAEDAH TINJAUAN / SURVEY METHODOLOGY",
+    "line": 343
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Kaedah Tinjauan Dipilih / Selected Survey Method",
+    "line": 345
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Tinjauan Dalam Talian / Online Survey &nbsp",
+    "line": 346
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Sebab Pemilihan / Reason for Selection",
+    "line": 348
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "MAKLUMAT YANG DIPERLUKAN / INFORMATION REQUIRED",
+    "line": 350
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "SOALAN TINJAUAN PASARAN / MARKET SURVEY QUESTIONS",
+    "line": 360
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Sediakan lima (5) soalan tinjauan yang sesuai berdasarkan maklumat yang disediakan. / Prepare five (5) suitable survey questions based on the information provid",
+    "line": 362
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "ANALISIS DAN RINGKASAN DATA TINJAUAN / SURVEY DATA ANALYSIS AND SUMMARY",
+    "line": 376
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Analisis data tinjauan yang disediakan dalam Lampiran 2 dan lengkapkan jadual berikut. / Analyze the survey data provided in Appendix 2 and complete the table b",
+    "line": 378
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Main Family / Customer Profile",
+    "line": 383
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Produk Paling Digemari / Most Preferred Product",
+    "line": 385
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PELANGGAN SASARAN / TARGET CUSTOMER",
+    "line": 390
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Berdasarkan analisis di atas, kenalpasti dan nyatakan profil pelanggan sasaran. / Based on the analysis above, identify and state the target customer profile.",
+    "line": 392
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "KEPERLUAN UTAMA PELANGGAN / MAIN CUSTOMER NEEDS",
+    "line": 400
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "CADANGAN PRODUK DAN JUSTIFIKASI / PRODUCT RECOMMENDATION AND JUSTIFICATION",
+    "line": 412
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Berdasarkan dapatan tinjauan dan profil pelanggan sasaran, nyatakan produk yang paling sesuai untuk dipromosikan dan berikan justifikasi. / Based on the survey ",
+    "line": 414
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Produk yang Disyorkan / Recommended Product",
+    "line": 416
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "RINGKASAN TINJAUAN PASARAN / MARKET SURVEY SUMMARY",
+    "line": 426
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PADANG JUALAN TERUS & CAGARAN JUALAN DALAM TALIAN / DIRECT SALES PITCH & ONLINE SALES COLLATERAL FORM",
+    "line": 442
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "JUALAN TERUS & JUALAN DALAM TALIAN / DIRECT SALES",
+    "line": 444
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PADANG JUALAN TERUS / DIRECT SALES PITCH",
+    "line": 450
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Senario Pelanggan / Customer Scenario",
+    "line": 452
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Maklumat pelanggan adalah seperti berikut / A walk-in customer has arrived at Viztech Trading",
+    "line": 454
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Seorang pelanggan masuk ke kedai Viztech Trading, IOI City Mall. Maklumat pelanggan adalah seperti berikut / A walk-in customer has arrived at Viztech Trading, ",
+    "line": 454
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Nama Pelanggan / Customer Name",
+    "line": 458
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Mencari telefon pintar yang tahan lama dengan kamera yang baik untuk gambar keluarga dan panggilan video / Looking for a durable smartphone with a good camera for family photos and video calls",
+    "line": 462
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| **Keperluan / Need** | Mencari telefon pintar yang tahan lama dengan kamera yang baik untuk gambar keluarga dan panggilan video / Looking for a durable smartp",
+    "line": 462
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "KENALPASTI KEPERLUAN PELANGGAN / IDENTIFY CUSTOMER NEED",
+    "line": 464
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Berdasarkan maklumat pelanggan di atas, nyatakan keperluan utama pelanggan dan satu soalan probing yang sesuai untuk diajukan. / Based on the customer informati",
+    "line": 466
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "CADANGAN PRODUK / PRODUCT RECOMMENDATION",
+    "line": 472
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Produk yang Disyorkan / Recommended Product",
+    "line": 474
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Sebab Pemilihan / Reason for Selection",
+    "line": 476
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PADANG JUALAN BERTULIS / WRITTEN SALES PITCH",
+    "line": 478
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (8 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Sediakan satu padang jualan bertulis (3–5 ayat) bagi produk yang disyorkan kepada Puan Siti Rahmah. Padang jualan hendaklah merangkumi pengenalan produk, ciri-c",
+    "line": 480
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PERANCANGAN CAGARAN JUALAN DALAM TALIAN / ONLINE SALES COLLATERAL PLANNING",
+    "line": 498
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PLATFORM JUALAN DALAM TALIAN / ONLINE SALES PLATFORM",
+    "line": 500
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Sebab Pemilihan / Reason for Selection",
+    "line": 504
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PERANCANGAN KANDUNGAN PROMOSI DALAM TALIAN / ONLINE PROMOTIONAL CONTENT PLANNING",
+    "line": 506
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Pelanggan Sasaran / Target Customer",
+    "line": 510
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "TAJUK DAN KETERANGAN PENYENARAIAN PRODUK / PRODUCT LISTING TITLE AND DESCRIPTION",
+    "line": 518
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Sediakan tajuk penyenaraian produk dan keterangan produk (2–3 ayat) yang sesuai untuk platform yang dipilih. / Prepare a suitable product listing title and prod",
+    "line": 520
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Keterangan Produk / Product Description",
+    "line": 526
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "TIGA CIRI UTAMA PRODUK / THREE KEY PRODUCT FEATURES",
+    "line": 534
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Nyatakan tiga (3) ciri utama produk yang sesuai untuk disiarkan dalam penyenaraian dalam talian. / State three (3) key product features suitable for inclusion i",
+    "line": 536
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Sediakan dua (2) Soalan Lazim dan jawapan yang sesuai berkaitan produk yang disenaraikan. / Prepare two (2) Frequently Asked Questions and suitable answers rela",
+    "line": 544
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PENILAIAN PRESTASI JUALAN & KAWALAN INVENTORI / SALES PERFORMANCE ASSESSMENT & INVENTORY CONTROL FORM",
+    "line": 564
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PENILAIAN PRESTASI JUALAN & KAWALAN INVENTORI / SALES PERFORMANCE ASSESSMENT & INVENTORY CONTROL",
+    "line": 566
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Tempoh Penilaian / Assessment Period",
+    "line": 570
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PENGIRAAN KADAR PENCAPAIAN KPI JUALAN / SALES KPI ACHIEVEMENT RATE COMPUTATION",
+    "line": 574
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (6 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Gunakan formula berikut untuk mengira kadar pencapaian bagi setiap KPI. / Use the following formula to compute the achievement rate for each KPI.",
+    "line": 576
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "DAPATAN PRESTASI / PERFORMANCE FINDING",
+    "line": 580
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Jumlah Jualan / Total Sales Revenue",
+    "line": 582
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Skor Kepuasan Pelanggan / Customer Satisfaction Score",
+    "line": 585
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PRESTASI LEBIH KUAT / STRONGER PERFORMANCE AREA",
+    "line": 588
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PRESTASI LEBIH LEMAH / WEAKER PERFORMANCE AREA",
+    "line": 594
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "ISU-ISU PRESTASI JUALAN UTAMA / MAIN SALES PERFORMANCE ISSUES",
+    "line": 600
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Kenalpasti sekurang-kurangnya tiga (3) isu prestasi jualan berdasarkan data KPI di atas. / Identify at least three (3) sales performance issues based on the KPI",
+    "line": 602
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "AMALAN TERBAIK JUALAN / SALES BEST PRACTICES",
+    "line": 610
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Cadangkan sekurang-kurangnya tiga (3) tindakan penambahbaikan yang sesuai berdasarkan isu prestasi yang dikenalpasti. / Recommend at least three (3) suitable im",
+    "line": 620
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "KAWALAN INVENTORI / INVENTORY CONTROL",
+    "line": 630
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Data Inventori Semasa / Current Inventory Data",
+    "line": 632
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PENENTUAN STATUS INVENTORI / INVENTORY STATUS DETERMINATION",
+    "line": 640
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (8 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Berdasarkan data inventori di atas, tentukan status setiap barang (Di Bawah Titik Pesanan Semula / Below Reorder Point ATAU Di Atas Titik Pesanan Semula / Above",
+    "line": 642
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Status Inventori / Inventory Status",
+    "line": 644
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (7 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Berdasarkan status inventori yang ditentukan, nyatakan tindakan pesanan semula yang sesuai bagi setiap barang yang memerlukan tindakan. / Based on the determine",
+    "line": 652
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "RINGKASAN KAWALAN INVENTORI / INVENTORY CONTROL SUMMARY",
+    "line": 666
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Nyatakan pemerhatian keseluruhan tentang tahap inventori semasa dan cadangan langkah pengurusan stok proaktif untuk mengelakkan kehabisan stok. / State the over",
+    "line": 668
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "LAPORAN PENILAIAN PRESTASI JUALAN KENDIRI / SELF SALES PERFORMANCE ASSESSMENT REPORT",
+    "line": 682
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Tempoh Penilaian / Assessment Period",
+    "line": 684
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Nama Calon / Candidate Name",
+    "line": 686
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PRESTASI JUALAN KESELURUHAN / OVERALL SALES PERFORMANCE",
+    "line": 694
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PENCAPAIAN KPI JUALAN / SALES KPI ACHIEVEMENT",
+    "line": 702
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "ISU-ISU PRESTASI JUALAN UTAMA / MAIN SALES PERFORMANCE ISSUES",
+    "line": 714
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "AMALAN TERBAIK JUALAN / SALES BEST PRACTICES",
+    "line": 724
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "dikaitkan dengan isu / recommend at least three",
+    "line": 734
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Disediakan oleh / Prepared by",
+    "line": 752
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (13 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Kemukakan kesemua sepuluh (10) soalan berikut kepada calon satu persatu. Catat jawapan calon dan berikan markah berdasarkan Skema Pemarkahan. Calon diberikan ma",
+    "line": 774
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PERKHIDMATAN SELEPAS JUALAN / AFTER SALES SERVICE",
+    "line": 778
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "State TWO types of after-sales service that can be offered to customers after purchasing a smartphone.",
+    "line": 782
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "What is a product warranty and what are the standard terms for consumer electronics in Malaysia?",
+    "line": 806
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Describe the steps to process a product exchange request from a customer.",
+    "line": 818
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "State TWO ways to follow up with a customer after an after-sales service case is resolved.",
+    "line": 830
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PEMASARAN PRODUK / PRODUCT MARKETING",
+    "line": 842
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Explain what is meant by USP (Unique Selling Proposition) and give ONE example for the VZ-P50 Pro.",
+    "line": 858
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "State THREE elements that should be included in a product brochure or flyer for a tablet.",
+    "line": 882
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "TAMAT KERTAS SOALAN / END OF QUESTION PAPER",
+    "line": 917
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Kertas cetak / Printing Paper",
+    "line": 56
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Folder kerja calon / Candidate Working Folder",
+    "line": 57
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Lembaran Jawapan / Assessment Answer Sheet",
+    "line": 59
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PERSEKITARAN PENILAIAN / ASSESSMENT ENVIRONMENT",
+    "line": 63
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| 1.1 | The candidate uses the market, product and sales information provided without falsifying or materially altering the source information or data. | ☐ | ☐ ",
+    "line": 41
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Market Survey Raw Data (20 respondents) is identified and used as the survey data source.",
+    "line": 53
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All required source information is correctly identified and used for the relevant survey task. | 3 |",
+    "line": 57
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Most required source information is correctly identified, with one minor omission. | 2 |",
+    "line": 58
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Survey objective is clear and relevant, and the scope covers at least four appropriate information areas consistent with the product. | 3 |",
+    "line": 74
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Survey objective is relevant and the scope covers two to three appropriate information areas, with minor omissions. | 2 |",
+    "line": 75
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Survey objective and scope are not determined or are unrelated to the product. | 0 |",
+    "line": 77
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Relevant working adult / family customer profile is identified",
+    "line": 86
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Target respondent is appropriate but the respondent profile is only generally described. | 2 |",
+    "line": 92
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Target respondent is not determined or is unrelated to the survey. | 0 |",
+    "line": 94
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | A suitable survey methodology is selected and clearly justified according to the target respondent and survey objective. | 3 |",
+    "line": 104
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | A suitable methodology is selected but the justification is brief or only partially linked to the respondent. | 2 |",
+    "line": 105
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 2.5 Information required for the market survey is determined.",
+    "line": 113
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Relevant customer / demographic information is identified",
+    "line": 115
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Relevant budget / model preference information is identified",
+    "line": 116
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | At least five relevant information requirements are identified and clearly support the survey objective. | 3 |",
+    "line": 121
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Three to four relevant information requirements are identified and generally support the survey objective. | 2 |",
+    "line": 122
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All five questions are clear, relevant and usable, cover at least four appropriate areas and support the survey objective. | 3 |",
+    "line": 139
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Four to five questions are generally usable, with minor weakness in clarity, relevance or coverage. | 2 |",
+    "line": 140
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Only one to three questions are relevant / usable or the questions have significant weaknesses",
+    "line": 141
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only one to three questions are relevant / usable or the questions have significant weaknesses. | 1 |",
+    "line": 141
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Main Family / Customer Profile",
+    "line": 152
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "At least six of the seven major survey findings are correctly calculated / identified and the analysis is systematic",
+    "line": 161
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (7 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | At least six of the seven major survey findings are correctly calculated / identified and the analysis is systematic, with only insignificant rounding dif",
+    "line": 161
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Four to five major findings are correct, with minor calculation or classification errors. | 2 |",
+    "line": 162
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only one to three major findings are correct or the analysis contains several errors. | 1 |",
+    "line": 163
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Survey data is not analysed or the analysis substantially fails to reflect the raw data. | 0 |",
+    "line": 164
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Main customer needs are identified from the data (e.g., fuel efficiency, affordable pricing, safety features).",
+    "line": 173
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Suitable selling points are derived from the product information and survey findings.",
+    "line": 174
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Market summary is consistent with the analysed data.",
+    "line": 175
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Target customer, customer needs, selling points and market summary are all logically derived and consistent with the survey findings. | 3 |",
+    "line": 179
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Three of the four required elements are appropriately completed with minor weaknesses. | 2 |",
+    "line": 180
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only one or two required elements are adequately completed or links to survey findings are weak. | 1 |",
+    "line": 181
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Market findings are not summarised or conclusions are unrelated to the survey data. | 0 |",
+    "line": 182
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | A suitable online platform is selected and clearly justified according to the identified target customer. | 3 |",
+    "line": 192
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | A suitable platform is selected but the justification is only general. | 2 |",
+    "line": 193
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | A platform is selected but has limited relevance to the target customer or no meaningful justification is provided. | 1 |",
+    "line": 194
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 2.10 Online promotional content is planned based on the market findings.",
+    "line": 201
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Relevant model / price preference is considered",
+    "line": 204
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Promotional content is not planned from the market findings or is substantially unrelated. | 0 |",
+    "line": 212
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 2.11 Accurate product information is prepared for the online sales collateral.",
+    "line": 218
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Warranty / facilities / financing information is consistent with the source.",
+    "line": 223
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All key product facts used in the collateral are accurate and consistent with the source information. | 3 |",
+    "line": 227
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Selling points are supported by product information / survey findings",
+    "line": 239
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- A valid enquiry method from the provided information is included.",
+    "line": 241
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Most required elements are present, with one minor omission or weakness. | 2 |",
+    "line": 246
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Answers are accurate according to the product information provided.",
+    "line": 258
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All five FAQs are relevant and the answers are accurate, useful and consistent with the product information. | 3 |",
+    "line": 263
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Only one online KPI is correctly calculated / interpreted or comparison is largely incomplete",
+    "line": 283
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Correct Target and Actual data are compiled for the three KPI.",
+    "line": 294
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "all three KPI and their Target / Actual data are correctly identified and systematically compiled",
+    "line": 298
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All three Target vs Actual comparisons are correct and the weaker performance level is appropriately recognised. | 3 |",
+    "line": 333
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Two to three comparisons are correct but the overall interpretation has a minor weakness. | 2 |",
+    "line": 334
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only one comparison is correctly interpreted or the comparison is incomplete. | 1 |",
+    "line": 335
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Actual performance is not compared with target or is substantially misinterpreted. | 0 |",
+    "line": 336
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 2.18 Relevant sales performance issues are identified from the KPI data.",
+    "line": 342
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Issues are supported by the online and/or self sales KPI data.",
+    "line": 345
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Issues are stated clearly and are relevant to automotive sales performance.",
+    "line": 346
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only one relevant issue is identified or issues are weakly supported by data. | 1 |",
+    "line": 354
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 2.19 Sales activity effectiveness is evaluated from the available performance data.",
+    "line": 361
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- At least two KPI findings are used as evidence.",
+    "line": 364
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Sales activity effectiveness is logically evaluated using at least two KPI findings and stronger / weaker areas are clearly identified",
+    "line": 369
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Sales activity effectiveness is logically evaluated using at least two KPI findings and stronger / weaker areas are clearly identified. | 3 |",
+    "line": 369
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Actions are practical and within sales / marketing operation scope",
+    "line": 401
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Three or more practical improvement actions are clearly linked to the identified performance issues. | 3 |",
+    "line": 405
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only one practical improvement action is provided or links to issues are weak. | 1 |",
+    "line": 407
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "- Report content is consistent with the performance analysis.",
+    "line": 421
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All key report sections are completed and the information is systematic and consistent with the analysis. | 3 |",
+    "line": 425
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Several key report sections are incomplete or the report is poorly organised. | 1 |",
+    "line": 427
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (6 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All major survey findings are accurate and the target customer, customer needs, selling points and summary are complete and consistent with the data. | 3 ",
+    "line": 452
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "At least five major survey findings are accurate and the final analysis / summary is generally complete",
+    "line": 453
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (6 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | At least five major survey findings are accurate and the final analysis / summary is generally complete, with minor omissions. | 2 |",
+    "line": 453
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Only two to four major findings are accurate or the final analysis / summary is substantially incomplete",
+    "line": 454
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only two to four major findings are accurate or the final analysis / summary is substantially incomplete. | 1 |",
+    "line": 454
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Fewer than two major findings are accurate, or the Market Survey Analysis and Summary is not completed. | 0 |",
+    "line": 455
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "fuel efficiency / price information is accurate",
+    "line": 465
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Online collateral and all five FAQs meet all key information requirements, are accurate, relevant and suitable for the target customer. | 3 |",
+    "line": 472
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Final collateral and FAQs are generally complete and accurate, with one or two minor omissions / weaknesses. | 2 |",
+    "line": 473
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Online collateral and FAQ are not completed or the final result is substantially inconsistent with the product information. | 0 |",
+    "line": 475
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | Report is complete, accurate, systematic and internally consistent, with all key sections supported by the performance data. | 3 |",
+    "line": 498
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "with one or two minor omissions / inaccuracies that do not materially affect the conclusion",
+    "line": 499
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| II | Report is generally complete and accurate, with one or two minor omissions / inaccuracies that do not materially affect the conclusion. | 2 |",
+    "line": 499
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Report contains several omissions / inaccuracies or weak links between the data",
+    "line": 500
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| IV | Report is not completed or substantially fails to reflect the sales performance data. | 0 |",
+    "line": 501
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 4.1 Candidate attends the assessment at the specified time.",
+    "line": 511
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "### 4.2 Information is collected, processed and applied according to task requirements.",
+    "line": 524
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Usable but proper handling / safety is only partially observed",
+    "line": 543
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| I | All required files, documents, equipment and work area are properly organised and ready for submission. | 3 |",
+    "line": 567
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| III | Only part of the items are properly organised. | 1 |",
+    "line": 569
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "SOAL JAWAB / ORAL ASSESSMENT",
+    "line": 578
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Three or more correct / relevant answers are stated or explained clearly",
+    "line": 584
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Two correct / relevant answers are stated or explained",
+    "line": 585
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "One correct / relevant answer is stated or explained",
+    "line": 586
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "No correct / relevant answer is stated",
+    "line": 587
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| 5.1 | State three (3) types of information that should be identified before carrying out direct or retail sales. | C02 | Product type, specification, packagin",
+    "line": 595
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| 5.2 | State three (3) types of marketing collateral that may be used to support sales activities. | C02 | Company profile, brochure, flyer, product catalogue,",
+    "line": 596
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| 5.8 | State three (3) types of information that should be identified before carrying out product marketing activities. | C06 | Product list, promotion require",
+    "line": 602
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| 5.11 | State three (3) types of information that should be recorded when carrying out inventory control for sales items. | E01 | Item name / code, quantity in",
+    "line": 605
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "| 5.12 | Explain three (3) appropriate actions to be taken when a stock discrepancy is identified during inventory checking. | E01 | Recount stock, check delive",
+    "line": 606
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "C02 DIRECT / RETAIL SALES",
+    "line": 24
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (12 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "1. The candidate is required to carry out sales and marketing activities for **Dinamik Auto Gallery** based on the information and data provided, covering the f",
+    "line": 73
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "II. Prepare suitable Online Sales Collateral and FAQ based on the identified target customer.",
+    "line": 76
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (6 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "III. Review the Online Sales and Self Sales Performance based on the KPI provided and prepare suitable improvement actions and a Self-Sales Performance Assessme",
+    "line": 77
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (9 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "2. The candidate is required to complete all required forms provided as below:",
+    "line": 79
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "All tasks shall be carried out systematically and accurately using the documents, equipment and digital tools provided.",
+    "line": 87
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Your performance will be assessed based on the following criteria:",
+    "line": 120
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "The candidate uses the market, product and sales information provided without falsifying or materially altering the source information or data.",
+    "line": 124
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (5 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "The work process is assessed from survey planning and data analysis through online promotional planning, preparation of online sales collateral, KPI review, sal",
+    "line": 128
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "a) Candidate attends the assessment at the specified time.",
+    "line": 138
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (3 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "b) Information is collected, processed and applied according to task requirements.",
+    "line": 139
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (11 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Dinamik Auto Gallery Sdn. Bhd. is an authorised dealer for a range of fuel-efficient and hybrid passenger vehicles. The company is currently promoting a new mod",
+    "line": 162
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Main Family / Customer Profile",
+    "line": 348
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (10 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Prepare one (1) online sales promotional collateral suitable for the identified target customer. The collateral shall include accurate product information, rele",
+    "line": 407
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "English prose line (4 English function words) in a Bahasa Malaysia paper.",
+    "evidence": "Recommend at least three (3) suitable improvement actions based on the identified sales performance issues.",
+    "line": 493
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V06",
+    "severity": "error",
+    "message": "cover lists E01, which the profile does not assess.",
+    "evidence": "fb-018-3-set-a-skema.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V06",
+    "severity": "error",
+    "message": "cover lists E01, which the profile does not assess.",
+    "evidence": "fb-018-3-set-a-soalan.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V06",
+    "severity": "error",
+    "message": "cover lists E01, which the profile does not assess.",
+    "evidence": "fb-018-3-set-b-skema.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V06",
+    "severity": "error",
+    "message": "cover lists E01, which the profile does not assess.",
+    "evidence": "fb-018-3-set-b-soalan.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V07",
+    "severity": "error",
+    "message": "declared duration 35 min is outside the profile window 150–180 min.",
+    "evidence": "Tempoh Masa / Time Allocated: 35 minit",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V07",
+    "severity": "error",
+    "message": "no 'TEMPOH' declaration found in the soalan.",
+    "evidence": "fb-018-3-set-b-soalan.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "warn",
+    "message": "page count is hardcoded to 30; verify it against the rendered PDF.",
+    "evidence": "MENGANDUNGI 30 MUKA SURAT",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "warn",
+    "message": "page count is hardcoded to 29; verify it against the rendered PDF.",
+    "evidence": "MENGANDUNGI 29 MUKA SURAT",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "warn",
+    "message": "page count is hardcoded to 24; verify it against the rendered PDF.",
+    "evidence": "MENGANDUNGI 24 MUKA SURAT",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "warn",
+    "message": "page count is hardcoded to 13; verify it against the rendered PDF.",
+    "evidence": "MENGANDUNGI 13 MUKA SURAT",
+    "line": null
+  }
+]

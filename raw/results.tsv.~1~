@@ -1,0 +1,2 @@
+timestamp	spiral_iter	ralph_iter	story_id	story_title	status	duration_sec	model	retry_num	commit_sha	run_id	cache_hit	cache_read_tokens	cache_creation_tokens	review_tokens	wall_seconds	user_cpu_s	sys_cpu_s	peak_rss_kb	batch_id	decompose_secs	impl_secs	verify_secs	retry_escalation_count	failure_root_cause	failed_files
+2026-03-25T06:16:53Z	12	1	US-005	Add assessment criteria section to each L4 CoCu file	reject	479	haiku	1		69c376d81621	false	0	0	0	0	0	0	0		0	0	0	0	unknown	

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>考卷交付现况 — 结论 · 推理 · 源数据</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#171a21; --card2:#1c2029; --line:#262b36; --fg:#e6e9ef; --dim:#98a2b4;
+    --acc:#5aa9ff; --ok:#3fb950; --warn:#d29922; --bad:#f85149; --purple:#a371f7;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f6f7f9; --card:#fff; --card2:#f1f3f6; --line:#e2e6eb; --fg:#191d24; --dim:#586173;
+           --acc:#0969da; --ok:#1a7f37; --warn:#9a6700; --bad:#cf222e; --purple:#8250df; }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font:16px/1.75 -apple-system,"Segoe UI","Noto Sans SC",system-ui,sans-serif}
+  .wrap{max-width:820px;margin:0 auto;padding:26px 20px 100px}
+
+  /* 顶栏 */
+  .topbar{position:sticky;top:0;z-index:20;background:var(--bg);
+          border-bottom:1px solid var(--line);margin:-26px -20px 24px;padding:11px 20px;
+          display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  .topbar a{color:var(--dim);text-decoration:none;font-size:13px;font-weight:600}
+  .topbar a:hover{color:var(--acc)}
+  .topbar .n{display:inline-block;width:18px;height:18px;line-height:18px;text-align:center;
+             border-radius:50%;background:var(--card2);font-size:11px;margin-right:5px}
+  .topbar .sp{flex:1}
+
+  h1{font-size:27px;line-height:1.35;margin:0 0 6px;letter-spacing:-.015em}
+  .sub{color:var(--dim);font-size:13.5px;margin-bottom:26px}
+
+  /* 层标题 */
+  .layer{margin:52px 0 0;padding-top:26px;border-top:2px solid var(--line)}
+  .layer:first-of-type{border-top:0;margin-top:30px;padding-top:0}
+  .ltag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.1em;
+        text-transform:uppercase;color:var(--acc);margin-bottom:6px}
+  .layer h2{font-size:23px;margin:0 0 4px;letter-spacing:-.01em}
+  .lsub{color:var(--dim);font-size:14px;margin-bottom:20px}
+
+  h3{font-size:17.5px;margin:32px 0 8px;letter-spacing:-.005em}
+  h4{font-size:15px;margin:22px 0 6px;color:var(--dim)}
+  p{margin:12px 0}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:17px 19px;margin:16px 0}
+  .blot{border-left:4px solid var(--acc);background:var(--card)}
+  .blot p:first-child{margin-top:0} .blot p:last-child{margin-bottom:0}
+  .warnbox{border-left:4px solid var(--bad)}
+  .okbox{border-left:4px solid var(--ok)}
+  .primer{background:var(--card2);border:1px dashed var(--line);border-radius:11px;padding:16px 19px;margin:18px 0}
+
+  table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--dim);font-weight:600;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em}
+  tr:last-child td{border-bottom:0}
+  td.num{font-variant-numeric:tabular-nums}
+
+  code{background:rgba(128,142,163,.16);padding:1.5px 5px;border-radius:4px;font-size:13px;
+       font-family:ui-monospace,"Cascadia Code",Consolas,monospace}
+  .pill{display:inline-block;padding:1.5px 8px;border-radius:99px;font-size:11.5px;font-weight:700;
+        white-space:nowrap}
+  .p-ok{background:rgba(63,185,80,.16);color:var(--ok)}
+  .p-warn{background:rgba(210,153,34,.16);color:var(--warn)}
+  .p-bad{background:rgba(248,81,73,.16);color:var(--bad)}
+  .p-dim{background:rgba(128,142,163,.16);color:var(--dim)}
+
+  ul,ol{padding-left:22px;margin:12px 0} li{margin:7px 0}
+
+  .wa{background:var(--card2);border-radius:11px;padding:14px 17px;margin:14px 0;font-size:14.5px}
+  .wa .m{margin:9px 0;padding-left:64px;position:relative}
+  .wa .m b{position:absolute;left:0;top:0;font-size:11px;color:var(--dim);font-weight:600}
+  .wa .me{color:var(--dim)}
+  .wa .m em{font-style:normal;background:rgba(90,169,255,.15);padding:1px 3px;border-radius:3px}
+
+  .gloss dt{font-weight:700;margin-top:14px;font-size:14.5px}
+  .gloss dd{margin:3px 0 0;color:var(--dim);font-size:14px}
+
+  .qa{border-left:3px solid var(--warn);padding:4px 0 4px 15px;margin:16px 0}
+  .qa b{display:block;font-size:16px;margin-bottom:3px}
+  .qa .why{color:var(--dim);font-size:14px}
+
+  a{color:var(--acc)}
+  .foot{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);color:var(--dim);font-size:13px}
+  .btn{display:inline-block;background:var(--card);border:1px solid var(--line);color:var(--fg);
+       border-radius:8px;padding:8px 15px;text-decoration:none;font-size:14px;font-weight:600;margin:4px 8px 4px 0}
+  .btn:hover{border-color:var(--acc);color:var(--acc)}
+  .note{font-size:13px;color:var(--dim)}
+  mark{background:rgba(210,153,34,.22);color:inherit;padding:1px 3px;border-radius:3px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav class="topbar">
+  <a href="#l1"><span class="n">1</span>结论</a>
+  <a href="#l2"><span class="n">2</span>推理</a>
+  <a href="#l3"><span class="n">3</span>源数据</a>
+  <span class="sp"></span>
+  <a href="/engine.html">🔧 考题引擎</a>
+  <a href="/tracker/">📊 进度看板</a>
+</nav>
+
+<h1>考卷交付现况：能交的已经交了，<br>但「完整」还差三分之二</h1>
+<div class="sub">Character Intl. Academy · JPK 实操考卷 · 2026-08-23 夜间盘点 · 由 Juno 撰写</div>
+
+<div class="primer" style="border-left:4px solid #3fb950">
+  <h4 style="margin-top:0">【2026-08-25 更新】本页已被后续进展取代</h4>
+  <p style="margin-bottom:0">
+  Jennifer 于 8 月 24 日晚完成审阅，本页所述的 8 份交付被退回重做——CU 选多了、中英马混排、
+  格式不合规。同一批文件经新建的校验引擎自动扫描，一次查出 <b>366 个错误</b>；
+  FB-018-3 已修至 <b>0 错误</b> 并重新出卷。
+  → <a href="/engine.html"><b>看 8 月 25 日的考题引擎报告</b></a>
+  </p>
+</div>
+
+<div class="primer">
+  <h4 style="margin-top:0">读这页之前：30 秒背景</h4>
+  <p style="margin-bottom:0">
+  马来西亚有一套国家职业技能标准叫 <b>NOSS</b>，由政府机构 <b>JPK</b> 管理。
+  一家培训中心要合法开办某个课程并发证，必须先拿到该课程的<b>办学资格</b>（pentauliahan）。
+  申请资格时，中心要自己编写<b>实操考卷</b>（PPT-PPA）交上去审。<br><br>
+  <b>Jennifer</b> 经营 Character Intl. Academy，正在申请几个课程的资格，请 <b>Jay</b> 帮忙出考卷。
+  她已有 Beauty 系列的资格（说明她确实是持牌中心），现在要扩到 Sales &amp; Marketing、
+  Office Administration 等新课程。<br><br>
+  <span class="note">不熟悉的术语在<a href="#gloss">第三层的名词表</a>有完整解释。这页从头顺读即可。</span>
+  </p>
+</div>
+
+
+<!-- ══════════ 第一层 ══════════ -->
+<section class="layer" id="l1">
+  <span class="ltag">第一层</span>
+  <h2>结论</h2>
+  <div class="lsub">先看这里。下面两层只是解释这些结论怎么来的。</div>
+
+  <div class="card blot">
+    <p><b>一句话：</b>今晚已把 2 个课程共 8 份考卷交进 Jennifer 的 Google Drive 并核实到位；
+    但按<b>她自己给出的「完整」定义</b>，主打的 Sales &amp; Marketing 只完成了三分之一，
+    而<mark>决定要不要熬这一周的那个问题，还没有人问她</mark>。</p>
+  </div>
+
+  <h3>结论一 · 已交付的部分是可用的</h3>
+  <div class="card okbox">
+    <p>2 个课程、8 份 PDF，已在她的 Drive 中逐份核实存在。命名沿用她已通过的样本惯例。
+    其中 Sales &amp; Marketing L3 这一层，加上她自己已有的那半套，<b>现在是齐的，可以送审</b>。</p>
+    <table>
+      <tr><th>课程</th><th>我方交付</th><th>该层状态</th></tr>
+      <tr><td><b>Sales &amp; Marketing</b> L3<br><span class="note">FB-018-3:2012</span></td>
+          <td>SET B 四件套</td>
+          <td><span class="pill p-ok">齐了</span><br><span class="note">她的 SET A + 我方 SET B</span></td></tr>
+      <tr><td><b>Office Administration</b><br><span class="note">N821-001-3:2020</span></td>
+          <td>SET A 四件套</td>
+          <td><span class="pill p-warn">半套</span><br><span class="note">缺 SET B</span></td></tr>
+    </table>
+  </div>
+
+  <h3>结论二 · 但「Sales &amp; Marketing 做完了」这句话不成立</h3>
+  <div class="card warnbox">
+    <p>Jennifer 今天明确说，「一套完整的考卷」是<b>以课程编号（NOSS）为单位</b>算的，
+    每一个等级都要有 SET A、SET B 和配套附件。这门课有三个等级（L3、L4、L5）。</p>
+    <table>
+      <tr><th>等级</th><th>需要</th><th>现有</th><th>缺口</th></tr>
+      <tr><td>L3</td><td>SET A + SET B</td><td>两套都有</td><td><span class="pill p-ok">0</span></td></tr>
+      <tr><td>L4</td><td>SET A + SET B</td><td class="note">一份都没有</td><td><span class="pill p-bad">4 份</span></td></tr>
+      <tr><td>L5</td><td>SET A + SET B</td><td class="note">一份都没有</td><td><span class="pill p-bad">4 份</span></td></tr>
+    </table>
+    <p style="margin-bottom:0">也就是说：<b>三个等级里只完成了一个</b>。如果她要交的是「完整的 Sales &amp; Marketing」，
+    今晚这批不够。</p>
+  </div>
+
+  <h3>结论三 · 有一个风险可能让她<u>已经通过</u>的那半套也一起挂</h3>
+  <div class="card warnbox">
+    <p>她提供的样本里，六个考核单元中有<b>三个只用口头问答考，没有动手操作</b>。
+    但这份卷子的名称本身就是「实操评估」。</p>
+    <p style="margin-bottom:0">关键在于：<b>这个结构是从她已经通过审核的样本继承来的</b>，我方新写的那半套沿用了同样做法。
+    所以如果审核委员这次挑出来，<b>不只是新卷子被退，她原本那套也站不住</b>。
+    这件事必须在送审之前问清楚，不能等退件。</p>
+  </div>
+
+  <h3>所以，现在该做三件事</h3>
+  <div class="card">
+    <ol style="margin:0">
+      <li><b>回 Jennifer 一句「东西已经放进去了」</b> —— 她今晚 18:01 说「你放考题了让我知道」，还在等。</li>
+      <li><b>问她：要交完整三个等级，还是可以按等级分开申请？</b>
+          <span class="note">答案不同，这周工作量差 8 份文件。</span></li>
+      <li><b>让她拿上面那个风险去问审核委员</b>，别等退件才知道。
+          <span class="note">这一条对她自己那套同样致命，早问只有好处。</span></li>
+    </ol>
+  </div>
+
+  <div class="card" style="border-left:4px solid var(--purple)">
+    <p style="margin:0"><b>还有一个我不敢替她填的空：</b>她说「下个星期四」提交，
+    但这既可能是 <b>8 月 27 日（还剩 4 天）</b>，也可能是 <b>9 月 3 日（还剩 11 天）</b>。
+    她没说日期，我也没问。<mark>这两个答案对应完全不同的赶工强度</mark>，值得一并确认。</p>
+  </div>
+</section>
+
+
+<!-- ══════════ 第二层 ══════════ -->
+<section class="layer" id="l2">
+  <span class="ltag">第二层</span>
+  <h2>推理</h2>
+  <div class="lsub">上面每条结论是怎么得出来的。</div>
+
+  <h3>为什么说「不完整」—— 因为标准是她自己定的，不是我猜的</h3>
+  <p>这一点很重要：<b>「完整」的定义不是我推断的，是她今天亲口说的。</b>
+  之前项目记录里写的是「Jennifer 没说要哪一门、要几套」，那个说法今天已经作废了。</p>
+  <p>她的原话是：这些考卷「是以 NOSS 看的，这里面有 3 个 NOSS，每一个 Level 有完整的
+  Set A &amp; Set B &amp; relative attachment，所以这里算是完整的 3 sets」。</p>
+  <p>Jay 当场按这个口径算了一遍：<code>3 个等级 × (SET A + SET B) × (考卷 + 评分标准) = 12 份</code>，
+  <b>她没有否认</b>。所以 12 份就是这门课的完整口径。我方今晚交了其中 4 份，
+  加上她原有的 4 份，是 8/12 —— 但缺的那 4 份不是零散分布，
+  而是<b>整整两个等级完全空白</b>，这才是问题所在。</p>
+
+  <h3>为什么那个风险是真风险 —— 三个环节都指向同一个矛盾</h3>
+  <p>第一，<b>文件名称本身</b>：这份卷子叫 <i>Penilaian Amali</i>，直译就是「实作评估」。
+  它存在的意义就是考察学员能不能动手做。</p>
+  <p>第二，<b>实际内容</b>：核对下来，六个必修单元中只有三个（C01、C04、C05）
+  真正安排了动手任务，占分 80%；另外三个（C02、C03、C06）只出现在最后 20% 的口试环节里。
+  它们<b>确实被考到了</b>——这一点我最初判断错误，后来核对口试题目 5.1–5.10 才更正——
+  但考的方式是「说」，不是「做」。</p>
+  <p>第三，<b>这不是我方引入的</b>。这个结构来自她提供的、已经通过审核的样本。
+  我方新写的那半套是照着它的格式做的，所以继承了同一个特征。</p>
+  <p style="margin-bottom:0">
+  <b>那这到底算不算问题？我不知道，也不该由我判断。</b>
+  口试是否足以覆盖实操要求，是审核委员和 JPK 的裁量范围。
+  我能确定的只有一件事：<b>如果它算问题，那两套卷子会一起出事</b>。
+  这个不对称性——问一句话的成本 vs. 被退件的成本——就是我把它列为高优先级的全部理由。</p>
+
+  <h3>为什么「现在就问」比「先动手做」更划算</h3>
+  <p>把时间倒推一遍就清楚了。她说提交前还必须「招 Panel Soalan 帮我审核签名」——
+  也就是说提交日<b>不是</b>我方的截止日，真正的截止日要再往前推，得留出委员看卷和签字的时间。</p>
+  <table>
+    <tr><th>如果「下星期四」是…</th><th>距今</th><th>扣掉委员审核后，实际可用</th></tr>
+    <tr><td>8 月 27 日</td><td class="num">4 天</td><td><span class="pill p-bad">大概 1–2 天</span></td></tr>
+    <tr><td>9 月 3 日</td><td class="num">11 天</td><td><span class="pill p-warn">大概 7–8 天</span></td></tr>
+  </table>
+  <p>另一边，缺的 8 份文件里包含两个全新等级（L4、L5）的完整考卷。
+  参考已完成的那几份规模——单是 Office Administration 的考卷正文就有 20 页、14 张表格——
+  <b>8 份新文件不是一晚上的事</b>。</p>
+  <p style="margin-bottom:0">所以：在最坏情况下（4 天，且必须交完整三个等级），
+  这件事本身就来不及；而在最好情况下（11 天，且可以按等级分开交），
+  <b>L3 现在就能送审，一份都不用再写</b>。
+  <mark>两个极端之间差了整整一周的通宵</mark>，而区分它们只需要一条 WhatsApp。</p>
+
+  <h3>为什么我敢说交付物本身是干净的</h3>
+  <p>在交出去之前，做了三件核对：</p>
+  <ul>
+    <li><b>课程单元名逐条对过官方文件</b> —— 抓出一处错误：某个单元被写成
+      <code>Staff Administration Supervision</code>，官方原文是 <code>Office Administration Supervision</code>。已改。</li>
+    <li><b>封面页数声明改成实测值</b> —— 她原本两份样本的页数都写错了（一份少 1 页、一份多 3 页）。
+      我方四份用软件实测页数后回填，并<b>重新生成文件复核了一遍</b>，声明与实际逐份对上。</li>
+    <li><b>上传后重新列了一遍她的 Drive 目录</b> —— 8 份逐一确认存在，
+      而不是只看上传接口返回的成功码。</li>
+  </ul>
+  <div class="card">
+    <p style="margin:0"><b>一个必须说清的限制：</b>上面那个「页数实测」只对我方的排版模板成立。
+    如果 Jennifer 用她自己的模板重新排版，字号、页边距、表格断页位置一变，页数就会变，
+    <b>封面声明必须重算</b>。这不是一个跨模板可信的数字，交给她时要一并说明。</p>
+  </div>
+</section>
+
+
+<!-- ══════════ 第三层 ══════════ -->
+<section class="layer" id="l3">
+  <span class="ltag">第三层</span>
+  <h2>源数据与参考</h2>
+  <div class="lsub">上面所有说法的原始出处。每一条都可以自己去核。</div>
+
+  <h3>A · Jennifer 的原话（WhatsApp，2026-08-23）</h3>
+  <p class="note">来源：Periskope REST API 读取 <code>60126111677@c.us</code> 对话记录。以下为原文摘录，未改写。</p>
+  <div class="wa">
+    <div class="m"><b>17:30</b>周末好 Jay</div>
+    <div class="m"><b>17:30</b>这些考题你看了吗？</div>
+    <div class="m me"><b>17:30 Jay</b>Ya 看了</div>
+    <div class="m me"><b>17:30 Jay</b>等下晚上我发一份写好的给你</div>
+    <div class="m"><b>17:31</b>你觉得 1 set 考题需要用多久完成</div>
+    <div class="m"><b>17:31</b>你写哪一个 NOSS</div>
+    <div class="m me"><b>17:31 Jay</b>Sales and marketing</div>
+    <div class="m"><b>17:34</b><em>我想要在下个星期四提交申请</em>，你觉得有几个 NOSS 可以完成？
+      因为完成后我还必须<em>招 Panel soalan 帮我审核签名</em>才能提交申请，
+      如果考题成立需要时间，那么我就先申请 1-2 个 NOSS 先</div>
+    <div class="m"><b>17:37</b>这个 Soalan 是<em>以 NOSS 看的</em>。这里面有 3 个 NOSS，
+      <em>每一个 Level 有完整的 Set A &amp; Set B &amp; relative attachment</em>，所以这里算是完整的 3 sets
+      <br>对！这些都是已经通过的考题</div>
+    <div class="m me"><b>17:42 Jay</b>3 set，每个 set 又有 a/b, soalan/skema，
+      所以 sales and marketing 一共需要弄出 3 × 2 × 2 = 12 个文件？</div>
+    <div class="m"><b>17:43</b>我把这 link 放 Editor，你可以把你做好的 soalan 放里面</div>
+    <div class="m me"><b>17:45 Jay</b>OK</div>
+    <div class="m"><b>18:01</b><em>你放考题了让我知道</em></div>
+  </div>
+  <p class="note">⚠️ 注意 17:42 那条：Jay 提出「12 个文件」的算法后，Jennifer 下一句直接转到了
+  上传权限，<b>没有确认也没有否认</b>。本页把它当作有效口径使用，但严格说这是「未被反对」，
+  不是「已被确认」。</p>
+
+  <h3>B · 已上传的文件（Google Drive）</h3>
+  <p class="note">上传方式 <code>gog drive upload</code>；上传后重新列目录核实。
+  根目录 <code>11ATUjjbzsg7lbnZIRblc9x1ejoTlMHRg</code> → <code>TO DEVELOP SOALAN</code>。</p>
+  <table>
+    <tr><th>课程 / 文件</th><th>页数</th><th>Drive 文件 ID</th></tr>
+    <tr><td colspan="3" style="padding-top:14px"><b>FB-018-3:2012 Sales &amp; Marketing L3 — SET B</b>（我方）</td></tr>
+    <tr><td>SOALAN（考卷）</td><td class="num">14</td><td><code>1cOCUetSutESp0CTtOOqgoSdnPhSrIu1L</code></td></tr>
+    <tr><td>SKEMA（评分标准）</td><td class="num">24</td><td><code>1315CZJbdvKbna_cffAzy_lvETreBsQ2n</code></td></tr>
+    <tr><td>ASSESSMENT ANSWER SHEET</td><td class="num">4</td><td><code>1U_LvxlDVArEZuZjqNtR7erQK2_0_e0r1</code></td></tr>
+    <tr><td>EQUIPMENT VERIFICATION</td><td class="num">4</td><td><code>1rsEHEAh9tLgBSUOnjuebjssbHV7bAH6J</code></td></tr>
+    <tr><td colspan="3" style="padding-top:14px"><b>N821-001-3:2020 Office Administration — SET A</b>（我方）</td></tr>
+    <tr><td>SOALAN（考卷）</td><td class="num">20</td><td><code>1e_xZzCQxyNWAp_8ZJZH9U2RLWWDEje2O</code></td></tr>
+    <tr><td>SKEMA（评分标准）</td><td class="num">19</td><td><code>10u8OvIkKWgPYHHFVOvTSX3DrvgRBIk1o</code></td></tr>
+    <tr><td>ASSESSMENT ANSWER SHEET</td><td class="num">4</td><td><code>1WvB-22ZGA83GFwC0SmZe7QlP63amjOv4</code></td></tr>
+    <tr><td>EQUIPMENT VERIFICATION</td><td class="num">5</td><td><code>1bFwSZuGjR-TTJtfmYwMqiCCOmcoLMWNM</code></td></tr>
+  </table>
+
+  <h3>C · 页数声明的修正记录</h3>
+  <p class="note">页数用 Microsoft Word 的 <code>ComputeStatistics</code> 实测；回填后重新生成文件复核。</p>
+  <table>
+    <tr><th>文件</th><th>原声明</th><th>实测</th><th>现声明</th></tr>
+    <tr><td>Sales &amp; Marketing SET B 考卷</td><td class="num">13</td><td class="num">14</td><td class="num">14 ✅</td></tr>
+    <tr><td>Sales &amp; Marketing SET B 评分标准</td><td class="note">原本没有这一行</td><td class="num">24</td><td class="num">24 ✅</td></tr>
+    <tr><td>Office Admin SET A 考卷</td><td class="num">14 <span class="note">（照抄的占位值）</span></td><td class="num">20</td><td class="num">20 ✅</td></tr>
+    <tr><td>Office Admin SET A 评分标准</td><td class="note">原本没有这一行</td><td class="num">19</td><td class="num">19 ✅</td></tr>
+  </table>
+  <p class="note">两份评分标准原本<b>完全没有页数声明行</b>，而她已通过的样本是有这一行的——
+  属于格式缺口，一并补上了。</p>
+
+  <h3>D · 她的样本中发现的缺陷（审计原始记录）</h3>
+  <table>
+    <tr><th>编号</th><th>问题</th><th>我方 SET B</th><th>她的 SET A</th></tr>
+    <tr><td><b>D1</b></td><td>封面页数声明与实际不符（考卷少 1 页、评分标准多 3 页）</td>
+        <td><span class="pill p-ok">已修</span></td><td><span class="pill p-bad">未修</span></td></tr>
+    <tr><td><b>D2</b></td><td>封面列了选修单元 E01，但整份评分标准里
+        <code>Inventory</code> 出现 <b>0 次</b>——声明了却没有对应题目和分数</td>
+        <td><span class="pill p-ok">已补题</span></td><td><span class="pill p-bad">未修</span></td></tr>
+    <tr><td><b>D3</b></td><td>两份封面对同一个选修单元的写法不一致（一份带代码一份不带）</td>
+        <td><span class="pill p-ok">已统一</span></td><td><span class="pill p-bad">未修</span></td></tr>
+    <tr><td><b>D4</b></td><td>马来文拼写错误 <code>Terlibut</code>，应为 <code>Terlibat</code>，至少 2 处</td>
+        <td><span class="pill p-ok">已修</span></td><td><span class="pill p-bad">未修</span></td></tr>
+    <tr><td><b>R1</b></td><td><b>三个单元只靠口试、无实作</b>（见第二层）</td>
+        <td colspan="2"><span class="pill p-warn">两套都有，待审核委员裁定</span></td></tr>
+  </table>
+  <p class="note">同时也核过、确认<b>没有</b>问题的部分：单元清单与官方文件完全一致；
+  评分换算的六项达成率逐条验算无误；口试配分自洽（10 题 × 3 分 = 30，
+  换算式与 20% 权重一致）；文件结尾有总分栏和签名栏，未被截断。</p>
+
+  <h3>E · 尚未开工的部分</h3>
+  <table>
+    <tr><th>课程</th><th>现状</th></tr>
+    <tr><td><b>FB-018-45:2012</b> Sales &amp; Marketing Management L4 + L5</td>
+        <td>Drive 里连题目都没有。属「完整 Sales &amp; Marketing」的一部分，共缺 8 份。</td></tr>
+    <tr><td><b>M731-001-3:2021</b> Digital Marketing Operation</td>
+        <td>官方文件已读，零题目。<span class="note">注：早期草稿曾误用编码 <code>DM-001-3:2026</code>，该编码在 JPK 并不存在。</span></td></tr>
+    <tr><td><b>G471-001-3:2018</b> Retail Outlet Operations</td>
+        <td>官方文件已读，零题目。</td></tr>
+  </table>
+
+  <h3>F · 悬而未决的问题（含旧账）</h3>
+  <div class="qa"><b>「下个星期四」是 8 月 27 日还是 9 月 3 日？</b>
+    <div class="why">差 7 天。她没说日期，也没人问。 · 待问 Jennifer</div></div>
+  <div class="qa"><b>要交完整三个等级，还是可以按等级分开申请？</b>
+    <div class="why">决定这周是否要赶 8 份文件。 · 待问 Jennifer</div></div>
+  <div class="qa"><b>三个单元只靠口试，是否满足实操评估的要求？</b>
+    <div class="why">若不满足，她已通过的那套一起受影响。 · 待 Jennifer 转问审核委员</div></div>
+  <div class="qa"><b>她的 SET A 那四个缺陷要不要一并修？</b>
+    <div class="why">我方已修，她的未修；两份同时送审会显出不一致。 · 待问 Jennifer</div></div>
+  <div class="qa"><b>Character 的办学资格到底涵盖哪几个课程？</b>
+    <div class="why">资格是按课程逐个发放的，Beauty 系列不自动覆盖 Sales &amp; Marketing 或
+      Office Administration。没有答案就存在做白工的风险。<b>这个问题从 7 月 24 日挂到现在。</b>
+      · 待问 Jennifer</div></div>
+
+  <h3 id="gloss">G · 名词表</h3>
+  <dl class="gloss">
+    <dt>NOSS</dt><dd>National Occupational Skills Standard，马来西亚国家职业技能标准。
+      每个职业一份，规定该职业要会哪些技能、分几个等级。文中的
+      <code>FB-018-3:2012</code>、<code>N821-001-3:2020</code> 都是 NOSS 编号。</dd>
+    <dt>JPK</dt><dd>Jabatan Pembangunan Kemahiran，技能发展局，隶属人力资源部。管理 NOSS 和办学资格。</dd>
+    <dt>Pentauliahan</dt><dd>办学资格认证。<b>按课程逐个发放</b>——拿到 A 课程的资格，
+      不代表可以开 B 课程。这是文中反复强调的一点。</dd>
+    <dt>Pusat Bertauliah</dt><dd>持牌培训中心，即拿到 pentauliahan 的机构。Character Intl. Academy 是其中之一。</dd>
+    <dt>PPT-PPA</dt><dd>一种技能认证途径下的实操评估。学员通过实际操作来证明能力，而非笔试。</dd>
+    <dt>Penilaian Amali</dt><dd>马来文「实作评估」。这是本文风险 R1 的核心——
+      名字既然叫实作，用口试代替动手是否成立？</dd>
+    <dt>SOALAN / SKEMA</dt><dd>考卷 / 评分标准。<b>SKEMA 是给评审看的，绝不能给考生</b>，
+      文件封面印有 SULIT（机密）字样。</dd>
+    <dt>SET A / SET B</dt><dd>同一个课程的两套不同考题，内容不同但难度和覆盖范围对等。
+      两套都要有，才算这个等级完整。</dd>
+    <dt>CU（Competency Unit）</dt><dd>能力单元。一个课程拆成若干单元，
+      编号 <code>C01</code>、<code>C02</code>… 必修，<code>E01</code>… 选修。</dd>
+    <dt>Panel Soalan</dt><dd>考题审核委员会。考卷提交给 JPK 之前，必须先由他们审核并签名。
+      <b>所以真正的截止日比「提交日」更早。</b></dd>
+    <dt>PPL / PPL-PPT</dt><dd>认证评估员，现场执行评估、在考卷上签字的人。</dd>
+    <dt>WIM</dt><dd>Written Instructional Materials，书面教学材料。
+      这是另一条工作线（3U Pioneer Academy），与本页的考卷不是同一件事，
+      在<a href="/tracker/#wim">进度看板</a>里是单独一个页签。</dd>
+  </dl>
+
+  <h3>H · 工具与方法</h3>
+  <ul>
+    <li><b>WhatsApp 记录</b> —— Periskope REST API（MCP 连接器未认证时的备用通道）</li>
+    <li><b>Google Drive</b> —— <code>gog</code> CLI（Drive MCP 对该文件夹的 <code>parentId</code> 查询返回空，不可用）</li>
+    <li><b>页数实测</b> —— Microsoft Word COM 自动化。
+      <span class="note">注意：连续打开多份文档会导致远程调用崩溃，须每份新建实例。</span></li>
+    <li><b>PDF 生成</b> —— Word 导出。<span class="note">已核对文件头与体积，但未逐页目视复核渲染结果。</span></li>
+  </ul>
+</section>
+
+<div class="foot">
+  <a class="btn" href="/tracker/">📊 进度看板（可编辑状态）</a>
+  <a class="btn" href="/api/export">⬇ 下载原始数据 JSON</a>
+  <a class="btn" href="/brief/">📄 旧版简报（已被本页取代）</a>
+  <p style="margin-top:16px">
+  本页由 Juno 撰写于 2026-08-23 夜间。<br>
+  结构：第一层结论 → 第二层推理 → 第三层源数据（Minto Pyramid / BLOT）。<br>
+  所有数字、文件 ID、页数、原话均来自本次实际读取的来源；
+  未能核实的部分已在正文中明确标注为「未确认」，没有用推测填补。
+  </p>
+</div>
+
+</div>
+</body>
+</html>

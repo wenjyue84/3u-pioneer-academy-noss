@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "CoCu Content Gap Detector with Section Completeness Audit",
+      "priority": "high",
+      "description": "Create validator script scanning all 20 CoCu files for missing or incomplete sections (e.g., Key Terms table, Contact Hour Distribution table, Common Faults, References). Generate audit report showing which files are non-compliant with NOSS structure template.",
+      "acceptanceCriteria": [
+        "Script scripts/audit_cocu_structure.py validates presence of 8 required sections per NOSS CoCu template",
+        "Output JSON output/cocu-structure-audit.json lists each file with section completeness status (present/missing/incomplete)",
+        "Report identifies 'orphaned' content (text outside expected sections) that needs restructuring"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Learning Outcome Semantic Validator for Measurability and Specificity",
+      "priority": "high",
+      "description": "Build semantic validator analyzing learning outcome text to ensure outcomes are: (1) measurable with clear success criteria, (2) specific to the competency (no generic statements), (3) action-oriented using strong verbs from Bloom's taxonomy. Flag vague outcomes requiring rewrite.",
+      "acceptanceCriteria": [
+        "Script scripts/validate_learning_outcomes.py analyzes all outcomes using NLP and Bloom's verb checklist",
+        "Output JSON output/outcome-validation.json flags outcomes lacking measurability, specificity, or action verbs",
+        "Suggests revised wording for flagged outcomes with Bloom's level recommendations"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Knowledge/Performance Contact Hour Balance Verifier Across Competencies",
+      "priority": "high",
+      "description": "Validate that every competency in every CoCu adheres to 30% Knowledge / 70% Performance hour split. Create script parsing Contact Hour Distribution tables and checking mathematical correctness, flagging any deviation from the standard allocation.",
+      "acceptanceCriteria": [
+        "Script scripts/validate_kp_allocation.py extracts hours from each CoCu's Contact Hour Distribution table",
+        "Output JSON output/kp-balance-report.json shows per-competency allocation with pass/fail status (30/70 rule)",
+        "Exit code 0 if all 20 CoCu files compliant, non-zero if violations detected (enables CI/CD gating)"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Instructor Facilitation Time Budget Calculator with Weekly Pacing",
+      "priority": "medium",
+      "description": "Generate Excel workbooks calculating realistic facilitation time required for each CoCu based on activity type (lecture, lab, project, assessment) and student cohort size. Include weekly pacing recommendations for 40-hour weeks and contingency buffers for questions/clarifications.",
+      "acceptanceCriteria": [
+        "Script scripts/generate_facilitation_budgets.py creates output/facilitation-time-budgets.xlsx with per-CoCu timing",
+        "Excel includes columns: activity, duration in mins, cohort size impact, weekly pace, notes on adjustments for different learner groups",
+        "Validation ensures total budgeted time aligns with declared contact hours per CoCu"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Student Self-Assessment Rubric Generator with Bilingual Support",
+      "priority": "medium",
+      "description": "Create generator script producing bilingual (English + Bahasa Malaysia) self-assessment rubrics for each CoCu aligned to learning outcomes. Rubrics use 4-point Likert scale (Novice, Developing, Proficient, Advanced) with descriptors for each level.",
+      "acceptanceCriteria": [
+        "Script scripts/generate_self_assessment_rubrics.py creates output/self-assessment-rubrics.json with bilingual rubric definitions",
+        "Each rubric maps to CoCu learning outcomes with 4 performance levels and behavioural descriptors per level",
+        "Output includes HTML version output/rubrics.html for student self-reflection and instructor feedback"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Competency Prerequisite Tree Visualizer with D3.js Dependency Graph",
+      "priority": "medium",
+      "description": "Build interactive visualization showing competency prerequisite relationships and skill dependencies across L3→L4→L5. Display which L3 competencies must be mastered before L4, and which L4 before L5. Enable drill-down to show learning outcomes and assessment criteria.",
+      "acceptanceCriteria": [
+        "Output file output/competency-tree.html renders D3.js force-directed graph showing 50+ competencies and prerequisite edges",
+        "Hovering over nodes displays outcome text, contact hours, and assessment method; clicking shows full CoCu details",
+        "Graph includes 'critical path' highlighting (nodes/edges forming longest prerequisite chain from L3→L5)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Assessment Item Difficulty Calibrator and Distribution Analyzer",
+      "priority": "medium",
+      "description": "Analyze assessment question banks across all CoCu files to determine difficulty distribution and identify gaps. Calculate item difficulty indices based on pass rates, discrimination indices (ability to differentiate high/low performers), and cognitive demand. Flag unbalanced assessments.",
+      "acceptanceCriteria": [
+        "Script scripts/analyze_assessment_difficulty.py processes assessment items from all CoCu files and external question banks",
+        "Output CSV output/assessment-difficulty-analysis.csv shows per-item: difficulty index (0-1), discrimination index, cognitive level, recommendation",
+        "Report flags CoCu units with questions all too easy (>80% pass rate) or too hard (<20% pass rate)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Industry Certification Pathway Mapper (CompTIA, Cisco, Microsoft)",
+      "priority": "low",
+      "description": "Map NOSS IT-020 learning outcomes to industry certification skill requirements (CompTIA A+, Network+, Cisco CCNA, Microsoft 365). Show which certifications students can pursue after completing each level, and which CoCu units provide prerequisite knowledge.",
+      "acceptanceCriteria": [
+        "Script scripts/map_certification_pathways.py links learning outcomes to certification objectives in _reference/cert-mappings.json",
+        "Output HTML output/certification-pathways.html displays outcome → certification skill → exam objective mappings",
+        "Shows prep track suggestions: e.g., 'Complete L3 + CompTIA A+ = entry-level IT technician ready'"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "NOSS Compliance Pre-Flight Checklist with Interactive Workflow",
+      "priority": "high",
+      "description": "Create interactive HTML checklist covering 25+ NOSS compliance requirements (bilingual status, assessment criteria present, contact hours validated, learning outcomes measurable, etc.). Enable instructors/reviewers to sign off on each item before JPK submission, with blocking-issue detection.",
+      "acceptanceCriteria": [
+        "Output file output/compliance-checklist.html provides interactive checklist with checkboxes for 25+ NOSS requirements",
+        "Checklist auto-populates status from validation scripts (passes/failures from audit, validator, balance-checker outputs)",
+        "Final sign-off generates submission-ready attestation with timestamp and reviewer name; prevents submission if blocking issues present"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Equipment Cost-Benefit Analysis with Curriculum Alignment Scoring",
+      "priority": "low",
+      "description": "Create analyzer comparing equipment/lab setup costs against learning value delivered. Score each equipment item by: (1) how many competencies depend on it, (2) percentage of student contact hours using it, (3) availability of lower-cost alternatives. Flag high-cost, low-usage items.",
+      "acceptanceCriteria": [
+        "Script scripts/analyze_equipment_cost_benefit.py cross-references CoCu equipment specs with cost data in _reference/equipment-costs.csv",
+        "Output CSV output/equipment-roi.csv shows item, cost, competencies served, total contact hours using item, cost-per-hour, ROI score",
+        "Flags items scoring <3/10 ROI (potential candidates for replacement with software alternatives or removal)"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-user-story-generation"
+    }
+  ]
+}

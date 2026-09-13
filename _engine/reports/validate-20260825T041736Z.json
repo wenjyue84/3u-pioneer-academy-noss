@@ -1,0 +1,74 @@
+[
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Online Sales Collateral / Product Listing",
+    "line": 72
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Template Katalog Produk Elektronik / Electronics Product Catalogue Template",
+    "line": 58
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Senarai Inventori Produk VIZTECH / VIZTECH Product Inventory List",
+    "line": 60
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Kertas cetak / Printing Paper",
+    "line": 61
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Folder kerja calon / Candidate Working Folder",
+    "line": 62
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Lembaran Jawapan / Assessment Answer Sheet",
+    "line": 64
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "PERSEKITARAN PENILAIAN / ASSESSMENT ENVIRONMENT",
+    "line": 68
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "error",
+    "message": "page-count placeholder ⟪PAGES⟫ was never backfilled — run build/ppa_integrate.py before delivery.",
+    "evidence": "fb-018-3-set-b-skema.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "error",
+    "message": "page-count placeholder ⟪PAGES⟫ was never backfilled — run build/ppa_integrate.py before delivery.",
+    "evidence": "fb-018-3-set-b-soalan.md",
+    "line": null
+  }
+]

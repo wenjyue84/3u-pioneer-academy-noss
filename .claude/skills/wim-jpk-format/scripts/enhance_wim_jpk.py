@@ -4,7 +4,7 @@
 Usage:
     python enhance_wim_jpk.py <subject> [--cu CUxx] [--dry-run]
 
-Subjects: tuinalogy | aesthetic | bev | it | all
+Subjects: tuinalogy | aesthetic | bev | it | it4 | it5 | multimedia_l3 | multimedia_l4 | all
 """
 from __future__ import annotations
 
@@ -74,18 +74,24 @@ class DocInfo:
 
 
 def classify(filename: str) -> DocInfo | None:
+    """Classify a WIM filename.
+
+    Accepts both bare codes (`KA.md`, `PM-teori.md`, `KP-01.md`) and
+    descriptive variants (`KA-centre-management.md`, `PM-teori-sports-tuina.md`,
+    `KP-01-eight-core-techniques.md`). The optional suffix is ignored.
+    """
     stem = filename[:-3] if filename.endswith(".md") else filename
     if filename in SKIP_FILENAMES:
         return None
-    if stem == "PM-teori":
+    if stem == "PM-teori" or stem.startswith("PM-teori-"):
         return DocInfo("PM-teori", None, "", filename)
-    if stem == "PM-amali":
+    if stem == "PM-amali" or stem.startswith("PM-amali-"):
         return DocInfo("PM-amali", None, "", filename)
-    if stem == "KA":
+    if stem == "KA" or stem.startswith("KA-"):
         return DocInfo("KA", None, "", filename)
-    if stem == "PA":
+    if stem == "PA" or stem.startswith("PA-"):
         return DocInfo("PA", None, "", filename)
-    m = re.match(r"^(KP|KT|KK)-(\d+)$", stem)
+    m = re.match(r"^(KP|KT|KK)-(\d+)(?:-|$)", stem)
     if m:
         return DocInfo(m.group(1), int(m.group(2)), "", filename)
     return None
@@ -148,7 +154,7 @@ def extract_existing_title_and_purpose(body: str, fallback_stem: str) -> tuple[s
             if buf:
                 break
             continue
-        if stripped.startswith(("1.", "2.", "-", "*")):
+        if re.match(r"\d+[.)]", stripped) or stripped.startswith(("-", "*")):
             if buf:
                 break
             continue
@@ -159,6 +165,54 @@ def extract_existing_title_and_purpose(body: str, fallback_stem: str) -> tuple[s
     if not purpose:
         purpose = f"Kertas rujukan untuk {title}."
     return title, purpose
+
+
+NATIVE_H1_RE = re.compile(r"^#\s+(KERTAS|PELAN MENGAJAR|PENILAIAN)\b", re.IGNORECASE)
+TAJUK_RE = re.compile(r"^##\s*Tajuk\b.*?:\s*(.+?)\s*$", re.IGNORECASE)
+
+
+def strip_native_header_and_get_title(body: str, fallback: str) -> tuple[str, str] | None:
+    """Remove the spiral-generated native header block and return (title, body).
+
+    The native header is a redundant simpler version of the JPK envelope:
+        # KERTAS PENERANGAN (Information Sheet)
+        **Kod:** ... / **Kertas Warna:** ...
+        ---
+        | bilingual metadata table |
+        ---
+        ## Tajuk / Title: <real title>      (KP/KK; absent on KA/PA)
+    The JPK envelope replaces this block, so it is stripped to avoid a duplicate
+    header (matching Jennifer's single-header layout). Returns None when no native
+    header is present (caller then keeps the body unchanged).
+    """
+    lines = body.splitlines()
+    i = 0
+    while i < len(lines) and lines[i].strip() == "":
+        i += 1
+    if i >= len(lines) or not NATIVE_H1_RE.match(lines[i].strip()):
+        return None
+    title = fallback
+    content_start: int | None = None
+    j = i
+    while j < len(lines):
+        st = lines[j].strip()
+        m = TAJUK_RE.match(st)
+        if m:
+            title = m.group(1).strip()
+            k = j + 1
+            while k < len(lines) and lines[k].strip() in ("", "---"):
+                k += 1
+            content_start = k
+            break
+        if j > i and st.startswith("## "):
+            content_start = j
+            break
+        j += 1
+    if content_start is None:
+        # Header with no detectable content boundary — do not risk dropping body.
+        return None
+    new_body = "\n".join(lines[content_start:]).lstrip("\n")
+    return title, new_body
 
 
 def strip_legacy_metadata(body: str) -> str:
@@ -211,7 +265,12 @@ def build_envelope(
     cu_meta = subject_meta["cus"][cu]
     cu_title_en = cu_meta["title_en"]
     wa_str = work_activity_list(cu_meta)
-    code = wim_code(noss, cu, doc.kind, doc.seq, total)
+    # The folder key may carry a disambiguating level prefix (e.g. "L3-C01"),
+    # but the official JPK document code omits it because the NOSS code already
+    # encodes the level (IT-020-3:2013). Strip the prefix for the code segment.
+    prefix = subject_meta.get("cu_prefix", "")
+    code_cu = cu[len(prefix):] if prefix and cu.startswith(prefix) else cu
+    code = wim_code(noss, code_cu, doc.kind, doc.seq, total)
 
     lines: list[str] = []
     lines.append(ENV_START)
@@ -236,7 +295,7 @@ def build_envelope(
     lines.append("| --- | --- |")
     lines.append(f"| KOD DAN NAMA PROGRAM | {noss} {program_bm} |")
     lines.append(f"| TAHAP | {level} |")
-    lines.append(f"| KOD DAN TAJUK UNIT KOMPETENSI | {noss}-{cu} {cu_title_en} |")
+    lines.append(f"| KOD DAN TAJUK UNIT KOMPETENSI | {noss}-{code_cu} {cu_title_en} |")
     lines.append(f"| NO. DAN PERNYATAAN AKTIVITI KERJA | {wa_str} |")
     lines.append(f"| NO. KOD | {code} |")
     lines.append("| Muka Surat | 1/1 |")
@@ -280,7 +339,18 @@ def apply_envelope(
     body = file_path.read_text(encoding="utf-8")
     # Always strip existing envelope + legacy meta before rebuilding
     cleaned = strip_legacy_metadata(body)
-    title, purpose = extract_existing_title_and_purpose(cleaned, file_path.stem)
+    # Strip the redundant native header block (the JPK envelope replaces it) and
+    # recover the real document title from its "Tajuk / Title:" line. For docs
+    # without a Tajuk line (KA/PA/PM), fall back to the CU title rather than the
+    # raw filename stem.
+    cu_meta_fallback = subject_meta["cus"][cu]
+    fallback_title = cu_meta_fallback.get("title_en", file_path.stem).title()
+    stripped = strip_native_header_and_get_title(cleaned, fallback_title)
+    if stripped is not None:
+        title, cleaned = stripped
+        _, purpose = extract_existing_title_and_purpose(body, file_path.stem)
+    else:
+        title, purpose = extract_existing_title_and_purpose(cleaned, file_path.stem)
     envelope = build_envelope(doc, cu, subject_meta, total, title, purpose)
     new_body = envelope + cleaned.lstrip("\n")
     if new_body == body:
@@ -330,13 +400,14 @@ def process_subject(
 
 
 def main() -> None:
+    subjects = json.loads((SKILL_DIR / "data" / "subjects.json").read_text(encoding="utf-8"))
+    valid_choices = list(subjects.keys()) + ["all"]
     ap = argparse.ArgumentParser()
-    ap.add_argument("subject", choices=["tuinalogy", "aesthetic", "bev", "it", "all"])
+    ap.add_argument("subject", choices=valid_choices)
     ap.add_argument("--cu", default=None, help="Only process one CU (e.g., C01)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
-    subjects = json.loads((SKILL_DIR / "data" / "subjects.json").read_text(encoding="utf-8"))
     keys = list(subjects.keys()) if args.subject == "all" else [args.subject]
 
     total_changed = 0

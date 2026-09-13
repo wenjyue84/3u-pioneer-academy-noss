@@ -1,0 +1,455 @@
+{
+  "noss_code": "FB-018-3:2012",
+  "noss_title": "SALES & MARKETING OPERATION",
+  "level": 3,
+  "source_file": "raw/noss-character/txt/fb018-3-L3-cocu.txt",
+  "sector": "BUSINESS MANAGEMENT",
+  "sub_sector": "SALES & MARKETING",
+  "job_area": "SALES & MARKETING OPERATION",
+  "source_notes": [
+    "CoCU p.2 numbers two different performance criteria of C01 work activity 2 as '2.1'. Both are transcribed as printed; the second is not a duplicate of the first.",
+    "CoCU p.10-11 numbers C06 work activity 2 as 2.1, 2.3, 2.4, 2.5 — there is no 2.2 in the printed standard.",
+    "CoCU p.12 descriptor for E01 lists seven activities including 'Carry out tools, equipment and materials requisition', but the work-activity column prints only six. The six printed activities are transcribed; the seventh is not invented."
+  ],
+  "competency_units": [
+    {
+      "code": "C01",
+      "type": "core",
+      "title_en": "MARKET & PRODUCT SURVEY",
+      "title_bm": "TINJAUAN PASARAN & PRODUK",
+      "descriptor": "Responsible to carry out survey on market & product information and to prepare report so that the information can be used to prepare sales & marketing plan by the organisation realistically.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Identify market & product survey objective",
+          "title_bm": "Kenal pasti objektif tinjauan pasaran & produk",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Market & product survey requirements determined based on work order."},
+            {"id": "1.2", "text": "Market & product survey objective determined based on marketing planning document."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Plan field market & product survey requirement",
+          "title_bm": "Rancang keperluan tinjauan pasaran & produk di lapangan",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Market & product survey respondent determined based on historical sales record and company database."},
+            {"id": "2.1", "text": "Market & product survey trend determined based on current information."},
+            {"id": "2.2", "text": "Methodology on data gathering confirmed according to scope of survey."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out field market & product survey activities",
+          "title_bm": "Laksanakan aktiviti tinjauan pasaran & produk di lapangan",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Interview session conducted by contacting respondent according to company procedure."},
+            {"id": "3.2", "text": "Market & product survey questionnaire distributed manually or through email or flyer."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Carry out field market & product survey data collection",
+          "title_bm": "Laksanakan pengumpulan data tinjauan pasaran & produk di lapangan",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Market & product survey data information compiled according to organisation requirement."},
+            {"id": "4.2", "text": "Market & product survey data information summarized based on determined format."},
+            {"id": "4.3", "text": "Market & product survey data report prepared & submitted to superior according to company procedure."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C02",
+      "type": "core",
+      "title_en": "DIRECT / RETAIL SALES",
+      "title_bm": "JUALAN TERUS / RUNCIT",
+      "descriptor": "Responsible to carry out direct/retail sales activity focusing on individuals or retail customers.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Identify direct / retail sales requirement",
+          "title_bm": "Kenal pasti keperluan jualan terus / runcit",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Product specification interpreted according to manufacturer's manual/product specification document."},
+            {"id": "1.2", "text": "Organisation's sales procedure determined."},
+            {"id": "1.3", "text": "Sales target confirmed obtain from superior."},
+            {"id": "1.4", "text": "Types of sales method listed out based on target customer's preference or organisation's policy."},
+            {"id": "1.5", "text": "Sales method for product confirmed."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Prepare marketing collateral",
+          "title_bm": "Sediakan bahan sokongan pemasaran",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Relevant marketing collateral determined and obtained from superior."},
+            {"id": "2.2", "text": "Price list determined based on company procedure."},
+            {"id": "2.3", "text": "Brochures, flyers, product catalogue prepared according to latest revision."},
+            {"id": "2.4", "text": "Company profile obtained from superior according to procedure."},
+            {"id": "2.5", "text": "Frequently Ask Question (FAQ) produced to ease target customer to understand product."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out direct sales",
+          "title_bm": "Laksanakan jualan terus",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Potential customers determined from customer database record."},
+            {"id": "3.2", "text": "Potential customer particular obtained and interpreted."},
+            {"id": "3.3", "text": "Referral from existing customer determined."},
+            {"id": "3.4", "text": "Meeting with potential customer confirmed according to customer requirements."},
+            {"id": "3.5", "text": "Product presentation executed based on organisational procedure."},
+            {"id": "3.6", "text": "Quotation submitted to potential customer according to company's financial procedure."},
+            {"id": "3.7", "text": "Purchase order received according to company's procurement procedure."},
+            {"id": "3.8", "text": "Product delivery coordinated based on company's procedure."},
+            {"id": "3.9", "text": "Product delivery order obtained according to company's procurement procedure."},
+            {"id": "3.10", "text": "Submission of invoice to customer confirmed according to company's procurement procedure."},
+            {"id": "3.11", "text": "Payment collected from customer according to company's procurement procedure."},
+            {"id": "3.12", "text": "Customers complaint handles and responds as soon as possible."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Carry out retail sales",
+          "title_bm": "Laksanakan jualan runcit",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Potential customers determined from customer database record."},
+            {"id": "4.2", "text": "Potential customer particular derived from customer's database."},
+            {"id": "4.3", "text": "Referral from existing customer determined."},
+            {"id": "4.4", "text": "Meeting with customer confirmed according to company's business correspondence procedure."},
+            {"id": "4.5", "text": "Product presentation executed based on organisation procedure."},
+            {"id": "4.6", "text": "Quotation submitted to potential customer according to company's procurement procedure."},
+            {"id": "4.7", "text": "Purchased order received and checked against stock availability."},
+            {"id": "4.8", "text": "Product delivery status confirmed with customer."},
+            {"id": "4.9", "text": "Product delivery order obtained according to company's procurement procedure."},
+            {"id": "4.10", "text": "Submission of invoice to customer confirmed according to company's procurement procedure."},
+            {"id": "4.11", "text": "Payment collected from customer according to schedule."},
+            {"id": "4.12", "text": "Customer complaint handle and respond as soon as possible."}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Carry out tele-sales",
+          "title_bm": "Laksanakan jualan melalui telefon",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Potential customer particular obtained from customer database."},
+            {"id": "5.2", "text": "Product specification communicated to customer."},
+            {"id": "5.3", "text": "Sales order confirmed from customer."},
+            {"id": "5.4", "text": "Payment transaction record obtained according to e-commerce procedure."},
+            {"id": "5.5", "text": "Product delivery coordinated to customer."},
+            {"id": "5.6", "text": "Product delivery confirmed with customer."},
+            {"id": "5.7", "text": "Customer complaint handled and responded according to company procedure."}
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Carry out direct / retail sales performance review",
+          "title_bm": "Laksanakan semakan prestasi jualan terus / runcit",
+          "performance_criteria": [
+            {"id": "6.1", "text": "Sales record compiled based on successfully sales and according to organisation format."},
+            {"id": "6.2", "text": "Sales performance checked against determined KPI given from superior."}
+          ]
+        },
+        {
+          "id": "WA7",
+          "title": "Prepare direct / retail sales report",
+          "title_bm": "Sediakan laporan jualan terus / runcit",
+          "performance_criteria": [
+            {"id": "7.1", "text": "Sales record compiled according to organisation format and procedure."},
+            {"id": "7.2", "text": "Self sales performance record submitted to superior."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C03",
+      "type": "core",
+      "title_en": "AFTER SALES SERVICE",
+      "title_bm": "PERKHIDMATAN SELEPAS JUALAN",
+      "descriptor": "Responsible to carry out after sales service in order to cater any complaint or feedback from customer according to company policies and procedure.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Plan after sales service",
+          "title_bm": "Rancang perkhidmatan selepas jualan",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Customer list for follow up call extracted from sales report."},
+            {"id": "1.2", "text": "Customer management system (service) utilised according to organisational procedure."},
+            {"id": "1.3", "text": "Period to call back customer determined according to procedure."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Liaise with customer",
+          "title_bm": "Berhubung dengan pelanggan",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Customer communicated for feedback or complaint about product sold."},
+            {"id": "2.2", "text": "Customer feedback/complaint recorded according to procedure."},
+            {"id": "2.3", "text": "Rectification activities coordinated with various department."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Evaluate after sales activity performance",
+          "title_bm": "Nilai prestasi aktiviti selepas jualan",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Customer feedback or complaint assessed according to company procedure."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Prepare after sales service report",
+          "title_bm": "Sediakan laporan perkhidmatan selepas jualan",
+          "performance_criteria": [
+            {"id": "4.1", "text": "After sales service record compiled according to company filing procedure."},
+            {"id": "4.2", "text": "After sales service report submitted to superior."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C04",
+      "type": "core",
+      "title_en": "SELF SALES PERFORMANCE ASSESSMENT",
+      "title_bm": "PENILAIAN PRESTASI JUALAN KENDIRI",
+      "descriptor": "Responsible to perform evaluation on sales performance by using sales records and determined sales KPI according to company procedures.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Identify self sales assessment requirement",
+          "title_bm": "Kenal pasti keperluan penilaian jualan kendiri",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Organisation's sales procedure determined according to company procedures."},
+            {"id": "1.2", "text": "Method of sales listed out according to types of product."},
+            {"id": "1.3", "text": "Sales record compiled according to company filing procedure."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out sales performance appraisal",
+          "title_bm": "Laksanakan penilaian prestasi jualan",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Sales KPI determined based on organisation."},
+            {"id": "2.2", "text": "Sales data interpreted according to company's requirements."},
+            {"id": "2.3", "text": "Sales volume checked against determined KPI."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out sales activity effectiveness evaluation",
+          "title_bm": "Laksanakan penilaian keberkesanan aktiviti jualan",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Product range determined according to product marketing plan."},
+            {"id": "3.2", "text": "Sales activities issue listed out."},
+            {"id": "3.3", "text": "Best practice for selling product recommended to superior."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Prepare self sales assessment report",
+          "title_bm": "Sediakan laporan penilaian jualan kendiri",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Self sales performance report produce and submitted to superior according to procedure."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C05",
+      "type": "core",
+      "title_en": "ONLINE SALES",
+      "title_bm": "JUALAN DALAM TALIAN",
+      "descriptor": "Responsible to carry out online sales activities including dealing with customers, answering queries, selling goods, handling payments and ensuring goods ordered online are delivered to customer.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Identify online sales requirement",
+          "title_bm": "Kenal pasti keperluan jualan dalam talian",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Product specification interpreted according to manufacturer's manual and company's procedure."},
+            {"id": "1.2", "text": "Organisation's sales procedure obtained and interpreted."},
+            {"id": "1.3", "text": "Sales target confirmed based on determined KPI set by management."},
+            {"id": "1.4", "text": "Types of sales method listed out according to suitability of product."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Prepare online sales collateral",
+          "title_bm": "Sediakan bahan sokongan jualan dalam talian",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Relevant online sales collateral determined according to product suitability."},
+            {"id": "2.2", "text": "Product price list prepared according to company's direction."},
+            {"id": "2.3", "text": "Product catalogues, blog, banner, video and website for customer reviewed for latest changes."},
+            {"id": "2.4", "text": "Company profile produced according to template prepared by management."},
+            {"id": "2.5", "text": "Frequently Ask Question (FAQ) prepared according to approved template prepared by management."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out online sales activity",
+          "title_bm": "Laksanakan aktiviti jualan dalam talian",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Potential online sales social network/website determined."},
+            {"id": "3.2", "text": "Product advertised according to online product advertisement methods."},
+            {"id": "3.3", "text": "Sales order confirmed according to procedure."},
+            {"id": "3.4", "text": "Payment transaction record obtained according to e-commerce procedure."},
+            {"id": "3.5", "text": "Product delivery coordinated to customer according to company procedure."},
+            {"id": "3.6", "text": "Product delivery confirmed with customer."},
+            {"id": "3.7", "text": "Customer complaint handled according to company procedure."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Carry out online sales performance review",
+          "title_bm": "Laksanakan semakan prestasi jualan dalam talian",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Sales record compiled according to standard filing system procedures."},
+            {"id": "4.2", "text": "Sales performance checked against determined KPI set by management."}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Prepare online sales report",
+          "title_bm": "Sediakan laporan jualan dalam talian",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Self online sales performance record submitted to superior in accordance with company's procedure."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C06",
+      "type": "core",
+      "title_en": "PRODUCT MARKETING",
+      "title_bm": "PEMASARAN PRODUK",
+      "descriptor": "Supports and executes product marketing activities of the company to ensure information is conveyed correctly and effectively to target customers according to product specification/manuals.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Identify product marketing requirement",
+          "title_bm": "Kenal pasti keperluan pemasaran produk",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Company marketing policies and procedures obtained and interpreted."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out public relation activities",
+          "title_bm": "Laksanakan aktiviti perhubungan awam",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Related document on client compiled and interpreted."},
+            {"id": "2.3", "text": "Company public relation policies and procedure obtained and interpreted."},
+            {"id": "2.4", "text": "Public relation activities executed according to company procedure."},
+            {"id": "2.5", "text": "Company public relation assessed for effectiveness and future improvement."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out booth promotion",
+          "title_bm": "Laksanakan promosi gerai",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Marketing collateral prepared according to suitable product specification."},
+            {"id": "3.2", "text": "Exhibitions schedule obtained to determine location and date of exhibition."},
+            {"id": "3.3", "text": "Booth set up according to product requirement and environment."},
+            {"id": "3.4", "text": "Product promoted to potential clients according to procedure."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Carry out product testing activity",
+          "title_bm": "Laksanakan aktiviti pengujian produk",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Location of product testing location determined."},
+            {"id": "4.2", "text": "Product specification interpreted and communicated to superior."},
+            {"id": "4.3", "text": "Product test tools, equipment and materials prepared on site according to requirements."},
+            {"id": "4.4", "text": "Product demonstrated to customer as per specification/manual."},
+            {"id": "4.5", "text": "Customer feedback handled and recorded."}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Evaluation product marketing activities effectiveness",
+          "title_bm": "Nilai keberkesanan aktiviti pemasaran produk",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Marketing activities effectiveness and efficiency assessed according to company established criteria."}
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Prepare product marketing activities reports",
+          "title_bm": "Sediakan laporan aktiviti pemasaran produk",
+          "performance_criteria": [
+            {"id": "6.1", "text": "Product marketing activities report submitted to superior according to company procedures."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E01",
+      "type": "elective",
+      "title_en": "INVENTORY CONTROL",
+      "title_bm": "KAWALAN INVENTORI",
+      "descriptor": "Responsible to coordinate supply, storage and accessibility of items in order to ensure an adequate supply without excessive oversupply of stock.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Identify inventory control requirement",
+          "title_bm": "Kenal pasti keperluan kawalan inventori",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Inventory control procedures obtained and interpreted."},
+            {"id": "1.2", "text": "Inventory controls schedule obtained."},
+            {"id": "1.3", "text": "Inventory record obtained and reviewed to check current status of inventory."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Plan inventory controls activities",
+          "title_bm": "Rancang aktiviti kawalan inventori",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Inventory control activities identified."},
+            {"id": "2.2", "text": "Inventory control schedule reviewed."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out tools and equipment inspection",
+          "title_bm": "Laksanakan pemeriksaan alatan dan peralatan",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Type of tools and equipment determined based on inventory records."},
+            {"id": "3.2", "text": "Functionality of tools and equipment checked based on manufacturer's specification."},
+            {"id": "3.3", "text": "Tools and equipment status recorded according to procedure."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Carry out stock inspection",
+          "title_bm": "Laksanakan pemeriksaan stok",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Plantation consumable determined according to stock record."},
+            {"id": "4.2", "text": "Stock record reviewed to check stock level."},
+            {"id": "4.3", "text": "Stock level determined for requisition of new stock."}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Coordinate tools and equipment material usage",
+          "title_bm": "Selaras penggunaan alatan, peralatan dan bahan",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Production schedule reviewed according to procedure."},
+            {"id": "5.2", "text": "Tools, equipment and material disseminated to subordinate."}
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Prepare inventory control activities report",
+          "title_bm": "Sediakan laporan aktiviti kawalan inventori",
+          "performance_criteria": [
+            {"id": "6.1", "text": "Inventory records compiled according to company filing system."},
+            {"id": "6.2", "text": "Inventory reports submitted to superior according to procedure."}
+          ]
+        }
+      ]
+    }
+  ]
+}

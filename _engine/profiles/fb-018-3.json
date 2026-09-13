@@ -1,0 +1,41 @@
+{
+  "noss_code": "FB-018-3:2012",
+  "graph_file": "_engine/graph/fb-018-3.json",
+  "assessment_type": "PPT-PPA",
+  "language": "bm_frame_en_body",
+  "centre": {
+    "name": "CHARACTER INTERNATIONAL ACADEMY SDN. BHD.",
+    "code": ""
+  },
+  "duration_min_minutes": 150,
+  "duration_max_minutes": 180,
+  "cu_modes": {
+    "C01": "practical",
+    "C02": "oral",
+    "C03": "oral",
+    "C04": "practical",
+    "C05": "practical",
+    "C06": "oral",
+    "E01": "excluded"
+  },
+  "oral_question_count": 10,
+  "practical_weight": 80,
+  "oral_weight": 20,
+  "sets": [
+    {
+      "set_id": "A",
+      "industry": "Hartanah kediaman",
+      "company": "⟪TBD: nama syarikat rekaan untuk SET A | Jennifer (dia sudah siapkan set hartanah) | 2026-08-26⟫",
+      "product": "Unit kediaman (hartanah)",
+      "notes": "Jennifer sudah menyiapkan SET A berasaskan hartanah dan mahu menggunakannya. Fail sedia ada dalam repo ini adalah versi elektronik — ia dijadikan SET B."
+    },
+    {
+      "set_id": "B",
+      "industry": "Peruncitan elektronik pengguna",
+      "company": "SINAR ELEKTRONIK SDN. BHD.",
+      "product": "Produk elektronik pengguna (TV, penyaman udara, peti sejuk, mesin basuh)",
+      "notes": "Asalnya dijana sebagai SET A; dinomborkan semula sebagai SET B pada 2026-08-25 atas arahan Jennifer supaya set hartanah beliau kekal sebagai SET A. Syarikat senario dinamakan semula daripada 'Viztech Trading Sdn. Bhd.' kepada 'Sinar Elektronik Sdn. Bhd.' — Viztech ialah nama pusat bertauliah sebenar dalam sampel rujukan, dan menggunakannya sebagai syarikat rekaan dalam senario mengelirukan kedua-dua peranan."
+    }
+  ],
+  "notes": "Sumber keputusan: mesej WhatsApp Jennifer 2026-08-25 00:02 dan nota suara 2026-08-24 23:17-23:28. Tiga keputusan yang tidak boleh diubah tanpa kebenaran beliau: (1) hanya C01, C04, C05 dinilai secara amali; (2) C02, C03, C06 dinilai melalui 10 soalan lisan; (3) E01 tidak dimasukkan langsung. Nama pusat bertauliah ditetapkan kepada Character International Academy — sampel rujukan FB-018-3 menggunakan Viztech Trading, iaitu pusat lain, dan tidak boleh diwarisi ke kertas yang dihantar atas pentauliahan Character. Bahasa ditetapkan sebagai 'bm_frame_en_body' pada 2026-08-25 petang selepas memeriksa empat dokumen yang dimiliki oleh jennifer@character.com.mx dalam folder Drive FB-018-3: tajuk seksyen, tajuk lajur jadual dan teks rasmi JPK dalam Bahasa Malaysia; kandungan tugasan dan kriteria dalam Bahasa Inggeris. Aduan beliau 'only one language' merujuk kepada pasangan dwibahasa dalam satu ayat, bukan kepada rangka Melayu itu sendiri. Spesifikasi penuh: _engine/FORMAT-jpk-ppa.md"
+}

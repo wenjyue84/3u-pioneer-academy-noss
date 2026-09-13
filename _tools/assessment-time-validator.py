@@ -46,7 +46,8 @@ def calculate_assessment_duration(filepath: Path) -> dict[str, object]:
         qtype, mins = estimate_question_time(q)
         counts[qtype] = counts.get(qtype, 0) + 1
         total += mins
-    atype = "PA" if "/PA" in filepath.as_posix() or "PA.md" in filepath.name else "KA"
+    # Detect PA vs KA from filename stem prefix (handles bare and descriptive names).
+    atype = "PA" if filepath.name == "PA.md" or filepath.name.startswith("PA-") else "KA"
     limit = TIME_LIMITS[atype]
     pct = round(total / limit * 100, 1) if limit else 0
     rel = str(filepath.relative_to(PROJECT)) if filepath.is_relative_to(PROJECT) else filepath.name
@@ -64,7 +65,13 @@ def calculate_assessment_duration(filepath: Path) -> dict[str, object]:
 
 def generate_report(out_path: Path | None = None) -> list[dict[str, object]]:
     """Scan all KA/PA files and write CSV report. Returns row list."""
-    files = sorted(PROJECT.rglob("KA.md")) + sorted(PROJECT.rglob("PA.md"))
+    # Accept both bare (`KA.md`) and descriptive (`KA-foo.md`) filenames.
+    files = (
+        sorted(PROJECT.rglob("KA.md"))
+        + sorted(PROJECT.rglob("KA-*.md"))
+        + sorted(PROJECT.rglob("PA.md"))
+        + sorted(PROJECT.rglob("PA-*.md"))
+    )
     rows = [calculate_assessment_duration(f) for f in files]
     if out_path is None:
         REPORTS_DIR.mkdir(parents=True, exist_ok=True)

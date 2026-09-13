@@ -6,7 +6,9 @@ from pathlib import Path
 import pytest
 
 PROJECT_ROOT = Path(__file__).parent.parent
-PA_PATH = PROJECT_ROOT / "aesthetic-services" / "C04" / "PA.md"
+_PA_DIR = PROJECT_ROOT / "aesthetic-services" / "C04"
+_pa_matches = sorted(_PA_DIR.glob("PA*.md")) if _PA_DIR.is_dir() else []
+PA_PATH = _pa_matches[0] if _pa_matches else _PA_DIR / "PA.md"
 
 REQUIRED_MODALITIES = [
     "microcurrent",

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Exam Papers — Completion Check</title>
+<style>
+:root {
+  --bg: #f5f7fa; --card: #fff; --border: #dde2ea;
+  --fg: #1a1d24; --dim: #5c6472; --label: #8892a0;
+  --ok: #1a7f37; --ok-bg: #dafbe1; --ok-bd: #82e0a0;
+  --warn: #7a5500; --warn-bg: #fff8c5; --warn-bd: #e8c74a;
+  --bad: #a40e26; --bad-bg: #ffebe9; --bad-bd: #f7b5b4;
+  --blue: #0550ae; --blue-bg: #dbeafe; --blue-bd: #93c5fd;
+  --ref: #5b3cae; --ref-bg: #f0ebff; --ref-bd: #c7b2f7;
+  --none-bg: #f0f2f5; --none-bd: #c8cdd6;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--bg); color: var(--fg);
+  font: 15px/1.65 -apple-system, "Segoe UI", system-ui, sans-serif;
+  padding: 28px 20px 80px;
+}
+.wrap { max-width: 960px; margin: 0 auto; }
+h1 { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+.sub { color: var(--dim); font-size: 13.5px; margin-bottom: 28px; }
+.sub a { color: var(--blue); text-decoration: none; }
+
+/* Big status banner */
+.banner {
+  border-radius: 12px; padding: 18px 22px; margin-bottom: 28px;
+  display: flex; align-items: center; gap: 14px;
+}
+.banner.all-done { background: var(--ok-bg); border: 1.5px solid var(--ok-bd); }
+.banner.partial  { background: var(--warn-bg); border: 1.5px solid var(--warn-bd); }
+.banner-icon { font-size: 30px; line-height: 1; }
+.banner-text strong { display: block; font-size: 17px; margin-bottom: 3px; }
+.banner-text span { font-size: 13px; color: var(--dim); }
+
+/* Reference box */
+.ref-box {
+  background: var(--ref-bg); border: 1.5px solid var(--ref-bd);
+  border-radius: 10px; padding: 14px 18px; margin-bottom: 28px;
+}
+.ref-box h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em;
+              color: var(--ref); margin-bottom: 10px; }
+.ref-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.ref-item {
+  background: #fff; border: 1px solid var(--ref-bd); border-radius: 8px;
+  padding: 8px 13px; min-width: 160px; flex: 1;
+}
+.ref-item .ri-name { font-size: 12px; font-weight: 700; color: var(--ref); margin-bottom: 4px; }
+.ref-item .ri-docs { display: flex; flex-direction: column; gap: 3px; }
+.ri-doc { font-size: 12px; color: var(--dim); }
+.ri-doc b { color: var(--fg); }
+
+/* Course cards */
+.course-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 10px; margin-bottom: 16px; overflow: hidden;
+}
+.course-header {
+  padding: 13px 18px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+}
+.course-badge {
+  font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 99px;
+  background: var(--blue-bg); color: var(--blue); border: 1px solid var(--blue-bd);
+  white-space: nowrap;
+}
+.course-name { font-size: 15px; font-weight: 700; flex: 1; }
+.course-status { font-size: 12px; font-weight: 600; padding: 3px 10px;
+                 border-radius: 99px; white-space: nowrap; }
+.cs-done { background: var(--ok-bg); color: var(--ok); }
+.cs-partial { background: var(--warn-bg); color: var(--warn); }
+.cs-none { background: var(--none-bg); color: var(--dim); }
+
+.sets-grid { display: grid; grid-template-columns: 1fr 1fr; }
+@media(max-width: 620px) { .sets-grid { grid-template-columns: 1fr; } }
+.set-panel { padding: 14px 18px; }
+.set-panel + .set-panel { border-left: 1px solid var(--border); }
+@media(max-width: 620px) { .set-panel + .set-panel { border-left: 0; border-top: 1px solid var(--border); } }
+.set-label { font-size: 11px; font-weight: 700; text-transform: uppercase;
+             letter-spacing: .07em; color: var(--label); margin-bottom: 10px; }
+.doc-row {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 5px 0; border-bottom: 1px solid var(--bg);
+}
+.doc-row:last-child { border-bottom: 0; }
+.doc-name { font-size: 13px; flex: 1; }
+.doc-right { display: flex; align-items: center; gap: 8px; }
+.doc-pages { font-size: 11.5px; color: var(--dim); min-width: 36px; text-align: right; }
+.pill {
+  font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 99px;
+  white-space: nowrap;
+}
+.pill-ok     { background: var(--ok-bg);   color: var(--ok);   border: 1px solid var(--ok-bd); }
+.pill-warn   { background: var(--warn-bg); color: var(--warn); border: 1px solid var(--warn-bd); }
+.pill-blue   { background: var(--blue-bg); color: var(--blue); border: 1px solid var(--blue-bd); }
+.pill-none   { background: var(--none-bg); color: var(--dim);  border: 1px solid var(--none-bd); }
+
+.compare-bar { margin-top: 10px; padding: 8px 10px; background: var(--bg);
+               border-radius: 7px; font-size: 12px; color: var(--dim); }
+.compare-bar b { color: var(--fg); }
+
+.drive-link { font-size: 11.5px; color: var(--blue); text-decoration: none;
+              display: inline-block; margin-top: 2px; }
+.drive-link:hover { text-decoration: underline; }
+
+footer { color: var(--label); font-size: 12px; margin-top: 36px; text-align: center; }
+.refresh { appearance: none; background: none; border: 1px solid var(--border);
+           border-radius: 7px; color: var(--dim); padding: 5px 14px; font: inherit;
+           font-size: 13px; cursor: pointer; }
+.refresh:hover { border-color: var(--blue); color: var(--blue); }
+.top-bar { display: flex; justify-content: space-between; align-items: center;
+           margin-bottom: 5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="top-bar">
+  <div>
+    <h1>Exam Papers — Completion Check</h1>
+    <p class="sub">Compare against Jennifer's approved Beauty L1/L2/L3 samples &nbsp;·&nbsp;
+      <a href="/tracker/">Tracker ↗</a>
+    </p>
+  </div>
+  <button class="refresh" onclick="load()">↺ Refresh</button>
+</div>
+
+<!-- Banner: filled by JS -->
+<div id="banner" class="banner partial">
+  <div class="banner-icon">⏳</div>
+  <div class="banner-text"><strong>Loading…</strong><span>&nbsp;</span></div>
+</div>
+
+<!-- Reference: Beauty samples (Jennifer approved) -->
+<div class="ref-box">
+  <h2>✅ Jennifer's Approved Reference — Beauty L1 / L2 / L3 (S960-002)</h2>
+  <div class="ref-row">
+    <div class="ref-item">
+      <div class="ri-name">Beauty L1 (SET A)</div>
+      <div class="ri-docs">
+        <div class="ri-doc">SOALAN <b>9 pages</b></div>
+        <div class="ri-doc">SKEMA <b>12 pages</b></div>
+        <div class="ri-doc">Answer Sheet <b>included</b></div>
+        <div class="ri-doc">Equipment Verification <b>included</b></div>
+      </div>
+    </div>
+    <div class="ref-item">
+      <div class="ri-name">Beauty L2 (SET A)</div>
+      <div class="ri-docs">
+        <div class="ri-doc">SOALAN <b>9 pages</b></div>
+        <div class="ri-doc">SKEMA <b>~12 pages</b></div>
+        <div class="ri-doc">Answer Sheet <b>included</b></div>
+        <div class="ri-doc">Equipment Verification <b>included</b></div>
+      </div>
+    </div>
+    <div class="ref-item">
+      <div class="ri-name">Beauty L3 (SET A)</div>
+      <div class="ri-docs">
+        <div class="ri-doc">SOALAN <b>8 pages</b></div>
+        <div class="ri-doc">SKEMA <b>~12 pages</b></div>
+        <div class="ri-doc">Answer Sheet <b>included</b></div>
+        <div class="ri-doc">Equipment Verification <b>included</b></div>
+      </div>
+    </div>
+  </div>
+  <p style="font-size:12px;color:#7054b0;margin-top:10px;">
+    These are the files Jennifer showed as the correct format. Each SET needs 4 documents.
+    Our papers above 8 pages = ✅ comparable or better detail.
+  </p>
+</div>
+
+<!-- Course cards: filled by JS -->
+<div id="cards"></div>
+
+<footer id="footer">Loading state from /api/state…</footer>
+
+</div>
+<script>
+const DOC_LABELS = {
+  'SOALAN':    'SOALAN (Question Paper)',
+  'SKEMA':     'SKEMA (Marking Scheme)',
+  'ANSWER SHEET': 'Answer Sheet',
+  'EQUIPMENT': 'Equipment Verification',
+};
+
+function pill(status, label) {
+  if (!label) {
+    const map = {
+      approved: 'Approved ✓', uploaded: 'Uploaded ✓', panel: 'At Panel',
+      draft: 'Draft', none: 'Not done', issue: 'Issue ⚠'
+    };
+    label = map[status] || status;
+  }
+  const cls = { approved:'ok', uploaded:'ok', panel:'warn', draft:'blue', none:'none', issue:'warn' };
+  return `<span class="pill pill-${cls[status]||'none'}">${label}</span>`;
+}
+
+function pageNote(pages) {
+  if (!pages) return '';
+  return `<span class="doc-pages">${pages}pp</span>`;
+}
+
+function renderSet(cells, setKey, courseCode) {
+  const docs = ['SOALAN','SKEMA','ANSWER SHEET','EQUIPMENT'];
+  const colMap = { 'ANSWER SHEET': 'ANSWER SHEET', 'EQUIPMENT': 'EQUIPMENT' };
+
+  // figure out real column keys
+  const cellKeys = Object.keys(cells);
+  const soalanKey   = cellKeys.find(k => k.startsWith(setKey) && k.includes('SOALAN'));
+  const skemaKey    = cellKeys.find(k => k.startsWith(setKey) && k.includes('SKEMA'));
+  const answerKey   = cellKeys.find(k => k.startsWith(setKey) && (k.includes('ANSWER') || k.includes('ANSWER SHEET')));
+  const equipKey    = cellKeys.find(k => k.startsWith(setKey) && (k.includes('EQUIPMENT') || k.includes('EQUIP')));
+
+  const rows = [
+    { label: 'SOALAN (Question Paper)',    key: soalanKey },
+    { label: 'SKEMA (Marking Scheme)',     key: skemaKey },
+    { label: 'Answer Sheet',              key: answerKey },
+    { label: 'Equipment Verification',    key: equipKey },
+  ];
+
+  let html = '';
+  let allDone = true;
+  let anyDone = false;
+
+  for (const r of rows) {
+    const cell = r.key ? cells[r.key] : null;
+    const status = cell?.status || 'none';
+    const pages  = cell?.pages;
+    const fileId = cell?.fileId;
+    if (status === 'none' || !r.key) allDone = false;
+    if (status !== 'none' && r.key) anyDone = true;
+
+    let link = '';
+    if (fileId) {
+      link = `<br><a class="drive-link" href="https://drive.google.com/file/d/${fileId}/view" target="_blank">Open in Drive ↗</a>`;
+    }
+
+    html += `<div class="doc-row">
+      <div class="doc-name">${r.label}${link}</div>
+      <div class="doc-right">
+        ${pageNote(pages)}
+        ${pill(status)}
+      </div>
+    </div>`;
+  }
+
+  return { html, allDone, anyDone };
+}
+
+function beautyCompareLine(soalanPages, skemaPages) {
+  if (!soalanPages && !skemaPages) return '';
+  const refSoalan = 9, refSkema = 12;
+  const sp = soalanPages ? (soalanPages >= refSoalan ? `✅ ${soalanPages}pp` : `⚠ ${soalanPages}pp (Beauty ref: ${refSoalan}pp)`) : '—';
+  const sk = skemaPages  ? (skemaPages  >= refSkema  ? `✅ ${skemaPages}pp`  : `⚠ ${skemaPages}pp (Beauty ref: ${refSkema}pp)`)  : '—';
+  return `<div class="compare-bar">
+    <b>vs Beauty reference:</b> SOALAN ${sp} &nbsp;·&nbsp; SKEMA ${sk}
+  </div>`;
+}
+
+function renderCourse(course) {
+  const cells = course.cells || {};
+  const cellKeys = Object.keys(cells);
+  const groups = [...new Set(cellKeys.map(k => k.split('|')[0]))];
+
+  let setsHtml = '';
+  let totalDone = 0;
+  let totalSets = 0;
+
+  // Gather page data for beauty comparison
+  let soalanPages = null, skemaPages = null;
+
+  for (const g of groups) {
+    if (!g) continue;
+    totalSets++;
+    const { html, allDone, anyDone } = renderSet(cells, g, course.code);
+
+    // get soalan/skema pages for beauty comparison (use SET A)
+    if (g === 'SET A' || totalSets === 1) {
+      const sk = cellKeys.find(k => k.startsWith(g) && k.includes('SOALAN'));
+      const sk2 = cellKeys.find(k => k.startsWith(g) && k.includes('SKEMA'));
+      if (sk && cells[sk]?.pages) soalanPages = cells[sk].pages;
+      if (sk2 && cells[sk2]?.pages) skemaPages = cells[sk2].pages;
+    }
+
+    if (allDone) totalDone++;
+
+    const setLabel = g || 'SET';
+    setsHtml += `<div class="set-panel">
+      <div class="set-label">${setLabel} ${allDone ? '✅ Complete' : anyDone ? '⏳ Partial' : '❌ Not started'}</div>
+      ${html}
+      ${beautyCompareLine(
+        cells[cellKeys.find(k=>k.startsWith(g)&&k.includes('SOALAN'))]?.pages,
+        cells[cellKeys.find(k=>k.startsWith(g)&&k.includes('SKEMA'))]?.pages
+      )}
+    </div>`;
+  }
+
+  const allGood = totalDone === totalSets && totalSets > 0;
+  const anyGood = totalDone > 0;
+
+  const statusLabel = allGood ? 'All done ✅'
+    : anyGood ? `${totalDone}/${totalSets} sets done`
+    : 'Not started';
+  const statusCls   = allGood ? 'cs-done' : anyGood ? 'cs-partial' : 'cs-none';
+
+  return { html: `
+    <div class="course-card">
+      <div class="course-header">
+        <span class="course-badge">${course.code} · ${course.level}</span>
+        <span class="course-name">${course.name}</span>
+        <span class="course-status ${statusCls}">${statusLabel}</span>
+      </div>
+      <div class="sets-grid">${setsHtml}</div>
+    </div>
+  `, allDone: allGood };
+}
+
+async function load() {
+  try {
+    const state = await fetch('/api/state').then(r => r.json());
+    const ppt = state.projects?.find(p => p.id === 'ppt-ppa');
+    if (!ppt) { document.getElementById('cards').innerHTML = '<p>No ppt-ppa project found in state.</p>'; return; }
+
+    let cardsHtml = '';
+    let doneCount = 0, totalCount = 0;
+
+    for (const course of (ppt.courses || [])) {
+      totalCount++;
+      const { html, allDone } = renderCourse(course);
+      cardsHtml += html;
+      if (allDone) doneCount++;
+    }
+
+    document.getElementById('cards').innerHTML = cardsHtml;
+
+    const allDone = doneCount === totalCount;
+    const banner = document.getElementById('banner');
+    banner.className = 'banner ' + (allDone ? 'all-done' : 'partial');
+    banner.innerHTML = allDone
+      ? `<div class="banner-icon">🎉</div><div class="banner-text">
+           <strong>All ${totalCount} courses complete — ready to send to Jennifer!</strong>
+           <span>Every SET has SOALAN + SKEMA + Answer Sheet + Equipment Verification, all uploaded to Drive.</span>
+         </div>`
+      : `<div class="banner-icon">⏳</div><div class="banner-text">
+           <strong>${doneCount} of ${totalCount} courses fully complete</strong>
+           <span>Scroll down to see which SETs still need work.</span>
+         </div>`;
+
+    const ts = new Date(state.updatedAt).toLocaleString('en-MY', { timeZone:'Asia/Kuala_Lumpur' });
+    document.getElementById('footer').textContent = `State last updated: ${ts}`;
+  } catch (e) {
+    document.getElementById('cards').innerHTML = `<p style="color:red">Error loading state: ${e.message}</p>`;
+  }
+}
+
+load();
+</script>
+</body>
+</html>

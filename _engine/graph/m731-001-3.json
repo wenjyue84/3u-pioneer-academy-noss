@@ -1,0 +1,340 @@
+{
+  "noss_code": "M731-001-3:2021",
+  "noss_title": "DIGITAL MARKETING OPERATION",
+  "level": 3,
+  "source_file": "raw/noss-character/txt/m731-L3-noss.txt",
+  "sector": "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES",
+  "sub_sector": "ADVERTISING",
+  "job_area": "DIGITAL MARKETING",
+  "source_notes": [
+    "CPC (pages 14-16) lists only six competency units, all core (C01-C06). No elective units appear anywhere in this NOSS.",
+    "C02 WA2 work-steps column lists steps in order 2.1 (research), 2.2 (produce content), 2.3 (identify components), 2.4 (insert), 2.5 (publish). The PC column follows the same numeric order; 2.3 in the PC reads 'Off-page SEO components identified' which corresponds to the work step numbered 2.3 in the source — transcribed as printed.",
+    "C05 and C06 work-activity numbers in the source use '1', '2', '3', '4' (not '1.', '2.', '3.', '4.' with trailing period) unlike C01-C04. This appears to be a typographic inconsistency in the printed standard; work activity IDs are normalised to WA1-WA4 per the schema convention."
+  ],
+  "competency_units": [
+    {
+      "code": "C01",
+      "type": "core",
+      "title_en": "EXECUTE SOCIAL MEDIA MARKETING ACTIVITIES",
+      "title_bm": "LAKSANAKAN AKTIVITI PEMASARAN MEDIA SOSIAL",
+      "descriptor": "Describes the competencies in using social media platforms to connect with audience to market a company's products or services, with the outcome of optimal use of social media marketing strategies to build brand awareness as well as to increase engagement and conversion.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Create social media business accounts.",
+          "title_bm": "Buat akaun perniagaan media sosial.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Business accounts credentials obtained from superior for all mandatory fields required to set up social media business accounts."},
+            {"id": "1.2", "text": "Social media business accounts setup completed with all specified mandatory fields."},
+            {"id": "1.3", "text": "Social media business accounts published as per scheduled timeline upon approval."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out social media marketing campaigns.",
+          "title_bm": "Jalankan kempen pemasaran media sosial.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Social media campaigns requirements identified as per work instructions."},
+            {"id": "2.2", "text": "Social media content requirements identified as per work instructions."},
+            {"id": "2.3", "text": "Social media campaigns set up according to campaigns requirements upon approval."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Produce social media marketing content.",
+          "title_bm": "Hasilkan kandungan pemasaran media sosial.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Social media hashtags identified as per campaign objectives."},
+            {"id": "3.2", "text": "Social media placements selected as per campaign objectives."},
+            {"id": "3.3", "text": "Social media copywriting prepared as per campaign objective and social media content policy."},
+            {"id": "3.4", "text": "Creative media preparation coordinated according to creative media requirements."},
+            {"id": "3.5", "text": "Social media content published as per scheduled timeline upon approval."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Moderate social media marketing posts.",
+          "title_bm": "Moderasi siaran pemasaran media sosial.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Social media engagement monitored regularly to meet specified response rate."},
+            {"id": "4.2", "text": "Public posting feedback provided according to audience engagement strategies."},
+            {"id": "4.3", "text": "Assistance provided to solve audience's problems according to audience requests."}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Monitor social media marketing performance.",
+          "title_bm": "Pantau prestasi pemasaran media sosial.",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Social media marketing performance checked using performance monitoring tools."},
+            {"id": "5.2", "text": "Social media marketing campaigns optimisation strategies carried out according to work instructions."},
+            {"id": "5.3", "text": "Social media marketing performance reports compiled in required format as per work instructions."},
+            {"id": "5.4", "text": "Social media marketing performance reports submitted to superior as per scheduled timeline."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C02",
+      "type": "core",
+      "title_en": "EXECUTE SEARCH ENGINE OPTIMISATION ACTIVITIES",
+      "title_bm": "LAKSANAKAN AKTIVITI PENGOPTIMUMAN ENJIN CARIAN",
+      "descriptor": "Describes the competencies required to perform the process of optimising online content to improve its visibility for relevant searches of a certain keyword, with the outcome of improved search engine ranking and increased traffic through search engine results.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Build on-page search engine optimisation.",
+          "title_bm": "Bina pengoptimuman enjin carian dalam halaman.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Target keyword research performed based on work instructions."},
+            {"id": "1.2", "text": "Search engine optimisation essentials identified according to on-page search engine optimisation requirements."},
+            {"id": "1.3", "text": "On-page search engine optimisation contents produced relevant to targeted keyword."},
+            {"id": "1.4", "text": "Search engine optimisation essentials inserted into content completed with all specified mandatory fields."},
+            {"id": "1.5", "text": "On-page search engine optimisation published as per scheduled timeline upon approval."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Build off-page search engine optimisation.",
+          "title_bm": "Bina pengoptimuman enjin carian luar halaman.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Off-page search engine optimisation components research performed based on work instructions."},
+            {"id": "2.2", "text": "Off-page search engine optimisation content produced relevant to targeted keyword."},
+            {"id": "2.3", "text": "Off-page search engine optimisation components identified according to off-page search engine optimisation requirements."},
+            {"id": "2.4", "text": "Off-page search engine optimisation essentials inserted into content complete with all specified mandatory fields."},
+            {"id": "2.5", "text": "Off-page search engine optimisation published as per scheduled timeline upon approval."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Monitor search engine optimisation ranking performance.",
+          "title_bm": "Pantau prestasi kedudukan pengoptimuman enjin carian.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Search engine optimisation performance checked using performance monitoring tools."},
+            {"id": "3.2", "text": "Search engine optimisation strategies carried out according to work instructions."},
+            {"id": "3.3", "text": "Search engine optimisation performance reports compiled in required format as per work instructions."},
+            {"id": "3.4", "text": "Search engine optimisation performance reports submitted to superior as per scheduled timeline."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C03",
+      "type": "core",
+      "title_en": "EXECUTE SEARCH ENGINE MARKETING ACTIVITIES",
+      "title_bm": "LAKSANAKAN AKTIVITI PEMASARAN ENJIN CARIAN",
+      "descriptor": "Describes the competencies required to perform marketing of a business using paid strategies to increase search visibility on search engine results pages, with the outcome of optimisation of paid search activities that will result in greater visibility and traffic.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Create search engine marketing accounts.",
+          "title_bm": "Buat akaun pemasaran enjin carian.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Business accounts credentials obtained from superior for all mandatory fields required to set up search engine marketing accounts."},
+            {"id": "1.2", "text": "Search engine marketing accounts setup completed with all required mandatory fields."},
+            {"id": "1.3", "text": "Search engine marketing business accounts published as per scheduled timeline upon approval."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out search engine marketing campaigns.",
+          "title_bm": "Jalankan kempen pemasaran enjin carian.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Search engine marketing campaigns requirements identified as per work instructions."},
+            {"id": "2.2", "text": "Search engine marketing content requirements identified as per work instructions."},
+            {"id": "2.3", "text": "Search engine marketing campaigns set up according to campaigns requirements upon approval."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Produce search engine marketing content.",
+          "title_bm": "Hasilkan kandungan pemasaran enjin carian.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Target keywords identified as per campaign objectives."},
+            {"id": "3.2", "text": "Search engine placement specified as per campaign objectives."},
+            {"id": "3.3", "text": "Search engine marketing copywriting prepared in line with identified keywords."},
+            {"id": "3.4", "text": "Creative media preparation coordinated according to creative format requirements."},
+            {"id": "3.5", "text": "Call to action linked to target destination."},
+            {"id": "3.6", "text": "Search engine marketing content published as per scheduled timeline upon approval."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Monitor search engine marketing performance.",
+          "title_bm": "Pantau prestasi pemasaran enjin carian.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Search engine marketing performance checked using performance monitoring tools."},
+            {"id": "4.2", "text": "Search engine marketing campaigns optimisation strategies carried out according to work instructions."},
+            {"id": "4.3", "text": "Search engine marketing performance reports compiled in required format as per work instructions."},
+            {"id": "4.4", "text": "Search engine marketing performance reports submitted to superior as per scheduled timeline."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C04",
+      "type": "core",
+      "title_en": "EXECUTE E-COMMERCE MARKETING ACTIVITIES",
+      "title_bm": "LAKSANAKAN AKTIVITI PEMASARAN E-DAGANG",
+      "descriptor": "Describes the competencies required to perform commercial transactions conducted electronically via the internet, with the outcome of optimal application of strategies that will result in a profitable and successful e-commerce business.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Create e-commerce accounts.",
+          "title_bm": "Buat akaun e-dagang.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Business accounts credentials obtained from superior for all mandatory fields required to set up e-commerce accounts."},
+            {"id": "1.2", "text": "E-commerce accounts setup completed with all required mandatory fields."},
+            {"id": "1.3", "text": "E-commerce accounts published as per scheduled timeline upon approval."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out e-commerce marketing campaigns.",
+          "title_bm": "Jalankan kempen pemasaran e-dagang.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "E-commerce campaigns requirements identified as per work instructions."},
+            {"id": "2.2", "text": "E-commerce content requirements identified as per work instructions."},
+            {"id": "2.3", "text": "E-commerce campaigns set up according to campaign requirements upon approval."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Produce e-commerce marketing content.",
+          "title_bm": "Hasilkan kandungan pemasaran e-dagang.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Product information keyed-in according to required format."},
+            {"id": "3.2", "text": "Product content prepared according to content guidelines and publishing policy."},
+            {"id": "3.3", "text": "Creative media preparation coordinated according to creative format requirements."},
+            {"id": "3.4", "text": "Product listing published as per scheduled timeline."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Moderate e-commerce store management.",
+          "title_bm": "Moderasi pengurusan kedai e-dagang.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "E-commerce orders processed according to order details."},
+            {"id": "4.2", "text": "E-commerce store information updated according to work instruction."},
+            {"id": "4.3", "text": "Stock inventory monitored based on inventory status."},
+            {"id": "4.4", "text": "E-commerce fulfilment monitored within delivery timeline."},
+            {"id": "4.5", "text": "Store management reports submitted to superior as per scheduled timeline."}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Monitor e-commerce marketing performance.",
+          "title_bm": "Pantau prestasi pemasaran e-dagang.",
+          "performance_criteria": [
+            {"id": "5.1", "text": "E-commerce performance checked using performance monitoring tools."},
+            {"id": "5.2", "text": "E-commerce marketing campaigns optimisation strategies carried out according to work instructions."},
+            {"id": "5.3", "text": "E-commerce marketing performance reports compiled in required format as per work instructions."},
+            {"id": "5.4", "text": "E-commerce marketing performance reports submitted to superior as per scheduled timeline."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C05",
+      "type": "core",
+      "title_en": "EXECUTE MOBILE MARKETING ACTIVITIES",
+      "title_bm": "LAKSANAKAN AKTIVITI PEMASARAN MUDAH ALIH",
+      "descriptor": "Describes the competencies required in applying a multi-channel, digital marketing strategy aimed at reaching a target audience on their smartphones, tablets, and/or other mobile devices, via websites, email, SMS and MMS, social media, and apps.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Create mobile marketing accounts.",
+          "title_bm": "Buat akaun pemasaran mudah alih.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Business accounts credentials obtained from superior for all mandatory fields required to set up mobile marketing accounts."},
+            {"id": "1.2", "text": "Mobile marketing accounts setup completed with all required mandatory fields."},
+            {"id": "1.3", "text": "Mobile marketing accounts published as per scheduled timeline upon approval."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out mobile marketing campaigns.",
+          "title_bm": "Jalankan kempen pemasaran mudah alih.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Mobile marketing campaigns requirements identified as per work instructions."},
+            {"id": "2.2", "text": "Mobile marketing content requirements identified as per work instructions."},
+            {"id": "2.3", "text": "Mobile marketing campaigns set up according to campaign requirements upon approval."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Produce mobile marketing content.",
+          "title_bm": "Hasilkan kandungan pemasaran mudah alih.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Mobile marketing copywriting prepared as per campaign objective and mobile marketing content policy."},
+            {"id": "3.2", "text": "Creative media preparation coordinated according to creative format requirements."},
+            {"id": "3.3", "text": "Mobile marketing content published as per scheduled timeline upon approval."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Monitor mobile marketing performance.",
+          "title_bm": "Pantau prestasi pemasaran mudah alih.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Mobile marketing performance checked using performance monitoring tools."},
+            {"id": "4.2", "text": "Mobile marketing campaigns optimisation strategies carried out according to work instructions."},
+            {"id": "4.3", "text": "Mobile marketing performance reports compiled in required format as per work instructions."},
+            {"id": "4.4", "text": "Mobile marketing performance reports submitted to superior as per scheduled timeline."}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C06",
+      "type": "core",
+      "title_en": "EXECUTE EMAIL MARKETING ACTIVITIES",
+      "title_bm": "LAKSANAKAN AKTIVITI PEMASARAN E-MEL",
+      "descriptor": "Describes the competencies in marketing business products or services via email, using strategies for lead generation, brand awareness, building relationships or keeping customers engaged between purchases through different types of marketing emails.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Create email marketing accounts.",
+          "title_bm": "Buat akaun pemasaran e-mel.",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Business accounts credentials obtained from superior for all mandatory fields required to set up email marketing accounts."},
+            {"id": "1.2", "text": "Email marketing accounts setup completed with all required mandatory fields."},
+            {"id": "1.3", "text": "Email marketing accounts published as per scheduled timeline upon approval."}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out email marketing campaigns.",
+          "title_bm": "Jalankan kempen pemasaran e-mel.",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Email marketing campaigns requirements identified as per work instruction."},
+            {"id": "2.2", "text": "Email list selected according to targeted audience."},
+            {"id": "2.3", "text": "Email marketing content requirements identified as per campaign objective."},
+            {"id": "2.4", "text": "Email marketing campaigns set up according to campaign objective upon approval."}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Produce email marketing content.",
+          "title_bm": "Hasilkan kandungan pemasaran e-mel.",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Email marketing template set up according to work instructions."},
+            {"id": "3.2", "text": "Email copywriting prepared according to campaign objective and privacy policies."},
+            {"id": "3.3", "text": "Creative media preparation coordinated according to creative format requirements."},
+            {"id": "3.4", "text": "Email marketing campaigns published as per scheduled timeline."}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Monitor email marketing performance.",
+          "title_bm": "Pantau prestasi pemasaran e-mel.",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Email marketing performance checked using performance monitoring tools."},
+            {"id": "4.2", "text": "Email marketing campaigns optimisation strategies carried out according to work instructions."},
+            {"id": "4.3", "text": "Email marketing performance reports compiled in required format as per work instructions."},
+            {"id": "4.4", "text": "Email marketing performance reports submitted to superior as per scheduled timeline."}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "C02 DIRECT / RETAIL SALES",
+    "line": 26
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Main Family / Customer Profile",
+    "line": 369
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V07",
+    "severity": "error",
+    "message": "no paper-level 'B. TEMPOH : n JAM' declaration found in the soalan.",
+    "evidence": "fb-018-3-set-b-soalan.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "error",
+    "message": "page-count placeholder ⟪PAGES⟫ was never backfilled — run _engine.render.integrate before delivery.",
+    "evidence": "fb-018-3-set-b-soalan.md",
+    "line": null
+  }
+]

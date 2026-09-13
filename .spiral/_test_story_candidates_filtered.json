@@ -664,5 +664,140 @@
       "regression",
       "auto-generated"
     ]
+  },
+  {
+    "title": "[E2E Test] Tuinalogy TCM Theory Bilingual Terminology Index",
+    "description": "Write end-to-end user flow test for the feature in US-047. Story description: Build a comprehensive bilingual lookup table (Simplified Chinese / English / Malay) for all TCM terminology used in Tuinalogy (\u7ecf\u7edc/meridians, \u516b\u7eb2/8 principles, \u56db\u8bca/4 diagnostic methods, \u4e94\u884c/5 elements, acupoint names, techniques). Index by category with cross-references to NOSS sections and usage frequency.",
+    "acceptanceCriteria": [
+      "E2E test covers the user flow introduced by US-047",
+      "Test navigates to relevant page(s) and asserts on visible state",
+      "Test passes in headless browser (Playwright/Cypress/similar)"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_047 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-047"
+    ],
+    "_source": "test-story",
+    "_testType": "e2e",
+    "_forStoryId": "US-047",
+    "tags": [
+      "e2e",
+      "auto-generated"
+    ]
+  },
+  {
+    "title": "[Performance Test] Tuinalogy TCM Theory Bilingual Terminology Index",
+    "description": "Write performance benchmark for the operation in US-047. Story description: Build a comprehensive bilingual lookup table (Simplified Chinese / English / Malay) for all TCM terminology used in Tuinalogy (\u7ecf\u7edc/meridians, \u516b\u7eb2/8 principles, \u56db\u8bca/4 diagnostic methods, \u4e94\u884c/5 elements, acupoint names, techniques). Index by category with cross-references to NOSS sections and usage frequency.",
+    "acceptanceCriteria": [
+      "Performance test measures key metrics for US-047",
+      "Baseline captured and acceptable threshold defined",
+      "Test fails if response time degrades more than 20% from baseline"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_047 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-047"
+    ],
+    "_source": "test-story",
+    "_testType": "performance",
+    "_forStoryId": "US-047",
+    "tags": [
+      "performance",
+      "auto-generated"
+    ]
+  },
+  {
+    "title": "[Regression Test] Build NOSS Learning Outcome to Assessment Linkage Matrix",
+    "description": "Write regression test to guard against future breakage of US-051. Story description: Create bidirectional mapping showing which assessment items in KA/KT documents cover which NOSS CoCU Learning Outcomes. Generate coverage matrix and identify gaps in assessment coverage per competency unit.",
+    "acceptanceCriteria": [
+      "Regression test covers core observable behaviour of US-051",
+      "Test would reliably fail if the US-051 feature were removed or broken"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_051 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-051"
+    ],
+    "_source": "test-story",
+    "_testType": "regression",
+    "_forStoryId": "US-051",
+    "tags": [
+      "regression",
+      "auto-generated"
+    ]
+  },
+  {
+    "title": "[Security Test] Create Technical Content Accuracy Auditor Against Industry Standards",
+    "description": "Write security tests for auth/permission logic in US-052. Story description: Validate technical content accuracy by cross-referencing against current industry standards: IEC standards for BEV HV safety, medical/anatomy standards for Aesthetic, ISO networking standards for IT. Flags outdated information with revision recommendations.",
+    "acceptanceCriteria": [
+      "Security test covers access control introduced by US-052",
+      "Test verifies unauthorized access is blocked (401/403 responses)",
+      "No sensitive data (tokens, passwords) leaked in error responses"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_052 -v"
+    ],
+    "priority": "high",
+    "dependencies": [
+      "US-052"
+    ],
+    "_source": "test-story",
+    "_testType": "security",
+    "_forStoryId": "US-052",
+    "tags": [
+      "security",
+      "auto-generated"
+    ]
+  },
+  {
+    "title": "[Regression Test] IT-020 Level 4 Knowledge Assessment with Network Diagnostics Scenarios",
+    "description": "Write regression test to guard against future breakage of US-053. Story description: Enhance IT-020 L4 KA with 15+ scenario-based network troubleshooting questions covering switching, routing, VPN, firewall with detailed answer rubrics and partial-credit guidelines.",
+    "acceptanceCriteria": [
+      "Regression test covers core observable behaviour of US-053",
+      "Test would reliably fail if the US-053 feature were removed or broken"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_053 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-053"
+    ],
+    "_source": "test-story",
+    "_testType": "regression",
+    "_forStoryId": "US-053",
+    "tags": [
+      "regression",
+      "auto-generated"
+    ]
+  },
+  {
+    "title": "[Regression Test] Tuinalogy Clinical Vignette Template Generator for Each CU",
+    "description": "Write regression test to guard against future breakage of US-054. Story description: Creates 3-5 realistic treatment case scenarios per CU (C01-C05, E01, E02) with patient presentation, TCM assessment findings, treatment technique sequence, expected outcome, and contraindication checks. Humanizes learning material with practical context.",
+    "acceptanceCriteria": [
+      "Regression test covers core observable behaviour of US-054",
+      "Test would reliably fail if the US-054 feature were removed or broken"
+    ],
+    "technicalNotes": [
+      "Run: uv run pytest tests/ -k us_054 -v"
+    ],
+    "priority": "medium",
+    "dependencies": [
+      "US-054"
+    ],
+    "_source": "test-story",
+    "_testType": "regression",
+    "_forStoryId": "US-054",
+    "tags": [
+      "regression",
+      "auto-generated"
+    ]
   }
 ]

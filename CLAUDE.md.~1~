@@ -1,0 +1,21 @@
+# CLAUDE.md — Apply NOSS IT-020 Computer System Management
+
+## Purpose
+NOSS IT-020 Computer System Management certification application — source documents and reference materials.
+
+## Folder Structure
+
+```
+Apply NOSS IT-020 Computer System Management/
+├── CLAUDE.md          # Agent instructions
+├── index.md           # Content catalog — read this first
+├── log.md             # Append-only change log
+├── raw/               # Original source data (immutable)
+└── wiki/              # Derived knowledge (analysis, summaries)
+```
+
+## Rules
+- **raw/** — never edit. One file per event/source.
+- **wiki/** — synthesized knowledge. Update freely.
+- **log.md** — append-only.
+- **index.md** — update when structure changes.

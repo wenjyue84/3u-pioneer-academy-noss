@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "Generate Learner Cohort Analytics Dashboard",
+      "priority": "medium",
+      "description": "Create interactive HTML dashboard displaying enrollment trends, completion rates, and L3→L4→L5 progression metrics across multiple learner cohorts with time-series visualization and CSV export capability.",
+      "acceptanceCriteria": [
+        "scripts/generate_cohort_dashboard.py reads learner enrollment data (CSV input: cohort_id, learner_id, level, completion_date) and generates output/cohort_analytics.html with Charts.js library embedded",
+        "Dashboard displays: cohort enrollment count, L3/L4/L5 completion %, monthly enrollment trend, dropout rate per level, average time-to-completion per progression path",
+        "Export function allows instructor to download cohort metrics as CSV with columns: cohort_id, enrollment_date, current_level, completion_%, next_milestone, days_in_program"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Create Bilingual Pronunciation Guide for Technical Terms",
+      "priority": "medium",
+      "description": "Generate comprehensive pronunciation guide for all technical terms in CoCu files with IPA notation, phonetic guides, and bilingual (EN/MS) presentation for improved learner comprehension and inclusivity.",
+      "acceptanceCriteria": [
+        "scripts/generate_pronunciation_guide.py parses all 'Key Terms' sections from content/IT-020-{3,4,5}/*.md files and outputs output/pronunciation_guide.html with responsive HTML5 table",
+        "HTML table includes columns: English Term | IPA Notation | Bahasa Malaysia | MS IPA | Audio Placeholder, organized by CoCu unit with collapsible sections",
+        "Each term includes difficulty_level (Beginner/Intermediate/Advanced) and usage_frequency count from all CoCu files; sortable by frequency or alphabetical"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Map Work Activities to ISCO-08 Job Classifications",
+      "priority": "high",
+      "description": "Analyze all work activities across L3/L4/L5 and map to international ISCO-08 job classifications to demonstrate alignment with global occupational standards and support international credential portability.",
+      "acceptanceCriteria": [
+        "scripts/generate_isco_mapping.py reads work_activities from all 20 CoCu files and outputs output/isco_job_mapping.json with schema: {coco_unit, work_activity, isco_codes: [{code, title, match_confidence}]}",
+        "Generates HTML report (output/isco_alignment_report.html) showing: work activity clusters grouped by ISCO code, confidence score per mapping (0-1.0), gap analysis for unmatched activities",
+        "Summary statistics: X% of work activities mapped to ISCO, top 10 ISCO codes by frequency, career pathway visualization (L3 → L4 → L5 ISCO progression)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Implement Instructor Assessment Moderation Calibration",
+      "priority": "high",
+      "description": "Create toolkit for standardizing assessment judgments across multiple instructors through shared rubric interpretation, sample student work exemplars, and moderation discussion templates to ensure assessment consistency.",
+      "acceptanceCriteria": [
+        "scripts/generate_moderation_toolkit.py creates output/moderation_toolkit_l{3,4,5}.xlsx with tabs: (1) Shared Rubric per work_activity showing 4-point scale (Novice/Developing/Proficient/Advanced) with detailed descriptors, (2) Exemplars tab showing 4 student work samples per level with rater comments, (3) Moderation_Log for instructors to record agreement/disagreement during calibration meetings",
+        "HTML companion (output/moderation_discussion_guide.html) provides: rubric interpretation guide, common assessment errors, discussion prompts for resolving disagreement, inter-rater reliability tracking form",
+        "Script outputs validation_report.json: assessed_rubrics count, exemplar_count per work_activity, rater_agreement_percentage if historical data provided"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Build Graduate Employment Outcomes Dashboard",
+      "priority": "high",
+      "description": "Track and visualize post-program employment outcomes including job placement rate, salary distribution, employer types, and career pathway data to demonstrate program ROI and support continuous improvement.",
+      "acceptanceCriteria": [
+        "scripts/generate_graduate_tracker.py reads output/graduate_data.csv (schema: learner_id, graduation_date, job_title, salary_range, employer, industry, employment_status) and generates output/graduate_outcomes_dashboard.html with Plotly.js visualizations",
+        "Dashboard displays: overall placement % (employed/unemployed), average salary by job_role, employer distribution (histogram/pie), time-to-employment (days), salary comparison by L3/L4/L5 level, industry breakdown",
+        "Export function downloads: graduate_outcomes_summary.xlsx with learner-level records, cohort_comparison.csv with aggregated metrics by graduation_date/level, 12-month trend analysis with month-over-month % change"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Validate CoCu Alignment with Real Job Postings",
+      "priority": "medium",
+      "description": "Cross-reference all work activities against actual employer job postings to identify skill gaps, validate industry relevance, and provide evidence of alignment for JPK/MySPIKE compliance documentation.",
+      "acceptanceCriteria": [
+        "scripts/validate_employer_alignment.py reads input/job_postings.csv (schema: job_id, job_title, required_skills, employer, industry) and compares against work_activities from all 20 CoCu files, outputting output/employer_alignment_report.json with: {work_activity, job_match_count, match_confidence_score, unmatched_skill_gaps, employer_list}",
+        "Generates HTML report (output/employer_demand_analysis.html) showing: word cloud of employer-required skills vs. CoCu coverage, top 20 job titles matched to CoCu units, gap analysis: skills in job postings but missing from CoCu, industry demand ranking",
+        "Summary metrics: % of job postings with matches, average match_confidence_score, top employers hiring graduates, recommended CoCu enhancements based on job posting analysis"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Create Pre/Post Learning Gain Assessment Instruments",
+      "priority": "medium",
+      "description": "Develop parallel pre- and post-assessment instruments aligned to each CoCu's learning outcomes to measure learner knowledge gain and competency development with validated psychometric properties.",
+      "acceptanceCriteria": [
+        "scripts/generate_learning_gain_instruments.py reads learning_outcomes from all 20 CoCu files and outputs output/pre_post_assessments_l{3,4,5}.xlsx with tabs: Pre_Assessment, Post_Assessment, Answer_Key, Scoring_Guide",
+        "Each CoCu has parallel 20-question instruments (pre/post identical difficulty, different content) with: question_id, learning_outcome_alignment, cognitive_level (Bloom's), question_type (MC/SA), correct_answer, distractor_rationale, point_value",
+        "Scoring template calculates: raw_score, percentage_score, learning_gain (post% - pre%), outcome_achievement_per_learning_objective, class-level gain_analysis for instructors to track cohort progress"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Generate Digital Competency Badge Pathway Visualization",
+      "priority": "medium",
+      "description": "Create visual representation of competency progression from L3→L4→L5 with earned badge milestones and skill clusters to motivate learners and communicate competency development transparently.",
+      "acceptanceCriteria": [
+        "scripts/generate_badge_pathway.py reads competency_clusters from learning_outcome_matrices and outputs output/badge_pathway.html with interactive D3.js visualization showing: L3 entry badges (7 CoCu units), L4 progression badges (6 units), L5 mastery badges (7 units)",
+        "Each badge node displays: skill_cluster name, competency_count, estimated_contact_hours, prerequisite_badges, earning_criteria (% performance_outcome required). Sankey edges show progression flow with learner position indicators",
+        "Learner profile feature: learner_id input displays their earned badges, progress %, current position in pathway, estimated_completion_date, recommended_next_modules"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Audit Equipment and Software EOL Support Lifecycle",
+      "priority": "high",
+      "description": "Track end-of-life dates for all hardware and software referenced in CoCu files to ensure content currency, flag obsolete technologies, and provide curriculum sustainability recommendations.",
+      "acceptanceCriteria": [
+        "scripts/audit_equipment_eol.py reads equipment_list from all _CoCu files (tables: Hardware/Software components), cross-references manufacturer EOL dates (input/equipment_eol_database.json), outputs output/equipment_eol_audit.json with: {equipment_item, current_eol_date, years_until_eol, support_status, risk_level, curriculum_impact}",
+        "HTML report (output/equipment_sustainability_report.html) displays: risk dashboard (Red=EOL <6mo, Yellow=6-12mo, Green=>12mo), equipment_by_level heatmap, recommended_replacements with cost_estimate, 3-year_equipment_refresh_roadmap",
+        "Maintenance script outputs: equipment_refresh_recommendations.md with prioritized list (high→low impact), fiscal_impact.csv with annual_cost_by_replacement_phase, curriculum_revision_required_by_date timeline"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Map CoCu Competencies to External Industry Certifications",
+      "priority": "medium",
+      "description": "Establish explicit alignment between CoCu learning outcomes and external industry certifications (CompTIA, Cisco, Microsoft) to support learner progression and demonstrate industry validation of program quality.",
+      "acceptanceCriteria": [
+        "scripts/generate_certification_mapping.py reads learning_outcomes from all CoCu files and maps to input/industry_certifications.json (schema: certification_id, provider, competency_domains, exam_topics) outputting output/certification_alignment_matrix.json with: {coco_unit, learning_outcome, certifications: [{cert_id, alignment_score, topics_covered, gaps}]}",
+        "HTML report (output/certification_pathways.html) shows: learner pathway recommendations (e.g., 'After L3+CoCu-1, learner eligible for CompTIA A+'), prerequisite_analysis, recommended_additional_study_for_certification, exam_readiness_assessment_per_CoCu",
+        "Summary dashboard: X% of L3 outcomes mapped to entry-level certs, Y% of L4/L5 to advanced certs, recommended_cert_bundles_per_level, cost_analysis (exam_fees_and_study_resources)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    }
+  ]
+}

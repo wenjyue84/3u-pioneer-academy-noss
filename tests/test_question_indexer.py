@@ -52,9 +52,11 @@ def test_index_and_search(tmp_path: Path) -> None:
 
 def test_extract_questions_ka() -> None:
     """KA.md files yield at least 3 questions per file."""
-    ka = PROJECT_ROOT / "aesthetic-services" / "C01" / "KA.md"
-    if not ka.exists():
+    ka_dir = PROJECT_ROOT / "aesthetic-services" / "C01"
+    ka_matches = sorted(ka_dir.glob("KA*.md")) if ka_dir.is_dir() else []
+    if not ka_matches:
         return
+    ka = ka_matches[0]
     qs = qbi.extract_questions_from_file(ka)
     assert len(qs) >= 3, f"Expected >=3 from KA.md, got {len(qs)}"
     assert all(q["subject"] == "Aesthetic" for q in qs)
@@ -63,9 +65,11 @@ def test_extract_questions_ka() -> None:
 
 def test_extract_questions_kt() -> None:
     """KT-*.md files yield questions with correct metadata."""
-    kt = PROJECT_ROOT / "bev-diagnostic-rectification" / "C01" / "KT-01.md"
-    if not kt.exists():
+    kt_dir = PROJECT_ROOT / "bev-diagnostic-rectification" / "C01"
+    kt_matches = sorted(kt_dir.glob("KT-01*.md")) if kt_dir.is_dir() else []
+    if not kt_matches:
         return
+    kt = kt_matches[0]
     qs = qbi.extract_questions_from_file(kt)
     assert len(qs) >= 3, f"Expected >=3 from KT-01.md, got {len(qs)}"
     assert all(q["subject"] == "BEV" for q in qs)

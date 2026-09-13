@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "Build NOSS Quality Review Checklist Generator with Interactive Scoring",
+      "priority": "high",
+      "description": "Create Python script to generate interactive HTML quality review checklist that instructors and peer reviewers use to validate all 20 CoCu files against NOSS requirements (bilingual headers, assessment criteria, contact hours, learning outcomes, references, equipment lists).",
+      "acceptanceCriteria": [
+        "Script at scripts/generate_review_checklist.py takes CoCu markdown files as input and outputs output/noss_review_checklist_YYYYMMDD.html with embedded CSS/JS",
+        "Checklist includes 40+ validation items grouped by section (headers, assessments, outcomes, contact hours, references, equipment) with pass/fail radio buttons and point scoring",
+        "Function generate_checklist(cocuDir, outputPath) returns dict with {totalPoints, passingPoints, compliancePercentage, flaggedItems}"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-backlog"
+    },
+    {
+      "title": "Build Equipment Deprecation Impact Calculator Tracking EOL Costs",
+      "priority": "medium",
+      "description": "Create Python script that scans all 20 CoCu files for equipment/software references, cross-references against manufacturer end-of-life calendars, calculates replacement costs, and projects budget impact by fiscal year.",
+      "acceptanceCriteria": [
+        "Script at scripts/calculate_equipment_deprecation_impact.py outputs equipment_deprecation_report.json with fields {itemName, currentVersion, eolDate, replacementCost, affectedCoCuFiles, recommendedAction, yearOfUpdate}",
+        "Function audit_equipment_eol(cocuDirectory) scans all markdown and returns list of 40+ equipment items with 2026-2028 EOL projections",
+        "CLI command: uv run scripts/calculate_equipment_deprecation_impact.py --format=json --output=output/ generates Excel export with deprecation timeline by year"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-backlog"
+    },
+    {
+      "title": "Generate Student Learning Analytics Template for Instructor Competency Tracking",
+      "priority": "medium",
+      "description": "Create Python script that generates Excel workbook template instructors use to track student competency progress across all work activities, with auto-calculated mastery metrics and time-to-competency analytics.",
+      "acceptanceCriteria": [
+        "Script at scripts/generate_learning_analytics_template.py outputs output/learning_analytics_template_L{3,4,5}.xlsx with 5 worksheets (student roster, competency matrix, progress tracking, analytics dashboard, export)",
+        "Competency matrix worksheet lists all work activities per level with 4-point rubric scale (Novice=1, Developing=2, Proficient=3, Advanced=4) and auto-calculates average mastery % per student",
+        "Function generate_analytics_template(levelNumber, cocuDirectory) returns Path to Excel file with formulas for {averageMastery%, timeToMastery_weeks, outlierStudents, readinessForNextLevel}"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-backlog"
+    },
+    {
+      "title": "Audit All DOCX Files for WCAG 2.1 AA Accessibility Compliance",
+      "priority": "high",
+      "description": "Create Python script that audits all generated DOCX files for accessibility compliance (color contrast, alt text on images, proper heading hierarchy, language tags for bilingual content, table structure), outputs detailed HTML report.",
+      "acceptanceCriteria": [
+        "Script at scripts/audit_docx_accessibility.py takes output/ directory as input and generates output/accessibility_audit_report_YYYYMMDD.html with color-coded findings (pass/warning/fail)",
+        "Function audit_docx_file(docxPath) checks: {allImagesHaveAltText, headingHierarchyValid, tableHeadersProper, contrastRatioMin4.5_1, languageTagPresent_en_ms, listStructureCorrect}",
+        "CLI command: uv run scripts/audit_docx_accessibility.py --level=3,4,5 --standard=wcag2.1-aa outputs JSON with pass_count, warning_count, fail_count, remediation_steps"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-backlog"
+    },
+    {
+      "title": "Generate Immutable NOSS Compliance Audit Trail with Git History Integration",
+      "priority": "medium",
+      "description": "Create Python script that generates cryptographically signed audit trail showing all changes to NOSS content, including git blame, timestamps, change descriptions, and compliance impact analysis for each commit.",
+      "acceptanceCriteria": [
+        "Script at scripts/generate_compliance_audit_trail.py outputs output/compliance_audit_trail.html as signed HTML document with embedded CSS showing chronological change history",
+        "Function generate_audit_trail(gitRepository, outputPath) queries git log and returns {commitSha, author, timestamp, filesChanged, complianceImpact, changeDescription} for all commits touching content/",
+        "CLI command: uv run scripts/generate_compliance_audit_trail.py --repo=. --sign outputs HTML with SHA256 manifest file, making trail tamper-evident"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-backlog"
+    },
+    {
+      "title": "Generate OpenBadges v3 Digital Credential Metadata for Each Competency",
+      "priority": "high",
+      "description": "Create Python script that generates OpenBadges v3 JSON metadata for each work activity competency, enabling portable digital credentials that learners can display on LinkedIn, wallets, and employer platforms.",
+      "acceptanceCriteria": [
+        "Script at scripts/generate_openbadges_credentials.py outputs output/openbadges/ directory with one JSON file per CoCu {cocuId}_badge.json conforming to OpenBadges v3 spec",
+        "Function generateCredential(cocuId, learnerEmail, achievementDate) returns OpenBadges JSON with fields {name, description, criteria, issuer, alignment_to_framework, image_url, verification}",
+        "Badge JSON includes: competency description, L3/L4/L5 level indicator, work activity alignment, issuer (3U Pioneer Academy), expiration_years=3"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-backlog"
+    },
+    {
+      "title": "Generate Bilingual Peer Assessment Rubric Collaboration Templates",
+      "priority": "medium",
+      "description": "Create Python script that generates HTML5 peer assessment rubric templates with bilingual instructions (English + Bahasa Malaysia), allowing student cohorts to evaluate each other using NOSS 4-point scale.",
+      "acceptanceCriteria": [
+        "Script at scripts/generate_peer_assessment_templates.py outputs output/peer_assessment_rubrics/ with one HTML file per CoCu in format {cocuId}_peer_assessment.html",
+        "HTML includes: bilingual assessment instructions, 4-point rubric (Novice/Developing/Proficient/Advanced), comment box for evidence, digital signature field, export-to-JSON button",
+        "Function generate_peer_rubric(cocuId, cocuDirectory) returns Path to HTML with embedded CSS/JS; supports 3-5 peer raters per competency with conflict resolution (majority vote)"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-backlog"
+    },
+    {
+      "title": "Build MySkills Portal Submission Validator with Pre-Flight Checks",
+      "priority": "high",
+      "description": "Create Python script that validates NOSS compliance package before JPK/MySkills portal upload, checking file formats, metadata completeness, NOSS requirement coverage, and cryptographic integrity.",
+      "acceptanceCriteria": [
+        "Script at scripts/validate_myskills_submission.py takes compliance package ZIP as input and outputs validation_report.json with {isValid: bool, errorCount, warningCount, readyForSubmission: bool}",
+        "Function validate_submission_package(zipPath) checks: {allDocxFilesPresent, metadataJsonValid, md5ManifestCorrect, nossRequirementsCovered>=95%, bilingualContentComplete, contactHoursMathematicallyCorrect}",
+        "CLI command: uv run scripts/validate_myskills_submission.py --package=output/NOSS_compliance_package_YYYYMMDD.zip --fix-issues exits with code 0 (ready) or 1 (needs fixes)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-backlog"
+    },
+    {
+      "title": "Generate Interactive Student Self-Assessment Competency Portfolio Web App",
+      "priority": "medium",
+      "description": "Create Python script that generates standalone HTML5 single-page application where students build evidence portfolios for each competency, tracking progress with self-ratings and evidence uploads.",
+      "acceptanceCriteria": [
+        "Script at scripts/generate_student_portfolio_app.py outputs output/student_portfolio_app.html as fully-functional SPA with embedded CSS/JS using localStorage for data persistence",
+        "App features: competency checklist (all 100+ work activities), self-rating scale (1-4), evidence file upload, progress visualization (% complete per level), export portfolio as JSON",
+        "Function generate_portfolio_app(cocuDirectory, outputPath) creates HTML with: {competencyList, ratingForm, progressChart, exportButton, printFriendlyView}"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-backlog"
+    },
+    {
+      "title": "Generate Monthly NOSS Compliance Scorecard with 12 Key Performance Indicators",
+      "priority": "high",
+      "description": "Create Python script that generates executive scorecard showing 12 KPIs tracking NOSS compliance progress: content completeness, bilingual coverage, assessment readiness, equipment currency, learning outcome quality, contact hour accuracy, practical exercise depth, instructor guide availability, student resource completeness, accessibility compliance, JPK readiness, and overall compliance percentage.",
+      "acceptanceCriteria": [
+        "Script at scripts/generate_compliance_scorecard.py outputs output/compliance_scorecard_YYYYMM.html as one-page dashboard with color-coded KPI indicators (green=target, yellow=watch, red=action required)",
+        "Function generate_scorecard(cocuDirectory, month=None) calculates {contentCompleteness%, bilingualCoverage%, assessmentReadiness%, equipmentCurrency%, learningOutcomeQuality%, contactHourAccuracy%, practicalExerciseDepth%, instructorGuideAvailability%, studentResourceCompleteness%, wcagCompliance%, jpkReadiness%, overallCompliance%}",
+        "Scorecard includes: trend arrows showing month-over-month change, red-flag items requiring urgent action, remediation roadmap for below-target metrics"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-backlog"
+    }
+  ]
+}

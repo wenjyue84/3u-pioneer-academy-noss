@@ -23,8 +23,8 @@ def find_ka_files(patterns: list[str]) -> list[str]:
                 parent = p.parents[1]
             else:
                 parent = Path("aesthetic-services")
-            fallback = str(parent / "C0[1-4]" / "KA.md")
-            files.extend(glob_module.glob(fallback))
+            for cu in sorted(parent.glob("C0[1-4]")):
+                files.extend(str(p) for p in cu.glob("KA*.md"))
     return sorted(set(files))
 
 

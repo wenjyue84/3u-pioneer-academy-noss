@@ -42,7 +42,8 @@ def audit_ka(
         for i in range(1, n_cus + 1):
             cu = f"C{i:02d}"
             cu_dir = it_root / f"{level}-{cu}"
-            ka = cu_dir / "KA.md"
+            ka_matches = sorted(cu_dir.glob("KA*.md")) if cu_dir.is_dir() else []
+            ka = ka_matches[0] if ka_matches else cu_dir / "KA.md"
             entry: dict[str, object] = {
                 "cu": cu,
                 "path": str(ka.relative_to(root)),
@@ -82,12 +83,15 @@ def check_prd_hook(root: Path) -> list[str]:
             r"L(\d)[- ]*C(\d+)", title, re.IGNORECASE
         )
         if m:
-            ka_path = (
-                root
-                / IT_DIR
-                / f"L{m.group(1)}-C{int(m.group(2)):02d}"
-                / "KA.md"
+            cu_dir_path = (
+                root / IT_DIR / f"L{m.group(1)}-C{int(m.group(2)):02d}"
             )
+            ka_matches = (
+                sorted(cu_dir_path.glob("KA*.md"))
+                if cu_dir_path.is_dir()
+                else []
+            )
+            ka_path = ka_matches[0] if ka_matches else cu_dir_path / "KA.md"
             if not ka_path.is_file():
                 sid = story["id"]
                 alerts.append(

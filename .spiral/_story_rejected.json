@@ -1,289 +1,409 @@
 {
   "stories": [
     {
-      "title": "Tuinalogy Acupoint Reference Card Generator for MP-031-3",
+      "title": "Meridian System Image Reference Map Generator for Tuinalogy KP Documents",
       "priority": "high",
-      "description": "Create a Python tool that generates bilingual markdown reference cards for all 14+ acupoints covered in MP-031-3 CUs (C01-C05, E01, E02). Each card includes English/Chinese names (穴位名), anatomical location, indication, contraindication, meridian affiliation, and clinical notes.",
+      "description": "Create a Python generator that reads meridian theory from KP documents and auto-generates structured markdown tables with bilingual headers (简体中文/English/Bahasa Melayu) showing meridian names, acupoint counts, pathway descriptions, and image placeholder syntax.",
       "acceptanceCriteria": [
-        "Generator reads from tuinalogy-services/00-noss-extract.md and outputs 14+ acupoint cards to tuinalogy-services/_reference/acupoints/",
-        "Each card includes: 穴位名 (点位代码), 定位 (location in CM/bone landmarks), 主治 (indications), 禁忌 (contraindications), 所属经络 (meridian), EN/BM clinical terminology",
-        "CLI command: uv run python tools/tuinalogy_acupoint_generator.py --output tuinalogy-services/_reference/acupoints/ validates all 14+ points are included"
+        "Generator creates markdown table for each of 12 primary meridians + 8 extraordinary vessels showing: meridian name (ZH/EN/BM), starting point, ending point, acupoint count, key clinical applications, and image placeholder markdown syntax",
+        "Script generates output file: tuinalogy-services/C01/meridian-reference-map.md with properly formatted tables and bilingual terminology matching NOSS MP-031-3:2016",
+        "Validation confirms all meridian names in table match NOSS CoCU terminology with no mismatches"
       ],
       "technicalNotes": [
-        "File to create: tools/tuinalogy_acupoint_generator.py (class AcupointCardGenerator with method generate_cards(noss_extract_path, output_dir))",
-        "Reference data source: tuinalogy-services/00-noss-extract.md (extract acupoint list from CoCU Related Knowledge)",
-        "Test command: uv run pytest tests/test_acupoint_generator.py::test_all_acupoints_generated -v"
+        "File to create: build/tuinalogy_meridian_generator.py (function: generate_meridian_reference_table)",
+        "File to modify: tuinalogy-services/C01/KP-01.md (insert meridian reference table after introduction)",
+        "Test command: uv run python build/tuinalogy_meridian_generator.py --validate --output tuinalogy-services/C01/meridian-reference-map.md"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tools/tuinalogy_acupoint_generator.py",
-        "tuinalogy-services/_reference/acupoints/LI-04.md",
-        "tuinalogy-services/_reference/acupoints/ST-36.md",
-        "tests/test_acupoint_generator.py"
+        "build/tuinalogy_meridian_generator.py",
+        "tuinalogy-services/C01/KP-01.md",
+        "tuinalogy-services/C01/meridian-reference-map.md"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Tuinalogy Meridian Diagram Markdown Syntax Standard",
+      "title": "Tuinalogy Technique Step-by-Step Procedure Formatter for KK Documents",
       "priority": "high",
-      "description": "Establish standardized markdown syntax for embedding meridian chart placeholders with caption templates. Define syntax for front/back/lateral views, acupoint annotations, and clinical directionals. Create template examples for each CU's primary meridians.",
+      "description": "Build a formatter that converts narrative technique descriptions from KP documents into numbered step-by-step procedures with anatomical landmarks, hand positioning, force guidance, timing, and safety callouts for KK (work sheet) documents.",
       "acceptanceCriteria": [
-        "Define markdown syntax: ![meridian-front|LI|primary-points](./images/LI-front.png) with captions like '图1-1：手阳明大肠经 (Large Intestine Meridian - Front View)' in tuinalogy-services/_reference/meridian-syntax.md",
-        "Create 3 example usage files (tuinalogy-services/_templates/meridian-example-LI.md, tuinalogy-services/_templates/meridian-example-ST.md, tuinalogy-services/_templates/meridian-example-REN.md) with alt-text conventions",
-        "Validator script: uv run python tools/meridian_placeholder_validator.py tuinalogy-services/ checks all KP files for standard syntax compliance"
+        "Formatter converts unstructured technique text into numbered steps (1-12 per technique) with fields: step number, action (ZH), anatomical landmark, hand position, force level (轻/中/重), duration (sec), safety note",
+        "Output markdown includes safety callout box at top of each technique: [!WARNING] 禁忌: [contraindication list]",
+        "Generated KK procedures validate against NOSS CoCU work activity descriptions for C01-C05 with match percentage reported"
       ],
       "technicalNotes": [
-        "File to create: tuinalogy-services/_reference/meridian-syntax.md (document standard, examples, accessibility requirements)",
-        "File to create: tools/meridian_placeholder_validator.py (function validate_meridian_syntax(file_content) returns list of violations)",
-        "Test command: uv run pytest tests/test_meridian_syntax.py -v"
+        "File to create: build/tuinalogy_kk_formatter.py (function: format_technique_to_procedure)",
+        "File to modify: tuinalogy-services/*/KK-*.md (apply formatter to all 7 CUs)",
+        "Test command: uv run python build/tuinalogy_kk_formatter.py tuinalogy-services/C01/KK-01.md --validate"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "build/tuinalogy_kk_formatter.py",
+        "tuinalogy-services/C01/KK-01.md",
+        "tuinalogy-services/C02/KK-01.md",
+        "tuinalogy-services/C03/KK-01.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Acupoint Palpation Landmark Descriptor Generator for Anatomy Resources",
+      "priority": "high",
+      "description": "Create a Python tool that generates detailed anatomical palpation descriptions for 50+ key acupoints used in Tuinalogy. Outputs include skeletal landmarks, muscle/nerve references, palpation depth guidelines, and differential anatomy. Bilingual format (ZH/EN/BM).",
+      "acceptanceCriteria": [
+        "Generator creates markdown file: tuinalogy-services/_assets/acupoint-landmarks-atlas.md with 50+ acupoints, each entry containing: acupoint code, Chinese/English name, anatomical landmarks (bone/muscle), palpation depth (寸/cm), neighboring structures, palpation technique tip",
+        "Each acupoint entry includes image placeholder syntax: ![Landmark](./anatomy/acupoint_code.png) ready for anatomy diagram insertion",
+        "Validation confirms all acupoint codes match NOSS CoCU standard nomenclature and no duplicate entries exist"
+      ],
+      "technicalNotes": [
+        "File to create: build/tuinalogy_acupoint_descriptor.py (function: generate_palpation_landmarks)",
+        "File to create: tuinalogy-services/_assets/acupoint-landmarks-atlas.md (output file)",
+        "Test command: uv run python build/tuinalogy_acupoint_descriptor.py --validate --check-duplicates"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "build/tuinalogy_acupoint_descriptor.py",
+        "tuinalogy-services/_assets/acupoint-landmarks-atlas.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Tuinalogy Related Knowledge Prerequisite Mapper for CU Learning Paths",
+      "priority": "medium",
+      "description": "Build a dependency mapper that identifies prerequisite knowledge chains for each CU (TCM theory → meridian system → acupoint location → technique application). Validates that every KP document addresses required prerequisites and flags missing learning objectives.",
+      "acceptanceCriteria": [
+        "Mapper generates dependency graph showing: C01 prerequisites (TCM basics, yin/yang, 四诊) → C02 (meridian pathways) → C03-C05 (technique application). Outputs as markdown flowchart in tuinalogy-services/learning-paths.md",
+        "Tool scans all KP-*.md files and reports which prerequisites are covered vs. missing with file path and line reference for each gap",
+        "Generated report includes suggested learning sequence for instructors and identifies orphaned KP topics not tied to any CU learning objective"
+      ],
+      "technicalNotes": [
+        "File to create: build/tuinalogy_prerequisite_mapper.py (function: map_cu_dependencies, validate_coverage)",
+        "File to create: tuinalogy-services/learning-paths.md (dependency graph output)",
+        "Test command: uv run python build/tuinalogy_prerequisite_mapper.py --validate tuinalogy-services/ --output learning-paths.md"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "build/tuinalogy_prerequisite_mapper.py",
+        "tuinalogy-services/learning-paths.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Tuinalogy KP Document Readability Enhancer with Markdown Tables and Callouts",
+      "priority": "medium",
+      "description": "Convert dense theory paragraphs in KP (knowledge/information sheet) documents into visually scannable formats using markdown tables, subheadings, concept boxes, and mnemonic callouts. Applies to TCM theory, meridian descriptions, and acupoint sections across all CUs.",
+      "acceptanceCriteria": [
+        "Enhancer converts dense KP-01 (TCM theory) narrative into: definition table (concept | ZH | EN | BM), 8-principles diagram (ASCII table), 4-examination framework (flowchart)",
+        "Output markdown includes callout boxes for key terms: [!NOTE] 定义: [term definition with example]",
+        "Readability validation confirms average paragraph length reduced from 150+ words to <80 words with subheading coverage >90%"
+      ],
+      "technicalNotes": [
+        "File to create: build/tuinalogy_readability_enhancer.py (function: enhance_kp_readability, generate_concept_table)",
+        "File to modify: tuinalogy-services/C01/KP-01.md, tuinalogy-services/C01/KP-02.md",
+        "Test command: uv run python build/tuinalogy_readability_enhancer.py tuinalogy-services/C01/KP-01.md --validate --check-paragraph-length"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "build/tuinalogy_readability_enhancer.py",
+        "tuinalogy-services/C01/KP-01.md",
+        "tuinalogy-services/C01/KP-02.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Tuinalogy Technique Variation Documentation Template Generator",
+      "priority": "medium",
+      "description": "Create a template generator for documenting regional and stylistic variations of major Tuinalogy techniques (推法/拿法/按法). Each variation record includes hand position differences, force profile, clinical indications, and contraindications in structured markdown.",
+      "acceptanceCriteria": [
+        "Generator creates templates for 8 major techniques showing variations: technique name, hand form, force application (light/medium/strong), speed (slow/medium/fast), clinical uses, contraindications, image placeholder",
+        "Output file: tuinalogy-services/technique-variations-reference.md with structured sections for each technique properly linked to CU/learning objective",
+        "Validation confirms all documented techniques match NOSS CoCU work activities with no content gaps between template and corresponding KK procedure documents"
+      ],
+      "technicalNotes": [
+        "File to create: build/tuinalogy_technique_variations.py (function: generate_technique_variation_template)",
+        "File to create: tuinalogy-services/technique-variations-reference.md",
+        "Test command: uv run python build/tuinalogy_technique_variations.py --validate --match-noss-activities"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tuinalogy-services/_reference/meridian-syntax.md",
-        "tuinalogy-services/_templates/meridian-example-LI.md",
-        "tuinalogy-services/_templates/meridian-example-ST.md",
-        "tuinalogy-services/_templates/meridian-example-REN.md",
-        "tools/meridian_placeholder_validator.py",
-        "tests/test_meridian_syntax.py"
+        "build/tuinalogy_technique_variations.py",
+        "tuinalogy-services/technique-variations-reference.md"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "TCM Theory Bilingual Term Consistency Auditor",
-      "priority": "high",
-      "description": "Scans all Tuinalogy KP/KK files and identifies inconsistent usage of core TCM terminology (经络/meridian, 穴位/acupoint, 八纲/eight principles, 四诊/four examinations, 气血/qi-blood, 阴阳/yin-yang, 辨证论治/pattern differentiation). Reports variant spellings, code switches, and suggests standardization.",
+      "title": "Tuinalogy Treatment Protocol Designer for Common Clinical Conditions",
+      "priority": "medium",
+      "description": "Build reusable treatment protocol templates for 5 common conditions (cervical pain, lower back pain, shoulder tension, headache, fatigue). Protocols map to NOSS CU learning objectives and include patient intake form, acupoint selection rationale, sequence, timing, and hygiene procedures.",
       "acceptanceCriteria": [
-        "Auditor reads tuinalogy-services/C0[1-5]/ and E0[1-2]/ KP/KK files, detects all TCM terms with variants (e.g., '经络' vs '经络系统' vs 'meridian system')",
-        "Generates: tuinalogy-services/_reports/tcm-term-consistency.csv with columns: Term (CN), Variant Count, Files Affected, Recommended Standard, Status (OK/INCONSISTENT)",
-        "CLI: uv run python tools/tcm_term_auditor.py tuinalogy-services/ --reference tuinalogy-services/_reference/tcm-glossary.json outputs consistency report"
+        "Generator creates 5 treatment protocols in tuinalogy-services/C04-C05-protocols/: each protocol includes patient intake form (ZH), diagnosis differential logic, acupoint prescription with rationale, technique sequence with timing (min), safety checks, post-treatment advice",
+        "Each protocol is cross-referenced to 2-3 supporting KP/KK/PA documents from corresponding CUs with hyperlinks",
+        "Template includes assessment criteria field that references NOSS performance assessment rubrics for quality verification"
       ],
       "technicalNotes": [
-        "File to create: tools/tcm_term_auditor.py (function audit_term_consistency(folder, glossary) returns list of inconsistencies)",
-        "Reference file: tuinalogy-services/_reference/tcm-glossary.json with canonical terms: {'经络': ['meridian', 'system'], '穴位': ['acupoint', 'point'], ...}",
-        "Test command: uv run pytest tests/test_tcm_auditor.py::test_detects_variant_terms -v"
+        "File to create: build/tuinalogy_protocol_designer.py (function: generate_treatment_protocol)",
+        "File to create: tuinalogy-services/C04-C05-protocols/cervical-pain-protocol.md, lower-back-pain-protocol.md, shoulder-tension-protocol.md",
+        "Test command: uv run python build/tuinalogy_protocol_designer.py --validate --check-rubric-alignment"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tools/tcm_term_auditor.py",
-        "tuinalogy-services/_reference/tcm-glossary.json",
-        "tests/test_tcm_auditor.py",
-        "tuinalogy-services/_reports/.gitkeep"
+        "build/tuinalogy_protocol_designer.py",
+        "tuinalogy-services/C04-C05-protocols/cervical-pain-protocol.md",
+        "tuinalogy-services/C04-C05-protocols/lower-back-pain-protocol.md"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Tuinalogy KK Technique Procedure Step Validator",
+      "title": "Tuinalogy Safety Procedure Callout Box Injector for High-Risk Techniques",
       "priority": "high",
-      "description": "Validates each KK (work activity worksheet) for procedural quality: numbered steps clarity, safety warnings at contraindicated points, time estimates, hand placement accuracy, and pressure specifications. Ensures compliance with WIM format and practical safety.",
+      "description": "Automated tool that scans all KK (work sheet) documents for high-risk techniques and automatically injects formatted safety callout boxes containing contraindications, patient screening checklist, adverse reaction recognition, and emergency response procedures.",
       "acceptanceCriteria": [
-        "Validator scans tuinalogy-services/C0[1-5]/KK-*.md and reports: missing step numbers, missing safety warnings at forbidden acupoints, missing time estimates, vague hand placement (flags terms like '按摩' without 'of acupoint X')",
-        "Generates: tuinalogy-services/_reports/kk-procedure-gaps.txt with file path, step no., gap type, and fix suggestion",
-        "CLI: uv run python tools/kk_procedure_validator.py tuinalogy-services/ --strict enforces all 3 criteria, exits 1 if gaps found"
+        "Tool identifies 20+ high-risk techniques in KK documents (深按/强力拿法) and injects safety boxes: [!WARNING] 禁忌: [list], [!CAUTION] 注意事项: [list], [!DANGER] 不良反应识别: [symptoms]",
+        "Safety box injection creates backup of original file with .bak extension and reports injection count per CU document",
+        "Validation confirms all injected contraindications match NOSS pregnancy contraindications list and Malaysian T&CM Act 2013 requirements"
       ],
       "technicalNotes": [
-        "File to create: tools/kk_procedure_validator.py (class ProcedureValidator with methods: validate_step_numbering(), validate_safety_warnings(), validate_time_estimates())",
-        "Reference: Define required section patterns in tools/config/kk-section-patterns.json (step format regex, safety warning keywords, time estimate keywords)",
-        "Test command: uv run pytest tests/test_kk_validator.py::test_missing_safety_warnings -v"
+        "File to create: build/tuinalogy_safety_injector.py (function: inject_safety_callouts, identify_high_risk_techniques)",
+        "File to modify: tuinalogy-services/C03/KK-*.md, tuinalogy-services/C04/KK-*.md (backup before injection)",
+        "Test command: uv run python build/tuinalogy_safety_injector.py tuinalogy-services/ --dry-run --validate-contraindications"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "build/tuinalogy_safety_injector.py",
+        "tuinalogy-services/C03/KK-01.md",
+        "tuinalogy-services/C04/KK-01.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Tuinalogy Energy Flow Mnemonic Creator for Meridian Pathways",
+      "priority": "medium",
+      "description": "Generate mnemonic aids for each of the 12 primary meridians plus 8 extraordinary vessels showing acupoint sequence in pathway order, clinical applications, associated organs, and anatomical route in structured Chinese format suitable for embedding in KP documents.",
+      "acceptanceCriteria": [
+        "Generator creates mnemonic file: tuinalogy-services/_assets/meridian-mnemonics.md with 20 meridian entries (12 primary + 8 extraordinary). Each entry includes: meridian name (ZH), acupoint sequence with memory aid, clinical applications table, organ associations, pathway diagram placeholder",
+        "Output includes both linear pathway sequences and cyclic/circular representations for extraordinary vessels (Ren, Du, etc.)",
+        "Validation confirms all acupoint sequences and organ associations match NOSS reference standard with >95% accuracy"
+      ],
+      "technicalNotes": [
+        "File to create: build/tuinalogy_meridian_mnemonics.py (function: generate_meridian_mnemonic, create_pathway_sequence)",
+        "File to create: tuinalogy-services/_assets/meridian-mnemonics.md",
+        "Test command: uv run python build/tuinalogy_meridian_mnemonics.py --validate --check-sequences"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tools/kk_procedure_validator.py",
-        "tools/config/kk-section-patterns.json",
-        "tests/test_kk_validator.py",
-        "tuinalogy-services/_reports/.gitkeep"
+        "build/tuinalogy_meridian_mnemonics.py",
+        "tuinalogy-services/_assets/meridian-mnemonics.md"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Tuinalogy Bloom's Taxonomy Cognitive Level Mapper",
-      "priority": "medium",
-      "description": "Maps each CU learning outcome to Bloom's cognitive levels (记忆/remember, 理解/understand, 应用/apply, 分析/analyze, 评价/evaluate, 创造/create) and cross-references corresponding KP sections, KT questions, and PA assessment tasks. Ensures learning progression and assessment alignment.",
-      "acceptanceCriteria": [
-        "Mapper reads tuinalogy-services/00-noss-extract.md CoCU Learning Outcomes for each CU, classifies each outcome by cognitive level, outputs tuinalogy-services/_reports/bloom-mapping.md",
-        "Report includes: Learning Outcome → Cognitive Level → Supporting KP Section (with file path) → KT Question IDs → PA Task IDs; flags gaps where no KT/PA exists",
-        "CLI: uv run python tools/bloom_mapper.py tuinalogy-services/ --output _reports/ --check-coverage validates at least 1 KT and 1 PA per learning outcome"
-      ],
-      "technicalNotes": [
-        "File to create: tools/bloom_mapper.py (function classify_outcome_bloom_level(outcome_text) returns level, function link_to_kp_kt_pa(outcome, kp_files, kt_files) returns cross-refs)",
-        "Uses NLP or keyword matching (define keywords per level in tools/config/bloom-keywords.json) to classify outcomes",
-        "Test command: uv run pytest tests/test_bloom_mapper.py::test_maps_all_outcomes -v"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "tools/bloom_mapper.py",
-        "tools/config/bloom-keywords.json",
-        "tests/test_bloom_mapper.py",
-        "tuinalogy-services/_reports/bloom-mapping.md"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Tuinalogy Acupoint Combination Safety Matrix Generator",
-      "priority": "medium",
-      "description": "Generates a clinical reference matrix of 20+ common acupoint combinations used in Tuinalogy with their therapeutic effects, contraindications, synergistic mechanisms, and safety protocols. Helps practitioners understand compound techniques and identify unsafe combinations.",
-      "acceptanceCriteria": [
-        "Generator creates tuinalogy-services/_reference/acupoint-combinations-matrix.md with table: Combination (CN), Points, Therapeutic Effect (CN + EN), Contraindication, Synergy Mechanism, Safety Notes",
-        "Covers 20+ combinations from NOSS CoCU (e.g., LI-4 + ST-36 for qi tonification, LI-4 + GB-20 for head/neck pain, SP-6 + ST-36 + REN-4 for immune support - with pregnancy warnings)",
-        "CLI: uv run python tools/acupoint_combo_generator.py --validate checks each combination against forbidden acupoint list and pregnancy contraindications"
-      ],
-      "technicalNotes": [
-        "File to create: tools/acupoint_combo_generator.py (function generate_combinations(noss_extract, forbidden_list) returns markdown matrix)",
-        "Data source: Extract combinations from tuinalogy-services/00-noss-extract.md Work Activities and Related Knowledge",
-        "Test command: uv run pytest tests/test_acupoint_combo.py::test_no_forbidden_combinations -v"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "medium",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "tools/acupoint_combo_generator.py",
-        "tuinalogy-services/_reference/acupoint-combinations-matrix.md",
-        "tests/test_acupoint_combo.py"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Assessment Question Time-Box Validator for Tuinalogy and BEV",
+      "title": "Tuinalogy Assessment Question Link Validator with Coverage Analysis",
       "priority": "high",
-      "description": "Analyzes all KA (Knowledge Assessment) and PA (Performance Assessment) questions in Tuinalogy (MP-031-3) and BEV (G452-010-3) to identify questions without time estimates. Validates that total estimated time aligns with training hours distribution (30% knowledge / 70% performance). Reports summary statistics.",
+      "description": "Build a validator tool that cross-references every question in KA (knowledge assessment) and PA (performance assessment) documents to its source KP/KK document and corresponding NOSS CoCU learning objective. Reports orphaned questions, coverage gaps, and alignment mismatches.",
       "acceptanceCriteria": [
-        "Validator scans tuinalogy-services/C0[1-5]/KA.md, E0[1-2]/KA.md, tuinalogy-services/C0[1-5]/PA.md, E0[1-2]/PA.md (and equivalent BEV files) for time estimates in question metadata",
-        "Generates: tuinalogy-services/_reports/time-box-analysis.txt and bev-diagnostic-rectification/_reports/time-box-analysis.txt with: total KA time, total PA time, ratio, missing-time-estimate questions list, recommended adjustments",
-        "CLI: uv run python tools/timebox_validator.py --subject tuinalogy --hours-total 240 --knowledge-pct 30 checks if times align with 30/70 split"
+        "Validator scans all KA-*.md and PA-*.md files (C01-C05, E01, E02) and produces report: tuinalogy-services/assessment-coverage-report.md showing per-question: question ID, KP/KK source reference, CU learning objective code, alignment status (matched/orphaned/misaligned)",
+        "Report highlights missing assessments for CUs with low coverage (<80%) and suggests KA/PA questions needed to close gaps",
+        "Tool flags any question asking content not covered in corresponding KP documents with file path and line number for investigation"
       ],
       "technicalNotes": [
-        "File to create: tools/timebox_validator.py (function extract_time_estimates(question_list), function validate_split(ka_total_min, pa_total_min, knowledge_pct) returns ratio)",
-        "Pattern matching: Look for markdown metadata like '<!-- Time: 5 minutes -->' or '**Answer Time:** 8 min' in question text",
-        "Test command: uv run pytest tests/test_timebox_validator.py::test_detects_missing_estimates -v"
-      ],
-      "dependencies": [],
-      "estimatedComplexity": "small",
-      "tags": [],
-      "source": "",
-      "filesTouch": [
-        "tools/timebox_validator.py",
-        "tests/test_timebox_validator.py",
-        "tuinalogy-services/_reports/time-box-analysis.txt",
-        "bev-diagnostic-rectification/_reports/time-box-analysis.txt"
-      ],
-      "_source": "ai-example",
-      "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
-    },
-    {
-      "title": "Tuinalogy Related Knowledge Dependency Mapper",
-      "priority": "medium",
-      "description": "Parses MP-031-3:2016 NOSS CoCU and identifies knowledge prerequisites and dependencies (e.g., meridian anatomy must be understood before acupoint location, qi-blood theory before tonification techniques). Cross-references against KP coverage. Flags knowledge gaps and suggests content ordering.",
-      "acceptanceCriteria": [
-        "Mapper reads tuinalogy-services/00-noss-extract.md, builds dependency graph (Related Knowledge → prerequisites), outputs tuinalogy-services/_reports/knowledge-dependency-map.md with graph visualization (text-based tree or mermaid)",
-        "Report includes: Knowledge Topic → Dependencies → Current KP Coverage (file path + section) → Gap Analysis (missing prerequisite content)",
-        "CLI: uv run python tools/knowledge_dependency_mapper.py tuinalogy-services/ --check-coverage outputs gaps where prerequisite knowledge is not covered in KP"
-      ],
-      "technicalNotes": [
-        "File to create: tools/knowledge_dependency_mapper.py (function build_dependency_graph(noss_extract), function map_to_kp_coverage(graph, kp_files))",
-        "Dependency rules: Define in tools/config/knowledge-prerequisites.json (e.g., 'acupoint-location' depends on 'meridian-theory', 'meridian-theory')",
-        "Test command: uv run pytest tests/test_knowledge_dependency.py::test_identifies_missing_prerequisites -v"
+        "File to create: build/tuinalogy_assessment_validator.py (function: validate_assessment_links, report_coverage_gaps)",
+        "File to create: tuinalogy-services/assessment-coverage-report.md",
+        "Test command: uv run python build/tuinalogy_assessment_validator.py tuinalogy-services/ --validate --output assessment-coverage-report.md"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tools/knowledge_dependency_mapper.py",
-        "tools/config/knowledge-prerequisites.json",
-        "tuinalogy-services/_reports/knowledge-dependency-map.md",
-        "tests/test_knowledge_dependency.py"
+        "build/tuinalogy_assessment_validator.py",
+        "tuinalogy-services/assessment-coverage-report.md"
       ],
       "_source": "ai-example",
       "passes": false,
       "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "WIM Document Section Readability Analyzer for Tuinalogy",
-      "priority": "medium",
-      "description": "CLI tool that reads Tuinalogy KP/KK markdown, calculates readability scores (Flesch-Kincaid for English sections, CMN Flesch equivalent for Simplified Chinese), identifies dense paragraphs (>150 words without subheading), and suggests structural improvements (add callouts, tables, definition lists).",
+      "title": "Tuinalogy Acupoint Anatomy Image Placeholder System with Caption Templates",
+      "priority": "high",
+      "description": "Create a markdown generator that auto-produces image placeholder syntax for anatomical diagrams showing skeletal landmarks, muscle/nerve anatomy, and confident location markers for 30+ key acupoints. Outputs include standardized caption templates with multilingual labels (ZH/EN/BM).",
       "acceptanceCriteria": [
-        "Analyzer scans tuinalogy-services/C0[1-5]/KP-*.md and KK-*.md, produces tuinalogy-services/_reports/readability-analysis.csv with: file, section, readability-score (0-100), suggested-improvements (add subheading / convert to table / add callout)",
-        "Flags: paragraphs >150 words without subheading, lists >7 items without table conversion, technical terms without definition inline or in glossary",
-        "CLI: uv run python tools/readability_analyzer.py tuinalogy-services/ --language mixed outputs score summary and improvement suggestions per file"
+        "Generator creates markdown blocks for 30+ acupoints in file: tuinalogy-services/_assets/acupoint-anatomy-placeholders.md. Each block includes: ![Anatomy](./images/anatomy_acupoint_code.png \"ZH: 穴位名 | EN: Point Name | Landmarks: [bone/muscle]\"), standardized caption template with key anatomical features",
+        "Output validates image paths are consistent with project structure and WIM naming conventions (MP-031-3-C##-anatomy-##.png)",
+        "Template system supports adding 30+ acupoints with 50-line script input file, no hardcoding needed"
       ],
       "technicalNotes": [
-        "File to create: tools/readability_analyzer.py (function analyze_english_readability(text) using textstat library, function analyze_chinese_readability(text) with CMN Flesch formula)",
-        "Install: uv pip install textstat for English readability",
-        "Test command: uv run pytest tests/test_readability_analyzer.py::test_identifies_dense_paragraphs -v"
+        "File to create: build/tuinalogy_anatomy_placeholder.py (function: generate_anatomy_placeholders, create_caption_template)",
+        "File to create: tuinalogy-services/_assets/acupoint-anatomy-placeholders.md",
+        "Test command: uv run python build/tuinalogy_anatomy_placeholder.py build/anatomy-config.txt --validate --check-paths"
       ],
       "dependencies": [],
       "estimatedComplexity": "small",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tools/readability_analyzer.py",
-        "tests/test_readability_analyzer.py",
-        "tuinalogy-services/_reports/readability-analysis.csv"
+        "build/tuinalogy_anatomy_placeholder.py",
+        "build/anatomy-config.txt",
+        "tuinalogy-services/_assets/acupoint-anatomy-placeholders.md"
       ],
       "_source": "ai-example",
       "passes": false,
-      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     },
     {
-      "title": "Tuinalogy Instructor Notes Template Extractor and Generator",
+      "title": "Tuinalogy Technique Contraindication Cross-Referencer Matrix Tool",
       "priority": "medium",
-      "description": "Generates structured instructor guidance for each CU based on learning objectives, technique safety, common student mistakes, timing notes, and assessment strategies. Produces template files (one per CU) that instructors can populate with experience-based insights.",
+      "description": "Build a tool that creates an interactive matrix mapping each major Tuinalogy technique (推法/拿法/按法) to applicable/contraindicated conditions, populations (pregnant, elderly, injured), and supporting evidence from NOSS CoCU. Outputs as markdown table and instructor reference document.",
       "acceptanceCriteria": [
-        "Generator creates tuinalogy-services/C0[1-5]/instructor-notes.md and E0[1-2]/instructor-notes.md with sections: Learning Objectives Summary, Technique Safety Highlights, Common Mistakes to Watch, Timing Guidance (per KK), Assessment Tips, Reflection Prompts for Learners",
-        "Each CU file includes 1-2 paragraphs per section with placeholder areas for instructor's own notes (e.g., '### Common Mistakes (Add Your Observations):')",
-        "CLI: uv run python tools/instructor_notes_generator.py tuinalogy-services/ --template-only outputs all templates without custom content (instructor can add later)"
+        "Tool generates matrix file: tuinalogy-services/_assets/technique-contraindication-matrix.md with columns: technique name, applicable conditions (10+ per technique), contraindicated conditions, high-risk populations, severity level (禁忌/慎用/可用), NOSS CoCU reference",
+        "Matrix validates all contraindications against pregnancy safety rules (禁忌五穴) and flags any discrepancies with line-by-line report",
+        "Instructor reference document: tuinalogy-services/instructor-technique-guide.md auto-generated with technique summaries, decision trees, safety checklist per condition"
       ],
       "technicalNotes": [
-        "File to create: tools/instructor_notes_generator.py (function generate_instructor_notes(cu_code, noss_extract, kk_files) returns markdown template)",
-        "Extract safety highlights from pregnancy validator, technique steps from KK, learning objectives from CoCU",
-        "Test command: uv run pytest tests/test_instructor_notes.py::test_all_cu_templates_generated -v"
+        "File to create: build/tuinalogy_technique_contraindication.py (function: build_contraindication_matrix, generate_instructor_guide)",
+        "File to create: tuinalogy-services/_assets/technique-contraindication-matrix.md",
+        "File to create: tuinalogy-services/instructor-technique-guide.md",
+        "Test command: uv run python build/tuinalogy_technique_contraindication.py --validate --check-pregnancy-safety"
       ],
       "dependencies": [],
       "estimatedComplexity": "medium",
       "tags": [],
       "source": "",
       "filesTouch": [
-        "tools/instructor_notes_generator.py",
-        "tuinalogy-services/C01/instructor-notes.md",
-        "tuinalogy-services/C02/instructor-notes.md",
-        "tuinalogy-services/C03/instructor-notes.md",
-        "tuinalogy-services/C04/instructor-notes.md",
-        "tuinalogy-services/C05/instructor-notes.md",
-        "tuinalogy-services/E01/instructor-notes.md",
-        "tuinalogy-services/E02/instructor-notes.md",
-        "tests/test_instructor_notes.py"
+        "build/tuinalogy_technique_contraindication.py",
+        "tuinalogy-services/_assets/technique-contraindication-matrix.md",
+        "tuinalogy-services/instructor-technique-guide.md"
       ],
       "_source": "ai-example",
       "passes": false,
-      "_rejection_reason": "too_complex: touches 9 files (limit 8) -- split into smaller stories"
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Tuinalogy KT Question Type Diversifier with Missing Format Generator",
+      "priority": "medium",
+      "description": "Review all existing KT (assignment sheet) assessments by CU, identify missing question formats (scenario-based diagnosis, image labeling, matching, sequencing, analysis), and auto-generate 3-5 example questions for each missing type with answer schemes and marking rubrics aligned with Bloom's taxonomy.",
+      "acceptanceCriteria": [
+        "Tool scans all KT-*.md files (C01-C05, E01, E02) and generates report: tuinalogy-services/kt-format-analysis.md showing per-CU format distribution (MCQ %, short answer %, scenario %) and identifies underrepresented types (target: <20% single format per CU)",
+        "Generator creates KT-XX-supplementary.md files with 15+ example questions spanning missing formats: scenario (patient presents with symptom → diagnose + treatment plan), image labeling, matching, sequencing, analysis per Bloom's level",
+        "Each generated question includes answer scheme with marking rubric (0-5 points) and cognitive level tag (remember/understand/apply/analyze/evaluate)"
+      ],
+      "technicalNotes": [
+        "File to create: build/tuinalogy_kt_diversifier.py (function: analyze_kt_formats, generate_supplementary_questions)",
+        "File to create: tuinalogy-services/kt-format-analysis.md",
+        "File to create: tuinalogy-services/C01/KT-01-supplementary.md, tuinalogy-services/C02/KT-02-supplementary.md",
+        "Test command: uv run python build/tuinalogy_kt_diversifier.py tuinalogy-services/ --validate --check-blooms-coverage"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "build/tuinalogy_kt_diversifier.py",
+        "tuinalogy-services/kt-format-analysis.md",
+        "tuinalogy-services/C01/KT-01-supplementary.md",
+        "tuinalogy-services/C02/KT-02-supplementary.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Tuinalogy Instructor Notes Generator for Teaching Support and Facilitation",
+      "priority": "medium",
+      "description": "Create a structured instructor guide generator that produces teaching notes for each KP/KK document. Includes teaching tips, common student errors, demonstration sequences with timing, facilitation questions aligned with Bloom's taxonomy, and classroom activity suggestions.",
+      "acceptanceCriteria": [
+        "Generator creates instructor notes file: tuinalogy-services/instructor-notes/C01-notes.md with sections for each KP/KK document: learning objectives (Bloom's level), key teaching points (5-10 per section), common misconceptions with corrections, demonstration checklist (step-by-step), suggested classroom activities (15-30 min), reflection prompts, time-boxing guide",
+        "Notes include embedded image/diagram references with descriptive captions for visual learners and interactive activity suggestions (pair work, case discussion, role play)",
+        "All instructor notes reference corresponding NOSS CoCU learning outcomes and include assessment alignment checkpoints"
+      ],
+      "technicalNotes": [
+        "File to create: build/tuinalogy_instructor_notes.py (function: generate_instructor_notes, suggest_activities)",
+        "File to create: tuinalogy-services/instructor-notes/C01-notes.md, C02-notes.md",
+        "Test command: uv run python build/tuinalogy_instructor_notes.py tuinalogy-services/ --validate --check-blooms-levels"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "medium",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "build/tuinalogy_instructor_notes.py",
+        "tuinalogy-services/instructor-notes/C01-notes.md",
+        "tuinalogy-services/instructor-notes/C02-notes.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 0 measurable ACs -- specify test commands, file paths, or numeric thresholds"
+    },
+    {
+      "title": "Tuinalogy Spaced Retrieval Flash Card Generator with Cognitive Taxonomy Tagging",
+      "priority": "low",
+      "description": "Convert key learning points from each CU KP/KT documents into spaced retrieval flash card pairs (question/answer) with Bloom's cognitive level tagging. Auto-generates markdown index organized by CU, topic, and difficulty level for use with spaced repetition study tools and Anki export.",
+      "acceptanceCriteria": [
+        "Generator scans KP-*.md and KT-*.md files and creates flash card deck: tuinalogy-services/_assets/flash-cards.md with 100+ Q&A pairs (5-10 cards per CU). Each card includes: question (ZH), answer (ZH with EN/BM terms), topic tag, Bloom's level (1-6), difficulty (easy/medium/hard), source document reference",
+        "Output markdown can be imported into Anki format via script: build/markdown_to_anki.py exports/tuinalogy-flashcards.apkg",
+        "Index file includes spaced repetition schedule recommendations (1 day / 3 days / 7 days / 21 days) aligned with cognitive level difficulty progression"
+      ],
+      "technicalNotes": [
+        "File to create: build/tuinalogy_flashcard_generator.py (function: extract_learning_points, generate_flashcards, tag_cognitive_level)",
+        "File to create: build/markdown_to_anki.py",
+        "File to create: tuinalogy-services/_assets/flash-cards.md",
+        "Test command: uv run python build/tuinalogy_flashcard_generator.py tuinalogy-services/ --validate --export-anki exports/flashcards.apkg"
+      ],
+      "dependencies": [],
+      "estimatedComplexity": "small",
+      "tags": [],
+      "source": "",
+      "filesTouch": [
+        "build/tuinalogy_flashcard_generator.py",
+        "build/markdown_to_anki.py",
+        "tuinalogy-services/_assets/flash-cards.md"
+      ],
+      "_source": "ai-example",
+      "passes": false,
+      "_rejection_reason": "too_simple: only 1 measurable ACs -- specify test commands, file paths, or numeric thresholds"
     }
   ]
 }

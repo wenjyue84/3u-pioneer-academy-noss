@@ -1,0 +1,104 @@
+<!-- JPK_ENVELOPE_v1 -->
+<table border="0" cellspacing="0" cellpadding="8" width="100%">
+<tr>
+<td width="130" valign="top"><img src="../_assets/logos/jpk-logo.png" alt="JPK Logo" width="110"></td>
+<td valign="middle">
+<b>JABATAN PEMBANGUNAN KEMAHIRAN (JPK)</b><br>
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,<br>
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,<br>
+62530 PUTRAJAYA
+</td>
+</tr>
+</table>
+
+## KERTAS TUGASAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | IT-020-3:2013 OPERASI SISTEM KOMPUTER |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | IT-020-3:2013-C01 COMPUTER SYSTEM SET-UP |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. ANALYSE JOB ORDER/CHANGE REQUEST<br>2. PREPARE COMPUTER SET-UP TOOLS, COMPUTER HARDWARE PARTS AND COMPUTER SOFTWARE<br>3. SET-UP COMPUTER HARDWARE<br>4. CARRY OUT COMPUTER SOFTWARE INSTALLATION<br>5. SET-UP COMPUTER PERIPHERALS<br>6. CARRY OUT UNIT FUNCTIONALITY TEST<br>7. PREPARE COMPUTER SET-UP REPORT |
+| NO. KOD | IT-020-3:2013-C01/KT(6/7) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** KT-06-system-testing-knowledge-assignment
+
+**TUJUAN:** Kertas rujukan untuk KT-06-system-testing-knowledge-assignment.
+
+**ARAHAN:** Pelatih dikehendaki melaksanakan tugasan/kerja mengikut prosedur yang ditetapkan dalam kertas ini. Rujuk pensyarah sekiranya perlu penjelasan lanjut.
+
+<!-- /JPK_ENVELOPE_v1 -->
+## Arahan / Instructions
+
+Answer ALL questions. Refer to KP(6/7) for guidance. This assignment is formative.
+
+**Masa / Duration:** 40 minutes
+
+---
+
+## Soalan / Questions
+
+### Bahagian A: Soalan Pelbagai Pilihan / Multiple Choice (10 marks)
+
+**A1.** What is the purpose of system functionality testing?
+
+- (a) To make the computer run faster
+- (b) To confirm all hardware and software are working correctly before user handover
+- (c) To install additional software
+- (d) To replace faulty parts
+
+**A2.** Which utility shows all installed hardware devices and their driver status?
+
+- (a) Task Manager
+- (b) Device Manager
+- (c) Calculator
+- (d) Notepad
+
+**A3.** During a stress test, what should the technician monitor?
+
+- (a) The colour of the case LEDs
+- (b) CPU and GPU temperatures, system stability
+- (c) Internet browsing speed only
+- (d) The number of files on the desktop
+
+**A4.** A yellow triangle icon in Device Manager indicates:
+
+- (a) The device is working perfectly
+- (b) The device has a driver problem or error
+- (c) The device is a printer
+- (d) The device is connected via Bluetooth
+
+**A5.** Which command is used to verify network connectivity to a gateway?
+
+- (a) dir
+- (b) ping
+- (c) format
+- (d) cls
+
+### Bahagian B: Soalan Jawapan Pendek / Short Answer (15 marks)
+
+**B1.** List FIVE (5) system utilities used for testing and monitoring, and state the purpose of each. (10 marks)
+
+**B2.** State FIVE (5) acceptance criteria that must be met before a system can be handed over to the user. (5 marks)
+
+### Bahagian C: Senario / Scenario Question (15 marks)
+
+**C1.** After completing the set-up of a new desktop computer, you run the functionality test. You discover the following:
+- Device Manager shows one unknown device (yellow triangle)
+- The CPU temperature reaches 95 degrees Celsius during a brief stress test
+- The network ping to the gateway fails
+
+For each issue, explain:
+(i) The likely cause
+(ii) The troubleshooting steps you would take to resolve it
+(iii) How you would verify the issue is resolved
+
+(15 marks)
+
+---
+
+## Skema Jawapan / Answer Scheme
+
+*To be provided by the instructor after submission.*

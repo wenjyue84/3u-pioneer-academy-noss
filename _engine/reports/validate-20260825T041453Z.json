@@ -1,0 +1,18 @@
+[
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "C02 DIRECT / RETAIL SALES",
+    "line": 16
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "error",
+    "message": "page-count placeholder ⟪PAGES⟫ was never backfilled — run build/ppa_integrate.py before delivery.",
+    "evidence": "fb-018-3-set-b-skema.md",
+    "line": null
+  }
+]

@@ -1,0 +1,16 @@
+# NotebookLM: ADI IT Program
+
+**NotebookLM:** [ADI IT Program](https://notebooklm.google.com/notebook/b6d5e54d-0ac1-4bc2-bcc4-c1a7c4db87b5)  
+**Sources:** 11 (JPK/DSD ADI pages, Skills4Johor guidelines, NOSS/ADI PDFs, TVET blog, MGCC Newslink)
+
+---
+
+## Summary
+
+These materials outline Malaysia’s **Department of Skills Development (JPK)** **Academy in Industry (ADI)** programme. The programme uses a “**hire-then-train**” model to provide **Malaysian Skills Certificate (SKM)** training from Level 1 to 5 for in-service workers. **SKILLS4JOHOR** supports **public–private partnership** for areas such as digital marketing with employment and funding. **NOSS** defines competency and training standards (e.g. digital marketing operations at Level 3).
+
+---
+
+## Related
+
+- [[01 Main - Apply NOSS IT-020 Computer System Management]] — main project file

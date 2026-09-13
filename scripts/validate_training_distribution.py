@@ -158,8 +158,11 @@ def scan_subject(subject_key: str) -> list[CUDistribution]:
     )
 
     for cu_dir in cu_dirs:
-        teori_path = cu_dir / "PM-teori.md"
-        amali_path = cu_dir / "PM-amali.md"
+        # Accept both bare (`PM-teori.md`) and descriptive (`PM-teori-foo.md`) names.
+        teori_matches = sorted(cu_dir.glob("PM-teori*.md"))
+        amali_matches = sorted(cu_dir.glob("PM-amali*.md"))
+        teori_path = teori_matches[0] if teori_matches else cu_dir / "PM-teori.md"
+        amali_path = amali_matches[0] if amali_matches else cu_dir / "PM-amali.md"
 
         if not teori_path.exists() and not amali_path.exists():
             continue

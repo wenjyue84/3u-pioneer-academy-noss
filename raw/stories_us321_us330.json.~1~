@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "Implement NOSS Header Format Validator Checking All 20 CoCus Against NOSS Standard",
+      "priority": "high",
+      "description": "Automated validation that all CoCu header tables match exact NOSS structure with required columns, proper ordering, and bilingual content. Generate compliance report identifying remediation needs.",
+      "acceptanceCriteria": [
+        "CLI command 'uv run scripts/validate_noss_headers.py' validates all 20 CoCu .md files and outputs JSON report to output/noss_header_validation_report.json",
+        "Report includes per-file validation status, missing required columns (Program Code, Level, Unit Title, Work Activities, Code, Contact Hours), and bilingual title verification",
+        "Aggregate compliance percentage and list of CoCus requiring specific remediation actions"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Create NOSS Allocation Compliance Validator for 30% Knowledge / 70% Performance Split",
+      "priority": "high",
+      "description": "Verify that every work activity and learning outcome across all 20 CoCus explicitly allocates 30% Knowledge and 70% Performance as per NOSS requirements. Generate detailed compliance metrics.",
+      "acceptanceCriteria": [
+        "Script parses content/IT-020-{3,4,5}/*.md files and validates allocation percentages in work activity descriptions and learning outcome matrices",
+        "Output CSV to output/allocation_compliance_report.csv with per-CoCu compliance percentage, row-level allocation checks, and variance analysis",
+        "Exit code 1 if any work activity has incorrect allocation; include auto-fix suggestions in JSON for manual review"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Build Bloom's Taxonomy 2023 Action Verb Validator for All Learning Outcomes",
+      "priority": "medium",
+      "description": "Validate all learning outcomes use approved Bloom's 2023 action verbs organized by cognitive level (Remember, Understand, Apply, Analyze, Evaluate, Create). Flag deprecated verbs and suggest replacements.",
+      "acceptanceCriteria": [
+        "Script analyzes learning outcome matrices in all content/IT-020-{3,4,5}/*.md files and cross-references against Bloom's 2023 taxonomy verb list",
+        "Generate suggestions.json with: original outcome text | flagged verb | cognitive level | recommended replacement verbs",
+        "Output summary report showing % of outcomes meeting Bloom's 2023 standard per level, with target of 100% compliance"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Generate 4-Level Competency Assessment Rubrics Aligned to Bloom's Taxonomy",
+      "priority": "high",
+      "description": "Create structured assessment rubrics for every learning outcome mapping to 4 proficiency levels (Basic 0-40%, Proficient 41-70%, Advanced 71-90%, Expert 91-100%) with observable performance indicators.",
+      "acceptanceCriteria": [
+        "Generate output/competency_rubrics_L{3,4,5}.xlsx with one sheet per CoCu and one row per learning outcome",
+        "Each rubric row includes: Learning Outcome | Bloom Level | Basic Indicators | Proficient Indicators | Advanced Indicators | Expert Indicators | Assessment Methods",
+        "Rubric indicators explicitly map to 30% Knowledge (tests, quizzes, presentations) and 70% Performance (practical tasks, projects, demonstrations) assessment methods"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Implement Cross-CoCu Content Duplication Detector Using Semantic Similarity",
+      "priority": "medium",
+      "description": "Detect duplicate or highly similar content across different CoCus using sentence-transformers embeddings. Identify opportunities for consolidation or explicit cross-references.",
+      "acceptanceCriteria": [
+        "Script uses sentence-transformers to generate embeddings for all paragraphs in content/IT-020-{3,4,5}/*.md files and computes cosine similarity matrix",
+        "Flag any duplicate sections with similarity score ≥0.85 and output to output/duplication_report.json with source/target CoCu, section titles, and similarity scores",
+        "Generate recommendations for consolidation or explicit prerequisite linkage between similar content"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Create Interactive Student Self-Assessment Checklist Generator per CoCu",
+      "priority": "medium",
+      "description": "Generate student-facing self-assessment checklists aligned to every learning outcome. Provide checklist in multiple formats (PDF, JSON, Google Forms template) for various delivery contexts.",
+      "acceptanceCriteria": [
+        "Script parses learning outcomes from content/IT-020-{3,4,5}/*.md and generates output/student_self_assessment_L{3,4,5}.json and output/student_self_assessment_L{3,4,5}.pdf",
+        "Each checklist item includes: learning outcome | 'I can...' statement | yes/no/partial checkbox | reflection prompt",
+        "Generate Google Forms template JSON to output/google_forms_template.json with form structure compatible with Google Forms API for automated distribution"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Build NOSS Compliance Scoring Dashboard with Automated Category Audit",
+      "priority": "high",
+      "description": "Comprehensive JPK/NOSS compliance validation covering 20+ checkpoints: header format, contact hour mathematics, allocation split, assessment criteria, bilingual equivalence, prerequisite validity, reference citations.",
+      "acceptanceCriteria": [
+        "CLI 'uv run scripts/jpk_compliance_checker.py' audits all 20 CoCus and generates output/jpk_compliance_dashboard.html with interactive category breakdown",
+        "Dashboard displays: per-file compliance % | category-level scores (Headers/Hours/Allocations/Assessments/Bilingual/References) | specific violation details with remediation steps",
+        "Exit code 0 only if all CoCus achieve ≥95% compliance across all categories; exit code 1 with detailed failure report otherwise"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Generate Instructor Facilitation Guides with Estimated Time Allocations per Section",
+      "priority": "medium",
+      "description": "Create detailed facilitation guides for each CoCu with suggested 50-minute lesson breakdowns, timing estimates, activity transitions, assessment checkpoints, and differentiation strategies.",
+      "acceptanceCriteria": [
+        "Script generates output/instructor_guides_L{3,4,5}.docx with one chapter per CoCu using generate_docx.py renderer",
+        "Each guide includes: Learning Outcomes | 50-min session plan breakdown (5min intro, 30min content, 10min activity, 5min assessment) | key discussion questions | lab setup instructions | timing estimates per section",
+        "Guides reference specific learning outcome numbers and map activities to 30% Knowledge / 70% Performance allocation"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Implement DOCX Table Formatting Consistency Checker Against NOSS Kitchen Template",
+      "priority": "medium",
+      "description": "Validate all generated DOCX tables match NOSS standard formatting: border styles, cell padding, header row shading, font sizes, alignment. Compare against kitchen-template reference.",
+      "acceptanceCriteria": [
+        "Script parses output/NOSS-IT-020-{3,4,5}-*.docx files and generates output/docx_formatting_audit.json comparing each table to _reference/kitchen-template/Kitchen LV2 C01.docx",
+        "Report includes: table location (page, position) | detected formatting issues (borders, shading, font size, alignment mismatches) | severity level (error/warning)",
+        "Generate remediation script that auto-corrects formatting issues and validates output against NOSS standard"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Create Mastery-Based Learning Analytics Template for Student Progress Tracking",
+      "priority": "medium",
+      "description": "Generate interactive dashboard template for tracking student mastery progression across learning outcomes. Display visualizations by outcome, skill cluster, and cumulative progress toward competency.",
+      "acceptanceCriteria": [
+        "Generate output/learning_analytics_template.json with schema for: Student ID | Learning Outcome Code | Attempt History | Mastery Score (0-100%) | Date Achieved | Evidence Trail",
+        "Create output/analytics_dashboard_template.html with visualizations: heatmap (students × outcomes), line chart (mastery progression over time), skill cluster grouping by CoCu",
+        "Include sample data for 5 students across 10 learning outcomes demonstrating mastery thresholds (70%+ = proficient, 85%+ = advanced, 95%+ = expert)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    }
+  ]
+}

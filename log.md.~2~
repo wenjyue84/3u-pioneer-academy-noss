@@ -1,0 +1,8 @@
+# Log — NOSS
+
+---
+
+## [2026-04-22] init | Apply Karpathy raw/wiki structure
+
+**Action:** Created raw/, wiki/, index.md, log.md; migrated .md analysis files to wiki/; migrated all source files (docx, json, jsonl, py, sh, tsv, txt, config) and subdirectories (content, logs, output, scripts, templates, From-WhatsApp, NOSS-IT-020-Textbook) to raw/.
+**By:** Claude (claude-sonnet-4-6)

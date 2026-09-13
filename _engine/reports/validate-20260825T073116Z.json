@@ -1,0 +1,26 @@
+[
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V11",
+    "severity": "error",
+    "message": "section 'A. TEMPOH MASA' is missing — the Malay section frame is fixed by the JPK format.",
+    "evidence": "fb-018-3-set-b-soalan.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "warn",
+    "message": "page count is hardcoded to 23; verify it against the rendered PDF.",
+    "evidence": "MENGANDUNGI 23 MUKA SURAT",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "warn",
+    "message": "page count is hardcoded to 19; verify it against the rendered PDF.",
+    "evidence": "MENGANDUNGI 19 MUKA SURAT",
+    "line": null
+  }
+]

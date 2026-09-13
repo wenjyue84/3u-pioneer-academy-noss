@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "Build Interactive Student Competency Dashboard with Mastery Tracking",
+      "priority": "high",
+      "description": "Create an HTML5 dashboard that visualizes student progress through each CoCu level, showing mastery percentages per work activity with color-coded status (Developing/Proficient/Advanced/Expert). Dashboard fetches competency data from output/competency-scores.json and renders interactive D3.js charts with student name, level, achievement date, and recommended next steps.",
+      "acceptanceCriteria": [
+        "CLI command: uv run scripts/generate_student_dashboard.py --level 3 --output output/dashboards/L3-competency-dashboard.html generates valid HTML5 page under 500KB",
+        "Dashboard reads competency-scores.json with structure {cou: name, level: 3, activities: [{name, mastery%, status}]}, renders per-CoCu progress bars with hover tooltips showing 30% Knowledge / 70% Performance breakdown",
+        "Adaptive routing logic: if mastery >= 80% show 'Ready for next CoCu' badge, if mastery < 50% show 'Review prerequisites' link with recommended prior CoCu"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-generated"
+    },
+    {
+      "title": "Generate Instructor Lesson Plan Templates with 50-Minute Activity Blocks",
+      "priority": "high",
+      "description": "Automate creation of 50-minute lesson templates per CoCu, pre-populated with work activities, learning outcomes (30% Knowledge, 70% Performance split), assessment checkpoints, and instructor facilitation notes. Output as .docx with embedded timing cues and visual direction markers for classroom delivery.",
+      "acceptanceCriteria": [
+        "CLI: uv run scripts/generate_lesson_plans.py --level 3 --output output/lesson-plans/ generates 7 .docx files (one per L3 CoCu) with filename format: L3-CoCu-{N}-lesson-plan.docx",
+        "Each lesson plan includes: CoCu title (bilingual), work activities with timing breakdown (e.g., '10m intro + 25m hands-on + 10m assessment + 5m wrap-up'), learning outcome tags, safety/attitude callouts, required tools/equipment checklist",
+        "Template structure loads from scripts/templates/lesson_plan_template.docx and injects CoCu-specific data from content/IT-020-3/*.md, validates total timing = 50 minutes, exits code 1 if timing > 50m"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-generated"
+    },
+    {
+      "title": "Validate Bilingual Content Equivalence Using Semantic Embeddings",
+      "priority": "medium",
+      "description": "Implement ML-powered validation to ensure English and Bahasa Malaysia learning outcome descriptions convey equivalent meaning. Uses sentence-transformers to compute semantic similarity scores, flags content pairs with < 0.85 similarity as potential translation drift, generates CSV report with recommendations.",
+      "acceptanceCriteria": [
+        "CLI: uv run scripts/validate_bilingual_equivalence.py --level 3 --threshold 0.85 --output output/bilingual-audit.csv scans all 7 L3 CoCu files, extracts bilingual pairs (learning outcomes, key terms, assessment criteria)",
+        "output/bilingual-audit.csv contains columns: cou_number, section, english_text, bahasa_text, similarity_score, status (PASS/FLAG), recommendation",
+        "Exit code 1 if any pair scores < threshold; exit 0 if all >= threshold. Log flagged pairs to console with remediation guidance (e.g., 'Recommend: consult native speaker for work activity #5')"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-generated"
+    },
+    {
+      "title": "Create Peer Assessment Rubric Generator Aligned to Bloom's 2023 Taxonomy",
+      "priority": "high",
+      "description": "Generate 4-level peer assessment rubrics (Developing/Proficient/Advanced/Expert) for each CoCu work activity, with observable behavioral descriptors keyed to Bloom's 2023 action verbs (Remember, Understand, Apply, Analyze, Evaluate, Create). Output as .docx rubrics for classroom distribution and student peer evaluation workflows.",
+      "acceptanceCriteria": [
+        "CLI: uv run scripts/generate_peer_rubrics.py --level 3 --bloom-version 2023 --output output/rubrics/ generates 7 .docx files (L3-CoCu-{N}-peer-rubric.docx)",
+        "Each rubric contains: work activity name, learning outcome (30/70 split), 4 proficiency levels with observable descriptors tied to Bloom verbs (e.g., Analyze level = 'Student correctly identifies root cause of fault in scenario'), score ranges (1-4 points per level)",
+        "Validates that 70% of descriptors target Performance domain (Apply, Analyze, Evaluate, Create) and 30% target Knowledge domain (Remember, Understand); exit code 1 if distribution < 28% or > 32% Knowledge"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-generated"
+    },
+    {
+      "title": "Build NOSS Compliance Evidence Audit Trail for JPK Submission",
+      "priority": "high",
+      "description": "Create automated audit logger that tracks compliance verification results across all 20 CoCu files (header format, contact hours, learning outcomes, assessment criteria, bilingual content). Generates timestamped JSON log and regulatory-friendly PDF report showing compliance status per CoCu, evidence citations, and sign-off workflow for submission to JPK.",
+      "acceptanceCriteria": [
+        "CLI: uv run scripts/generate_compliance_audit.py --level 3,4,5 --include-evidence --output output/compliance-audit.json generates JSON with schema: {timestamp, audit_date, level, cocu_reviews: [{cou_number, compliance_checks: [{rule, status: PASS/FAIL, evidence_file, evidence_line}]}]}",
+        "Companion PDF report (output/NOSS-Compliance-Report-{date}.pdf) shows 20-row summary table (1 row per CoCu) with columns: CoCu Name, Header Format, Contact Hours, Learning Outcomes %, Assessment %, Bilingual %, Overall Status",
+        "Each FAIL entry includes evidence citation (e.g., 'content/IT-020-3/01_*.md:line 42') and remediation guidance; exit code 0 if >= 95% PASS rate across all checks"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-generated"
+    },
+    {
+      "title": "Generate Cross-Level Learning Progression Map with Prerequisites",
+      "priority": "medium",
+      "description": "Analyze skill dependencies across L3→L4→L5 CoCu sequence, generate interactive HTML prerequisite graph showing which L4 CoCu skills require L3 CoCu mastery as foundation. Output as visual directed graph (Graphviz/D3.js) with hover tooltips linking to CoCu files and embedding prerequisite validation rules for adaptive learning paths.",
+      "acceptanceCriteria": [
+        "CLI: uv run scripts/generate_progression_map.py --output output/progression-map.html generates single HTML5 file with embedded D3.js, shows 20-node graph with L3 (7 nodes) → L4 (6 nodes) → L5 (7 nodes) connections",
+        "Edges labeled with prerequisite relationships parsed from content/IT-020-{3,4,5}/*.md learning outcome cross-references; hovering edge shows required mastery level (e.g., 'L3 CoCu 1 >= 80% proficiency required'), clicking node opens CoCu content panel",
+        "Validation rule: uv run scripts/validate_prerequisites.py --level 5 reads progression map, checks that all L5 activities reference at least one L4 prerequisite; exit code 1 if orphaned activities found"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-generated"
+    },
+    {
+      "title": "Create Automated WCAG 2.1 AA Accessibility Audit for DOCX Outputs",
+      "priority": "high",
+      "description": "Implement deep accessibility scanning of all generated .docx files checking WCAG 2.1 AA compliance: alt text on images, heading hierarchy consistency, table structure (headers marked), color contrast ratios, readable font sizes. Generates detailed audit JSON with violations and fix guidance, blocks DOCX output if critical violations detected.",
+      "acceptanceCriteria": [
+        "CLI: uv run scripts/validate_docx_accessibility.py --input output/NOSS-IT-020-*.docx --level AA --output output/accessibility-audit.json scans all 3 generated DOCX files",
+        "output/accessibility-audit.json schema: {file, violations: [{type, severity: CRITICAL/WARNING/INFO, location, guidance}], wcag_score: 0-100%, pass_criteria: bool}. CRITICAL violations: images without alt text, missing table headers, heading hierarchy jumps (h1→h3), font < 12pt on body text",
+        "Exit code 1 if critical violations or WCAG score < 85%; exit 0 if >= 85%. Companion HTML report (output/accessibility-audit.html) renders violation summary with fix examples"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-generated"
+    },
+    {
+      "title": "Map Learning Outcomes to Malaysian Industry Standards (SIRIM/BNM/ISCO-08)",
+      "priority": "medium",
+      "description": "Cross-reference all 20 CoCu learning outcomes against SIRIM IT competency framework, BNM financial sector standards, and ISCO-08 occupational classifications. Generate mapping matrix showing employer relevance for each work activity, flagging gaps where CoCu outcomes exceed or fall short of industry expectations.",
+      "acceptanceCriteria": [
+        "CLI: uv run scripts/map_industry_standards.py --framework SIRIM,BNM,ISCO-08 --output output/industry-mapping.xlsx generates Excel workbook with tabs: [SIRIM Mapping], [BNM Mapping], [ISCO-08 Mapping], [Gap Analysis]",
+        "Each mapping tab: columns = CoCu #, Work Activity, NOSS Learning Outcome, Industry Standard Code, Alignment %, Relevance (Core/Secondary/Optional), Employer Comments. Gap Analysis tab flags: 'L3 CoCu 2 Activity 3 outcome not mapped to any SIRIM standard' or 'L4 CoCu 1 exceeds BNM requirements by 25%'",
+        "Exit code 1 if > 15% of outcomes unmapped (ambiguous or outdated); generates console report: 'Coverage: {mapped}% outcomes aligned to industry standards, {unmapped}% pending review'"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "ai-generated"
+    },
+    {
+      "title": "Build Student Self-Assessment Checklist Generator with Mastery Tracking",
+      "priority": "medium",
+      "description": "Generate student-facing self-assessment checklists per CoCu, aligned to work activities and learning outcomes (30% Knowledge, 70% Performance). Output as printable .pdf and interactive HTML forms that students mark off as they progress, with auto-scoring and progress upload to competency tracker database.",
+      "acceptanceCriteria": [
+        "CLI: uv run scripts/generate_student_checklists.py --level 3 --format pdf,html --output output/checklists/ generates 7 PDF files (L3-CoCu-{N}-self-assessment.pdf) and 7 HTML forms (index stored in output/checklists/index.html)",
+        "Each checklist structure: [Work Activity Title] > [I can explain... (Knowledge, 30% weight)] / [I can perform... (Performance, 70% weight)] with radio buttons (Not Yet / Developing / Proficient / Advanced). HTML form auto-calculates mastery % and posts to output/student-scores.json when submitted",
+        "PDF includes footer: 'Student: ___ Date: ___ Instructor: ___' for classroom signing; HTML form includes timestamp, prevents submission if mastery indicators incomplete"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-generated"
+    },
+    {
+      "title": "Implement Semantic Duplication Detection Across All CoCu Content Files",
+      "priority": "medium",
+      "description": "Scan all 20 CoCu markdown files for semantically duplicate content (same concept explained differently across CoCus) using sentence-transformers embeddings. Flag near-duplicates with similarity > 0.90 threshold, generate report with recommendations to consolidate or differentiate. Prevents redundancy and improves content coherence.",
+      "acceptanceCriteria": [
+        "CLI: uv run scripts/detect_duplication.py --similarity-threshold 0.90 --output output/duplication-report.json scans all content/IT-020-{3,4,5}/*.md files",
+        "output/duplication-report.json schema: {duplicates: [{source_cocu, source_section, source_snippet, similar_cocu, similar_section, similar_snippet, similarity_score, recommendation}]}. Example flag: 'L3 CoCu 1 [Troubleshooting] and L3 CoCu 2 [Common Faults] both describe BIOS reset procedure (0.92 similarity) - consider consolidating to L3 CoCu 1 as authoritative source'",
+        "Exit code 0; HTML report (output/duplication-report.html) renders interactive comparison view (side-by-side snippet display) for content reviewers"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "ai-generated"
+    }
+  ]
+}

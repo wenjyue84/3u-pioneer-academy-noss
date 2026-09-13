@@ -1,0 +1,181 @@
+---
+title: "Kitchen LV2 C01"
+date: 2026-02-02
+tags:
+  - project
+  - education
+  - noss
+project: "NOSS"
+status: active
+---
+
+# Kitchen LV2 C01
+
+
+7
+
+
+Ω
+
+
+(C01/2-1-2)
+Other Type of tools
+
+
+|  |
+
+
+|  |  |  |
+| PROGRAM CODE AND NAME | I561-005-2:2022 FOOD PREPARATION AND PRODUCTION | I561-005-2:2022 FOOD PREPARATION AND PRODUCTION |
+| LEVEL | L2 | L2 |
+| NO. AND UNIT TITLE OF COMPETENCY | C01: Practice kitchen hygiene and safety procedure. | C01: Practice kitchen hygiene and safety procedure. |
+| NO. AND WORK ACTIVITY STATEMENT | CARRY OUT KITCHEN PERSONAL HYGIENE APPLY KITCHEN WORKSTATION SAFETY APPLY KITCHEN FOOD SAFETY PROCEDURES | CARRY OUT KITCHEN PERSONAL HYGIENE APPLY KITCHEN WORKSTATION SAFETY APPLY KITCHEN FOOD SAFETY PROCEDURES |
+| NO. CODE | I561-005-2:2022 - C01/P(1/3) | PAGE: 2 - 24 |
+
+
+| CLASSIC KITCHEN | MODERN KITCHEN |
+| EXECUTIVE CHEF (Chef de cuisine) Responsible for the overall management of the kitchen, supervising staff, creating new menus and recipes with the help of the restaurant manager. | EXECUTIVE CHEF/ CHEF de CUISINE Responsible for the kitchen Operations. Menu planning and quality control product made. Manages employees under his management. Controlling the purchase of ingredients (food purchasing), menu control (menu costing). Supervise the work schedule of employees under his supervision. Planning and managing the purchase of kitchen equipment as needed. Provide courses for subordinates. Control the cost of purchasing materials. Prepare special dishes according to request. |
+| ASSISTANT CHIEF COOK (Sous-chef de cuisine) Responsible for preparing the kitchen staff schedule or replacing the chef when the chef is on vacation and assisting the Chef de Partie if needed. Responsible for cleanliness, organization and ongoing training for all kitchen staff. | SOUS CHEF Assisting the executive chef in controlling kitchen operations. Help the chef plan the menu and control the quality of the food. Controlling the portions of food prepared to follow the standards and specifications set. Control the use of materials by each outlet.  Assist the chef in ordering ingredients. Do food testing for a new menu dish. |
+
+
+| CLASSIC KITCHEN | MODERN KITCHEN |
+| SAUCE COOK (Saucier) A position in the classic kitchen that time is used in commercial kitchens such as some restaurants. His job is to prepare sauces, stews and sautés. |  |
+| SENIOR ASSISTANT (Chef de Partie) As the leader who manages the stations in the kitchen and specializes in preparing certain dishes. | CHEF DE PARTIE Controlling the quality and standards of food set. Prepare work schedules for staff under his supervision. Control the cost of materials used. Making material orders for responsible outlets. Ensure subordinate staff always comply with hotel policy. Ensuring his subordinate staff always maintain cleanliness and safety at the station. Prepare meals for certain occasions. |
+| COOK (Cuisinier) Responsible for preparing certain dishes in the station (section) in the kitchen. | DEMI CHEF Assist the chef in ordering ingredients. Help the chef make a work schedule. Give instructions to new staff to prepare a meal. Helping the chef control the quality and quantity of food prepared. Prepare meals according to the outlet. Ensuring his subordinate staff always maintain cleanliness and safety at the station. |
+| COMMIS A new cook, responsible for cooking and working under the chef de partie. | COMMIS Appointments for Commis 1, 2 and 3 depend on the work experience and academic level of a staff member. Prepare meals for each outlet that is responsible. Always comply with hotel policy. |
+| APPRENTICE Doing preparatory work or cleaning work to increase theoretical and practical training and increase working experience in the kitchen. | None |
+| ROTISSEUR Cooks who prepare roasts, broils and fries | None |
+| GRILLARDIN A cook who prepares grilled dishes but is not a Rotisseur. | None |
+| FRITURIER Cooks who prepare fried food | None |
+
+
+| CLASSIC KITCHEN | MODERN KITCHEN |
+| POISSONNIER Cooks who prepare fish and seafood dishes. | None |
+| ENTREMETIER Prepare soups and other dishes that do not involve meat or fish, including vegetable and egg dishes. | None |
+| POTAGER Prepare the soup found in the menu. | None |
+| LEGUMIERS Prepare a vegetable dish. | None |
+| GARDE MANGER Prepare cold dishes (such as salads, appetizers, canapes, pates and terrines) and create decorative elements of the buffet presentation such as ice sculptures and centerpieces made from ingredients such as cheese, fruits and vegetables, butter, dough or fat. | None |
+| TOURNANT Move around the kitchen helping all positions in the kitchen. | None |
+| PASTRY CHEF Proficient in making pastries, desserts, bread and other baked dishes. | None |
+| CONFISEUR Confiseur in larger restaurants, preparing sweets. | None |
+| GLACIER In larger restaurants, serve frozen and cold desserts instead of pâtissier. | None |
+| DECORATEUR In larger restaurants, prepare and display fruit and specialty cakes instead of the pâtissier. | None |
+| BOULANGER In larger restaurants, serve bread, cake, and breakfast pastries instead of pâtissier. | None |
+| ABOYEUR Take orders from the dining room and distribute to various stations; can also be performed by the sous-chef de partie. | None |
+| COMMUNARDS Prepare food served to restaurant staff. | None |
+| GARCON In larger restaurants, perform preparatory and additional work for support. | None |
+
+
+| CAUSES OF POLLUTION | CAUSES OF POLLUTION | DESCRIPTION |
+| Microorganisms | Bacteria 1. Bacillus 2. Staphylococci 3. Streptococcus 4. Diplococci 5. Spirilla | Bacteria are single-celled organisms that cannot be seen with the naked eye. Its diameter is approximately 1 cm and has a variety of morphological variations such as short rods, tapers, spheres, and cocci shaped. Bacteria bleach unstable food colors through the production of various colored pigments and slime. Pigment colors are red, brown, young, orange, blue, green, black, and purple. Contaminated meat will change color from red to blackish red. Some species of bacteria produce spores that are resistant to heat and chemicals known as thermophilic microorganisms. It releases a type of toxin that can cause infectious diseases through food |
+
+
+| CAUSES OF POLLUTION | CAUSES OF POLLUTION | DESCRIPTION |
+|  | Fungus | Fungus is a multicellular microorganism with a filamentous morphology. Tube-shaped cells with a diameter of 30 to 100ϥm, known as tuft-shaped hyphae called mycelium. Fungi are easily recognized through their moldy or fluffy properties such as on bread, jam and cheese. Fungi can produce many fine spores that can be spread by the wind. Most fungi are harmless to health, but some produce mycotoxins under certain conditions and become toxic to humans. Almost all foods can be overgrown by fungi either before harvest or during storage. This fungus can be detected when there are rotting, slimy, fluffy spots or colored spores. It emits odors due to fermentation changes resulting from enzyme reactions on carbohydrates, fats and proteins in food |
+|  | Yeast | Yeast is an artificial plant cell. It reproduces through the process of budding. Food contamination due to yeast can be identified through foaming and the smell and taste of alcohol in the food. Saccharomyces is a harmless type of yeast, while Blastomyces is a pathogenic type. |
+| Chemical substance | Insecticides | Recommended insecticides for use in the kitchen. Extracts of pyrethrum, malathion and indiara for cockroaches. Pine oil, cypermethrin and indiara for flies. Cypermethrin, malathion and indiara for ants. Warfarin and bromadiolone for rats Excessive spraying of insecticides such as arsenic by farmers on fruits and vegetables can cause poisoning. |
+
+
+| CAUSES OF POLLUTION | CAUSES OF POLLUTION | DESCRIPTION |
+|  | Additives | Additives are used as preservatives to extend the shelf life of a product. The following additives according to the type of food: Sorbic acid for soft drinks and fruit yogurts. Calcium sorbate for frozen pizza. Potassium nitrate for cured meats and this ingredient also gives bacon its pink color. Sulfur dioxide for dried fruits such as raisins. This ingredient also acts as a natural color retainer. Benzoic acid for dansos soy sauce. Boric acid for fish balls and noodles. |
+
+
+|  |  |  |
+| PROGRAM CODE AND NAME | I56-005-2:2022 FOOD PREPARATION AND PRODUCTION | I56-005-2:2022 FOOD PREPARATION AND PRODUCTION |
+| LEVEL | L2 | L2 |
+| NO. AND UNIT TITLE OF COMPETENCY | C01: Practice kitchen hygiene and safety procedure. | C01: Practice kitchen hygiene and safety procedure. |
+| NO. AND WORK ACTIVITY STATEMENT | CARRY OUT KITCHEN PERSONAL HYGIENE APPLY KITCHEN WORKSTATION SAFETY APPLY KITCHEN FOOD SAFETY PROCEDURES | CARRY OUT KITCHEN PERSONAL HYGIENE APPLY KITCHEN WORKSTATION SAFETY APPLY KITCHEN FOOD SAFETY PROCEDURES |
+| NO. CODE | I561-005-2:2022 - C01/P(2/3) | PAGE: 26 - 63 |
+
+
+|  |
+
+
+|  |
+
+
+| Type of Knife | Description |
+| French Knife / Chef’s Knife | French knife or chef's knife. The most used knife is a knife in the kitchen, for general chopping, slicing, and dicing. The blade of the knife is wide. Blade lengths of 8 to 12 inches are the most popular for general work. Larger blades are for heavy chopping. Smaller blades are for finer work. |
+| Utility Knife | A lighter version of the Chef's knife Narrow knife blade 5 to 8 inches long, mostly used for pantry work, cutting and preparing salads, fruits and so on. Blade lengths of 10-12 inches are the most popular for general work. • Larger blades are for heavy chopping. Smaller blades are for finer work. |
+| Paring Knife | Small sharp blades 2 to 4 inches long. Used for trimming and peeling vegetables and fruits. |
+
+
+| Type of Knife | Description |
+| French Knife / Chef’s Knife      Filleting Knife | Used to separate raw meat from bones. One way the knife is used to cut fish filets and has a flexible blade. The blade for both boning and the way the knife is thinner and shorter than a chef's knife, about 6 inches long. |
+| Slicer | Has a long, thin and flexible blade up to 14 inches. Used to cut and slice cooked meat. |
+| Cleaver | Very heavy, broad, and large blade. Used to cut through bone. Asians use cleavers to peel, cut, chop, and mince. Machete that varies in size according to its use. |
+
+
+| Type of Tools | Description |
+| Kitchen Fork | Has two or more prongs with pointed ends that can stab food. The pointed end may be straight or curved. Used to test the degree of doneness of stir-fried meat and vegetables. Used to lift ingredients that are ready to be cooked on a cutting board. |
+| Peelers | Can peel a thin layer from various vegetables and fruits more easily than paring knife. The rotating blade can move easily on every material such as vegetables and fruits. f the knife blade is sharp on both sides, it peels the skin in both an upward and downward motion.     The zester is specially designed to remove thin strips from citrus fruits such as lemons, oranges. |
+| Melon Baller | Has a small bowl-shaped tip with a small hole (necessary to allow food to escape from the spoon). It is designed to scoop out balls or ovals from vegetables and fruits. |
+
+
+| Type of Tools | Description |
+| Spatula | Palette knife (metal spatula) is a flexible, round tool mentioned in the kitchen and cake shop. Used for icing cakes, flipping grilled food or pancakes. |
+| Rubber Spatula/Scrapper | Used to scrape food stuck to the sides of the mixing bowl and spread the cream/butter on the bread. Also used to whip meringue or cream. A stainless-steel scraper is used to cut the dough. |
+| Whisks | Has a small bowl-shaped tip with a small hole (necessary to allow food to escape from the spoon). It is designed to scoop out balls or ovals from vegetables and fruits. |
+| Rolling Pin | Made of hard wood. Use a dry cloth to wipe clean immediately after use. Do not soak in water. |
+
+
+| Type of Tools | Description |
+| Grater | A four-sided metal box with grids of different sizes. Used to shred and grate vegetables, cheese, citrus fruits and other foods. |
+| Chinois | Used to strain liquids to obtain a smoother texture. |
+| Strainer | Used to filter / strain pasta, vegetables, and others |
+| Colander | A large perforated bowl used for straining/draining vegetables, pasta, salad and other food items. |
+| Sieve | Used to sift flour and other dry ingredients. |
+
+
+| Type of Tools | Description |
+| Pastry Brush | Used to brush eggs on foods such as biscuits, bread before baking. Also used to grease baking trays, cookie molds and cakes. |
+| Pipping bags and Nozzles | Cone-shaped icing bags that are used with nozzles of various sizes and patterns. Used to shape or decorate cakes, duchesse, and soft dough. |
+
+
+| Type of Measuring Tools | Description |
+| Measuring Scale | Most ingredients in recipes are measured by weight, so accurate weighing is very important. Part of the scale is used to measure materials and also to divide products for services. |
+| Measuring Jug | Used to measure liquids such as milk, oil, water and others. The jug has a lip/spout to facilitate the process of pouring the measured liquid. |
+| Measuring Spoon | Used to measure liquid or solid ingredients in small amounts for a recipe. Ingredients such as sugar, salt, oil, milk and others. Each spoon has a different size |
+| Termometer | A thermometer is for measuring temperature. There are several types for various purposes.  A meat thermometer shows the internal temperature of the meat. It is added before cooking and left in the meat during cooking. Instant-read Thermometer gives an instant reading when inserted into food. Reads from 0̊ F to 220̊ F. Chefs usually carry it in their shirt pockets due to its small size iii. Fat Thermometers and Candy Thermometers for testing hot oil and heated sugar. Can read up to 400̊ F heat |
+
+
+| Type of Measuring Tools | Description |
+| Ice Cream Scoop | Used to portion something soft like Ice Cream and Cookie Dough. A round scoop is more practical. |
+| Ladle | Used to measure and portion liquids. The size or measurement in units of ounces is engraved on the handle of the ladle. |
+
+
+|  | Wire Whip or Balloon Whisk.  Used to mix liquid and soft dough while adding air such as sponge cake, meringue, batter and whipped cream. The speed used is maximum |
+|  | Dough arm or dough hook.  Used to mix and knead hard or thick dough such as yeast dough and roti canai dough. Speed used number 1. |
+|  | Paddle or Beater  Used to mix dough that has a medium viscosity such as swirl cake dough, choux pastry dough and short pastry dough. The speed used when turning the dough should be moderate |
+
+
+| Collection | Item Examples | Disposing the waste |
+| Organic Trash | Vegetable waste, fruit skins, animal skins and hairs, fish scales, bones, paper, wood pulp, cloth, liquid food scraps. Wastewater Excess oil | Put the trash in a plastic bag, tie it up and throw it in a trash can with a lid. Liquid waste is dumped directly into sinks, longways or oil traps. Wastewater must be drained into the longbow. Disposed of in plastic, disposed of in a trash can or poured into a dug hole. |
+| Non Organic Trash | Metal, glass, patchwork, plastic, tin. | Discarded in plastic waste, tied up and disposed of in a trash can. Planted in a hole in the ground. Recirculated. |
+
+
+| Hygiene Aspect | Personal Hygiene |
+| Hair |  |
+| Nails |  |
+| Uniform |  |
+
+
+| Dusbin Colour | Garbage Material/Category |
+| Brown |  |
+| Blue |  |
+| Orange |  |
+
+
+| Equipment | Uses |
+| Thermometer |  |
+| Microwave oven |  |
+| Collender |  |
+
+
+|  |  |  |
+| PROGRAM CODE AND NAME | I56-005-2:2022 FOOD PREPARATION AND PRODUCTION | I56-005-2:2022 FOOD PREPARATION AND PRODUCTION |
+| LEVEL | L2 | L2 |
+| NO. AND UNIT TITLE OF COMPETENCY | C01: Practice kitchen hygiene and safety procedure. | C01: Practice kitchen hygiene and safety procedure. |
+| NO. AND WORK ACTIVITY STATEMENT | CARRY OUT KITCHEN PERSONAL HYGIENE APPLY KITCHEN WORKSTATION SAFETY APPLY KITCHEN FOOD SAFETY PROCEDURES | CARRY OUT KITCHEN PERSONAL HYGIENE APPLY KITCHEN WORKSTATION SAFETY APPLY KITCHEN FOOD SAFETY PROCEDURES |
+| NO. CODE | I561-005-2:2022 - C01/P(3/3) | PAGE: 65 - 79 |
+

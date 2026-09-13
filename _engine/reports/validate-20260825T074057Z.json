@@ -1,0 +1,154 @@
+[
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "C02 DIRECT / RETAIL SALES",
+    "line": 25
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Relevant working adult / household customer profile is identified",
+    "line": 104
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Relevant customer / demographic information is identified",
+    "line": 133
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Relevant budget / preferred product category information is identified",
+    "line": 134
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Only one to three questions are relevant / usable or the questions have significant weaknesses",
+    "line": 159
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "At least six of the seven major survey findings are correctly calculated / identified and the analysis is systematic",
+    "line": 179
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Relevant product category / budget preference is considered",
+    "line": 222
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Energy efficiency / star rating figures are accurately stated where included",
+    "line": 240
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Selling points are supported by product information / survey findings",
+    "line": 257
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Only one online KPI is correctly calculated / interpreted or comparison is largely incomplete",
+    "line": 301
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "all three KPI and their Target / Actual data are correctly identified and systematically compiled",
+    "line": 316
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Sales activity effectiveness is logically evaluated using at least two KPI findings and stronger / weaker areas are clearly identified",
+    "line": 387
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Actions are practical and within sales / marketing operation scope",
+    "line": 419
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "At least five major survey findings are accurate and the final analysis / summary is generally complete",
+    "line": 471
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Only two to four major findings are accurate or the final analysis / summary is substantially incomplete",
+    "line": 472
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "with one or two minor omissions / inaccuracies that do not materially affect the conclusion",
+    "line": 517
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Report contains several omissions / inaccuracies or weak links between the data",
+    "line": 518
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V05",
+    "severity": "error",
+    "message": "bilingual slash pair — pick one language.",
+    "evidence": "Usable but proper handling / safety is only partially observed",
+    "line": 561
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "error",
+    "message": "page-count placeholder ⟪PAGES⟫ was never backfilled — run _engine.render.integrate before delivery.",
+    "evidence": "fb-018-3-set-b-skema.md",
+    "line": null
+  }
+]

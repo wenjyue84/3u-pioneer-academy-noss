@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "Generate OpenBadges v3 Digital Credential Metadata for Competency Completion",
+      "priority": "medium",
+      "description": "Create Python script to generate OpenBadges v3 JSON metadata for digital credentials awarded upon successful completion of each CoCu competency unit. Credentials include issuer profile, competency alignment URIs, evidence linkage, and 3-year validity period for JPK/MySPIKE credential registry integration.",
+      "acceptanceCriteria": [
+        "Create scripts/generate_openbadges.py with generateCredential(cocuId, learnerEmail) function returning valid OpenBadges v3 JSON with @context, id, type, issuer, criteriaUrl, alignments, image, expires fields",
+        "Generate aggregate badge manifest at output/badge_manifest.json listing all 20 CoCu credentials with issuer metadata (3U Pioneer Academy Sdn Bhd, contact, url)",
+        "Validate generated JSON against OpenBadges v3 schema and include UTC+8 expiration timestamps (completion_date + 3 years)"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "ai-backlog"
+    },
+    {
+      "title": "Generate Bilingual Video Subtitle Templates in SRT Format",
+      "priority": "medium",
+      "description": "Develop automation script to generate paired SRT subtitle files for video instructional content. English and Bahasa Malaysia subtitles include proper timecodes, technical terminology, and phonetic guides optimized for Malaysian learner comprehension.",
+      "acceptanceCriteria": [
+        "Create scripts/generate_video_subtitles.py with bilingual SRT generation accepting content/IT-020-{3,4,5}/*.md and extracting video segment outlines",
+        "Output SRT files at output/subtitles/{level}/unit_{number}_{en|ms}.srt with timecode intervals every 30-60 seconds and phonetic markup for technical terms (e.g., '[ˈreɡɪstri] Daftar')",
+        "Validate SRT syntax and ensure English-Bahasa Malaysia subtitle synchronization (matching timecodes across language pairs)"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "ai-backlog"
+    },
+    {
+      "title": "Create Equipment Certification Status and Support Timeline Audit",
+      "priority": "high",
+      "description": "Build HTML/PDF audit report showing all equipment items across L3/L4/L5 with manufacturer support status, end-of-life dates, and NOSS currency assessment. Automatically flag items with <18 months remaining support or already EOL. Track 40+ devices and their certification/renewal requirements.",
+      "acceptanceCriteria": [
+        "Create scripts/audit_equipment_certification.py reading equipment tables from content/IT-020-{3,4,5}/*.md and cross-referencing _reference/equipment_support_dates.json",
+        "Generate output/equipment_certification_report.html with columns: Equipment, Model/Version, Release Year, Support End Date, Status (Current/Legacy/EOL), L3/L4/L5 Usage, Replacement Recommendation",
+        "Color-code status: GREEN (support > 24mo), YELLOW (12-24mo), RED (< 12mo or EOL); include total lifecycle cost and upgrade path recommendations"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "ai-backlog"
+    },
+    {
+      "title": "Build Interactive Job Role Alignment Matrix for IT Career Pathways",
+      "priority": "medium",
+      "description": "Create interactive HTML dashboard mapping all work activities across L3/L4/L5 to 5+ IT job roles (Junior Admin, Support Technician, Systems Engineer, Solutions Architect, IT Manager). Visualize competency overlap, career progression paths, and skill gaps for each role trajectory.",
+      "acceptanceCriteria": [
+        "Create scripts/generate_job_alignment_matrix.py reading work activities from prd.json and mapping to _reference/it_job_roles.json (5 roles × 15+ competency requirements)",
+        "Output interactive HTML dashboard at output/job_role_alignment.html with heatmap (rows=IT roles, columns=CoCu units, color intensity=activity coverage %). Include embedded D3.js visualization",
+        "Include career pathway diagrams showing L3→L4→L5 progression transitions (e.g., Support Tech → Jr Admin → Systems Engineer → Solutions Architect) with competency prerequisites"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-backlog"
+    },
+    {
+      "title": "Generate Formative Assessment Question Bank with Bloom's Taxonomy Classification",
+      "priority": "high",
+      "description": "Develop Python script to auto-generate 5-10 formative assessment questions per CoCu unit, organized by Bloom's taxonomy levels (Remember/Understand/Apply/Analyze/Evaluate/Create). Questions include difficulty ratings (1-5), answer keys, misconception traps, and explicit learning outcome alignment.",
+      "acceptanceCriteria": [
+        "Create scripts/generate_assessment_questions.py with assessmentBank(cocuId) returning JSON array of Question objects: {stem, options[], correctIndex, bloomLevel, difficulty, alignedOutcomeId, misconceptions[]}",
+        "Generate output/assessment_questions/level_{n}_cocu_{m}_questions.json with ≥30 questions per CoCu distributed across Bloom levels (40% Remember/Understand, 40% Apply/Analyze, 20% Evaluate/Create)",
+        "Create output/assessment_answer_key.pdf with marked rubrics, answer distributions, misconception guidance, and item difficulty analysis for instructor calibration"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-backlog"
+    },
+    {
+      "title": "Create Bilingual Instructor Facilitation Guides with Activity Time Breakdowns",
+      "priority": "high",
+      "description": "Auto-generate comprehensive instructor guides for each CoCu unit including detailed activity sequences, time allocations (hours:minutes), common student misconceptions, facilitation strategies, and assessment touchpoints. Guides integrate practical exercise scheduling and competency rubric application.",
+      "acceptanceCriteria": [
+        "Create scripts/generate_instructor_guides.py accepting CoCu markdown files and outputting bilingual HTML/PDF guides",
+        "Each guide includes: 5-7 learning objectives, detailed activity sequence with time allocations (hrs:mins), 3-5 common misconceptions per activity, facilitation tips, assessment checkpoints, embedded activity flowchart diagram",
+        "Output at output/instructor_guides/{level}/cocu_{number}_facilitators_guide_{en|ms}.pdf with embedded Gantt-style timeline and answer key cross-references"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-backlog"
+    },
+    {
+      "title": "Generate Student Competency Evidence Portfolio Collection Templates",
+      "priority": "medium",
+      "description": "Create portfolio collection templates that guide students to systematically gather evidence for each competency unit against 4-point rubrics (Novice/Developing/Proficient/Advanced). Templates include competency checklists, self-assessment prompts, evidence submission guides, and instructor feedback sections.",
+      "acceptanceCriteria": [
+        "Create scripts/generate_portfolio_templates.py reading competencies from content files and generating bilingual Word/Excel templates",
+        "Output template at output/portfolio_templates/student_competency_portfolio_level_{n}.docx with per-unit sections: Competency statement, 4-point rubric descriptor, Evidence checklist (5-8 items), Reflection prompt, Instructor evaluation section",
+        "Validate that all 30+ competencies per level are represented with measurable evidence criteria and aligned to work activities"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "ai-backlog"
+    },
+    {
+      "title": "Audit Generated DOCX Files for WCAG 2.1 AA Accessibility Compliance",
+      "priority": "medium",
+      "description": "Implement accessibility audit script that systematically checks all generated DOCX textbook files against WCAG 2.1 AA standards: alt text on figures, heading hierarchy, table accessibility, color contrast ratios, language tagging, and semantic markup. Generate remediation report.",
+      "acceptanceCriteria": [
+        "Create scripts/audit_docx_accessibility.py using python-docx to scan output/NOSS-IT-020-*.docx files for: missing alt text on images, improper heading hierarchy (non-sequential H1→H2→H3), non-accessible table structures, color-only information encoding, missing language tags (en/ms)",
+        "Output audit at output/accessibility_audit_report.json with violation counts per file, severity levels (Critical/High/Medium), affected page numbers, and automated remediation steps",
+        "Generate summary HTML at output/accessibility_summary.html showing WCAG 2.1 AA compliance percentage per document and remaining remediation tasks"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "ai-backlog"
+    },
+    {
+      "title": "Create Work Activity Equivalencing Matrix Showing L3→L4→L5 Skill Progression",
+      "priority": "high",
+      "description": "Build interactive matrix visualization showing how foundational L3 work activities map to specialized L4 activities and strategic L5 management functions. Reveals competency depth progression paths and identifies scaffolding gaps across qualification levels.",
+      "acceptanceCriteria": [
+        "Create scripts/generate_equivalencing_matrix.py reading all 120+ work activities from content/IT-020-{3,4,5}/*.md and building relational mapping JSON with L3→L4 and L4→L5 strength scores (1-5 scale)",
+        "Output interactive HTML dashboard at output/work_activity_equivalencing.html with heatmap visualization (rows=L3 activities, columns=L4/L5 progressions, color intensity=progression strength). Include D3.js interactivity",
+        "Add narrative progression chains (e.g., 'Install OS' → 'Configure OS' → 'Design OS Fleet Strategy') showing depth complexity increase across levels and prerequisite dependencies"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-backlog"
+    },
+    {
+      "title": "Generate Paired Pre/Post Assessment Instruments for Learning Gain Measurement",
+      "priority": "high",
+      "description": "Create parallel pre- and post-assessment instrument sets for each CoCu unit to measure learning gains and program effectiveness. Instruments maintain equivalent difficulty, question variety, and competency alignment while varying contexts to prevent ceiling/floor effects.",
+      "acceptanceCriteria": [
+        "Create scripts/generate_prepost_assessments.py with parallelAssessment(cocuId) returning two equivalent 20-30 question sets (pre- and post-versions) as JSON arrays with identical structure but different contexts",
+        "Ensure parallel form reliability: identical Bloom taxonomy distribution, equivalent difficulty indices (within ±0.2), same competency targets, different scenarios/examples per parallel form",
+        "Generate output/prepost_assessments/level_{n}_cocu_{m}_{pre|post}.json with scoring rubric, instructor guidance on learning gain calculations (effect size formulas, t-test interpretation thresholds for 0.05 significance)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "ai-backlog"
+    }
+  ]
+}

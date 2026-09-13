@@ -19,6 +19,10 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 from docx.shared import Pt, RGBColor, Cm
 
+ROOT = Path(__file__).resolve().parent.parent
+REFERENCE_DOC = ROOT / "build" / "_templates" / "reference-textbook.docx"
+LUA_FILTER = ROOT / "build" / "filters" / "callouts.lua"
+
 # Paper color map for --style flag (RGB approximations)
 PAPER_COLORS: dict[str, RGBColor | None] = {
     "KP": None,                          # White (default)
@@ -135,6 +139,48 @@ def add_header_box(doc: Document, meta: dict[str, str], style_key: str) -> None:
     body.insert(1, sep)
 
 
+def fix_paragraph_alignment(doc: Document) -> None:
+    """Force LEFT alignment on body paragraphs — pandoc reference-doc may use Justify."""
+    for para in doc.paragraphs:
+        if para.alignment == WD_ALIGN_PARAGRAPH.JUSTIFY:
+            para.alignment = WD_ALIGN_PARAGRAPH.LEFT
+
+
+def auto_size_tables(doc: Document, page_width_cm: float = 16.0) -> None:
+    """Distribute table column widths proportionally (sqrt of max content length).
+
+    Prevents equal-width splitting that causes mid-word wrapping in wide tables.
+    Page width defaults to A4 (21cm) minus 2×2.5cm margins = 16cm.
+    """
+    import math
+    page_width = Cm(page_width_cm)
+    for table in doc.tables:
+        cols = len(table.columns)
+        if cols <= 1:
+            continue
+        # Measure max text length per column (headers + data rows)
+        col_lens = [0] * cols
+        for row in table.rows:
+            for i, cell in enumerate(row.cells[:cols]):
+                col_lens[i] = max(col_lens[i], len(cell.text.strip()))
+        col_lens = [max(l, 2) for l in col_lens]  # floor: 2-char minimum
+        # Square-root normalisation prevents extreme width skew
+        sqrts = [math.sqrt(l) for l in col_lens]
+        total_sqrt = sum(sqrts) or 1
+        # Assign widths; enforce 0.8cm floor per column
+        min_w = int(Cm(0.8))
+        widths = [max(int(page_width * s / total_sqrt), min_w) for s in sqrts]
+        # Scale down if total exceeds page width
+        total_w = sum(widths)
+        if total_w > int(page_width):
+            scale = int(page_width) / total_w
+            widths = [max(int(w * scale), min_w) for w in widths]
+        # Apply widths to every cell in each column
+        for i, col in enumerate(table.columns):
+            for cell in col.cells:
+                cell.width = widths[i]
+
+
 def apply_paper_watermark(doc: Document, style_key: str) -> None:
     """Add a shading background to all paragraphs to simulate paper color."""
     color = PAPER_COLORS.get(style_key)
@@ -157,12 +203,39 @@ def apply_paper_watermark(doc: Document, style_key: str) -> None:
         pPr.append(shd)
 
 
+def _strip_yaml_frontmatter(md_path: Path) -> Path:
+    """If the md starts with `---\n...\n---`, write a stripped copy to a temp file."""
+    import tempfile
+    text = md_path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        return md_path
+    end = text.find("\n---", 3)
+    if end < 0:
+        return md_path
+    body = text[end + 4:].lstrip("\n")
+    tmp = Path(tempfile.mkstemp(suffix=".md")[1])
+    tmp.write_text(body, encoding="utf-8")
+    return tmp
+
+
 def convert_md_to_docx(md_path: Path, output_path: Path, style_key: str) -> None:
     """Full pipeline: pandoc conversion + python-docx post-processing."""
     pandoc_exe = "pandoc"
 
-    # Step 1: Convert .md to .docx via pandoc
-    cmd = [pandoc_exe, str(md_path), "-o", str(output_path), "--wrap=none"]
+    # Step 1: Convert .md to .docx via pandoc using textbook template
+    src = _strip_yaml_frontmatter(md_path)
+    cmd = [
+        pandoc_exe, str(src),
+        "-o", str(output_path),
+        "--from", "markdown+raw_html+smart+fenced_divs",
+        "--to", "docx",
+        "--wrap=none",
+        "--resource-path", str(ROOT),
+    ]
+    if REFERENCE_DOC.exists():
+        cmd += ["--reference-doc", str(REFERENCE_DOC)]
+    if LUA_FILTER.exists():
+        cmd += ["--lua-filter", str(LUA_FILTER)]
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
         print(f"pandoc error: {result.stderr}", file=sys.stderr)
@@ -171,6 +244,10 @@ def convert_md_to_docx(md_path: Path, output_path: Path, style_key: str) -> None
     # Step 2: Post-process with python-docx
     meta = parse_wim_metadata(md_path)
     doc = Document(str(output_path))
+
+    # Fix formatting: force LEFT alignment + proportional table column widths
+    fix_paragraph_alignment(doc)
+    auto_size_tables(doc)
 
     # Add JPK header box
     add_header_box(doc, meta, style_key)

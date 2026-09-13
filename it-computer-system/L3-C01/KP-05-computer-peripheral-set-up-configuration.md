@@ -1,0 +1,107 @@
+<!-- JPK_ENVELOPE_v1 -->
+<table border="0" cellspacing="0" cellpadding="8" width="100%">
+<tr>
+<td width="130" valign="top"><img src="../_assets/logos/jpk-logo.png" alt="JPK Logo" width="110"></td>
+<td valign="middle">
+<b>JABATAN PEMBANGUNAN KEMAHIRAN (JPK)</b><br>
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,<br>
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,<br>
+62530 PUTRAJAYA
+</td>
+</tr>
+</table>
+
+## KERTAS PENERANGAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | IT-020-3:2013 OPERASI SISTEM KOMPUTER |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | IT-020-3:2013-C01 COMPUTER SYSTEM SET-UP |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. ANALYSE JOB ORDER/CHANGE REQUEST<br>2. PREPARE COMPUTER SET-UP TOOLS, COMPUTER HARDWARE PARTS AND COMPUTER SOFTWARE<br>3. SET-UP COMPUTER HARDWARE<br>4. CARRY OUT COMPUTER SOFTWARE INSTALLATION<br>5. SET-UP COMPUTER PERIPHERALS<br>6. CARRY OUT UNIT FUNCTIONALITY TEST<br>7. PREPARE COMPUTER SET-UP REPORT |
+| NO. KOD | IT-020-3:2013-C01/KP(5/7) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | PUTIH (White) |
+
+**TAJUK:** KP-05-computer-peripheral-set-up-configuration
+
+**TUJUAN:** Kertas rujukan untuk KP-05-computer-peripheral-set-up-configuration.
+
+<!-- /JPK_ENVELOPE_v1 -->
+## Objektif Pembelajaran / Learning Objectives
+
+Upon completion of this Information Sheet, trainees shall be able to:
+
+1. Identify common peripheral devices and their connection interfaces
+2. Explain the procedure for connecting and configuring monitors, keyboards, mice, and printers
+3. Describe driver installation requirements for peripherals
+4. State the methods for verifying peripheral functionality
+
+---
+
+## 1.0 Introduction
+
+Peripherals are external devices that connect to the computer to provide input, output, or additional functionality. Setting up peripherals correctly ensures the user can interact with the system effectively. This work activity covers the physical connection, driver installation, and configuration of all peripherals specified in the job request.
+
+---
+
+## 2.0 Types of Peripherals and Connection Interfaces
+
+| Peripheral | Common Interface | Notes |
+|------------|-----------------|-------|
+| Monitor | HDMI, DisplayPort, DVI, VGA | HDMI and DisplayPort are preferred for modern systems; check GPU output ports |
+| Keyboard | USB, Bluetooth, Wireless (2.4 GHz) | USB is plug-and-play; wireless may require a USB receiver or Bluetooth pairing |
+| Mouse | USB, Bluetooth, Wireless (2.4 GHz) | Same as keyboard; verify sensor type (optical, laser) |
+| Printer | USB, Network (Ethernet/Wi-Fi) | Network printers require IP configuration; USB printers are direct-connect |
+| Scanner | USB, Network | May require vendor-specific drivers and scanning software |
+| Webcam | USB | Usually plug-and-play with modern OS; verify resolution and microphone |
+| Speakers / Headset | 3.5 mm audio jack, USB, Bluetooth | Audio driver must be installed; check default playback device in OS settings |
+
+---
+
+## 3.0 Monitor Set-up
+
+1. Connect the monitor to the GPU or motherboard video output using the appropriate cable (HDMI, DisplayPort, DVI)
+2. Power on the monitor and verify it displays the OS desktop
+3. Open Display Settings in the OS
+4. Set the resolution to the monitor's native resolution (e.g. 1920x1080, 2560x1440)
+5. Set the refresh rate to the maximum supported by the monitor and cable (e.g. 60 Hz, 144 Hz)
+6. For multi-monitor setups: configure display arrangement, primary display, and extend/duplicate mode
+
+---
+
+## 4.0 Input Device Set-up (Keyboard and Mouse)
+
+- **USB devices:** Connect to a USB port; the OS should detect and install drivers automatically
+- **Wireless devices:** Insert the USB receiver into a USB port, or pair via Bluetooth settings
+- **Configuration:** Set keyboard layout (language), mouse sensitivity (pointer speed), and button assignments through OS settings
+- **Verification:** Type test text; move mouse across screen; verify all buttons respond
+
+---
+
+## 5.0 Printer Set-up
+
+1. Connect the printer via USB cable or configure network settings (IP address, Wi-Fi SSID)
+2. Install the printer driver from the manufacturer's website or included disc
+3. Add the printer in the OS (Devices and Printers or Settings > Printers)
+4. Set the printer as the default printer if specified in the job request
+5. Send a test page to verify printing works correctly
+6. Configure paper size, quality, and duplex settings as required
+
+---
+
+## 6.0 Verification
+
+After connecting all peripherals:
+- Open Device Manager and verify all peripherals appear without errors (no yellow triangles)
+- Test each peripheral individually: type, move mouse, print test page, scan test document
+- Confirm all peripherals are functional and respond as expected
+- Document the peripherals and their configuration in the set-up report
+
+---
+
+## Rujukan / References
+
+- NOSS IT-020-3:2013 Computer System Operation -- CoCu 1
+- CompTIA A+ Certification Study Guide -- Peripheral Installation
+- Microsoft Windows Help -- Connect and configure devices

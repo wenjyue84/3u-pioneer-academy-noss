@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>考题引擎 — 2026-08-25 交付</title>
+<style>
+:root{
+  --bg:#0f1115; --card:#171a21; --card2:#1e222b; --line:#2a2f3a;
+  --fg:#e8eaed; --dim:#9aa3b2; --accent:#4da3ff; --warn:#ffb454;
+  --bad:#ff6b6b; --good:#4ade80;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;padding:0;background:var(--bg);color:var(--fg);
+  font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",-apple-system,"Segoe UI",sans-serif;
+  line-height:1.75;font-size:16px;
+}
+.wrap{max-width:900px;margin:0 auto;padding:32px 20px 80px}
+header{border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:28px}
+h1{font-size:26px;margin:0 0 6px;font-weight:650}
+.meta{color:var(--dim);font-size:13px}
+h2{font-size:19px;margin:38px 0 12px;font-weight:600;display:flex;align-items:center;gap:8px}
+h2::before{content:"";width:3px;height:18px;background:var(--accent);border-radius:2px}
+h3{font-size:16px;margin:22px 0 8px;color:var(--fg)}
+p{margin:10px 0}
+code{background:var(--card2);padding:2px 6px;border-radius:4px;font-size:.88em;
+     font-family:ui-monospace,"Cascadia Mono",Consolas,monospace}
+a{color:var(--accent)}
+.blot{background:linear-gradient(135deg,#1b2740,#171a21);
+  border:1px solid #2f3d55;border-left:4px solid var(--accent);
+  border-radius:10px;padding:20px 22px;margin:0 0 8px}
+.blot .lbl{font-size:12px;color:var(--accent);letter-spacing:.1em;font-weight:600}
+.blot .txt{font-size:21px;line-height:1.55;font-weight:600;margin-top:6px}
+.meta4{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:18px 0}
+.meta4 .lbl{font-size:12px;color:var(--warn);letter-spacing:.08em;font-weight:600;margin-bottom:6px}
+.tl{list-style:none;padding:0;margin:16px 0;border-left:2px solid var(--line)}
+.tl li{position:relative;padding:0 0 18px 22px}
+.tl li::before{content:"";position:absolute;left:-7px;top:9px;width:12px;height:12px;
+  border-radius:50%;background:var(--accent);border:2px solid var(--bg)}
+.tl li.bad::before{background:var(--bad)} .tl li.good::before{background:var(--good)}
+.tl .t{font-size:12px;color:var(--dim);font-variant-numeric:tabular-nums}
+.tl .d{margin-top:2px}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--dim);font-weight:600;font-size:13px;background:var(--card)}
+tr:hover td{background:var(--card)}
+.nums{display:flex;gap:14px;flex-wrap:wrap;margin:16px 0}
+.num{flex:1;min-width:150px;background:var(--card);border:1px solid var(--line);
+  border-radius:10px;padding:14px 16px}
+.num .v{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums}
+.num .v.good{color:var(--good)} .num .v.bad{color:var(--bad)}
+.num .k{font-size:12.5px;color:var(--dim);margin-top:2px}
+figure{margin:18px 0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.src{font-size:12px;color:var(--dim);margin-top:10px;line-height:1.5}
+.act{background:#14261c;border:1px solid #2b5138;border-left:4px solid var(--good);
+  border-radius:10px;padding:18px 20px;margin:22px 0}
+.act .lbl{font-size:12px;color:var(--good);letter-spacing:.08em;font-weight:600;margin-bottom:8px}
+.act ol{margin:6px 0 0;padding-left:20px} .act li{margin:10px 0}
+.unk{background:#261f14;border:1px solid #524029;border-left:4px solid var(--warn);
+  border-radius:10px;padding:16px 20px;margin:22px 0;font-size:14.5px}
+.unk .lbl{font-size:12px;color:var(--warn);letter-spacing:.08em;font-weight:600;margin-bottom:6px}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;
+  padding:12px 18px;margin:14px 0}
+summary{cursor:pointer;font-weight:600;color:var(--dim)}
+details[open] summary{margin-bottom:8px;color:var(--fg)}
+.tag{display:inline-block;padding:1px 8px;border-radius:20px;font-size:12px;font-weight:600}
+.tag.bad{background:#3a1d1d;color:var(--bad)} .tag.good{background:#173626;color:var(--good)}
+.tag.warn{background:#3a2e17;color:var(--warn)}
+.back{display:inline-block;margin-bottom:14px;font-size:13px;color:var(--dim);text-decoration:none}
+.back:hover{color:var(--accent)}
+@media print{
+  body{background:#fff;color:#000} .wrap{max-width:none}
+  .blot,.meta4,.act,.unk,figure,.num,details{border-color:#ccc;background:#fafafa}
+  h2::before{background:#666}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<a class="back" href="./index.html">← 回交付简报</a>
+
+<header>
+  <h1>考题引擎 — 从「AI 写考卷」到「机器证明考卷是对的」</h1>
+  <div class="meta">2026-08-25 · 回应 Jennifer 8 月 24 日晚的审阅意见 · 3U Pioneer Academy / Character Intl. Academy</div>
+</header>
+
+<div class="blot">
+  <div class="lbl">一句话</div>
+  <div class="txt">Jennifer 挑出来的毛病，全部是机器可以自动检测的。所以我没有去「写得更好」，我建了一套<b>会自己挑毛病的系统</b>——同一批文件，它一次扫出 366 个错误，改到 0 才准发出去。</div>
+</div>
+
+<h2>打个比方</h2>
+<div class="meta4">
+  <div class="lbl">用你熟的东西讲</div>
+  <p>之前那套等于<b>请了一个手很快的实习生写考卷，然后靠 Jennifer 一页一页用眼睛验收</b>。29 页的文件，她要盯着看哪里少了 logo、哪里表格没画线、哪里 CU 选多了。她昨晚在语音里原话是「我看了我觉得很晕，看很久，看不懂」——不是她不专业，是这活本来就不该用人眼干。</p>
+  <p>现在等于<b>在实习生和 Jennifer 中间加了一道品检线</b>。实习生照样写，但写完先过品检：CU 有没有选错、有没有混语言、分数加不加得起来、封面写的页数跟实际页数对不对。品检不过，东西根本到不了 Jennifer 手上。她的时间从「找错」变成「拍板」。</p>
+</div>
+
+<h2>她昨晚到底说了什么</h2>
+
+<p>WhatsApp 上 8 月 23 日 17:30 到 8 月 25 日 00:08 之间一共 <b>84 条消息</b>，其中 <b>33 条是语音和图片</b>。语音全部下载转录后，才拿到完整要求——有一条<b>只存在于语音里，文字消息完全没提</b>。</p>
+
+<ul class="tl">
+  <li><div class="t">08-24 22:37</div><div class="d">Jennifer 开始审阅：「you means this is the final？」</div></li>
+  <li class="bad"><div class="t">08-24 22:47</div><div class="d">第一批意见：<b>①只能用一种语言，现在中英马混排　②放了 5 个 CU，考生做不完</b></div></li>
+  <li class="bad"><div class="t">08-24 22:50（语音）</div><div class="d">「他出来的是没有排整齐的，然后跳来跳去跳来跳去…我们看了我们觉得很晕，看很久，看不懂」</div></li>
+  <li class="bad"><div class="t">08-24 23:08</div><div class="d">格式要求：<b>一定要有政府 Logo、画线的表格</b>，对标已通过的 beauty 1–3</div></li>
+  <li class="bad"><div class="t">08-24 23:13（语音）</div><div class="d">「买卖汽车好像是有买卖汽车的 NOSS，所以卖汽车不可以归纳在里面」——<b>这条只在语音里</b>，而我们那份 SET B 整份就是汽车场景</div></li>
+  <li class="bad"><div class="t">08-24 23:15（语音）</div><div class="d">「Office Admin 他把全部 7 个 CU 都放进去了…你有没有告诉他我们要做哪一个 CU？」</div></li>
+  <li><div class="t">08-24 23:28</div><div class="d">定案：S&amp;M 的 <b>SET A 用她做好的房产版</b>，我们那份电器版改成 SET B</div></li>
+  <li class="good"><div class="t">08-25 00:02</div><div class="d">正式指令：<b>只 C01/C04/C05 做实操　· C02/C03/C06 出 10 题口试　· E01 不放　· 实操控制在 2.5–3 小时</b></div></li>
+  <li class="good"><div class="t">08-25 00:08</div><div class="d">真正的需求浮出来：「我希望有一个方式可以记录我们这个考题制作的方式，之后只需要上传 NOSS，告诉它我们要选的 CU，他就自动做对的 soalan 和 Skema 出来，有这种可能吗」</div></li>
+</ul>
+
+<h2>为什么她看着「很晕」——根因不在内容</h2>
+
+<p>她截图里那份考卷长得像老式打字机打出来的，字与字之间空隙忽大忽小。看起来像 AI 排版差。<b>其实不是。</b></p>
+
+<p>问题出在渲染管线选错了一个模板文件。那份模板是给<b>教材</b>用的，不是给<b>考卷</b>用的，里面写死了两件事：</p>
+
+<table>
+  <tr><th>模板里写的</th><th>在她 Mac 上的实际后果</th></tr>
+  <tr><td>字体 <code>Source Serif 4</code></td><td>Mac 上没装这个字体 → Word 自动换成一个等宽的备用字体 → <b>打字机效果</b></td></tr>
+  <tr><td>段落 <code>JUSTIFY</code>（两端对齐）</td><td>短行被强行撑满 → 字间大空隙 → 她说的<b>「跳来跳去」</b></td></tr>
+  <tr><td>表格用 pandoc 默认样式</td><td>样式里边框直接写死是「无」→ <b>所有表格都没有框线</b></td></tr>
+</table>
+
+<p>换句话说：那个打字机效果<b>根本不在源文件里</b>，是字体在她电脑上回退造成的。这也解释了为什么我们这边看着还行、她那边看着一塌糊涂。</p>
+
+<h3>换掉之后</h3>
+<div class="nums">
+  <div class="num"><div class="v">Arial</div><div class="k">Windows / macOS 都预装，不会回退</div></div>
+  <div class="num"><div class="v">左对齐</div><div class="k">不再撑出字间空隙</div></div>
+  <div class="num"><div class="v good">19 / 19</div><div class="k">表格全部画线（同一份文件）</div></div>
+  <div class="num"><div class="v good">29 → 24</div><div class="k">同一份内容的页数（排版更紧凑，没删内容）</div></div>
+</div>
+
+<h2>核心设计：选哪些 CU，不是 AI 的事</h2>
+
+<div class="meta4">
+  <div class="lbl">这一段是整套东西的关键</div>
+  <p>Jennifer 问「你有没有告诉他我们要做哪一个 CU」——她指出的不是 AI 笨，是<b>流程里少了一个提问</b>。之前是把 NOSS 丢给 AI，AI 自己挑了 6 个必修 + 1 个选修全塞进 3 小时的实操考试里。</p>
+  <p>现在这件事被写死成一份<b>合同</b>：每个 CU 必须被明确标成「实操 / 口试 / 不考」，AI 没有权限自己决定，校验器负责证明文件确实照办了。选修单元如果标了「不考」，它<b>连封面都不能出现</b>——之前正是「封面列了 E01，但整份评分表里一分都没给它」。</p>
+</div>
+
+<h3>为什么 7 个 CU 塞不进 3 小时</h3>
+<p>这不是 AI 偷懒，是钟表不答应。一个实操工位现实上要 <b>~48 分钟</b>，加上口试 30 分钟、交卷整理 10 分钟：</p>
+
+<figure>
+  <canvas id="c1" height="120"></canvas>
+  <figcaption class="src">数据来源：<code>_engine/ppa/worksheet.py</code> 的时间容量模型；实际时间预算表已印在 FB-018-3 SET B 考卷第 1 页 A. TEMPOH 节。</figcaption>
+</figure>
+
+<p>所以给 Jennifer 的不是一句「不行」，是<b>一份表格</b>：每个 NOSS 一张「Borang Pemilihan Unit Kompetensi」，列出全部 CU 加上各自的工作活动数和评估准则数（= 占时间的诚实指标），让她自己勾。表格上直接写着容量提示。</p>
+
+<h2>数字</h2>
+
+<h3>第一轮扫描：366 个错误</h3>
+<p>校验器指向 FB-018-3 现有的 8 份文件，自动扫出的结果——这些正是 Jennifer 用眼睛一条条挑出来的东西：</p>
+
+<figure>
+  <canvas id="c2" height="150"></canvas>
+  <figcaption class="src">数据来源：本次 session <code>uv run python -m _engine.ppa.cli validate</code> 首次运行，报告存于 <code>_engine/reports/validate-20260825T040446Z.json</code>。</figcaption>
+</figure>
+
+<table>
+  <tr><th>检查</th><th>数量</th><th>抓到的是什么</th></tr>
+  <tr><td>V05 语言</td><td>335</td><td>中英马混排（<code>Tinjauan Pasaran / Market Survey</code> 式对照 + 整段英文）</td></tr>
+  <tr><td>V04 已排除单元</td><td>20</td><td>E01 说好不考，却出现在封面、TUGASAN C、评分表、口试题 5.11–5.12</td></tr>
+  <tr><td>V06 封面清单</td><td>4</td><td>四份文件封面都还列着 E01</td></tr>
+  <tr><td>V02 实操覆盖</td><td>3</td><td>C01/C04/C05 定为实操，TUGASAN 段落却没提到</td></tr>
+  <tr><td>V03 口试覆盖</td><td>2</td><td>C02 没有对应口试题；某份出了 12 题（要求 10 题）</td></tr>
+  <tr><td>V07 时长</td><td>2</td><td>一份没有卷级时长声明；一份写「3 HOURS」（英文单位）</td></tr>
+  <tr><td>V08 页数</td><td>4</td><td>页数是硬写的（29/30/24/13），没经过渲染核对</td></tr>
+</table>
+
+<h3>最终交付：0 个错误</h3>
+<div class="nums">
+  <div class="num"><div class="v good">0</div><div class="k">错误（V01–V10 全通过）</div></div>
+  <div class="num"><div class="v">19 页</div><div class="k">SOALAN — 封面声明 19，PDF 实际 19</div></div>
+  <div class="num"><div class="v">23 页</div><div class="k">SKEMA — 封面声明 23，PDF 实际 23</div></div>
+  <div class="num"><div class="v">4 / 4</div><div class="k">JPK 四件套齐全</div></div>
+</div>
+
+<p>页数这条值得单独说：JPK 考卷封面要声明印刷页数，用来防止有人从密封考卷里抽走一页。<b>Jennifer 自己那两份参考样本这里都写错了</b>（soalan 写 13 实际 14，skema 写 14 实际 11）。页数只有排版完才知道，所以现在文件里先写占位符，渲染完由程序回填真实数字，再重新排版确认数字没把行数撑爆——反复到稳定为止。</p>
+
+<h2>举一反三：其余 5 个 NOSS</h2>
+
+<p>把同一套东西套到剩下的科目上。NOSS 原文逐条转录成机器可读的能力图谱：</p>
+
+<div class="nums">
+  <div class="num"><div class="v">6</div><div class="k">NOSS 已转录</div></div>
+  <div class="num"><div class="v">41</div><div class="k">能力单元 CU</div></div>
+  <div class="num"><div class="v">217</div><div class="k">工作活动 WA</div></div>
+  <div class="num"><div class="v">750</div><div class="k">表现准则 PC</div></div>
+  <div class="num"><div class="v warn">20</div><div class="k">NOSS 原文自身的错漏</div></div>
+</div>
+
+<p><b>那 20 处是标准文件自己的问题，不是我们的。</b>照录不改，全部记进 <code>source_notes</code>。举两个例子：</p>
+<ul>
+  <li>N821 正文第 6 节把 C07 叫 <i>Staff</i> Administration Supervision，它自己的 CPC 图表里却写 <i>Office</i> Administration Supervision——<b>标准自相矛盾</b>。之前有一轮就是抄错了这个，一路带到客户手上。</li>
+  <li>FB-018-3 的 C01 把两条不同的准则都编号成「2.1」；C06 的编号从 2.1 直接跳到 2.3，没有 2.2。</li>
+</ul>
+<p>转录时「顺手改对」听起来负责，实际上会让这份图谱<b>不再能追溯回标准原文</b>——PPL 拿标准来对，对不上。所以照录 + 标注。</p>
+
+<h3>现有考卷的体检结果</h3>
+<p>其余 5 个 NOSS 的 CU 该怎么选，<b>是 Jennifer 的决定，我不能替她定</b>。但不需要她决定的部分（语言、分数、页数）可以先量化出来：</p>
+
+<figure>
+  <canvas id="c3" height="150"></canvas>
+  <figcaption class="src">数据来源：本次 session <code>uv run python -m _engine.ppa.cli lint</code>，扫描 <code>output/jennifer-ppa-soalan/</code> 下 44 份考卷文件。</figcaption>
+</figure>
+
+<p>合计 <b>44 份文件、799 个待修问题</b>，其中 775 个是语言混排。FB-018-3 已经是 0。</p>
+
+<h2>Jennifer 要的那个系统</h2>
+
+<p>她 00:08 那句「有这种可能吗」——有。它现在是一个叫 <code>noss-ppa-generator</code> 的技能，七个步骤：</p>
+
+<table>
+  <tr><th>#</th><th>步骤</th><th>谁做</th></tr>
+  <tr><td>1</td><td>NOSS PDF → 能力图谱（逐条转录，错漏照录并标注）</td><td>机器</td></tr>
+  <tr><td>2</td><td>生成 CU 选择表，附时间容量提示</td><td>机器</td></tr>
+  <tr><td>3</td><td><b>填表：每个 CU 标实操 / 口试 / 不考</b></td><td><span class="tag warn">Jennifer</span></td></tr>
+  <tr><td>4</td><td>写成机器可读的 profile + 给写手的规格书</td><td>机器</td></tr>
+  <tr><td>5</td><td>生成 SOALAN / SKEMA / ANSWER SHEET / EQUIPMENT</td><td>机器</td></tr>
+  <tr><td>6</td><td>V01–V10 校验，0 错才放行</td><td>机器</td></tr>
+  <tr><td>7</td><td>渲染 → 数页数 → 回填 → 出 PDF → 人眼复核两页</td><td>机器 + 人</td></tr>
+</table>
+
+<p>第 3 步是整套东西的心脏。没有它，就回到 AI 自己挑 CU 的老路。</p>
+
+<h2>今天学到的一件事</h2>
+
+<div class="meta4">
+  <div class="lbl">关于「AI 说它做完了」</div>
+  <p>改评分表的那个 AI，在报告里写「totals reconcile ✓」，还附了一张对账表。<b>表里「54%」三个字就明明白白摆在那里，它自己没看出来。</b>实际情况是：它按要求删掉了一个 CU 的实操评分，但没把那 6% 重新分配——整卷合计只有 94%，考生根本拿不到满分。</p>
+  <p>是校验器抓的，不是 AI 自己。所以我当场又加了一条 V10：机械核对每部分权重之和、小计分母、全卷总分。</p>
+  <p>这就是这套东西真正的价值所在——<b>不在「让 AI 写」，在「让机器证明 AI 写对了」</b>。同理，还有两个排版缺陷是校验器抓不到、我把 PDF 渲成图片用眼睛看才发现的（CU 清单塌成一段跑马字；考生填写栏「NAMA CALON」被涂成表头灰底）。校验器只检查它被告知要检查的东西。</p>
+</div>
+
+<h2>下午追加：换了格式基准，推翻了上午一个结论</h2>
+
+<div class="meta4">
+  <div class="lbl">怎么判断哪份文件才算「对」</div>
+  <p>Jennifer 的 Drive 文件夹里，她的文件和我们上传的文件<b>档名几乎一样</b>。唯一能分开的是 Drive 的 <code>owner</code> 字段——而 <code>gog drive ls</code> 根本不返回这个字段，要走 MCP 才查得到。</p>
+  <p>查完发现：那个文件夹 17 项里，<b>只有 4 份 owner 是 jennifer@character.com.mx</b>，其余全是我们自己传的。<b>我们自己传的东西，不能拿来当自己的标准。</b></p>
+</div>
+
+<h3>上午那条「全部改成马来文」是做过头了</h3>
+<p>她的权威版是 <b>马来文标题 + 英文正文</b>——<code>A. TEMPOH MASA</code> 配 <code>: 3 HOURS</code>，<code>C. TUGASAN</code> 配 <code>The candidate is required to…</code>，两者从不出现在同一句里。</p>
+<p>她说的「only one language」指的是<b>一句话里中英马对照</b>那种混排，不是要求整份改成马来文。上午照「全马来文」改，如果拿这套规则去校验<b>她自己已通过的卷</b>，会误报几百条——这本身就说明规则当时定错了。</p>
+
+<h3>她要选哪些 CU，其实一直写在文件里 —— 用粗体</h3>
+<p>把她的 PDF 按字体逐个 span 抽出来：</p>
+<figure>
+<pre style="margin:0;font-size:13.5px;line-height:1.7;overflow-x:auto"><code>BOLD  C01 MARKET &amp; PRODUCT SURVEY            [Arial-BoldMT]
+      C02 DIRECT / RETAIL SALES              [ArialMT]
+      C03 AFTER SALES SERVICE                [ArialMT]
+BOLD  C04 SELF SALES PERFORMANCE ASSESSMENT  [Arial-BoldMT]
+BOLD  C05 ONLINE SALES                       [Arial-BoldMT]
+      C06 PRODUCT MARKETING                  [ArialMT]</code></pre>
+  <figcaption class="src">数据来源：<code>raw/jennifer-authoritative-fb018-3/jen-skema-setA.pdf</code> 第 1 页，本次 session 用 pymupdf 按 span 字体名抽取。</figcaption>
+</figure>
+<p>C01、C04、C05——正是她 8 月 25 日 00:02 才用文字讲清楚的那三个。<b>文本抽取会把粗体丢掉</b>，所以 AI 看到的是六个一模一样的单元。对应昨晚那段：</p>
+<p style="padding-left:16px;border-left:3px solid var(--line);color:var(--dim)">
+你 23:17：「你这边加粗的意思是选那些加粗的 cu 对吗？可能 ai 误会了」<br>
+她 23:17：「对」</p>
+<p><b>结论：决策如果只靠视觉格式承载，就过不了管线。必须以数据形式携带。</b>这正是 profile 文件存在的理由。</p>
+
+<h3>最严重的一条：考卷自己内部打架</h3>
+<p>核对答案范本时发现，Appendix 2 里的<b>「已核实汇总表」和同一附录的 20 行原始数据对不上</b>——而考生的任务恰恰是「分析原始数据」：</p>
+<table>
+  <tr><th>项目</th><th>汇总表说</th><th>20 行原始数据实际是</th></tr>
+  <tr><td>Married + Children</td><td>10</td><td><b>11</b></td></tr>
+  <tr><td>Air-Conditioner</td><td>7</td><td><b>6</b></td></tr>
+  <tr><td>有购买意向 Yes</td><td>15</td><td><b>16</b></td></tr>
+</table>
+<p><b>后果：老老实实数那 20 行的考生，会被评分表判错。</b></p>
+<p>而且这条串了一整条链——答案范本跟着汇总表走，评分表跟着答案范本走，所以<b>从里往外看每一层都「一致」，唯独跟考生手上真正要分析的那张表不一致</b>。三个 agent、十四个校验器，全部漏过。</p>
+<p>已修，并加了 <b>V15 数据对账校验器</b>。<b>而且验证过它真的会响</b>——把修好的数字改回错的，立刻报两条。一个不会响的校验器，通过了等于没查，还买了个假的安心。</p>
+
+<h3>另外两份文件，结构整个做错了</h3>
+<table>
+  <tr><th>文件</th><th>她的实际结构</th><th>我们之前</th></tr>
+  <tr><td>ASSESSMENT ANSWER SHEET</td><td>8 页，<b>红笔填好的答案范本</b></td><td>3 页空白答题栏 <span class="tag bad">另一种文件</span></td></tr>
+  <tr><td>EQUIPMENT VERIFICATION</td><td><b>单页</b> JPK 表单 <code>JPK/PPA-PPT/SP/1:2022</code></td><td>3 页自创结构 <span class="tag bad">格式错</span></td></tr>
+</table>
+<p>这两份在 8 月 21 日那次审计里就被标注为<b>「未审」</b>——搁着没看的东西，往往正是错得最离谱的。</p>
+
+<h2>已交付</h2>
+<div class="nums">
+  <div class="num"><div class="v good">0</div><div class="k">errors（V01–V15 全过）</div></div>
+  <div class="num"><div class="v">12 页</div><div class="k">SOALAN — 声明 12，实际 12</div></div>
+  <div class="num"><div class="v">16 页</div><div class="k">SKEMA — 声明 16，实际 16</div></div>
+  <div class="num"><div class="v">8 页</div><div class="k">ANSWER SHEET（答案范本）</div></div>
+  <div class="num"><div class="v">1 页</div><div class="k">EQUIPMENT VERIFICATION</div></div>
+</div>
+<p>已上传 Jennifer 的 Drive（档名前缀 <code>[fb3 B 25.08]</code>），并发了 WhatsApp + 4 张改动前后对照图给她核对。她已读。</p>
+
+<h2>傍晚：其余 5 个 NOSS 也过了一遍</h2>
+
+<p>把同一套格式套到 Office Admin、Digital Marketing、Retail Outlet、S&amp;M L4/L5 —— <b>22 份 soalan + skema 全部重做</b>。写了个批量迁移脚本，40 个文件不可能靠手改。</p>
+
+<div class="nums">
+  <div class="num"><div class="v good">22 / 22</div><div class="k">封面改 JPK 表格 + 政府 logo</div></div>
+  <div class="num"><div class="v good">22 / 22</div><div class="k">表格全部画线</div></div>
+  <div class="num"><div class="v good">0</div><div class="k">页数声明与实际不符</div></div>
+  <div class="num"><div class="v warn">5 / 6</div><div class="k">NOSS 的 CU 选择仍待客户决定</div></div>
+</div>
+
+<h3>「校验器和被校验对象共用同一个错误假设时，它会安静地放行」</h3>
+<p>页眉参考码的正则是照 <code>FB-018-3</code> 写的，认不出 <code>N821-001-3</code> 这种「字母+数字」开头的代码。后果：</p>
+<ul>
+  <li><b>N821、M731、G471 三个科目整份没有页眉</b>——渲染器找不到代码，就什么都不放</li>
+  <li><b>V12 校验器用的是同一个错正则</b>，所以它对这三个科目<b>一直安静通过</b></li>
+</ul>
+<p>两处都修了。这是今天第二次遇到同一类失败——V15 那次也是「链条内部处处一致，唯独与外部真相不一致」。</p>
+
+<h3>顺带抓到的</h3>
+<table>
+  <tr><th>问题</th><th>怎么发现的</th></tr>
+  <tr><td><b>FB-018-45 的 CU 代码是编的</b> — 考卷写 M01–M08，我的图谱写 C01–C08，原文 PDF 的 CU Code 栏<b>整栏空白</b>，连 NOSS 编号都没印</td><td>查证时抽全文，两种代码一个字都搜不到</td></tr>
+  <tr><td><b>L4 和 L5 撞号</b> — 两份不同考卷都印 <code>FB-018-45:2012/2026/A/01</code>，PPL 签字栏也一样</td><td>跨文件查重（第一版写太粗，把同一份卷的四件套也误报——她的原件也是四件共码，那是对的）</td></tr>
+  <tr><td><b>5 个文件渲染失败</b> — 加页眉后版式多一页，声明页数不再准</td><td>新加的「声明 vs 实际」终检拦下的。<b>这正是它存在的理由</b></td></tr>
+</table>
+
+<h3>一条自我更正</h3>
+<p>上午我说「N821 的标准自相矛盾，正文写 Staff、图表写 Office」。实际读原文的 agent 报告：§6 p.6、CPC p.11、CoCU 15.7 p.71 <b>三处全写 Staff</b>。是 8 月 21 日那份审计搞错，我照抄了它没有复核。考卷上的 <code>C07 STAFF ADMINISTRATION SUPERVISION</code> 是对的。</p>
+
+<h3>误报也是错</h3>
+<p>上午那条「其余科目共 799 个待修问题」——换成正确的语言规则后是 <b>140</b>。<b>其中 659 条是我上午那条做过头的规则造成的误报。</b>一个规则定错，它产生的「发现」全都是噪音，还会误导下一步该修什么。</p>
+
+<h2>晚间收尾：44 份文件，0 问题</h2>
+
+<div class="nums">
+  <div class="num"><div class="v good">44 / 44</div><div class="k">文件通过全部逐文件检查</div></div>
+  <div class="num"><div class="v good">0</div><div class="k">页数声明与实际不符</div></div>
+  <div class="num"><div class="v good">17</div><div class="k">校验器（今早还是 0）</div></div>
+  <div class="num"><div class="v warn">3</div><div class="k">待客户决定的阻塞项</div></div>
+</div>
+
+<h3>又一整类文档漏网</h3>
+<p>今天的批量迁移只覆盖了 <code>soalan</code> 和 <code>skema</code>。结果：<b>10 份设备核对表全部还是自创格式，10 份答案范本全部是空白表格式</b>。</p>
+<p>而这两类正是 <b>8 月 21 日那次审计标注为「未审」的文件</b>。<b>搁置未读之物，往往错得最彻底。</b></p>
+<p>设备核对表改成了<b>从考卷 §D+§E 直接推导</b>而非人写——这样它在结构上就不可能和考卷不一致。跨文档「考卷清单 vs 核对表清单」不符从 10 处降到 0。</p>
+
+<h3>答案范本引用了考卷里不存在的附录</h3>
+<p>答案范本是考官的对照钥匙。抓到 4 处引用了考卷没有的附录编号：</p>
+<table>
+  <tr><th>文件</th><th>引用</th><th>考卷实际</th></tr>
+  <tr><td>G471 ×2</td><td><code>Appendix 3A / 3B / 5A / 5B</code></td><td><code>APPENDIX 3</code> 内含 <code>### A.</code> <code>### B.</code></td></tr>
+  <tr><td>FB-018-45 L4 ×2</td><td><code>Appendix 2B</code></td><td><code>APPENDIX 2</code> 内含 <code>**B. …**</code></td></tr>
+</table>
+<p><b>内容理解正确，标签自己造。</b>考官拿着卷子搜那个字串会一无所获。</p>
+
+<h3>所有模范答案的数字，逐个验算</h3>
+<p>没有采信 agent 的报告——自己算：</p>
+<figure>
+<pre style="margin:0;font-size:13.5px;line-height:1.8;overflow-x:auto"><code>G471  2,350.00 = 备用金 200.00 + 现金销售 2,150.00     ✓
+      28       = 货架容量 40 − 现有 12                 ✓
+N821  105.00   = 3 × 35.00     85.00 = 10 × 8.50      ✓
+      60.00    = 5 × 12.00     90.00 = 6 × 15.00      ✓
+      61.50    = 期初 287.00 − 报销合计 225.50         ✓</code></pre>
+  <figcaption class="src">数据来源：本次 session 逐条比对 <code>*-answer-sheet.md</code> 的粗体数字与其配对 <code>*-soalan.md</code> 附录中印出的原始数据。单价 35.00 / 12.00 / 8.50 / 15.00 全部印在考卷里。</figcaption>
+</figure>
+<p>上一次跳过这一步的后果，就是本页前面那条 V15——汇总表与原始数据打架，照实算的考生会被判错。</p>
+
+<h3>三个连锁失误，值得记下来</h3>
+<table>
+  <tr><th>发生了什么</th><th>教训</th></tr>
+  <tr><td>V05 语言检查连续三次「修好一个、打破另一个」：只查右边 → 加词表 → 要求左边有虚词</td><td>最后改成正面判据，并<b>建 7 个探针固定行为</b>。没有探针的规则调整是盲改</td></tr>
+  <tr><td>把设备表专用的字号/页边距参数误套到 soalan/skema 上</td><td>参数写进代码按<b>文件类型</b>自动选，不再靠人记</td></tr>
+  <tr><td>修签名孤儿页 → 改成表格行 → 反而撑坏了列宽</td><td>真因在上游一个从没出过问题的函数。<b>改动影响范围永远比预期大一格</b></td></tr>
+</table>
+
+<h3>为什么其余 5 科没有上传</h3>
+<p>格式全部做完了，但<b>它们的 CU 结构仍然是错的</b>——Office Admin 还是 7 个 CU 全在里面，正是 Jennifer 点名的问题。等她填完 CU 选择表才能定案。</p>
+<p><b>此刻上传会让它们看起来像完成品。</b>已上传的只有 FB-018-3 四件。</p>
+
+<div class="act">
+  <div class="lbl">所以你要做什么</div>
+  <ol>
+    <li><b>确认中心名称。</b>之前所有文件封面写的是 <code>VIZTECH TRADING SDN. BHD.</code>——那是<b>别家中心</b>的名字，从参考样本抄来的，而且同一个名字还被当成场景里的虚构公司在用。我已改成 <code>CHARACTER INTERNATIONAL ACADEMY SDN. BHD.</code>，场景公司另起名 Sinar Elektronik。考卷是以谁的 pentauliahan 递交就必须是谁，这个你要拍板。</li>
+    <li><b>向 Jennifer 要 SET A。</b>她说「S&amp;M 我已经做好 1 set property 的，我们继续使用」，并要我们「上传我做好的 soalan &amp; skema」。那份文件在 Drive 和本地都没找到。没有它，Set A 只能重做。</li>
+    <li><b>把 6 张 CU 选择表发给她。</b>Office Admin 是她自己说今天要处理的。表已生成好，她填完我这边就能跑。</li>
+    <li><b>撤掉之前上传的汽车版 SET B。</b>8 月 23 日上传到她 Drive 的 FB-018-3 SET B 是汽车场景——她昨晚在语音里说汽车有自己的 NOSS，不能这样用。现在的电器版 SET B 是替代品。</li>
+  </ol>
+</div>
+
+<div class="unk">
+  <div class="lbl">这里我不确定 / 还没做</div>
+  <p><b>①</b> 中心名称<s>是推断的</s> — <b>下午已确证</b>：她自己那份原件封面写的就是 CHARACTER INTERNATIONAL ACADEMY SDN. BHD.，VIZTECH 只出现在我们上传的文件里。仍已发消息请她书面确认一次。<br>
+  <b>②</b> 其余 5 个 NOSS 的考卷<b>还没改</b>——因为 CU 选择必须她先定。已量化的 799 个问题里，语言和分数部分可以先改，但 CU 结构不动。<br>
+  <b>③</b> Jennifer 那两份参考样本里的另外两件（ASSESSMENT ANSWER SHEET、EQUIPMENT VERIFICATION 原件）<b>至今没审过</b>，我方的是照结构自己做的。<br>
+  <b>④</b> 「三个 CU 只用口试验证是否满足 JPK 对实作评估的要求」——这条<b>要 PPL 确认</b>，不是我能判断的。Jennifer 的原始样本就是这个结构，但它是不是被 JPK 正式接受过，没有证据。</p>
+</div>
+
+<details>
+  <summary>技术细节（想看再点）</summary>
+  <p><b>图谱结构：</b><code>NOSS → CU → WorkActivity → PerformanceCriterion</code>，CU 上挂一个 <code>mode</code> 属性（practical / oral / excluded），这个属性只能来自 profile，永不由模型推断。</p>
+  <p><b>十个校验器：</b>V01 profile 覆盖全部 CU · V02 实操 CU 出现在 TUGASAN · V03 口试 CU 有题且题数对 · V04 排除的 CU 不出现在任何地方 · V05 单语 · V06 封面清单 = 实际评估集合 · V07 时长在窗口内且单位是 JAM · V08 页数不是占位符 · V09 权重合计 100% · V10 评分表逐节对账。</p>
+  <p><b>代码位置：</b><code>_engine/ppa/</code>（图谱 + 校验 + 工作表 + CLI）、<code>_engine/render/</code>（docx 渲染 + 页数回填 + PDF）、<code>_engine/graph/</code>（6 份 NOSS 图谱）、<code>_engine/profiles/</code>（选择档）、<code>.claude/skills/noss-ppa-generator/</code>（操作手册）。</p>
+  <p><b>渲染修的具体项：</b>Arial 强制（含 eastAsia / cs 字形槽，python-docx 默认只设 ascii）· 全局左对齐 · 直接写 <code>w:tblBorders</code>（改 table.style 无效，pandoc 的直接格式会覆盖样式）· Jata Negara 徽章插入正文首行 · <code>w:tblHeader</code> 表头跨页重复 · <code>w:cantSplit</code> 行不跨页断开 · 页脚参考编号 + 页码 · 表头判定排除含填空下划线的行。</p>
+</details>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+if (typeof Chart === 'undefined') {
+  document.querySelectorAll('figure').forEach(f => {
+    if (f.querySelector('canvas')) {
+      f.innerHTML = '<p class="src">（图表需要网络加载 Chart.js，当前不可用；数据见上下文表格。）</p>';
+    }
+  });
+} else {
+  Chart.defaults.color = '#9aa3b2';
+  Chart.defaults.borderColor = '#2a2f3a';
+  Chart.defaults.font.family = '"PingFang SC","Microsoft YaHei",sans-serif';
+
+  new Chart(document.getElementById('c1'), {
+    type: 'bar',
+    data: {
+      labels: ['实操工位 ×3','口试 10 题','交卷整理'],
+      datasets: [{ label: '分钟', data: [140, 30, 10],
+                   backgroundColor: ['#4da3ff','#ffb454','#9aa3b2'] }]
+    },
+    options: { indexAxis:'y', responsive:true,
+      plugins:{ legend:{display:false},
+        title:{display:true,text:'3 小时 = 180 分钟怎么分'} },
+      scales:{ x:{ max:180, title:{display:true,text:'分钟'} } } }
+  });
+
+  new Chart(document.getElementById('c2'), {
+    type: 'bar',
+    data: {
+      labels: ['V05 语言','V04 已排除单元','V06 封面清单','V08 页数','V02 实操覆盖','V03 口试','V07 时长'],
+      datasets: [{ label: '数量', data: [335, 20, 4, 4, 3, 2, 2],
+                   backgroundColor: '#ff6b6b' }]
+    },
+    options: { responsive:true, plugins:{ legend:{display:false},
+      title:{display:true,text:'FB-018-3 首次扫描 — 366 个错误的分布'} },
+      scales:{ y:{ type:'logarithmic' } } }
+  });
+
+  new Chart(document.getElementById('c3'), {
+    type: 'bar',
+    data: {
+      labels: ['FB-018-3\n(已修)','FB-018-45 L4','FB-018-45 L5','G471 零售','N821 办公行政','M731 数码行销'],
+      datasets: [{ label: '语言问题', data: [0, 258, 201, 129, 120, 67],
+                   backgroundColor: ['#4ade80','#ff6b6b','#ff6b6b','#ff6b6b','#ff6b6b','#ff6b6b'] }]
+    },
+    options: { responsive:true, plugins:{ legend:{display:false},
+      title:{display:true,text:'各 NOSS 现有考卷的语言混排问题数'} } }
+  });
+}
+</script>
+</body>
+</html>

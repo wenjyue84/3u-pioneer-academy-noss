@@ -1,0 +1,8 @@
+# Log — Apply NOSS IT-020 Computer System Management
+
+---
+
+## [2026-04-22] init | Apply Karpathy raw/wiki structure
+
+**Action:** Created raw/, wiki/, CLAUDE.md, index.md, log.md; migrated .md analysis files to wiki/, docx/py/subfolders to raw/.
+**By:** Claude (claude-sonnet-4-6)

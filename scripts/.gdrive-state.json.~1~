@@ -1,0 +1,55 @@
+{
+  "docs": {
+    "IT-020-3": {
+      "id": "1LHPCgRvy4rGVxCcIEoZAm5CVOtPRW_ubflvJSs8WsEo",
+      "title": "NOSS IT-020-3 Computer System Operation (Level 3)",
+      "url": "https://docs.google.com/document/d/1LHPCgRvy4rGVxCcIEoZAm5CVOtPRW_ubflvJSs8WsEo/edit",
+      "docx_upload": {
+        "id": "1cTwaRky4FOWtq53Kv1Nx7G2UNC-XNTAm",
+        "link": "https://docs.google.com/document/d/1cTwaRky4FOWtq53Kv1Nx7G2UNC-XNTAm/edit?usp=drivesdk&ouid=108958727032749752456&rtpof=true&sd=true"
+      },
+      "last_sync": "2026-03-25T13:16:33.344089"
+    },
+    "IT-020-4": {
+      "id": "1c8K5bgHxgRABNyjNuhyNWBDIJ4FDgChwd8Oy_bafRog",
+      "title": "NOSS IT-020-4 Computer Systems Administration (Level 4)",
+      "url": "https://docs.google.com/document/d/1c8K5bgHxgRABNyjNuhyNWBDIJ4FDgChwd8Oy_bafRog/edit",
+      "docx_upload": {
+        "id": "1uy4ydrB6h6e0E5Kx1xtj3paq0g6KPTJX",
+        "link": "https://docs.google.com/document/d/1uy4ydrB6h6e0E5Kx1xtj3paq0g6KPTJX/edit?usp=drivesdk&ouid=108958727032749752456&rtpof=true&sd=true"
+      },
+      "last_sync": "2026-03-25T13:16:35.496066"
+    },
+    "IT-020-5": {
+      "id": "1lUAmUsevG4OwJ94pSq8TD2CnwXAuMe2Y3ubm2ySzxTg",
+      "title": "NOSS IT-020-5 Computer Systems Management (Level 5)",
+      "url": "https://docs.google.com/document/d/1lUAmUsevG4OwJ94pSq8TD2CnwXAuMe2Y3ubm2ySzxTg/edit",
+      "docx_upload": {
+        "id": "1hbtzujkr6DkHY1F9_VFPZImiTa8QO3EN",
+        "link": "https://docs.google.com/document/d/1hbtzujkr6DkHY1F9_VFPZImiTa8QO3EN/edit?usp=drivesdk&ouid=108958727032749752456&rtpof=true&sd=true"
+      },
+      "last_sync": "2026-03-25T13:16:37.369198"
+    }
+  },
+  "docx_uploads": {
+    "IT-020-3": {
+      "id": "12TzrXzHyoN8fmckGLIej6FRR-QUhMfWm",
+      "url": "https://docs.google.com/document/d/12TzrXzHyoN8fmckGLIej6FRR-QUhMfWm/edit"
+    },
+    "IT-020-4": {
+      "id": "1qK0GbShjvIzuhu4mbYbexWu8znnPeMSs",
+      "url": "https://docs.google.com/document/d/1qK0GbShjvIzuhu4mbYbexWu8znnPeMSs/edit"
+    },
+    "IT-020-5": {
+      "id": "1hQ6cWBHJkddPhRFjwlNQNAmopLNG7SGp",
+      "url": "https://docs.google.com/document/d/1hQ6cWBHJkddPhRFjwlNQNAmopLNG7SGp/edit"
+    }
+  },
+  "last_sync": "2026-03-25T13:16:37.369206",
+  "last_build": "2026-03-26T10:53:06.539995",
+  "generated_files": {
+    "IT-020-3": "C:\\Users\\Jyue\\Documents\\1-projects\\NOSS\\output\\NOSS-IT-020-3-Computer-System-Operation.docx",
+    "IT-020-4": "C:\\Users\\Jyue\\Documents\\1-projects\\NOSS\\output\\NOSS-IT-020-4-Computer-Systems-Administration.docx",
+    "IT-020-5": "C:\\Users\\Jyue\\Documents\\1-projects\\NOSS\\output\\NOSS-IT-020-5-Computer-Systems-Management.docx"
+  }
+}

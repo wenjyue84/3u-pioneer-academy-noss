@@ -1,0 +1,431 @@
+{
+  "noss_code": "G471-001-3:2018",
+  "noss_title": "RETAIL OUTLET OPERATIONS",
+  "level": 3,
+  "source_file": "raw/noss-character/txt/g471-L3-noss.txt",
+  "sector": "WHOLESALE AND RETAIL TRADE, REPAIR OF MOTOR VEHICLES AND MOTORCYCLE",
+  "sub_sector": "RETAIL SALE IN NON-SPECIALIZED STORES",
+  "job_area": "RETAIL STORE OPERATIONS",
+  "source_notes": [
+    "CoCU section 15.5 (p.53) titles the CU 'Retail Outlet Hygiene, Safety and Security Practice', reversing the word order from the CPC/CP title 'Retail Outlet Security, Safety and Hygiene Practice'. The CPC/CP title is used as title_en.",
+    "CP p.21 WA3 of C01 (Carry out stock transfer): PCs 6.5 and 6.6 describe inter-company vs intra-company transfer with the definitions appearing counterintuitive (6.5 = within company branches, 6.6 = to other company). Transcribed verbatim as printed.",
+    "CP p.30 WA C03-WA1 assessment criteria (CoCU p.42): criterion numbered '1.1' appears again at the end ('Sales floor inspection checklist filed') after criteria 1.1–1.7, making two criteria both numbered 1.1. Both transcribed as printed; the duplicate id is in the CoCU assessment criteria column, not the CP PC column. The CP PC column is the authority for PC ids and text used here.",
+    "No elective competency units are defined in this NOSS. The CPC (p.12) shows only five core units (C01–C05). There is no elective section in the document."
+  ],
+  "competency_units": [
+    {
+      "code": "C01",
+      "type": "core",
+      "title_en": "BACK END OPERATIONS",
+      "title_bm": "OPERASI BAHAGIAN BELAKANG",
+      "descriptor": "Back End Operations involve managing and controlling stock and inventory, ensuring goods received are arranged according to FIFO and FEFO requirements, stock par level maintained and properly stacked according to regulatory requirements such as Food and Hygiene guideline, OSHA, and Drug and Poison Act.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Prepare back end documentation",
+          "title_bm": "Sediakan dokumentasi bahagian belakang",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Stock category, quantity and status determined based on stock movement record, price change, stock card, and order proposal list"},
+            {"id": "1.2", "text": "Return and non-returnable stocks determined and listed out"},
+            {"id": "1.3", "text": "Stock documentation such as ordering, receiving, disposal, returns and transfer documents prepared according to retail store standards operation procedures (SOP)"}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out back end stock take",
+          "title_bm": "Laksanakan pengiraan stok bahagian belakang",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Relevant documents interpreted and location code determined according to scope of work"},
+            {"id": "2.2", "text": "Stock Keeping Unit (SKU) to be counted segregated and arranged according to product category"},
+            {"id": "2.3", "text": "Physical SKU quantity confirmed and recorded according to product category"},
+            {"id": "2.4", "text": "Amended stock take report checked according to product category"},
+            {"id": "2.5", "text": "Variance finding confirmed by recounting stock according to product category"},
+            {"id": "2.6", "text": "Stock take finding conveyed to superior and approval on finding obtained"}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out stock ordering",
+          "title_bm": "Laksanakan pemesanan stok",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Stock ordering planned base on stock level and delivery schedule"},
+            {"id": "3.2", "text": "Sales trend on promotional, seasonal and festive items determined based on sales history"},
+            {"id": "3.3", "text": "SKU availability checked based on actual physical balance and stock replenishment report"},
+            {"id": "3.4", "text": "Sales performance checked based on weekly and monthly sales reports"},
+            {"id": "3.5", "text": "Stock ordering carried out based on sales trend, sales performance and availability"}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Carry out stock receiving",
+          "title_bm": "Laksanakan penerimaan stok",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Stock type and quantity checked according to Good Receive Note (GRN) / Good Receive Document according to numbers / quantity of accepted SKU"},
+            {"id": "4.2", "text": "Halal products checked according to Halal standards requirements"},
+            {"id": "4.3", "text": "Stock quality checked base on acceptance quality levels guidelines."},
+            {"id": "4.4", "text": "Corrective action of stock discrepancies and variances recommended to supplier and approved by superior"}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Carry out stock arrangement",
+          "title_bm": "Laksanakan penyusunan stok",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Back end stock arranged according to First In First Out (FIFO) and First Expire First Out (FEFO) requirements"},
+            {"id": "5.2", "text": "Stock segregated according to product category and type"},
+            {"id": "5.3", "text": "Halal product segregated from non – halal product and placed at the designated area"},
+            {"id": "5.4", "text": "Storage area condition checked according to retail store SOP"},
+            {"id": "5.5", "text": "Back end stock arranged according to latest statutory regulation requirements such as Food and Hygiene guideline, Occupational Safety and Health Act (OSHA), Drug and Poison Act"}
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Carry out stock transfer",
+          "title_bm": "Laksanakan pemindahan stok",
+          "performance_criteria": [
+            {"id": "6.1", "text": "Category and type of stock for transferring determined base on stock status such as low stock, out of stock or overstock"},
+            {"id": "6.2", "text": "Stock transfer documentations prepared according to stock status"},
+            {"id": "6.3", "text": "Stock transfer documentations submitted to superior for approval"},
+            {"id": "6.4", "text": "Stock transfer executed and monitored according to respective store requisition"},
+            {"id": "6.5", "text": "Inter company stock transfer carried out when stock is being transferred within the company's branches or outlets."},
+            {"id": "6.6", "text": "Intra company stock transfer carried out when stock is being transferred to other company"}
+          ]
+        },
+        {
+          "id": "WA7",
+          "title": "Carry out product return",
+          "title_bm": "Laksanakan pemulangan produk",
+          "performance_criteria": [
+            {"id": "7.1", "text": "Quantity and quality of product return checked and verified according to specification."},
+            {"id": "7.2", "text": "Category, type and quantity of product return determined and documented."},
+            {"id": "7.3", "text": "Product return documentations prepared and submitted to superior for approval"},
+            {"id": "7.4", "text": "Product return status conveyed to supplier for corrective actions"},
+            {"id": "7.5", "text": "Suppliers pick up schedule for product return arranged and confirmed"},
+            {"id": "7.6", "text": "Product returns to supplier monitored during collection time according to retail store SOP."}
+          ]
+        },
+        {
+          "id": "WA8",
+          "title": "Carry out product disposal",
+          "title_bm": "Laksanakan pelupusan produk",
+          "performance_criteria": [
+            {"id": "8.1", "text": "Products for disposal sorted and segregated according to retail store SOP"},
+            {"id": "8.2", "text": "Non-returnable SKU determined for clearance such as markdown or discount/ purchase with purchase"},
+            {"id": "8.3", "text": "Disposal products details recorded according to non – conformance criteria such as damage, dented and expired products"},
+            {"id": "8.4", "text": "Retail store non – trade item disposal monitored according to retail store SOP"},
+            {"id": "8.5", "text": "Disposal product records submitted to superior for approval"},
+            {"id": "8.6", "text": "Disposal activities carried out and monitored according to retail store SOP"}
+          ]
+        },
+        {
+          "id": "WA9",
+          "title": "Produce back end reports",
+          "title_bm": "Hasilkan laporan bahagian belakang",
+          "performance_criteria": [
+            {"id": "9.1", "text": "Back end documents such as Delivery Order (D/O), Purchase Order (P/O) and Goods Return Note (GRN) determined according to retail store requirements"},
+            {"id": "9.2", "text": "Back end documents verified according to retail store requirements"},
+            {"id": "9.3", "text": "Verified back end documents submitted to Superior"},
+            {"id": "9.4", "text": "Back end documents compiled according to retail store SOP"}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C02",
+      "type": "core",
+      "title_en": "SALES FLOOR OPERATIONS",
+      "title_bm": "OPERASI LANTAI JUALAN",
+      "descriptor": "Sales Floor Operations involves product merchandising, selling and replenishment activities, ensuring products are displayed for sales activities according to promotion plan, high pilferage products are arranged at designated fixtures according to retail store SOP, and price label is displayed according to KPDNKK requirements.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Prepare product merchandising",
+          "title_bm": "Sediakan pemasaran produk",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Retail store planogram obtained to determine product category"},
+            {"id": "1.2", "text": "Retail store promotion plan obtained to determine festive season and promotion activities requirements"},
+            {"id": "1.3", "text": "Retail store planogram determined according to retail store promotion plan"},
+            {"id": "1.4", "text": "Retail store product category determined according to retail store promotion plan"},
+            {"id": "1.5", "text": "Retail store display fixtures determined according to product category"},
+            {"id": "1.6", "text": "Product assortment determined according to floor space availability"}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out product merchandising",
+          "title_bm": "Laksanakan pemasaran produk",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Product display fixtures cleanliness checked according to retail store SOP"},
+            {"id": "2.2", "text": "Product displayed according to promotion plan, product launching and events requirements"},
+            {"id": "2.3", "text": "High pilferage products arranged at designated fixtures according to retail store SOP"},
+            {"id": "2.4", "text": "Price label displayed according to latest Ministry of Domestic Trade, Co-operatives and Consumerism (KPDNKK) requirements and retail store SOP"},
+            {"id": "2.5", "text": "Price change updated according to latest Ministry of Domestic Trade, Co-operatives and Consumerism (KPDNKK) requirements, retail store promotional plan and retail store SOP"},
+            {"id": "2.6", "text": "Stock replenishment activities carried out when stock reached minimum level"}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Update selling floor stock status",
+          "title_bm": "Kemaskini status stok lantai jualan",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Stock count area determined according to retail store plan layout"},
+            {"id": "3.2", "text": "Stock counting documents such as stock count sheet prepared according to stock count area"},
+            {"id": "3.3", "text": "Selling floor stock report generated to determine stock status"},
+            {"id": "3.4", "text": "SKU to be counted segregated and arranged according to product category and type such as food and non – food items"},
+            {"id": "3.5", "text": "Physical count carried out and stock variance determined"},
+            {"id": "3.6", "text": "Physical SKU quantity confirmed and recorded according to product category"},
+            {"id": "3.7", "text": "Stock summary variance report produced and submitted to superior for verification"}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Carry out selling floor stock take",
+          "title_bm": "Laksanakan pengiraan stok lantai jualan",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Selling floor stock arranged according to product category"},
+            {"id": "4.2", "text": "Physical SKU quantity counted and recorded according to product category"},
+            {"id": "4.3", "text": "Stock take finding compared with stock record according to product category"},
+            {"id": "4.4", "text": "Amended stock take report checked according to product category"},
+            {"id": "4.5", "text": "Variance finding confirmed by recounting stock according to product category"},
+            {"id": "4.6", "text": "Stock take finding conveyed to superior and approved"}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Produce sales floor operations reports",
+          "title_bm": "Hasilkan laporan operasi lantai jualan",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Retail floor sales floor operations documents such as price change, promotion, stock card and end of day reports verified according to retail store daily requirements"},
+            {"id": "5.2", "text": "Sales floor operations reports generated according to company's management requirements"},
+            {"id": "5.3", "text": "Sales floor operations reports submitted to superior and reviewed"},
+            {"id": "5.4", "text": "Sales floor operations reports systematically compiled"}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C03",
+      "type": "core",
+      "title_en": "FRONT END SERVICES",
+      "title_bm": "PERKHIDMATAN BAHAGIAN HADAPAN",
+      "descriptor": "Front End Services involve providing customer service such as item exchange and refund, attending to customer enquiries, complaints or feedback, availability of customer shopping equipment and receiving customer payment, ensuring price is updated, cashiers are arranged, shopping equipment are in good condition and item exchange and refund handled according to retail store SOP.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Carry out retail store sales floor inspection",
+          "title_bm": "Laksanakan pemeriksaan lantai jualan kedai runcit",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Sales floor inspection checklist prepared according to retail store daily requirements"},
+            {"id": "1.2", "text": "Sufficient retail store staff determined according to retail store staff schedule"},
+            {"id": "1.3", "text": "Selling floor product display arrangement checked according to retail store promotion plan requirements"},
+            {"id": "1.4", "text": "Selling floor cleanliness checked according to retail store SOP"},
+            {"id": "1.5", "text": "Point of Sales (POS) system cash register function checked according to system instruction manual"},
+            {"id": "1.6", "text": "Sales floor inspection checklist systematically compiled"}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out customer information services",
+          "title_bm": "Laksanakan perkhidmatan maklumat pelanggan",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Product information and promotion materials collected and prepared according to latest retail store activities"},
+            {"id": "2.2", "text": "Customer service form such as lost & found, Good Service Tax (GST) and return forms provided to customer"},
+            {"id": "2.3", "text": "Retail store promotion price verified according to latest retail store promotion activities"},
+            {"id": "2.4", "text": "Customer bulletin board updated according to latest retail store activities"}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out front end customer services",
+          "title_bm": "Laksanakan perkhidmatan pelanggan bahagian hadapan",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Customer free gifts provided according to latest retail store and suppliers promotion activities"},
+            {"id": "3.2", "text": "Customer utilities billing services such as ASTRO, Touch and Go and mobile prepaid provided according to merchant requirements"},
+            {"id": "3.3", "text": "Customer loyalty programs monitored according to retail store SOP"},
+            {"id": "3.4", "text": "Special needs customer such as handicapped, senior citizen, disable and pregnant women assistance provided to meet their specific requirements"}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Check retail store shopping equipment",
+          "title_bm": "Periksa peralatan beli-belah kedai runcit",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Retail store shopping equipment such as basket, trolley list obtained to determine availability status"},
+            {"id": "4.2", "text": "Shopping equipment condition checked to ensure in good shape"},
+            {"id": "4.3", "text": "Shopping equipment condition recorded in retail store shopping equipment list"},
+            {"id": "4.4", "text": "Shopping equipment arranged at specific retail store area according to customer traffic flow"},
+            {"id": "4.5", "text": "Shopping equipment availability status reported to superior"}
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Handle customer item exchange and refund",
+          "title_bm": "Urus pertukaran barang dan bayaran balik pelanggan",
+          "performance_criteria": [
+            {"id": "5.1", "text": "Customer proof of purchase obtained from customer"},
+            {"id": "5.2", "text": "Item condition checked according to causes of defect"},
+            {"id": "5.3", "text": "Item warranty determined according to item validity period"},
+            {"id": "5.4", "text": "Customer item exchange verified according to retail store SOP"},
+            {"id": "5.5", "text": "Customer refund verified according to retail store SOP"},
+            {"id": "5.6", "text": "Customer item exchange and refund cases reported to superior"}
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Handle customers enquiries, complaints and feedback",
+          "title_bm": "Urus pertanyaan, aduan dan maklum balas pelanggan",
+          "performance_criteria": [
+            {"id": "6.1", "text": "Customer enquiry, complaint or feedback determined according to nature of the case"},
+            {"id": "6.2", "text": "Customer solution proposed based on type of enquiry, complaint or feedback and according to retail store SOP"},
+            {"id": "6.3", "text": "Customer enquiry, complaint or feedback written down in retail store standard form"},
+            {"id": "6.4", "text": "Customer enquiry, complaint or feedback form submitted to superior for further action"}
+          ]
+        },
+        {
+          "id": "WA7",
+          "title": "Carry out retail store cashiering",
+          "title_bm": "Laksanakan kerja juruwang kedai runcit",
+          "performance_criteria": [
+            {"id": "7.1", "text": "POS system cash register checked to ensure the system is functioning"},
+            {"id": "7.2", "text": "Cashier briefing conducted on related matters such as promotion activities, process and procedures, appearance"},
+            {"id": "7.3", "text": "Cashier counter opened according to cashier Identity Document (ID)"},
+            {"id": "7.4", "text": "Cashier cash float prepared to ensure minimum amount of cash at each counter maintained"},
+            {"id": "7.5", "text": "Product scanned and cash received according to total amount displayed on POS system cash register"},
+            {"id": "7.6", "text": "Cancellation of transaction checked and verified according to retail store SOP"},
+            {"id": "7.7", "text": "Cash collection handover carried out during off duty / end of shift and based on retail store SOP"},
+            {"id": "7.8", "text": "Cashier day end reports produced to determine daily sales transaction, discrepancies and reconciliation"},
+            {"id": "7.9", "text": "Cash in hand, credit cards transaction and vouchers are compared with daily sales transaction report to determine shortages and discrepancies"}
+          ]
+        },
+        {
+          "id": "WA8",
+          "title": "Produce front end services reports",
+          "title_bm": "Hasilkan laporan perkhidmatan bahagian hadapan",
+          "performance_criteria": [
+            {"id": "8.1", "text": "GST refund for tourist and wholesaler reports prepared according to standard format"},
+            {"id": "8.2", "text": "Customer Suggestion / feedback report prepared according to standard format"},
+            {"id": "8.3", "text": "Refund and return report prepared according to standard format"},
+            {"id": "8.4", "text": "Lost and found reports prepared according to standard format"},
+            {"id": "8.5", "text": "Redemption and Voucher reports prepared according to standard format"},
+            {"id": "8.6", "text": "Redundant card members cancellation reports prepared according to standard format"},
+            {"id": "8.7", "text": "Customer services reports submitted to superior"}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C04",
+      "type": "core",
+      "title_en": "RETAIL OUTLET SUPERVISION",
+      "title_bm": "PENYELIAAN OUTLET PERUNCITAN",
+      "descriptor": "Retail Outlet Supervision involves monitoring day-to-day operations of staffs to ensure that all work activities are done within their duties and responsibilities and scope of work, ensuring retail store staffs are briefed, coached and monitored according to staff duty and responsibility and retail store rules and regulation.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Prepare staff work schedule",
+          "title_bm": "Sediakan jadual kerja kakitangan",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Sufficient number of retail store staff determined according to retail store promotion plan, festive seasons and public holidays"},
+            {"id": "1.2", "text": "Staff shift and working hours determined according to retail store promotion plan, festive seasons and public holidays"},
+            {"id": "1.3", "text": "Staff job tasks and work instruction assigned to meet retail store sales target"},
+            {"id": "1.4", "text": "Staff work schedule produced to meet retail store promotion plan, festive seasons and public holidays"},
+            {"id": "1.5", "text": "Staff work schedule submitted to superior for approval"}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Conduct staff briefing and meeting",
+          "title_bm": "Kendalikan taklimat dan mesyuarat kakitangan",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Latest retail store activities information obtained from superior"},
+            {"id": "2.2", "text": "Staff briefing contents prepared according to latest retail store procedures, promotion and fraud attempt activities"},
+            {"id": "2.3", "text": "Staff meeting organised to discuss on sales forecast"},
+            {"id": "2.4", "text": "Staff briefing conducted to inform on latest retail store procedures, promotion and fraud attempt activities"},
+            {"id": "2.5", "text": "Latest procedures, promotion and fraud attempt activities updated to retail store staff"}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out staff coaching",
+          "title_bm": "Laksanakan bimbingan kakitangan",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Staff skill and knowledge evaluated according to staff job requirements"},
+            {"id": "3.2", "text": "Staff coaching carried out to enhance product knowledge and skill in retailing"},
+            {"id": "3.3", "text": "Staff performance evaluated according to staff skill and knowledge"},
+            {"id": "3.4", "text": "Training program proposed according to staff performance"},
+            {"id": "3.5", "text": "Staff performance reports prepared and submitted to superior for review"}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Monitor staff performance",
+          "title_bm": "Pantau prestasi kakitangan",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Staff attendance checked according to retail store rules and regulation"},
+            {"id": "4.2", "text": "Staff discipline checked according to retail store rules and regulation"},
+            {"id": "4.3", "text": "Staff knowledge and skill measured according to retail store staff duties and responsibilities"},
+            {"id": "4.4", "text": "Staff appearance checked according to retail store staff rules and regulation"},
+            {"id": "4.5", "text": "Staff performance reviewed and submitted to superior for verification and as reference for staff development"}
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C05",
+      "type": "core",
+      "title_en": "RETAIL OUTLET SECURITY, SAFETY AND HYGIENE PRACTICE",
+      "title_bm": "AMALAN KESELAMATAN, KESELAMATAN DAN KEBERSIHAN OUTLET PERUNCITAN",
+      "descriptor": "Retail Outlet Security, Safety and Hygiene Practice involves monitoring equipment maintenance and utilities services, hygiene conditions, security and safety practice of a retail store, ensuring retail store equipment maintenance, utilities, hygiene, security and safety practice are monitored according to Good Hygiene Practice, Good Housekeeping Practice and Standard Operation Procedure (SOP).",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Check retail store equipment maintenance and utilities services",
+          "title_bm": "Periksa penyelenggaraan peralatan dan perkhidmatan utiliti kedai runcit",
+          "performance_criteria": [
+            {"id": "1.1", "text": "Retail store inspection checklist prepared to check equipment condition and utilities supply"},
+            {"id": "1.2", "text": "Equipment condition checked as per retail store inspection checklist"},
+            {"id": "1.3", "text": "Utilities supply checked as per retail store inspection checklist"},
+            {"id": "1.4", "text": "Equipment malfunction reported to superior"},
+            {"id": "1.5", "text": "Utilities supply insufficiency reported to superior"}
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Check retail store hygiene practice",
+          "title_bm": "Periksa amalan kebersihan kedai runcit",
+          "performance_criteria": [
+            {"id": "2.1", "text": "Retail store hygiene practice checklist prepared for verification purpose"},
+            {"id": "2.2", "text": "Work area hygiene practiced verified according to Good Hygienic Practice (GHP) requirements and retail store SOP"},
+            {"id": "2.3", "text": "Staff hygiene practice verified according to GHP requirements and retail store SOP"},
+            {"id": "2.4", "text": "Updated retail store hygiene practice checklist submitted to superior"}
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Monitor retail store security and safety practice",
+          "title_bm": "Pantau amalan keselamatan dan keselamatan kedai runcit",
+          "performance_criteria": [
+            {"id": "3.1", "text": "Work area security and safety practice checked according to retail store SOP"},
+            {"id": "3.2", "text": "Fire preventive system function checked according to retail store SOP"},
+            {"id": "3.3", "text": "Equipment safety practice checked according to retail store SOP"},
+            {"id": "3.4", "text": "Staff safety practice evaluated to ensure emergency situation such as robbery, fire and natural disaster handled according to retail store safety standard practice"},
+            {"id": "3.5", "text": "Retail store loss and prevention reports produced and submitted to superior for verification"}
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Monitor retail store housekeeping",
+          "title_bm": "Pantau pengemasan kedai runcit",
+          "performance_criteria": [
+            {"id": "4.1", "text": "Retail store housekeeping checklist obtained to evaluate back end, sales floor and front end cleanliness"},
+            {"id": "4.2", "text": "Back end cleanliness checked according to Good Housekeeping Practice requirements and retail store SOP"},
+            {"id": "4.3", "text": "Sales floor cleanliness checked according to Good Housekeeping Practice requirements and retail store SOP"},
+            {"id": "4.4", "text": "Front end cleanliness checked according to Good Housekeeping Practice requirements and retail store SOP"},
+            {"id": "4.5", "text": "Solid waste disposal checked according to retail store SOP"},
+            {"id": "4.6", "text": "Retail store housekeeping checklist updated and submitted to superior"}
+          ]
+        }
+      ]
+    }
+  ]
+}

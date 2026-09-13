@@ -1,53 +1,59 @@
-# INDEX — noss-to-wim Project Directory Manifest
+# INDEX — 3U Pioneer Academy NOSS / JPK Umbrella
 
-> **Purpose:** Fast lookup table for every directory and key file. Designed for LLMs: read this instead of walking the tree. Keep lines short, paths absolute when useful, descriptions one-sentence.
+> **Purpose:** Navigation hub for the combined 3U Pioneer Academy skills-accreditation project. Read this first. Designed for LLMs: read this instead of walking the 16k-file tree.
+>
+> **What this is:** On 2026-06-22 four separate NOSS-related folders were merged into this one umbrella project. They share one client (3U Pioneer Academy), one goal (JPK accreditation), and one contact (Jennifer). See [wiki/00-umbrella-overview.md](wiki/00-umbrella-overview.md) for the full picture and [log.md](log.md) for merge provenance.
 
-**Last updated:** 2026-04-17
+**Client:** 3U Pioneer Academy Sdn Bhd · **Lead:** Jay (Lew Wen Jyue) · **Contact:** Jennifer +60 12-611 1677 · **WhatsApp:** 商学院ADI IT Program
+**Last updated:** 2026-06-22
 
 ---
 
-## Subjects (4)
+## The 4 Sub-Efforts (merged here)
 
-| Subject | NOSS Code | Level | Folder | Status |
-|---------|-----------|-------|--------|--------|
-| **Tuinalogy** 推拿疗法 | MP-031-3:2016 | 3 | `tuinalogy-services/` | Active — enriched with images + Chinese WIM |
-| **Aesthetic Services** | S960-002-3:2020 | 3 | `aesthetic-services/` | Content complete |
-| **BEV Diagnostic & Rectification** | G452-010-3:2023 | 3 | `bev-diagnostic-rectification/` | Content complete |
-| **IT Computer System** | IT-020-3/4/5:2013 | 3, 4, 5 | `it-computer-system/` | Content complete (L3 primary) |
+| # | Sub-effort | What it does | Lives in | Source folder (now archived) |
+|---|-----------|--------------|----------|------------------------------|
+| A | **WIM Generator** | Generate JPK-format Written Instructional Materials across 4 subjects (the active, biggest effort) | `aesthetic-services/` `bev-diagnostic-rectification/` `it-computer-system/` `tuinalogy-services/` `build/` `validators/` | `noss-to-wim` |
+| B | **IT-020 Textbook** | Generate L3/L4/L5 textbook content for NOSS IT-020 | `content/IT-020-3,4,5/` `NOSS-IT-020-Textbook/` `scripts/` `templates/` | `noss-it020-textbook` (+ near-dup `NOSS`) |
+| C | **Accreditation Application** | Business effort to apply for JPK accreditation of the IT-020 (ADI IT) programme | `From-WhatsApp/` + root notes (`NotebookLM - ADI*`, `WhatsApp-Group-Reference-*`) | `Apply NOSS IT-020 Computer System Management` |
+| D | **Reference & Raw imports** | JPK panduan, sample WIMs, Jennifer's 2026-06-21 IT-020 sample | `raw/folder-1-wim-panduan/` `raw/folder-2-sample-wim/` `raw/folder-3-jennifer-it020-2026-06-21/` `_reference/` | (across all four) |
 
-## Top-level Reading Order
+> **Relationship:** NOSS (the government *standard*) → feeds both the **textbook** (B) and the **WIM** (A); WIM is the mandatory teaching material that, once accepted by JPK, unlocks the **accreditation** (C). D is the benchmark/reference material that grounds A and B.
 
-Follow `00-` through `06-` for project context:
+---
+
+## Wiki Reading Order (concept knowledge)
 
 | # | File | Topic |
 |---|------|-------|
-| 00 | `00-README.md` | Project overview — start here |
-| 01 | `01-noss-overview.md` | What is NOSS (Malaysian occupational skills standard) |
-| 02 | `02-wim-structure.md` | How WIM documents are organised (7 document types per CU) |
-| 03 | `03-wim-coding-system.md` | WIM coding convention `[NOSS]-[CU]/[Doc]([Seq]/[Total])` |
-| 04 | `04-wim-development-process.md` | Step-by-step WIM authoring workflow |
-| 05 | `05-noss-to-wim-mapping.md` | How to map CoCU items to KP/KT/KK |
-| 06 | `06-whatsapp-context.md` | Messages and context from stakeholders |
-| 07 | `07-jpk-format-spec.md` | **JPK envelope spec** — government logo + identification table every WIM must carry |
-| — | `CLAUDE.md` | Agent onboarding instructions |
-| — | `INDEX.md` (this file) | Directory manifest |
-| — | `LOG.md` | Append-only project activity log |
-| — | `10us.md` | Every-10-story Spiral milestone digest (Chinese) |
+| — | [wiki/00-umbrella-overview.md](wiki/00-umbrella-overview.md) | **Combined-project overview — start here** |
+| — | [wiki/story.md](wiki/story.md) | Narrative entry point (the WIM manufacturing story) |
+| 01 | [wiki/01-noss-overview.md](wiki/01-noss-overview.md) | What is NOSS (Malaysian occupational skills standard) |
+| 02 | [wiki/02-wim-structure.md](wiki/02-wim-structure.md) | WIM document structure (7 doc types per CU) |
+| 03 | [wiki/03-wim-coding-system.md](wiki/03-wim-coding-system.md) | WIM coding `[NOSS]-[CU]/[Doc]([Seq]/[Total])` + paper colours |
+| 04 | [wiki/04-wim-development-process.md](wiki/04-wim-development-process.md) | Step-by-step WIM authoring workflow |
+| 05 | [wiki/05-noss-to-wim-mapping.md](wiki/05-noss-to-wim-mapping.md) | Mapping CoCU items to KP/KT/KK |
+| 06 | [wiki/06-whatsapp-context.md](wiki/06-whatsapp-context.md) | Stakeholder messages and context |
+| 07 | [wiki/07-jpk-format-spec.md](wiki/07-jpk-format-spec.md) | JPK envelope spec — logo + identification table |
 
-## Subject Structure (identical across all 4)
+---
 
-Each subject folder contains:
-- `00-README.md` — subject entry point
-- `00-noss-extract.md` — raw CoCU extraction from NOSS PDF (source of truth)
-- `01-jpw-distribution.md` — 30/70 knowledge/performance hours
-- `C01/`, `C02/`, ... — one folder per Competency Unit (core)
-- `E01/`, `E02/`, ... — elective CUs (tuinalogy/aesthetic only)
-- `_assets/`, `_reference/`, `_docs/` — supporting material
+## Sub-effort A — WIM Generator (subjects)
 
-Each CU folder contains 7 WIM document types:
+| Subject | NOSS Code | Level | Folder | Status |
+|---------|-----------|-------|--------|--------|
+| **Tuinalogy** 推拿疗法 | MP-031-3:2016 | 3 | `tuinalogy-services/` | Active — images + Chinese WIM |
+| **Aesthetic Services** | S960-002-3:2020 | 3 | `aesthetic-services/` | Content complete |
+| **BEV Diagnostic & Rectification** | G452-010-3:2023 | 3 | `bev-diagnostic-rectification/` | Content complete |
+| **IT Computer System** | IT-020-3/4/5:2013 | 3,4,5 | `it-computer-system/` | Content complete (L3 primary) |
+| **Multimedia Interactive Design** 互动多媒体设计 | J582-001-3:2019 | 3 | `multimedia-interactive-design/` | In progress — WIM generating (COPTPA 2023) |
+| **Creative Multimedia Development** 创意多媒体开发 | J582-001-4:2025 | 4 | `creative-multimedia-development/` | Stub — awaiting J582-001-4:2025 NOSS PDF |
+| **AI-Powered Digital Marketing Specialist** | DM-001-3:2026 | 3 | `ai-digital-marketing/` | New — COPTPA course, KP/KK in progress |
 
-| File | Type | Paper colour | Purpose |
-|------|------|--------------|---------|
+Each subject folder: `00-README.md`, `00-noss-extract.md` (CoCU source of truth), `01-jpw-distribution.md` (30/70 split), then `C01/`, `C02/`… (core CUs) and `E01/`… (electives). Each CU folder holds the 7 WIM doc types:
+
+| File | Type | Paper | Purpose |
+|------|------|-------|---------|
 | `PM-teori.md` | Lesson Plan | Yellow | Theory class plan |
 | `KP-XX.md` | Information Sheet | White | Knowledge topic (one per Related Knowledge item) |
 | `KT-XX.md` | Assignment Sheet | Pink | Exercises mirroring each KP |
@@ -56,74 +62,78 @@ Each CU folder contains 7 WIM document types:
 | `KA.md` | Knowledge Assessment | Pink | Written exam paper |
 | `PA.md` | Performance Assessment | Light blue | Practical skill evaluation |
 
-## Tuinalogy-specific Additions
+**Build outputs:** `build/WIM-Consolidated-All.docx` (8.4 MB, all 4 subjects), `build/WIM-Tuinalogy.docx` (7.8 MB, with images). **JPK skill:** `.claude/skills/wim-jpk-format/`.
 
-| Path | Description |
-|------|-------------|
-| `tuinalogy-services/_assets/` | 27 CC-licensed Wikimedia Commons images (5 categories) |
-| `tuinalogy-services/_assets/meridians/` | 7 meridian charts (Wellcome Collection) |
-| `tuinalogy-services/_assets/acupoints/` | 2 acupoint reference figures |
-| `tuinalogy-services/_assets/anatomy/` | 6 skeletal/muscular/anatomical images |
-| `tuinalogy-services/_assets/techniques/` | 5 historical massage / reflexology images |
-| `tuinalogy-services/_assets/clinical/` | 7 tongue-diagnosis + clinical scene images |
-| `tuinalogy-services/_assets/ATTRIBUTION.md` | **Legal manifest** — CC BY 4.0 / CC BY-SA 4.0 / PD attribution |
-| `tuinalogy-services/_reference/pregnancy-safety-reference.md` | 禁忌五穴 (孕期五大禁忌穴位) safety doc |
-| `tuinalogy-services/_reference/regulatory-compliance-matrix.md` | Malaysian T&CM Act 2013 / OSHA / PDPA compliance |
-| `tuinalogy-services/_reference/tcm-terminology-index.md` | Trilingual 中英马 TCM terminology (经络/八纲/四诊) |
+**AI Digital Marketing proposal:** `proposal-ai-digital-marketing.pptx` (root folder) — course proposal presentation for the COPTPA accreditation application.
 
-All Tuinalogy WIM markdown is written in **Simplified Chinese (简体中文)** with bilingual EN/BM terms for clinical vocabulary.
+---
 
-## Top-level Utility Folders
+## Sub-effort B — IT-020 Textbook
 
 | Path | Contents |
 |------|----------|
-| `_agents/` | Agent prompts and templates |
-| `_data/` | Data files (extracted JSON, CSVs) |
-| `_reference/` | Cross-subject reference (coverage matrix, industry standards) |
-| `_tools/` | Project-specific tool scripts |
-| `build/` | Docx builders + outputs |
-| `scripts/` | Helper scripts |
-| `tests/`, `tools/` | Test suites and tooling |
-| `validators/` | Content validators (CoCU coverage, pregnancy check, terminology consistency) |
-| `test-reports/` | Latest validator output reports |
-| `raw/` | **Jennifer's reference WIM samples** — sample JPK-format PDFs from Google Drive |
-| `.claude/skills/wim-jpk-format/` | **JPK envelope skill** — `SKILL.md`, `scripts/enhance_wim_jpk.py`, `scripts/extract_logo.py`, `data/subjects.json` |
-| `<subject>/_assets/logos/jpk-logo.png` | JPK government crest (66 KB) — rendered at top of every WIM |
+| `content/IT-020-3/`, `IT-020-4/`, `IT-020-5/` | Generated textbook content per level |
+| `content/images/` | Textbook figures |
+| `NOSS-IT-020-Textbook/` | Per-level textbook source tree (IT-020-3/4/5) |
+| `_reference/course-originals/`, `_reference/noss-framework/`, `_reference/kitchen-template/` | Reference material the textbook was built from |
+| `scripts/agent_prompts/` | Generation prompts |
+| `output/`, `logs/` | Build outputs and run logs |
 
-## Spiral State (autonomous enhancement loop)
+> **Note:** Two near-identical source folders (`NOSS` and `noss-it020-textbook`) were merged; `noss-it020-textbook` was the superset. Colliding files were preserved as numbered backups (`*.~1~`) rather than overwritten — see "Merge artifacts" below.
+
+---
+
+## Sub-effort C — Accreditation Application (ADI IT Program)
+
+| Path | Contents |
+|------|----------|
+| `From-WhatsApp/` | WhatsApp exports from the 商学院ADI IT Program group |
+| `01 Main - Apply NOSS IT-020 Computer System Management.md` | Application working notes |
+| `NotebookLM - ADI IT Program.md`, `NotebookLM - Adi training.md` | NotebookLM research notes |
+| `WhatsApp-Group-Reference-商学院ADI-IT-Program.md` | Group reference |
+
+---
+
+## Sub-effort D — Reference & Raw imports
+
+| Path | Contents |
+|------|----------|
+| `raw/folder-1-wim-panduan/` | JPK **Buku Panduan WIM** samples (from Jennifer's Drive) |
+| `raw/folder-2-sample-wim/` | Sample JPK-format WIM PDFs (benchmark) |
+| `raw/folder-3-jennifer-it020-2026-06-21/` | Jennifer's JPK-approved IT-020-3:2013 sample WIM (C01/C02/C07; Teori-KP + Amali-KK) |
+| `raw/md/` | Markdown extractions of source PDFs |
+
+---
+
+## Tooling, Spiral & Merge artifacts
 
 | Path | Purpose |
 |------|---------|
-| `.spiral/` | Spiral runtime state — checkpoints, worker logs, iteration summaries |
-| `.spiral/prd-backups/` | Auto-backups of prd.json before each iteration |
-| `.spiral/crashes/` | Crash log — `index.json` for exit codes |
-| `.spiral/test-suites/` | Smoke / regression / security / performance suites |
-| `prd.json` | Product Requirements Document — all user stories (pass/pending) |
-| `spiral.config.sh` | Spiral configuration (focus area, validation, cost controls) |
-| `calibration.jsonl` | Story cost calibration data |
-| `progress.txt` | Running progress log |
+| `_tools/`, `tools/`, `tests/`, `validators/` | Validators (CoCU coverage, pregnancy-safety, terminology), test suites |
+| `.spiral/`, `prd.json`, `spiral.config.sh`, `progress.txt`, `10us.md` | SPIRAL autonomous-enhancement runtime + Chinese 10-story milestone digests |
+| `.git/` | ⚠️ **Frankenstein** — 3 source repos' `.git` were flat-merged; **not a valid single repo.** Re-init if git is needed (`rm -rf .git && git init`). |
+| `*.~1~`, `*.~2~`, `*.~3~` (≈3,028 files) | **Collision backups** from the flat merge — the losing copy of every same-path file. Safe to prune once the canonical versions are confirmed good. |
+| `.venv/`, `.pytest_cache/`, `.mypy_cache/`, `.ruff_cache/`, `__pycache__/` | Regenerable caches/venv (carried over; not on the reading path) |
 
-## Build Outputs
-
-| File | Description |
-|------|-------------|
-| `build/WIM-Consolidated-All.docx` | All 4 subjects merged into single .docx (8.4 MB, ~433 md files) |
-| `build/WIM-Tuinalogy.docx` | Tuinalogy-only .docx with embedded images (7.8 MB) |
-| `build/wim_md_to_docx.py` | Single-file converter (read-only per project convention) |
-| `build/wim_consolidate_all.py` | Batch consolidator with cover page + TOC + page numbers |
+---
 
 ## Key External References
 
-- **Buku Panduan WIM Edisi 2020**: https://anyflip.com/jpvdh/aagk/basic
-- **MySPIKE**: https://www.myspike.my
-- **Jennifer's Drive folder 1** (WIM panduan samples): https://drive.google.com/drive/folders/1RqufqB60euIIm-pt_08S9v98rDLV8FCN → `raw/folder-1-wim-panduan/`
-- **Jennifer's Drive folder 2** (sample WIM): https://drive.google.com/drive/folders/1tu1dmkkI6H-pnX53qRQAWnzsgauTUc0f → `raw/folder-2-sample-wim/`
+- **Buku Panduan WIM Edisi 2020:** https://anyflip.com/jpvdh/aagk/basic
+- **MySPIKE:** https://www.myspike.my
+- **Jennifer Drive 1** (WIM panduan): https://drive.google.com/drive/folders/1RqufqB60euIIm-pt_08S9v98rDLV8FCN → `raw/folder-1-wim-panduan/`
+- **Jennifer Drive 2** (sample WIM): https://drive.google.com/drive/folders/1tu1dmkkI6H-pnX53qRQAWnzsgauTUc0f → `raw/folder-2-sample-wim/`
+- **Jennifer Drive 3** (IT-020 approved sample, 2026-06-21): https://drive.google.com/drive/folders/14wjOaK1DujM2jCSHAoREcsqbL4qquyGr → `raw/folder-3-jennifer-it020-2026-06-21/`
 
-## Source PDFs (outside project)
+## Source NOSS PDFs (outside project)
 
 | Subject | Path |
 |---------|------|
 | BEV | `C:\Users\Jyue\Downloads\G452-010-3-2023 Battery Electric Vehicle (BEV) Diagnostic and Rectification.pdf` |
 | Aesthetic | `C:\Users\Jyue\Downloads\S960-002-3-2020 AESTHETIC SERVICES.pdf` |
-| Tuinalogy | NOSS MP-031-3:2016 (extracted to `tuinalogy-services/00-noss-extract.md`) |
-| IT | `C:\Users\Jyue\Documents\1-projects\noss-it020-textbook\` (pre-existing) |
+| Tuinalogy | NOSS MP-031-3:2016 → `tuinalogy-services/00-noss-extract.md` |
+| IT | merged into this project (`content/`, `NOSS-IT-020-Textbook/`) |
+
+---
+
+*Originals archived 2026-06-22 to `4-archive/old-projects/noss-merge-originals-2026-06-22/` (fully recoverable).*

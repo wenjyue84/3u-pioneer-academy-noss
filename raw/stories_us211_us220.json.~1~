@@ -1,0 +1,134 @@
+{
+  "stories": [
+    {
+      "title": "Add real-world Malaysian IT sector case studies to each CoCu",
+      "priority": "high",
+      "description": "Enrich each CoCu with 1-2 realistic case studies from Malaysian IT companies (banking, government, manufacturing). Each case study should link a work activity to a real-world scenario with student decision points.",
+      "acceptanceCriteria": [
+        "All 20 CoCu files (content/IT-020-{3,4,5}/*.md) have 1-2 Malaysian industry case studies per file",
+        "Each case study references actual Malaysian companies or regulatory context (BNM, SIRIM, MTEM)",
+        "DOCX generator renders case studies in highlighted 'Case Study' boxes with company name and industry sector",
+        "Case study maps to at least one work activity in the CoCu"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Generate assessment rubric templates aligned to Bloom's taxonomy per competency",
+      "priority": "high",
+      "description": "Create Excel-based rubric templates for instructors to assess student competency at each level. Rubrics should align to Bloom's cognitive levels and the 30% Knowledge / 70% Performance split.",
+      "acceptanceCriteria": [
+        "Script scripts/generate_assessment_rubrics.py creates output/rubrics_L3.xlsx, rubrics_L4.xlsx, rubrics_L5.xlsx",
+        "Each Excel file has one rubric per competency unit (7 sheets for L3, 6 for L4, 7 for L5)",
+        "Rubrics include 4 performance levels (Novice, Developing, Proficient, Expert) mapped to Bloom's Create/Evaluate/Apply/Understand",
+        "Knowledge and Performance rows are separate with clear point allocation per level"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Create CoCu compliance risk scorecard for JPK submission readiness",
+      "priority": "high",
+      "description": "Build an interactive HTML dashboard that checks all 20 CoCu files against NOSS requirements and displays traffic-light status. Identify blocking issues that must be resolved before JPK submission.",
+      "acceptanceCriteria": [
+        "Script scripts/generate_compliance_scorecard.py produces output/compliance_scorecard.html",
+        "Scorecard validates 15+ NOSS requirements per CoCu (bilingual headers, contact hours, K/P allocation, learning outcomes format, references, etc.)",
+        "Each CoCu shows green/yellow/red indicator; red means blocking issue preventing submission",
+        "Dashboard includes issue count, remediation links, and final sign-off workflow with date stamp"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Generate student remediation pathway templates for struggling competencies",
+      "priority": "medium",
+      "description": "Create Excel-based remediation templates that instructors can use for students who fail to achieve competency. Include alternative activities, progress tracking, and re-assessment entry points.",
+      "acceptanceCriteria": [
+        "Script scripts/generate_remediation_plans.py produces output/remediation_templates_L3.xlsx (and L4, L5)",
+        "One remediation template per competency unit with alternative activities, smaller assessment chunks, and re-practice exercises",
+        "Each template includes timeline estimate, progress tracking columns, and re-assessment rubric",
+        "Templates reference original CoCu learning outcomes and suggest simplified/scaffolded versions"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Validate bilingual learning outcome semantic equivalence (English/Bahasa Malaysia)",
+      "priority": "medium",
+      "description": "Use NLP to check that English and Bahasa Malaysia learning outcomes convey equivalent meaning and depth. Flag translations that diverge >15% in semantic similarity.",
+      "acceptanceCriteria": [
+        "Script scripts/validate_outcome_translation.py uses sentence-transformers to compute semantic similarity between EN/BM outcome pairs",
+        "Outputs JSON report with similarity scores; flags outcomes below 0.85 similarity as 'review needed'",
+        "Report includes file:line references and suggested alternative translations",
+        "Exit code 0 if all outcomes >0.85 similarity; exit code 1 if any below threshold (for CI/CD gating)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Audit equipment specifications against 2025 vendor datasheets for currency",
+      "priority": "high",
+      "description": "Validate all hardware and software references in CoCu files against current vendor specifications. Identify outdated models, deprecated versions, or components reaching end-of-life.",
+      "acceptanceCriteria": [
+        "Script scripts/validate_equipment_specs.py scans all CoCu files for equipment mentions (CPU, RAM, OS, software versions)",
+        "Cross-references against _reference/vendor_specs_2025.csv and public EOL databases (Dell, HP, Microsoft, etc.)",
+        "Outputs CSV report with file:line, component name, current spec, vendor EOL date, replacement recommendation",
+        "Flags any equipment with EOL date within 18 months as 'urgent update needed'"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Generate instructor solution keys and timing estimates for practical exercises",
+      "priority": "high",
+      "description": "Create instructor-only Word documents with step-by-step solutions for all practical exercise worksheets. Include timing estimates, common student mistakes, and remediation hints.",
+      "acceptanceCriteria": [
+        "Script scripts/generate_solution_keys.py produces output/instructor_keys_L3.docx, instructor_keys_L4.docx, instructor_keys_L5.docx",
+        "Each solution key includes 1-2 pages per practical exercise with numbered steps, expected output/screenshots, and timing estimate",
+        "Solutions include 'Common Mistakes' section with brief explanation of why students struggle and remediation prompt",
+        "DOCX is properly formatted with exercise numbering matching source CoCu file references"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Build interactive student competency progress tracker (web app with localStorage)",
+      "priority": "medium",
+      "description": "Create an HTML/JavaScript web app where students log their competency achievement across all knowledge and performance learning outcomes. Progress persists in browser localStorage and can be exported as PDF.",
+      "acceptanceCriteria": [
+        "Script scripts/generate_student_dashboard.py produces output/student_dashboard.html",
+        "Dashboard loads all 160+ learning outcomes from prd.json, grouped by CoCu and level (Knowledge/Performance)",
+        "Students can click to mark outcomes as 'achieved' with timestamp; data persists in localStorage",
+        "Dashboard includes progress percentage, PDF export button for portfolio documentation, and reset option"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Map each CoCu work activity to Malaysian job market roles with salary data",
+      "priority": "medium",
+      "description": "Link all work activities across the 20 CoCu files to actual ISCO-08 job classifications and Malaysian job market data (job titles, salary ranges, growth outlook). Render as appendix in DOCX.",
+      "acceptanceCriteria": [
+        "Script scripts/map_to_isco_jobs.py uses _reference/isco_jobs_malaysia_2025.csv (job titles, salary min/max, growth %) ",
+        "Each CoCu produces a 'Job Market Relevance' section listing 3-5 ISCO codes relevant to work activities",
+        "Output includes job title, salary range (RM), growth trend, and required certifications (if any)",
+        "generate_docx.py renders this as appendix section in final DOCX output"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Create delivery quality checklist for final CoCu review before JPK submission",
+      "priority": "high",
+      "description": "Build a comprehensive checklist that instructors and curriculum leads use to verify each CoCu is publication-ready. Covers content quality, formatting, NOSS compliance, accessibility, and technical accuracy.",
+      "acceptanceCriteria": [
+        "Script scripts/generate_delivery_checklist.py produces output/delivery_checklist.html (interactive web form)",
+        "Checklist has 30+ items covering: bilingual completeness, learning outcome clarity, practical exercise viability, case study relevance, equipment currency, DOCX formatting, accessibility",
+        "Each checklist item is linked to the specific CoCu file and acceptance criteria",
+        "Form allows sign-off with date, reviewer name, and generates summary report; exit code 0 if all items checked, exit code 1 otherwise (for CI/CD gating)"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    }
+  ]
+}

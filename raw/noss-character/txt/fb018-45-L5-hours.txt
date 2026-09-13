@@ -1,0 +1,148 @@
+
+
+===== [PAGE 1] =====
+RELATED 
+KNOWLEDGE 
+RELATED 
+SKILL
+Prepare marketing strategic planning 
+activities 10 18
+Carry out market assessment 18 24
+Carry out product assessment 18 27
+Carry out target market assessment 20 26
+Design marketing plan 15 26
+Carry out marketing plan fullfilment review 14 20
+Prepare marketing strategic plan 10 20
+TOTAL HOURS 105 161
+Identify sales budget preparation 
+requirements 10 18
+Carry out capacity analysis 17 25
+Carry out market acceptance analysis 18 26
+Carry out financial requirement analysis 17 23
+Carry out resource analysis 18 28
+Prepare sales budget 17 21
+Prepare sales budgeting report 8 20
+TOTAL HOURS 105 161
+Identify sales & marketing operation 
+resources 10 20
+Plan sales & marketing activities 18 26
+Monitor sales & marketing project / task 
+scheduling 20 25
+Evaluate sales & marketing performance 17 26
+Prepare sales & marketing operation 
+management report 10 18
+TOTAL HOURS 75 115
+Plan product development activities 10 19
+Carry out concept development 18 24
+Carry out business analysis 19 24
+Carry out product market testing 18 27
+Carry out product commercialization 13 23
+Prepare product management report 
+development 10 23
+TOTAL HOURS 88 140
+Identify staff management requirements 12 18
+Prepare manpower requirement plan 12 20
+Carry out staff interview session 10 27
+Conduct training need analysis 20 27
+Prepare training program 20 28
+Perform staff performance appraisal 17 22
+Evaluate staff management activities 19 20
+Prepare staff management report 10 22
+TOTAL HOURS 120 184
+M02 SALES BUDGET 
+MANAGEMENT 
+M01 MARKETING 
+STRATEGIC PLANNING 266
+M03
+CONTACT HOUR DISTRIBUTION FOR ;  SALES & MARKETING ADMINISTRATION (LEVEL 5)
+COMPETENCY 
+UNIT NO.
+COMPETENCY UNIT 
+TITLE WORK ACTIVITIES TOTAL (HRS) CREDIT 
+HOURS
+GUIDED
+26
+266 26
+228
+30SALES & MARKETING 
+STAFF MANAGEMENT 
+M04
+190
+M05 304
+190
+PRODUCT 
+DEVELOPMENT 22
+SALES & MARKETING 
+OPERATION 
+MANAGEMENT 
+96
+
+===== [PAGE 2] =====
+RELATED 
+KNOWLEDGE 
+RELATED 
+SKILL
+CONTACT HOUR DISTRIBUTION FOR ;  SALES & MARKETING ADMINISTRATION (LEVEL 5)
+COMPETENCY 
+UNIT NO.
+COMPETENCY UNIT 
+TITLE WORK ACTIVITIES TOTAL (HRS) CREDIT 
+HOURS
+GUIDED
+Identify product specification 10 19
+Identify target market 15 25
+Carry out market development planning 18 25
+Manage market development actiivities 18 26
+Analyse market development result 19 26
+Report market development result 10 17
+TOTAL HOURS 90 138
+Plan logistic requirements 18 22
+Perform transportation management 15 27
+Perform human resources deployment 16 26
+Perform inventory  management 16 23
+Evaluate logistic management activities 
+effectiveness 13 20
+Prepare logistic management report 12 20
+TOTAL HOURS 90 138
+338
+RELATED 
+KNOWLEDGE 
+RELATED 
+SKILL
+Analyse current usage and sustainability of 
+existing technology 20 30
+Manage company's information technology 
+system 40 50
+Perform business process analysis 20 30
+Manage new technology implementation 40 50
+TOTAL HOURS 120 160
+28TOTAL 
+COMPETENCY UNIT ELECTIVE 
+280
+COMPETENCY 
+UNIT NO.
+TERPANDU/GUIDED ( KULIAH LATIHAN, DIBENGKEL, MAKMAL, KERJA LAPANGAN )
+SALES & MARKETING 
+LOGISTIC 
+MANAGEMENT 
+228
+MARKET 
+DEVELOPMENT 
+* 1 KREDIT = 10 JAM NATIONAL
+PEMBELAJARAN SENDIRI / SELF LEARNING ( PEMBACAAN TUGASAN,PENULISAN LAPORAN,PENYEDIAAN UNTUK 
+PENILAIAN DAN PEPERIKSAAN )
+22
+28
+TOTAL CREDIT HOUR
+228
+M08 TECHNOLOGY 
+MANAGEMENT 
+M07
+M06
+COMPETENCY UNIT 
+TITLE WORK ACTIVITIES 
+GUIDED
+TOTAL (HRS) CREDIT 
+HOURS
+22
+97

@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "Bilingual Content Completeness Validator",
+      "priority": "high",
+      "description": "Create validation script that scans all 20 CoCu files for bilingual header sections and flags any missing English-Bahasa Malaysia pairs in titles, key terms, or assessment criteria.",
+      "acceptanceCriteria": [
+        "Script scripts/validate_bilingual_completeness.py scans all content/IT-020-{3,4,5}/*.md files and outputs JSON to output/bilingual_validation_report.json listing any sections missing MS or EN translations",
+        "Report includes file path, section type (header/key-terms/assessment), missing language, and line number for quick remediation",
+        "Exit code 0 if 100% bilingual compliance, non-zero if gaps found (enables CI/CD gate)"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Contact Hour Compliance Audit Trail via Git",
+      "priority": "high",
+      "description": "Implement git-based audit trail that tags and documents each time contact hours are verified/corrected across L3/L4/L5, creating an immutable compliance record for JPK reviewers.",
+      "acceptanceCriteria": [
+        "Script scripts/audit_contact_hours.py reads git history and identifies commits touching contact hour tables, then generates output/contact_hour_audit.html timeline showing verification dates, changed values, and validator notes",
+        "Each audit entry includes commit hash, date, author, and total hours before/after for L3, L4, L5",
+        "HTML report includes certification statement confirming L3=1200 hours verified as of latest audit date"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Learning Outcome Bloom's Taxonomy Classifier",
+      "priority": "medium",
+      "description": "Parse all learning outcomes from 20 CoCu files and classify each by Bloom's cognitive level (Remember, Understand, Apply, Analyze, Evaluate, Create), outputting distribution analysis to identify gaps in cognitive depth.",
+      "acceptanceCriteria": [
+        "Script scripts/classify_bloom_taxonomy.py parses 'Learning Outcome' sections and uses regex/keyword patterns to classify statements (e.g., 'Explain' → Understand, 'Design' → Create)",
+        "Output CSV to output/bloom_classification.csv with columns: CoCu, LearningOutcome, BloomsLevel, Confidence%, and outputs HTML heatmap showing level distribution across all 20 units",
+        "Alert if any CoCu has <20% Create-level outcomes (indicates insufficient higher-order thinking targets)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "NOSS Pre-Flight Compliance Checklist Generator",
+      "priority": "high",
+      "description": "Generate an interactive HTML checklist with 25+ NOSS compliance requirements that validators can step through, with auto-population of findings from scripts and manual override capability for final sign-off.",
+      "acceptanceCriteria": [
+        "Script scripts/generate_preflight_checklist.py produces output/noss_preflight_checklist.html with 25 checkbox items covering: bilingual headers (all 20 units), contact hours (L3=1200), assessment sections (all units), K30/P70 allocation, practical exercises, references, etc.",
+        "Checklist auto-populates 80% of checks by running validation scripts; remaining 20% require manual review (curriculum pedagogy, industry relevance)",
+        "Checklist marks submission as 'Ready' only when all 25 items checked AND all automated validation scripts pass with exit code 0"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Assessment Question Auto-Translation Validator",
+      "priority": "medium",
+      "description": "Parse all assessment criteria from CoCu files, generate sample assessment questions in English, then validate that Bahasa Malaysia equivalents exist and maintain semantic fidelity (no meaning drift).",
+      "acceptanceCriteria": [
+        "Script scripts/validate_assessment_translations.py extracts assessment criteria from all 20 CoCu files, generates 3-5 sample questions per unit (stored in output/assessment_questions.json with EN and MS pairs)",
+        "For each MS translation, script flags high-risk terms (technical jargon, idioms) where translation quality may vary, producing output/translation_risk_report.html with confidence scores",
+        "Manual review workflow: translator updates MS versions in output/assessment_questions.json; script re-validates and confirms semantic preservation"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Employability Skills-to-ISCO-08 Mapper",
+      "priority": "medium",
+      "description": "Cross-reference employability skills from all 20 CoCu files against ISCO-08 job classification to identify which real-world IT roles require the taught competencies, validating industry relevance.",
+      "acceptanceCriteria": [
+        "Script scripts/map_skills_to_isco.py parses Employability Skills sections from all CoCu files and matches against ISCO-08 job titles (e.g., 'System Administration' → ISCO code 3511), outputting output/isco_skills_mapping.json",
+        "Report includes job title, ISCO code, matching skills from CoCu, and estimated job growth (from local labor market data if available)",
+        "Flag any CoCu with <3 matching ISCO roles (indicates insufficient industry alignment)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Contact Hour Activity Budget Timeline Generator",
+      "priority": "medium",
+      "description": "Convert contact hour totals from each CoCu into realistic week-by-week and day-by-day activity budgets with activity type distribution (lecture, lab, practical, assessment), outputting interactive Excel timeline for instructors.",
+      "acceptanceCriteria": [
+        "Script scripts/generate_activity_budgets.py reads contact hour distribution tables and creates output/activity_budget_{level}.xlsx with sheets: Weekly (26-week schedule showing hrs/week per activity type), Daily (sample week showing hrs/day), and Milestone (key assessment dates)",
+        "Excel includes pie charts showing % allocation: Knowledge (30%) vs Performance (70%), and bar charts for activity type distribution per week",
+        "Formula cells allow instructors to adjust calendar assumptions (e.g., 12-week vs 26-week delivery) and auto-recalculate hour distribution"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "CoCu Skill Progression Validator (L3→L4→L5)",
+      "priority": "high",
+      "description": "Ensure learning outcomes form continuous skill progression chains across levels — L3 foundational skills feed into L4 intermediate skills feed into L5 advanced skills, with no gaps or orphaned competencies.",
+      "acceptanceCriteria": [
+        "Script scripts/validate_skill_progression.py parses learning outcomes from all 20 CoCu files, builds a skill dependency graph (e.g., L3 'Network Fundamentals' → L4 'Network Administration' → L5 'Network Architecture'), and outputs output/skill_progression_matrix.html",
+        "Report flags: orphaned skills (in L4/L5 but no L3 prerequisite), redundant skills (taught in multiple levels without clear progression), and jumps in complexity (L3→L5 with no L4 bridge)",
+        "HTML includes clickable skill nodes showing where each skill is taught and what downstream skills depend on it"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "Equipment Specifications Standardizer with EOL Tracking",
+      "priority": "medium",
+      "description": "Extract all hardware/software equipment mentions from 20 CoCu files, standardize specifications (versions, models), flag 2024-2026 end-of-life (EOL) items, and map to modern replacements.",
+      "acceptanceCriteria": [
+        "Script scripts/standardize_equipment_specs.py parses equipment tables from all CoCu files and produces output/equipment_catalog.json with: equipment name, standardized model/version, EOL date (from vendor data), replacement recommendation, and curriculum impact assessment",
+        "Report flags any equipment with EOL ≤2026 with severity (critical if used in L3 foundational skills, lower if L5 elective), and suggests 2024-2025 alternatives",
+        "Generate output/equipment_eol_summary.html showing equipment lifecycle timeline and replacement roadmap per level"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    },
+    {
+      "title": "JPK Submission Readiness Dashboard",
+      "priority": "high",
+      "description": "Create single-page HTML dashboard aggregating 15+ compliance validation checks (bilingual, contact hours, learning outcomes, assessment, equipment, etc.) with traffic-light status indicators, blocking issues summary, and final sign-off gate.",
+      "acceptanceCriteria": [
+        "Script scripts/generate_jpk_dashboard.py executes all validation scripts (bilingual, contact hours, Bloom's, ISCO, skill progression, equipment EOL, etc.) and consolidates results into output/jpk_submission_dashboard.html",
+        "Dashboard displays: 15+ check items with status (✅ Pass / ⚠️ Warning / ❌ Fail), timestamp of last validation run, list of 'Blocking Issues' (items that prevent submission), and overall submission readiness percentage",
+        "Dashboard includes 'Sign Off' button that generates output/jpk_submission_manifest.json with validation timestamps, approver name field, and CI/CD exit code that enables/blocks final submission"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "spiral-user-story-generation"
+    }
+  ]
+}

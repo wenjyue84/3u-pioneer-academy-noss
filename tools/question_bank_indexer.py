@@ -97,7 +97,8 @@ def extract_questions_from_file(path: Path) -> list[dict]:
     cu = infer_cu(path)
     level = infer_level(path)
     noss_code = infer_noss_code(path)
-    doc_type = "KA" if path.stem == "KA" else "KT"
+    # Accept bare `KA.md` and descriptive `KA-foo.md`; everything else is treated as KT.
+    doc_type = "KA" if path.stem == "KA" or path.stem.startswith("KA-") else "KT"
 
     # Split by question headers (### Soalan N, ### Question N, **QN**, A1., A2. etc.)
     question_blocks = re.split(
@@ -158,7 +159,8 @@ def build_index(root: Path, db_path: Path) -> int:
             content='questions', content_rowid='question_id'
         )
     """)
-    ka_files = list(root.rglob("KA.md"))
+    # Accept bare (`KA.md`) and descriptive (`KA-foo.md`) names; KT already wildcarded.
+    ka_files = list(root.rglob("KA.md")) + list(root.rglob("KA-*.md"))
     kt_files = list(root.rglob("KT-*.md"))
     total = 0
     for f in ka_files + kt_files:

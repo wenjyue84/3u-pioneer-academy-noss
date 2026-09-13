@@ -1,0 +1,5106 @@
+
+
+===== [PAGE 1] =====
+ 
+ 
+Jabatan Pembangunan Kemahiran 
+Kementerian Sumber Manusia, Malaysia 
+ 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD 
+(STANDARD KEMAHIRAN PEKERJAAN KEBANGSAAN) 
+ 
+ 
+ 
+ 
+ 
+N821-001-3:2020 
+ 
+OFFICE ADMINISTRATION 
+ 
+PENTADBIRAN PEJABAT 
+ 
+LEVEL 3 
+ 
+
+
+===== [PAGE 2] =====
+ 
+ 
+ 
+ 
+Copyright © DSD 2020  
+ 
+ 
+ 
+ 
+Department of Skills Development (DSD) 
+Federal Government Administrative Centre 
+62530 PUTRAJAYA, MALAYSIA 
+ 
+ 
+ 
+ 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD 
+ 
+ 
+ 
+OFFICE ADMINISTRATION 
+ 
+PENTADBIRAN PEJABAT 
+ 
+LEVEL 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+All rights reserved. 
+No part of this publication may be produced, stored in data base, retrieval system, or in any 
+form by any means, electronic, mechanical, photocopying, recording or otherwise without 
+prior written permission from Department of Skills Development (DSD). 
+ 
+
+
+===== [PAGE 3] =====
+ 
+TABLE OF CONTENTS 
+Preface ....................................................................................................................................... i 
+Abbreviation ............................................................................................................................ ii 
+Glossary .................................................................................................................................. iii 
+List of Figure .......................................................................................................................... iv 
+Acknowledgement ....................................................................................................................v 
+STANDARD PRACTICE .......................................................................................................1 
+1. Introduction .......................................................................................................................2 
+1.1 Occupation Overview ..............................................................................................2 
+1.2 Rationale of NOSS Development ...........................................................................2 
+1.3 Rationale of Occupational Structure and Occupational Area Structure ...........2 
+1.4 Regulatory/Statutory Body Requirements Related to Occupation ....................3 
+1.5 Occupational Prerequisite ......................................................................................3 
+1.6 General Training Prerequisite for Malaysian Skills Certification System ........3 
+2. Occupational Structure (OS) ...........................................................................................4 
+3. Occupational Area Structure (OAS) ...............................................................................4 
+4. Definition of Competency Levels .....................................................................................5 
+5. Award of Certificate .........................................................................................................6 
+6. Occupational Competencies .............................................................................................6 
+7. Work Conditions ...............................................................................................................6 
+8. Employment Prospects .....................................................................................................6 
+9. Up Skilling Opportunities ................................................................................................7 
+10. Organisation Reference for Sources of Additional Information ..................................7 
+11. Standard Technical Evaluation Committee ...................................................................8 
+12. Standard Development Committee .................................................................................9 
+STANDARD CONTENT ......................................................................................................10 
+13. Competency Profile Chart (CPC) .................................................................................11 
+14. Competency Profile (CP) ................................................................................................12 
+CURRICULUM OF COMPETENCY UNIT ......................................................................26 
+15. Curriculum of Competency Unit ...................................................................................27 
+15.1. Front Office Reception ..........................................................................................27 
+15.2. Office Finance Handling .......................................................................................33 
+15.3. Office Procurement Handling ..............................................................................39 
+15.4. Office Inventory Handling ....................................................................................47 
+15.5. Office Logistic Handling .......................................................................................56 
+
+===== [PAGE 4] =====
+ 
+15.6. Office Documentation Preparation ......................................................................63 
+15.7. Office Administration Supervision ......................................................................71 
+16. Delivery Mode .................................................................................................................81 
+17. Tools, Equipment and Materials (TEM) ......................................................................82 
+18. Competency Weightage ..................................................................................................85 
+Sample Calculation for Summary of Training Hours .................................................87 
+
+===== [PAGE 5] =====
+N821-001-3:2020 
+ i 
+Preface 
+ 
+Standard Definition 
+ 
+The National Occupational Skills Standard (NOSS) is a Standard document that outlines the 
+minimum competencies required by a skilled wo rker working in Malaysia for a particular 
+area and level of occupational, also the path to achieve the competencies. The competencies 
+are based on the needs of employment, according to the career structure for the occupational 
+area and developed by industry experts and skilled workers. 
+ 
+The National Competency Standard (NCS) is a Standard document that outlines the 
+competencies required by a skilled worker in Malaysia. 
+ 
+Description of Standard Components 
+ 
+The document is divided into three (3) components which includes: - 
+ 
+Component I  Standard Practice 
+This component is about the i nformation related to occupational area 
+including introduction to the industry, Standard requirements, occupational 
+structure, levelling of competency, authority and industry requirements as 
+a whole. 
+ 
+Component II  Standard Content 
+This component is a reference to industry employers in assessing and 
+improving the competencies that is required for a skilled worker. The 
+competencies are sp ecific to the occupational area. The comp onent is 
+divided into two (2) section which are the chart (Competency Profile 
+Chart, CPC) and details of the competencies (Competency Profile, CP). 
+ 
+Component III  Curriculum of Competency Unit 
+This component is a reference  for the training personnel to identify 
+training requirements, design the curriculum, and develop assessment. The 
+training hours that included in this component is based on the 
+recommendations by the Standard Development Committee ( SDC). If 
+there are modifications to the training hours, the Department provides the 
+medium for discussion and consideration for the matter. 
+ 
+  
+
+===== [PAGE 6] =====
+N821-001-3:2020 
+ ii 
+Abbreviation 
+ 
+1 PAX Number of Person 
+2 MSIC Malaysia Standard Industry Classification 
+3 NOSS National Occupational Skills Standard  
+4 CU Competency Unit 
+5 GLC Government Lead Company 
+6 MNC Multinational company 
+7 SME Small Medium Enterprise 
+ 
+  
+
+===== [PAGE 7] =====
+N821-001-3:2020 
+ iii 
+Glossary 
+ 
+1 Competency 
+Unit 
+A set of skills that results in a product, service or decision in a holistic 
+manner. 
+2 Administration  The arrangements and tasks needed to control the operation of a plan or 
+organization. 
+3 Logistic  Process of managing how resources are acquired, stored, and 
+transported to their final destination. 
+4 Procurement  Procurement is the act of obtaining goods or services, typically for 
+business purposes. 
+5 Supervision  The act of watching a person or activity and making certain that 
+everything is done correctly 
+
+===== [PAGE 8] =====
+N821-001-3:2020 
+ iv 
+List of Figure 
+ 
+1. Figure1 Occupational Structure of Office Operation 
+2. Figure 2 Occupational Area Structure of Office Operation 
+ 
+ 
+  
+
+===== [PAGE 9] =====
+N821-001-3:2020 
+ v 
+Acknowledgement 
+ 
+Director General of Department of Skills Development (DSD) would like to extend his 
+gratitude to the National Skills Development Council  (MPKK), Standard Technical 
+Committee (JTS), Standard Technical Evaluation Committee (JTPS), Standard Development 
+Committee (JPS), and organisation and individuals who have been involved directly or 
+indirectly for the contribution, persistence and support in the development of this Standard 
+until it is completed. 
+ 
+The Director General of DSD also would li ke to expresses his sincere thanks to the support 
+and involvement of the Royal Malaysian Customs Department , MMSC Venture Sdn Bhd , 
+Public Bank Berhad, The International School of Kuala Lumpur, Chuan Thye Motor (Honda) 
+Sdn Bhd, LIT Training Consultants Sdn . Bhd, Erican College Sdn Bhd , Park Rite Sdn Bhd  
+and Miraj Academy Sdn Bhd . as a major contributor , and effort in developing this Standard 
+successfully. 
+ 
+ 
+ 
+
+===== [PAGE 10] =====
+N821-001-3:2020 
+1 / 90 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STANDARD PRACTICE 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+OFFICE ADMINISTRATION 
+ 
+LEVEL 3 
+  
+
+===== [PAGE 11] =====
+N821-001-3:2020 
+2 / 90 
+1. Introduction 
+ 
+1.1 Occupation Overview 
+ 
+Office administration is a set of day -to-day activities that are related to  record 
+keeping & billing, financial planning, personnel, physical distribution and logistics, 
+within an organization. An employee that undertakes these activities is commonly 
+called an office administrator or office manager, and plays a key role  in any 
+organizations infrastructure, regardless of the scale.  An office administrator has the 
+responsibility of ensuring that the administrative activities within an organization 
+run efficiently, by providing structure to other employees throughout the 
+organization. These activities can range from being responsible for the management 
+of human resources, budgets and records, to undertaking the role of supervising 
+other employees. 
+ 
+1.2 Rationale of NOSS Development 
+ 
+This NOSS FB-024-2:2012 and FB-024-3:2012 was developed in 2012. Due to the 
+technological changes and industrial requirements for this industry such as IR4.0 
+and green environment specification needs, the content of the NOSS need to be 
+reviewed. 
+  
+This document covers the competency standard of Office  Administration (Level 3) 
+that is presently significant in the office administration industry. The industry 
+observes that competent administrator is a critical job area to overcome shortage of 
+resource in Malaysia. Consequently, the development of this NOS S is essential in 
+developing skilled workers in this area. 
+ 
+The NOSS document can be used by training centres to conduct and simulate 
+training that is required by a person that chooses this profession. This is to ensure a 
+candidate that has undergone train ing, as required by this NOSS, will be able to 
+perform every task and job scope with a high degree of competency.  
+ 
+1.3 Rationale of Occupational Structure and Occupational Area Structure 
+ 
+Based on Malaysia Standard Industry Classification (MSIC) 2008, Office 
+Administration is classified in section (N) Administrative and Support Activities 
+and group under Office Administrative and Support Activities (821) . This group 
+includes the provision of a range of day -to-day office administrative services, such 
+as financial planning, billing and record keeping, personnel and physical 
+distribution and logistics for others on a contract or fee basis. This group includes 
+also support activities for others on a contract or fee basis, that are ongoing routine 
+business su pport functions that businesses and organizations traditionally do for 
+themselves. Units classified in this group do not provide operating staff to carry out 
+the complete operations of a business. Units engaged in one particular aspect of 
+these activities are classified according to that particular activity. 
+ 
+The panel of experts justified that this NOSS be developed at level 3 due to the 
+work nature of Administration Assistance and Administration Supervisor 
+
+===== [PAGE 12] =====
+N821-001-3:2020 
+3 / 90 
+performing competencies that are similar in work scope producing a product, 
+service and decision that are more holistic. 
+ 
+1.4 Regulatory/Statutory Body Requirements Related to Occupation 
+ 
+Not Applicable. 
+ 
+ 
+1.5 Occupational Prerequisite 
+ 
+The minimum requirements set forth by the industry for any interested individual 
+to undertake the job or career in this area is 18 years old and above. 
+ 
+1.6 General Training Prerequisite for Malaysian Skills Certification System 
+ 
+To qualify for the Malaysian Skills Certification programme in recognised training  
+institutes, candidates must meet the following requirements; 
+ 
+a) 16 years old and above; and 
+b) Can read, write and communicate in Bahasa Malaysia/ English. 
+  
+
+===== [PAGE 13] =====
+N821-001-3:2020 
+4 / 90 
+2. Occupational Structure (OS) 
+ 
+Section (N) Administrative and Support Service Activities 
+Group (821) Office Administrative and Support Activities  
+Area  Office Operation  
+Level 5  Office Manager   
+Level 4  Administration Executive  
+Level 3  Administration Supervisor  
+Level 2  Administration Assistant  
+Level 1  No level  
+ 
+Figure 1: Occupational Structure of Office Operation 
+ 
+3. Occupational Area Structure (OAS) 
+ 
+Section (N) Administrative and Support Service Activities 
+Group (821) Office Administrative and Support Activities  
+Area  Office Operation 
+Level 5  Office Management  
+Level 4  Office Administration Control  
+Level 3  Office Administration 
+Level 2  Embedded to L3 
+Level 1  No level 
+ 
+Figure 2: Occupational Area Structure of Office Operation 
+  
+
+===== [PAGE 14] =====
+N821-001-3:2020 
+5 / 90 
+4. Definition of Competency Levels 
+ 
+The NOSS is developed for various occupational areas. Below is a guideline of each 
+NOSS Level as defined by the Department of Skills Development, Ministry of Human 
+Resources, Malaysia. 
+ 
+Level 1:  Competent in performing a range of varied work activities, most of 
+which are routine and predictable. 
+  
+Level 2: Competent in performing a significant range of varied work activities, 
+performed in a variety of contexts. Some of the activities are non-
+routine and required individual responsibility and autonomy. 
+  
+Level 3: Competent in performing a broad range of varied work activities, 
+performed in a variety of contexts, most of which are complex and 
+non-routine. There is considerable responsibili ty and autonomy and 
+control or guidance of others is often required. 
+  
+Level 4: Competent in performing a broad range of complex technical or 
+professional work activities performed in a wide variety of contexts 
+and with a substantial degree of personal r esponsibility and autonomy. 
+Responsibility for the work of others and allocation of resources is 
+often present. 
+  
+Level 5:   Competent in applying a significant range of fundamental principles 
+and complex techniques across a wide and often unpredictable variety 
+of contexts. Very substantial personal autonomy and often significant 
+responsibility for the work of others and for the allocation of 
+substantial resources features strongly, as do personal accountabilities 
+for analysis, diagnosis, planning, execution and evaluation. 
+ 
+  
+
+===== [PAGE 15] =====
+N821-001-3:2020 
+6 / 90 
+5. Award of Certificate 
+ 
+The Director General may award, to any person upon conforming to the Standards Office 
+Administration Level 3 the following skills qualifications as stipulated under the National 
+Skills Development Act 2006 (Act 652): 
+ 
+a) Malaysian Skills Certificate (MSC); or 
+b) Statements of Achievement. 
+ 
+6. Occupational Competencies 
+ 
+The Office Administration Level 3 personnel is competent in performing t he following 
+core competencies: 
+ 
+a) Front Office Reception; 
+b) Office Finance Handling; 
+c) Office Procurement Handling; 
+d) Office Inventory Handling; 
+e) Office Logistic Handling; 
+f) Office Documentation Preparation; and 
+g) Staff Administration Supervision. 
+ 
+ 
+7. Work Conditions 
+ 
+Generally, the office administration personnel work  is according to work schedule and 
+ensures that the office administration and its associated system are being handled with 
+accuracy. He /she must adhere to workplace safety standard operating procedure and day 
+to day work assignment. They must also be alwa ys aware of new development in order to 
+keep abreast in the rapidly changing business sector. They may work individually or in an 
+industry with supervision by superior. 
+ 
+8. Employment Prospects 
+ 
+The Business Management industry has a high employment prospect both in the public 
+and private sectors. This is because the skilled workforce is being recognised as being 
+knowledgeable and skilled in the business management. This in turn increases the 
+demand for skilled personnel in this field to be employed b y both the public and private 
+sector. As Malaysia had identified in the Eleventh Malaysia Plan and under the Economic 
+Transformation Programme, the existence of the business management in a government 
+will increase employment prospect and also an involveme nt in the Malaysian business 
+environment. The number of positions for Services sector in 2018 was 4,421 thousand, 
+went up 58 thousand from 4,363 thousand in 2017. The number of filled positions 
+increased to 4,384 thousand (2017: 4,322 thousand) while vacan cies in this sector 
+decreased by 5 thousand. Meanwhile, there were 51.0 thousand jobs created in the 
+services sector in 2018. Currently, the rapid growth of the human capital demand within 
+the business sector has resulted in the requirement of skilled workforce.1   
+                                                 
+1 Department of Statistics Malaysia. 2019. Employment Statistics Second Quarter 2019. Page 15  
+
+===== [PAGE 16] =====
+N821-001-3:2020 
+7 / 90 
+9. Up Skilling Opportunities 
+ 
+As for up skilling opportunities, most competent office administration learns their craft on 
+the job. They usually begin as qualified office administration and gradually learn their 
+new skills as they gain experience. Further certification may increase the ir chances of 
+career advancement. Thus, with additional formal training/education, this experience 
+competent office administration can advance to become certified office administrator 
+personnel. 
+ 
+10. Organisation Reference for Sources of Additional Information 
+ 
+The following organisations can be referred as sources of additional information which 
+can assist in defining the document's contents.  
+ 
+a) Malaysian Administration Modernisation and Management Planning Unit (MAMPU)  
+Aras 6, Blok B2, Kompleks Jabatan Perdana Menteri, 
+Pusat Pentadbiran Kerajaan Persekutuan, 62502 Putrajaya, Malaysia. 
+603-8872 3000 
+https://www.mampu.gov.my/ms/ 
+ 
+b) Malaysian Communications And Multimedia Commission (MCMC) 
+Off Persiaran Multimedia 63000 Cyberjaya Selangor Darul Ehsan. 
+60 3 8688 8000 
+https://www.mcmc.gov.my/ 
+ 
+ 
+  
+
+===== [PAGE 17] =====
+N821-001-3:2020 
+8 / 90 
+11. Standard Technical Evaluation Committee 
+ 
+NO NAME POSITION & ORGANISATION 
+CHAIRMAN 
+1  
+Dr. Zool Hilmi Bin Mohamed 
+Ashari 
+Principal Assistant Director 
+Department of Skills Development 
+(DSD) 
+EVALUATION PANEL 
+1  
+Betty Phua President 
+Malaysian Association of Professional 
+Secretaries & Administrators (MAPSA) 
+2  
+Melissa Ong Chief Executive Officer  
+Asian Strategy & Leadership Institute 
+(ASLI) 
+Kuala Lumpur. 
+3  Jalifah Bt. Abdul Aziz Fenner Head of Special Project 
+AOS Conventions & Events Sdn. Bhd. 
+SECRETARIAT 
+1  
+Mohd. Aidil Fitri Bin Ab Razak Senior Assistant Director 
+Department of Skills Development 
+(DSD) 
+ 
+  
+
+===== [PAGE 18] =====
+N821-001-3:2020 
+9 / 90 
+12. Standard Development Committee 
+ 
+OFFICE ADMINISTRATION 
+ 
+LEVEL 3 
+ 
+NO NAME POSITION & ORGANISATION 
+DEVELOPMENT PANEL 
+1  
+Hasmalini Bt. Halim Assistant Superintendent (Customs & 
+Administration)  
+Royal Malaysian Customs Department 
+2  Siti Fatimah Bt. Abdul Razak Office Administrator  
+MMSC Venture Sdn. Bhd. 
+3  
+Teoh Ching Ai Assistant Manager Managing Director 
+Office 
+Public Bank Berhad 
+4  
+Janet Chin Yoke Foong Middle School Office Manager  
+The International School of Kuala 
+Lumpur 
+5  Nor Ilyana Bt. Zainal Abidin Office Administrator  
+Chuan Thye Motor (Honda) Sdn. Bhd. 
+6  Rashita Bt. Haji Kamarudin Office Manager 
+LIT Training Consultants Sdn. Bhd. 
+7  Aini Jamaiyah Bt. Salim Managing Director  
+Ajma Global Sdn Bhd 
+8  Juraidah Zainal Admin Manager  
+Park Rite Sdn. Bhd. 
+9  Nurul Syafiqah Izzati Binti 
+Saharudin 
+Admin Officer  
+Miraj Academy Sdn. Bhd. 
+10  
+Shafarina Binti Tamziz  Lecturer  
+Institut Perguruan dan Perindustrian 
+Yayasan Negeri Sembilan  
+Facilitator 
+1  Engku Mohd Azmi Bin Dato’ 
+Engku Hatim 
+CIAST/PPL/FDS-0035/2012 
+Total Oracle Sdn. Bhd. 
+ 
+ 
+  
+
+===== [PAGE 19] =====
+N821-001-3:2020 
+10 / 90 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STANDARD CONTENT 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+OFFICE ADMINISTRATION 
+ 
+LEVEL 3 
+ 
+
+===== [PAGE 20] =====
+N821-001-3:2020 
+11 / 90 
+13. Competency Profile Chart (CPC) 
+ 
+SECTION (N) ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES 
+GROUP (821) OFFICE ADMINISTRATIVE AND SUPPORT ACTIVITIES  
+AREA OFFICE OPERATION 
+NOSS TITLE OFFICE ADMINISTRATION 
+NOSS LEVEL THREE (3) NOSS CODE N821-001-3:2020 
+ 
+  
+CORE 
+COMPETENCY 
+ FRONT OFFICE 
+RECEPTION  OFFICE FINANCE 
+HANDLING  
+OFFICE 
+PROCUREMENT 
+HANDLING 
+ OFFICE INVENTORY 
+HANDLING 
+ N821-001-3:2020-C01  N821-001-3:2020-C02  N821-001-3:2020-C03  N821-001-3:2020-C04 
+         
+ 
+ OFFICE LOGISTIC 
+HANDLING  
+OFFICE 
+DOCUMENTATION 
+PREPARATION 
+ 
+STAFF 
+ADMINISTRATION 
+SUPERVISION 
+  
+ N821-001-3:2020-C05  N821-001-3:2020-C06  N821-001-3:2020-C07   
+  
+COMPETENCY UNIT 
+
+===== [PAGE 21] =====
+N821-001-3:2020 
+12 / 90 
+14. Competency Profile (CP) 
+ 
+SECTION (N) Administrative and Support Service Activities 
+GROUP (821) Office Administrative and Support Activities  
+AREA Office Operation 
+NOSS TITLE Office Administration 
+NOSS LEVEL Three (3) NOSS CODE N821-001-3:2020 
+ 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+1 Front Office 
+Reception 
+ 
+N821-001-
+3:2020-C01 
+ 
+Front Office Reception describes 
+the first point of contact of visitors 
+at the office and handling them 
+professionally.  
+ 
+The person who is competent in 
+this CU should be able to attend to 
+visitors, handle office 
+incoming/outgoing 
+communication, handle office 
+incoming/outgoing items and 
+record front office reception 
+activities. 
+ 
+The outcomes of this CU are 
+customer’s satisfaction and 
+minimise complaints from internal 
+and external visitors, systematic  
+work flow, presentable perso nality 
+with good ethics attained in 
+accordance with organization 
+requirements. 
+1. Attend to visitor. 
+ 
+1.1 Visitor greeted in accordance with  
+meet and greet guidelines. 
+1.2 Issue acknowledged which include 
+enquiry, complaint and deliver y in 
+accordance with organization 
+requirements.  
+1.3 Action taken in accordance with 
+organization requirements. 
+1.4 Issue delegated to 
+department/person concerned in 
+accordance with organization 
+requirements. 
+ 
+2. Handle office incoming/ 
+outgoing communication. 
+2.1 Incoming/outgoing communication 
+acknowledged which include 
+telephone, fax, email and postage  in 
+accordance with organization 
+requirements. 
+2.2 Recipient communication 
+acknowledged in accordance with 
+organization directory. 
+2.3 Communication information 
+
+===== [PAGE 22] =====
+N821-001-3:2020 
+13 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+ generated i n accordance with 
+organization requirements. 
+3. Handle office incoming/ 
+outgoing items. 
+ 
+3.1 Items which includes mails, 
+documents and parcel confirmed 
+with intended owner. 
+3.2 Items notification provided to 
+recipient and of mode delivery 
+acknowledged in accordance with 
+organization requirements. 
+3.3 Item delivery record generated in 
+accordance with organization 
+requirements. 
+ 
+4. Record front office 
+reception activities. 
+4.1 Reception activities related 
+information compiled.  
+4.2 Accuracy of compiled information 
+confirmed. 
+4.3 Front office reception activities 
+report prepared accordance with 
+organization requirement. 
+ 
+ 
+2 Office Finance 
+Handling 
+ 
+N821-001-
+3:2020-C02 
+ 
+Office Finance Handling  describes 
+the process of preparing and 
+balancing finance documents for 
+the daily operations of the office. 
+ 
+The person who is competent in 
+1. Prepare petty cash. 1.1 Petty cash payment form with serial 
+number selected.  
+1.2 Petty cash payment requirements 
+completed. 
+1.3 Petty cash payment form progress 
+checked in accordance with 
+
+===== [PAGE 23] =====
+N821-001-3:2020 
+14 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+this CU should be able to prepare 
+petty cash, handle bills collection, 
+handle payment voucher s and 
+prepare office finance report 
+summary. 
+ 
+The outcomes of this CU are 
+payment tally recorded and on 
+time archived in accordance with 
+organization requirements. 
+ 
+organization requirements. 
+ 
+2. Handle bills collection. 
+ 
+2.1 Selected bills from mails and hand 
+delivery compile d in accordance 
+with organization requirements. 
+2.2 Bills segregated  manually or 
+automatically in accordance with 
+organization requirements. 
+2.1 Bills collection report prepared in 
+accordance with organization 
+requirements. 
+ 
+3. Handle payment 
+vouchers. 
+ 
+3.1 Selected payment voucher from 
+mails and hand delivery compiled in 
+accordance with organization 
+requirements. 
+3.2 Payment voucher segregated 
+manually or automatically in 
+accordance with organization 
+requirements. 
+3.3 Payment voucher report prepare d in 
+accordance with organization 
+requirements. 
+ 
+4. Prepare office finance 
+report summary. 
+ 
+4.1 Selected confidential finance 
+documentation compiled in 
+accordance with organization 
+requirements. 
+
+===== [PAGE 24] =====
+N821-001-3:2020 
+15 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+4.2 Payment acknowledgement finance 
+documentation confirmed in 
+accordance with organization 
+requirements. 
+4.3 Finance summary report generated. 
+ 
+3 Office 
+Procurement 
+Handling 
+ 
+N821-001-
+3:2020-C03 
+ 
+Office Procurement Handling  
+describes the acquisition of office 
+required materials and process in 
+procurement cycle of the 
+organization. 
+ 
+The person who is competent in 
+this CU should be able to prepare 
+requisition form, handle incoming 
+procurement documents, handle 
+purchase items, coordinate 
+procurement licensing renewal and 
+record office procurement 
+handling activities. 
+ 
+The outcomes of this CU are 
+office items availability are met in 
+a timely manner and product 
+specification tally  recorded with 
+requisition in accordance with 
+organization requirements. 
+ 
+1. Prepare requisition form. 1.1 Selected requisition form acquired.  
+1.2 Requisition form comprises of date, 
+product/items, amount and quantity 
+produced in accordance with 
+organization requirements. 
+1.3 Requisition form  progress checked 
+accordance with organization 
+requirements. 
+ 
+2. Handle incoming 
+procurement documents. 
+2.1 Procurement nature which includes  
+online, product/items and service 
+confirmed in accordance with 
+organization requirements. 
+2.2 Procurement document which  
+includes quotation , purchase order  
+and capital asset confirmed in 
+accordance with organization 
+requirements. 
+2.3 Purchase requisition 
+acknowledgment confirmed and 
+endorsed in accordance with 
+organization requirements. 
+ 
+
+===== [PAGE 25] =====
+N821-001-3:2020 
+16 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+3. Handle purchase items. 3.1 Selected purchased items acquired in 
+accordance with purchase order. 
+3.2 Purchase items tally with requisition 
+form. 
+3.3 Purchase items acknowledgment 
+confirmed to recipient by selected 
+delivery method.  
+3.4 Purchase items record produced. 
+4. Coordinate procurement 
+licensing renewal. 
+ 
+4.1 Procurement l icensing requirements 
+which includes authority 
+specification confirmed. 
+4.2 Renewal information expiry date 
+confirmed in accordance with 
+authority requirements. 
+4.3 Procurement licensing  renewal 
+report produced. 
+ 
+5. Record office 
+procurement handling 
+activities. 
+5.1 Office procurement activities 
+confirmed in accordance with 
+organization requirements. 
+5.2 Effectiveness of o ffice procurement 
+activities execution confirmed. 
+5.3 Procurement activities report 
+prepared in accordance with 
+organization requirements.  
+ 
+ 
+ 
+ 
+ 
+
+===== [PAGE 26] =====
+N821-001-3:2020 
+17 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4 Office Inventory 
+Handling 
+ 
+N821-001-
+3:2020-C04 
+ 
+Office Inventory Handling  
+describes the process of 
+monitoring and ensuring the office 
+items and stock is under control.  
+ 
+The person who is competent in 
+this CU should be able to  check 
+office inventory availability , 
+perform office inventory 
+requisition, perform office 
+inventory issuance, m onitor office 
+equipment’s movement/ transfer 
+and maintenance , monitor 
+expired/recycled office items  and 
+record inventory handli ng 
+activities. 
+ 
+The outcomes of this CU are 
+office inventory availability are 
+met in a timely manner in 
+1. Check office inventory 
+availability. 
+1.1 Actual inventory status confirmed 
+based physical counting result. 
+1.2 Variance between actual and 
+inventory record confirmed. 
+1.3 Inventory profile updated in 
+accordance with organization 
+requirements. 
+ 
+2. Perform office inventory 
+requisition. 
+2.1 Requisition form completed  in 
+accordance with organisation 
+requirements. 
+2.2 Purchase requirements which 
+include product/item, amount and 
+quantity confirmed in accordance 
+with organization requirements. 
+2.3 Supplier contacted for quotation  as 
+per approved supplier list. 
+2.4 Selected supplier notified with 
+confirmed purchase order. 
+ 
+
+===== [PAGE 27] =====
+N821-001-3:2020 
+18 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+accordance with organization 
+requirements. 
+ 
+3. Perform office inventory 
+issuance. 
+3.1 Goods delivered in order and 
+complied with purchase order. 
+3.2 Stock card completed  in accordance 
+with organization requirements. 
+3.3 Stock acceptance acknowledgment 
+confirmed in accordance with 
+organization requirements. 
+ 
+4. Monitor office 
+equipment’s movement/ 
+transfer and maintenance. 
+ 
+4.1 Equipment movement checklist 
+acquired. 
+4.2 Equipment movemen t status 
+confirmed and recorded in 
+accordance with manufacturer 
+specifications. 
+4.3 Equipment condition confirmed and 
+recorded in accordance with 
+manufacturer specifications. 
+ 
+5. Monitor expired/recycled 
+office items. 
+ 
+ 
+5.1 Office i tems status report 
+interpreted. 
+5.2 Warranty, expiry date and 
+damage/malfunction of items 
+confirmed based on status report. 
+5.3 Expired/recycled items separated 
+from storage in accordance with 
+organization requirements. 
+5.4 Office items status record updated in 
+accordance with organization 
+requirements.   
+ 
+
+===== [PAGE 28] =====
+N821-001-3:2020 
+19 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+6. Record inventory handling 
+activities. 
+6.1 Office inventory handling activities 
+confirmed in accordance with 
+organization requirement. 
+6.2 Effectiveness of office inventory 
+activities execution confirmed  in 
+accordance with organization 
+requirements. 
+6.3 Finalised report submitted to 
+superior for notification. 
+5 Office Logistic 
+Handling 
+ 
+N821-001-
+3:2020-C05 
+Office Logistic Handling describes 
+staff travel arrangements, dispatch 
+assignment and event arrangement 
+handled in order to meet the 
+requirements.  
+ 
+ 
+The person who is competent in 
+this CU should be able to arrange 
+staff travel and accommodation, 
+coordinate despatch assignment, 
+coordinate meetings/event 
+arrangements and record logistic 
+handling activities. 
+ 
+The outcomes of this CU are 
+logistic activities delivered on time 
+and arranged in accordance with 
+organization requirements. 
+ 
+1. Arrange staff travel and 
+accommodation. 
+1.1 Travel requirement s interpreted 
+based on travelling requisition. 
+1.2 Travel and accommodation 
+specification which includes mode 
+of transport, date, destination, pax, 
+and name recipient  and booking  
+confirmed in accordance with 
+organization requirements. 
+1.3 Travel arrangement coordinated and 
+travel itinerary forwarded to 
+recipient. 
+ 
+2. Coordinate dispatch 
+assignment. 
+2.1 Despatch assignment details 
+interpreted in accordance with 
+organization requirements.  
+2.2 Despatch assignment deployed to 
+selected dispatch personnel  in 
+accordance with organization 
+requirements. 
+2.3 Despatch assignment related 
+documents compiled and recorded in 
+
+===== [PAGE 29] =====
+N821-001-3:2020 
+20 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+accordance with organization 
+requirements. 
+ 
+3. Coordinate meetings/ 
+event arrangement.  
+ 
+ 
+3.1 Meeting/event arrangements 
+requirements which includes date, 
+venue, par ticipant and theme 
+acquired from superior. 
+3.2 Meeting/event arrangements 
+particulars prepared in accordance 
+with organization requirements. 
+3.3 Meeting/event arrangements liaison 
+with other departmen ts, local 
+authorities and suppliers notified.    
+4. Record logistic handling 
+activities. 
+ 
+ 
+ 
+ 
+ 
+ 
+4.1 Office logistic handling activities 
+confirmed in accordance with 
+organization requirements. 
+4.2 Effectiveness of logistic activities 
+execution confirmed  in accordance 
+with organization requirements. 
+4.3 Logistic handling report prepared in 
+accordance with organization 
+requirements.   
+ 
+6 Office 
+Documentation 
+Preparation 
+ 
+N821-001-
+3:2020-C06 
+Office Documentation Preparation  
+describes the activities in  
+producing office document s with 
+adopting good documentation 
+practice. 
+ 
+1. Produce office documents. 1.1 Office docum ent which includes 
+correspondence, minutes of meeting 
+and report s are determined  in 
+accordance with organization 
+requirements. 
+1.2 Office documents drafted with 
+
+===== [PAGE 30] =====
+N821-001-3:2020 
+21 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+The person who is competent in 
+this CU should be able to produce 
+office document, r egister office 
+documentation, print office 
+documents, bind office documents, 
+file office documents and maintain 
+office documents. 
+ 
+The outcomes of this CU are  clear 
+document presentation and 
+formatted in accordance with 
+organization requirements. 
+specified reference number in 
+accordance with document format. 
+1.3 Format, language and contents 
+confirmed in accordance with 
+organization requirements. 
+1.4 Drafted d ocument submitted to 
+superior for endorsement.  
+ 
+2. Register office 
+documentation. 
+2.1 Document reference which includes 
+general, semi confidential and 
+confidential specified in accordance 
+with organization coding. 
+2.2 Office document updated in 
+accordance with organization 
+requirements. 
+3. Print office documents. 3.1 Specified types of office equipment 
+which includes printer, scanner and 
+computer selected in accordance 
+with organization requirements. 
+3.2 Office documents which includes 
+general, semi confidential and 
+confidential produced in accordance 
+with organization requirements. 
+3.3 Office document printing 
+information updated. 
+ 
+4. Bind office documents. 4.1 Specified types of binding 
+equipment selected in accordance 
+with organization requirements. 
+4.2 Office documents which includes 
+
+===== [PAGE 31] =====
+N821-001-3:2020 
+22 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+general, semi confidential and 
+confidential gathered and produced  
+in accordance with organization 
+requirements. 
+ 
+5. File office documents. 5.1 Filing process which includes 
+coding, indexing , labelling and 
+sorting selected in accordance with 
+organization requirements. 
+5.2 Coding, indexing and labelling   
+confirmed in accordance with filing 
+requirements. 
+5.3 Office document s which include  
+general, semi confidential and 
+confidential kept and record updated 
+in accordance with organization  
+requirements. 
+ 
+6. Maintain office 
+documents. 
+6.1 Office document s maintenance 
+system selected in accordance with 
+organization requirements. 
+6.2 Office document s which include  
+general, semi confidential and 
+confidential coded in accordance 
+with organization requirements. 
+6.3 Storage report updated and 
+generated in accordance with 
+organization requirements. 
+ 
+ 
+
+===== [PAGE 32] =====
+N821-001-3:2020 
+23 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+ 
+ 
+ 
+ 
+ 
+7 Staff 
+Administration 
+Supervision 
+ 
+N821-001-
+3:2020-C07 
+ 
+Staff Administration Supervision  
+describes the process of  offering 
+guidance in ensuring smooth work 
+flow in the office. This is to ensure 
+timely production and fulfilling 
+customers dateline.  
+ 
+The person who is competent in 
+this CU should be able to conduct 
+in-house training, compile staff 
+appraisal, monitor waste disposal, 
+prepare section budget, conduct 
+staff meeting/briefing, monitor 
+occupational, safety, health and 
+environment implementation and 
+monitor work flow and work 
+progress. 
+ 
+The outcomes of this CU are work 
+efficiency, reliability and 
+productivity of the organizations 
+in compliance with local authority 
+and organizational requirements. 
+1. Conduct in-house training. 1.1 Staff training needs identified and 
+prioritized. 
+1.2 Training requirement which includes 
+venue, date, refreshment, time, and 
+number of participants confirmed. 
+1.3 Training methodology adopted and 
+convey to participant. 
+1.4 Participant feedback obtain ed and 
+summarized in  accordance with 
+organization requirements. 
+ 
+2. Perform staff appraisal. 2.1 Staff information acquired from 
+human resources. 
+2.2 Key performance  indicator of staff 
+updated in accordance with 
+organization requirements. 
+2.3 Appraisal form completed and staff 
+appraisal progress checked in 
+accordance with organization 
+requirements. 
+3. Monitor office waste 
+disposal. 
+3.1 Waste disposal requirements which 
+include product/items, disposal 
+method and location confirmed in 
+accordance with organization 
+requirements. 
+
+===== [PAGE 33] =====
+N821-001-3:2020 
+24 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+3.2 Disposal vendor acknowledge and 
+process completed. 
+3.3 Waste disposal activities produced. 
+ 
+4. Prepare section budget. 4.1 Budget plan allocation identified. 
+4.2 Section budget allocation draft 
+submitted for approval. 
+4.3 Budgeting related documents 
+compiled and recorded in 
+accordance with organization 
+requirements. 
+ 
+5. Conduct staff 
+meeting/briefing. 
+5.1 Type of meeting/briefing 
+requirement which includes staff and 
+department meeting confirmed. 
+5.2 Meeting/briefing conveyed to target 
+group. 
+5.3 meeting/briefing report produced 
+and forwarded to superior in 
+accordance with organization 
+requirements. 
+ 
+6. Monitor occupational 
+health, safety, security and 
+environment 
+implementation. 
+6.1 Occupational, safety, health and 
+environment implementation 
+guidelines acquired from superior. 
+6.2 Related guidelines for department 
+identified and confirmed. 
+6.3 Working group for occupational, 
+safety, health and environment 
+implementation formulated and 
+
+===== [PAGE 34] =====
+N821-001-3:2020 
+25 / 90 
+CU TITLE & CU 
+CODE CU DESCRIPTOR WORK ACTIVITIES PERFORMANCE CRITERIA 
+work responsibilities acknowledged 
+in accordance with organization 
+requirements. 
+6.4 Occupational, safety, health and 
+environment implementation success 
+recorded and remedial action taken. 
+6.5 Occupational, safety, health and 
+environment implementation status 
+report produced. 
+ 
+7. Monitor work flow and 
+work progress. 
+7.1 Company Standard Operating 
+Procedure (SOP) interpreted.  
+7.2 Work flow and work progress 
+structure acquired from superior. 
+7.3 Work schedule and work flow 
+acknowledged by stakeholder. 
+7.4 Work progress reviewed and 
+reported in accordance with SOP 
+and organization requirements. 
+ 
+ 
+
+===== [PAGE 35] =====
+N821-001-3:2020 
+26 / 90 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CURRICULUM OF COMPETENCY UNIT 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+OFFICE ADMINISTRATION 
+ 
+LEVEL 3 
+ 
+
+===== [PAGE 36] =====
+N821-001-3:2020 
+27 / 90 
+15. Curriculum of Competency Unit  
+15.1. Front Office Reception 
+ 
+SECTION (N) Administrative and Support Service Activities 
+GROUP (821) Office Administrative and Support Activities  
+AREA Office Operation 
+NOSS TITLE Office Administration 
+COMPETENCY UNIT TITLE Front Office Reception 
+LEARNING OUTCOMES The learning outcomes of this competency  are to enable the trainees to perform front office 
+reception ensuring customer’s satisfaction and minimise complaints from internal and external 
+visitors, systematic work flow, presentab le personality with good ethics  attained in accordance 
+with organization requirements.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Attend to visitor. 
+2. Handle office incoming/ outgoing communication. 
+3. Handle office incoming/ outgoing items. 
+4. Record front office reception activities. 
+ 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not Available  
+CU CODE N821-001-3:2020-C01 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Attend to 
+visitor. 
+1.1 Customers service: 
+ Ethics.  
+ Communication 
+ Grooming.  
+1.1 Welcome visitor. 
+1.2 Introduce oneself.  
+1.3 Clarify issue.  
+1.4 Resolve issue.  
+ATTITUDE 
+1.1 Compliance to office 
+best practice.  
+ 
+1.1 Customer service process 
+described. 
+1.2 Issues explained in accordance 
+with sample of organization 
+
+===== [PAGE 37] =====
+N821-001-3:2020 
+28 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1.2 Handling issues:   
+ Procedure. 
+ Documentation.  
+1.5 Refer issue.  
+ 
+SAFETY 
+1.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ 
+ENVIRONMENT 
+1.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+requirements. 
+1.3 Visitor is greeted  according to 
+meet and greet guidelines. 
+1.4 Issue acknowledged which 
+include enquiry, complaint and 
+delivery in accordance with 
+sample of organization 
+requirement.  
+1.5 Action taken in accordance 
+with sample of organization 
+requirements. 
+1.6 Issue delegated to 
+department/person concerned 
+in accordance with sample of  
+organization requirement. 
+1.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+1.8 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements.  
+ 
+ 
+ 
+2. Handle 
+office 
+incoming/ 
+outgoing 
+2.1 Nature of 
+business: 
+ Public services. 
+ Public listed.  
+2.1 Identify type of 
+communication.  
+2.2 Obtain 
+organization 
+ATTITUDE 
+2.1 Compliance to office 
+best practice.  
+ 
+2.1 Nature of business describe in 
+accordance with type of 
+business. 
+2.2 Communication business tools 
+
+===== [PAGE 38] =====
+N821-001-3:2020 
+29 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+communica
+tion. 
+ Private limited.   
+ Enterprise. 
+2.2 Communication 
+business tools: 
+ Type. 
+ Usage. 
+ Maintenance  
+2.3 Organization 
+business directory: 
+ Types of 
+organization 
+chart. 
+ Organization 
+chart. 
+ Organization 
+directory. 
+2.4 Customers service: 
+ Ethics.  
+ Communication 
+ Documentation. 
+ Procedure. 
+ 
+ 
+directory.  
+2.3 Deliver 
+communication.  
+2.4 Record 
+communication. 
+ 
+ 
+SAFETY 
+2.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ 
+ENVIRONMENT 
+2.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+ 
+explained in accordance with  
+manufacturer’s specifications.  
+2.3 Organization business 
+directory described. 
+2.4 Customers service explained. 
+2.5 Incoming/outgoing 
+communication which 
+includes telephone, fax, email 
+and postage acknowledge d in 
+accordance with sample of 
+organization requirement. 
+2.6 Recipient communication 
+acknowledged in accordance 
+with sample of  organization 
+directory. 
+2.7 Communication information 
+generated in accordance with 
+sample of  organization 
+requirement. 
+2.8 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+2.9 Safety and environme ntal 
+requirements complied in 
+accordance with local 
+authority requirements.  
+
+===== [PAGE 39] =====
+N821-001-3:2020 
+30 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3. Handle 
+office 
+incoming/ 
+outgoing 
+items. 
+3.1 Office business 
+items: 
+ Types.  
+ Organization 
+directory.  
+3.2 Office items 
+handling: 
+ Procedure.  
+ Method.  
+ Documentation. 
+3.1 Identify type of 
+items.  
+3.2 Determine item 
+ownership.  
+3.3 Deliver item.  
+3.4 Record item 
+delivery.  
+ 
+ 
+ATTITUDE 
+3.1 Compliance to office 
+best practice.  
+ 
+ 
+SAFETY 
+3.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ 
+ 
+ENVIRONMENT 
+3.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+ 
+3.1 Office business items listed 
+out and explained. 
+3.2 Office item handling explained 
+in accordance with sample of 
+organization requirements. 
+3.3 Items which includes mails, 
+documents and parcel 
+confirmed with intended 
+owner. 
+3.4 Items notification provided to 
+recipient and of mode delivery 
+acknowledged in accordance 
+with sample of  organization 
+requirement. 
+3.5 Item delivery record generated 
+in accordance with sample of  
+organization requirement. 
+3.6 Best practice complied in 
+accordance wit h sample of 
+organization requirements. 
+3.7 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements.  
+ 
+
+===== [PAGE 40] =====
+N821-001-3:2020 
+31 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+4. Record 
+front office 
+reception 
+activities. 
+4.1 Office reception 
+standard operating 
+procedure (SOP): 
+ Log book. 
+ Standard 
+format.  
+4.2 Types of front 
+office record. 
+4.1 Identify reception 
+activities. 
+4.2 Check reception 
+information.  
+4.3 Update activities.  
+4.4 Prepare front office 
+reception activities 
+report. 
+ATTITUDE 
+4.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+4.1 Compliance to office 
+safety and health 
+requirements. 
+ 
+ENVIRONMENT 
+4.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+4.1 Office reception standard 
+operating procedure (SOP) 
+explained. 
+4.2 Types of front office record 
+listed out and explained. 
+4.3 Reception activities related 
+information compiled.  
+4.4 Accuracy of compiled 
+information confirmed. 
+4.5 Front office reception activities 
+report prepared accordance with 
+sample of  organization 
+requirement. 
+4.6 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+4.7 Safety and environmental 
+requirements complied in 
+accordance with local authority 
+requirements.  
+ 
+ 
+ 
+ 
+ 
+
+===== [PAGE 41] =====
+N821-001-3:2020 
+32 / 90 
+Employability Skills  
+ 
+Core Abilities 
+ Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+ Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 John Harrison, 10th edition, 1996, Secretarial Duties, ISBN 9780582278448 
+2 Josephine Shaw, 2nd edition 1984, Administration in Business, ISBN 0712101861 
+3 Estelle Belle Hunter, 2010, Office Administration for organizations supervising, ISBN 1146982763 
+4 Pattie Odgers, 2005, Administrative Office Management, ISBN 9780538438575 
+5 Paul Smith, 4th edition, 2004, Marketing Communications, ISBN 9780749442651 
+6 McGraw-Hill/Irwin, 2nd edition, 2011, Business Communication, ISBN 9780073403168 
+7 Richard B. Chase, Nicholas J. Jacobs, F. Robert (2001) Operation Management For Competitive Advantage (Ninth), McGraw- Hill 
+Education(Asia), ISBN 0-07-120680-9 
+8 James Stroman (2014) 5th edition, administrative assistant and secretary handbook AMACOM ISBN-10:9780814433522 
+9 NCS- Core Abilities latest edition. 
+10 Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+  
+
+===== [PAGE 42] =====
+N821-001-3:2020 
+33 / 90 
+15.2. Office Finance Handling 
+ 
+SECTION (N) Administrative and Support Service Activities 
+GROUP (821) Office Administrative and Support Activities  
+AREA Office Operation 
+NOSS TITLE Office Administration 
+COMPETENCY UNIT TITLE Office Finance Handling 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to handle office finance 
+ensuring payment tally with record and on time in accordance with organization requirements.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Prepare petty cash. 
+2. Handle bills collection. 
+3. Handle payment vouchers. 
+4. Prepare office finance report summary. 
+ 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not Available 
+CU CODE N821-001-3:2020-C02 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Prepare 
+petty cash. 
+1.1 Types of petty 
+cash. 
+1.2 Petty cash 
+documentation.  
+1.3 Petty cash 
+process. 
+ 
+1.1 Identify petty cash 
+payment form.   
+1.2 Fill up petty cash 
+payment form.  
+1.3 Carry out petty cash 
+payment form 
+submission. 
+ATTITUDE 
+1.1 Compliance to office 
+best practice.  
+ 
+ 
+ 
+ 
+1.1 Types of  petty cash listed out 
+and explained. 
+1.2 Petty cash documentation 
+described. 
+1.3 Petty cash process described in 
+accordance with sample of 
+organization requirement. 
+
+===== [PAGE 43] =====
+N821-001-3:2020 
+34 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1.4 Check  petty cash 
+payment form 
+progress. 
+SAFETY 
+1.1 Compliance to office 
+safety and health 
+requirements. 
+ 
+ENVIRONMENT 
+1.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+1.4 Petty cash payment form with 
+serial number selected.  
+1.5 Petty cash payment 
+requirements completed. 
+1.6 Petty cash payment form 
+progress checked  in 
+accordance with sample of 
+organization requirements. 
+1.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+1.8 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements.  
+ 
+2. Handle 
+bills 
+collection. 
+2.1 Types of bills. 
+2.2 Bills 
+processing.  
+2.3 Bills 
+documentation:  
+ Types. 
+ Standard 
+format.  
+ 
+2.1 Collect bills. 
+2.2 Identify types of bills. 
+2.3 Sort bills. 
+2.4 Record bills.  
+2.5 Prepare bills 
+collection report.   
+ATTITUDE 
+2.1 Compliance to office 
+best practice.  
+ 
+ 
+SAFETY 
+2.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ 
+ 
+2.2 Types of bills listed out and 
+explained. 
+2.3 Bills processing procedure 
+described in accordance with 
+sample of organization 
+requirement. 
+2.4 Bill documentation listed out 
+and explained. 
+2.5 Selected bills from mails and 
+hand delivery compile d in 
+accordance with sample of  
+organization requirements. 
+2.6 Bills segregated  manually or 
+
+===== [PAGE 44] =====
+N821-001-3:2020 
+35 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+ 
+ENVIRONMENT 
+2.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+automatically in accordance 
+with sample of  organization 
+requirements. 
+2.7 Bills collection report prepared 
+in accordance with sample of  
+organization requirements. 
+2.8 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+2.9 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements.  
+ 
+3. Handle 
+payment 
+vouchers. 
+3.1 Types of 
+payment 
+voucher. 
+3.2 Payment 
+voucher 
+processing.  
+3.3 Payment 
+voucher 
+documentation: 
+ Types 
+ Standard 
+format.  
+ 
+3.1 Collect payment 
+vouchers. 
+3.2 Identify types of 
+payment vouchers.  
+3.3 Sort payment 
+vouchers. 
+3.4 Record payment 
+vouchers. 
+3.5 Prepare payment 
+vouchers report.   
+ATTITUDE 
+3.1 Compliance to office 
+best practice.  
+ 
+ 
+SAFETY 
+3.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ 
+ 
+ 
+ENVIRONMENT 
+3.1 Types of payment vouchers 
+listed out and explained. 
+3.2 Payment vouchers processing 
+procedure describe in 
+accordance with sample of 
+organization requirement. 
+3.3 Payment vouchers 
+documentation listed out and 
+explained. 
+3.4 Selected payment voucher 
+from mails and hand delivery 
+compiled in accordance with 
+sample of  organization 
+requirements. 
+3.5 Payment voucher segregated 
+
+===== [PAGE 45] =====
+N821-001-3:2020 
+36 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+manually or automatically in 
+accordance with sample of  
+organization requirements. 
+3.6 Payment voucher report 
+prepare in accordance with 
+sample of  organization 
+requirements. 
+3.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+3.8 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements.  
+ 
+4. Prepare 
+office 
+finance 
+report 
+summary. 
+ 
+ 
+4.1 Types of office 
+finance report. 
+4.2 Office finance 
+report summary 
+preparation 
+procedure. 
+ 
+ 
+4.1 Gather finance 
+documentation.  
+4.2 Check finance 
+documentation 
+information.  
+4.3 Produce finance 
+summary report.  
+ 
+ATTITUDE 
+4.1 Compliance to office 
+best practice.  
+ 
+ 
+SAFETY 
+4.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+4.1 Compliance to 
+environmental 
+4.1 Types of finance report listed 
+out and explained. 
+4.2 Office finance report summary 
+preparation procedure  
+described. 
+4.3 Selected confidential finance 
+documentation compiled in 
+accordance with sample of  
+organization requirements. 
+4.4 Payment acknowledgement 
+finance documentation 
+confirmed in accordance with 
+sample of  organization 
+requirements. 
+
+===== [PAGE 46] =====
+N821-001-3:2020 
+37 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+regulation 
+requirements. 
+4.5 Finance summary report 
+generated. 
+4.6 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+4.7 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements.  
+ 
+ 
+  
+
+===== [PAGE 47] =====
+N821-001-3:2020 
+38 / 90 
+Employability Skills  
+ 
+Core Abilities 
+ Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+ Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 John Harrison, 10th edition, 1996, Secretarial Duties, ISBN 9780582278448 
+2 Josephine Shaw, 2nd edition 1984, Administration in Business, ISBN 0712101861 
+3 Estelle Belle Hunter, 2010, Office Administration for organizations supervising, ISBN 1146982763 
+4 Pattie Odgers, 2005, Administrative Office Management, ISBN 9780538438575 
+5 Paul Smith, 4th edition, 2004, Marketing Communications, ISBN 9780749442651 
+6 McGraw-Hill/Irwin, 2nd edition, 2011, Business Communication, ISBN 9780073403168 
+7 Richard B. Chase, Nicholas J. Jacobs, F. Robert (2001) Operation Management For Competitive Advantage (Ninth), McGraw- Hill 
+Education(Asia), ISBN 0-07-120680-9 
+8 James Stroman (2014) 5th edition, administrative assistant and secretary handbook AMACOM ISBN-10:9780814433522 
+9 NCS- Core Abilities latest edition. 
+10 Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+  
+
+===== [PAGE 48] =====
+N821-001-3:2020 
+39 / 90 
+15.3. Office Procurement Handling 
+ 
+SECTION (N) Administrative and Support Service Activities 
+GROUP (821) Office Administrative and Support Activities  
+AREA Office Operation 
+NOSS TITLE Office Administration 
+COMPETENCY UNIT TITLE Office Procurement Handling 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to  handle office 
+procurements in ensuring items availability are met in a timely manner and product specification 
+tally with requisition in accordance with organization requirements.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Prepare requisition form. 
+2. Handle incoming procurement documents. 
+3. Handle purchase items. 
+4. Coordinate procurement licensing renewal. 
+5. Record office procurement handling activities. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not Available 
+CU CODE N821-001-3:2020-C03 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Prepare 
+requisition 
+form. 
+1.1 Types of 
+requisition 
+form. 
+1.2 Requisition 
+process.  
+1.3 Procurement 
+1.1 Determine type of 
+form.  
+1.2 Draft requisition 
+form.  
+1.3 Check requisition 
+form progress.   
+ATTITUDE 
+1.1 Compliance to office 
+best practice.  
+ 
+ 
+ 
+1.1 Types of requisition form 
+listed out and explained. 
+1.2 Requisition process described 
+in accordance with sample of 
+organization. 
+1.3 Procurement documentation 
+
+===== [PAGE 49] =====
+N821-001-3:2020 
+40 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+documentation. 
+1.4 Green 
+procurement 
+guidelines. 
+ 
+SAFETY 
+1.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ 
+ENVIRONMENT 
+1.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+listed out and explained.  
+1.4 Green procurement guidelines 
+explained. 
+1.1 Selected requisition form 
+acquired.  
+1.2 Requisition form comprises of 
+date, product/items, amount 
+and quantity produced in 
+accordance with sample of  
+organization requirements. 
+1.3 Requisition form  progress 
+checked accordance with 
+sample of  organization 
+requirements. 
+1.4 Attitude and safety 
+requirements complied in 
+accordance with local 
+authority requirements. 
+1.5 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+1.6 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements.  
+ 
+ 
+
+===== [PAGE 50] =====
+N821-001-3:2020 
+41 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+2. Handle 
+incoming 
+procureme
+nt 
+documents. 
+2.1 Procurement 
+documents:  
+ Types  
+ Standard 
+format  
+2.2 Procurement 
+process.  
+ 
+2.1 Check procurement 
+nature. 
+2.2 Check procurement 
+document.  
+2.3 Identify procurement 
+ownership. 
+2.4 Notify procurement 
+owner. 
+ATTITUDE 
+2.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+2.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+2.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+2.1 Types of procurement 
+document listed out and 
+explained. 
+2.2 Procurement process described 
+in accordance with sample of 
+organization requirement. 
+2.3 Procurement nature which 
+includes online, product/items 
+and service confirmed in 
+accordance with sample of  
+organization requirements. 
+2.4 Procurement document which 
+includes quotation , purchase 
+order and capital asset 
+confirmed in acc ordance with 
+sample of  organization 
+requirements. 
+2.5 Purchase requisition 
+acknowledgment confirmed 
+and endorsed in accordance 
+with sample of  organization 
+requirements. 
+2.6 Procurement ownerships  
+confirmed in accordance with 
+sample of  organization 
+requirements. 
+2.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+
+===== [PAGE 51] =====
+N821-001-3:2020 
+42 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+2.8 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements.  
+3. Handle 
+purchase 
+items. 
+3.1 Types of 
+purchase 
+documents.  
+3.2 Purchasing 
+process.  
+3.3 Office 
+directory.  
+ 
+3.1 Identify purchased 
+item.  
+3.2 Check purchase item.  
+3.3 Identify ownership. 
+3.4 Identify delivery 
+method.  
+3.5 Record purchase 
+items. 
+ATTITUDE 
+3.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+3.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT  
+3.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+3.1 Types of purchase document 
+listed out and explained. 
+3.2 Purchasing process described 
+in accordance with sample of 
+organization requirement. 
+3.3 Office directory explained.    
+3.4 Selected purchased items 
+acquired in accordance with 
+purchase order. 
+3.5 Purchase items tally with 
+requisition form. 
+3.6 Purchase items 
+acknowledgment confirmed to 
+recipient by selected delivery 
+method.  
+3.7 Purchase items record 
+produced. 
+3.8 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+3.9 Safety and environmental 
+
+===== [PAGE 52] =====
+N821-001-3:2020 
+43 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+requirements complied in 
+accordance with local 
+authority requirements. 
+4. Coordinate 
+procurement 
+licensing 
+renewal. 
+ 
+4.1 Licensing 
+Authorities 
+requirement: 
+ Types.  
+ Method.  
+ Process.  
+4.2 Renewal 
+documentation: 
+ Monitoring.  
+ Recording.  
+ Reporting.  
+4.1 Identify licensing 
+requirement. 
+4.2 Check renewal 
+information.  
+4.3 Update renewal 
+report.  
+4.4 Prepare  procurement 
+licensing  renewal 
+report. 
+ATTITUDE 
+4.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+4.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+4.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+ 
+4.1 Licensing Authorities 
+requirement listed out and 
+explained. 
+4.2 Renewal documentation listed 
+out and explained. 
+4.3 Licensing requirements which 
+includes authority 
+specification confirmed. 
+4.4 Renewal information expiry 
+date confirmed in accordance 
+with authority requirements. 
+4.5 Procurement licensing renewal 
+report produced. 
+4.6 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+4.7 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+
+===== [PAGE 53] =====
+N821-001-3:2020 
+44 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+5. Record 
+office 
+procureme
+nt handling 
+activities. 
+5.1 Types of office 
+procurement 
+record. 
+5.2 Office 
+procurement 
+recording 
+procedure. 
+5.1 Identify office 
+procurement 
+activities.  
+5.2 Check office 
+procurement 
+information.  
+5.3 Prepare procurement 
+activities report.  
+ATTITUDE 
+5.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+5.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+5.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+5.1 Types of office procurement 
+record listed out and 
+explained. 
+5.2 Office procurement recording 
+procedure described on 
+accordance with sample of 
+organization requirement. 
+5.3 Office procurement activities 
+which includes prepare 
+requisition form, handle 
+incoming procurement 
+documents, handle purchased 
+items and coordinate 
+procurement licensing renewal 
+confirmed. 
+5.4 Effectiveness of o ffice 
+procurement activities  
+execution confirmed. 
+5.5 Procurement activities report 
+prepared in accordance with 
+sample of organization 
+requirements.  
+5.6 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+5.7 Safety and environmental 
+requirements complied in 
+accordance with l ocal 
+authority requirements. 
+
+===== [PAGE 54] =====
+N821-001-3:2020 
+45 / 90 
+ 
+  
+
+===== [PAGE 55] =====
+N821-001-3:2020 
+46 / 90 
+Employability Skills  
+ 
+Core Abilities 
+ Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+ Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 John Harrison, 10th edition, 1996, Secretarial Duties, ISBN 9780582278448 
+2 Josephine Shaw, 2nd edition 1984, Administration in Business, ISBN 0712101861 
+3 Estelle Belle Hunter, 2010, Office Administration for organizations supervising, ISBN 1146982763 
+4 Pattie Odgers, 2005, Administrative Office Management, ISBN 9780538438575 
+5 Paul Smith, 4th edition, 2004, Marketing Communications, ISBN 9780749442651 
+6 McGraw-Hill/Irwin, 2nd edition, 2011, Business Communication, ISBN 9780073403168 
+7 Richard B. Chase, Nicholas J. Jacobs, F. Robert (2001) Operation Management For Competitive Advantage (Ninth), McGraw- Hill 
+Education(Asia), ISBN 0-07-120680-9 
+8 James Stroman (2014) 5th edition, administrative assistant and secretary handbook AMACOM ISBN-10:9780814433522 
+9 NCS- Core Abilities latest edition. 
+10 Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+  
+
+===== [PAGE 56] =====
+N821-001-3:2020 
+47 / 90 
+15.4. Office Inventory Handling 
+ 
+SECTION (N) Administrative and Support Service Activities 
+GROUP (821) Office Administrative and Support Activities  
+AREA Office Operation 
+NOSS TITLE Office Administration 
+COMPETENCY UNIT TITLE Office Inventory Handling 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to handle office inventory 
+ensuring items availability are met in a timely manner in accordance  with organization 
+requirements.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Check office inventory availability. 
+2. Perform office inventory requisition. 
+3. Perform office inventory issuance 
+4. Monitor office equipment’s movement/ transfer and maintenance. 
+5. Monitor expired/recycled office items. 
+6. Record inventory handling activities. 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not Available 
+CU CODE N821-001-3:2020-C04 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Check 
+office 
+inventory 
+availability
+. 
+ 
+1.1 Types of 
+inventory. 
+1.2 Inventory 
+system.  
+1.3 Inventory 
+documentation.  
+1.1 Track stock level. 
+1.2 Check inventory 
+availability.  
+1.3 Create requisition 
+profile. 
+ATTITUDE 
+1.1 Compliance to office 
+best practice. 
+ 
+ 
+ 
+1.1 Types of inventory listed out 
+and explained. 
+1.2 Inventory system described in 
+accordance with sample of 
+organization requirement. 
+1.3 Inventory documentation 
+
+===== [PAGE 57] =====
+N821-001-3:2020 
+48 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1.4 Inventory 
+requisition 
+procedure.  
+ 
+ 
+SAFETY 
+1.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+1.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+explained. 
+1.4 Inventory requisition 
+procedure described in 
+accordance with sample of 
+organization requirement. 
+1.5 Actual inventory status 
+confirmed based physical 
+counting result. 
+1.6 Variance between actual and 
+inventory record confirmed. 
+1.7 Inventory profile updated in 
+accordance with sample of  
+organization requirements. 
+1.8 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+1.9 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+2. Perform 
+office 
+inventory 
+requisition. 
+2.1 Office 
+inventory 
+requirement: 
+ Types of 
+inventory. 
+ Method of 
+requisition.  
+ Inventory 
+2.1 Fill purchase order.  
+2.2 Check purchase 
+requirement.  
+2.3 Check source options.  
+2.4 Contact supplier.  
+2.5 Carry out stock 
+ordering. 
+ATTITUDE 
+2.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+2.1 Compliance to office 
+safety, health and 
+environment 
+2.1 Office inventory requirement 
+listed out and explained. 
+2.2 Inventory requisition 
+procedure described in 
+accordance with sample of 
+organization requirement. 
+2.3 Requisition form completed  in 
+accordance with sample of 
+
+===== [PAGE 58] =====
+N821-001-3:2020 
+49 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+documentati
+on.  
+2.2 Inventory 
+requisition 
+procedure: 
+ Types of 
+suppliers.  
+ Quotation 
+comparison.  
+ Reporting 
+process.  
+ Ordering 
+process. 
+ 
+requirements. 
+ 
+ENVIRONMENT 
+2.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+organisation requirements. 
+2.4 Purchase requirements which 
+include product/item, amount 
+and quantity confirmed in 
+accordance with sample of  
+organization requirements. 
+2.5 Supplier contacted for 
+quotation as per approved 
+supplier list. 
+2.6 Selected supplier notified with 
+confirmed purchase order. 
+2.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+2.8 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+3. Perform 
+office 
+inventory 
+issuance 
+ 
+ 
+3.1 Office 
+inventory 
+receiving 
+procedure.  
+3.2 Office 
+inventory stock 
+updating 
+procedure.  
+3.3 Office 
+inventory stock 
+3.1 Receive goods.  
+3.2 Update stocks.  
+3.3 Organize stocks 
+issuance.  
+3.4 Issue stocks. 
+ATTITUDE 
+3.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+3.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+3.1 Office receiving procedure 
+described in accordance with 
+sample of organization 
+requirement. 
+3.2 Office inventory stock 
+updating procedure described 
+in accordance with sample of 
+organization requirement. 
+3.3 Office inventor stock handling 
+procedure described in 
+
+===== [PAGE 59] =====
+N821-001-3:2020 
+50 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+handling 
+procedure.  
+ 
+ENVIRONMENT 
+3.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+accordance with sample of 
+organization requirement.  
+3.4 Goods delivered in order and 
+complied with purchase order. 
+3.5 Stock card completed  in 
+accordance with sample of  
+organization requirements. 
+3.6 Stock acceptance 
+acknowledgment confirmed in 
+accordance with sample of  
+organization requirements. 
+3.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+3.8 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+4. Monitor 
+office 
+equipment’
+s 
+movement/ 
+transfer 
+and 
+maintenanc
+e. 
+ 
+4.1 Types of office 
+equipment. 
+4.2 Office 
+equipment 
+tracking 
+process. 
+4.3 Office 
+equipment 
+tracking 
+documentation. 
+4.1 Obtain equipment 
+movement checklist.  
+4.2 Check equipment 
+movement status. 
+4.3 Update movement 
+checklist. 
+ATTITUDE 
+4.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+4.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+4.1 Types of office equipment 
+listed out and explained. 
+4.2 Office equipment tracking 
+process described in 
+accordance with organization 
+requirement. 
+4.3 Office equipment tracking 
+documentation explained. 
+4.4 Inventory logistical system 
+explained. 
+
+===== [PAGE 60] =====
+N821-001-3:2020 
+51 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+4.4 Inventory 
+logistical 
+system. 
+4.5 Tracking 
+method. 
+4.6 Office 
+equipment 
+maintenance 
+monitoring 
+procedure. 
+ 
+ENVIRONMENT 
+4.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+4.5 Tracking method describe in 
+accordance with organization 
+requirement. 
+4.6 Office equipment maintenance 
+monitoring procedure 
+described in accordance with 
+organization requirement. 
+4.7 Equipment movement 
+checklist acquired. 
+4.8 Equipment movement/ transfer 
+status confirmed and recorded 
+in accordance with 
+manufacturer specifications. 
+4.9 Equipment condition 
+confirmed and recorded in 
+accordance with manufacturer 
+specifications. 
+4.10 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+4.11 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+
+===== [PAGE 61] =====
+N821-001-3:2020 
+52 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+5. Monitor 
+expired/recy
+cled office 
+items. 
+ 
+5.1 Tracking 
+documentation. 
+5.2 Tracking 
+method/ 
+process. 
+5.3 Reporting 
+method. 
+5.4 Types of 
+expired/ recycle 
+office items. 
+ 
+5.1 Obtain items report.  
+5.2 Check shelf life.  
+5.3 Segregate items.  
+5.4 Update items report.  
+ 
+ATTITUDE 
+5.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+5.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ 
+ENVIRONMENT 
+5.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+5.1 Tracking documentation 
+explained. 
+5.2 Tracking method describe in 
+accordance with organization 
+requirement. 
+5.3 Reporting method described  
+in accordance with 
+organization requirement. 
+5.4 Types of expired/ recycle item 
+listed out and explained. 
+5.5 Office i tems status report 
+interpreted. 
+5.6 Warranty, expiry date and 
+damage/malfunction of items 
+confirmed based on status 
+report. 
+5.7 Expired/recycled items 
+separated from storage  in 
+accordance with sample of  
+organization requirements. 
+5.8 Office i tems status record 
+updated.   
+5.9 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+5.10 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+
+===== [PAGE 62] =====
+N821-001-3:2020 
+53 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+ 
+6. Record 
+inventory 
+handling 
+activities. 
+6.1 Types of 
+inventory report. 
+6.2 Types of 
+inventory 
+document.   
+6.3 Inventory 
+reporting 
+procedure: 
+ Log book. 
+ Standard 
+format. 
+6.1 Identify inventory 
+activities.  
+6.2 Check office inventory 
+information.  
+6.3 Update inventory 
+activities.  
+6.4 Submit inventory 
+handling report. 
+ 
+ATTITUDE 
+6.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+6.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+6.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+6.1 Types of inventory report 
+listed out and explained. 
+6.2 Types of inventory document 
+listed out and explained. 
+6.3 Inventory reporting procedure 
+described in accordance with 
+organization requirement. 
+6.4 Office inventory handling 
+activities which includes check 
+inventory availability, perform 
+inventory requisition, perform 
+inventory issuance, monitor 
+office equipment’s movement 
+and maintenance and monitor 
+expired/recycled item 
+confirmed. 
+6.5 Effectiveness of office 
+inventory activities execution 
+confirmed. 
+6.6 Finalised report submitted  to 
+instructor for notification. 
+
+===== [PAGE 63] =====
+N821-001-3:2020 
+54 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+6.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+6.8 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+ 
+  
+
+===== [PAGE 64] =====
+N821-001-3:2020 
+55 / 90 
+ 
+Employability Skills  
+ 
+Core Abilities 
+ Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+ Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 John Harrison, 10th edition, 1996, Secretarial Duties, ISBN 9780582278448 
+2 Josephine Shaw, 2nd edition 1984, Administration in Business, ISBN 0712101861 
+3 Estelle Belle Hunter, 2010, Office Administration for organizations supervising, ISBN 1146982763 
+4 Pattie Odgers, 2005, Administrative Office Management, ISBN 9780538438575 
+5 Paul Smith, 4th edition, 2004, Marketing Communications, ISBN 9780749442651 
+6 McGraw-Hill/Irwin, 2nd edition, 2011, Business Communication, ISBN 9780073403168 
+7 Richard B. Chase, Nicholas J. Jacobs, F. Robert (2001) Operation Management For Competitive Advantage (Ninth), McGraw- Hill 
+Education(Asia), ISBN 0-07-120680-9 
+8 James Stroman (2014) 5th edition, administrative assistant and secretary handbook AMACOM ISBN-10:9780814433522 
+9 NCS- Core Abilities latest edition. 
+10 Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+  
+
+===== [PAGE 65] =====
+N821-001-3:2020 
+56 / 90 
+15.5. Office Logistic Handling 
+ 
+SECTION (N) Administrative and Support Service Activities 
+GROUP (821) Office Administrative and Support Activities  
+AREA Office Operation 
+NOSS TITLE Office Administration 
+COMPETENCY UNIT TITLE Office Logistic Handling 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to handle office logistic 
+ensuring the activities are accomplished in accordance with organization requirements.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Arrange staff travel and accommodation. 
+2. Coordinate dispatch assignment. 
+3. Coordinate meetings/ event arrangement.  
+4. Record logistic handling activities. 
+ 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not Available 
+CU CODE N821-001-3:2020-C05 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Arrange 
+staff travel 
+and 
+accommodat
+ion. 
+1.1 Types of staff 
+travel purpose. 
+1.2 Staff travel 
+arrangement 
+process.  
+1.3 Staff travel 
+documentation.  
+1.1 Obtain travel and 
+accommodation 
+requirements.   
+1.2 Check travel and 
+accommodation 
+specification.  
+1.3 Book travel and 
+ATTITUDE 
+1.1 Compliance to office 
+best practice. 
+ 
+ 
+ 
+ 
+1.1 Type of staff travel purpose 
+listed out and explained. 
+1.2  Staff travel arrangement 
+process described in 
+accordance with organization 
+requirement. 
+1.3 Staff travel documentation 
+
+===== [PAGE 66] =====
+N821-001-3:2020 
+57 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1.4 Asian green 
+logistic 
+guidelines.  
+ 
+accommodation 
+specification.  
+1.4 Prepare staff travel 
+memo. 
+SAFETY 
+1.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+1.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+listed out and explained.  
+1.4 Asian green logistic guidelines  
+explained. 
+1.5 Travel requirement s 
+interpreted based on travelling 
+requisition. 
+1.6 Travel and accommodation 
+specification which includes 
+mode of transport, date, 
+destination, pax, and name 
+recipient and booking  
+confirmed in accordance with 
+organization requirements. 
+1.7 Travel arrangement 
+coordinated and travel 
+itinerary forwarded to 
+recipient. 
+1.8 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+1.9 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+
+===== [PAGE 67] =====
+N821-001-3:2020 
+58 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+2. Coordinate 
+dispatch 
+assignment. 
+2.1 Types dispatch 
+assignment.  
+2.2 Dispatch 
+assignment 
+procedure.  
+2.3 Dispatch 
+assignment 
+documentation.  
+ 
+2.1 Identify despatch 
+assignment. 
+2.2 Determine despatch 
+personnel. 
+2.3 Book despatch 
+personnel. 
+2.4 Record despatch 
+assignment. 
+ 
+ATTITUDE 
+2.1  Compliance to office 
+best practice.  
+ 
+SAFETY 
+2.1  Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ENVIRONMENT 
+2.1  Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+2.1 Types of dispatch assignment 
+listed out and explained. 
+2.2 Dispatch assignment 
+procedure describe in 
+accordance with sample of 
+organization requirement. 
+2.3 Dispatch assignment 
+documentation listed out and 
+explained.  
+2.4 Despatch assignment details 
+interpreted.  
+2.5 Despatch assignment deployed 
+to selected dispatch personnel. 
+2.6 Despatch assignmen t related 
+documents compiled and 
+recorded. 
+2.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+2.8 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+
+===== [PAGE 68] =====
+N821-001-3:2020 
+59 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3. Coordinate 
+meetings/ 
+event 
+arrangement
+.  
+ 
+ 
+3.1 Types of office 
+meeting/ event.  
+3.2 Office meeting/ 
+event 
+arrangement 
+procedure.  
+3.3 Office meeting / 
+event 
+arrangement 
+documentation.  
+3.4 Video 
+conference call 
+procedure. 
+ 
+3.1 Identify 
+meetings/event 
+arrangements 
+requirement.  
+3.2 Arrange 
+meetings/event 
+arrangements 
+requirement. 
+3.3 Update 
+meetings/event 
+arrangements status. 
+ATTITUDE 
+3.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+3.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+3.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+ 
+3.1 Types of office meeting/ event 
+listed out and explained. 
+3.2 Office meeting/ event 
+arrangement procedure 
+described in accordance with 
+sample of organization 
+requirement. 
+3.3 Office meeting/  event 
+arrangement documentation 
+listed out and explained. 
+3.4 Video conference call 
+procedure elxplained. 
+3.5 Meeting/event arrangements 
+requirements which includes 
+date, venue, par ticipant and 
+theme acquired from  
+instructor. 
+3.6 Meeting/event arrangements 
+particulars prepared in 
+accordance with sample of  
+organization requirements. 
+3.7 Meeting/event arrangements 
+liaison with other departments, 
+local authorities and suppliers 
+notified.   
+3.8 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+3.9 Safety and environmental 
+
+===== [PAGE 69] =====
+N821-001-3:2020 
+60 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+requirements complied in 
+accordance with local 
+authority requirements. 
+4. Record 
+logistic 
+handling 
+activities. 
+ 
+ 
+4.1 Logistic 
+handling log 
+book. 
+4.2 Logistic 
+handling report 
+standard format. 
+4.3 Logistic 
+handling 
+reporting 
+procedure.  
+4.1 Identify 
+meetings/event 
+activities.  
+4.2 Check office 
+meetings/event 
+information.  
+4.3 Update logistic 
+activities.  
+4.4 Prepare logistic 
+handling report. 
+ 
+ATTITUDE 
+4.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+4.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+4.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+4.1 Logistic handling log book 
+explained. 
+4.2 Logistic handling report 
+standard format explained. 
+4.3 Logistic reporting procedure 
+described in accordance with 
+sample of organization 
+requirement. 
+4.4 Office logistic handling 
+activities which includes, 
+arrange staff travel and 
+accommodation, coordinate 
+despatch assignment and 
+coordinate meetings/event 
+arrangements confirmed. 
+4.5 Effectiveness of logistic 
+activities execution confirmed. 
+4.6 Logistic handling report 
+prepared in accordance with 
+sample of organization 
+requirements.   
+
+===== [PAGE 70] =====
+N821-001-3:2020 
+61 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+4.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+4.8 Safety and environmental 
+requirements complied in 
+accordance with local authority 
+requirements. 
+ 
+ 
+ 
+ 
+Employability Skills  
+ 
+Core Abilities 
+ Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+ Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 John Harrison, 10th edition, 1996, Secretarial Duties, ISBN 9780582278448 
+2 Josephine Shaw, 2nd edition 1984, Administration in Business, ISBN 0712101861 
+3 Estelle Belle Hunter, 2010, Office Administration for organizations supervising, ISBN 1146982763 
+4 Pattie Odgers, 2005, Administrative Office Management, ISBN 9780538438575 
+5 Paul Smith, 4th edition, 2004, Marketing Communications, ISBN 9780749442651 
+6 McGraw-Hill/Irwin, 2nd edition, 2011, Business Communication, ISBN 9780073403168 
+
+===== [PAGE 71] =====
+N821-001-3:2020 
+62 / 90 
+7 Richard B. Chase, Nicholas J. Jacobs, F. Robert (2001) Operation Management For Competitive Advantage (Ninth), McGraw- Hill 
+Education(Asia), ISBN 0-07-120680-9 
+8 James Stroman (2014) 5th edition, administrative assistant and secretary handbook AMACOM ISBN-10:9780814433522 
+9 NCS- Core Abilities latest edition. 
+10 Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+  
+
+===== [PAGE 72] =====
+N821-001-3:2020 
+63 / 90 
+15.6. Office Documentation Preparation 
+ 
+SECTION (N) Administrative and Support Service Activities 
+GROUP (821) Office Administrative and Support Activities  
+AREA Office Operation 
+NOSS TITLE Office Administration 
+COMPETENCY UNIT TITLE Office Documentation Preparation 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to prepare office 
+documentation with clear presentation and formatted in accordance  with organization 
+requirements.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Produce office documents. 
+2. Register office documentation. 
+3. Print office documents. 
+4. Bind office documents. 
+5. File office documents. 
+6. Maintain office documents. 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not Available 
+CU CODE N821-001-3:2020-C06 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Produce 
+office 
+documents. 
+1.1 Documentation 
+requirement. 
+1.2 Types of 
+documents. 
+1.3 Documentation 
+preparation 
+1.1 Identify type of 
+document. 
+1.2 Identify format of 
+document.  
+1.3 Determine reference 
+number.  
+ATTITUDE 
+1.1 Compliance to office 
+best practice.  
+ 
+ 
+ 
+1.1 Documentation requirement 
+listed out and explained. 
+1.2 Types of document listed out 
+and explained. 
+1.3 Document preparation 
+described in accord ance with 
+
+===== [PAGE 73] =====
+N821-001-3:2020 
+64 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+method.  
+1.4 Recording 
+process.  
+1.5 Reporting 
+process.  
+ 
+1.4 Prepare office 
+document. 
+1.5 Check prepared 
+document.  
+1.6 Submit document for 
+verification. 
+ 
+SAFETY 
+1.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+1.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+ 
+sample of organization 
+requirement. 
+1.4 Recording and recording 
+process described in 
+accordance with sample of 
+organization requirement. 
+1.5 Document  
+1.6 Office document which 
+includes correspondence, 
+minutes of meeting and reports 
+are determined  in accorda nce 
+with organization 
+requirements. 
+1.7 Office documents drafted with 
+specified reference number in 
+accordance with document 
+format. 
+1.8 Format, language and contents 
+confirmed in accordance with 
+organization requirements. 
+1.9 Drafted document submitted 
+for approval.  
+1.10 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+1.11 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+
+===== [PAGE 74] =====
+N821-001-3:2020 
+65 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+2. Register 
+office 
+documentati
+on. 
+2.1 Types of 
+registration. 
+2.2 Registration 
+method.  
+2.3 Registration 
+process.  
+2.4 Reporting 
+process. 
+ 
+2.1 Identify document 
+reference.  
+2.2 Classify office 
+document.  
+2.3 Update office 
+document list. 
+ATTITUDE 
+2.1 Compliance to office 
+best practice.  
+ 
+ 
+SAFETY 
+2.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+2.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+2.1 Types of registration listed out 
+and explained. 
+2.2 Registration method and 
+process described in 
+accordance with sample of 
+organization requirement. 
+2.3 Office documentation 
+registration process described. 
+2.4 Document reference which 
+includes general, semi 
+confidential and confidential 
+specified in accordance with 
+sample of organization coding. 
+2.5 Office document which 
+includes general, semi 
+confidential and confidential 
+updated in accordance with 
+sample of  organization 
+requirements. 
+2.6 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+2.7 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+
+===== [PAGE 75] =====
+N821-001-3:2020 
+66 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3. Print office 
+documents. 
+3.1 Types and 
+method 
+printing. 
+3.2 Document 
+printing 
+procedure. 
+3.3 Recording 
+procedure. 
+ 
+3.1 Identify type of 
+equipment.  
+3.2 Identify type of 
+documentation.  
+3.3 Generate office 
+document.  
+3.4 Record office 
+document printing.   
+ 
+ATTITUDE 
+3.1 Compliance to office 
+best practice.  
+ 
+ 
+SAFETY 
+3.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+3.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+ 
+ 
+3.1 Typed and method of printing 
+listed out explained. 
+3.2 Printing procedure described 
+in accordance with sample of 
+organization requirement. 
+3.3 Recording procedure 
+described. 
+3.4 Specified types of office 
+equipment which includes 
+printer, scanner and computer 
+selected in accordance with 
+sample of  organization 
+requirements. 
+3.5 Office documents which 
+includes general, semi 
+confidential and confidential  
+produced in accordance with 
+sample of  organization 
+requirements. 
+3.6 Office document printing 
+information updated. 
+3.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+3.8 Safety and environmental 
+requirements complied in 
+accordance with loc al 
+authority requirements. 
+
+===== [PAGE 76] =====
+N821-001-3:2020 
+67 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+4. Bind office 
+documents. 
+4.1 Types and 
+method of 
+binding. 
+4.2 Types of 
+binding 
+equipment. 
+4.3 Binding 
+Procedure. 
+ 
+ 
+4.1 Identify type of 
+equipment.  
+4.2 Identify type of 
+document.   
+4.3 Compile office 
+document. 
+4.4 Perform binding.  
+ 
+ATTITUDE 
+4.1 Compliance to office 
+best practice.  
+ 
+ 
+SAFETY 
+4.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+4.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+4.1 Types and method of binding 
+listed out and explained. 
+4.2 Types of binding equipment 
+listed out and explained. 
+4.3 Binding procedure described 
+in accordance with sample of 
+organization requirement. 
+4.4 Specified types of binding 
+equipment selected in 
+accordance with sample of  
+organization requirements. 
+4.5 Office documents which 
+includes gen eral, semi 
+confidential and confidential 
+gathered and produced  in 
+accordance with sample of  
+organization requirements. 
+4.6 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+4.7 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+
+===== [PAGE 77] =====
+N821-001-3:2020 
+68 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+5. File office 
+documents. 
+5.1 Types of filling  
+system. 
+5.2 Filling 
+procedure. 
+5.3 Recording 
+procedure. 
+ 
+5.1 Identify filing 
+process.  
+5.2 Sort type of document  
+5.3 Perform filing.  
+5.4 Record filed office 
+document. 
+ATTITUDE 
+5.1 Compliance to office 
+best practice.  
+ 
+ 
+SAFETY 
+5.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+5.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+5.1 Types of filing system listed 
+out and explained. 
+5.2 Filing procedure described i n 
+accordance with sample of 
+organization requirement. 
+5.3 Recording procedure 
+described. 
+5.4 Filing process which includes 
+coding, indexing, labelling and 
+sorting selected in accordance 
+with sample of  organization 
+requirements. 
+5.5 Coding, indexing and labelling   
+confirmed in accordance with 
+filing requirements. 
+5.6 Office documents which 
+include general, semi 
+confidential and confidential 
+kept and record updated in 
+accordance with sample of  
+organization requirements. 
+5.7 Best practice comp lied in 
+accordance with sample of 
+organization requirements. 
+5.8 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+
+===== [PAGE 78] =====
+N821-001-3:2020 
+69 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+6. Maintain 
+office 
+documents. 
+6.1 Types of coding 
+systems. 
+6.2 Office document 
+maintenance 
+procedure: 
+ Government 
+Link 
+Company 
+(GLC) 
+ Multinationa
+l company 
+(MNC) 
+ Small 
+Medium 
+Enterprise(S
+ME). 
+6.3 Reporting 
+procedure. 
+ 
+6.1 Identify coding 
+system.  
+6.2 Classify office 
+document.  
+6.3 Prepare storage report. 
+ATTITUDE 
+6.1 Compliance to office 
+best practice.  
+ 
+ 
+SAFETY 
+6.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+6.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+6.1 Types of coding system listed 
+out and explained. 
+6.2 Office document maintenance 
+procedure described in 
+accordance with sample of 
+organization requirement. 
+6.3 Office documents maintenance 
+system selected in accordance 
+with organization 
+requirements. 
+6.4 Office document s which 
+include general and 
+confidential coded in 
+accordance with sample of  
+organization requirements. 
+6.5 Storage report update d and 
+generated in accordance with 
+sample of  organization 
+requirements. 
+6.6 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+6.7 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+ 
+ 
+
+===== [PAGE 79] =====
+N821-001-3:2020 
+70 / 90 
+ 
+ 
+Employability Skills  
+ 
+Core Abilities 
+ Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+ Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 John Harrison, 10th edition, 1996, Secretarial Duties, ISBN 9780582278448 
+2 Josephine Shaw, 2nd edition 1984, Administration in Business, ISBN 0712101861 
+3 Estelle Belle Hunter, 2010, Office Administration for organizations supervising, ISBN 1146982763 
+4 Pattie Odgers, 2005, Administrative Office Management, ISBN 9780538438575 
+5 Paul Smith, 4th edition, 2004, Marketing Communications, ISBN 9780749442651 
+6 McGraw-Hill/Irwin, 2nd edition, 2011, Business Communication, ISBN 9780073403168 
+7 Richard B. Chase, Nicholas J. Jacobs, F. Robert (2001) Operation Management For Competitive Advantage (Ninth), McGraw- Hill 
+Education(Asia), ISBN 0-07-120680-9 
+8 James Stroman (2014) 5th edition, administrative assistant and secretary handbook AMACOM ISBN-10:9780814433522 
+9 NCS- Core Abilities latest edition. 
+10 Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+ 
+ 
+ 
+ 
+
+===== [PAGE 80] =====
+N821-001-3:2020 
+71 / 90 
+ 
+15.7. Staff Administration Supervision 
+ 
+SECTION (N) Administrative and Support Service Activities 
+GROUP (821) Office Administrative and Support Activities  
+AREA Office Operation 
+NOSS TITLE Office Administration 
+COMPETENCY UNIT TITLE Staff Administration Supervision 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to  supervise office 
+administration ensuring smooth office workflow, motivate staff and monitor budget in accordance 
+with organization requirements.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Conduct in-house training. 
+2. Perform staff appraisal. 
+3. Monitor office waste disposal. 
+4. Prepare section budget. 
+5. Conduct staff meeting/briefing. 
+6. Monitor occupational health, safety, security and environment implementation. 
+7. Monitor work flow and work progress. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) Not Available 
+CU CODE N821-001-3:2020-C07 NOSS LEVEL Three (3) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Conduct in-
+house 
+1.1 Staff training 
+assessment 
+1.1 Asses staff needs.  
+1.2 Prepare training 
+ATTITUDE 
+1.1 Compliance to office 
+1.1 Staff training assessment 
+requirement listed out and 
+
+===== [PAGE 81] =====
+N821-001-3:2020 
+72 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+training. requirement:  
+ Types 
+training.  
+ Method of 
+training.  
+1.2 Training 
+arrangements. 
+1.3 Technique of 
+delivery.  
+1.4 Training 
+evaluation 
+method. 
+ 
+requirements.  
+1.3 Deliver training.  
+1.4 Evaluate training 
+effectiveness. 
+best practice.  
+ 
+SAFETY 
+1.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+1.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+ 
+explained. 
+1.2 Training arrangement 
+explained. 
+1.3 Technique of delivery 
+explained. 
+1.4 Training evaluation method 
+described. 
+1.5 Staff training needs identified 
+and prioritized. 
+1.6 Training requirement which 
+includes venue, date, 
+refreshment, time, and number 
+of participants confirmed. 
+1.7 training methodology adopted 
+and conveyed to participant. 
+1.8 Participant feedback obtain ed 
+and summarized in accordance 
+with sample of  organization 
+requirements. 
+1.9 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+1.10 Safety and environmental 
+requirements complied i n 
+accordance with local 
+authority requirements. 
+
+===== [PAGE 82] =====
+N821-001-3:2020 
+73 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+2. Perform 
+staff 
+appraisal. 
+2.1 Appraised staff 
+information 
+requirement. 
+2.2 Compilation 
+documentation 
+procedure.  
+2.3 Method of staff 
+appraisal. 
+2.4 Reporting 
+procedure. 
+ 
+ 
+2.1 Gather staff 
+information.  
+2.2 Review staff 
+performance. 
+2.3 Fill up appraisal 
+form.  
+2.4 Check staff appraisal 
+progress. 
+ATTITUDE 
+2.1  Compliance to office 
+best practice.  
+ 
+SAFETY 
+2.1  Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+2.1  Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+2.1 Appraised staff information 
+requirement explained. 
+2.2 Compilation documentation 
+procedure described. 
+2.3 Method of staff appraisal 
+described. 
+2.4 Staff information acquired 
+from human resources. 
+2.5 Key performance indicator of 
+staff updated. 
+2.6 Appraisal form completed and 
+staff app raisal progress 
+checked in accordance with 
+sample of organization 
+requirements. 
+2.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+2.8 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+
+===== [PAGE 83] =====
+N821-001-3:2020 
+74 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3. Monitor 
+office waste 
+disposal. 
+3.1 Types of waste.  
+ Recycle 
+waste. 
+ Digital waste.  
+3.2 Method of 
+disposal. 
+3.3 Process of 
+disposal. 
+3.4 Reporting 
+process. 
+ 
+3.1 Obtain disposal 
+requirement. 
+3.2 Determine disposal 
+method.  
+3.3 Notify vendor.  
+3.4 Check disposal 
+process.  
+3.5 Report disposal 
+activities. 
+ATTITUDE 
+3.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+3.1 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ENVIRONMENT 
+3.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+3.1 Type of waste listed out and 
+explained. 
+3.2 Method and process of 
+disposal described. 
+3.3 Waste disposal requirements 
+which include product/items, 
+disposal method and location 
+confirmed in accordance with 
+sample of  organization 
+requirements. 
+3.4 Disposal vendor acknowledge 
+and process completed. 
+3.5 Waste disposal activit ies 
+produced. 
+3.6 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+3.7 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+
+===== [PAGE 84] =====
+N821-001-3:2020 
+75 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+4. Prepare 
+section 
+budget. 
+4.1 Office work 
+flow.  
+4.2 Budgeting 
+method.  
+4.3 Budgeting 
+process. 
+4.4 Reporting 
+process. 
+ 
+4.1 Obtain budget plan.  
+4.2 Check work process. 
+4.3 Draft section budget.  
+4.4 Submit section 
+budget for approval. 
+ATTITUDE 
+4.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+4.2 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ENVIRONMENT 
+4.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+4.1 Office work flow explained. 
+4.2 Budgeting method and process 
+described in accordance with 
+sample of organization 
+requirement. 
+4.3 Budget plan allocation 
+identified. 
+4.4 Section budget allocation draft 
+submitted for approval. 
+4.5 Budgeting related documents 
+compiled and recorded in 
+accordance with sample of  
+organization requirements. 
+4.6 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+4.7 Safety and envi ronmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+5. Conduct 
+staff 
+meeting/brie
+fing. 
+5.1 Staff 
+meetings/briefin
+g requirement: 
+ Types.  
+ Process.  
+5.2 Meetings/briefin
+g arrangements. 
+5.3 Technique of 
+5.1 Identify 
+meeting/briefing 
+requirement.  
+5.2 Identify target 
+group. 
+5.3 Deliver 
+meeting/briefing.  
+5.4 Prepare report 
+ATTITUDE 
+5.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+5.1 Compliance to office 
+safety, health and 
+environment 
+5.1 Staff meeting/briefing 
+requirement listed out and 
+explained. 
+5.2 Meeting/ briefing arrangement 
+described in accordance with 
+organization requirement. 
+5.3 Minute of requirement listed 
+out and explained. 
+
+===== [PAGE 85] =====
+N821-001-3:2020 
+76 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+delivery.  
+5.4 Minutes of 
+meeting 
+requirement. 
+meeting/briefing 
+requirement. 
+5.5 Submit report for 
+acknowledgment. 
+requirements. 
+ 
+ENVIRONMENT 
+5.1 Compliance to 
+environmental 
+regulation 
+requirements.’ 
+ 
+5.4 Type of meeting/briefing 
+requirement which includes 
+staff and department meeting 
+confirmed. 
+5.5 Meeting/briefing conveyed to 
+target group. 
+5.6 Meeting/briefing report 
+produced and forwarded to  
+instructor in accordance with 
+sample of  organization 
+requirements. 
+ 
+5.7 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+5.8 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+ 
+6. Monitor 
+occupational 
+health, 
+safety, 
+security and 
+environment 
+implementat
+ion. 
+6.1 Regulation Acts. 
+6.2 Implementation 
+procedure. 
+6.3 Assessment 
+procedure.  
+6.4 Reporting process.    
+ 
+6.1 Obtain occupational 
+health, safety, 
+security and 
+environment 
+implementation 
+guidelines. 
+6.2 Check occupational 
+health, safety, 
+ATTITUDE 
+6.1 Compliance to office 
+best practice.  
+ 
+SAFETY 
+6.1 Compliance to office 
+safety, health and 
+environment 
+6.1 Regulation Acts listed out and 
+explained. 
+6.2 Implementation and 
+assessment procedure 
+described.   
+6.3 Occupational health, safety, 
+security and environment 
+implementation guidelines 
+
+===== [PAGE 86] =====
+N821-001-3:2020 
+77 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+security and 
+environment 
+implementation 
+requirements.  
+6.3 Identify 
+occupational health, 
+safety, security and 
+environment 
+implementation 
+working group.  
+6.4 Notify occupational 
+health, safety, 
+security and 
+environment 
+implementation 
+requirement to 
+working group. 
+6.5 Assess occupational 
+health, safety, 
+security and 
+environment 
+implementation. 
+6.6 Prepare occupational 
+health, safety, 
+security and 
+environment 
+implementation 
+status report. 
+requirements. 
+ 
+ENVIRONMENT 
+6.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+ 
+acquired from instructor. 
+6.4 Related guidelines for 
+department identified and 
+confirmed. 
+6.5 Working group for 
+occupational, safety, health 
+and environment 
+implementation formulated 
+and work resp onsibilities 
+acknowledged in accordance 
+with sample of  organization 
+requirements. 
+6.6 Occupational health, safety, 
+security and environment 
+implementation success 
+recorded and remedial action 
+taken. 
+6.7 Occupational health, safety, 
+security and environment 
+implementation status report 
+produced. 
+6.8 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+6.9 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+
+===== [PAGE 87] =====
+N821-001-3:2020 
+78 / 90 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+7. Monitor 
+work flow 
+and work 
+progress. 
+7.1 Office Work 
+structure. 
+7.2 Office job 
+description.  
+7.3 Work progress 
+documentation.  
+7.4 Introduction to 
+corporate 
+governance  
+7.5 Reporting process.   
+ 
+7.1 Determine work 
+flow and work 
+progress structure.  
+7.2 Integrate work 
+schedule with work 
+flow.  
+7.3 Check work flow 
+and work progress 
+status.  
+7.4 Report work flow 
+and work progress 
+status. 
+ATTITUDE 
+7.1 Compliance to office 
+best practice.  
+ 
+ 
+SAFETY 
+7.2 Compliance to office 
+safety, health and 
+environment 
+requirements. 
+ 
+ 
+ENVIRONMENT 
+7.1 Compliance to 
+environmental 
+regulation 
+requirements. 
+ 
+ 
+7.1 Office Work structure  and 
+office job description 
+explained. 
+7.2 Work progress documentation 
+explained. 
+7.3 Introduction to corporate 
+governance explained. 
+7.4 Reporting process explained. 
+7.5 Company Standard Operating 
+Procedure (SOP) interpreted.  
+7.6 Work flow and work prog ress 
+structure acquired from 
+instructor. 
+7.7 Sharing of work schedule with 
+work flow acknowledge by 
+instructor . 
+7.8 Work progress reviewed and 
+reported in accordance with 
+SOP and organization 
+requirements 
+7.9 Best practice complied in 
+accordance with sample of 
+organization requirements. 
+7.10 Safety and environmental 
+requirements complied in 
+accordance with local 
+authority requirements. 
+ 
+ 
+
+===== [PAGE 88] =====
+N821-001-3:2020 
+79 / 90 
+ 
+  
+
+===== [PAGE 89] =====
+N821-001-3:2020 
+80 / 90 
+Employability Skills  
+ 
+Core Abilities 
+ Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+ Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 John Harrison, 10th edition, 1996, Secretarial Duties, ISBN 9780582278448 
+2 Josephine Shaw, 2nd edition 1984, Administration in Business, ISBN 0712101861 
+3 Estelle Belle Hunter, 2010, Office Administration for organizations supervising, ISBN 1146982763 
+4 Pattie Odgers, 2005, Administrative Office Management, ISBN 9780538438575 
+5 Paul Smith, 4th edition, 2004, Marketing Communications, ISBN 9780749442651 
+6 McGraw-Hill/Irwin, 2nd edition, 2011, Business Communication, ISBN 9780073403168 
+7 Richard B. Chase, Nicholas J. Jacobs, F. Robert (2001) Operation Management For Competitive Advantage (Ninth), McGraw- Hill 
+Education(Asia), ISBN 0-07-120680-9 
+8 James Stroman (2014) 5th edition, administrative assistant and secretary handbook AMACOM ISBN-10:9780814433522 
+9 NCS- Core Abilities latest edition. 
+10 Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+  
+
+===== [PAGE 90] =====
+N821-001-3:2020 
+81 / 90 
+16. Delivery Mode 
+ 
+The following are the recommended training delivery modes: - 
+ 
+KNOWLEDGE SKILL 
+ Lecture 
+ Group discussion 
+ E-learning, self-paced 
+ E-learning, facilitate 
+ Case study or Problem based learning (PBL) 
+ Self-paced learning, non-electronic 
+ One-on-one tutorial 
+ Shop talk 
+ Seminar 
+ Demonstration 
+ Simulation 
+ Project  
+ Scenario based training (SBT) 
+ Role play 
+ Coaching  
+ Observation 
+ Mentoring 
+ 
+Skills training and skills assessment of trainees should be implemented in accordance with TEM requirements and actual situation. 
+  
+
+===== [PAGE 91] =====
+N821-001-3:2020 
+82 / 90 
+17. Tools, Equipment and Materials (TEM)  
+ 
+OFFICE ADMINISTRATION 
+ 
+LEVEL 3 
+ 
+CU CU CODE COMPETENCY UNIT TITLE 
+C01 N821-001-3:2020-C01 Front Office Reception 
+C02 N821-001-3:2020-C02 Office Finance Handling 
+C03 N821-001-3:2020-C03 Office Procurement Handling 
+C04 N821-001-3:2020-C04 Office Inventory Handling 
+C05 N821-001-3:2020-C05 Office Logistic Handling 
+C06 N821-001-3:2020-C06 Office Documentation Preparation 
+C07 N821-001-3:2020-C07 Staff Administration Supervision 
+ 
+* Items listed refer to TEM’s minimum requirement for skills delivery only. 
+ 
+NO. ITEM* RATIO (TEM : Trainees or AR = As Required) 
+C01 C02 C03 C04 C05 C06 C07 
+A. Tools  
+1  General office Stationery 1:1 1:1 1:1 1:1 1:1 1:1 1:1 
+B. Equipment  
+1  Mock up office reception  1:25       
+2  Mock up office administration  1:25 1:25 1:25 1:25 1:25 1:25 
+3  Telephone  1:5 1:5 1:5 1:5 1:5 1:5 1:5 
+4  Computer and peripherals 1:5 1:5 1:5 1:5 1:5 1:5 1:5 
+5  Internet connection  1:25 1:25 1:25 1:25 1:25 1:25 1:25 
+6  Scanner   1:5 1:5 1:5 1:5 1:5 1:5 
+7  Photocopy machine   1:25 1:25 1:25 1:25 1:25 1:25 
+8  Printer  1:5 1:5 1:5 1:5 1:5 1:5 1:5 
+
+===== [PAGE 92] =====
+N821-001-3:2020 
+83 / 90 
+9  Fax machine  1:25 1:25 1:25     
+10  Binding machine       1:5  
+11  Filing cabinet   1:25 1:25 1:25 1:25 1:25 1:25 
+12  LCD Projector      1:25  1:25 
+13  White board/flip chart      1:25  1:25 
+14  Labeler 1:25 1:25 1:25 1:25 1:25 1:25 1:25 
+15  Shredder  1:25 1:25 1:25  1:25 1:25 
+C. Materials  
+1  Sample welcoming  check list 1:1       
+2  Sample of  reception case study    1:1       
+3  Sample of log book  1:1 1:1 1:1 1:1 1:1 1:1 1:1 
+4  Sample of SOP 1:1 1:1 1:1 1:1 1:1 1:1 1:1 
+5  Sample of  book on ethics  1:25       
+6  Sample of department directory  1:1 1:1 1:1 1:1 1:1 1:1 1:1 
+7  Sample of petty cash form   1:1      
+8  Sample of bills  1:1      
+9  Sample of payment voucher   1:1      
+10  Sample of purchase requisition form    1:1 1:1    
+11  Sample of purchase order    1:1 1:1    
+12  Sample of  quotation    1:1 1:1    
+13  Sample of delivery order    1:1 1:1    
+14  Sample of stock card    1:1 1:1    
+15  Sample of inventory report     1:1    
+16  Sample of equipment movement checklist     1:1    
+17  Sample of  travel  and accommodation form      1:1   
+18  Sample of agenda and minutes of meeting      1:1  1:1 
+19  Sample of appraisal form        1:1 
+20  Sample of disposal guidelines        1:1 
+21  Sample of disposal vendor checklist        1:1 
+22  Sample of section budget plan       1:1 
+23  Sample of related legislations (OSHA,PDPA,       1:25 
+
+===== [PAGE 93] =====
+N821-001-3:2020 
+84 / 90 
+NASDA, MCMC etc.) 
+24  Sample of work structure         1:1 
+25  Sample of job description        1:1 
+ 
+ 
+  
+
+===== [PAGE 94] =====
+N821-001-3:2020 
+85 / 90 
+18. Competency Weightage 
+ 
+The following table shows the percentage of training priorities based on consensus made by the Standard Development Committee (SDC). 
+ 
+OFFICE ADMINISTRATION 
+LEVEL 3 
+ 
+CU CODE COMPETENCY UNIT TITLE 
+COMPETENCY 
+UNIT 
+WEIGHTAGE 
+WORK ACTIVITIES 
+WORK 
+ACTIVITIES 
+WEIGHTAGE 
+N821-001-
+3:2020-C01 Front Office Reception 5% 
+1. Attend to visitor. 30%   
+2. Handle office incoming/ outgoing 
+communication. 
+25%  
+3. Handle office incoming/ outgoing 
+items. 
+25%   
+4. Record front office reception activities. 20%   
+N821-001-
+3:2020-C02 Office Finance Handling 10% 
+1. Prepare petty cash. 25% 
+2. Handle bills collection. 20%  
+3. Handle payment vouchers. 25% 
+4. Prepare office finance report summary. 30%  
+N821-001-
+3:2020-C03 Office Procurement Handling 15% 
+1. Prepare requisition form. 15% 
+2. Handle incoming procurement 
+documents. 20%  
+3. Handle purchase items. 20% 
+4. Coordinate procurement licensing 
+renewal. 25% 
+5. Record office procurement handling 
+activities. 
+20% 
+ 
+N821-001-
+3:2020-C04 Office Inventory Handling 15% 
+1. Check office inventory availability. 15% 
+2. Perform office inventory requisition. 20% 
+3. Perform office inventory issuance. 20%  
+
+===== [PAGE 95] =====
+N821-001-3:2020 
+86 / 90 
+4. Monitor office equipment’s movement/ 
+transfer and maintenance. 10% 
+5. Monitor expired/recycled office items. 10% 
+6. Record inventory handling activities. 25% 
+N821-001-
+3:2020-
+C05 
+Office Logistic Handling 10% 
+1. Arrange staff travel and 
+accommodation. 25% 
+2. Coordinate dispatch assignment. 25% 
+3. Coordinate meetings/ event 
+arrangement.  25% 
+4. Record logistic handling activities. 25% 
+N821-001-
+3:2020-C06 
+Office Documentation 
+Preparation 30% 
+1. Produce office documents. 20%  
+2. Register office documentation. 10%  
+3. Print office documents. 20%  
+4. Bind office documents. 10%  
+5. File office documents. 30%  
+6. Maintain office documents. 10%  
+N821-001-
+3:2020-C07 
+Staff Administration 
+Supervision 15% 
+1. Conduct in-house training. 20%   
+2. Perform staff appraisal. 10%  
+3. Monitor office waste disposal. 10% 
+4. Prepare section budget. 20% 
+5. Conduct staff meeting/briefing. 20% 
+6. Monitor occupational health, safety, 
+security and environment 
+implementation. 
+10% 
+7. Monitor work flow and work progress. 10%  
+TOTAL PERCENTAGE (CORE 
+COMPETENCY) 100%  
+ 
+ 
+
+===== [PAGE 96] =====
+N821-001-3:2020 
+87 / 90 
+Sample Calculation for Summary of Training Hours 
+ 
+The following table shows the nominal training hours based on recommendations made by the Standard Development Committee (SDC). 
+For purpose of Malaysian Skills Certification through accredited centre training, the program duration is subject to Malaysia n Skills 
+Certification System. 
+ 
+OFFICE ADMINISTRATION 
+ 
+LEVEL 3 
+ 
+CU CODE COMPETENCY 
+UNIT TITLE WORK ACTIVITY 
+WORK ACTIVITY TRAINING 
+DURATION 
+(HOURS) 
+TRAINING 
+DURATION 
+(HOURS) 
+SKILLS 
+CREDIT 
+KNOWLEDGE SKILLS 
+N821-001-
+3:2020-C01 
+Front Office 
+Reception 
+1. Attend to visitor. 14 20 
+110 11 
+2. Handle office 
+incoming/ 
+outgoing 
+communication. 
+8 20 
+3. Handle office 
+incoming/ 
+outgoing items. 
+8 20 
+4. Record front 
+office reception 
+activities. 
+5 15 
+N821-001-
+3:2020-C02 
+Office Finance 
+Handling 
+1. Prepare petty 
+cash. 16 40 
+230 23 
+2. Handle bills 
+collection. 15 30 
+3. Handle payment 
+vouchers. 19 40 
+4. Prepare office 20 50 
+
+===== [PAGE 97] =====
+N821-001-3:2020 
+88 / 90 
+finance report 
+summary. 
+N821-001-
+3:2020-C03 
+Office Procurement 
+Handling 
+1. Prepare 
+requisition form. 11 40 
+330 33 
+2. Handle incoming 
+procurement 
+documents. 
+17 50 
+3. Handle purchase 
+items. 17 50 
+4. Coordinate 
+procurement 
+licensing 
+renewal. 
+14 70 
+5. Record office 
+procurement 
+handling 
+activities. 
+17 50 
+N821-
+001-
+3:2020-
+C04 
+Office Inventory 
+Handling 
+1. Check office 
+inventory 
+availability. 
+12 40 
+340 34 
+2. Perform office 
+inventory 
+requisition. 
+17 50 
+3. Perform office 
+inventory 
+issuance. 
+19 50 
+4. Monitor office 
+equipment’s 
+movement/ 
+transfer and 
+maintenance. 
+14 20 
+5. Monitor 14 20 
+
+===== [PAGE 98] =====
+N821-001-3:2020 
+89 / 90 
+expired/recycled 
+office items. 
+6. Record inventory 
+handling 
+activities. 
+14 70 
+N821-001-
+3:2020-C05 
+Office Logistic 
+Handling 
+1. Arrange staff 
+travel and 
+accommodation. 
+18 40 
+230 23 
+2. Coordinate 
+dispatch 
+assignment. 
+18 40 
+3. Coordinate 
+meetings/ event 
+arrangement.  
+18 40 
+4. Record logistic 
+handling 
+activities. 
+16 40 
+N821-
+001-
+3:2020-
+C06 
+Office 
+Documentation 
+Preparation 
+1. Produce office 
+documents. 24 110 
+670 67 
+2. Register office 
+documentation. 17 50 
+3. Print office 
+documents. 25 110 
+4. Bind office 
+documents. 17 50 
+5. File office 
+documents. 59 141 
+6. Maintain office 
+documents. 
+ 
+17 50 
+N821-
+001-
+Staff 
+Administration 
+1. Conduct in-house 
+training. 15 50 330 33 
+
+===== [PAGE 99] =====
+N821-001-3:2020 
+90 / 90 
+3:2020-
+C07 
+Supervision 2. Perform staff 
+appraisal. 14 20 
+3. Monitor office 
+waste disposal. 14 20 
+4. Prepare section 
+budget. 15 50 
+5. Conduct staff 
+meeting/briefing. 15 50 
+6. Monitor 
+occupational 
+health, safety, 
+security and 
+environment 
+implementation. 
+14 20 
+7. Monitor work 
+flow and work 
+progress. 
+13 20 
+TOTAL HOURS (CORE COMPETENCY) 594 1646 2240 224 
+TOTAL HOURS OF COMPETENCY UNIT 2240 
+TOTAL HOURS OF CORE ABILITIES 160 
+TOTAL HOURS TRAINING DURATION 2400 
+ 
+The sample calculations performed are based on table in section 18 for delivery of level 3 training program at 2240 hours excluding 
+delivery of core abilities 
+ 
+ 
+
+===== [PAGE 100] =====
+N821-001-3:2020 
+91 / 90 
+ 

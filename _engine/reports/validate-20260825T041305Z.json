@@ -1,0 +1,10 @@
+[
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "error",
+    "message": "page-count placeholder ⟪PAGES⟫ was never backfilled — run build/ppa_integrate.py before delivery.",
+    "evidence": "fb-018-3-set-b-soalan.md",
+    "line": null
+  }
+]

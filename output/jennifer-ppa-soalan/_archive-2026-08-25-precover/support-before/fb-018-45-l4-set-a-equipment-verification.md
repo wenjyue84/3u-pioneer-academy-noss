@@ -1,0 +1,102 @@
+# EQUIPMENT VERIFICATION — PPT-PPA (SET A)
+
+---
+
+**JABATAN PEMBANGUNAN KEMAHIRAN**
+**KEMENTERIAN SUMBER MANUSIA**
+ARAS 7 & 8 SETIA PERKASA 4, KOMPLEKS SETIA PERKASA
+62530 PUTRAJAYA
+
+---
+
+**KOD DAN NAMA PUSAT BERTAULIAH/SYARIKAT**
+
+CHARACTER INTERNATIONAL ACADEMY SDN. BHD.
+
+---
+
+**SENARAI SEMAK PENGESAHAN PERALATAN DAN BAHAN — PPT-PPA (SET A)**
+
+**KOD KOMPETENSI:** FB-018-45:2012 SALES & MARKETING ADMINISTRATION
+
+**TARIKH PENILAIAN:** _________________________
+
+**SESI / KUMPULAN:** _________________________
+
+---
+
+**Arahan:**
+
+Penilai / PPL-PPT hendaklah menyemak dan mengesahkan semua peralatan dan bahan berikut SEBELUM penilaian bermula. Tandakan (✓) pada ruangan "Sedia" jika peralatan/bahan berfungsi dan mencukupi.
+
+---
+
+## A. PERALATAN / EQUIPMENT
+
+| BIL. | PERALATAN / KELENGKAPAN | UKURAN / SPESIFIKASI | KUANTITI DIPERLUKAN | STATUS |
+|------|------------------------|---------------------|---------------------|--------|
+| 1 | Computer / Laptop dengan capaian Internet | Berfungsi dengan sambungan Internet aktif | 1 unit setiap calon | ☐ Sedia |
+| 2 | Printer | Berfungsi dengan kertas dan dakwat mencukupi | 1 unit : 5 calon | ☐ Sedia |
+| 3 | Calculation Tool | Fungsi asas (+ − × ÷ %) | 1 unit setiap calon | ☐ Sedia |
+| 4 | Aplikasi Pejabat Asas | Word processing (contoh: MS Word / Google Docs) | 1 set setiap calon | ☐ Sedia |
+| 5 | Spreadsheet | Contoh: MS Excel / Google Sheets | 1 set setiap calon | ☐ Sedia |
+| 6 | Clipboard / Folder Pemfailan | Saiz A4 | 1 unit setiap calon | ☐ Sedia |
+
+---
+
+## B. BAHAN / DOKUMEN / MATERIALS
+
+| BIL. | BAHAN / DOKUMEN | UKURAN (UNIT) | KUANTITI | STATUS |
+|------|-----------------|---------------|----------|--------|
+| 1 | Appendix 1: Company & Product Information Sheet | Set | 1 setiap calon | ☐ Sedia |
+| 2 | Appendix 2: Sales & Market Data Pack | Set | 1 setiap calon | ☐ Sedia |
+| 3 | Appendix 3: Product & Market Analysis Form | Set | 1 setiap calon | ☐ Sedia |
+| 4 | Appendix 4: Corporate Quotation & Proposal Form | Set | 1 setiap calon | ☐ Sedia |
+| 5 | Appendix 5: Sales Projection & Performance Evaluation Form | Set | 1 setiap calon | ☐ Sedia |
+| 6 | Appendix 6: Team Objective & Departmental Report Form | Set | 1 setiap calon | ☐ Sedia |
+| 7 | Appendix 7: Marketing Collateral & Distribution Record Form | Set | 1 setiap calon | ☐ Sedia |
+| 8 | Printing Paper | A4, 80gsm | Secukupnya | ☐ Sedia |
+| 9 | Candidate Working Folder | Saiz A4 | 1 setiap calon | ☐ Sedia |
+| 10 | Stationery (pen, pensil, pembaris) | Set | 1 setiap calon | ☐ Sedia |
+| 11 | Assessment Answer Sheet | Set | 1 setiap calon | ☐ Sedia |
+
+---
+
+## C. PERSEKITARAN PENILAIAN
+
+| BIL. | PERKARA | STATUS |
+|------|---------|--------|
+| 1 | Bilik penilaian mencukupi untuk bilangan calon | ☐ Sedia |
+| 2 | Pencahayaan mencukupi | ☐ Sedia |
+| 3 | Sambungan internet berfungsi dan stabil | ☐ Sedia |
+| 4 | Gangguan luar diminimumkan (bunyi, gangguan lalu lalang) | ☐ Sedia |
+| 5 | Calon duduk secara berasingan (jarak sesuai) | ☐ Sedia |
+
+---
+
+## D. PENGESAHAN PPL-PPT SEBELUM PENILAIAN
+
+Saya mengesahkan bahawa semua peralatan, bahan dan persekitaran penilaian telah disemak dan bersedia untuk penilaian dijalankan.
+
+| | |
+|---|---|
+| **Tandatangan PPL-PPT** | _________________________ |
+| **Nama PPL-PPT** | _________________________ |
+| **No. Rujukan PPL-PPT** | _________________________ |
+| **Tarikh** | _________________________ |
+| **Masa Semakan** | _________________________ |
+| **Bilangan Calon** | _________________________ |
+
+---
+
+## E. CATATAN / REMARKS
+
+Sekiranya terdapat peralatan / bahan yang tidak sedia, nyatakan tindakan yang diambil:
+
+_______________________________________________
+
+_______________________________________________
+
+---
+
+**FB-018-45:2012/2026/A/01 — PENGESAHAN PERALATAN**

@@ -146,7 +146,13 @@ def main() -> None:
     parser.add_argument("--output", choices=["json", "text"], default="text")
     args = parser.parse_args()
 
-    files = sorted(ROOT.rglob("KA.md")) + sorted(ROOT.rglob("PA.md"))
+    # Accept both bare (`KA.md`) and descriptive (`KA-foo.md`) filenames.
+    files = (
+        sorted(ROOT.rglob("KA.md"))
+        + sorted(ROOT.rglob("KA-*.md"))
+        + sorted(ROOT.rglob("PA.md"))
+        + sorted(ROOT.rglob("PA-*.md"))
+    )
     results = [r for f in files if (r := analyze_assessment(f)) is not None]
     results.sort(key=lambda x: x["code"])
 

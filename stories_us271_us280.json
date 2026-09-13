@@ -1,0 +1,124 @@
+{
+  "stories": [
+    {
+      "title": "Implement Content Readability Validation Enforcing Flesch-Kincaid Grade Level Target",
+      "priority": "high",
+      "description": "Analyze all CoCu descriptions, key terms, and learning outcomes for readability. Enforce target Flesch-Kincaid grade level (≤10 for L3, ≤11 for L4/L5) and flag sentences >25 words with simplification suggestions.",
+      "acceptanceCriteria": [
+        "Script: scripts/validate_readability.py reads all content/IT-020-{3,4,5}/*.md files and calculates Flesch-Kincaid grade level per section",
+        "Output: JSON at output/readability_report.json showing grade level per CoCu, sentences exceeding length/complexity targets, and alternative phrasings",
+        "Validation: exits code 0 if all CoCu sections ≤target grade level; code 1 if violations found with specific line numbers for remediation"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Optimize generate_docx.py Performance for Sub-2-Second DOCX Generation Per Level",
+      "priority": "medium",
+      "description": "Profile and optimize generate_docx.py to reduce generation time from current baseline to <2 seconds per DOCX file. Implement caching for repeated paragraph/table formats and lazy-load styling.",
+      "acceptanceCriteria": [
+        "Profiling: scripts/profile_docx_generation.py measures generate_docx.py execution time with output/performance_baseline.json before/after optimization",
+        "Optimization: implement paragraph/table style caching in generate_docx.py; lazy-load formatting rules; reduce I/O calls",
+        "Validation: uv run scripts/generate_docx.py completes all 3 levels (L3/L4/L5) in <6 seconds total; time recorded in output/generation_timing.log"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Create Cross-CoCu Terminology Consistency Validator Flagging Conflicting Definitions",
+      "priority": "medium",
+      "description": "Build validator that detects when the same technical term is defined differently across CoCu files or has inconsistent bilingual translations. Flag conflicts and suggest consolidation.",
+      "acceptanceCriteria": [
+        "Script: scripts/check_bilingual_glossary.py extracts all Key Terms (EN/BM pairs) from all 20 CoCu files",
+        "Analysis: uses string matching + semantic similarity (threshold ≥0.85) to detect: duplicate terms with different definitions, conflicting EN↔BM translations, terms appearing only once vs multiple times",
+        "Output: JSON at output/glossary_conflicts.json showing: term name, all definitions found, CoCu locations, recommended canonical definition; exits code 1 if conflicts found"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Generate Capstone Project Briefs Mapped to ISCO-08 Job Roles with Industry Context",
+      "priority": "high",
+      "description": "Create capstone/final project briefs for each CoCu that integrate real-world Malaysian IT industry scenarios, map to ISCO-08 job roles, and include success criteria aligned to learning outcomes.",
+      "acceptanceCriteria": [
+        "Script: scripts/generate_capstone_briefs.py creates project briefs for all 20 CoCu using learning outcomes + industry context",
+        "Output: Markdown files at output/capstone_briefs/L3_CoCu1_capstone.md with: scenario description (Malaysian IT context), ISCO-08 job role link, success criteria (3-4 items mapped to outcomes), required resources, timeline",
+        "Integration: briefs reference real Malaysian companies/scenarios (e.g., BNM systems, SIRIM certifications) and include salary/demand data from ISCO mapping"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Validate Bilingual Assessment Item Semantic Equivalence Using Sentence-Transformers",
+      "priority": "high",
+      "description": "Implement semantic equivalence validator for all bilingual assessment questions/learning outcomes. Ensure English↔Bahasa Malaysia pairs maintain ≥0.85 semantic similarity and identical Bloom's cognitive levels.",
+      "acceptanceCriteria": [
+        "Script: scripts/validate_bilingual_equivalence.py loads sentence-transformers model; compares EN/BM pairs from assessment items, learning outcomes, and rubrics",
+        "Output: JSON at output/bilingual_validation_report.json showing: item pair, EN embedding, BM embedding, cosine similarity score, Bloom's level match (EN vs BM), flag if similarity <0.85 or levels differ",
+        "Validation: exits code 0 if all pairs ≥0.85 similarity AND identical Bloom's levels; code 1 with list of pairs requiring remediation (paired line numbers in source files)"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Build Automated DOCX Structure Validation Testing Output Format Compliance",
+      "priority": "medium",
+      "description": "Create test suite validating that all generated DOCX files conform to NOSS formatting standards: proper heading hierarchy, table structure, page breaks, header/footer presence, font consistency.",
+      "acceptanceCriteria": [
+        "Script: scripts/validate_docx_structure.py reads generated output/*.docx files and validates: 15+ structure requirements (heading hierarchy, table formats, page layout, ToC presence, footer page numbers)",
+        "Test assertions: e.g., 'all h1 headings use NOSS-defined style', 'no table nesting >2 levels', 'footer appears on all pages except cover', 'images have alt-text'",
+        "Output: JSON at output/docx_validation_report.json with pass/fail per requirement per file; exits code 1 if any validation fails"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Create Instructor Misconception Remediation Decision-Tree Flowcharts per CoCu",
+      "priority": "medium",
+      "description": "Generate visual flowcharts documenting common student misconceptions for each CoCu (identified from assessment patterns + pedagogical literature). Include decision trees for instructors to diagnose and remediate.",
+      "acceptanceCriteria": [
+        "Script: scripts/generate_misconception_flowcharts.py creates flowchart data from curated misconception library (CSV) linked to learning outcomes",
+        "Output: SVG/HTML interactive flowcharts at output/misconception_flowcharts/L3_CoCu1_flowchart.html showing: misconception trigger → diagnostic questions → remediation strategy → outcome reteach",
+        "Content: 3-5 common misconceptions per CoCu identified from pedagogical research + Bloom's level analysis of learning outcomes"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Implement Lab Activity Screenshot Capture Tool with VM API Integration",
+      "priority": "medium",
+      "description": "Build tool that automates screenshot capture of lab procedures by controlling VM/lab environment, creating timestamped visual guides with bilingual captions for each practical exercise.",
+      "acceptanceCriteria": [
+        "Script: scripts/capture_lab_screenshots.py integrates with hypervisor API (VMware/Hyper-V) to control lab VM, execute lab steps, and capture screenshots at defined checkpoints",
+        "Output: HTML lab guides at output/lab_guides/L3_CoCu1_lab_guide.html with: step-by-step screenshots, English + Bahasa Malaysia captions, timing estimates (minutes per step), safety warnings",
+        "Integration: Lab procedure content sourced from 'Lab Activity' sections in CoCu markdown; checkpoints defined as regex markers in procedure text"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Generate PDF/HTML Textbook Variants with Print-Optimized CSS and Mobile Responsiveness",
+      "priority": "medium",
+      "description": "Extend output format beyond DOCX to include PDF (print-optimized) and HTML (responsive web) variants. Maintain identical content while adapting layout for each medium (column breaks, page breaks, font sizing).",
+      "acceptanceCriteria": [
+        "Script: scripts/generate_textbook_variants.py converts markdown content/IT-020-{3,4,5}/*.md to PDF and HTML using pandoc/weasyprint",
+        "Output: PDF at output/NOSS-IT-020-{3,4,5}-*.pdf (print-optimized with widows/orphans control, justified alignment) and HTML at output/NOSS-IT-020-{3,4,5}-web.html (responsive, mobile-first)",
+        "Styling: use CSS media queries (@media print/screen) for format-specific rules; maintain NOSS header/footer/ToC in all formats"
+      ],
+      "estimatedComplexity": "medium",
+      "_source": "product-owner"
+    },
+    {
+      "title": "Audit All Technology References Against NOSS 2026 Curriculum Standards Document",
+      "priority": "high",
+      "description": "Cross-reference all technology, tool, and equipment mentions in CoCu content against the official NOSS 2026 curriculum standards. Flag deviations and ensure compliance with latest JPK directives.",
+      "acceptanceCriteria": [
+        "Data source: scripts/noss_2026_standards.json contains official technology list, contact hour requirements, learning outcome frameworks per level",
+        "Script: scripts/audit_noss_standards.py parses all content/IT-020-{3,4,5}/*.md files and compares against standards document",
+        "Output: JSON at output/noss_standards_audit.json showing: compliant items, deviations (technology not in standard), missing items (standard items not in CoCu), remediation links; exits code 1 if critical deviations found"
+      ],
+      "estimatedComplexity": "small",
+      "_source": "product-owner"
+    }
+  ]
+}

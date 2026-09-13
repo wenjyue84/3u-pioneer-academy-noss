@@ -1,0 +1,111 @@
+<!-- JPK_ENVELOPE_v1 -->
+<table border="0" cellspacing="0" cellpadding="8" width="100%">
+<tr>
+<td width="130" valign="top"><img src="../_assets/logos/jpk-logo.png" alt="JPK Logo" width="110"></td>
+<td valign="middle">
+<b>JABATAN PEMBANGUNAN KEMAHIRAN (JPK)</b><br>
+TINGKAT 7-8, BLOK D4, KOMPLEKS D,<br>
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN,<br>
+62530 PUTRAJAYA
+</td>
+</tr>
+</table>
+
+## KERTAS TUGASAN
+
+| Medan | Nilai |
+| --- | --- |
+| KOD DAN NAMA PROGRAM | IT-020-3:2013 OPERASI SISTEM KOMPUTER |
+| TAHAP | 3 |
+| KOD DAN TAJUK UNIT KOMPETENSI | IT-020-3:2013-C01 COMPUTER SYSTEM SET-UP |
+| NO. DAN PERNYATAAN AKTIVITI KERJA | 1. ANALYSE JOB ORDER/CHANGE REQUEST<br>2. PREPARE COMPUTER SET-UP TOOLS, COMPUTER HARDWARE PARTS AND COMPUTER SOFTWARE<br>3. SET-UP COMPUTER HARDWARE<br>4. CARRY OUT COMPUTER SOFTWARE INSTALLATION<br>5. SET-UP COMPUTER PERIPHERALS<br>6. CARRY OUT UNIT FUNCTIONALITY TEST<br>7. PREPARE COMPUTER SET-UP REPORT |
+| NO. KOD | IT-020-3:2013-C01/KT(1/7) |
+| Muka Surat | 1/1 |
+| WARNA KERTAS | MERAH JAMBU (Pink) |
+
+**TAJUK:** KT-01-job-request-analysis-assignment
+
+**TUJUAN:** Kertas rujukan untuk KT-01-job-request-analysis-assignment.
+
+**ARAHAN:** Pelatih dikehendaki melaksanakan tugasan/kerja mengikut prosedur yang ditetapkan dalam kertas ini. Rujuk pensyarah sekiranya perlu penjelasan lanjut.
+
+<!-- /JPK_ENVELOPE_v1 -->
+## Arahan / Instructions
+
+Answer ALL questions. Refer to KP(1/7) for guidance. Write your answers in the space provided or on a separate answer sheet. This assignment is formative and does not count toward final assessment.
+
+**Masa / Duration:** 45 minutes
+
+---
+
+## Soalan / Questions
+
+### Bahagian A: Soalan Pelbagai Pilihan / Multiple Choice (10 marks)
+
+**A1.** What is the primary purpose of a job request in computer system set-up?
+
+- (a) To record the price of computer parts
+- (b) To formally specify what hardware and software must be set up
+- (c) To schedule the technician's lunch break
+- (d) To order parts from the supplier
+
+**A2.** A change order is:
+
+- (a) A new job request replacing the old one
+- (b) A modification to an existing job request that must be documented and approved
+- (c) A verbal instruction from the supervisor
+- (d) A request to change the technician assigned to the job
+
+**A3.** Which of the following is NOT typically found in a job request?
+
+- (a) Hardware specifications
+- (b) Software requirements
+- (c) Technician's personal performance review
+- (d) Delivery date
+
+**A4.** A custom/workstation build differs from a standard build because:
+
+- (a) It uses only second-hand parts
+- (b) It may involve high-end CPU/GPU, multiple drives, RAID, or special software
+- (c) It does not require a set-up report
+- (d) It uses fewer tools
+
+**A5.** What should a technician do first when receiving a job request?
+
+- (a) Immediately start assembling the computer
+- (b) Order all parts from the supplier
+- (c) Read the entire job request before taking any action
+- (d) Contact the user to ask what colour they want
+
+---
+
+### Bahagian B: Soalan Jawapan Pendek / Short Answer (15 marks)
+
+**B1.** List FIVE (5) fields typically found in a job request document. (5 marks)
+
+**B2.** Explain THREE (3) differences between a standard desktop build and a custom workstation build. (6 marks)
+
+**B3.** Describe TWO (2) common errors that occur during job request analysis and how they can be prevented. (4 marks)
+
+---
+
+### Bahagian C: Soalan Esei / Essay (15 marks)
+
+**C1.** You receive a job request for a new computer set-up with the following details:
+- Department: Accounts
+- User: New hire
+- CPU: Intel Core i7 (LGA1700)
+- RAM: 32 GB DDR5
+- Storage: 1 TB NVMe SSD
+- OS: Windows 11 Pro
+- Applications: Microsoft Office, accounting software (licence provided)
+- Peripherals: 24" monitor, keyboard, mouse, network printer (shared)
+- Deadline: 3 working days
+
+Describe the step-by-step process you would follow to analyse this job request, including what you would verify, what potential issues you would check for, and how you would document your analysis. (15 marks)
+
+---
+
+## Skema Jawapan / Answer Scheme
+
+*To be provided by the instructor after submission.*

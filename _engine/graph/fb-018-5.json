@@ -1,0 +1,954 @@
+{
+  "noss_code": "FB-018-5:2012",
+  "noss_title": "SALES & MARKETING MANAGEMENT",
+  "level": 5,
+  "source_file": "raw/noss-character/txt/fb018-45-L5-cocu.txt",
+  "sector": "BUSINESS MANAGEMENT",
+  "sub_sector": "BUSINESS & FINANCE",
+  "job_area": "SALES & MARKETING MANAGEMENT",
+  "source_notes": [
+    "CU codes M01..M08 are transcribed from the official NOSS 'Training Hours Summary' for Level 5, which prints them against the competency-unit titles. The CoCU extract we first worked from has a blank CU Code column, and an earlier version of this graph used C01..C08 by analogy with the Level 3 sibling — that was a guess and it was wrong. Local copy: raw/noss-character/fb018-45-L5-training-hours-OFFICIAL.pdf (Jennifer's Drive, owner jennifer@character.com.mx).",
+    "The elective unit is coded M08, not E01: the Level 5 Training Hours Summary prints 'M08 TECHNOLOGY MANAGEMENT' beneath the heading 'COMPETENCY UNIT ELECTIVE'. It is elective by placement, not by an E-prefix. The CoCU gives its title as 'BUSINESS TECHNOLOGY MANAGEMENT' while the Training Hours Summary gives 'TECHNOLOGY MANAGEMENT'; the CoCU wording is kept as the fuller of the two.",
+    "The NOSS code year (2012) is not printed in the CoCU text; it is inferred from the sibling FB-018-3:2012 document and the fb018-45 filename. If a different year is found in the cover page of the original PDF, update noss_code accordingly.",
+    "CoCU p.10 C05 WA4 numbers criteria as 4.1, 4.3, 4.4 — there is no 4.2 in the printed standard. All three are transcribed as printed.",
+    "CoCU p.3 WA7 of C01 is formatted as '7.   Prepare marketing strategic plan' with the performance criterion on the same page continuation — transcribed verbatim as printed.",
+    "CoCU p.11 C06 WA8 criterion reads 'Report prepared and submitted to procedure according procedure' — likely a typographical error in the standard. Transcribed verbatim as printed."
+  ],
+  "competency_units": [
+    {
+      "code": "M01",
+      "type": "core",
+      "title_en": "MARKETING STRATEGIC PLANNING",
+      "title_bm": "PERANCANGAN STRATEGIK PEMASARAN",
+      "descriptor": "Responsible to carry out strategic planning for marketing activity including market and product analysis and assessment to produce marketing strategic planning in accordance with organisation goal. The outcome is to ensure sales & marketing activity is planned relevantly and fulfilling market needs to accomplish company mission & vision.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Prepare marketing strategic planning activities",
+          "title_bm": "Sediakan aktiviti perancangan strategik pemasaran",
+          "performance_criteria": [
+            {
+              "id": "1.1",
+              "text": "Organisations procedures on marketing activities obtained according to company procedure"
+            }
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out market assessment",
+          "title_bm": "Laksanakan penilaian pasaran",
+          "performance_criteria": [
+            {
+              "id": "2.1",
+              "text": "Matrix of player and their product listed based on determined format"
+            },
+            {
+              "id": "2.2",
+              "text": "Market trends determined according to market analysis reports"
+            },
+            {
+              "id": "2.3",
+              "text": "Issue in market listed out based on market analysis findings"
+            }
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out product assessment",
+          "title_bm": "Laksanakan penilaian produk",
+          "performance_criteria": [
+            {
+              "id": "3.1",
+              "text": "Product readiness confirmed according to procedure"
+            },
+            {
+              "id": "3.2",
+              "text": "Product problem listed out based on feedbacks"
+            },
+            {
+              "id": "3.3",
+              "text": "Product unique selling point established according to SWOT analysis findings"
+            },
+            {
+              "id": "3.4",
+              "text": "Product positioning versus competition established according to determined format"
+            },
+            {
+              "id": "3.5",
+              "text": "Product weaknesses and strength determined according to SWOT analysis findings"
+            }
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Carry out target market assessment",
+          "title_bm": "Laksanakan penilaian pasaran sasaran",
+          "performance_criteria": [
+            {
+              "id": "4.1",
+              "text": "Buying cycle determined based on product specification"
+            },
+            {
+              "id": "4.2",
+              "text": "Buying factors determined based on PASTEL requirements analysis"
+            },
+            {
+              "id": "4.3",
+              "text": "Price point determined based on market analysis findings"
+            }
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Design marketing plan",
+          "title_bm": "Reka bentuk pelan pemasaran",
+          "performance_criteria": [
+            {
+              "id": "5.1",
+              "text": "Key feature to promote decided according to product specification"
+            },
+            {
+              "id": "5.2",
+              "text": "Benefits to buyers/users determined according to SWOT analysis findings"
+            },
+            {
+              "id": "5.3",
+              "text": "Facts on benefits gathered and recoded"
+            },
+            {
+              "id": "5.4",
+              "text": "Planning of promoting benefits to consumers produced according to company procedure"
+            },
+            {
+              "id": "5.5",
+              "text": "Performance measurement prepared according to company procedure"
+            }
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Carry out marketing plan fulfillment review",
+          "title_bm": "Laksanakan semakan pemenuhan pelan pemasaran",
+          "performance_criteria": [
+            {
+              "id": "6.1",
+              "text": "Product fulfilment requirement determined according to company procedure"
+            },
+            {
+              "id": "6.2",
+              "text": "Adequate fulfilment set-up confirmed before promotion begin"
+            }
+          ]
+        },
+        {
+          "id": "WA7",
+          "title": "Prepare marketing strategic plan",
+          "title_bm": "Sediakan pelan strategik pemasaran",
+          "performance_criteria": [
+            {
+              "id": "7.1",
+              "text": "Marketing strategic planning report submitted to superior"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "M02",
+      "type": "core",
+      "title_en": "SALES BUDGET MANAGEMENT",
+      "title_bm": "PENGURUSAN BELANJAWAN JUALAN",
+      "descriptor": "Responsible to carry out sales budget by applying relevant analysis methods including capacity analysis, market acceptance analysis and financial requirement analysis according to business needs and company procedures. The outcome is to ensure the sales is projected by referring to analysis data so that sales budget produced is achievable and in accordance with organisation's goals.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Identify sales budget preparation requirements",
+          "title_bm": "Kenal pasti keperluan penyediaan belanjawan jualan",
+          "performance_criteria": [
+            {
+              "id": "1.1",
+              "text": "Organisation's procedure on sales budget determined and interpreted"
+            }
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out capacity analysis",
+          "title_bm": "Laksanakan analisis kapasiti",
+          "performance_criteria": [
+            {
+              "id": "2.1",
+              "text": "Production capacity established according to company's capability"
+            },
+            {
+              "id": "2.2",
+              "text": "Production planning established based demand requirement"
+            },
+            {
+              "id": "2.3",
+              "text": "Delivery time established according to company's policy and procedure"
+            }
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out market acceptance analysis",
+          "title_bm": "Laksanakan analisis penerimaan pasaran",
+          "performance_criteria": [
+            {
+              "id": "3.1",
+              "text": "Market maturity determined based on market research analysis findings"
+            },
+            {
+              "id": "3.2",
+              "text": "Take-up rate determined according to company procedure"
+            },
+            {
+              "id": "3.3",
+              "text": "Fulfilment channel capacity determined according to market requirement"
+            }
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Carry out financial requirement analysis",
+          "title_bm": "Laksanakan analisis keperluan kewangan",
+          "performance_criteria": [
+            {
+              "id": "4.1",
+              "text": "Required cross margin confirmed based on company policies and procedures"
+            },
+            {
+              "id": "4.2",
+              "text": "Operating expenses planning prepared according to accounting format"
+            },
+            {
+              "id": "4.3",
+              "text": "Margin for each product determine according to standard calculation format"
+            }
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Carry out resource analysis",
+          "title_bm": "Laksanakan analisis sumber",
+          "performance_criteria": [
+            {
+              "id": "5.1",
+              "text": "Current workforce for sales determined according to marketing planning"
+            },
+            {
+              "id": "5.2",
+              "text": "Required manpower estimated according to planned marketing activities"
+            },
+            {
+              "id": "5.3",
+              "text": "Required skills and expertise determined based on product specification"
+            },
+            {
+              "id": "5.4",
+              "text": "Personnel competency level determined with referral to established criteria"
+            }
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Prepare sales budget",
+          "title_bm": "Sediakan belanjawan jualan",
+          "performance_criteria": [
+            {
+              "id": "6.1",
+              "text": "Product sales cycle determined according to product specification and marketing strategic planning"
+            },
+            {
+              "id": "6.2",
+              "text": "Sales budget forecasted to meet financial requirement, product capacity and fulfilment capacity"
+            }
+          ]
+        },
+        {
+          "id": "WA7",
+          "title": "Prepare sales budgeting report",
+          "title_bm": "Sediakan laporan belanjawan jualan",
+          "performance_criteria": [
+            {
+              "id": "7.1",
+              "text": "Sales record compiled according to company procedure"
+            },
+            {
+              "id": "7.2",
+              "text": "Sales budgeting performance report submitted to higher management according to procedure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "M03",
+      "type": "core",
+      "title_en": "SALES & MARKETING OPERATION MANAGEMENT",
+      "title_bm": "PENGURUSAN OPERASI JUALAN & PEMASARAN",
+      "descriptor": "Responsible to oversee and to plan overall sales & marketing activity in the company in accordance with company procedures. The outcome is to ensure company sales and marketing planning is carried out effectively and efficiently by sales force.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Identify sales & marketing operation resources",
+          "title_bm": "Kenal pasti sumber operasi jualan & pemasaran",
+          "performance_criteria": [
+            {
+              "id": "1.1",
+              "text": "Organisation's sales & marketing planning obtained according to procedure"
+            },
+            {
+              "id": "1.2",
+              "text": "Human resources competency matrix identified according to human resource department established criteria"
+            },
+            {
+              "id": "1.3",
+              "text": "Resources availability confirmed according to company procedure"
+            }
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Plan sales & marketing activities",
+          "title_bm": "Rancang aktiviti jualan & pemasaran",
+          "performance_criteria": [
+            {
+              "id": "2.1",
+              "text": "Sales budget identified based on sales budget planning"
+            },
+            {
+              "id": "2.2",
+              "text": "Marketing plan interpreted according to requirements"
+            },
+            {
+              "id": "2.3",
+              "text": "KPI individually determined according sales budget"
+            }
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Monitor sales & marketing project/task scheduling",
+          "title_bm": "Pantau penjadualan projek / tugas jualan & pemasaran",
+          "performance_criteria": [
+            {
+              "id": "3.1",
+              "text": "Work performance evaluated according to approved marketing plan"
+            },
+            {
+              "id": "3.2",
+              "text": "Timeline/job duration assessed according to schedule"
+            }
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Evaluate sales & marketing performance",
+          "title_bm": "Nilai prestasi jualan & pemasaran",
+          "performance_criteria": [
+            {
+              "id": "4.1",
+              "text": "Job performance assessed based on sales performance and with referral to performance appraisal criteria"
+            },
+            {
+              "id": "4.2",
+              "text": "KPI of individual/team assessed according to sales performance"
+            }
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Prepare sales & marketing operation management report",
+          "title_bm": "Sediakan laporan pengurusan operasi jualan & pemasaran",
+          "performance_criteria": [
+            {
+              "id": "5.1",
+              "text": "Sales & marketing operation management report prepared and submitted to superior"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "M04",
+      "type": "core",
+      "title_en": "PRODUCT DEVELOPMENT",
+      "title_bm": "PEMBANGUNAN PRODUK",
+      "descriptor": "Responsible to develop new product by implementing product development methods according to company procedures. The outcome is to ensure company sustainability by offering competitive product and services through product development activities.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Plan product development activities",
+          "title_bm": "Rancang aktiviti pembangunan produk",
+          "performance_criteria": [
+            {
+              "id": "1.1",
+              "text": "Organisation direction determined based on organisation objective, mission and vision"
+            },
+            {
+              "id": "1.2",
+              "text": "Organisation business environment determined based on organisation direction"
+            }
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Carry out concept development",
+          "title_bm": "Laksanakan pembangunan konsep",
+          "performance_criteria": [
+            {
+              "id": "2.1",
+              "text": "Ideas for product determined based on market trend"
+            },
+            {
+              "id": "2.2",
+              "text": "SWOT analysis for each product executed according to procedure"
+            },
+            {
+              "id": "2.3",
+              "text": "Product specification prepared based on SWOT analysis findings"
+            }
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out business analysis",
+          "title_bm": "Laksanakan analisis perniagaan",
+          "performance_criteria": [
+            {
+              "id": "3.1",
+              "text": "Selling price estimated based on competition and customer feedback"
+            },
+            {
+              "id": "3.2",
+              "text": "Sales volume estimated based on market analysis"
+            },
+            {
+              "id": "3.3",
+              "text": "Profitability and break-even point estimated according company procedure"
+            }
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Carry out product market testing",
+          "title_bm": "Laksanakan pengujian pasaran produk",
+          "performance_criteria": [
+            {
+              "id": "4.1",
+              "text": "Physical prototype or mock up obtained according to procedure"
+            },
+            {
+              "id": "4.2",
+              "text": "Product (and its packaging) in typical usage situations tested according to procedure"
+            },
+            {
+              "id": "4.3",
+              "text": "Necessary product adjustments specification proposed based on feedback from product testing activities"
+            }
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Carry out product commercialization",
+          "title_bm": "Laksanakan pengkomersilan produk",
+          "performance_criteria": [
+            {
+              "id": "5.1",
+              "text": "Product advertised according to determined advertisement medium"
+            },
+            {
+              "id": "5.2",
+              "text": "Product promoted to client according to company procedure"
+            }
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Prepare product management report development",
+          "title_bm": "Sediakan laporan pengurusan pembangunan produk",
+          "performance_criteria": [
+            {
+              "id": "6.1",
+              "text": "Product development records compiled according to company filing system procedure"
+            },
+            {
+              "id": "6.2",
+              "text": "Product development report submitted and presented to superior"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "M05",
+      "type": "core",
+      "title_en": "SALES & MARKETING STAFF MANAGEMENT",
+      "title_bm": "PENGURUSAN KAKITANGAN JUALAN & PEMASARAN",
+      "descriptor": "Responsible to carry out human capital management by preparing manpower requirement and development plan according to company procedures. The outcome is to ensure company operation is carried out according to plan by recruiting new staff and enhance existing staff competency to meet company's need.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Identify staff management requirements",
+          "title_bm": "Kenal pasti keperluan pengurusan kakitangan",
+          "performance_criteria": [
+            {
+              "id": "1.1",
+              "text": "Company's policy on staff management obtained according to procedure"
+            },
+            {
+              "id": "1.2",
+              "text": "Company's staff management SOP obtained and interpreted"
+            },
+            {
+              "id": "1.3",
+              "text": "Staff management scope of work identified based on organisation procedure"
+            }
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Prepare manpower requirement plan",
+          "title_bm": "Sediakan pelan keperluan tenaga kerja",
+          "performance_criteria": [
+            {
+              "id": "2.1",
+              "text": "Departmental job analysis conducted according to job analysis technique"
+            },
+            {
+              "id": "2.2",
+              "text": "Job description and specification pf each job title established in accordance with company's business development plan"
+            },
+            {
+              "id": "2.3",
+              "text": "Departmental manpower requirement plan established according to sales and marketing planning"
+            }
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out staff interview session",
+          "title_bm": "Laksanakan sesi temuduga kakitangan",
+          "performance_criteria": [
+            {
+              "id": "3.1",
+              "text": "Information on applicant collected from human resource department"
+            },
+            {
+              "id": "3.2",
+              "text": "Effective interviewing technique determined according to standard procedure"
+            },
+            {
+              "id": "3.3",
+              "text": "Effectiveness of interview session assessed according to determined criteria"
+            },
+            {
+              "id": "3.4",
+              "text": "Selected candidate confirmed and proposed to human resource personnel"
+            }
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Conduct training need analysis",
+          "title_bm": "Jalankan analisis keperluan latihan",
+          "performance_criteria": [
+            {
+              "id": "4.1",
+              "text": "Staff performance problem determined based on performance appraisal report"
+            },
+            {
+              "id": "4.3",
+              "text": "Staff development requirements determined according to company procedure"
+            },
+            {
+              "id": "4.4",
+              "text": "Staff training program proposed to superior"
+            }
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Prepare training program",
+          "title_bm": "Sediakan program latihan",
+          "performance_criteria": [
+            {
+              "id": "5.1",
+              "text": "Training objectives established according to job analysis finding"
+            },
+            {
+              "id": "5.2",
+              "text": "Training program produced according to procedure"
+            },
+            {
+              "id": "5.3",
+              "text": "Training evaluation methods listed out based on determined training objective"
+            }
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Perform staff performance appraisal",
+          "title_bm": "Laksanakan penilaian prestasi kakitangan",
+          "performance_criteria": [
+            {
+              "id": "6.1",
+              "text": "Company's appraisal system and policy obtained and interpret"
+            },
+            {
+              "id": "6.2",
+              "text": "Company's performance appraisal criteria obtained and interpreted according company procedure"
+            },
+            {
+              "id": "6.3",
+              "text": "Effectiveness of performance appraisal assessed"
+            }
+          ]
+        },
+        {
+          "id": "WA7",
+          "title": "Evaluate staff management activities",
+          "title_bm": "Nilai aktiviti pengurusan kakitangan",
+          "performance_criteria": [
+            {
+              "id": "7.1",
+              "text": "Staff complaint and grievances assessed based on reports"
+            },
+            {
+              "id": "7.2",
+              "text": "Staff management activities effectiveness concluded"
+            }
+          ]
+        },
+        {
+          "id": "WA8",
+          "title": "Prepare staff management report",
+          "title_bm": "Sediakan laporan pengurusan kakitangan",
+          "performance_criteria": [
+            {
+              "id": "8.1",
+              "text": "Report prepared and submitted to procedure according procedure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "M06",
+      "type": "core",
+      "title_en": "MARKET DEVELOPMENT",
+      "title_bm": "PEMBANGUNAN PASARAN",
+      "descriptor": "Responsible to development market for company's product through developing strategic market development plan in accordance with company procedures. The outcome is to ensure product sales target achieve through market development activity that has been carried out prior to sales activity.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Identify product specification",
+          "title_bm": "Kenal pasti spesifikasi produk",
+          "performance_criteria": [
+            {
+              "id": "1.1",
+              "text": "Organisation procedure for market development obtained according to procedure"
+            },
+            {
+              "id": "1.2",
+              "text": "Unique Selling Point (USP) obtained from product analysis report"
+            }
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Identify target market",
+          "title_bm": "Kenal pasti pasaran sasaran",
+          "performance_criteria": [
+            {
+              "id": "2.1",
+              "text": "Profile of target customer obtained from company's database"
+            },
+            {
+              "id": "2.2",
+              "text": "Customer area determined market analysis report"
+            },
+            {
+              "id": "2.3",
+              "text": "Customer trend / lifestyle determined based on market trend analysis findings"
+            },
+            {
+              "id": "2.4",
+              "text": "Customer buying pattern confirmed on market trend analysis findings"
+            }
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Carry out market development planning",
+          "title_bm": "Laksanakan perancangan pembangunan pasaran",
+          "performance_criteria": [
+            {
+              "id": "3.1",
+              "text": "Market share determined based on market survey analysis findings"
+            },
+            {
+              "id": "3.2",
+              "text": "Market size and growth rate obtained market analysis report"
+            },
+            {
+              "id": "3.3",
+              "text": "Total number of competitors listed Market analysis report"
+            },
+            {
+              "id": "3.4",
+              "text": "Market feedback on product obtained and interpreted for further improvement"
+            },
+            {
+              "id": "3.5",
+              "text": "Marketing mix confirmed based on procedure"
+            }
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Manage market development activities",
+          "title_bm": "Urus aktiviti pembangunan pasaran",
+          "performance_criteria": [
+            {
+              "id": "4.1",
+              "text": "Staff scheduling coordinated according to company procedure"
+            },
+            {
+              "id": "4.2",
+              "text": "Market development cost controlled according to company's financial procedure"
+            }
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Analyse market development result",
+          "title_bm": "Analisis keputusan pembangunan pasaran",
+          "performance_criteria": [
+            {
+              "id": "5.1",
+              "text": "Market development record / database obtained according to company procedure"
+            },
+            {
+              "id": "5.2",
+              "text": "Market development performance assessed company's requirements"
+            }
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Report market development result",
+          "title_bm": "Laporkan keputusan pembangunan pasaran",
+          "performance_criteria": [
+            {
+              "id": "6.1",
+              "text": "Market development compiled according to company filing system procedure"
+            },
+            {
+              "id": "6.2",
+              "text": "Market development report submitted to superior"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "M07",
+      "type": "core",
+      "title_en": "SALES & MARKETING LOGISTIC ADMINISTRATION",
+      "title_bm": "PENTADBIRAN LOGISTIK JUALAN & PEMASARAN",
+      "descriptor": "Responsible to coordinate logistic activities to ensure timely and speedy of product service, mitigate cost over run/wastages of the company. The outcome is to ensure that all the activities involved in logistic coordination activities are carried out on efficiently to ensure the sustainability of the company.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Plan logistic requirements",
+          "title_bm": "Rancang keperluan logistik",
+          "performance_criteria": [
+            {
+              "id": "1.1",
+              "text": "Company procedures on logistic management obtained and interpreted"
+            }
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Perform transportation management",
+          "title_bm": "Laksanakan pengurusan pengangkutan",
+          "performance_criteria": [
+            {
+              "id": "2.1",
+              "text": "Methods to transport good determined according to suitability of product"
+            },
+            {
+              "id": "2.2",
+              "text": "Transportation requirement coordinated with logistic company"
+            },
+            {
+              "id": "2.3",
+              "text": "Delivered goods conditions checked upon received by customer"
+            }
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Perform human resources deployment",
+          "title_bm": "Laksanakan penempatan sumber manusia",
+          "performance_criteria": [
+            {
+              "id": "3.1",
+              "text": "Staff job functions competency determined based on established criteria by human resources department"
+            },
+            {
+              "id": "3.2",
+              "text": "Operational schedule produced according to procedure"
+            },
+            {
+              "id": "3.3",
+              "text": "Staff deployed to work station based on operational planning"
+            },
+            {
+              "id": "3.4",
+              "text": "Staff performance evaluated as per organisation procedures"
+            }
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Perform inventory management",
+          "title_bm": "Laksanakan pengurusan inventori",
+          "performance_criteria": [
+            {
+              "id": "4.1",
+              "text": "Company procedure on inventory control obtained and interpreted"
+            },
+            {
+              "id": "4.2",
+              "text": "Tools, equipment and materials condition checked according to company procedure"
+            },
+            {
+              "id": "4.3",
+              "text": "Stock level assessed by referring to submitted inventory report by subordinate"
+            },
+            {
+              "id": "4.4",
+              "text": "Tools, equipment, materials and stock purchased according to company procedure"
+            }
+          ]
+        },
+        {
+          "id": "WA5",
+          "title": "Evaluate logistic management activities effectiveness",
+          "title_bm": "Nilai keberkesanan aktiviti pengurusan logistik",
+          "performance_criteria": [
+            {
+              "id": "5.1",
+              "text": "Logistic coordination effectiveness assessed according to company procedure"
+            },
+            {
+              "id": "5.2",
+              "text": "Customer complaints records compiled and assessed"
+            }
+          ]
+        },
+        {
+          "id": "WA6",
+          "title": "Prepare logistic management report",
+          "title_bm": "Sediakan laporan pengurusan logistik",
+          "performance_criteria": [
+            {
+              "id": "6.1",
+              "text": "Logistic management records compiled according to company filing system"
+            },
+            {
+              "id": "6.2",
+              "text": "Logistic management report produced and submitted according to company SOP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "M08",
+      "type": "elective",
+      "title_en": "BUSINESS TECHNOLOGY MANAGEMENT",
+      "title_bm": "PENGURUSAN TEKNOLOGI PERNIAGAAN",
+      "descriptor": "Responsible to manage business technology activities to ensure improvements to business operation efficiency ultimately resulting reducing time and cost on business operation management. The outcome is to ensure that all the activities involved in technology application are coordinated to increase efficiency in company operation.",
+      "work_activities": [
+        {
+          "id": "WA1",
+          "title": "Analyse current usage and sustainability of existing technology",
+          "title_bm": "Analisis penggunaan semasa dan kemampanan teknologi sedia ada",
+          "performance_criteria": [
+            {
+              "id": "1.1",
+              "text": "Overall quality and efficiency of business operation determined according to productivity report on usage of existing systems"
+            },
+            {
+              "id": "1.2",
+              "text": "Effectiveness and sustainability of technology usage accessed according to productivity report on usage of existing systems."
+            }
+          ]
+        },
+        {
+          "id": "WA2",
+          "title": "Manage company's information technology system",
+          "title_bm": "Urus sistem teknologi maklumat syarikat",
+          "performance_criteria": [
+            {
+              "id": "2.1",
+              "text": "Effectiveness of information system management evaluated based on the integrity of business operation information flow"
+            },
+            {
+              "id": "2.2",
+              "text": "Implementation of company information system planned according to Company's ISP (Information System Planning)"
+            },
+            {
+              "id": "2.3",
+              "text": "Execution and implementation of information system management reviewed according to Company's information system infrastructure and ISP"
+            }
+          ]
+        },
+        {
+          "id": "WA3",
+          "title": "Perform business process analysis",
+          "title_bm": "Laksanakan analisis proses perniagaan",
+          "performance_criteria": [
+            {
+              "id": "3.1",
+              "text": "Business process operation reviewed by applying the business process analysis methods"
+            },
+            {
+              "id": "3.2",
+              "text": "Synchronization of management system reviewed to establish seamless integration of systems"
+            }
+          ]
+        },
+        {
+          "id": "WA4",
+          "title": "Manage new technology implementation",
+          "title_bm": "Urus pelaksanaan teknologi baharu",
+          "performance_criteria": [
+            {
+              "id": "4.1",
+              "text": "Business requirement analysis conducted according to categories of requirements which include design, architecture, functional and performance requirements."
+            },
+            {
+              "id": "4.2",
+              "text": "Technology scanning carried out according to scanning process and techniques"
+            },
+            {
+              "id": "4.3",
+              "text": "Strategic technological change proposed according to stakeholders requirements"
+            },
+            {
+              "id": "4.4",
+              "text": "New strategic technology implemented according to Company's business objectives"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

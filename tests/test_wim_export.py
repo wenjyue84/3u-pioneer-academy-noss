@@ -9,7 +9,9 @@ import pytest
 
 PROJECT_ROOT = Path(__file__).parent.parent
 SCRIPT = PROJECT_ROOT / "build" / "wim_md_to_docx.py"
-KP01 = PROJECT_ROOT / "bev-diagnostic-rectification" / "C01" / "KP-01.md"
+_KP01_DIR = PROJECT_ROOT / "bev-diagnostic-rectification" / "C01"
+_kp01_matches = sorted(_KP01_DIR.glob("KP-01*.md")) if _KP01_DIR.is_dir() else []
+KP01 = _kp01_matches[0] if _kp01_matches else _KP01_DIR / "KP-01.md"
 
 
 def _run_export(input_md: Path, style: str, output: Path) -> subprocess.CompletedProcess:

@@ -1,0 +1,42 @@
+[
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V08",
+    "severity": "error",
+    "message": "page-count placeholder ⟪PAGES⟫ was never backfilled — run _engine.render.integrate before delivery.",
+    "evidence": "fb-018-3-set-b-skema.md",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V10",
+    "severity": "error",
+    "message": "Bahagian 2 heading declares 60% but its criteria weights sum to 54%.",
+    "evidence": "2 — PROSES KERJA (60%)",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V10",
+    "severity": "error",
+    "message": "Bahagian 2 totals ___/3 but its 15 criteria are worth 45 marks.",
+    "evidence": "Jumlah Markah Bahagian 2: ___/3",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V10",
+    "severity": "error",
+    "message": "Bahagian 3 totals ___/3 but its 3 criteria are worth 9 marks.",
+    "evidence": "Jumlah Markah Bahagian 3: ___/3",
+    "line": null
+  },
+  {
+    "noss": "FB-018-3:2012",
+    "check": "V10",
+    "severity": "error",
+    "message": "Bahagian 4 totals ___/3 but its 5 criteria are worth 15 marks.",
+    "evidence": "Jumlah Markah Bahagian 4: ___/3",
+    "line": null
+  }
+]
