@@ -28,7 +28,7 @@ $big = Get-ChildItem -Path $targets -Recurse -File -ErrorAction SilentlyContinue
        Where-Object { git check-ignore -q -- $_.FullName 2>$null; $LASTEXITCODE -ne 0 }
 if ($big) { throw ("Refusing to stage files > 95 MB (GitHub limit): " + ($big.FullName -join "; ")) }
 
-git add -- @targets
+git add -- $targets
 if ($LASTEXITCODE -ne 0) { throw "git add failed" }
 $staged = git diff --cached --name-only
 if (-not $staged) { Write-Host "Nothing staged for: $($targets -join ', ') — nothing to commit."; exit 0 }
