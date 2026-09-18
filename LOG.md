@@ -957,3 +957,28 @@ Assessment Criteria」与红线「NOSS 没写的不准写」，**L4/L5 共 16 �
 **已送达 Jennifer（~00:25，3 张对照图）：** 主消息 + 封面对照图 + 结构对照图 + 口试页截图
 
 **关闭 OPEN-QUESTIONS #1（部分）：** N821 CU 选择已确认；其余 5 个 NOSS 仍待 Jennifer 填选择表
+
+## [2026-09-18] feat | video-film-editing — IT-072-3:2012 ADI Pekerjaan 教材套件（新科目）
+
+**触发：** Jay 08:31 — 按政府官员的 Senai Palm Resort 培训模板夹（Drive `1lzKA3BgCuQLKsrWmevjdpr6yr_2zh3eJ`）为 IT-072 Video/Film Editing（Drive `173QrzPi93oDBW-jwuvKEmj_Gvzd8P0Z-`）做一整套：先 Proses Kerja，再 Lampiran 5 矩阵，再其他，编号顺序 + README。
+
+**下载：** `raw/adi-mpc-template-2026-09/`（34 文件 + `_md/` 转换 + 两份幻灯片文字层）、`raw/it-072-video-editing/L3|L4|L5`（20 文件）。跳过 1.7 GB Core Abilities zip 和 MySPIKE 用户手册。
+
+**产物 `video-film-editing/`：** README.md · 00-noss-extract.md (1112 行, 1960 h) · 01-proses-kerja.md (P01–P12) · 02-borang-matriks-lampiran-5.md/.xlsx (31/31 WA) · 03-jadual-latihan.md/.xlsx (2880 h / 576 h 理论) · 04-rangka-nota-pembelajaran/ (6) · 05-nota-pembelajaran/ (31 WA) · 06-jsu.md (6×20 题) · 07-soalan-penilaian-pengetahuan/ (6 卷) · 08-senarai-bukti-proses-kerja.md (39 证据) · 09-penilaian-kekompetenan.md · 10-susunan-fail-kompilasi.md
+
+**分工：** Sonnet ×(3 scout + 1 extract + 6 nota + 6 soalan)，Haiku ×1 template inventory；01/02/03/06/08/09/10/README 本 session。脚本在 session scratchpad（build_matrix/build_jsu/build_jadual/office2md/pdftext）。
+
+**发现：** pdftoppm 未装，图片型 PDF 只能走 pypdf 文字层或 agent 端 PyMuPDF+Tesseract；官方样本 Kompilasi（154 页）里没有讲义和考卷，只有成绩单；模板 3.3a 是 1 WA = 1 Nota，幻灯片 p.62 是 1 CU = 1 Nota。
+
+**待定：** 申请公司名（⟪TBD⟫）；P01–P12 待公司 Pembimbing 确认；Core Abilities 讲义/考题未做；是否套 JPK_ENVELOPE。
+
+## [2026-09-18] feat | video-film-editing/11-core-abilities — Core Abilities Z-009-1/2/3:2015 视频剪辑情境版
+
+**触发：** Jay 09:19 — 官员 Drive 的 Core Abilities 笔记是通用/别的科目，要为 video-film-editing 填写。
+
+**来源：** 官员 Drive zip `Core Abilities Level 1_2_3_4_5 Nota dan Soalan.zip`（1.87 GB；gog 在 360 MB 超时，改 rclone `--drive-root-folder-id` 成功）→ `raw/adi-mpc-template-2026-09/core-abilities/`，只解压 L1–L3 的 71 份 PDF/DOCX（跳过 mp4）→ PyMuPDF + Tesseract 转文本 `_txt/`，Sonnet 侦察写出 `_txt/00-INVENTORY.md`（14 模块、47 KP、16 套官方考卷的逐条大纲）。
+
+**产物：** `11-core-abilities/00-ca-spec.md`（写作规格 + 模块→文件夹表）+ 14 个模块文件夹：**47 份 `KP-x.y.md`**（官方编号标题逐字保留、法律条文照抄，只把例子换成剪辑工作室情境，BM）+ **14 套 `Soalan-CAxx.md`**（各 20 MCQ，R/S/T = 10/6/4 脚本重数全部通过，CA03 60 分钟其余 30 分钟）。共约 10.7 万字。Sonnet ×14 写作 + ×1 侦察；4 套考卷比例初次不对，回炉改题后通过。
+
+**其他：** 安装 Poppler 25.07（pdftoppm 现可用）；`video-film-editing/` 镜像到 Jay 自己的 Drive `gdrive:3u-pioneer-academy-noss/video-film-editing`（116 文件 = 本地）：https://drive.google.com/drive/folders/1CVkS-IfG_h528DtO-6nSwxZSF2tgEI0T ；README/09/10 已改指向 11。
+**待定：** 考卷抬头 `⟪TBD: kod pusat bertauliah⟫`（14 处）；上课用官方通用版还是情境版由 Jay 定。

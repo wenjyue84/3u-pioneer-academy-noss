@@ -49,6 +49,7 @@
 | **Multimedia Interactive Design** 互动多媒体设计 | J582-001-3:2019 | 3 | `multimedia-interactive-design/` | In progress — WIM generating (COPTPA 2023) |
 | **Creative Multimedia Development** 创意多媒体开发 | J582-001-4:2025 | 4 | `creative-multimedia-development/` | Stub — awaiting J582-001-4:2025 NOSS PDF |
 | **AI-Powered Digital Marketing Specialist** | DM-001-3:2026 | 3 | `ai-digital-marketing/` | New — COPTPA course, KP/KK in progress |
+| **Video / Film (Editing)** 视频剪辑 | IT-072-3:2012 | 3 | `video-film-editing/` | New 2026-09-18 — ADI Pekerjaan (MPC/JPK) document set 00–10, see its README |
 
 Each subject folder: `00-README.md`, `00-noss-extract.md` (CoCU source of truth), `01-jpw-distribution.md` (30/70 split), then `C01/`, `C02/`… (core CUs) and `E01/`… (electives). Each CU folder holds the 7 WIM doc types:
 

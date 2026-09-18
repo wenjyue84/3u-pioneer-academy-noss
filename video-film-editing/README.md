@@ -1,5 +1,7 @@
 # video-film-editing/ — NOSS IT-072-3:2012 Video / Film (Editing) Level 3 · ADI Pekerjaan 教材套件
 
+> **交给政府官员的是 `12-fail-pegawai/`**（Jay 2026-09-18）：官员模板夹（Drive `1lzKA3Bg…`）的 .xlsx/.docx/.pptx 原样填写，子文件夹和文件名与官员一致；**只含 5 个核心 CU（C01–C05），不含选修 E01**。清单：`12-fail-pegawai/INDEX-fail-pegawai.md`。下面的 00–11 `.md` 是内部记录/来源，不是交付物。
+
 **读法：按编号 00 → 10 顺序读。** 每个文件开头都有一段"Apa dokumen ini"（这份文件是什么、从哪来、喂给谁）。
 **做法来源：** MPC/JPK 政府官员的培训模板夹（Drive `1lzKA3Bg…`，本地 `raw/adi-mpc-template-2026-09/`）+ 17–19 Sep 2026 Le Grandeur Palm Resort Senai 的 Bengkel Personel ADI 议程。
 **内容来源：** IT-072 NOSS 文件夹（Drive `173QrzPi…`，本地 `raw/it-072-video-editing/L3/`）。L4/L5 的 NOSS 主文件也已下载，但本套件只做 **L3**。

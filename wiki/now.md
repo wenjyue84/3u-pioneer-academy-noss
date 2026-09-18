@@ -1,6 +1,12 @@
 # now.md — 3U Pioneer Academy / Character Intl. Academy
 
-Last updated: 2026-08-24 13:38 MYT
+Last updated: 2026-09-18 09:30 MYT
+
+## 🆕 2026-09-18 — IT-072 Video/Film Editing · ADI Pekerjaan 套件（`video-film-editing/`）
+
+Jay 参加 MPC「Bengkel Personel ADI Siri 3/2026」（17–19 Sep, Le Grandeur Palm Resort Senai）。按官员模板夹做了 IT-072-3:2012 的全套 00–10（Proses Kerja → Lampiran 5 → Jadual → Nota → JSU → Soalan → Bukti → Penilaian → 装订）。入口 `video-film-editing/README.md`。
+**待 Jay：** 申请公司是谁（ADI 主体必须是雇主，3U 只能当 Pusat Latihan）；P01–P12 让公司 Pembimbing 过目；Core Abilities 材料从官员 Drive 的 1.7 GB zip 取。
+
 
 ## 当前主线 —— Jennifer PPA Soalan（Character Intl. Academy）
 
