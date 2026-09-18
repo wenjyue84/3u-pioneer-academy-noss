@@ -14,7 +14,8 @@ foreach ($f in Get-ChildItem -LiteralPath $Folder -Filter $Filter -File) {
         $w = New-Object -ComObject Word.Application; $w.Visible = $false; $w.DisplayAlerts = 0
         $doc = $w.Documents.Open($tmp, $false, $true)
         $null = $doc.Fields.Update()
-        $doc.ExportAsFixedFormat($pdf, 17)
+        # CreateBookmarks=1 (wdExportCreateHeadingBookmarks) -> PDF outline/navigation from Heading 1/2
+        $doc.ExportAsFixedFormat($pdf, 17, $false, 0, 0, 1, 1, 0, $true, $true, 1, $true, $true, $false)
         $pages = $doc.ComputeStatistics(2)
         $doc.Close($false)
         Write-Output ("{0} pages={1}" -f $f.Name, $pages)
