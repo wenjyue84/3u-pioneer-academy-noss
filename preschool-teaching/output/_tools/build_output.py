@@ -67,6 +67,14 @@ NOTA_TEMPLATE = os.path.join(ROOT, "raw", "adi-mpc-template-2026-09", "4-pelaksa
 LPKC_TEMPLATE = os.path.join(ROOT, "raw", "adi-mpc-template-2026-09", "4-pelaksanaan-kompilasi",
                               "1.2 LPKC.docx")
 
+# ---------- shared visual identity (readability/polish pass, 2026-09-18 — formatting only,
+# never touches wording) — one accent colour used consistently across cover/TOC/dividers/
+# headings/tables/call-outs so the compiled Buku Teks reads as one designed document. ----------
+ACCENT_DARK = "1F4E79"    # deep academic navy — divider banners, heading text, rules
+ACCENT_MED = "2E75B6"     # mid blue — bullet marks, thin rules
+ACCENT_TINT = "DCE6F1"    # pale blue tint — Bab heading fill, table header fill
+CALLOUT_TINT = "F2F7FC"   # near-white blue tint — call-out box fill (lighter than table header)
+
 PRESCHOOL_MATRIX_MD = os.path.join(ROOT, "preschool-teaching", "02-borang-matriks-lampiran-5.md")
 PRESCHOOL_PROSES_MD = os.path.join(ROOT, "preschool-teaching", "01-proses-kerja.md")
 PRESCHOOL_LPKC_OUTLINE_MD = os.path.join(ROOT, "preschool-teaching", "12-lpkc-template-outline.md")
@@ -257,6 +265,34 @@ def cmd_nota(subj):
         shd.set(qn('w:fill'), hexcolor)
         pPr.append(shd)
 
+    def border_paragraph(paragraph, sides, color=ACCENT_MED, sz=18):
+        """Add a coloured border on the given sides ('left','top','bottom','right') of a
+        paragraph — used for a left accent bar on headings/call-outs instead of a flat box."""
+        pPr = paragraph._p.get_or_add_pPr()
+        pBdr = pPr.find(qn('w:pBdr'))
+        if pBdr is None:
+            pBdr = OxmlElement('w:pBdr')
+            pPr.append(pBdr)
+        for side in sides:
+            el = OxmlElement(f'w:{side}')
+            el.set(qn('w:val'), 'single')
+            el.set(qn('w:sz'), str(sz))
+            el.set(qn('w:space'), '4')
+            el.set(qn('w:color'), color)
+            pBdr.append(el)
+
+    def border_cell(cell, sides, color=ACCENT_MED, sz=18):
+        tcPr = cell._tc.get_or_add_tcPr()
+        tcBorders = OxmlElement('w:tcBorders')
+        for side in sides:
+            el = OxmlElement(f'w:{side}')
+            el.set(qn('w:val'), 'single')
+            el.set(qn('w:sz'), str(sz))
+            el.set(qn('w:space'), '0')
+            el.set(qn('w:color'), color)
+            tcBorders.append(el)
+        tcPr.append(tcBorders)
+
     def shade_cell(cell, hexcolor):
         tcPr = cell._tc.get_or_add_tcPr()
         shd = OxmlElement('w:shd')
@@ -275,24 +311,34 @@ def cmd_nota(subj):
         paragraph.paragraph_format.page_break_before = True
 
     def add_bab_heading(doc, text):
-        """### Bab n heading: new page, shaded light-grey, 14pt bold."""
+        """### Bab n heading: new page, pale-blue fill + navy left accent bar, 14pt bold navy."""
         p = doc.add_paragraph()
         add_page_break_before(p)
-        shade_paragraph(p, "D9D9D9")
-        r = p.add_run(text)
+        shade_paragraph(p, ACCENT_TINT)
+        border_paragraph(p, ["left"], color=ACCENT_DARK, sz=24)
+        p.paragraph_format.space_before = Pt(4)
+        p.paragraph_format.space_after = Pt(10)
+        pf = p.paragraph_format
+        pf.left_indent = Pt(6)
+        r = p.add_run("  " + text)
         r.bold = True
         r.font.size = Pt(14)
         r.font.name = "Arial"
+        r.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
         return p
 
     def add_bold_para(doc, text, size=None, keep_with_next=False):
         p = doc.add_paragraph()
         r = p.add_run(text)
         r.bold = True
+        r.font.name = "Arial"
+        r.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
         if size:
             r.font.size = Pt(size)
         if keep_with_next:
             p.paragraph_format.keep_with_next = True
+        p.paragraph_format.space_before = Pt(8)
+        p.paragraph_format.space_after = Pt(3)
         return p
 
     def add_normal_para(doc, text=""):
@@ -301,14 +347,24 @@ def cmd_nota(subj):
             p.add_run(text)
         return p
 
-    def add_bullet_para(doc, text, numbered=False):
-        style = "List Number" if numbered else "List Bullet"
-        try:
-            p = doc.add_paragraph(style=style)
-        except KeyError:
-            p = doc.add_paragraph(style="List Paragraph")
-            text = ("• " if not numbered else "") + text
-        p.add_run(text)
+    def add_bullet_para(doc, text, numbered=False, counter=None):
+        """Real hanging-indent bullet/number — the officer template has no List Bullet/Number
+        style (confirmed via KeyError), so build the indent+marker directly rather than falling
+        back to a bare '• ' glued to unindented text."""
+        p = doc.add_paragraph()
+        pf = p.paragraph_format
+        pf.left_indent = Pt(18)
+        pf.first_line_indent = Pt(-18)
+        pf.space_after = Pt(3)
+        marker = f"{counter or 1}." if numbered else "●"
+        rm = p.add_run(marker + "\t")
+        rm.font.name = "Arial"
+        rm.font.size = Pt(11)
+        if not numbered:
+            rm.font.color.rgb = RGBColor.from_string(ACCENT_MED)
+        rt = p.add_run(text)
+        rt.font.name = "Arial"
+        rt.font.size = Pt(11)
         return p
 
     def add_table_grid(doc, rows, header_row=True):
@@ -320,55 +376,81 @@ def cmd_nota(subj):
             t.style = "Table Grid"
         except KeyError:
             pass
+        t.autofit = True
         for ri, row in enumerate(rows):
             for ci, val in enumerate(row):
                 if ci < ncols:
                     cell = t.cell(ri, ci)
                     cell.text = tbd_normalize(val)
                     for p in cell.paragraphs:
+                        p.paragraph_format.space_after = Pt(2)
                         for r in p.runs:
                             r.font.size = Pt(10)
                             r.font.name = "Arial"
                             if ri == 0 and header_row:
                                 r.bold = True
+                                r.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
                     if ri == 0 and header_row:
-                        shade_cell(cell, "D9D9D9")
+                        shade_cell(cell, ACCENT_TINT)
         if header_row:
             set_repeat_header(t.rows[0])
+            border_cell(t.rows[0].cells[0], ["top"], color=ACCENT_DARK, sz=12)
         return t
 
     def add_callout_box(doc, label, content_lines):
         """Labelled block (Objektif Pembelajaran / Rumusan / Kajian kes / Senarai semak /
-        Aktiviti pengukuhan) rendered as a single-cell shaded call-out box wrapping the label +
-        its content — text is unchanged, only the container is new."""
+        Aktiviti pengukuhan) rendered as a single-cell pale-tint call-out box with a navy left
+        accent bar wrapping the label + its content — text is unchanged, only the container and
+        the bullet formatting of its list lines changed."""
+        ICONS = {
+            "objektif pembelajaran": "🎯", "rumusan": "📌", "kajian kes": "📋",
+            "senarai semak": "☑", "aktiviti pengukuhan": "✏",
+        }
+        label_key = label.strip().lower()
+        icon = next((v for k, v in ICONS.items() if k in label_key), "▸")
         t = doc.add_table(rows=1, cols=1)
         try:
             t.style = "Table Grid"
         except KeyError:
             pass
         cell = t.cell(0, 0)
-        shade_cell(cell, "F2F2F2")
+        shade_cell(cell, CALLOUT_TINT)
+        border_cell(cell, ["left"], color=ACCENT_DARK, sz=24)
         p0 = cell.paragraphs[0]
-        r0 = p0.add_run(label)
+        p0.paragraph_format.space_after = Pt(4)
+        r0 = p0.add_run(f"{icon}  {label}")
         r0.bold = True
         r0.font.size = Pt(12)
         r0.font.name = "Arial"
+        r0.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
+        num_ctr = 0
         for ln in content_lines:
             stripped = ln.strip()
             if not stripped:
                 continue
-            if re.match(r"^[-*]\s+", stripped) or re.match(r"^\d+\.\s+", stripped):
+            is_bullet = re.match(r"^[-*]\s+", stripped)
+            is_number = re.match(r"^\d+\.\s+", stripped)
+            if is_bullet or is_number:
                 text = re.sub(r"^[-*]\s+", "", stripped)
                 text = re.sub(r"^\d+\.\s+", "", text)
-                try:
-                    p = cell.add_paragraph(style="List Bullet")
-                except KeyError:
-                    p = cell.add_paragraph()
-                    text = "• " + text
+                p = cell.add_paragraph()
+                pf = p.paragraph_format
+                pf.left_indent = Pt(16)
+                pf.first_line_indent = Pt(-16)
+                pf.space_after = Pt(2)
+                if is_number:
+                    num_ctr += 1
+                    rm = p.add_run(f"{num_ctr}.\t")
+                else:
+                    rm = p.add_run("●\t")
+                    rm.font.color.rgb = RGBColor.from_string(ACCENT_MED)
+                rm.font.name = "Arial"; rm.font.size = Pt(11)
+                r = p.add_run(tbd_normalize(clean_inline(text)))
             else:
                 text = stripped
                 p = cell.add_paragraph()
-            r = p.add_run(tbd_normalize(clean_inline(text)))
+                p.paragraph_format.space_after = Pt(2)
+                r = p.add_run(tbd_normalize(clean_inline(text)))
             r.font.size = Pt(11)
             r.font.name = "Arial"
         return t
@@ -407,9 +489,10 @@ def cmd_nota(subj):
                 add_bullet_para(doc, tbd_normalize(clean_inline(text)), numbered=False)
                 i += 1
                 continue
-            if re.match(r"^\d+\.\s+", stripped):
-                text = re.sub(r"^\d+\.\s+", "", stripped)
-                add_bullet_para(doc, tbd_normalize(clean_inline(text)), numbered=True)
+            mnum = re.match(r"^(\d+)\.\s+(.*)$", stripped)
+            if mnum:
+                add_bullet_para(doc, tbd_normalize(clean_inline(mnum.group(2))), numbered=True,
+                                 counter=mnum.group(1))
                 i += 1
                 continue
             mb = re.match(r"^\*\*(.+?)\*\*$", stripped)
@@ -507,26 +590,33 @@ def cmd_nota(subj):
         run._r.append(el)
 
     def add_page_footer(doc):
-        """Footer: 'Muka surat X / Y' using Word PAGE/NUMPAGES fields."""
+        """Footer: thin navy rule + centred 'Muka surat X / Y' using Word PAGE/NUMPAGES fields."""
         sec = doc.sections[0]
         footer = sec.footer
         fp = footer.paragraphs[0] if footer.paragraphs else footer.add_paragraph()
+        border_paragraph(fp, ["top"], color=ACCENT_MED, sz=6)
+        fp.paragraph_format.space_before = Pt(4)
         fp.alignment = WD_ALIGN_PARAGRAPH.CENTER
         r1 = fp.add_run("Muka surat ")
-        r1.font.name = "Arial"; r1.font.size = Pt(9)
+        r1.font.name = "Arial"; r1.font.size = Pt(9); r1.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
         rp = fp.add_run(); _fld(rp, 'begin'); _instr(rp, 'PAGE'); _fld(rp, 'end')
+        rp.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
         r2 = fp.add_run(" / ")
-        r2.font.name = "Arial"; r2.font.size = Pt(9)
+        r2.font.name = "Arial"; r2.font.size = Pt(9); r2.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
         rn = fp.add_run(); _fld(rn, 'begin'); _instr(rn, 'NUMPAGES'); _fld(rn, 'end')
+        rn.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
 
     def add_page_header(doc, kode_no):
-        """Header: the nota code, e.g. P851-002-4:2025-C01/NP(1/4)."""
+        """Header: the nota code (e.g. P851-002-4:2025-C01/NP(1/4)) in navy, thin rule beneath."""
         sec = doc.sections[0]
         header = sec.header
         hp = header.paragraphs[0] if header.paragraphs else header.add_paragraph()
+        border_paragraph(hp, ["bottom"], color=ACCENT_MED, sz=6)
+        hp.paragraph_format.space_after = Pt(4)
         hp.alignment = WD_ALIGN_PARAGRAPH.RIGHT
         r = hp.add_run(kode_no)
-        r.font.name = "Arial"; r.font.size = Pt(9)
+        r.font.name = "Arial"; r.font.size = Pt(9); r.bold = True
+        r.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
 
     def add_kandungan_list(doc, penerangan_text):
         """Right after TUJUAN: a short 'Kandungan nota ini' list of this nota's own Bab titles.
@@ -959,7 +1049,7 @@ def cmd_buku(subj):
     re-runs `nota` first so it compiles from whatever nota content exists right now (other agents
     may be actively expanding C01/C02 nota content in parallel)."""
     from docx import Document
-    from docx.shared import Pt
+    from docx.shared import Pt, RGBColor
     from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK
     from docx.oxml.ns import qn
     from docx.oxml import OxmlElement
@@ -990,34 +1080,66 @@ def cmd_buku(subj):
     def instr_text(text):
         el = OxmlElement('w:instrText'); el.set(qn('xml:space'), 'preserve'); el.text = text; return el
 
+    LOGO_PATH = os.path.join(cfg["out"], "_assets", "jpk-logo-official.png")
+
+    def rule_paragraph(doc, color=ACCENT_DARK, sz=18, space_after=Pt(0)):
+        p = doc.add_paragraph()
+        pPr = p._p.get_or_add_pPr()
+        pBdr = OxmlElement('w:pBdr')
+        bottom = OxmlElement('w:bottom')
+        bottom.set(qn('w:val'), 'single'); bottom.set(qn('w:sz'), str(sz))
+        bottom.set(qn('w:space'), '1'); bottom.set(qn('w:color'), color)
+        pBdr.append(bottom)
+        pPr.append(pBdr)
+        p.paragraph_format.space_after = space_after
+        return p
+
     def make_cover(cu_range_label):
         doc = Document()
-        def center(text, size, bold=True):
+        def center(text, size, bold=True, color=None):
             p = doc.add_paragraph()
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
             r = p.add_run(text)
             r.bold = bold
             r.font.size = Pt(size)
-        for _ in range(4):
+            r.font.name = "Arial"
+            if color:
+                r.font.color.rgb = RGBColor.from_string(color)
+            return p
+        rule_paragraph(doc, color=ACCENT_DARK, sz=36)
+        doc.add_paragraph()
+        if os.path.isfile(LOGO_PATH):
+            p = doc.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.add_run().add_picture(LOGO_PATH, width=Pt(90))
+        doc.add_paragraph()
+        center(cfg["code"], 15, bold=True, color=ACCENT_MED)
+        center(cfg["title"], 24, bold=True, color=ACCENT_DARK)
+        center(f'TAHAP {cfg["tahap"]}', 16, bold=True, color=ACCENT_MED)
+        doc.add_paragraph()
+        rule_paragraph(doc, color=ACCENT_MED, sz=8)
+        doc.add_paragraph()
+        center(f"Nota Pembelajaran / Kertas Penerangan", 15, bold=True)
+        center(f"Unit Kompetensi {cu_range_label}", 13, bold=False)
+        for _ in range(3):
             doc.add_paragraph()
-        center(cfg["code"], 16)
-        center(cfg["title"], 20)
-        center(f'TAHAP {cfg["tahap"]}', 16)
-        doc.add_paragraph()
-        center(f"Nota Pembelajaran / Kertas Penerangan — Unit Kompetensi {cu_range_label}", 14, bold=False)
-        doc.add_paragraph()
-        doc.add_paragraph()
         center("Pusat Latihan: 3U Pioneer Academy Sdn Bhd", 12, bold=False)
         center("Syarikat: [TBD: nama syarikat]", 12, bold=False)
-        center("2026", 12, bold=False)
+        center("2026", 12, bold=False, color=ACCENT_MED)
+        doc.add_paragraph()
+        rule_paragraph(doc, color=ACCENT_DARK, sz=36)
         add_page_break(doc)
         return doc
 
     def add_toc_field(doc):
         p = doc.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
         r = p.add_run("ISI KANDUNGAN")
         r.bold = True
-        r.font.size = Pt(14)
+        r.font.size = Pt(16)
+        r.font.name = "Arial"
+        r.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
+        rule_paragraph(doc, color=ACCENT_MED, sz=10, space_after=Pt(10))
         p2 = doc.add_paragraph()
         run = p2.add_run()
         for el in (fldchar('begin'), instr_text(r' TOC \o "1-2" \h \z \u '), fldchar('separate'), fldchar('end')):
@@ -1026,10 +1148,26 @@ def cmd_buku(subj):
 
     def make_divider(cu, title):
         doc = Document()
-        p = doc.add_paragraph(style="Heading 1")
+        for _ in range(6):
+            doc.add_paragraph()
+        rule_paragraph(doc, color=ACCENT_DARK, sz=28, space_after=Pt(10))
+        p_eyebrow = doc.add_paragraph()
+        p_eyebrow.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r_eyebrow = p_eyebrow.add_run("UNIT KOMPETENSI")
+        r_eyebrow.font.size = Pt(12); r_eyebrow.font.name = "Arial"; r_eyebrow.bold = True
+        r_eyebrow.font.color.rgb = RGBColor.from_string(ACCENT_MED)
+        p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        r = p.add_run(f"UNIT KOMPETENSI {cu} — {title.upper()}")
-        r.bold = True
+        r_cu = p.add_run(f"{cu}")
+        r_cu.bold = True; r_cu.font.size = Pt(22); r_cu.font.name = "Arial"
+        r_cu.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
+        p2 = doc.add_paragraph()
+        p2.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r2 = p2.add_run(title.upper())
+        r2.bold = True; r2.font.size = Pt(16); r2.font.name = "Arial"
+        r2.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
+        doc.add_paragraph()
+        rule_paragraph(doc, color=ACCENT_DARK, sz=28)
         add_page_break(doc)
         return doc
 
@@ -1040,11 +1178,24 @@ def cmd_buku(subj):
 
     def prep_note_doc(f):
         sub = Document(f)
-        wa_text = sub.tables[0].rows[4].cells[1].text.strip() if sub.tables else ""
+        # The WA cell (row 4) now lists ALL of the CU's work activities, with only the current
+        # one's paragraph bold (the "all-WA header" change). cell.text would join every one of
+        # those lines with no separator, garbling the TOC entry with 4-5 concatenated WA names —
+        # pick out just the bold paragraph (the current WA) instead.
+        wa_text = ""
+        if sub.tables:
+            cell = sub.tables[0].rows[4].cells[1]
+            for p in cell.paragraphs:
+                if any(r.bold for r in p.runs):
+                    wa_text = p.text.strip()
+                    break
+            if not wa_text:
+                wa_text = cell.text.strip().split("\n")[0]
         if sub.paragraphs:
             new_p = sub.paragraphs[0].insert_paragraph_before("", style="Heading 2")
             r = new_p.add_run(wa_text or os.path.basename(f))
             r.bold = True
+            r.font.color.rgb = RGBColor.from_string(ACCENT_DARK)
         return sub
 
     def files_for_cu(cu):
