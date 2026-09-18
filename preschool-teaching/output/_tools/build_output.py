@@ -10,6 +10,10 @@ Rule (00-SPEC.md): fill original officer templates, never rebuild from scratch.
 """
 import re, os, glob, argparse, sys
 
+_THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+if _THIS_DIR not in sys.path:
+    sys.path.insert(0, _THIS_DIR)
+
 ROOT = r"C:\Users\Jyue\Documents\1-projects\3u-pioneer-academy-noss"
 
 SUBJECTS = {
@@ -319,24 +323,43 @@ def cmd_nota(subj):
     def set_cell(cell, text):
         cell.text = tbd_normalize(str(text))
 
-    def fill_header_table(doc, prog, tahap, cu, wa, kode_no, page_no, page_total):
+    def set_cell_wa_list(cell, wa_lines, current_wa):
+        """Fill the WA cell with one line per work activity of the CU, current one bold."""
+        cell.text = ""
+        p0 = cell.paragraphs[0]
+        for i, line in enumerate(wa_lines):
+            p = p0 if i == 0 else cell.add_paragraph()
+            r = p.add_run(tbd_normalize(line))
+            if line == current_wa:
+                r.bold = True
+
+    def fill_header_table(doc, prog, tahap, cu, wa, kode_no, page_no, page_total, wa_lines=None):
         t = doc.tables[0]
         set_cell(t.rows[1].cells[1], prog)
         set_cell(t.rows[2].cells[1], tahap)
         set_cell(t.rows[3].cells[1], cu)
-        set_cell(t.rows[4].cells[1], wa)
+        if wa_lines:
+            set_cell_wa_list(t.rows[4].cells[1], wa_lines, wa)
+        else:
+            set_cell(t.rows[4].cells[1], wa)
         set_cell(t.rows[5].cells[1], kode_no)
         set_cell(t.rows[5].cells[2], "Muka Surat/Page:\nDrpd/ Of::")
         set_cell(t.rows[5].cells[3], f"{page_no}\n{page_total}")
         for ci in range(2, len(t.rows[1].cells)):
             try:
                 for ri, val in ((1, prog), (2, tahap), (3, cu), (4, wa)):
-                    if t.rows[ri].cells[ci].text != val:
-                        set_cell(t.rows[ri].cells[ci], val)
+                    cell = t.rows[ri].cells[ci]
+                    if ri == 4 and wa_lines:
+                        # merged cell mirrors row-4's WA cell — keep the same bold WA list, not
+                        # the plain current-WA string, else it clobbers the list just written.
+                        if cell.text != "\n".join(wa_lines):
+                            set_cell_wa_list(cell, wa_lines, wa)
+                    elif cell.text != val:
+                        set_cell(cell, val)
             except IndexError:
                 pass
 
-    def build_one(md_path, out_path, cu_code, k, n):
+    def build_one(md_path, out_path, cu_code, k, n, wa_lines=None):
         hdr, body = parse_hdr_body(md_path)
         prog = hdr_lookup(hdr, "KOD NAMA DAN PROGRAM") or hdr_lookup(hdr, "KOD NOSS") or f'{cfg["code"]} {cfg["title"]}'
         tahap = hdr_lookup(hdr, "TAHAP") or cfg["tahap"]
@@ -346,7 +369,8 @@ def cmd_nota(subj):
 
         doc = Document(NOTA_TEMPLATE)
         clear_body_after_table(doc)
-        fill_header_table(doc, prog, tahap, cu, wa, kode_no, page_no="[TBD: no. muka surat]", page_total=str(n))
+        fill_header_table(doc, prog, tahap, cu, wa, kode_no, page_no="[TBD: no. muka surat]", page_total=str(n),
+                           wa_lines=wa_lines)
 
         # Correction 2: PROSES KERJA BERKAITAN / JAM PENGETAHUAN, derived at generation time
         # (never written back to the source .md — computed fresh from 02-borang-matriks-lampiran-5.md).
@@ -388,6 +412,18 @@ def cmd_nota(subj):
         doc.save(out_path)
         return cu, wa
 
+    # precompute, per CU, the ordered list of "code / title" WA lines from every nota md's own
+    # header (reuses the same hdr_lookup parsing cmd_nota already does per file — Task 1 header change)
+    cu_wa_lines = {}
+    for cu, bases in cu_groups.items():
+        lines = []
+        for base in bases:
+            f2 = os.path.join(cfg["nota_src"], base + ".md")
+            hdr2, _ = parse_hdr_body(f2)
+            wa2 = hdr_lookup(hdr2, "NO DAN PENYATAAN AKTIVITI") or hdr_lookup(hdr2, "NO DAN NAMA WA") or "[TBD: WA]"
+            lines.append(wa2)
+        cu_wa_lines[cu] = lines
+
     order = sorted(files, key=lambda f: os.path.basename(f))
     seq = 0
     written = []
@@ -404,7 +440,7 @@ def cmd_nota(subj):
         fname = f'3.3b-{seq:02d} Nota Pembelajaran {base} {wa_title} ({cfg["short"]}).docx'
         fname = re.sub(r'[\\/:*?"<>|]', "-", fname)
         out_path = os.path.join(cfg["nota_out"], fname)
-        cu_hdr, wa_hdr = build_one(f, out_path, cu, k, n)
+        cu_hdr, wa_hdr = build_one(f, out_path, cu, k, n, wa_lines=cu_wa_lines.get(cu))
         written.append(out_path)
 
     # verify read-back
@@ -731,14 +767,285 @@ def cmd_lpkc(subj):
     print(f"  read-back first paragraph -> {d2.paragraphs[0].text[:80]!r}")
 
 
+# ================= BUKU (13 Buku Teks — docxcompose compilation of nota output) =================
+
+def cmd_buku(subj):
+    """Compile the 'nota' output into one full book + one volume per CU. Cheap/idempotent: always
+    re-runs `nota` first so it compiles from whatever nota content exists right now (other agents
+    may be actively expanding C01/C02 nota content in parallel)."""
+    from docx import Document
+    from docx.shared import Pt
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK
+    from docx.oxml.ns import qn
+    from docx.oxml import OxmlElement
+    from docxcompose.composer import Composer
+
+    cfg = SUBJECTS[subj]
+    if not os.path.isfile(NOTA_TEMPLATE):
+        return skip(NOTA_TEMPLATE, "template missing (nota can't build, so buku can't compile)")
+
+    print("buku: re-running nota first (idempotent — compiles from fresh nota output)")
+    cmd_nota(subj)
+
+    nota_dir = cfg["nota_out"]
+    out_dir = os.path.join(cfg["out"], "13 Buku Teks (kompilasi Nota)")
+    os.makedirs(out_dir, exist_ok=True)
+
+    def all_nota_files():
+        files = sorted(glob.glob(os.path.join(nota_dir, "*.docx")))
+        return [f for f in files if not os.path.basename(f).startswith("~$")]
+
+    def add_page_break(doc):
+        p = doc.add_paragraph()
+        p.add_run().add_break(WD_BREAK.PAGE)
+
+    def fldchar(kind):
+        el = OxmlElement('w:fldChar'); el.set(qn('w:fldCharType'), kind); return el
+
+    def instr_text(text):
+        el = OxmlElement('w:instrText'); el.set(qn('xml:space'), 'preserve'); el.text = text; return el
+
+    def make_cover(cu_range_label):
+        doc = Document()
+        def center(text, size, bold=True):
+            p = doc.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            r = p.add_run(text)
+            r.bold = bold
+            r.font.size = Pt(size)
+        for _ in range(4):
+            doc.add_paragraph()
+        center(cfg["code"], 16)
+        center(cfg["title"], 20)
+        center(f'TAHAP {cfg["tahap"]}', 16)
+        doc.add_paragraph()
+        center(f"Nota Pembelajaran / Kertas Penerangan — Unit Kompetensi {cu_range_label}", 14, bold=False)
+        doc.add_paragraph()
+        doc.add_paragraph()
+        center("Pusat Latihan: 3U Pioneer Academy Sdn Bhd", 12, bold=False)
+        center("Syarikat: [TBD: nama syarikat]", 12, bold=False)
+        center("2026", 12, bold=False)
+        add_page_break(doc)
+        return doc
+
+    def add_toc_field(doc):
+        p = doc.add_paragraph()
+        r = p.add_run("ISI KANDUNGAN")
+        r.bold = True
+        r.font.size = Pt(14)
+        p2 = doc.add_paragraph()
+        run = p2.add_run()
+        for el in (fldchar('begin'), instr_text(r' TOC \o "1-2" \h \z \u '), fldchar('separate'), fldchar('end')):
+            run._r.append(el)
+        add_page_break(doc)
+
+    def make_divider(cu, title):
+        doc = Document()
+        p = doc.add_paragraph(style="Heading 1")
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r = p.add_run(f"UNIT KOMPETENSI {cu} — {title.upper()}")
+        r.bold = True
+        add_page_break(doc)
+        return doc
+
+    def make_break_doc():
+        doc = Document()
+        add_page_break(doc)
+        return doc
+
+    def prep_note_doc(f):
+        sub = Document(f)
+        wa_text = sub.tables[0].rows[4].cells[1].text.strip() if sub.tables else ""
+        if sub.paragraphs:
+            new_p = sub.paragraphs[0].insert_paragraph_before("", style="Heading 2")
+            r = new_p.add_run(wa_text or os.path.basename(f))
+            r.bold = True
+        return sub
+
+    def files_for_cu(cu):
+        return [f for f in all_nota_files() if f" {cu}-W" in os.path.basename(f)]
+
+    written = []
+
+    def build_full_book():
+        files = all_nota_files()
+        if not files:
+            skip(nota_dir, "no nota output to compile")
+            return None
+        master = make_cover(f'{cfg["cu_order"][0]}–{cfg["cu_order"][-1]}')
+        composer = Composer(master)
+        add_toc_field(master)
+        for cu in cfg["cu_order"]:
+            cu_files = files_for_cu(cu)
+            if not cu_files:
+                continue
+            composer.append(make_divider(cu, cfg["cu_titles"].get(cu, "[TBD: CU title]")))
+            for f in cu_files:
+                composer.append(prep_note_doc(f))
+                composer.append(make_break_doc())
+        out_path = os.path.join(
+            out_dir, f'Buku Teks {cfg["code"].replace(":", "-")} {cfg["title"]} Tahap {cfg["tahap"]} - '
+                     f'Nota Pembelajaran {cfg["cu_order"][0]}-{cfg["cu_order"][-1]} ({cfg["short"]}).docx')
+        out_path = re.sub(r'[\\/:*?"<>|]', "-", os.path.basename(out_path))
+        out_path = os.path.join(out_dir, out_path)
+        composer.save(out_path)
+        written.append(out_path)
+        return out_path
+
+    def build_cu_volume(cu):
+        files = files_for_cu(cu)
+        if not files:
+            skip(f"{nota_dir}/*{cu}-W*", f"no nota output for {cu}")
+            return
+        title = cfg["cu_titles"].get(cu, "[TBD: CU title]")
+        master = make_cover(cu)
+        composer = Composer(master)
+        add_toc_field(master)
+        composer.append(make_divider(cu, title))
+        for f in files:
+            composer.append(prep_note_doc(f))
+            composer.append(make_break_doc())
+        fname = f'Buku Teks {cfg["code"].replace(":", "-")} {cfg["title"]} Tahap {cfg["tahap"]} - Nota Pembelajaran {cu} ({cfg["short"]}).docx'
+        fname = re.sub(r'[\\/:*?"<>|]', "-", fname)
+        out_path = os.path.join(out_dir, fname)
+        composer.save(out_path)
+        written.append(out_path)
+
+    build_full_book()
+    for cu in cfg["cu_order"]:
+        build_cu_volume(cu)
+
+    if written:
+        d = Document(written[0])
+        print(f"buku: wrote {len(written)} docx to {out_dir}")
+        for p in written:
+            print(f"  {os.path.basename(p)}")
+        print(f"  read-back [{os.path.basename(written[0])}] first paragraph -> {d.paragraphs[0].text[:60]!r}")
+
+        export_script = os.path.join(os.path.dirname(__file__), "Export-Pdf.ps1")
+        if os.path.isfile(export_script):
+            import subprocess
+            try:
+                result = subprocess.run(
+                    ["powershell.exe", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", export_script,
+                     "-Folder", out_dir],
+                    capture_output=True, text=True, timeout=600)
+                print("buku(pdf): Export-Pdf.ps1 output:")
+                print("  " + (result.stdout or "").strip().replace("\n", "\n  "))
+                if result.returncode != 0:
+                    print(f"buku(pdf): Export-Pdf.ps1 exited {result.returncode}: {result.stderr[:300]}")
+            except Exception as e:
+                print(f"buku(pdf): SKIPPED PDF export — {e}")
+        else:
+            skip(export_script, "Export-Pdf.ps1 not found")
+    else:
+        print("buku: nothing written (no nota output found)")
+
+
+# ================= PAGES (word-count + PDF page-count baseline for nota output) =================
+
+def cmd_pages(subj):
+    """For every nota docx (output/05 .../CU C01-C05/*.docx): export to PDF (reusing the same
+    Export-Pdf.ps1 helper cmd_buku already shells out to, which prints 'name pages=N' via Word's
+    own ComputeStatistics(2) — no extra pypdf dependency needed), count words per docx via
+    python-docx paragraph text, and print+write a markdown file|words|pages table."""
+    import subprocess
+    from docx import Document
+
+    cfg = SUBJECTS[subj]
+    nota_dir = cfg["nota_out"]
+    files = sorted(f for f in glob.glob(os.path.join(nota_dir, "*.docx"))
+                    if not os.path.basename(f).startswith("~$"))
+    if not files:
+        return skip(nota_dir, "no nota output to measure")
+
+    export_script = os.path.join(os.path.dirname(__file__), "Export-Pdf.ps1")
+    page_counts = {}
+    if os.path.isfile(export_script):
+        try:
+            result = subprocess.run(
+                ["powershell.exe", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", export_script,
+                 "-Folder", nota_dir],
+                capture_output=True, text=True, timeout=900)
+            for line in (result.stdout or "").splitlines():
+                m = re.match(r"^(.*\.docx)\s+pages=(\d+)\s*$", line.strip())
+                if m:
+                    page_counts[m.group(1)] = int(m.group(2))
+            if result.returncode != 0:
+                print(f"pages: Export-Pdf.ps1 exited {result.returncode}: {result.stderr[:300]}")
+        except Exception as e:
+            print(f"pages: Export-Pdf.ps1 failed — {e}")
+    else:
+        skip(export_script, "Export-Pdf.ps1 not found")
+
+    rows = []
+    for f in files:
+        name = os.path.basename(f)
+        d = Document(f)
+        words = sum(len(p.text.split()) for p in d.paragraphs)
+        for t in d.tables:
+            for r in t.rows:
+                for c in r.cells:
+                    words += len(c.text.split())
+        pages = page_counts.get(name, "n/a")
+        rows.append((name, words, pages))
+
+    out_path = os.path.join(cfg["out"], "_tools", "pages-baseline.md")
+    lines_out = ["# pages-baseline.md — word/page baseline for P851 nota output\n",
+                 "Auto-generated by `build_output.py pages`. Words = python-docx paragraph+table text; "
+                 "pages = Word's ComputeStatistics(2) via Export-Pdf.ps1 (same helper `buku` uses). "
+                 "Context: nota content is still being expanded by content agents — short page counts "
+                 "here are expected and not a defect.\n",
+                 "| file | words | pages |", "|---|---|---|"]
+    for name, words, pages in rows:
+        lines_out.append(f"| {name} | {words} | {pages} |")
+    md = "\n".join(lines_out) + "\n"
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as fh:
+        fh.write(md)
+
+    print(md)
+    print(f"pages: wrote {out_path} ({len(rows)} rows)")
+
+
+# ================= lazy sibling-module wiring (build_xlsx.py / build_forms.py) =================
+# Other agents are writing these concurrently in the same _tools/ folder. Each is expected to
+# expose run(subcommand, cfg) -> None. Import lazily so `all` never crashes if a module or its
+# run() isn't ready yet.
+
+_XLSX_SUBCOMMANDS = {"lampiran5", "jam42", "jadual43", "jsu", "bukti-xlsx"}
+_FORMS_SUBCOMMANDS = {"soalan", "rekod31", "lampiran4", "lampiran6", "syarikat", "bakat"}
+
+
+def try_run_sibling_module(module_name, subcommand, subj):
+    """Return True if it handled (ran or printed its own SKIPPED), False if caller should fall
+    back to the generic cmd_stub SKIPPED message."""
+    cfg = SUBJECTS[subj]
+    try:
+        import importlib
+        mod = importlib.import_module(module_name)
+    except ImportError:
+        print(f"SKIPPED (module not ready): {module_name}.py::{subcommand}")
+        return True
+    run_fn = getattr(mod, "run", None)
+    if run_fn is None or not callable(run_fn):
+        print(f"SKIPPED (module not ready — no run()): {module_name}.py::{subcommand}")
+        return True
+    try:
+        run_fn(subcommand, cfg)
+    except Exception as e:
+        print(f"SKIPPED ({module_name}.py::{subcommand} raised {type(e).__name__}: {e})")
+    return True
+
+
 # ================= not-yet-implemented subcommands (xlsx/pptx reverse-engineering) =================
 # These need per-template cell-layout reverse-engineering (finished-vs-blank diff) which was not
 # completed in this pass. Each prints SKIPPED with the reason so `all` never silently fabricates.
 
-NOT_IMPLEMENTED = [
-    "lampiran5", "jam42", "jadual43", "jsu", "soalan", "rekod31",
-    "bukti", "lampiran6", "syarikat", "bakat", "buku",
-]
+NOT_IMPLEMENTED = ["bukti"]  # combo xlsx+docx not yet assigned to either sibling module
+
+# subcommands now routed to the concurrently-developed sibling modules
+_ROUTED_SUBCOMMANDS = sorted(_XLSX_SUBCOMMANDS | _FORMS_SUBCOMMANDS)
 
 
 def cmd_stub(name, subj):
@@ -747,10 +1054,22 @@ def cmd_stub(name, subj):
           f"see SPEC.md 'Not yet built' table for template + source-md mapping.")
 
 
+def dispatch_routed(name, subj):
+    if name in _XLSX_SUBCOMMANDS:
+        try_run_sibling_module("build_xlsx", name, subj)
+    elif name in _FORMS_SUBCOMMANDS:
+        try_run_sibling_module("build_forms", name, subj)
+    else:
+        cmd_stub(name, subj)
+
+
 def cmd_all(subj):
     cmd_rangka(subj)
     cmd_nota(subj)
     cmd_lpkc(subj)
+    cmd_buku(subj)
+    for name in _ROUTED_SUBCOMMANDS:
+        dispatch_routed(name, subj)
     for name in NOT_IMPLEMENTED:
         cmd_stub(name, subj)
     write_index(subj)
@@ -791,7 +1110,7 @@ def write_index(subj):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["rangka", "nota", "lpkc", "all", "index"] + NOT_IMPLEMENTED)
+    ap.add_argument("cmd", choices=["rangka", "nota", "lpkc", "buku", "pages", "all", "index"] + _ROUTED_SUBCOMMANDS + NOT_IMPLEMENTED)
     ap.add_argument("--subject", required=True, choices=list(SUBJECTS.keys()))
     args = ap.parse_args()
 
@@ -805,10 +1124,16 @@ def main():
         cmd_nota(args.subject)
     elif args.cmd == "lpkc":
         cmd_lpkc(args.subject)
+    elif args.cmd == "buku":
+        cmd_buku(args.subject)
+    elif args.cmd == "pages":
+        cmd_pages(args.subject)
     elif args.cmd == "index":
         write_index(args.subject)
     elif args.cmd == "all":
         cmd_all(args.subject)
+    elif args.cmd in _ROUTED_SUBCOMMANDS:
+        dispatch_routed(args.cmd, args.subject)
     else:
         cmd_stub(args.cmd, args.subject)
 
