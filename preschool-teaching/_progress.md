@@ -21,14 +21,14 @@ Started 2026-09-18 15:45 MYT. Goal: replicate `video-film-editing/` (ADI Pekerja
 ## Plan / status
 
 - [x] raw/: NOSS PDF + txt dump; Core Abilities L4 PDFs extracted from zip
-- [ ] 00-noss-extract.md (agent noss-extract)
-- [ ] CA L4 _txt + inventory (agent ca-l4-inventory)
-- [ ] 01 proses kerja · 02 matriks · 03 jadual · 08 bukti · 09 penilaian · 10 susunan
-- [ ] 04 rangka · 05 nota (21) · 06 jsu (subjektif) · 07 soalan (5 × struktur+esei) — per-CU agents
-- [ ] 11 core abilities (preschool context) — L1–L4: **deferred to phase 2** (61+ KP); output uses official generic notes meanwhile
-- [ ] 12 LPKC guide + template
-- [ ] output/ generation (xlsx/docx/pptx from officer templates) + Buku Teks PDF
-- [ ] README, INDEX, LOG, wiki/now.md, commit + push
+- [x] 00-noss-extract.md (1075 lines; NOSS has no hours table)
+- [x] CA L4 _txt (50) + `00-INVENTORY-L4.md`
+- [x] 01 proses kerja (P01–P12) · 02 matriks (21/21) · 03 jadual (120 minggu) · 08 bukti (39) · 09 penilaian · 10 susunan
+- [x] 04 rangka (5) · 05 nota (21, every Bab ≥250 words) · 06 jsu (subjektif) · 07 soalan (5 × struktur+esei)
+- [ ] 11 core abilities (preschool context) — L1–L4: **deferred to phase 2**; official generic notes in `raw/…/core-abilities/`
+- [x] 12 LPKC guide + template outline
+- [~] output/: rangka, nota, buku (docx+PDF), soalan (docx+PDF), rekod31, lampiran4, lampiran6, lpkc, syarikat, bakat done; xlsx (lampiran5, jam42, jadual43, jsu, bukti) in progress
+- [~] README ✓ INDEX ✓ CLAUDE ✓ now.md ✓ · LOG + final commit/push pending (WIP pushed 5380a8c)
 
 ## Blockers / open
 

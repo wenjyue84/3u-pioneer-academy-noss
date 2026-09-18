@@ -1,0 +1,182 @@
+ 
+ 
+ 
+KOD DAN NAMA PUSAT 
+BERTAULIAH  
+ 
+SOALAN PENILAIAN PENGETAHUAN (SUBJEKTIF) 
+KOD UNIT CORE ABILITY  
+NAMA UNIT  ABILITY  
+NAMA CALON  
+NO.KAD PENGENALAN  
+MASA  
+TARIKH  
+MARKAH  
+ 
+Arahan kepada calon: 
+1.  Tulis nama dan nombor kad pengenalan calon pada ruangan yang disediakan; 
+2.   Calon tidak dibenarkan membuka kertas soalan sehingga dibenarkan; 
+3.   Calon hendaklah menjawab semua soalan; 
+4.   Calon dilarang membawa nota atau sebarang bahan rujukan kecuali yang 
+dibenarkan. 
+5.   Dilarang meniru semasa penilian; dan 
+6.   Dilarang membawa keluar kertas soalan dari bilik peperiksaan 
+ 
+ 
+KERTAS PENILAIAN INI MENGANDUNGI ....2.... MUKA SURAT BERCETAK 
+ 
+ 
+ 
+  JABATAN PEMBANGUNAN KEMAHIRAN 
+  KEMENTERIAN SUMBER MANUSIA 
+  ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+  PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN  
+  62530 PUTRAJAYA 
+ 
+   
+   
+
+
+----PAGE BREAK----
+
+ 
+ 
+PART A: SHORT ANSWER QUESTIONS       (4 QUESTIONS : 20 MARKS) 
+(BAHAGIAN A: SOALAN PENDEK)         (4 SOALAN : 20  MARKAH)  
+ 
+INSTRUCTION: Answer ALL the questions in this section. 
+[ ARAHAN : Jawab SEMUA soalan dalam bahagian ini] 
+ 
+1. What are the 2 general classes of IT applications? 
+(2 marks) 
+ 
+ 
+2. What are the 8 common types of software applications? 
+ (8 marks) 
+ 
+ 
+3. Name 5 example of operating softwares. 
+(5 marks) 
+ 
+ 
+4. What are the 5 reasons to network security problems? 
+ 
+(5 marks) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+----PAGE BREAK----
+
+ 
+PART B : ESSAY QUESTION              (1 QUESTIONS : 20 MARKS) 
+ 
+INSTRUCTION: Answer ALL the questions in this section. 
+[ ARAHAN : Jawab SEMUA soalan dalam bahagian ini] 
+ 
+1. You are entrusted to setup a new IT Section in your office. Describe your 
+considerations in : 
+a. Hardware and software selections  
+b. Networking and security considerations 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+----PAGE BREAK----
+
+ 
+SKEMA PEMARKAHAN 
+ 
+BAHAGIAN A 
+1. Application software  
+Systems software 
+ 
+2. 8 common types of software applications  
+ Office software 
+ Financial 
+ Web browsers 
+ Games 
+ Media player 
+ Widgets 
+ Multimedia editing/production/manipulation 
+ Programming 
+ 
+3.      a.  Windows   
+b. Linux 
+c. Mac OS 
+d. Android 
+e. iOS 
+ 
+4. i.    Sharing  
+ii.   Complexity of systems 
+iii.  Unknown parameter 
+iv.  Many points of attack 
+v.   Anonymity 
+ 
+ 
+ 
+ 
+ 
+ 
+
+----PAGE BREAK----
+
+ 
+BAHAGIAN B 
+ 
+1.   
+a. Hardware and software selections  
+ Purpose of use and objective 
+ Cost and budget 
+ Requirements 
+ Warranty, license and service support 
+ Lifecycle 
+b. Networking and security considerations 
+ Requirement vs. users 
+ Budget and monthly/yearly cost 
+ Network provider 
+ Required bandwidth 
+ Security options 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,803 @@
+# Z-009-2-2015\MODULE 04 HEALTH, SAFETY AND ENVIRONMENTAL ADAPTATION\Kertas Penerangan 4.2.PDF
+
+===== PAGE 1 =====
+45 
+ 
+ 
+ 
+        
+ 
+KOD DAN NAMA  
+PROGRAM /  
+PROGRAM’S CODE AND 
+NAME 
+Z-009-2: 2015CORE ABILITIES 
+TAHAP / LEVEL 
+2 (TWO) 
+NO.  DAN TAJUK 
+KEBOLEHAN TERAS 
+/CORE ABILITY NO. AND 
+TITLE 
+ 
+CA04 HEALTH, SAFETY AND ENVIRONMENTAL 
+AWARENESS 
+ 
+NO. DAN PENYATAAN 
+KEBOLEHAN  /  
+ABILITY NO. AND 
+STATEMENT 
+04.01 DEMONSTRATE HEALTH COMPLIANCE 
+04.02 DEMONSTRATE SAFETY COMPLIANCE 
+04.03 DEMONSTRATE ENVIRONMENTAL 
+COMPLIANCE 
+NO. KOD  /CODE NO. 
+Z-009-2:2015–M04/P(3/5) 
+MukaSurat / Page :  1 
+Drpd / of         :  16 
+ 
+TAJUK/TITLE:  
+SAFE MACHINE OPERATION APPLICATION 
+ 
+TUJUAN/PURPOSE: 
+ 
+This Information Sheet is intended to describe on the ability to demonstrate level of 
+understanding in Health, Safety and Environment adaptation and apply it to work activities. 
+The person who is competent in this CA shall be able to adapt to HSE by executing 
+his/her duties while observing Health, Safety and Environment Rules and Regulations. 
+ 
+PENERANGAN/INFORMATION: 
+ 
+ 1.0 
+Introduction To Training And Supervision Of MachineOperators  
+ 
+The employer or person in control of the workplace must not let anyone use a machine 
+unless they have had training on:  
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+PUSAT PENTADBIRAN KERAJAAN 
+PERSEKUTUAN 
+62530 PUTRAJAYA 
+ 
+KERTAS PENERANGAN 
+( INFORMATION SHEET )
+
+===== PAGE 2 =====
+46 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+ 
+i. 
+the actual and potential hazards of the machine  
+ii. 
+all the precautions to be taken.  
+ 
+Unless the machine operator can operate the machine safely, then the employer or 
+person in control should have the operator closely supervised by someone with the 
+skills.  
+ 
+Employees must be supervised and trained by a competent person   
+When training people to use machinery, a trainer must explain:  
+i. 
+how to check and adjust the machine before starting it  
+ii. 
+how to stop and start the machine  
+iii. 
+how the machine works  
+iv. 
+what the machine does  
+v. 
+location and operation of other controls  
+vi. 
+actual and potential hazards and appropriate ways to control them  
+vii. 
+purpose of guards and other safety devices  
+viii. 
+correct use and adjustment of guards  
+ix. 
+correct work methods to be used  
+x. 
+how to recognise faults that could cause harm  
+xi. 
+limitations and capabilities of the machine  
+xii. 
+emergency procedures.  
+ 
+Take manufacturer’s instructions into consideration when developing training 
+programmes for operators.  
+Unless they are: 
+i. 
+in a public access area  
+ii. 
+under the direct supervision of an adult 
+iii. 
+on a guided tour of the area 
+iv. 
+in an area only used for the sale of goods or services.
+
+===== PAGE 3 =====
+47 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+ 
+2.0 
+Use of Machinery – The Employee  
+When using machinery an employee is responsible for:  
+i. 
+their own health and safety  
+ii. 
+not harming others through their actions or inaction  
+iii. 
+following any safe work procedures their employer has in place  
+iv. 
+identifying and reporting hazards – and controlling them where possible  
+v. 
+using all guarding  
+vi. 
+keeping their work areas clear, clean and tidy  
+vii. 
+wearing and using all protective equipment and clothing  
+viii. 
+alerting their supervisor to any machinery faults or maintenance needs  
+ix. 
+telling their supervisor about any illness or condition that could stop or limit 
+their  ability to work with machinery – to keep others safe and help 
+supervisors allocate work.  
+ 
+Machine operators should:  
+i. 
+check that the machinery they use is in sound working order  
+ii. 
+report immediately any problems to their supervisor  
+iii. 
+use any safety devices, guards, appliances, protective devices and any other 
+ methods used to make the machinery safe.  
+ 
+Where there is a risk of entanglement with machinery, people should:  
+i. 
+tie long hair back close to the head  
+ii. 
+not wear loose clothing.  
+ 
+3.0 
+Requirements for Safeguards 
+Safeguards must meet the following minimum general requirements to protect workers 
+against mechanical hazards:
+
+===== PAGE 4 =====
+48 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+Prevent contact. The safeguard must prevent hands, arms or any part of a worker’s body 
+or clothing from making contact with dangerous moving parts by eliminating the possibility 
+of the operators or other workers placing parts of their bodies near hazardous moving 
+parts. 
+Provide security. Workers should not be able to easily remove or tamper with the 
+safeguard. Guards and safety devices should be made of durable material that will 
+withstand the conditions of normal use and that are firmly secured to the machine. 
+Protect from falling objects. The safeguard should ensure that no objects can fall into 
+moving parts and damage the equipment or become a projectile that could strike and 
+injure someone. 
+Not create new hazards. A safeguard defeats its purpose if it creates a hazard of its own, 
+such as a shear point, a jagged edge or an unfinished surface. The edges of guards, for 
+example, should be rolled or bolted in such a way that they eliminate sharp edges. 
+Not create interference. Safeguards which impede workers from performing their jobs 
+might soon be overridden or disregarded. If possible, workers should be able to lubricate 
+machines without disengaging or removing safeguards. For example, locating oil 
+reservoirs outside the guard, with a line leading to the lubrication point, will reduce the 
+need to enter the hazardous area. 
+ 
+4.0 
+Safeguard Training 
+Even the most elaborate safeguarding system cannot offer effective protection unless 
+workers know how to use it and why. Specific and detailed training is an important part of 
+any effort to implement safeguarding against machine-related hazards. Proper 
+safeguarding may improve productivity and enhance efficiency since it may relieve 
+workers’ apprehensions about injury. Safeguard training is necessary for new operators 
+and maintenance or set-up personnel, when any new or altered safeguards are put in 
+service, or when workers are assigned to a new machine or operation; it should involve 
+instruction or hands-on training in the following: 
+i. 
+a description and identification of the hazards associated with particular machines 
+and the specific safeguards against each hazard
+
+===== PAGE 5 =====
+49 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+ii. 
+how the safeguards provide protection; how to use the safeguards and why 
+iii. 
+how and under what circumstances safeguards can be removed, and by whom (in 
+most cases, repair or maintenance personnel only) 
+iv. 
+what to do (e.g., contact the supervisor) if a safeguard is damaged, missing or 
+unable to provide adequate protection. 
+5.0 
+Methods Of Machine Safeguarding 
+There are many ways to safeguard machinery. The type of operation, the size or shape of 
+stock, the method of handling, the physical layout of the work area, the type of material 
+and production requirements or limitations will help to determine the appropriate 
+safeguarding method for the individual machine. The machine designer or safety 
+professional must choose the most effective and practical safeguard available. 
+Safeguards may be categorized under five general classifications: (1) guards, (2) devices, 
+(3) separation, (4) operations and (5) other. 
+5.1 
+Safeguarding with guards. 
+There are four general types of guards (barriers which prevent access to 
+danger areas), as follows: 
+Fixed guards. A fixed guard is a permanent part of the machine and is not 
+dependent upon moving parts to perform its intended function. It may be 
+constructed of sheet metal, screen, wire cloth, bars, plastic or any other material 
+that is substantial enough to withstand whatever impact it may receive and to 
+endure prolonged use. Fixed guards are usually preferable to all other types 
+because of their relative simplicity and permanence (see Table 1).
+
+===== PAGE 6 =====
+50 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+Method 
+Safeguarding action 
+Advantages 
+Limitations 
+Fixed 
+· Provides a barrier 
+· 
+Suits 
+many 
+specific 
+applications 
+· In-plant construction is 
+often 
+possible 
+· 
+Provides 
+maximum 
+protection 
+· Usually requires minimum 
+maintenance 
+· 
+Suitable 
+to 
+high 
+production, 
+repetitive operations 
+· 
+May 
+interfere 
+with 
+visibility 
+· 
+Limited 
+to 
+specific 
+operations 
+· Machine adjustment and 
+repair often require its 
+removal, 
+thereby 
+necessitating 
+other 
+means of protection for 
+maintenance  
+personnel 
+Interlocked 
+· 
+Shuts 
+off 
+or 
+disengages power and 
+prevents starting 
+of 
+machine when guard is 
+open; should require the 
+machine to be stopped 
+before the worker can 
+reach into the danger 
+area 
+· 
+Provides 
+maximum 
+protection 
+· Allows access to machine 
+for removing jams without 
+time-consuming removal of 
+fixed guards 
+· 
+Requires 
+careful 
+adjustment 
+and 
+maintenance 
+· 
+May 
+be 
+easy 
+to 
+disengage or bypass 
+Adjustable 
+· 
+Provides 
+a 
+barrier 
+which may be adjusted 
+to facilitate a variety of 
+production operations 
+· Can be constructed to 
+suit 
+many 
+specific applications 
+· Can be adjusted to admit 
+varying sizes of stock 
+· Operator may enter 
+danger 
+area: 
+protection may 
+not 
+be 
+complete 
+at 
+all times 
+· May require frequent 
+maintenance 
+and/or adjustment 
+· May be made ineffective 
+by 
+the 
+operator 
+· 
+May 
+interfere 
+with 
+visibility 
+Self-
+adjusting 
+· 
+Provides 
+a 
+barrier 
+which moves according 
+to the size of the stock 
+entering danger area 
+· Off-the-shelf guards are 
+commercially available 
+· Does not always provide 
+maximum 
+protection 
+· 
+May 
+interfere 
+with 
+visibility 
+· May require frequent 
+maintenance 
+and adjustment 
+Table 1: Machine guards
+
+===== PAGE 7 =====
+51 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+In figure 1, a fixed guard on a power press completely encloses the point of operation. The 
+stock is fed through the side of the guard into the die area, with the scrap stock exiting on 
+the opposite side. 
+ 
+Figure 1. Fixed guard on power press 
+Figure 2 depicts a fixed enclosure guard which shields the belt and pulley of a power 
+transmission unit. An inspection panel is provided on top to minimize the need for 
+removing the guard. 
+ 
+ 
+ 
+Figure 2. Fixed guard enclosing belts and pulleys
+
+===== PAGE 8 =====
+52 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+In figure 3, fixed enclosure guards are shown on a bandsaw. These guards protect 
+operators from the turning wheels and moving saw blade. Normally, the only time the 
+guards would be opened or removed would be for a blade change or for maintenance. It is 
+very important that they be securely fastened while the saw is in use. 
+ 
+Figure 3. Fixed guards on band-saw 
+Interlocked guards. When interlocked guards are opened or removed, the tripping 
+mechanism and/or power automatically shuts off or disengages, and the machine cannot 
+cycle or be started until the interlock guard is back in place. However, replacing the 
+interlock guard should not automatically restart the machine. Interlocked guards may use 
+electrical, mechanical, hydraulic or pneumatic power, or any combination of these. 
+Interlocks should not prevent “inching” (i.e., gradual progressive movements) by remote 
+control, if required. 
+An example of an interlocking guard is shown in figure 4. In this figure, the beater 
+mechanism of a picker machine (used in the textile industry) is covered by an interlocked 
+barrier guard. This guard cannot be raised while the machine is running, nor can the 
+machine be restarted with the guard in the raised position.
+
+===== PAGE 9 =====
+53 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+ 
+Figure 4. Interlocked guard on picker machine 
+ 
+Adjustable guards. Adjustable guards allow flexibility in accommodating various sizes of 
+stock. Figure 5 shows an adjustable enclosure guard on a band-saw. 
+ 
+Figure 5. Adjustable guard on band-saw
+
+===== PAGE 10 =====
+54 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+Self-adjusting guards. The openings of self-adjusting guards are determined by the 
+movement of the stock. As the operator moves the stock into the danger area, the guard is 
+pushed away, providing an opening which is large enough to admit only the stock. After 
+the stock is removed, the guard returns to the rest position. This guard protects the 
+operator by placing a barrier between the danger area and the operator. The guards may 
+be constructed of plastic, metal or other substantial material. Self-adjusting guards offer 
+different degrees of protection. 
+Figure 6 shows a radial-arm saw with a self-adjusting guard. As the blade is pulled across 
+the stock, the guard moves up, staying in contact with the stock. 
+ 
+Figure 6. Self-adjusting guard on radial-arm saw 
+ 
+5.2  
+Safeguarding with devices 
+Safety devices may stop the machine if a hand or any part of the body is inadvertently 
+placed in the danger area, may restrain or withdraw the operator’s hands from the 
+danger area during operation, may require the operator to use both hands on machine 
+controls simultaneously (thus keeping both hands and body out of danger) or may 
+provide a barrier which is synchronized with the operating cycle of the machine in order 
+to prevent entry to the danger area during the hazardous part of the cycle. There are 
+five basic types of safety devices, as follows:
+
+===== PAGE 11 =====
+55 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+5.3  
+Presence-sensing devices 
+Three types of sensing devices which stop the machine or interrupt the work cycle or 
+operation if a worker is within the danger zone are described below: 
+The photoelectric (optical) presence-sensing device uses a system of light sources 
+and controls which can interrupt the machine’s operating cycle. If the light field is 
+broken, the machine stops and will not cycle. This device should be used only on 
+machines which can be stopped before the worker reaches the danger area. Figure 
+7 shows a photoelectric presence-sensing device used with a press brake. The device 
+may be swung up or down to accommodate different production requirements. 
+ 
+Figure 7. Radio-frequency presence-sensing device on power saw 
+ 
+The radio-frequency (capacitance) presence-sensing device uses a radio beam that 
+is part of the control circuit. When the capacitance field is broken, the machine will 
+stop or will not activate. This device should be used only on machines which can be 
+stopped before the worker can reach the danger area. This requires the machine to 
+have a friction clutch or other reliable means for stopping. Figure 8 shows a radio-
+frequency presence-sensing device mounted on a part-revolution power press.
+
+===== PAGE 12 =====
+56 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+ 
+Figure 8 Radio-frequency presence-sensing device mounted on a part-revolution power 
+press. 
+The electro-mechanical sensing device has a probe or contact bar which descends to a 
+predetermined distance when the operator initiates the machine cycle. If there is an 
+obstruction preventing it from descending its full predetermined distance, the control circuit 
+does not actuate the machine cycle. Figure 9 shows an electro-mechanical sensing device 
+on an eyeletter. The sensing probe in contact with the operator’s finger is also shown. 
+ 
+Figure 9. Electromechanical sensing device on eye-letter machine
+
+===== PAGE 13 =====
+57 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+5.3 
+Pullback devices 
+Pullback devices utilize a series of cables attached to the operator’s hands, wrists 
+and/or arms and are primarily used on machines with stroking action. When the 
+slide/ram is up, the operator is allowed access to the point of operation. When the 
+slide/ram begins to descend, a mechanical linkage automatically assures 
+withdrawal of the hands from the point of operation. Figure 10 shows a pullback 
+device on a small press. 
+ 
+Figure 10. Pullback device on power press
+
+===== PAGE 14 =====
+58 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+Method 
+Safeguarding action 
+Advantages 
+Limitations 
+Photoelectric  
+(optical) 
+· Machine will not 
+start cycling when the 
+light field is 
+interrupted 
+· When the light field 
+is broken by any part 
+of the operator’s body 
+during the cycling 
+process, immediate 
+machine braking is 
+activated 
+Can allow freer 
+movement for 
+operator 
+· Does not protect 
+against mechanical 
+failure 
+· May require frequent 
+alignment 
+and calibration 
+· Excessive vibration 
+may cause lamp 
+filament damage and 
+premature burnout 
+· Limited to machines 
+that can be 
+stopped without 
+completing cycle 
+Radio 
+frequency  
+(capacitance) 
+· Machine cycling will 
+not start when the 
+capacitance field is 
+interrupted 
+· When the 
+capacitance field is 
+disturbed by any part 
+of the operator’s 
+body during the 
+cycling process, 
+immediate machine 
+braking is activated 
+Can allow freer 
+movement for 
+operator 
+· Does not protect 
+against mechanical 
+failure 
+· Antenna sensitivity 
+must be 
+properly adjusted 
+· Limited to machines 
+that can be 
+stopped without 
+completing cycle 
+Electro-mechanical 
+· Contact bar or probe 
+travels 
+a predetermined 
+distance between 
+the operator and the 
+danger area 
+· Interruption of this 
+movement 
+prevents the starting 
+of machine cycle 
+Can allow access at 
+the point of operation 
+· Contact bar or probe 
+must be 
+properly adjusted for 
+each application; 
+this adjustment must 
+be maintained 
+properly 
+Pullback 
+· As the machine 
+begins to cycle, 
+the operator’s hands 
+are pulled out of 
+the danger area 
+· Eliminates the need 
+for auxiliary 
+barriers or other 
+interference at the 
+danger area 
+· Limits movement of 
+operator 
+· May obstruct 
+workspace around 
+operator 
+· Adjustments must 
+be made for 
+specific operations 
+and for each 
+individual 
+· Requires frequent 
+inspections and 
+regular maintenance 
+· Requires close 
+supervision of the 
+operator’s use of the 
+equipment
+
+===== PAGE 15 =====
+59 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+Method 
+Safeguarding action 
+Advantages 
+Limitations 
+Safety trip controls: 
+· Pressure-sensitive 
+body bar 
+· Safety trip-rod 
+· Safety tripwire 
+· Stops machine when 
+tripped 
+· Simplicity of use 
+· All controls must be 
+manually activated 
+· May be difficult to 
+activate controls 
+because of their 
+location 
+· Protects only the 
+operator 
+· May require special 
+fixtures to hold work 
+· May require a 
+machine brake 
+Two-hand control 
+· Concurrent use of 
+both hands 
+is required, preventing 
+the operator from 
+entering the danger 
+area 
+· Operator’s hands are 
+at a 
+predetermined location 
+away from danger 
+area 
+· Operator’s hands are 
+free to pick up a 
+new part after first half 
+of cycle is completed 
+· Requires a partial 
+cycle machine with a 
+brake 
+· Some two-hand 
+controls can be 
+rendered unsafe by 
+holding with arm or 
+blocking, thereby 
+permitting one-hand 
+operation 
+· Protects only the 
+operator 
+Two-hand trip 
+· Concurrent use of 
+two hands 
+on separate controls 
+prevent hands 
+from being in danger 
+area when 
+machine cycle starts 
+· Operator’s hands are 
+away from danger 
+area 
+· Can be adapted to 
+multiple operations 
+· No obstruction to 
+hand feeding 
+· Does not require 
+adjustment for 
+each operation 
+· Operator may try to 
+reach into danger 
+area after tripping 
+machine 
+· Some trips can be 
+rendered unsafe 
+by holding with arm or 
+blocking, 
+thereby permitting 
+one-hand operation 
+· Protects only the 
+operator 
+· May require special 
+fixtures 
+Gate 
+· Provides a barrier 
+between danger area 
+and operator or other 
+personnel 
+· Can prevent reaching 
+into or walking into the 
+danger area 
+· May require frequent 
+inspection and 
+regular maintenance 
+· May interfere with 
+operator’s ability to 
+see the work 
+Table 2. Devices
+
+===== PAGE 16 =====
+60 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(3/5) 
+MukaSurat / Page :   
+Drpd / of:  16 
+SOALAN/QUESTION : 
+ 
+1. What requirement of safeguards?  
+.................................................................................................................................... 
+.................................................................................................................................... 
+ 
+ 
+2. Why we need to safeguard any machinery required guarding? 
+.................................................................................................................................... 
+.................................................................................................................................... 
+ 
+3. Explain three (3) general types of guards? 
+.................................................................................................................................... 
+.................................................................................................................................... 
+ 
+ 
+RUJUKAN / REFERENCES: 
+ 
+1. Occupational Safety and Health Act 1994, (2010) Malaysia, PenerbitanAkta (M), ISBN-978-967-576-9221. 
+2. Chessebro T.; O’Connor L.; Rios F., (2009), Communicating in the Workplace. Prentice Hall. ISBN-13 
+978-0136136910. 
+3. Vergo P., (1974). Health and Safety at Work etc Act 1974, (Public General Acts – Elizabeth II), TSO. 
+ISBN-13 978-0105437741 
+4. Health and Safety Executive, (1998), Workplace Health, Safety and Welfare: Workplace (Health, Safety 
+and Welfare) Regulations 1992- Approved Code of Practice and Guidance (Health and Safety 
+Commission). HSE Books. ISBN-13 978-0717604135. 
+5. HSE, (2014). Health and Safety Guidance. HSE Book. ISBN 9780717665877.

@@ -1,0 +1,724 @@
+# Z-009-3-2015\CA6 HSE CONSCIOUSNESS\Kertas Penerangan 6.1b.pdf
+
+===== PAGE 1 =====
+22 
+ 
+ 
+ 
+        
+ 
+KOD DAN NAMA  
+PROGRAM /  
+PROGRAM’S CODE AND 
+NAME 
+Z-009-3:2015CORE ABILITIES 
+TAHAP / LEVEL 
+3 (THREE) 
+NO. DAN TAJUK 
+KEBOLEHAN TERAS / 
+CORE ABILITY NO. AND 
+TITLE 
+ 
+CA06 HEALTH, SAFETY AND ENVIRONMENTAL 
+ 
+IMPLEMENT CONSCIOUSNESS 
+ 
+NO. DAN PENYATAAN 
+KEBOLEHAN / 
+ABILITY NO. AND 
+STATEMENT 
+6.1 EXECUTE HEALTH CONSCIOUSNESS  
+6.2 EXECUTE SAFETY CONSCIOUSNESS  
+6.3 EXECUTE ENVIRONMENT COMPLIANCE 
+NO. KOD  /CODE NO. 
+ 
+Z-009-3:2015–M06/P(2/4) 
+ 
+Mukasurat/ Page : 22 
+Drpd / of    : 17 
+ 
+ 
+TAJUK/TITLE:  
+SAFETY AND HEALTH SYSTEM MONITORING 
+ 
+ 
+TUJUAN/PURPOSE: 
+This Information Sheet is intended to describe on the Occupational Safety and Health 
+(OSH) Act, Industrial Code of Practise (ICOP) and Guidelines. The person who is 
+competent in Health, safety and environmental consciousness shall be able to execute 
+health consciousness, execute safety consciousness and execute environment 
+compliance. The person who is competent in this CA shall be able to execute his/her job 
+functions in accordance to the requirements of health, safety and environment rules and 
+regulations. 
+ 
+ 
+ JABATAN PEMBANGUNAN KEMAHIRAN 
+ KEMENTERIAN SUMBER MANUSIA 
+ ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+ PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN 
+ 62530 PUTRAJAYA 
+ KERTAS PENERANGAN  
+(INFORMATION SHEET)
+
+===== PAGE 2 =====
+23 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+ 
+PENERANGAN/INFORMATION: 
+ 
+1. Safety And Health Risk Control 
+The most important step in managing risks involves eliminating them so far as is 
+reasonably practicable, or if that is not possible, minimizing the risks so far as is 
+reasonably practicable. In deciding how to control risks you must consult your workers and 
+their representatives who will be directly affected by this decision. Their experience will 
+help you choose appropriate control measures and their involvement will increase the 
+level of acceptance of any changes that may be needed to the way they do their job. 
+ 
+There are many ways to control risks. Some control measures are more effective than 
+others. You must consider various control options and choose the control that most 
+effectively eliminates the hazard or minimizes the risk in the circumstances. This may 
+involve a single control measure or a combination of different controls that together 
+provide the highest level of protection that is reasonably practicable. 
+ 
+Some problems can be fixed easily and should be done straight away, while others will 
+need more effort and planning to resolve. Of those requiring more effort, you should 
+priorities areas for action, focusing first on those hazards with the highest level of risk. 
+ 
+1.1 The Hierarchy Of Risk Control 
+ 
+The ways of controlling risks are ranked from the highest level of protection and 
+ 
+reliability to the lowest as shown in Figure 1. This ranking is known as the hierarchy of 
+ 
+risk control. The duty holders need to work through this hierarchy when managing risk.
+
+===== PAGE 3 =====
+24 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+ 
+Figure 1:The hierarchy of risk control 
+ 
+You must always aim to eliminate a hazard, which is the most effective control. If this 
+is not reasonably practicable, you must minimize the risk by working through the other 
+alternatives in the hierarchy. 
+ 
+ 
+LEVEL 1 CONTROL MEASURES 
+ 
+The most effective control measure involves eliminating the hazard and associated 
+risk. The best way to do this is by, firstly, not introducing the hazard into the workplace. 
+For example, you can eliminate the risk of a fall from height by doing the work at 
+ground level. 
+ 
+Eliminating hazards is often cheaper and more practical to achieve at the design or 
+planning stage of a product, process or place used for work. In these early phases, 
+there is greater scope to design out hazards or incorporate risk control measures that 
+are compatible with the original design and functional requirements. For example, a 
+noisy machine could be designed and built to produce as little noise as possible, which 
+is more effective than providing workers with personal hearing protectors.  
+ 
+You can also eliminate risks by removing the hazard completely, for example, by 
+removing trip hazards on the floor or disposing of unwanted chemicals. It may not be 
+possible to eliminate a hazard if doing so means that you cannot make the end product
+
+===== PAGE 4 =====
+25 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+or deliver the service. If you cannot eliminate the hazard, then eliminate as many of the 
+risks associated with the hazard as possible. 
+ 
+ 
+LEVEL 2 CONTROL MEASURES 
+ If it is not reasonably practicable to eliminate the hazards and associated risks, you 
+should minimize the risks using one or more of the following approaches: 
+i) Substitute the hazard with something safer 
+ 
+ 
+For instance, replace solvent-based paints with water-based ones. 
+ii) Isolate the hazard from people 
+ 
+ 
+This involves physically separating the source of harm from people by distance or 
+ 
+ 
+using barriers. For instance, install guard rails around exposed edges and holes in 
+ 
+ 
+floors; use remote control systems to operate machinery; store chemicals in a fume 
+ 
+ 
+cabinet. 
+iii) Use engineering controls 
+ 
+An engineering control is a control measure that is physical in nature, including a 
+mechanical device or process. For instance, use mechanical devices such as 
+trolleys or hoists to move heavy loads; place guards around moving parts of 
+machinery; install residual current devices (electrical safety switches); set work 
+rates on a production line to reduce fatigue. 
+ 
+LEVEL 3 CONTROL MEASURES 
+These control measures do not control the hazard at the source. They rely on human 
+behaviour and supervision, and used on their own, tend to be least effective in 
+minimizing risks. Two approaches to reduce risk in this way are: 
+i) Use administrative controls 
+Administrative controls are work methods or procedures that are designed to 
+minimize exposure to a hazard. For instance, develop procedures on how to 
+operate machinery safely, limit exposure time to a hazardous task, and use signs to 
+warn people of a hazard. 
+ii) Use personal protective equipment (PPE)
+
+===== PAGE 5 =====
+26 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+Examples of PPE include ear muffs, respirators, face masks, hard hats, gloves, 
+aprons and protective eyewear. PPE limits exposure to the harmful effects of a 
+hazard but only if workers wear and use the PPE correctly. 
+ 
+ 
+2. Method Of Supervision Work Instruction, Safe Operating Procedure And 
+Emergency Response Plan 
+Supervision is a fundamental safety function applicable within all levels of an organisation. 
+It complements the provision of information, instruction and training, and influences how 
+well organisations achieve the safety and health objectives. Effective supervision sets and 
+maintains high standards of performance and the physical aspects of the work 
+environment, and is critical to achieving and maintaining the desired safety culture. 
+Effective management and supervision can only be achieved through a multi-tiered, team 
+approach where each level of the organisation plays a part in implementing the overall 
+safe systems of work. Supervisors depend on direction and support from middle and 
+senior management, as well as the involvement of the workers and contractors they direct. 
+ 
+ 
+Supervisors have in the area of occupational safety and health for all employees 
+under their supervision establishing safety rules and safe working procedures. Train and 
+instruct employees so they can perform their work safely. Know what personal protective 
+equipment is needed for each task and how this equipment must be properly used, stored 
+and maintained. When there are mandated safety training courses, ensure that your 
+employees take them and that they are appropriately documented. 
+ 
+ 
+It's the supervisor’s responsibility to enforce safe work practices and procedures; 
+failure to do so is an invitation for accidents to occur. Workers must be encouraged to 
+identify unsafe or unhealthful workplace conditions or hazards and absolutely not be 
+disciplined for doing so. 
+ 
+3.   
+Permit To Work System (PTW) 
+A PTW system is a formal written system used to control certain types of work which are 
+identified as potentially hazardous. It is also a means of communication between 
+site/installation management, plant supervisors and operators and those who carry out the 
+work. Essential features of PTW system are:
+
+===== PAGE 6 =====
+27 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+i) clear identification of who may authorize particular jobs (and any limits to their 
+authority) and who is responsible for specifying the necessary precautions 
+ii) training and instruction in the issue and use of permits 
+iii) monitoring and auditing to ensure that the system works as intended. 
+The terms “P.T.W”, “permit” or “work permit” refer to the certificate or form which is used 
+as part of an overall system of work and which has been devised by a company to meet its 
+specific needs. A P.T.W system aims to ensure that proper planning and consideration is 
+given to the risks of a particular job. The permit is a written document which authorises 
+certain people to carry out specific work, at a certain time and place, and which sets out 
+the main precautions needed to complete the job safely. 
+The objectives and functions of such a system can be summarised: 
+i) ensuring the proper authorization of designated work. This may be work of certain 
+types, or work of any type within certain designated areas, other than normal 
+operations 
+ii) making clear to people carrying out the work the exact identity, nature and extent of 
+the job and the hazards involved, and any limitations on the extent of the work and 
+the time during which the job may be carried out 
+iii) specifying the precautions to be taken including safe isolation from potential risks 
+such as hazardous substances and energy sources 
+iv) ensuring that the person in charge of a unit, plant or installation is aware of all the 
+work being done there 
+v) providing not only a system of continuous control but also a record showing that the 
+nature of the work and the precautions needed have been checked by an 
+appropriate person or people 
+vi)  providing for the suitable display of permits 
+vii)  providing a procedure for times when work has to be suspended, ie stopped for a 
+period before it is complete 
+viii)providing for the procedures or arrangements for work activities that may interact 
+with or affect any of these activities 
+ix) providing a formal hand-over procedure for use when a permit is issued for a period 
+longer than one shift or when permit signatories change
+
+===== PAGE 7 =====
+28 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+x) providing a formal hand-back procedure to ensure that any part of the plant affected 
+by the work is in a safe condition and ready for reinstatement. 
+ 
+3.1  
+Application of PTW System 
+ Permits to Work should be considered whenever it is intended to carry out any work 
+which may adversely affect the safety of personnel, the environment or the plant. They 
+are normally considered to be more appropriate to non-routine activities which may 
+require some form of Job Safety Analysis prior to work commencing. There will, 
+however, be activities closely related to plant operations where P.T.W systems will be 
+required. Maintenance work carried out by plant operators, for instance, should be 
+subject to P.T.W procedures. It is also advisable to use a P.T.W system when two or 
+more individuals or groups or people, perhaps from different trades or different 
+contractors, need to co-ordinate their activities to ensure that their work is completed 
+safely. This will apply equally when there is a transfer of work and responsibilities from 
+one group to another. It is suggested that companies assess the risk of their activities 
+and list specific operations and types of work which should be subject to P.T.W 
+systems. It is not intended that P.T.W procedures be applied to all activities as 
+experience has shown that their overall effectiveness may be weakened. It is very 
+important for clear understanding by personnel moving from site to site, (especially 
+contractors), that P.T.W systems are, as far as possible, harmonised between the 
+different locations of the same Company. It is in any event essential that anybody 
+starting work is familiar with the local instructions detailing when and how P.T.W 
+systems are to be applied at a particular location. 
+ 
+3.2  Principal Responsibilities of PTW System 
+Several individuals/organisations will have specific duties which should be defined in 
+the P.T.W. procedures. Principal responsibilities are identified below. 
+i) Installation owners should ensure: 
+a) an appropriate P.T.W system is introduced 
+b) training programmes and competence standards are established and 
+maintained
+
+===== PAGE 8 =====
+29 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+c) monitoring/auditing/reviewing of the P.T.W. system is established and 
+maintained 
+ii) The Installation Manager should ensure that: 
+a) all personnel who operate and use the P.T.W. system are competent to do 
+so 
+b) the planning, issue and return of permits is properly co-ordinated 
+c) a secure method of electrical and process/mechanical isolations is 
+implemented 
+d) adequate time is allowed during shift changes to ensure effective transfer of 
+information on outstanding permits 
+e) the system is regularly monitored to ensure that the P.T.W system is 
+implemented effectively. 
+iii)  
+Contractor’s management should ensure that: 
+a) they are informed of and understand the broad principles of the P.T.W 
+system for the locations where their employees are to work 
+b) their employees have been given the appropriate training and understand 
+the operation of the P.T.W system and their specific responsibilities within it 
+c) they monitor the training of their employees. 
+iv)  
+The person who issues a permit should ensure that: 
+a) the nature of the work is fully understood 
+b) all the hazards associated with the job are identified 
+c) all the necessary precautions are implemented, including isolations, before 
+work begins 
+d) all people who may be affected by the work are informed before the work 
+begins, when the work is suspended and when the work is complete 
+e) permits for tasks that may interact are cross-referenced 
+f) that effective arrangements are made for the work site to be examined 
+before work begins, on completion of work and as appropriate when work is 
+suspended
+
+===== PAGE 9 =====
+30 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+g) sufficient time is spent on shift handover to discuss all ongoing or suspended 
+permits with the oncoming permit issuer. 
+v)  
+Supervisors (or person in charge of the work) should ensure that: 
+a) they have received training in the P.T.W system as applied in that particular 
+location 
+b) the people working for them have received adequate instruction in the 
+system 
+c) they discuss the job fully with the person issuing the permit 
+d) the permit is posted at the work site 
+e) the work party is briefed on the details of the permit including any potential 
+hazards, and on all the precautions taken or to be taken 
+f) the precautions are maintained throughout the work activity 
+g) the worker understands that if circumstances change work must be stopped 
+and advice sought 
+h) the work group stays within the limitations set on the permit (physical 
+boundaries, type of work and validity time) 
+i) on completion or suspension of the work the site is left in a safe condition 
+and the permit issuer is informed.  
+vi)  
+Individuals working within the P.T.W system should ensure that: 
+a) they have received instruction and have a good understanding of the P.T.W. 
+system at the installation where they work 
+b) they do not start any work requiring a permit, until it has been properly 
+authorised and issued 
+c) they receive a briefing from the supervisor on the particular task and they 
+understand the hazards and the precautions taken or to be taken 
+d) they follow the instructions specified in the permit 
+e) when they stop work, the site and any equipment they are using is left in a 
+safe condition 
+f) if in any doubt or if circumstances change, they must stop work and consult 
+with their supervisor.
+
+===== PAGE 10 =====
+31 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+ 
+3.3  Considerations When Using A Safe Work Permit 
+A safe work permit should only be issued by a competent person who is completely 
+familiar with the work or situation covered by the permit and who has control over 
+changes in that work area e.g. lead  operator or supervisor. The permit issuer must be 
+sure that the identified on the permit is as described. Where possible, the permit issuer 
+should review he work or operation with the worker before work begins. If the permit 
+issuer has not reviewed the site, this should be noted on the permit and the work 
+situation should be discussed with the worker. Written instructions alone are often 
+insufficient in the effective use of a permit system.  
+ Practical training exercises for the people who issue and receive permits should be 
+considered. The person receiving the permit must completely understand the work 
+situation, the potential hazards, and the precautions required before accepting the 
+permit. Any special precautions not normally associated with the particular work should 
+be identified to the receiver of the permit, who must fully understand the reasons for 
+these precautions e.g. work to be done in an area where there is a possible exposure 
+to H2S gas.  
+ The permit issuer must be sure that the worker understands the hazards. If not, the 
+permit issuer needs to review the Material Safety Data Sheet or other information with 
+the worker to ensure that they understand the dangers of  the product and the 
+precautions to be taken. No one should sign a safe work permit unless completely 
+satisfied that the work can be done safely. All safe work permits must be signed by 
+both the permit receiver and the permit issuer before work is started and after it is 
+completed.  
+ 
+3.4 Pitfalls Of Work Permits  
+ Workers and supervisors do not always see the need for a safe work permit system. 
+They have not been trained to recognize the added safeguards that such a program 
+provides.  
+ 
+Factors leading to ineffective work permit systems are:  
+i) The type or format of the permit does not cover all the potential hazards.  
+ii) The issuing procedure is inadequate.
+
+===== PAGE 11 =====
+32 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+iii) The person signing the permit has not inspected the operation to see if the 
+isolation, lock-out, or testing has been done.  
+iv) Workers are not following or don’t understand the requirements of the permit, 
+especially the expiry time.  
+v) The employer is not enforcing or  auditing the work permit system.  
+vi) Permits are prepared too far in advance, or after the work have begun.  
+vii) A responsible person is not inspecting the operation after the permit has been 
+issued. 
+viii)The system is too complex.  
+ All workers using permits must completely understand the reasons for, and the 
+requirements of, the permit before work begins. A safe work permit is an effective tool 
+to help identify and control hazards, prevent injuries, and avoid costly mistakes. 
+ 
+4.  Workplace Inspection Checklist 
+Effective safety and health inspections are one of the most important incident/accident 
+prevention tools in a company’s safety and health program. Using properly trained 
+inspectors in a planned inspection program will reduce incidents and property damage. An 
+effective safety inspection program will improve worker communication, company morale 
+and, over time, save the employer money. 
+ 
+Too often, safety inspections are aimed primarily at finding and recording unsafe 
+conditions. This narrow focus tends to ignore other causes of incidents, such as unsafe 
+actions and personal factors. In addition, workers and supervisors are generally well 
+aware of the inspection teams arrival a day or two before the inspection. This warning 
+system sometimes creates a preparatory atmosphere before the inspectors arrive. That 
+means the inspectors often observe the workplace and those within it only on a superficial 
+basis. The result is that safety inspectors rarely see the actual situations that are causing 
+the incidents, injuries and property damage. In order for your inspection team to be 
+effective, they must inspect the workplace in its day-to-day status. They must see the 
+activities and the conditions in which incidents, injuries and property damage occur. 
+ 
+An inspection program takes planning, preparation and training. For inspectors to do a 
+good job, they must receive training in what to look for and what to look at. There must be 
+a guidance system in place to maintain consistency of inspections. A provision for
+
+===== PAGE 12 =====
+33 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+recording and reporting any deficiencies to management, the safety committee and 
+supervisors. The last part of the system should provide a means of follow up and the 
+monitoring of any deficiencies identified. 
+ 
+ 
+ 
+4.1 Preparing For An Inspection 
+ Safety and health inspection programs require planning. It is important that employers 
+have adequate policies and procedures in establishing their safety inspection 
+programs. Responsibility and accountability must be assigned, identifying who 
+inspectors are and when inspections will be done. The primary focus of this program 
+should be accident prevention, through the maintenance of safe working conditions 
+and the removal of any potential hazards that arise in the workplace. 
+  Good inspection programs will also identify the items to be inspected and then set 
+standards to be maintained in the workplace by supervision and workers. The program 
+should include a system that will record inspections done and ensure that any 
+problems identified are corrected by a responsible person who has the ability to carry 
+out the necessary changes. A follow-up system, through the safety committee and 
+management, should be employed to ensure that all items are followed up and 
+corrected. Once the inspection program is in place, the safety program should provide 
+a means of monitoring it to see if trends arise that may be contributing to the 
+company’s accident or injury problems. 
+ 
+4.2 Meeting The Legal Requirement 
+ The Safety and Health Committee Regulations 1996 applies to all employers and 
+safety and health committee. Regulation 12 of this regulation require a safety and 
+health committee shall inspect the place of work at least once in every 3 months to 
+ascertain if there is anything prejudicial to the safety & health of persons employed 
+therein. Discuss the observations and keep proper records. Make recommendations to 
+the employer on the remedial measures. 
+ 
+4.3 Developing an Inspection Program
+
+===== PAGE 13 =====
+34 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+ The regulations tell us that we are to inspect for ‘hazardous conditions, unsafe actions 
+or work methods’. These are only the general requirements and will require further 
+detail from employers identifying the safe conditions, actions and work methods for 
+their workplace. 
+ Employers must develop their own standards and procedures of work to meet the 
+requirements of the applicable regulatory, industry, and manufacturers’ standards for 
+their workplace. They are to develop procedures of work methods for hazardous jobs 
+that their workers may encounter such as lockout, confined space work, emergency 
+procedures and so on. Employers must maintain safe working conditions and 
+practices. 
+ The extent to which a person can carry out an effective inspection depends upon their 
+ability to identify hazards. Inspectors should be provided with a reference to follow 
+during their inspections. 
+ 
+4.4 Using Checklists 
+ Many companies use a checklist to ensure consistent and comprehensive inspections 
+each time they are done. Appropriate checklists are developed for each job site and 
+provide a guide to the various standards expected to be in place. A Checklist should 
+inform inspectors what to look at and what to look for. 
+i) What should we be looking at? 
+• 
+Consider the following in the development of your checklists and guidelines: 
+• 
+plant or job site layout (areas where work activities take place) 
+• 
+building-structure 
+• 
+basic floor plan layouts with equipment and machinery 
+• 
+maintenance periods-shift work 
+• 
+start up and shut down times 
+• 
+hazardous substances used in the workplace 
+• 
+storage areas exits 
+ii) What are we looking for? 
+Operating standards or requirements within these areas:
+
+===== PAGE 14 =====
+35 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+• 
+legal requirements (OH&S Regulation, fire regulations, boiler pressure 
+vessel, elevating devices etc.) 
+• 
+company rules/regulations 
+• 
+manufacturers’ specifications and instructions (forklifts, maintenance and 
+operating procedures) 
+• 
+personal protective equipment required (headgear, footwear, gloves, 
+respirators, locks) 
+• 
+engineering controls(ventilation, guards etc.) 
+• 
+emergency procedures (fire, evacuation etc.) 
+• 
+first aid services and supplies. 
+ 
+Look at known problem areas and review records on the following: 
+• 
+accident investigations 
+• 
+first aid record books 
+• 
+worker complaints and reports on hazards in the workplace 
+• 
+recommendations made by safety and health committees 
+• 
+previous inspections (including fire marshal, etc.) 
+• 
+maintenance reports 
+• 
+what controls are used to ensure safe work practices and maintain 
+conditions? 
+ 
+Workplace floor plans should be referenced during the planning stages of any 
+checklist. They should include information that will indicate locations of previous 
+incidents, hazardous work areas, health hazard areas, and any relative information 
+that would assist in the development of a checklist. 
+ 
+4.5 Monitoring 
+ Information obtained from your inspection reports should be reviewed and become 
+part of your OH&S program records and statistics. Joint health and safety committees
+
+===== PAGE 15 =====
+36 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+and Worker health and safety representatives should review each inspection report to 
+identify any trends that may be developing in the workplace. A proper analysis over 
+time may reveal: 
+• 
+a need for training in certain areas 
+• 
+why incidents are occurring in certain areas 
+• 
+the need to establish priorities for corrective action 
+• 
+a need to develop or improve safe work practices 
+• 
+problem areas that may require more hazard analysis. 
+ 
+5. Toolbox Meeting 
+Toolbox meetings are a conduit for information and provide workers with the opportunity to 
+have their say about hazards/controls, incidents/accidents, work processes and company 
+procedures. Toolbox meetings should be run on a regular basis; the frequency of 
+meetings will depend on the size, nature and location of the site. Some hazardous 
+activities could require daily meetings, while often a weekly/fortnightly meeting will suffice. 
+ 
+5.1 Why do we run Safety Meetings?  
+i) Inform workers of changes to company procedures  
+ii) Identify new hazards and review existing hazards  
+iii) Develop/review hazard controls  
+iv) Discuss/review accident and incident data  
+v) Employee participation  
+vi) Communication  
+vii) Discuss programme 
+viii)Develop/review work processes  
+ix) Short training sessions.  
+ 
+5.2 Structure of Meetings
+
+===== PAGE 16 =====
+37 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+Safety meetings for workers should be short and to the point. Meeting on a regular 
+basis and running for 10-15 minutes is an ideal way to involve workers and make the 
+most effective impact. Monday morning is an ideal time to run the meeting as workers 
+can be briefed on the weeks programme and review the previous week’s activities. 
+Depending on the nature of the business it is advisable to conduct an inspection of the 
+work area prior to a meeting to help identify any problems and to assist with topical 
+items for discussion.  Details of meetings should be recorded and kept on file. It is 
+important to record meeting dates, attendees and discussion items, even follow up 
+items from hazards, accidents and incidents.  Managers and supervisors will normally 
+run the safety meeting but workers can also assist in the process. It is a good idea to 
+use trainees or young workers to conduct inspections and run meetings as they are 
+the future managers, they are not biased by entrenched behaviours and it gives them 
+a good grounding in the hazard management process. 
+ 
+5.3  Topics for Discussion 
+Discussion points at safety meetings should be topical and relevant to current or 
+upcoming activities in the workplace.  Topical items for discussion can be identified by 
+asking workers for input, changes in the plant or work process or work environment, or 
+in response to accidents/incidents in the workplace.   
+Listed below are some suggested topics for discussion:  
+i) What items would workers like to discuss?  
+ii) Introduction of new plant or processes  
+iii) Development of  task analysis or methodologies  
+iv) Changes in season e.g. sun smart, dehydration  
+v) Use of plant  
+vi) Handling of materials  
+vii) Identifying training requirements.
+
+===== PAGE 17 =====
+38 
+ 
+NO. KOD  /CODE NO. 
+Z-009-3:2015–M06/P(2/4) 
+MukaSurat / Page :  
+Drpd/ of:  17 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SOALAN/QUESTION : 
+ 
+1. Explain the risk control hierarchy 
+.................................................................................................................................... 
+.................................................................................................................................... 
+ 
+ 
+2. What are essential features of PTW system? 
+.................................................................................................................................... 
+.................................................................................................................................... 
+ 
+3. List the causes of work permits to be ineffective 
+.................................................................................................................................... 
+.................................................................................................................................... 
+ 
+ 
+RUJUKAN / REFERENCES: 
+ 
+1. Factories and Machinery Act 1967 and Regulations, Pindaan Ogos 2008, ISBN 
+967701156-1 
+2. Occupational Safety and Health Act 1994 and Regulation, (2009) Malaysia, Penerbitan 
+Akta (M), ISBN-967701188-X. 
+3. Garis Panduan bagi Pengenalpastian Hazard, Penaksiran Risiko dan Kawalan Risiko 
+(HIRARC), ISBN 978-983-201

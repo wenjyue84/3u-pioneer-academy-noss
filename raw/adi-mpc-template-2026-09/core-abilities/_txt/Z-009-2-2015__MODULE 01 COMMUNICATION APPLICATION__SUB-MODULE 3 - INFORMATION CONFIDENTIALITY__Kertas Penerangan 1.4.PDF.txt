@@ -1,0 +1,367 @@
+# Z-009-2-2015\MODULE 01 COMMUNICATION APPLICATION\SUB-MODULE 3 - INFORMATION CONFIDENTIALITY\Kertas Penerangan 1.4.PDF
+
+===== PAGE 1 =====
+1 
+ 
+ 
+         
+ 
+KOD DAN NAMA  
+PROGRAM /  
+PROGRAM CODE AND 
+NAME 
+ Z-009-2: 2015  CORE ABILITIES 
+TAHAP / LEVEL 
+2 (TWO) 
+NO. DAN TAJUK 
+KEBOLEHAN TERAS /  
+CORE ABILITY NO. AND 
+TITLE 
+ 
+CA01 : COMMUNICATION APPLICATION 
+ 
+NO DAN PENYATAAN 
+KEBOLEHAN /  
+ABILITY NO. AND 
+STATEMENT 
+01.01. APPLY TWO WAY COMMUNICATION 
+01.02. DISSEMINATE INFORMATION ELECTRICALLY 
+01.03. DISSEMINATE INFORMATION MANUALLY 
+01.04. APPLY INFORMATION CONFIDENTIALITY 
+NO. KOD  / CODE NO. 
+Z-009-2:2015 M01/P(3/3) 
+Mukasurat / Page :  1 
+Drpd / of         :  9 
+ 
+ 
+TAJUK/TITLE : INFORMATION CONFIDENTIALITY 
+ 
+TUJUAN/PURPOSE : 
+This information sheet describes the requirements to establish the concept of information 
+confidentiality. The person who is competent in this CA shall be able to apply information   
+confidentiality in the working environment effectively and clearly.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+ARAS 7-8, BLOK D4, KOMPLEK D 
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN 
+62530 PUTRAJAYA 
+KERTAS PENERANGAN 
+(INFORMATION SHEET)
+
+===== PAGE 2 =====
+2 
+ 
+NO. KOD  / CODE NO. 
+Z-009-2: 2015 M01/P(3/3) 
+Mukasurat / Page :   
+Drpd / of         :  9 
+PENERANGAN/INFORMATION :  
+ 
+1. Concept of confidentiality. 
+ 
+1.1 Confidentiality is roughly equivalent to privacy. Measures undertaken to ensure  
+       confidentiality are designed to prevent sensitive information from reaching the wrong  
+       people, while making sure that the right people can in fact get it: Access must be  
+       restricted to those authorized to view the data in question. 
+ 
+       It is common, as well, for data to be categorized according to the amount and type of  
+       damage that could be done should it fall into unintended hands. More or less stringent  
+       measures can then be implemented according to those categories. 
+ 
+       Sometimes safeguarding data confidentiality may involve special training for those  
+       privies to such documents. Such training would typically include security risks that  
+       could threaten this information. Training can help familiarize authorized people with  
+       risk factors and how to guard against them. Further aspects of training can include  
+       strong passwords and password-related best practices and information about social  
+       engineering methods, to prevent them from bending data-handling rules with good  
+       intentions and potentially disastrous results. 
+ 
+Figure 1.  Top Secret sign 
+       A good example of methods used to ensure confidentiality is an account number or  
+       routing number when banking online. Data encryption is a common method of  
+       ensuring confidentiality.  
+ 
+       User IDs and passwords constitute a standard procedure; two-factor authentication is  
+       becoming the norm. Other options include biometric verification and security tokens,
+
+===== PAGE 3 =====
+3 
+ 
+NO. KOD  / CODE NO. 
+Z-009-2: 2015 M01/P(3/3) 
+Mukasurat / Page :   
+Drpd / of         :  9 
+       key fobs or soft tokens. In addition, users can take precautions to minimize the  
+       number of places where the information appears and the number of times it is actually  
+       transmitted to complete a required transaction.  
+ 
+       Extra measures might be taken in the case of extremely sensitive documents,  
+       precautions such as storing only on air gapped computers, disconnected storage  
+       devices or, for highly sensitive information, in hard copy form only. 
+ 
+2. Confidentiality Scope And Procedure 
+ 
+2.1 Information need to be known as confidentiality and must be respected privacy 
+rights of organization. The information confidentiality needs to recognize such as; 
+i)  Information Must Be Confidential 
+The information must be kept safe and not be readily accessible to persons that  
+              normally deal with that kind of information. Information which is already in the  
+              public domain is generally not protectable. However, where it is a defendant's  
+              breach of confidence itself that has resulted in the information becoming publicly  
+              available, the defendant remains liable for loss and damage suffered by the  
+              plaintiff arising from such disclosure. 
+ 
+ 
+ 
+Figure 2 - Top Secret on envelope. 
+ 
+2.2. Disclosed In Circumstances Importing Confidentiality.  
+The information must have been imparted in circumstances which give rise to an 
+obligation of confidentiality. The recipient of confidential information will only be bound 
+if a reasonable man standing in the shoes of the recipient of the information would 
+realize on reasonable grounds that the information was being given to him in 
+confidence. The clearest case is of course where one person gives information on
+
+===== PAGE 4 =====
+4 
+ 
+NO. KOD  / CODE NO. 
+Z-009-2: 2015 M01/P(3/3) 
+Mukasurat / Page :   
+Drpd / of         :  9 
+express condition that he keep it a secret. However, the obligation of confidentiality 
+may also arise by implication having regard to the surrounding circumstances.              
+One of the relationships in which this duty of confidentiality normally arises is that               
+of employer and employee. Generally, during the currency of his or her               
+employment, an employee must observe a "duty of fidelity" to his or her employer,               
+to act in the employer's best interests.  
+ 
+ 
+Figure 3 - Working environment. 
+ 
+This includes protecting the trade secrets that the employee is exposed to in the 
+course of his or her work. Once an employee leaves employ, he or she is still obliged 
+to keep confidential the trade secrets of his or her former employer. Thus, for 
+example, an employer is entitled to prevent an ex-employee from making use of a list 
+of customers which the employee deliberately memorized or copied for this purpose. 
+Such protection however does not extend to general skill and knowledge in the 
+employee's head which the employee would necessarily have acquired during the 
+course of his employment. 
+  
+       2.3: Actual or Anticipated Unauthorized Use Or Disclosure 
+Thirdly, there must be an actual or anticipated unauthorized use or disclosure of the 
+information in question. No action may be brought if no unauthorized breach of 
+confidence is threatened or has occurred. 
+ 
+       Where the unauthorized disclosure or use is anticipated, the Courts will in the  
+       appropriate circumstances grant an interlocutory injunction to prevent such use  
+       or disclosure. The Courts may also award damages for any loss or damage  
+       suffered by reason of a breach of confidence, or in certain circumstances, for  
+       future injuries in lieu of an injunction.
+
+===== PAGE 5 =====
+5 
+ 
+NO. KOD  / CODE NO. 
+Z-009-2: 2015 M01/P(3/3) 
+Mukasurat / Page :   
+Drpd / of         :  9 
+       2.4: Protecting Confidential Information 
+       There is no system of registration for confidential information. Protection is  
+       available only by keeping the information secret, because once made public the  
+       information cannot subsequently be made secret again. Even if the owner of the  
+       misappropriated information takes legal action and obtains payment for the  
+       damage suffered, this may never be as good as having the information kept  
+       confidential in the first place. An important aspect of maintaining protection is  
+       adequate management control by businesses. Access to confidential information  
+       by staff should be restricted by management on a "need-to-know" basis, since  
+       the commonest cause of loss of confidential information from a company is staff  
+       moving to another firm in the same field of business. Appropriate clauses should  
+       be included in employment contracts and contracts with third parties such as  
+       suppliers, sub-contractors and the like. 
+ 
+       2.5: Non-Disclosure Agreement (NDA) 
+It happens regularly in business that one company needs to disclose its confidential 
+information to another. For example, a manufacturer may need to submit its new 
+product to a test laboratory for technical assessment and approval prior to the product 
+being launched on the market. It is often also necessary to share secrets when some 
+form of cooperation is contemplated between two companies. 
+ 
+In these circumstances, it is strongly advisable for a Non-Disclosure Agreement  
+ (NDA) to be drafted and signed by the parties that sets out their obligations to one 
+another in terms of any confidential information that needs to change hands. An NDA 
+provides the advantage that in the event legal action does become necessary due to a 
+breach of confidence, the matter can be handled in much the same way as 
+enforcement of any other business contract. 
+ 
+ 
+Figure 4. Test Laboratory. 
+ 2.6: Protection Of Undisclosed Information Under International Agreements Article 39
+
+===== PAGE 6 =====
+6 
+ 
+NO. KOD  / CODE NO. 
+Z-009-2: 2015 M01/P(3/3) 
+Mukasurat / Page :   
+Drpd / of         :  9 
+ of the TRIPs Agreement (Trade-Related Aspects of Intellectual Property Rights),  
+ which is binding on member countries of the World Trade Organisation, requires  
+ the protection of undisclosed information of commercial value and of certain data  
+ submitted to governments or government agencies, in the course of such  
+ countries ensuring effective protection against unfair competition. 
+ 
+3. Honesty And Integrity 
+ 
+3.1 Confidentiality, integrity and availability, also known as the CIA triad, is a model  
+        design to guide policies for information security within an organization. The model  
+         is also sometimes referred to as the AIC triad (availability, integrity and  
+         confidentiality). The elements of the triad are considered the three most crucial  
+         components of security. 
+ 
+         Honesty with included sincerity is need in employee to preserve organization  
+         information confidentiality.  In this context, confidentiality is a set of rules that limits  
+         access to information, integrity is the assurance that the information is trustworthy  
+         and accurate, and availability is a guarantee of reliable access to the information by  
+         authorized people. 
+ 
+        i). Confidentiality: 
+Confidentiality is roughly equivalent to privacy. Measures undertaken to ensure 
+confidentiality are designed to prevent sensitive information from reaching the  
+wrong people, while making sure that the right people can in fact get it: Access  
+must be restricted to those authorized to view the data in question. It is common, as 
+well, for data to be categorized according to the amount and type of damage that 
+could be done should it fall into unintended hands. More or less stringent measures 
+can then be implemented according to those categories. Sometimes safeguarding 
+data confidentiality may involve special training for those privies to such documents.  
+ 
+Such training would typically include security risks that could threaten this 
+information. Training can help familiarize authorized people with risk factors and how 
+to guard against them.
+
+===== PAGE 7 =====
+7 
+ 
+NO. KOD  / CODE NO. 
+Z-009-2: 2015 M01/P(3/3) 
+Mukasurat / Page :   
+Drpd / of         :  9 
+ 
+ 
+Figure 5. Data should be encrypted. 
+ 
+ 
+         3.2 Integrity: 
+Integrity involves maintaining the consistency, accuracy, and trustworthiness of  
+data over its entire life cycle. Data must not be changed in transit, and steps  
+must be taken to ensure that data cannot be altered by unauthorized people (for  
+example, in a breach of confidentiality).  
+ 
+These measures include file permissions and user access controls. Version  
+control maybe used to prevent erroneous changes or accidental deletion by  
+authorized users becoming a problem.  
+In addition, some means must be in place to detect any changes in data that  
+might occur as a result of non-human-caused events such as an electromagnetic  
+pulse (EMP) or server crash. Some data might include checksums,       
+even cryptographic checksums, for verification of integrity. Backups or  
+redundancies must be available to restore the affected data to its correct state. 
+ 
+         3.3 Availability:  
+Availability is best ensured by rigorously maintaining all hardware, performing  
+hardware repairs immediately when needed and maintaining a correctly  
+functioning operating system environment that is free of software conflicts. It’s  
+also important to keep current with all necessary system upgrades.   
+ 
+Providing adequate communication bandwidth and preventing the occurrence  
+of bottlenecks are equally important. Redundancy, failover, RAID even high 
+availability clusters can mitigate serious consequences when hardware issues do  
+occur.
+
+===== PAGE 8 =====
+8 
+ 
+NO. KOD  / CODE NO. 
+Z-009-2: 2015 M01/P(3/3) 
+Mukasurat / Page :   
+Drpd / of         :  9 
+ 
+Fast and adaptive disaster recovery is essential for the worst case scenarios;  
+that capacity is reliant on the existence of a comprehensive disaster recovery  
+plan (DRP). Safeguards against data loss or interruptions in connections must  
+        include unpredictable events such as natural disasters and fire.  
+ 
+        To prevent data loss from such occurrences, a backup copy may be stored in a  
+        geographically-isolated location, perhaps even in a fireproof, waterproof safe.  
+        Extra security equipment or software such as firewalls and proxy servers can  
+        guard against downtime and unreachable data due to malicious actions such as  
+        denial-of-service (DoS) attacks and network intrusions. 
+ 
+4. 
+Codes Of Confidentiality. 
+ 
+4.1  Employee shall safeguard information entrusted to them and not misuse or  
+         wrongfully disclose it. The ethical duty of confidentiality must, at times, be  
+         balanced against competing ethical considerations or legal or professional  
+         requirements that call for disclosure of information obtained or created in a  
+         research context.  
+           
+For example, in exceptional and compelling circumstances, workers or              
+researchers may be subject to obligations to report information to authorities to               
+protect the health, life or safety of a participant or a third party. Researchers are               
+expected to be aware of ethical codes (such as professional codes of conduct) or               
+laws (e.g., those requiring the reporting of children in need of protection) that may              
+require disclosure of information they obtain in a research context. In other               
+situations, a third party may seek access to information obtained and/or created               
+in confidence in a research context.            
+    
+Researchers shall also inform participants and seek their consent if their personal               
+information may be shared with government departments or agencies, community               
+partners in the research, personnel from an agency that monitors the research, a               
+research sponsor (such as a pharmaceutical company), the REB or a regulatory               
+agency.
+
+===== PAGE 9 =====
+9 
+ 
+NO. KOD  / CODE NO. 
+Z-009-2: 2015 M01/P(3/3) 
+Mukasurat / Page :   
+Drpd / of         :  9 
+ 
+ 
+Figure 6. Researchers in laboratory. 
+ 
+Researchers may, however, provide administrative bodies with aggregated data              
+that cannot be linked to individuals for purposes such as policy-making or               
+program evaluation. When seeking consent, researchers shall advise prospective              
+participants if aggregated data from a project may be disclosed, particularly               
+where such disclosure may pose a risk to the participants. For example,               
+aggregate data provided to authorities about research on illicit drug use in a               
+penitentiary may pose risks of reprisal to the prisoners, even though they are not               
+identified individually.              
+ 
+ When planning a study, researchers should incorporate any applicable statute-              
+based or other legal principles that may afford protection for the privacy of               
+participants and the confidentiality of research information. 
+ 
+SOALAN/QUESTION : 
+ 
+ 1. Describe how to ensure information confidentiality is safe? 
+ 2. Why code of confidentiality is needed? 
+ 
+ 
+ 
+RUJUKAN/REFERENCES:  
+1. http://www.unesco.org/education/aladin/paldin/pdf/course02/unit_05.pdf 
+2. https://en.wikipedia.org/wiki/Dissemination 
+3. http://www.gaelscoileanna.ie/en/about/scaipeachan-eolaisdissemination-of   
+information/ 
+4. http://www.ehow.com/info_7832517_tools-disseminating-workplace information.html

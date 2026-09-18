@@ -204,10 +204,15 @@ def tbd_normalize(s):
 
 # ================= NOTA (3.3b) =================
 
+CALLOUT_LABELS = {"objektif pembelajaran", "rumusan", "kajian kes", "senarai semak", "aktiviti pengukuhan"}
+
+
 def cmd_nota(subj):
     from docx import Document
-    from docx.shared import Pt
+    from docx.shared import Pt, Cm, RGBColor
     from docx.oxml.ns import qn
+    from docx.oxml import OxmlElement
+    from docx.enum.text import WD_ALIGN_PARAGRAPH
 
     cfg = SUBJECTS[subj]
     if not os.path.isfile(NOTA_TEMPLATE):
@@ -226,12 +231,68 @@ def cmd_nota(subj):
         cu = base.split("-")[0]
         cu_groups.setdefault(cu, []).append(base)
 
-    def add_bold_para(doc, text, size=None):
+    # ---------- readability helpers (formatting-only; never touch run text content) ----------
+
+    def set_normal_style(doc):
+        """Body font Arial 11pt, 1.15 line spacing, 6pt space-after — applies to the document's
+        Normal style so every plain paragraph inherits it without per-run edits."""
+        style = doc.styles["Normal"]
+        style.font.name = "Arial"
+        style.font.size = Pt(11)
+        rPr = style.element.get_or_add_rPr()
+        rFonts = rPr.find(qn('w:rFonts'))
+        if rFonts is None:
+            rFonts = OxmlElement('w:rFonts')
+            rPr.append(rFonts)
+        rFonts.set(qn('w:eastAsia'), "Arial")
+        pf = style.paragraph_format
+        pf.line_spacing = 1.15
+        pf.space_after = Pt(6)
+
+    def shade_paragraph(paragraph, hexcolor):
+        pPr = paragraph._p.get_or_add_pPr()
+        shd = OxmlElement('w:shd')
+        shd.set(qn('w:val'), 'clear')
+        shd.set(qn('w:color'), 'auto')
+        shd.set(qn('w:fill'), hexcolor)
+        pPr.append(shd)
+
+    def shade_cell(cell, hexcolor):
+        tcPr = cell._tc.get_or_add_tcPr()
+        shd = OxmlElement('w:shd')
+        shd.set(qn('w:val'), 'clear')
+        shd.set(qn('w:color'), 'auto')
+        shd.set(qn('w:fill'), hexcolor)
+        tcPr.append(shd)
+
+    def set_repeat_header(row):
+        trPr = row._tr.get_or_add_trPr()
+        tblHeader = OxmlElement('w:tblHeader')
+        tblHeader.set(qn('w:val'), 'true')
+        trPr.append(tblHeader)
+
+    def add_page_break_before(paragraph):
+        paragraph.paragraph_format.page_break_before = True
+
+    def add_bab_heading(doc, text):
+        """### Bab n heading: new page, shaded light-grey, 14pt bold."""
+        p = doc.add_paragraph()
+        add_page_break_before(p)
+        shade_paragraph(p, "D9D9D9")
+        r = p.add_run(text)
+        r.bold = True
+        r.font.size = Pt(14)
+        r.font.name = "Arial"
+        return p
+
+    def add_bold_para(doc, text, size=None, keep_with_next=False):
         p = doc.add_paragraph()
         r = p.add_run(text)
         r.bold = True
         if size:
             r.font.size = Pt(size)
+        if keep_with_next:
+            p.paragraph_format.keep_with_next = True
         return p
 
     def add_normal_para(doc, text=""):
@@ -240,12 +301,17 @@ def cmd_nota(subj):
             p.add_run(text)
         return p
 
-    def add_bullet_para(doc, text):
-        p = doc.add_paragraph(style="List Paragraph")
-        p.add_run("• " + text)
+    def add_bullet_para(doc, text, numbered=False):
+        style = "List Number" if numbered else "List Bullet"
+        try:
+            p = doc.add_paragraph(style=style)
+        except KeyError:
+            p = doc.add_paragraph(style="List Paragraph")
+            text = ("• " if not numbered else "") + text
+        p.add_run(text)
         return p
 
-    def add_table_grid(doc, rows):
+    def add_table_grid(doc, rows, header_row=True):
         if not rows:
             return
         ncols = len(rows[0])
@@ -257,7 +323,54 @@ def cmd_nota(subj):
         for ri, row in enumerate(rows):
             for ci, val in enumerate(row):
                 if ci < ncols:
-                    t.cell(ri, ci).text = tbd_normalize(val)
+                    cell = t.cell(ri, ci)
+                    cell.text = tbd_normalize(val)
+                    for p in cell.paragraphs:
+                        for r in p.runs:
+                            r.font.size = Pt(10)
+                            r.font.name = "Arial"
+                            if ri == 0 and header_row:
+                                r.bold = True
+                    if ri == 0 and header_row:
+                        shade_cell(cell, "D9D9D9")
+        if header_row:
+            set_repeat_header(t.rows[0])
+        return t
+
+    def add_callout_box(doc, label, content_lines):
+        """Labelled block (Objektif Pembelajaran / Rumusan / Kajian kes / Senarai semak /
+        Aktiviti pengukuhan) rendered as a single-cell shaded call-out box wrapping the label +
+        its content — text is unchanged, only the container is new."""
+        t = doc.add_table(rows=1, cols=1)
+        try:
+            t.style = "Table Grid"
+        except KeyError:
+            pass
+        cell = t.cell(0, 0)
+        shade_cell(cell, "F2F2F2")
+        p0 = cell.paragraphs[0]
+        r0 = p0.add_run(label)
+        r0.bold = True
+        r0.font.size = Pt(12)
+        r0.font.name = "Arial"
+        for ln in content_lines:
+            stripped = ln.strip()
+            if not stripped:
+                continue
+            if re.match(r"^[-*]\s+", stripped) or re.match(r"^\d+\.\s+", stripped):
+                text = re.sub(r"^[-*]\s+", "", stripped)
+                text = re.sub(r"^\d+\.\s+", "", text)
+                try:
+                    p = cell.add_paragraph(style="List Bullet")
+                except KeyError:
+                    p = cell.add_paragraph()
+                    text = "• " + text
+            else:
+                text = stripped
+                p = cell.add_paragraph()
+            r = p.add_run(tbd_normalize(clean_inline(text)))
+            r.font.size = Pt(11)
+            r.font.name = "Arial"
         return t
 
     def render_markdown_block(doc, block):
@@ -271,7 +384,7 @@ def cmd_nota(subj):
                 continue
             m = re.match(r"^###\s+(Bab\s+\d+.*)$", stripped)
             if m:
-                add_bold_para(doc, tbd_normalize(clean_inline(m.group(1))), size=18)
+                add_bab_heading(doc, tbd_normalize(clean_inline(m.group(1))))
                 i += 1
                 continue
             if stripped.startswith("|"):
@@ -289,15 +402,38 @@ def cmd_nota(subj):
                 add_table_grid(doc, rows)
                 i = j
                 continue
-            if re.match(r"^[-*]\s+", stripped) or re.match(r"^\d+\.\s+", stripped):
+            if re.match(r"^[-*]\s+", stripped):
                 text = re.sub(r"^[-*]\s+", "", stripped)
-                text = re.sub(r"^\d+\.\s+", "", text)
-                add_bullet_para(doc, tbd_normalize(clean_inline(text)))
+                add_bullet_para(doc, tbd_normalize(clean_inline(text)), numbered=False)
+                i += 1
+                continue
+            if re.match(r"^\d+\.\s+", stripped):
+                text = re.sub(r"^\d+\.\s+", "", stripped)
+                add_bullet_para(doc, tbd_normalize(clean_inline(text)), numbered=True)
                 i += 1
                 continue
             mb = re.match(r"^\*\*(.+?)\*\*$", stripped)
-            if mb:
-                add_bold_para(doc, tbd_normalize(clean_inline(mb.group(1))), size=13)
+            mh = re.match(r"^#{2,4}\s+(.+)$", stripped)  # sub-topic headings (## / ### / #### style)
+            if mb or mh:
+                label_raw = clean_inline((mb or mh).group(1))
+                label_key = re.sub(r"^\d+(\.\d+)*\.?\s+", "", label_raw).strip().lower()
+                label_key = re.sub(r"[:\s]+$", "", label_key)
+                is_callout = label_key in CALLOUT_LABELS or any(lbl in label_key for lbl in CALLOUT_LABELS)
+                if is_callout:
+                    # collect following lines up to next heading/bold-label/table into the box
+                    j = i + 1
+                    content = []
+                    while j < n:
+                        s2 = lines[j].strip()
+                        if (re.match(r"^###\s+Bab\s+\d+", s2) or re.match(r"^\*\*(.+?)\*\*$", s2)
+                                or re.match(r"^#{2,4}\s+", s2) or s2.startswith("|")):
+                            break
+                        content.append(lines[j])
+                        j += 1
+                    add_callout_box(doc, tbd_normalize(label_raw), content)
+                    i = j
+                    continue
+                add_bold_para(doc, tbd_normalize(label_raw), size=12, keep_with_next=True)
                 i += 1
                 continue
             add_normal_para(doc, tbd_normalize(clean_inline(stripped)))
@@ -359,6 +495,51 @@ def cmd_nota(subj):
             except IndexError:
                 pass
 
+    def _fld(run, kind):
+        el = OxmlElement('w:fldChar')
+        el.set(qn('w:fldCharType'), kind)
+        run._r.append(el)
+
+    def _instr(run, text):
+        el = OxmlElement('w:instrText')
+        el.set(qn('xml:space'), 'preserve')
+        el.text = text
+        run._r.append(el)
+
+    def add_page_footer(doc):
+        """Footer: 'Muka surat X / Y' using Word PAGE/NUMPAGES fields."""
+        sec = doc.sections[0]
+        footer = sec.footer
+        fp = footer.paragraphs[0] if footer.paragraphs else footer.add_paragraph()
+        fp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        r1 = fp.add_run("Muka surat ")
+        r1.font.name = "Arial"; r1.font.size = Pt(9)
+        rp = fp.add_run(); _fld(rp, 'begin'); _instr(rp, 'PAGE'); _fld(rp, 'end')
+        r2 = fp.add_run(" / ")
+        r2.font.name = "Arial"; r2.font.size = Pt(9)
+        rn = fp.add_run(); _fld(rn, 'begin'); _instr(rn, 'NUMPAGES'); _fld(rn, 'end')
+
+    def add_page_header(doc, kode_no):
+        """Header: the nota code, e.g. P851-002-4:2025-C01/NP(1/4)."""
+        sec = doc.sections[0]
+        header = sec.header
+        hp = header.paragraphs[0] if header.paragraphs else header.add_paragraph()
+        hp.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+        r = hp.add_run(kode_no)
+        r.font.name = "Arial"; r.font.size = Pt(9)
+
+    def add_kandungan_list(doc, penerangan_text):
+        """Right after TUJUAN: a short 'Kandungan nota ini' list of this nota's own Bab titles.
+        New structural content — not part of the original wording — so it is explicitly called
+        out in the drift report rather than folded into the wording diff."""
+        bab_titles = re.findall(r"^###\s+(Bab\s+\d+.*)$", penerangan_text, re.M)
+        if not bab_titles:
+            return
+        add_bold_para(doc, "Kandungan nota ini:", size=12, keep_with_next=True)
+        for t in bab_titles:
+            add_bullet_para(doc, tbd_normalize(clean_inline(t)), numbered=False)
+        doc.add_paragraph()
+
     def build_one(md_path, out_path, cu_code, k, n, wa_lines=None):
         hdr, body = parse_hdr_body(md_path)
         prog = hdr_lookup(hdr, "KOD NAMA DAN PROGRAM") or hdr_lookup(hdr, "KOD NOSS") or f'{cfg["code"]} {cfg["title"]}'
@@ -369,8 +550,11 @@ def cmd_nota(subj):
 
         doc = Document(NOTA_TEMPLATE)
         clear_body_after_table(doc)
+        set_normal_style(doc)
         fill_header_table(doc, prog, tahap, cu, wa, kode_no, page_no="[TBD: no. muka surat]", page_total=str(n),
                            wa_lines=wa_lines)
+        add_page_footer(doc)
+        add_page_header(doc, kode_no)
 
         # Correction 2: PROSES KERJA BERKAITAN / JAM PENGETAHUAN, derived at generation time
         # (never written back to the source .md — computed fresh from 02-borang-matriks-lampiran-5.md).
@@ -402,6 +586,7 @@ def cmd_nota(subj):
         doc.add_paragraph()
         add_bold_para(doc, "TUJUAN:")
         render_markdown_block(doc, tujuan)
+        add_kandungan_list(doc, penerangan)
         doc.add_paragraph()
         add_bold_para(doc, "PENERANGAN:")
         render_markdown_block(doc, penerangan)
@@ -1013,7 +1198,7 @@ def cmd_pages(subj):
 # expose run(subcommand, cfg) -> None. Import lazily so `all` never crashes if a module or its
 # run() isn't ready yet.
 
-_XLSX_SUBCOMMANDS = {"lampiran5", "jam42", "jadual43", "jsu", "bukti-xlsx"}
+_XLSX_SUBCOMMANDS = {"lampiran5", "jam42", "jadual43", "jsu", "bukti"}
 _FORMS_SUBCOMMANDS = {"soalan", "rekod31", "lampiran4", "lampiran6", "syarikat", "bakat"}
 
 
@@ -1042,7 +1227,7 @@ def try_run_sibling_module(module_name, subcommand, subj):
 # These need per-template cell-layout reverse-engineering (finished-vs-blank diff) which was not
 # completed in this pass. Each prints SKIPPED with the reason so `all` never silently fabricates.
 
-NOT_IMPLEMENTED = ["bukti"]  # combo xlsx+docx not yet assigned to either sibling module
+NOT_IMPLEMENTED = []  # "bukti" (xlsx) now routed to build_xlsx.py; Lampiran 4 docx routed as "lampiran4" to build_forms.py
 
 # subcommands now routed to the concurrently-developed sibling modules
 _ROUTED_SUBCOMMANDS = sorted(_XLSX_SUBCOMMANDS | _FORMS_SUBCOMMANDS)

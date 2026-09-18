@@ -1,0 +1,16 @@
+# 4-pelaksanaan-kompilasi\3.4a Template Question Development (EN).docx
+
+3.4a Template for Question Development According to Question Format (JSU)
+Purpose
+Generate Knowledge Assessment questions with ChatGPT/AI based on the Jadual Spesifikasi Ujian (JSU / Test Specification Table) in 3.2 Format Soalan Penilaian Pengetahuan.xlsx, and enter the results into the 3.4b Knowledge Assessment Template.
+Step 1: Enter the Note Material into ChatGPT/AI
+Continue in the same chat where the Learning Note (3.3a) for the relevant WA was generated, OR copy-paste that WA's note material into a new chat before proceeding to Step 2.
+Step 2: Ask ChatGPT/AI to Build the Questions
+Adjust the difficulty level and construct type (number of questions per category) based on the Jadual Spesifikasi Ujian (JSU) and the 'Prompt [number of WA]' sheet in 3.2 Format Soalan Penilaian Pengetahuan.xlsx, according to the relevant WA number.
+FREE USER: One WA per Prompt
+Send the question format & rules together with the question categories for ONE WA only per message, so the output for each message stays small and is not cut off.
+| PROMPT CHATGPT/AI (FREE) - Message 1: Format & Rules + WA1 Questions / From the note's content, create multiple choice questions with answer from the note in Bahasa Malaysia. / Sample high level/tough question: / Which of the following is a symptom of a manual transmission malfunction? / I. Sufficient oil usage. / II. Grinding noise from the transmission. / III. Abnormal noise from the transmission. / IV. Transmission jumps out of gear into neutral. / A. I, II, and III / B. I, II, and IV / C. I, III, and IV / D. II, III, and IV / Or generate a question to arrange the work process flow - also considered a high level/tough question. / ~~~ / For all questions and answers, please follow these arrangement rules: / 1. Answers and distractors must be homogenous to each other, to avoid obvious answer selection. / 2. Roman numeral question options are arranged in order of word count (I < II < III < IV). / 3. Other multiple-choice options are similarly arranged (A < B < C < D in word count). / ~~~ / Build the following MCQ questions based on the difficulty level and construct type, using the note available in this chat. / 1 HIGH-LEVEL QUESTION RELATED TO THE PROCEDURE CONSTRUCT / 1 MODERATE-LEVEL QUESTION RELATED TO THE PROCEDURE CONSTRUCT / 1 MODERATE-LEVEL QUESTION RELATED TO THE FACT/THEORY CONSTRUCT / 1 LOW-LEVEL QUESTION RELATED TO THE FACT/THEORY CONSTRUCT / 1 LOW-LEVEL QUESTION RELATED TO THE ATTITUDE/SAFETY/ENVIRONMENT CONSTRUCT |
+
+Note: copy the actual number and type of questions from the 'Prompt [number of WA]' sheet in 3.2 Format Soalan Penilaian Pengetahuan.xlsx for the relevant WA. For the next WA, repeat this prompt in a new message/chat based on that WA's note material.
+After Completion
+Copy all generated questions and answers (Version A or Version B) into the 3.4b Knowledge Assessment Template, arranged by "Question WA[n]" labels and by difficulty level/construct category as in the JSU.

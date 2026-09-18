@@ -1,0 +1,389 @@
+# Z-009-3-2015\CA2 INFORMATION TECHNOLOGY AWARENESS\SUB MODULE 1 - IT AWARENESS\Kertas Penerangan 2.1.PDF
+
+===== PAGE 1 =====
+1 
+ 
+ 
+ 
+ 
+KOD DAN NAMA  
+PROGRAM /  
+PROGRAM CODE AND 
+NAME 
+Z-009-3:2015  CORE ABILITIES 
+TAHAP / LEVEL 
+3 (THREE) 
+NO. DAN TAJUK 
+KEBOLEHAN TERAS / 
+CORE ABILITY NO. AND 
+TITLE 
+ 
+CA02 INFORMATION TECHNOLOGY AWARENESS 
+ 
+NO. DAN PENYATAAN 
+KEBOLEHAN / 
+ABILITY NO. AND 
+STATEMENT 
+02.01 
+AWARE 
+OF 
+INFORMATION 
+TECHNOLOGY 
+UPDATE          
+02.02   AWARE OF INFORMATION TECHNOLOGY 
+REGULATORY  
+NO. KOD  / CODE NO. 
+ 
+Z-009-3:2015–M02/P(1/2) 
+ 
+Mukasurat / Page :   1    
+Drpd / of                :  10 
+  
+ 
+TAJUK/TITLE :  
+IT UPDATE AWARENESS 
+ 
+ 
+TUJUAN/PURPOSE :  
+This Information Sheet is intended to describe on the Information Technology Update 
+Awareness of IT operation within the organization. The person who is competent in this 
+CA shall be able to infuse and aware of information technology update in daily work. 
+ 
+ 
+ 
+ 
+ 
+  JABATAN PEMBANGUNAN KEMAHIRAN 
+  KEMENTERIAN SUMBER MANUSIA 
+  ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+  PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN  
+  62530 PUTRAJAYA 
+ 
+  KERTAS PENERANGAN  
+   (INFORMATION SHEET)
+
+===== PAGE 2 =====
+2 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015-M02/P(1/2) 
+Muka Surat / Page :   2  
+Drpd           /     of    :  10 
+ 
+PENERANGAN/INFORMATION :  
+1. Definition 
+1.1    Information technology (IT) is the application of computers and 
+telecommunications equipment to store, retrieve, transmit and manipulate data, often in 
+the context of a business or other enterprise. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Picture  1.1 . Information Technology Relationship 
+ 
+1.2    An Information System (IS) is a system composed of people and computers that 
+processes or interprets information. The term is also sometimes used in more restricted 
+senses to refer to only the software used to run a computerized database or to refer to 
+only a computer system. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Piechart 1.2 Information Systems Relationship Chart 
+ 
+1.3    Information systems is also basically an academic study of systems with a 
+specific reference to information and the complementary networks of hardware and 
+software that people and organizations use to collect, filter, process, create and also
+
+===== PAGE 3 =====
+3 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015-M02/P(1/2) 
+Muka Surat / Page :   3  
+Drpd           /     of    :  10 
+distribute data.  
+1.4    Any specific information system aims to support operations, management and 
+decision-making. An information system is the information and communication 
+technology (ICT) that an organization uses, and also the way in which people interact 
+with this technology in support of business processes. 
+1.5    Technology literacy is the ability of an individual, working independently and with 
+others, to responsibly, appropriately and effectively use technology tools to access, 
+manage, integrate, evaluate, design, create and communicate information. It is a 
+lifelong knowledge and skills in the 21st century. 
+ 
+ 
+2. Components of Information System Technologies  
+2.1    Generally there are 6 components of Information System Technologies.They are : 
+i)    Hardware 
+The term hardware refers to machinery.This category includes the computer 
+itself, which is often referred to as the central processing unit (CPU), and all of 
+its support equipments. Among the support equipments are input and output 
+devices, storage devices and communications devices.  
+ii)    Software 
+The term software refers to computer programs and the manuals (if any) that 
+support them. Computer programs are machine-readable instructions that 
+direct the circuitry within the hardware parts of the CBIS to function in ways 
+that produce useful information from data. Programs are generally stored on 
+some input / output medium,often a disk or tape.  
+iii)    Data 
+Data are facts that are used by programs to produce useful information.Like 
+programs,data are generally stored in machine-readable form on disk or tape 
+until the computer needs them.  
+iv)    Procedures 
+Procedures are the policies that govern the operation of a computer system. 
+"Procedures are to people what software is to hardware" is a common analogy 
+that is used to illustrate the role of procedures in a CBIS.  
+v)    Networks
+
+===== PAGE 4 =====
+4 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015-M02/P(1/2) 
+Muka Surat / Page :   4  
+Drpd           /     of    :  10 
+Are a connecting system that allows diverse computers to distribute 
+resources. 
+vi)    People 
+Every Computer Based Information System (CBIS) needs people if it is to be 
+useful. Often the most over-looked element of the CBIS is the people, 
+probably the component that most influence the success or failure of 
+information systems. 
+ 
+ 
+ 
+ 
+ 
+ 
+Flowchart 2.1  Sample of Networking Flow 
+3.  Data entry 
+3.1    Data entry refers to user actions involving input of data to a computer, and 
+computer responses to such inputs. The simplest kind of data entry consists merely 
+of pointing at something -- selecting an item or designating a position on a computer-
+generated display. In more complicated modes of data entry, a user may have to 
+control the format of data inputs as well as their contents. Thus questions of format 
+control in text entry/editing and graphic interaction may properly be considered 
+questions of data entry.
+
+===== PAGE 5 =====
+5 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015-M02/P(1/2) 
+Muka Surat / Page :   5  
+Drpd           /     of    :  10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Flowchart 3.1 Sample Data Spectrum by Unisoft Datatech 
+ 
+3.2    In the world of data entry, there are several software available such as Microsoft 
+Access, Snappii, Vikingsoft, Peoplesoft, Quickbooks, Microsoft Excel, Visio, SAP and 
+others. The requirements of software selection vary from individuals to companies as 
+each software give different abilities that suits their need. In all commerce/business 
+entity, data entry is crucial as it keeps in a systematic matter the transaction history, 
+customer database, purchase records, official instruction/request, financial flow and 
+track record, budget flow, work instruction etc…etc.. All these must be securely but 
+manageably easy to be worked with and easy to be retrieved by authorized personnel 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+Picture 3.2.a Sample of Softwares
+
+===== PAGE 6 =====
+6 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015-M02/P(1/2) 
+Muka Surat / Page :   6  
+Drpd           /     of    :  10 
+ 
+ 
+ 
+Picture 3.2.b. Data Entry Basic Sample Flow 
+ 
+4.  What are the basic considerations in selecting the right software? 
+4.1    There are 9 considerations in selecting the right software. They are: 
+i)    Features against requirements – most software offers more than what is  
+      required thus future-proofing is a good strategy if the cost is right 
+ii)    Cost/benefit analysis : 
+a) Initial setup cost 
+b) (Main) ongoing charge–monthly or annual (might depend on specific 
+modules)  
+c) Per-member surcharge 
+d) Per-transaction charges (% or $) 
+e) Technical support fees 
+f) Update charges  
+iii) 
+Future upgradability – All software normally have their update cycle and     
+sometimes offer upgrading. One of the things need to be confirm is the 
+planning of the software maker for the future; either they will only upgrade the 
+software or totally replace it with a new programming. This will impact the cost 
+versus functionality. 
+iv) 
+Hardware compatibility – current specification vs. compatible specification 
+v) 
+System compatibility – Does the software works in the Operating System 
+currently used?If it works,how well does it operate in the Operating System?
+
+===== PAGE 7 =====
+7 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015-M02/P(1/2) 
+Muka Surat / Page :   7  
+Drpd           /     of    :  10 
+vi) 
+Customer support and vendor reliability  - This is critical as it defines the 
+relationship between vendor/seller/sortware maker and buyer.This affects 
+warranty,technical services and cost. When the software malfunction for 
+whatever reason, user needs to refer to the expert to find solutions to it 
+vii) 
+Security – The level of security of the software against intruder is highly 
+important as to avoid valuable data. It also should cover hacking and virus 
+protection. 
+viii) Staff and learning curve (Ease of use) – Person responsible and authorized to 
+use the software must be given proper training to use the software efficiently. 
+The ease of use is also a factor to consider as it will impact the overall 
+efficiently of the process. 
+ix) 
+Reporting – Each processes should be able to produce a report/summary in a 
+format deemed sufficient to the user. 
+ 
+5.  Why do we need Technology Update Awareness? 
+5.1    Interaction between users and technology/systems is unavoidable. One needs to 
+be aware of the connection and advantages/disadvantages directly or indirectly 
+affecting his work. He/she needs to be aware of the current IT trending and any 
+updates related to his work. Technology improves production/communication and 
+database handling.  Obsolete technology can affect efficiency and production. As one 
+moves up in the career ladder, sophistication in work and interaction with its 
+surrounding increases thus justifying the needs to be aware and updated with 
+technology. 
+5.2    Previously, all paperworks, reports, charts, presentations, minutes of meetings 
+etc…etc.. are done manually and fully utilizing the usage of paper. When the transition 
+from paper to paperless occurs, i.e. using computer/software, one needs to know how 
+to transform the format and information into a softcopy version. For example, if a 
+report previously prepared using typewriter, when converting it into a softcopy version, 
+one needs to know how to use the software and how to format the report. Using 
+software, there are endless selections of options to present the report. These 
+softwares are usually updated and continuously evolving based on continuous 
+changes thus user needs to know the updates and how they affect them. This 
+technology update awareness applies to all type/level of technology.
+
+===== PAGE 8 =====
+8 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015-M02/P(1/2) 
+Muka Surat / Page :   8  
+Drpd           /     of    :  10 
+ 
+ 
+       5.3    Examples of the areas needed to be aware of are as such: 
+i)    How to use the software and its capabilities 
+ii) Knowledge of suitable IT component/systems that optimizes work and 
+delivery 
+iii)   Which machine/computers/system/software that is the optimum solution 
+iv) What/who are the current market trends/users  
+v) Cost to solution
+
+===== PAGE 9 =====
+9 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015-M02/P(1/2) 
+Muka Surat / Page :   9  
+Drpd           /     of    :  10 
+SOALAN/QUESTION: 
+ 
+1. What is the relationship between Information Technology and Information System?  
+ 
+.................................................................................................................................... 
+ 
+.................................................................................................................................... 
+ 
+ 
+2. What are the 6 components of Infomation System Technology 
+ 
+.................................................................................................................................... 
+ 
+.................................................................................................................................... 
+ 
+ 
+3. Why do we need Technology Update Awareness?  
+ 
+.................................................................................................................................... 
+ 
+.................................................................................................................................... 
+ 
+ 
+4. What is data entry? 
+ 
+...................................................................................................................................... 
+ 
+ 
+...................................................................................................................................... 
+ 
+ 
+5. How many considerations needed in selecting correct software? 
+ 
+...................................................................................................................................... 
+ 
+ 
+......................................................................................................................................
+
+===== PAGE 10 =====
+10 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015-M02/P(1/2) 
+Muka Surat / Page :   10  
+Drpd           /     of    :  10 
+ 
+RUJUKAN / REFERENCES: 
+ 
+ 
+1. http://www.montgomeryschoolmd.org/department/techlit/docs.htm 
+ 
+2. http://www.wikipedia.org/wiki/information_technology 
+ 
+3. http://www.wikipedia.org/wiki/information_system 
+ 
+4. http://www.coloradotechliteracy.org/org/documentation/module1/definition.htm 
+ 
+5. http://www.uotechnology.edu.iq/ce/Lectures/SarmadFuad-MIS/MIS_Lecture_3.pdf 
+ 
+6. http://www.umsl.edu/~joshik/msis480/chapt02.htm 
+ 
+7. http://global.britannica.com/topic/information-system 
+ 
+8. http://www.nutrientdataconf.org/pastconf/ndbc19/7-1_westrich.pdf 
+ 
+9. http://knowledge.wildapricot.com/display/technology/Defining+Software+Requirements

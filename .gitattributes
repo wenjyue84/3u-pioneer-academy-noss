@@ -1,0 +1,16 @@
+# Treat generated binary office/PDF output as opaque binary for diff purposes.
+# Without this, `git diff`/`git diff --cached` can hang trying to compute a textual/binary diff
+# on some PDFs (observed 2026-09-18 on a preschool-teaching Nota Pembelajaran PDF — reproduced
+# directly with `git diff --cached -- <file>` timing out with zero output; root cause not fully
+# isolated, but marking these extensions `-diff` makes git skip diff computation entirely, which
+# is also just correct practice for generated binary artefacts).
+# This does NOT reduce the repo's secret-scan pre-commit hook coverage: that hook only scans
+# `+`-added TEXT LINES from `git diff --cached`, and binary files never produce those lines
+# regardless of this attribute — their source .md/.docx files are still scanned as text.
+*.pdf -diff
+*.docx -diff
+*.xlsx -diff
+*.pptx -diff
+*.doc -diff
+*.xls -diff
+*.ppt -diff

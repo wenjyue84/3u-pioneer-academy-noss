@@ -1,0 +1,498 @@
+ 
+13 
+ 
+ 
+ 
+ 
+KOD DAN NAMA  
+PROGRAM /  
+PROGRAM’S CODE AND 
+NAME 
+ 
+Z-009-4: 2015 CORE ABILITIES 
+TAHAP / LEVEL 4(FOUR) 
+NO.  DAN TAJUK 
+KEBOLEHAN TERAS 
+/CORE ABILITY NO. AND 
+TITLE 
+ 
+CA08 SYSTEM TECHNOLOGY APPLICATION 
+ 
+NO. DAN PENYATAAN 
+KEBOLEHAN  /  
+ABILITY NO. AND 
+STATEMENT 
+08.01   ADOPT APPROPRIATE SOFTWARE   
+APPLICATION 
+08.02   COMPLY TO SYSTEM ANALYSIS APPLICATION 
+08.03   UPDATE IT APPLICATION 
+08.04    ADHERE TO IT RULES & REGULATIONS 
+ 
+NO. KOD  /CODE NO. Z-009-4:2015–M08/P(2/4) MukaSurat / Page :  1 
+Drpd / of                :  11 
+ 
+ 
+TAJUK/TITLE:  SYSTEM ANALYSIS COMPLIANCE 
+ 
+TUJUAN/PURPOSE: 
+ 
+This Information Sheet is intended to describe on System Analysis Compliance  
+requirements to maintain and ensure information technology applications in the 
+organisation are current. 
+ 
+The person who is competent in this CA shall be able to utilize information technology 
+application in accordance with recommended practices. 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN 
+62530 PUTRAJAYA 
+ 
+ 
+KERTAS PENERANGAN 
+(INFORMATION SHEET) 
+ 
+ 
+
+----PAGE BREAK----
+
+ 
+ 
+ 
+14 
+ 
+NO. KOD  /CODE NO. Z-009-4:2015-M08/P(2/4) MukaSurat / Page :   
+Drpd / of                :  11 
+ 
+ 
+PENERANGAN/INFORMATION: 
+ 
+1. Backup and Restore 
+1.1   It is a fair assumption that everyone has lost a file they needed. Often it is not lost 
+to malware, but either hardware failure or our own failure to backup files. There are 
+tools that will assist you in making backu ps, or you can manually copy your data to 
+another drive. The advantage to manual backup is that it is fast. The disadvantage is 
+that it is not scheduled. It is not automatic. Whatever the cause of the loss may be, it 
+represents time and effort. Make a backup plan and stick to it. 
+ 
+1.2   There are online services for backing up your files. These services run a program 
+that is scheduled to automatically backup your files (while you sleep). They have an 
+additional advantage of offering off -site backup. A secon d hard drive in your computer 
+is also vulnerable to malware and an external drive, even when not connected, is 
+susceptible to theft or fire. The biggest disadvantage of such a service is that you are 
+trusting a third party with your data: work, pictures, s aved email, etc. Make sure they 
+encrypt your data to stop casual perusal by employees and theft by others. But, 
+remember that they have the encryption key. 
+ 
+1.3   Restore points are a type of backup for the system itself. Create a restore point 
+before installing software, partitioning a drive, etc.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+----PAGE BREAK----
+
+ 
+ 
+ 
+15 
+ 
+NO. KOD  /CODE NO. Z-009-4:2015-M08/P(2/4) MukaSurat / Page :   
+Drpd / of                :  11 
+Picture 1.3  Backing up data 
+ 
+2. Authentication 
+2.1 Authentication refers to the process of making sure a user has access to the 
+resource, usually the entire system; that is, logging on. If you are using accounts, as 
+recommended above, you can also protect your files from other users. They can be 
+given permission to change (delete), read, or denied access. When you attempt to 
+access a resource you do not have permission for, or install a program, you  are 
+generally prompted to give permission (and authenticated). You may have to log in as 
+an administrator to accomplish some tasks — then switch back to your user account. 
+ 
+2.2 Standard authentication is accomplished with a password. Pick a password 
+that is hard to guess: more than 8 characters and including non -alphabetical 
+characters, that you can remember. Random would be great, if you have that kind of 
+memory. Otherwise consider modifying a phrase that is meaningful to you (ignore any 
+spaces).  
+ 
+2.3   You also need to manage your password. Change them regularly.  
+ 
+2.4  Don't forget that many passwords are saved on PCs, laptops and smartphones, 
+including banking or online trading passwords. Secure the device first.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Picture 2.4 Authentication in process 
+ 
+ 
+ 
+ 
+
+
+----PAGE BREAK----
+
+ 
+ 
+ 
+16 
+ 
+NO. KOD  /CODE NO. Z-009-4:2015-M08/P(2/4) MukaSurat / Page :   
+Drpd / of                :  11 
+ 
+ 
+3.   Biometrics [src] 
+3.1   Biometrics consists of methods for uniquely recognizing humans based upon one 
+or more intrinsic physical or behavioral traits. It is used as a form of identity access 
+management and access control. Probably the most common form of biometrics use is 
+fingerprint scanning. Other forms of physiological biometrics include, but are not 
+limited to fingerprint, face recognition, DNA, palm print, hand geometry, iris recognition 
+(which has largely replaced retina), and odor/scent. Behavioral biometrics include, but 
+are not limited to typing rhythm, gait, and voice. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Picture 3.2  Types of biometrics 
+ 
+4.    Encryption 
+4.1   Assume your PC (and online backup service) will eventually get hacked. Why not 
+save your files in a way that prevents others from accessing t hem. Encryption 
+packages are available (some are free) that will create a "container" file that appears 
+like another disk drive to your system. Anything saved on that drive is actually saved 
+in the encrypted container. (You do have to start this up before using it and make sure 
+you close it down when done.) This is a must if you are using business files at home, 
+working with healthcare information, or student grades. 
+ 
+4.2   You can purchase flash drives that will protect your data also. They have the 
+encryption software on them. 
+ 
+ 
+ 
+ 
+ 
+
+
+----PAGE BREAK----
+
+ 
+ 
+ 
+17 
+ 
+NO. KOD  /CODE NO. Z-009-4:2015-M08/P(2/4) MukaSurat / Page :   
+Drpd / of                :  11 
+ 
+ 
+ 
+5.   How to Identify Which Hardware Component is Failing in Your Computer 
+ 
+5.1   Blue Screen 101: Search for the Error Message 
+i)   This may seem like obvious advice, but searching for information about a 
+blue screen’s error message can help immensely. Most blue screens of 
+death you’ll encounter on modern versions of Windows will likely be caused 
+by hardware failures. The blue screen of death often displays information 
+about the driver that crashed or the type of error it encountered. 
+ii)  For example, let’s say you encounter a blue screen that identified 
+“NV4_disp.dll” as the driver that caused the blue screen. A quick Google 
+search will reveal that this is the driver for NVIDIA graphics cards, so you 
+now have somewhere to sta rt. It’s possible that your graphics card is failing 
+if you encounter such an error message. 
+ 
+5.2   Check Hard Drive SMART Status 
+i)  Hard drives have a built in S.M.A.R.T. (Self -Monitoring, Analysis, and 
+Reporting Technology) feature. The idea is that the  hard drive monitors 
+itself and will notice if it starts to fail, providing you with some advance 
+notice before the drive fails completely. This isn’t perfect, so your hard drive 
+may fail even if SMART says everything is okay. 
+ii)   If you see any sort of “SMART error” message, your hard drive is failing. 
+You can use SMART analysis tools to view the SMART health status 
+information your hard drives are reporting. 
+ 
+5.3   Test Your RAM 
+i)   RAM failure can result in a variety of problems. If the computer writes data to 
+RAM and the RAM returns different data because it’s malfunctioning, you 
+may see application crashes, blue screens, and file system corruption. 
+ii)   To test your memory and see if it’s working properly, use Windows’ built-in 
+Memory Diagnostic tool. The Memory Diagnostic tool will write data to every 
+sector of your RAM and read it back afterwards, ensuring that all your RAM 
+is working properly. 
+
+----PAGE BREAK----
+
+ 
+ 
+ 
+18 
+ 
+NO. KOD  /CODE NO. Z-009-4:2015-M08/P(2/4) MukaSurat / Page :   
+Drpd / of                :  11 
+ 
+5.4   Check Heat Levels 
+i)   How hot  is inside your computer? Overheating can r esult in blue screens, 
+crashes, and abrupt shut downs. Your computer may be overheating 
+because you’re in a very hot location, it’s ventilated poorly, a fan has 
+stopped inside your computer, or it’s full of dust. 
+ii)   Your computer monitors its own internal temperature s and you can access 
+this information. It’s generally available in your computer’s BIOS, but you 
+can also view it with system information utilities such as SpeedFan or 
+Speccy. Check your computer’s recommended temperature level and 
+ensure it’s within the appropriate range. 
+iii)   If your computer is overheating, you may see problems only when you’re 
+doing something demanding, such as playing a game that stresses your 
+CPU and graphics card. Be sure to keep an eye on how hot your computer 
+gets when it performs these demanding tasks, not only when it’s idle. 
+ 
+5.5   Stress Test Your CPU 
+i)   You can use a utility like Prime95 to stress test your CPU. Such a utility will 
+fore your computer’s CPU to perform calculations without allowing it to rest, 
+working it hard and generating heat. If your CPU is becoming too hot, you’ll 
+start to see errors or system crashes. 
+ii)   Overclockers use Prime95 to stress test their overclock settings — if 
+Prime95 experiences errors, they throttle back on their overclocks to ensure 
+the CPU runs cooler and more stable. It’s a good way to check if your CPU 
+is stable under load. 
+ 
+5.6   Stress Test Your Graphics Card 
+i)   Your graphics card can also be stress tested. For example, if your graphics 
+driver crashes while playing games, the gam es themselves crash, or you 
+see odd graphical corruption, you can run a graphics benchmark utility like 
+3DMark. The benchmark will stress your graphics card and, if it’s 
+overheating or failing under load, you’ll see graphical problems, crashes, or 
+blue screens while running the benchmark. 
+ii)   If the benchmark seems to work fine but you have issues playing a certain 
+game, it may just be a problem with that game. 
+
+----PAGE BREAK----
+
+ 
+ 
+ 
+19 
+ 
+NO. KOD  /CODE NO. Z-009-4:2015-M08/P(2/4) MukaSurat / Page :   
+Drpd / of                :  11 
+5.7   Swap it Out 
+i)   Not every hardware problem is easy to diagnose. If you have a bad 
+motherboard or power supply, their problems may only manifest through 
+occasional odd issues with other components. It’s hard to tell if these 
+components are causing problems unless you replace them completely. 
+ii)   Ultimately, the best way to determine whether a component is faulty is to 
+swap it out. For example, if you think your graphics card may be causing 
+your computer to blue screen, pull the graphics card out of your computer 
+and swap in a new graphics card. If everything is working well, it’s likely that 
+your previous graphics card was bad. 
+iii)   This isn’t easy for people who don’t have boxes of components sitting 
+around, but it’s the ideal way to troubleshoot. Troubleshooting is all about 
+trial and error, and swapping components out allows you t o pin down which 
+component is actually causing the problem through a process of 
+elimination. 
+ 
+ 
+6.   Managing Digital Documents 
+6.1   Digital documents, like paper, need to be stored so they can be retrieved and 
+used as needed. For a paperless office -- or more likely, a near paperless one -- you'll 
+need a way to turn paper documents into digital, or electronic documents. 
+ 
+6.2   That type of communication transformation is handled by a document imaging 
+system. Since not having paper is unlikely, you'll probably find an ongoing need to turn 
+paper into electronic files. A document management system usually goes beyond that 
+transformation to deal with all documents -- computer generated, as well as those that 
+are faxed, scanned or e-mailed. 
+ 
+6.3   The basic docu ment imaging system consists of a scanner and software that 
+allows paper documents to be scanned, converted to electronic images and saved in 
+PDF, TIFF or other formats for storage on CDs, DVDs, a computer hard disk or a 
+network server. 
+ 
+6.4   Most documen t imaging systems include optical character recognition (OCR). 
+This allows the images to be recognized as text when saved as searchable PDFs or 
+
+----PAGE BREAK----
+
+ 
+ 
+ 
+20 
+ 
+NO. KOD  /CODE NO. Z-009-4:2015-M08/P(2/4) MukaSurat / Page :   
+Drpd / of                :  11 
+copied into programs like Microsoft Word or Excel. With OCR, you also can search for 
+specific words or phrases within a scanned document. 
+ 
+6.5   Document management systems provide the electronic file cabinets and filing 
+system tools. They combine data storage space with software that goes beyond 
+document imaging to include functions such as audit trail and reportin g tools, 
+document expiration controls to delete documents at specified dates and Web -based 
+document viewing. 
+ 
+6.6   More advanced document management systems offer extras such as: 
+i) User authentication for increased security 
+ii) Automatic e-mail notification 
+iii) Digital signatures 
+iv) Data encryption for secure sending 
+v) Custom keys that provide prompts for correct indexing 
+vi) Targeted solutions for industries such as health care, financial or 
+manufacturing 
+vii) Multimedia filing, bringing together various types of files such a s visual 
+images, video, text and spreadsheets. 
+ 
+6.7   If you have large quantities of paper documents to turn into electronic files or 
+need help getting the job done quickly, you may want to outsource document imaging 
+to a company like microMEDIA. One of the company's current on -site conversion 
+projects includes OCR and fully searchable PDF files with more than 25 million 
+images. 
+ 
+6.8   And if you don't have a robust enough server or want to store electronic files off 
+site, many document imaging companies offer a hosted server solution. Web -based 
+document hosting allows you to store or back up your files on their server and then 
+access them securely anywhere, any time. The advantage is that valuable files are off 
+site in case your company's server goes down  or cannot be used on site, like during a 
+hurricane. 
+ 
+6.7   Beyond your company's paperless needs, employees may have a home office. 
+On the next page, we'll look at how to bring a paperless look to your home office. 
+
+----PAGE BREAK----
+
+ 
+ 
+ 
+21 
+ 
+NO. KOD  /CODE NO. Z-009-4:2015-M08/P(2/4) MukaSurat / Page :   
+Drpd / of                :  11 
+ 
+6.8   There are many benefits with a pa perless office, beyond simply having less 
+paper to deal with. While you're unlikely to have a completely paper -free office, 
+electronic communication and other systems can eliminate much of it. Let's take a 
+closer look at how this has benefited some businesses: 
+i) Reduced costs and quicker access to information. MajesticInvites.com is 
+an eight-person company that designs online invitations. Being paperless 
+saves the company about $100,000 per year on printing, mailing, paper 
+and storage space, reports Alina Uzi lov, the company's president. And 
+because employees can access electronic documents more quickly than 
+paper, they can almost instantly respond to customer questions or make 
+their changes [source: Small Business Computing]. 
+ii) More space. When he got ready  to switch locations after making his office 
+paperless, real estate broker Ed Branson of Branson's California Property 
+noticed that he didn't even have half as many file cabinets as before going 
+paperless [source: Microsoft.com]. Photographer: Peterfactor | Agency: 
+Dreamstime Many doctors' offices are transitioning to electronic medical 
+records. 
+iii) Document security and easy information sharing. Obstetrician Rose Kung, 
+M.D., found storing and retrieving paper patient charts was time 
+consuming for her practice at Women's College Hospital in Toronto. 
+Switching to an electronic document management syste m reduced chart 
+filing and finding time -- and improved security of patient information. 
+Password protection at different levels limits the access that office staff 
+have to the information. Kung can also send electronic copies of patient 
+records to physici ans anywhere in the world [source: A&L Computer 
+Software Limited]. 
+iv) Ability to handle company growth. Transervice Logistics in Lake Success, 
+N.Y., helps companies manage their delivery systems. The human 
+resources staff found they had more than 30,000 p ieces of paper to track 
+and store in their 1,000 employee records. With that information now 
+stored electronically, the department was able to handle the addition of 
+500 employees (potentially 15,000 more pieces of paper) without needing 
+additional space. 
+
+----PAGE BREAK----
+
+ 
+ 
+ 
+22 
+ 
+NO. KOD  /CODE NO. Z-009-4:2015-M08/P(2/4) MukaSurat / Page :   
+Drpd / of                :  11 
+v) Access anywhere and electronic prescriptions. South Shore Skin Care 
+Center, near Boston, has switched to an electronic medical records (EMR) 
+system from paper patient charts. With the EMR, doctors can access 
+patient information from anywhere at any time . They can also send 
+electronic prescriptions directly to pharmacies [source: dBusiness News]. 
+vi) Less paper in. A company plans to accept paper faxes from customers. 
+However, the company uses electronic faxing to intercept those faxes, 
+turn them into ele ctronic documents and keep them from coming into the 
+company as paper. 
+vii) Less temporary paper. At dentist KambizMoin's office in Manchester, N.H., 
+not only are patient charts electronic, but also patient arrivals. A patient 
+who arrives for an appointmen t types his or her name in a waiting room 
+computer and puts a finger on a biometric reader. Their arrival is then 
+posted on the office computers, color coded to show an early, on -time or 
+late arrival [source: Orthodontic Products Online]. 
+viii) Less paper out. Tax professional Joseph Anthony in Portland, Ore., files 
+clients tax returns electronically, eliminating paper returns, and then turns 
+the return into a PDF document that he gives the client on a rewriteable 
+CD. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Picture 6.8 Digital documentation 
+ 
+ 
+ 
+
+
+----PAGE BREAK----
+
+ 
+ 
+ 
+23 
+ 
+NO. KOD  /CODE NO. Z-009-4:2015-M08/P(2/4) MukaSurat / Page :   
+Drpd / of                :  11 
+SOALAN / QUESTION(S): 
+1. Define authentication. 
+___________________________________________________________________________
+___________________________________________________________________________
+___________________________________________________________________________ 
+2. What is the function of Encryption? 
+___________________________________________________________________________
+___________________________________________________________________________
+___________________________________________________________________________ 
+ 
+ 
+RUJUKAN / REFERENCE: 
+1.http://www.teachict.com/as_a2_ict_new/ocr/AS_G061/312_software_hardware/software/
+miniweb/pg7.htm 
+2.http://cs.sru.edu/~mullins/cpsc100book/module02_introduction/module02-
+03_introduction.html 
+3.http://wps.pearsoncustom.com/wps/media/objects/13906/14240052/MICB151_Ch01.pdf 
+4.http://www.howtogeek.com/174068/how-to-identify-which-hardware-component-is-
+failing-in-your-computer/ 
+ 
+ 
+ 
+ 
+ 

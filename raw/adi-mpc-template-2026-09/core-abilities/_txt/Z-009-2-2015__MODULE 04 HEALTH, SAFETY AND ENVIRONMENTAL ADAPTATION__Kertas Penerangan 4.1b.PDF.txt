@@ -1,0 +1,752 @@
+# Z-009-2-2015\MODULE 04 HEALTH, SAFETY AND ENVIRONMENTAL ADAPTATION\Kertas Penerangan 4.1b.PDF
+
+===== PAGE 1 =====
+25 
+ 
+ 
+ 
+       
+ 
+KOD DAN NAMA  
+PROGRAM /  
+PROGRAM’S CODE AND 
+NAME 
+ 
+Z-009-2: 2015CORE ABILITIES 
+TAHAP / LEVEL 
+2 (TWO) 
+NO.  DAN TAJUK 
+KEBOLEHAN 
+TERAS/CORE ABILITY 
+NO. AND TITLE 
+ 
+CA04 HEALTH, SAFETY AND ENVIRONMENTAL 
+ADAPTATION 
+ 
+NO. DAN PENYATAAN 
+KEBOLEHAN  /  
+ABILITY NO. AND 
+STATEMENT 
+04.01 DEMONSTRATE HEALTH COMPLIANCE 
+04.02 DEMONSTRATE SAFETY COMPLIANCE 
+04.03 DEMONSTRATE ENVIRONMENTAL  COMPLIANCE 
+NO. KOD  /CODE NO. 
+Z-009-2:2015–M04/P(2/5) 
+MukaSurat / Page :  1 
+Drpd / of         :  15 
+ 
+ 
+TAJUK/TITLE :  
+SAFETY AND HEALTH WORKPLACE APPLICATION 
+ 
+TUJUAN/PURPOSE : 
+ 
+This Information Sheet is intended to describe on the ability to demonstrate level of 
+understanding in Health, Safety and Environment adaptation and apply it to work activities. 
+The person who is competent in this CA shall be able to adapt to HSE by executing 
+his/her duties while observing Health, Safety and Environment Rules and Regulations.  
+ 
+PENERANGAN/INFORMATION: 
+ 
+1. Safety And Health Hazard Assessment 
+ 
+"Hazard assessment" is the process (required by law) of identifying the hazards 
+associated with defined task, prescribing personal protective equipment and other 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+PUSAT PENTADBIRAN KERAJAAN 
+PERSEKUTUAN 
+62530 PUTRAJAYA 
+KERTAS PENERANGAN 
+( INFORMATION SHEET )
+
+===== PAGE 2 =====
+26 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+relevant protection measures which must be employed to reduce the risk from the 
+hazards. 
+ 
+1.1 The Hazard Identification And Assessment Methodology 
+The hazard identification and assessment methodology shall include - 
+i. 
+Steps and time frame for identifying and assessing the hazards. 
+One must define the steps for the identification of hazards and a time frame 
+for this identification. The following information should be included - 
+a. who will be responsible for the identification: for example, it may be the 
+work place health and safety committee, or an individual or individuals 
+appointed by the committee; 
+b. the  way  in  which  the  identification  reports  are  processed:  for  
+example, they   
+may  be  compiled  and  processed  by  the  committee,  
+or  by  individuals appointed by the committee; and 
+c. The identification time frame: for example, the identification of hazards for 
+workshop A must be completed in December, for workshop B in April and 
+for workshop C in November. 
+ii. 
+The keeping of a record of the hazards.  
+After having identified the hazards, one must establish and   maintain an 
+identification record, either in print or electronic format. 
+iii. 
+A time frame for reviewing and, if necessary, revising the methodology. 
+ 
+The date for the review of the identification: for example, the review of the 
+identification method will be carried out every three years. To  complete  
+hazard  identification,  one  can  use  techniques  to  identify  hazards.  Some 
+examples of techniques include, but are not limited to - 
+a. work place inspections; 
+b. task safety analysis or job hazard analysis; 
+c. preliminary investigations; 
+d. potential accident factors; 
+e. failure analysis;
+
+===== PAGE 3 =====
+27 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+f. 
+accident and incident investigations.  
+It is in your interest to adopt your own process and your own identification 
+techniques so  that  they  match  owner  management  procedures  and  the  
+size  of  business.  In fact, the identification method may vary depending on 
+the size of the work place. 
+ 
+1.2 Analyze And Estimate Risk 
+Using the list of hazards the team undertakes the risk analysis by identifying 
+possible consequences and the likelihood of them occurring. This will help to 
+assess the likelihood of an event occurring and the potential exposure.   There are 
+many ways an exposure or event can be initiated. It is important that all causes 
+are considered.  
+In the analysis, include all who could be affected, such as contractors, or visitors.   
+Highlight those groups or individuals particularly at risk, and take into account and 
+objectively assess the effectiveness of existing control measures.  
+To analyse risk the team needs to consider the chance of the hazardous situation 
+occurring - the likelihood - and the extent of the harm that would result - the 
+consequence.  
+ 
+For each hazard, the team needs to determine:  
+i. 
+How people are exposed; 
+ii. 
+Likelihood of exposure happening; 
+iii. 
+Frequency of exposure (when and how often), e.g. intermittent (decanting a 
+hazardous substance), or continuous (noise); and 
+iv. 
+Consequences of exposure, e.g. fatality, serious injury or permanent health 
+impairment, machinery damage, minor injury or reversible health effect, lost 
+production time. 
+ 
+1.3 Risk Assessment 
+Risk assessment involves comparing the level of risk identified during the risk 
+analysis process with previously established risk criteria, and ranking the risks in
+
+===== PAGE 4 =====
+28 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+order of severity. What the team is trying to do is assess all of the risks that each 
+hazard presents so it can be controlled. Once the risks have been assessed and 
+ranked, the action to eliminate or reduce the risk should be identified and 
+prioritised according to the assigned risk value. 
+ 
+2. Permit To Work Procedure 
+Permits to work are an important means of fulfilling the Company’s general duty to 
+ensure the health and safety of employees. Non-routine work, such as maintenance, 
+cleaning, equipment installation and refurbishment, can produce health and safety 
+risks over and above those normally encountered in the workplace. To control these 
+risks “permits-to-work” are being introduced for the following work activities: 
+i. 
+hot work, that is any hot work outside of the controlled workshop environment 
+which could reasonably be foreseen as posing a hazard to others or plant and 
+equipment. 
+ii. 
+machinery permit, required where dangerous parts of plant or machinery could 
+reasonably be foreseen as a hazard  
+iii. 
+confined spaces, entry into any area where by reason of its enclosed nature there 
+arises a foreseeable risk from the following hazards; 
+a. Injury to any person from fire or explosion 
+b. Loss of consciousness arising from raising the body temperature. 
+c. Loss of consciousness or asphyxiation of any person arising from gas, fume, 
+vapour or the lack of oxygen. 
+d. Downing caused by an increase in the level of a liquid. 
+e. Asphyxiation in a free flowing solid or the inability to reach a respirable 
+environment due to entrapment by a free flowing solid. 
+A confined space permit must also address the specific requirements in the Industrial 
+Code of Practice for Safe Working in a Confined Space 2010 (ICOP 2010) 
+iv. 
+electrical work, all work on installations which poses a hazard from electrocution, 
+fire and explosion
+
+===== PAGE 5 =====
+29 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+v. 
+excavation work, any excavation work, other than the winning of minerals, this 
+permit is 
+required to ensure no underground services pose a risk to those 
+working and to preserve the structural integrity of nearby structures. 
+vi. 
+equipment disjointing, used to control the disconnection of any equipment which 
+has contained a liquid or gas i.e. pipe work containing heated bitumen, large 
+diesel tanks etc. 
+vii. 
+work at height / roof access, access to fragile roofs or where the roof has no 
+safety edge protection or parapet, any work involving the risk of falling more than 
+2m. 
+ 
+It is the intention of the company to introduce new or modify existing permits to work 
+as necessary and to review their use as appropriate. The permit to work system 
+applies to all the above work conducted by the Company, it’s employees, contractors 
+and all visitors are expected to comply with the requirements of any permits that are in 
+force. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+For all operation involving flame, welding and hot cutting 
+This permit is valid only for the job described and the timescales provided 
+Description of work 
+ 
+ 
+Location of Work
+
+===== PAGE 6 =====
+30 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+Building 
+Floor 
+Room 
+Location 
+ 
+ 
+ 
+ 
+Date required (max duration 1 day) 
+ 
+Valid From (time) 
+ 
+To 
+ 
+Contact Details (method of Contact) 
+ 
+ 
+ 
+ 
+Mobile Phone 
+ 
+Site telephone 
+ 
+Co. Office No. 
+ 
+Estates Project Officer 
+ 
+Estates Help Desk 
+024765 22567 
+Security 
+02476522083 
+ 
+Potential Hazards 
+ 
+ 
+Oxygen enrichment
+Oxygen depletion
+Toxic Gas
+Explosive Gas
+Bio Hazard
+Poor lighting
+Heat
+Noise
+Tripping/falling/striking objects
+Other- provide details
+ 
+Control Measures 
+ 
+Hazard / equipment Isolated
+ 
+Protective equipment required - specify:
+ 
+ 
+Department staff informed
+ 
+ 
+Other Identified Hazards 
+ 
+Controls Measures 
+ 
+Mandatory Safety Requirements (See reverse for further guidance) 
+Actioned 
+All areas to be checked and combustibles removed or protected before commencement of work 
+ 
+All areas to be screened, protected, roped off as necessary and warnings signs displayed 
+ 
+All systems associated with the work to be isolated, inclusive of smoke alarms 
+ 
+Assistant to standby with fire extinguisher suitable for task. (Competent in use) 
+ 
+Building Facilities Manager notified 
+ 
+Area to be checked/inspected for combustion 1 Hour  after completion of work 
+ 
+Person entering work area 
+ 
+ 
+ 
+ 
+ 
+Permit issued by 
+ 
+Date 
+ 
+Time 
+ 
+Permit Received by 
+ 
+Date 
+ 
+ 
+Permit cancellation (Estates Dept.) 
+ 
+ 
+ 
+Name  
+ 
+Date 
+ 
+Time 
+ 
+Figure 1: Example of Work Permit for Hot Work 
+ 
+ 
+3.  Method Of Practicing Work Instruction, Safe Operating Procedure And 
+Emergency Response Plan 
+Safe working instructions outline the recommended safe method of undertaking the 
+process or activity. Written safe working instructions are an essential part of a safe
+
+===== PAGE 7 =====
+31 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+system of work and are an important part of an overall occupational health and safety 
+program. Safe work instructions do not replace the requirement for training; they may 
+however be used to supplement or guide the training process and provide reminders 
+for staff and students on the operating protocols and controls. The developments of 
+safe working instructions are a local management responsibility. They should be an 
+integral part of the organizational area's induction and refresher training programs. 
+ 
+3.1 Difference between Work Instructions and Safe Operating Procedures 
+Work Instructions tell how to do something. They are very specific instructions, 
+for example, how to complete a form. It is a tool provided to help someone to do 
+a job correctly. This simple statement implies that the purpose of the work 
+instruction is quality and that the target user is the worker.  
+Safe Operating Procedures tell you who does what when. In other words, it 
+identifies who completes the form and when this should occur. Safe operating 
+procedures are written guidelines for procedures and tasks involving recognized 
+hazards. They provide the tools for teaching how to work consistently with a 
+maximum degree of efficiency and safety. 
+In simple terms: 
+Procedures tell you Who, What and When 
+Work Instructions tell you How 
+ 
+3.2 Prepare An Emergency Response Plan 
+Emergencies and disasters can occur any time without warning. The more you 
+are prepared for them, the better you will be able to act, minimizing panic and 
+confusion when an emergency occurs. Training staff who are involved in 
+emergency planning and response is fundamental to an organisation’s ability to 
+handle any type of emergency. 
+Planning for emergencies cannot be considered reliable until it is exercised and 
+has proved to be workable, especially since false confidence may be placed in 
+the integrity of a written plan. Generally, participants in exercises should have an 
+awareness of their roles and be reasonably comfortable with them, before they 
+are subject to the stresses of an exercise. Exercising is not to catch people out. It
+
+===== PAGE 8 =====
+32 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+tests procedures, not people. If staffs are under-prepared, they may blame the 
+plan, when they should blame their lack of preparation and training. An important 
+aim of an exercise should be to make people feel more comfortable in their roles 
+and to build morale.
+
+===== PAGE 9 =====
+33 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+ 
+TITLE of ELEMENT 
+WORK INSTRUCTION  
+01-01-01 
+Revision:  
+Page  
+ 
+ 
+1.0 
+PURPOSE  
+1.1 
+ (What is the reason for writing this work instruction) Start with the following statement: “The 
+purpose of this document is to provide instructions for  
+1.2 
+Be as specific as you need to be to define the purpose of the document. 
+ 
+ 
+2.0 
+SCOPE   
+2.1 
+(Define the area or process that this instruction applies to) 
+ 
+ 
+3.0 
+RECORDS   
+3.1 
+(Indicate specific type of records to be maintained and where they will be maintained) 
+ 
+ 
+4.0 
+ASSOCIATED DOCUMENTS   
+4.1 
+(Reference upward to the procedures that the work instruction is controlled by and reference 
+forms by control number used to create records. Also, reference other documents, standards or 
+information that are relevant.)  
+ 
+ 
+5.0 
+DEFINITIONS 
+5.1 
+(Define any terms and phrases that might be unique to this instruction or to this particular 
+industry) 
+ 
+ 
+6.0 
+RESPONSIBILITY  
+6.1 
+(List department(s) or functions responsible for maintaining these instructions) 
+ 
+ 
+7.0 
+TOOLS, GAGES, FIXTURES   
+7.1 
+(List all unique tools required to perform tasks as indicated in this work instruction) 
+ 
+ 
+8.0 
+SAFETY REQUIREMENTS   
+8.1 
+(List all necessary safety precautions that employees  
+must comply with and all safety 
+equipment that must be used while following the operations specified in this work instruction) 
+ 
+ 
+9.0 
+INSTRUCTIONS   
+9.1 
+(List all steps to be taken to complete the scope of this work instruction, in the exact sequence 
+necessary.  Work instructions may be in the form of flow charts, bullet instructions, text, photos, 
+digitized images, numbered instructions or any combination of all, as long as the instructions 
+are clear, crisp and do the job as intended) 
+Figure 2: Example of Work Instruction
+
+===== PAGE 10 =====
+34 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+ 
+ 
+SAFETY OPERATING PROCEDURES 
+‘Job Title’ 
+ 
+DO NOTuse this machine unless a teacher has instructed 
+you in its safe use and operation and has given permission. 
+ 
+ 
+ 
+ 
+ 
+ 
+PRE-OPERATIONAL SAFETY CHECKS 
+1. Check unit for loose/missing nuts, bolts and screws. Tighten and/or replace as 
+needed. 
+2. Inspect fuel lines, tank, and area around carburetor for fuel leaks. Do not operate 
+machine if leaks are found. 
+3. Do not use any attachment or accessory unless it is recommended in the Operator's 
+Manual. 
+4. Ensure that all guards are fitted, secure and functional. 
+5. Faulty equipment must not be used.  Report suspect machinery immediately. 
+ 
+OPERATIONAL SAFETY CHECKS 
+1. Ensure that no person or animal is endangered when operating equipment. 
+2. When starting stand the machine upright on a level surface. Check that blower pipe is 
+not blocked by the ground or by any objects. 
+3. Allow the machine to warm up at fast idle for a few minutes before using. 
+4. Keep a firm grip. Hold handle with fingers together encircling handle. 
+5. Maintain a straight wrist position. Avoid using your wrist in a bent, extended or 
+twisted position. 
+6. The muffler side of the engine should be away from your body to avoid burns. 
+ 
+HOUSEKEEPING 
+1. Remove any foreign material from engine, air intake and guards. 
+2. Keep the work area and implement shed in a clean and tidy condition. 
+ 
+POTENTIAL HAZARDS   
+Noise 
+Figure 3: Example of Safety Operating Procedure
+
+===== PAGE 11 =====
+35 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+ 
+ 
+ 
+3.3 Types Of Exercises 
+There are 3 main types of exercise: 
+a. Discussion-based exercises 
+Discussion-based exercises are cheapest to run and easiest to prepare. 
+They can be used at the policy formulation stage as a ‘talk-through’ of how to 
+finalise the plan. More often, they are based on a completed plan and are 
+used to develop awareness about the plan through discussion. In this 
+respect, they are often used for training purposes. 
+ 
+b. Table top exercises 
+Table top exercises are based on simulation, not necessarily literally around 
+a table top. Usually, they involve a realistic scenario and a time line, which 
+may be real time or may speed time up. Usually table tops are run in a single 
+room, or in a series of linked rooms which simulate the divisions between 
+responders who need to communicate and be co-ordinated. The players are 
+expected to know the plan and they are invited to test how the plan works as 
+the scenario unfolds. This type of exercise is particularly useful for validation 
+purposes, particularly for exploring weaknesses in procedures. Table-top 
+exercises are relatively cheap to run, except in the use of staff time. They 
+demand careful preparation. 
+ 
+c. 
+Live exercises 
+Live exercises are a live rehearsal for implementing a plan. Such exercises 
+are particularly useful for testing logistics, communications and physical 
+capabilities. They also make excellent training events from the point of view 
+of experiential learning, helping participants develop confidence in their skills 
+and providing experience of what it would be like to use the plan’s 
+procedures in a real event. Where the latter purposes are, in fact, the main 
+objective of the exercise, then it is essentially a training exercise or practice
+
+===== PAGE 12 =====
+36 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+drill. Live exercises are expensive to set up on the day and demand the most 
+extensive preparation. 
+ 
+ 
+4. Specific Personal Protective Equipment (PPE) 
+PPE is defined as all equipment (including clothing affording protection against the 
+weather) which is intended to be worn or held by a person at work and which 
+protects him against one or more risks to his health or safety’, e.g. safety helmets, 
+gloves, eye protection, high-visibility clothing, safety footwear and safety 
+harnesses. 
+ 
+4.1 Assessing Suitable PPE 
+To allow the right type of PPE to be chosen, carefully consider the different 
+hazards in the workplace. This will enable you to assess which types of PPE 
+are suitable to protect against the hazard and for the job to be done. Ask 
+your supplier for advice on the different types of PPE available and how 
+suitable they are for different tasks. It may be necessary in a few particularly 
+difficult cases to obtain advice from specialist sources and from the PPE 
+manufacturer. 
+ 
+Consider the following when assessing whether PPE is suitable: 
+i. 
+Is it appropriate for the risks involved and the conditions at the place 
+where exposure to the risk may occur? For example, eye protection 
+designed for providing protection against agricultural pesticides will not 
+offer adequate face protection for someone using an angle grinder to 
+cut steel or stone. 
+ii. 
+Does it prevent or adequately control the risks involved without 
+increasing the overall level of risk? 
+iii. 
+Can it be adjusted to fit the wearer correctly? 
+iv. 
+Has the state of health of those who will be wearing it been taken into 
+account? 
+v. 
+What are the needs of the job and the demands it places on the 
+wearer? For example, the length of time the PPE needs to be worn, the
+
+===== PAGE 13 =====
+37 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+physical effort required to do the job and the requirements for visibility 
+and communication. 
+vi. 
+If more than one item of PPE is being worn, are they compatible? For 
+example, does a particular type of respirator make it difficult to get eye 
+protection to fit properly? 
+ 
+ 
+4.2  The Hazards And Types Of PPE 
+i. 
+Eyes 
+Hazards: chemical or metal splash, dust, projectiles, gas and vapour, 
+radiation. Options: safety spectacles, goggles, face shields, visors. 
+ii. 
+Head 
+Hazards: impact from falling or flying objects, risk of head bumping, hair 
+entanglement. Options: a range of helmets and bump caps. 
+iii. 
+Breathing 
+Hazards: dust, vapour, gas, oxygen-deficient atmospheres. 
+Options: disposable filtering face piece or respirator, half- or full-face 
+respirators, air- fed helmets, breathing apparatus. 
+iv. 
+Protecting the body 
+Hazards: temperature extremes, adverse weather, chemical or metal 
+splash, spray  from pressure leaks or spray guns, impact or 
+penetration, contaminated dust,  
+excessive 
+wear or entanglement 
+of own clothing. Options: conventional or disposable overalls, boiler 
+suits, specialist protective  
+clothing, e.g. chain-mail aprons, high-
+visibility clothing. 
+v. 
+Hands and arms 
+Hazards: abrasion, temperature extremes, cuts and punctures, impact, 
+chemicals, electric shock, skin infection, disease or contamination. 
+ 
+options: gloves, gauntlets, mitts, wrist cuffs, armlets. 
+vi. 
+Feet and legs 
+Hazards: wet, electrostatic build-up, slipping, cuts and punctures, falling 
+objects,  metal and  
+chemical splash, abrasion. 
+Options: safety boots and shoes with protective toe caps and 
+penetration-resistant  mid-sole, gaiters, leggings, spats.
+
+===== PAGE 14 =====
+38 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+4.3  Training 
+i. 
+Make sure anyone using PPE is aware of why it is needed, when it is to 
+be used, repaired or replaced and its limitations. 
+ii. 
+Train and instruct people how to use it properly and make sure they are 
+doing this. 
+iii. 
+Because PPE is the last risk control option after other methods of 
+protection have been considered, it is important that users wear it all 
+the time they are exposed to the risk. Never allow exemptions for those 
+jobs which take ‘just a few minutes’. 
+iv. 
+Check regularly that PPE is being used and investigate fully any 
+reasons why it is not. Safety signs can be useful reminders to wear 
+PPE. 
+ 
+4.4 Maintenance 
+Make sure equipment is: 
+i. 
+well looked after and properly stored when it is not being used, for 
+example in a dry, clean cupboard, or in the case of smaller items, 
+such as eye protection, in a box or case; 
+ii. 
+kept clean and in good repair - follow the manufacturer’s maintenance 
+schedule (including recommended replacement periods and shelf 
+lives). Simple maintenance can be carried out by the trained wearer, 
+but more intricate repairs should only be done by specialists. 
+Make sure suitable replacement PPE is always readily available.
+
+===== PAGE 15 =====
+39 
+ 
+NO. KOD  /CODE NO. 
+Z-009-2:2015-M04/P(2/5) 
+MukaSurat / Page :   
+Drpd / of:  15 
+ 
+ 
+ 
+ 
+ 
+SOALAN/QUESTION : 
+ 
+1. What is done at the risk assessment ? 
+.................................................................................................................................... 
+ 
+.................................................................................................................................... 
+ 
+ 
+ 
+2. List five work activities that require a work permit 
+.................................................................................................................................... 
+ 
+.................................................................................................................................... 
+ 
+ 
+3. Why training the use of PPE is important ? 
+.................................................................................................................................... 
+ 
+.................................................................................................................................... 
+ 
+ 
+ 
+RUJUKAN / REFERENCES: 
+ 
+1. Factories and Machinery Act 1967 and Regulations, Pindaan Ogos 2008, ISBN 
+967701156-1 
+2. Occupational Safety and Health Act 1994 and Regulation, (2009) Malaysia, Penerbitan 
+Akta (M), ISBN-967701188-X. 
+3. Garis Panduan bagi Pengenalpastian Hazard, Penaksiran Risiko dan Kawalan Risiko 
+(HIRARC), ISBN 978-983-2014-62-1

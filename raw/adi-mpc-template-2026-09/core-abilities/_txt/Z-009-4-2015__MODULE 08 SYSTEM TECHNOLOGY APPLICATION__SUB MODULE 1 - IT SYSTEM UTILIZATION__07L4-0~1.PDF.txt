@@ -1,0 +1,321 @@
+ 
+1 
+ 
+ 
+ 
+KOD DAN NAMA  
+PROGRAM /  
+PROGRAM’S CODE 
+AND NAME 
+  
+Z-009-4: 2015  CORE ABILITIES 
+TAHAP / LEVEL 4 (FOUR) 
+NO.  DAN TAJUK 
+KEBOLEHAN TERAS / 
+CORE ABILITY NO. 
+AND TITLE 
+ 
+CA08 SYSTEM TECHNOLOGY APPLICATION 
+ 
+NO. DAN PENYATAAN 
+KEBOLEHAN  /  
+ABILITY NO. AND 
+STATEMENT 
+08.01   ADOPT APPROPRIATE SOFTWARE   
+APPLICATION 
+08.02    COMPLY TO SYSTEM ANALYSIS APPLICATION 
+08.03    UPDATE IT APPLICATION 
+08.04    ADHERE TO IT RULES & REGULATIONS 
+NO. KOD  / CODE NO. Z-009-4:2015 –M08/P(1/4) Muka Surat / Page :  1 
+Drpd / of                 :   8 
+TAJUK/TITLE: SOFTWARE APPLICATION ADOPTION 
+ 
+TUJUAN/PURPOSE : 
+ 
+This Information Sheet is intended to describe on System Application Adoption  
+requirements to maintain and ensure information technology ap plications in the 
+organisation are current. The person who is competent in this CA shall be able to utilize 
+system application in accordance with recommended practices. 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN 
+62530 PUTRAJAYA 
+ 
+KERTAS PENERANGAN 
+(INFORMATION SHEET) 
+ 
+
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(1/4) Muka Surat / Page :  2 
+Drpd / of                 :  8 
+ 
+2 
+ 
+PENERANGAN/INFORMATION:  
+1. What is IT applications? 
+1.1 An application is any program, or group of programs, that is designed for the 
+end user . Application software can be divided into two general classes:  
+systems software and applications software :  
+i) Applications software (also called end-user programs) include such things 
+as database programs, word processors , Web browsers  and 
+spreadsheets. Figuratively speaking, applications software sits on top of 
+systems software  because it is unable to run without the operating 
+system and system utilities. 
+ii) Systems software  consists of low -level programs that interact with the 
+computer at a very basic level. This includes operating systems , 
+compilers, and utilities for managing computer resources. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                         Picture 1.1 Applications in IT usage 
+ 
+ 
+ 
+ 
+ 
+
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(1/4) Muka Surat / Page :  3 
+Drpd / of                 :  8 
+ 
+3 
+ 
+2. What are the 2 basic principle components of a computer? 
+2.1 Computer hardware  
+The collection of physical parts of a computer system. This includes the computer 
+case, monitor, keyboard, and mouse. It also includes all the parts inside the 
+computer case, such as the hard disk drive, motherboard, video card, and many 
+others. Computer hardware is what you can physically touch. 
+2.2 Computer software 
+Software is any set of machine -readable instructions that directs a computer's 
+processor to perform specif ic operations. A combination of hardware and software 
+forms a usable computing system 
+ 
+ 
+3. What is software applications? 
+5.1 Application software is a set of one or more programs designed to carry out 
+operations for a specific application. Application software cannot run on itself but 
+is dependent on system software to execute. For example: MS Word, MS Excel, 
+console game, library management system, billing system, etc. 
+ 
+5.2 There are countless desktop applications out there, and they fall into many 
+different categor ies. Some are more full-featured (like Microsoft Word ), while 
+others may only do one or two things (like gadgets). Below are just a few types of 
+applications you might use: 
+ 
+i) Office software: Office softwares allows you to manage/create/edit 
+documentation using word processor,presentation and spreadsheets 
+softwares. A few of the well-known office softwares used are Microsoft 
+Word, Excel and Powerpoint.There are Paid Office Softwares and Open 
+Source Office Softwares (free). There are also offline and online types. 
+ 
+ 
+ 
+ 
+ 
+               Picture 3.2.a  Microsoft Word, Excel and Powerpoint 
+
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(1/4) Muka Surat / Page :  4 
+Drpd / of                 :  8 
+ 
+4 
+ 
+ 
+ii) Financial: Finance software, such as Quicken, allows you to keep track 
+of your income and expenses and create a budget, among other tasks. 
+Most personal finance programs can automatically download information 
+from your bank so you don't have to manually type in all of your 
+transactions. 
+iii) Web browsers:  A web browser  is the tool you use to access the 
+Internet. Examples of browsers include Internet Explorer, Firefox, Google 
+Chrome,Opera and Safari. 
+ 
+ 
+ 
+ 
+ 
+               Picture 3.2.b Popular web browsers  
+iv) Games:. They range from card games such as Solitaire to action games 
+like Halo 2. Many action games require a lot of computing power, so they 
+may not work unless you have a higher computer specification. 
+v) Media players: If you want to listen to MP3s or watch movies you've 
+downloaded, you'll need to use a media player.  
+vi) Gadgets: Sometimes called widgets, these are simple applications you 
+can place on your desktop (or on the Dashboard if you're using a Mac). 
+There are many different types of gadgets, and they include calendars, 
+calculators, maps, and news headlines. 
+vii) Multimedia editing/production/manipulation :   These are specific 
+softwares that focuses on its sole purpose. Most notable so ftware,for 
+example,for graphic editing is Adobe Photoshops. This type of software 
+deals with specific and complex algorithms/programming that 
+manipulates the hardwares and software to the users desire. 
+viii) Programming :  These applications specifically utilizes  programming 
+codes knowledge and algorithms to produce series of commands, 
+instructions, softwares or applications 
+ 
+ 
+ 
+
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(1/4) Muka Surat / Page :  5 
+Drpd / of                 :  8 
+ 
+5 
+ 
+4. IT problems 
+4.1 During utilization of IT application, it is normal to encounter problems 
+especially technicalities. It is usually handled by t he IT Department for trouble 
+shooting. 
+ 
+4.2 However, there are several steps that can be taken to troubleshoot any 
+problems that might arise before the expert handles the technical aspect. They are :  
+ 
+i) First, ask yourself: is there really a problem here? 
+ii) Acknowledge the problem. 
+iii) Ask for help from the correct personnel. 
+iv) Use 80 percent of your time to find solutions instead of complaining. 
+v) Break the problem down into smaller pieces. 
+vi) Find the opportunity and/or lesson within the problem. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Picture 4.2   Troubleshooting process 
+ 
+ 
+ 
+ 
+
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(1/4) Muka Surat / Page :  6 
+Drpd / of                 :  8 
+ 
+6 
+ 
+5. What is document printing? 
+5.1   Digital printing describes the process of transferring a document on a 
+personal computer or other digital storage device to a printing substrate by means 
+of a device that accepts text and graphic output. As with other digital processes, 
+information is reduced to binary code, or "digitized," to facilitate its storage and 
+reproduction. Digital printing has steadily replaced lithography in many markets, 
+especially at the consumer and business level, as a result of its substantially lower 
+production costs. 
+ 
+5.2     The following peripheral s are all capable of digital printing: 
+i) Inkjet printer 
+ii) Laser printer 
+iii) Multifunctional peripheral 
+ 
+5.3    In normal use of documentations, software that utilizes words, excels or 
+PowerPoint are the usual applications used and their output are usually printed 
+apart from softcopies. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                         Picture 5.3   Printing made easy 
+ 
+5.4 Special attention is paid towards printing only the necessary documents and 
+only prints what is correct to avoid wastage. This complies to the Green Concept 
+philosophy.  
+ 
+
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(1/4) Muka Surat / Page :  7 
+Drpd / of                 :  8 
+ 
+7 
+ 
+SOALAN / QUESTION(S): 
+1. What is IT application? 
+_____________________________________________________________________
+_____________________________________________________________________
+_____________________________________________________________________
+__________________ 
+2. What is computer hardware? 
+_____________________________________________________________________
+_____________________________________________________________________
+_____________________________________________________________________
+__________________ 
+3. What is computer software? 
+_____________________________________________________________________
+_____________________________________________________________________
+_____________________________________________________________________
+__________________ 
+4. What is software application? 
+_____________________________________________________________________
+_____________________________________________________________________
+_____________________________________________________________________
+__________________ 
+ 
+ 
+ 
+ 
+ 
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(1/4) Muka Surat / Page :  8 
+Drpd / of                 :  8 
+ 
+8 
+ 
+RUJUKAN / REFERENCE: 
+1.   Wallace Stegner (2002). Crossing to Safety. Modern Library.  ISBN: 0-375-75931-X 
+2.   Warren Bennis (2009). On Becoming a Leader. Perseus Books Group.ISBN: 978-0-
+465-01408; 0-7382-0817-5 
+3. Gopalaswamy Ramesh and Mahadevan Ramesh (2010). The Ace of Soft Skills, 
+Attitude, Communication and Etiquette for Success. Dorling Kindersley Pvt Ltd. 
+ISBN: 978-81-317-3285-4 
+4. http://study.com/academy/lesson/what-is-computer-hardware-components-
+definition-examples.html 
+5. http://www.ask.com/technology/facilities-internet-provide-14d1eba167fb5492 
+6. http://whatis.techtarget.com/definition/digital-printing 
+7. http://www.computerhope.com/jargon/s/searengi.htm 
+8. https://en.wikipedia.org/wiki/Web_search_engine 
+9. http://www.gcflearnfree.org/computerbasics/3 
+ 
+ 

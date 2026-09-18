@@ -1,0 +1,316 @@
+# Z-009-1-2015\MODULE 04 SAFETY HEALTH AND ENVIRONMENT AWARENESS\Kertas Penerangan 4.2b.pdf
+
+===== PAGE 1 =====
+35 
+ 
+ 
+ 
+      
+ 
+KOD DAN NAMA  
+PROGRAM /  
+PROGRAM’S CODE AND 
+NAME 
+Z-009-1:2015CORE ABILITIES 
+TAHAP / LEVEL 
+1 (ONE) 
+NO. DAN TAJUK 
+KEBOLEHAN TERAS / 
+CORE ABILITY NO. AND 
+TITLE 
+ 
+CA04 HEALTH, SAFETY AND ENVIRONMENTAL 
+ 
+AWARENESS 
+ 
+NO. DAN PENYATAAN 
+KEBOLEHAN / 
+ABILITY NO. AND 
+STATEMENT 
+4.1 ADHERE TO HEALTH AWARENESS ACTIVITY 
+4.2 ADHERE TO SAFETY AWARENESS ACTIVITY 
+4.3 ADHERE TO ENVIRONMENTAL AWARENESS 
+ACTIVITY 
+NO. KOD  /CODE NO. 
+ 
+Z-009-1:2015–M04/P(3/5) 
+ 
+Mukasurat/ Page : 35 
+Drpd / of    :8 
+ 
+ 
+TAJUK/TITLE:  
+SAFE MACHINE OPERATION 
+ 
+ 
+TUJUAN/PURPOSE: 
+This Information Sheet is intended to describe on the Safe Machine Operation. The 
+person who is competent in this CA shall be able to abide to Safety and Health Acts, and 
+Factories and Machinery Acts and regulations, hence reducing exposure to hazards and 
+risks as well as incidence of work-related injury and illness. 
+ 
+ 
+ 
+ 
+ 
+ JABATAN PEMBANGUNAN KEMAHIRAN 
+ KEMENTERIAN SUMBER MANUSIA 
+ ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+ PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN 
+ 62530 PUTRAJAYA 
+ KERTAS PENERANGAN  
+(INFORMATION SHEET)
+
+===== PAGE 2 =====
+36 
+ 
+NO. KOD  /CODE NO. 
+Z-009-1:2015–M04/P(3/5) 
+MukaSurat / Page :  
+Drpd/ of:  9 
+ 
+PENERANGAN/INFORMATION: 
+ 
+1. 
+Introduction  
+Potential hazards of operating machines and equipment are numerous. Some of the most 
+obvious recognized hazards are from machine motion. Hazardous motion is characteristic 
+of the point-of-operation of the machine, but can also be found in other areas such as 
+behind, to the side, or above the machine.  
+1.1 
+Rotating motion of collars, couplings, cams, clutches, flywheels, shaft-ends, 
+ 
+set screws, spindles, etc., can be dangerous by gripping clothing or forcing 
+ 
+arms/hands or other body parts into dangerous positions. Rotating parts can 
+ 
+also create nip points when two adjacent moving parts are in close proximity 
+ 
+(e.g., two cogs, two rolling bars, chain and sprocket, etc.); or a rotating part is in 
+ 
+close proximity to a fixed point.  
+ 
+1.2 
+Reciprocating machine motions are also hazardous. A worker may be injured by 
+ 
+back-and forth or up-and-down motion when struck by or caught between 
+ 
+moving and stationary parts (e.g., saw blades, knives, etc.). 
+ 
+1.3  
+Transverse machine motion (movement in a straight, continuous line) is another 
+ 
+recognized hazard because a worker may be struck or caught in a pinch or 
+ 
+shear point by moving parts. 
+ 
+Why is safeguarding important? It is impossible to predict what people will do around 
+powered machinery, no matter what their level of experience or training. Effective 
+safeguarding protects against both human error and lapses in judgment, as well as 
+accidental contact with moving parts. 
+ 
+For instant view of the impact, while adjusting a conveyor belt, a millwright is drawn into 
+the unguarded tail drive of a belt conveyor and suffers fatal crushing injuries. Another 
+case, a young worker feeding sheet rubber into a guillotine shear loses both hands when 
+the machine cycles unexpectedly. And a case of a lumber piler cleaning up around a 
+lumber sorting table (green chain) is strangled when his loose clothing is caught on an 
+exposed keyway at the end of a slowly rotating shaft. These are three examples of serious 
+injury or death resulting from unguarded or inadequately safeguarded machinery and
+
+===== PAGE 3 =====
+37 
+ 
+NO. KOD  /CODE NO. 
+Z-009-1:2015–M04/P(3/5) 
+MukaSurat / Page :  
+Drpd/ of:  9 
+equipment which can happen in any workplace that uses powered equipment. Each year, 
+physical contact with machines and powered equipment account for a significant number 
+of life-altering injuries, including amputations and disfigurement, and may also result in the 
+death of a worker. Most of these accidents can be prevented by effective safeguarding, 
+lockout procedures, and supervision and training. 
+ 
+2.  Fencing Machinery 
+2.1 
+Every dangerous part of every driven machine, prime mover and transmission 
+machinery shall be securely fenced in accordance with these Regulations: 
+Provided that where the Chief Inspector is satisfied that there is available and 
+suitable for use in connection with machinery any type or description of safety 
+device, he may direct such type or description of device shall be provided for use 
+in connection with such machinery.  
+2.2 
+Where the Chief Inspector is satisfied that owing to special circumstances the 
+compliance with any of these Regulations is unnecessary or impracticable he 
+may by certificate in writing, which he may in his discretion revoke, exempt the 
+whole or any part of any machinery from the provisions of such regulation. 
+ 
+2.3 
+Opening in fence.  
+No opening in any fence shall be of such dimensions that any person can 
+touch the moving parts of the machinery enclosed by the fence, provided that 
+guard-rails may be installed where the clearance between the nearest 
+exposed moving part of the machinery and the guard-rail exceeds twelve 
+inches but does not exceed twenty inches. 
+ 
+2.4 Point of operation. 
+ The point of operation of any machine shall be effectively fenced. 
+ 
+2.5  Starting and stopping appliance.  
+i. 
+Every machine intended to be driven by mechanical power shall be provided 
+with an efficient starting and stopping appliance the control of which shall be 
+in such a position as to be readily and conveniently operated by the person 
+operating the machine in his normal working position.
+
+===== PAGE 4 =====
+38 
+ 
+NO. KOD  /CODE NO. 
+Z-009-1:2015–M04/P(3/5) 
+MukaSurat / Page :  
+Drpd/ of:  9 
+ii. 
+Where pedals are used to actuate machines or parts of machines, an 
+automatic locking device shall be attached to the pedal or an inverted U- 
+shape guard shall be fastened to the floor over the treadle leaving sufficient 
+clearance for the foot of the operator between the treadle and guard.  
+iii. 
+No person shall start any machinery unless and until every precaution has 
+been taken to ensure that no other person or persons will be injured or be 
+rendered liable to injury or be placed in a hazardous position by the 
+operation of such machinery.  
+ 
+2.6  
+Electrical apparatus.  
+All electrical equipments and installations shall be of such construction and so 
+installed and maintained as to prevent fire hazard and danger from contact with 
+moving parts and live parts. Such electrical equipments and installations shall 
+conform to all the requirements prescribed in any written law relating to 
+electrical equipments and installations and shall have been approved by the 
+authorities appointed by the said law.  
+Rotating motion can be dangerous; even smooth, slowly rotating shafts can grip clothing 
+and force an arm or hand into a dangerous position. Injuries due to contact with rotating 
+parts can be severe (see figure 1).
+
+===== PAGE 5 =====
+39 
+ 
+NO. KOD  /CODE NO. 
+Z-009-1:2015–M04/P(3/5) 
+MukaSurat / Page :  
+Drpd/ of:  9 
+ 
+Figure 1: Mechanical punch press 
+Collars, couplings, cams, clutches, flywheels, shaft ends, spindles and horizontal or 
+vertical shafting are some examples of common rotating mechanisms which may be 
+hazardous. There is added danger when bolts, nicks, abrasions and projecting keys or set 
+screws are exposed on rotating parts on machinery, as shown in figure 2. 
+ 
+Figure 2: Examples of hazardous projections on rotating parts 
+In-running nip points are created by rotating parts on machinery. There are three main 
+types of in-running nip points:
+
+===== PAGE 6 =====
+40 
+ 
+NO. KOD  /CODE NO. 
+Z-009-1:2015–M04/P(3/5) 
+MukaSurat / Page :  
+Drpd/ of:  9 
+Parts with parallel axes can rotate in opposite directions. These parts may be in contact 
+(thereby producing a nip point) or in close proximity to each other, in which case the stock 
+fed between the rolls produces the nip points. This danger is common on machinery with 
+intermeshing gears, rolling mills and calenders, as shown in figure 3. 
+ 
+Figure 3: Common nip points on rotating parts 
+ 
+Another type of nip point is created between rotating and tangentially moving parts, such 
+as the point of contact between a power transmission belt and its pulley, a chain and a 
+sprocket, or a rack and pinion, as shown in figure 4. 
+ 
+Figure 4: Nip points between rotating elements and parts with 
+longitudinal motions
+
+===== PAGE 7 =====
+41 
+ 
+NO. KOD  /CODE NO. 
+Z-009-1:2015–M04/P(3/5) 
+MukaSurat / Page :  
+Drpd/ of:  9 
+Nip points can also occur between rotating and fixed parts which create a shearing, 
+crushing or abrading action. Examples include hand-wheels or flywheels with spokes, 
+screw conveyors or the periphery of an abrasive wheel and an incorrectly adjusted work 
+rest, as shown in figure 5. 
+  
+Figure 5: Nip points between rotating machine components 
+ 
+Transverse motion (movement in a straight, continuous line) creates a hazard because a 
+worker may be struck or caught in a pinch or shear point by a moving part. An example of 
+transverse motion is shown in figure 6. 
+ 
+Figure 6: Example Of Transverse Motion 
+Cutting action involves rotating, reciprocating or transverse motion. Cutting action creates 
+hazards at the point of operation where finger, head and arm injuries can occur and where 
+flying chips or scrap material can strike the eyes or face. Typical examples of machines
+
+===== PAGE 8 =====
+42 
+ 
+NO. KOD  /CODE NO. 
+Z-009-1:2015–M04/P(3/5) 
+MukaSurat / Page :  
+Drpd/ of:  9 
+with cutting hazards include band saws, circular saws, boring or drilling machines, turning 
+machines (lathes) and milling machines. (See figure 7). 
+ 
+Figure 7: Examples of cutting hazards 
+ 
+ 
+ 
+SOALAN/QUESTION : 
+ 
+1. Why machine guarding is important for any operation of machinery?  
+ 
+.................................................................................................................................... 
+.................................................................................................................................... 
+ 
+ 
+ 
+2. Name three types of machine guarding? 
+ 
+.................................................................................................................................... 
+.................................................................................................................................... 
+ 
+ 
+3. What type of guarding for a cutting machine? 
+ 
+....................................................................................................................................
+
+===== PAGE 9 =====
+43 
+ 
+NO. KOD  /CODE NO. 
+Z-009-1:2015–M04/P(3/5) 
+MukaSurat / Page :  
+Drpd/ of:  9 
+.................................................................................................................................... 
+ 
+RUJUKAN / REFERENCES: 
+ 
+1.   Occupational Safety and Health Act 1994, (2010) Malaysia, Penerbitan Akta (M), 
+ 
+ISBN-978-967-576-9221. 
+2. Chessebro T.; O’Connor L.; Rios F., (2009), Communicating in the Workplace. 
+ 
+Prentice Hall. ISBN-13 978-0136136910. 
+3. Vergo P., (1974). Health and Safety at Work etc Act 1974, (Public General Acts – 
+ 
+Elizabeth II), TSO. ISBN-13 978-0105437741 
+4. Health and Safety Executive, (1998), Workplace Health, Safety and Welfare: 
+ 
+Workplace (Health, Safety and Welfare) Regulations 1992- Approved Code of 
+ 
+Practice and Guidance (Health and Safety Commission). HSE Books. ISBN-13 978-
+ 
+0717604135.

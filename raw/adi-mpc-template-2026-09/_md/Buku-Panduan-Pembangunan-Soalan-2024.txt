@@ -1,0 +1,6264 @@
+
+===== PAGE 1 =====
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PANDUAN PEMBANGUNAN SOALAN PENILAIAN  
+LATIHAN KEMAHIRAN  
+EDISI 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+MALAYSIA 
+ 
+SEPTEMBER 2024 
+ 
+ 
+===== PAGE 2 =====
+ii 
+ 
+Buku PANDUAN PEMBANGUNAN SOALAN LATIHAN KEMAHIRAN EDISI 2024  
+ini ialah diterbitkan oleh Jabatan Pembangunan Kemahiran Bahagian Standard 
+Pekerjaan dan Kurikulum (BSPK) TVET. 
+ 
+Cetakan Pertama 2024 
+Teks @ Jabatan Pembangunan Kemahiran Bahagian Standard Pekerjaan dan 
+Kurikulum (BSPK) TVET 
+ 
+Hak cipta terpelihara. Tidak dibenarkan mengeluar ulang mana-mana bahagian teks, 
+ilustrasi dan isi kandungan buku ini dalam apa jua bentuk dengan apa jua cara, 
+sama ada secara elektronik, fotokopi, mekanik, rakaman atau cara lain kecuali 
+dengan keizinan bertulis daripada penulis. 
+ 
+ 
+ 
+Diterbitkan oleh: 
+Jabatan Pembangunan Kemahiran 
+Bahagian Standard Pekerjaan dan Kurikulum (BSPK) TVET. 
+Blok 4803, Suite 0-10, Bangunan CDB Perdana 
+Off Persiaran Flora 
+63000 Cyberjaya, Selangor 
+Tel : 03-8321 4700 
+Fax : 03-8321 4858 
+www.dsd.gov.my 
+ 
+===== PAGE 3 =====
+i 
+ 
+KATA ALUAN 
+KETUA PENGARAH PEMBANGUNAN KEMAHIRAN 
+ 
+Assalamualaikum W.B.T dan Salam Sejahtera. 
+ 
+Terlebih dahulu saya ingin mengucapkan tahniah dan syabas kepada warga Jabatan 
+Pembangunan Kemahiran ( JPK) atas kejayaan menerbitkan Panduan 
+Pembangunan Soalan Pen ilaian Latihan Kemahiran (SPLK) edisi 2024 ini. Semoga 
+panduan ini mampu mening katkan kefahaman penyedia TVET dalam 
+membangunkan SPLK. 
+ 
+Buku Panduan Pembangunan SPLK ini diterbitkan sebagai satu usaha 
+meningkatkan pengetahuan dan kemahiran perso nel pentauliahan dalam membina 
+SPLK. Bahan terbitan ini juga, sebagai inisiatif Bahagian S tandard Pekerjaan & 
+Kurikulum TVET ( BSPKTVET) untuk membantu personel pentauliahan terutamanya 
+pegawai penilai di pusat bertauliah agar dapat membina SPLK yang berkualiti 
+selaras dengan keperluan sistem TVET negara. Diharapkan pembinaan SPLK yang 
+berkualiti mampu dihasilkan oleh pegawai penilai dan seterusnya dapat membantu 
+perkembangan potensi individu secara menyeluruh dan bersepadu dari aspek 
+intelek dan kerohanian. 
+  
+Akhir kata, saya mendoakan kesejahteraan buat semua warga JPK serta terus 
+bersama-sama mengarus perdanakan latihan kemahiran negara demi melahirkan 
+generasi masyarakat Malaysia yang berkemahiran tinggi dan berdaya saing. 
+ 
+ 
+”Pekerja Pemangkin Wadah Malaysia Madani” 
+ 
+ 
+Ts. ZULEAH BINTI DARSONG 
+Ketua Pengarah Pembangunan Kemahiran 
+Jabatan Pembangunan Kemahiran 
+Kementerian Sumber Manusia 
+ 
+===== PAGE 4 =====
+ii 
+ 
+PRAKATA 
+Assalamualaikum. 
+ 
+Salam Sejahtera, 
+Selawat dan salam ke atas Junjungan Besar Nabi Muhammad S.A.W. 
+ 
+Setinggi-tinggi syukur ke hadrat Allah SWT kerana dengan izinnya, Buku Panduan 
+Pembangunan Soalan Penilaian Latihan Kemahiran (SPLK) ini berjaya diterbitkan. 
+ 
+Buku Panduan ini memberi penerangan secara menyeluruh kepada pengguna 
+tentang metodologi pembangunan SPLK mengikut keperluan semasa seperti  mana 
+ketetapan Jabatan Pembangunan Kemahiran (JPK). Gabungan a spek 
+pembangunan SPLK teori dan ama li diterangkan dengan terperinci bagi memberi 
+panduan sebenar kepada pengguna untuk menghasilkan SPLK yang menepati Unit 
+Kompetensi di dalam dokumen Standard/NOSS. Ia juga telah mengambil kira 
+keperluan COPTPA dan garis panduan pentaulihan JPK yang sedang berkuatkuasa. 
+ 
+Prinsip asas Penilaian adalah berteraskan kepada empat prinsip iaitu kesahan 
+(validity), kebolehpercayaan ( realibility), kesaksamaan ( fairness) dan ketekalan 
+(consistency) menerusi mekanisma amalan terbaik. 
+ 
+Dengan penghasilan buku ini adala h diharapkan dapat memudahkan pengguna 
+dalam membangunkan SPLK yang menepati standard sekaligus akan meningkatkan 
+kualiti lepasan SKM/ DKM/ DLKM dalam memenuhi kehendak industri. 
+ 
+Setinggi-tinggi penghargaan diucapkan kep ada semua yang terlibat dalam 
+menghasilkan buku panduan ini. Diharapkan buku panduan ini dapat dimanfaatkan 
+dengan sebaik-baiknya oleh semua pihak. 
+ 
+Sekian, terima kasih. 
+ 
+ 
+SITI FAUZIAH BINTI JUMADI 
+Pengarah Bahagian Standard Pekerjaan & Kurikulum TVET (SPKTVET) 
+Jabatan Pembangunan Kemahiran 
+===== PAGE 5 =====
+iii 
+ 
+BIL. PERKARA MUKA SURAT 
+i. Kata Aluan i 
+ii. Prakata ii 
+iii. Senarai Akronim vi 
+iv. Glosari vii 
+v. Senarai Rajah x 
+vi. Senarai Jadual xii 
+vii. Senarai Lampiran 
+ 
+ 
+ 
+ 
+ 
+xiii 
+ 
+1.0 PENDAHULUAN 1 
+2.0 LATAR BELAKANG 1 
+ 2.1 Kesahan Penilaian 1 
+ 2.2 Kebolehpercayaan Penilaian 2 
+ 2.3 Kecukupcakupan Penilaian 3 
+3.0 PENGGUNAAN BAHASA 4 
+4.0 SOALAN PENILAIAN LATIHAN KEMAHIRAN (SPLK) 4 
+ 4.1 Klasifikasi SPLK  
+ 
+4 
+ 4.2 Ciri-ciri SPLK 5 
+ 4.3 Kategori SPLK 11 
+  4.3.1 Penilaian Pengetahuan 11 
+  4.3.2 Penilaian Prestasi 13 
+ 4.4 Panel Pembangun Soalan 14 
+ 4.5 Pengesahan Soalan 
+ 
+ 
+ 
+ 
+14 
+5.0 PEMBANGUNAN SOALAN PENILAIAN LATIHAN KEMAHIRAN 
+(SPLK) 
+ 
+ 
+ 
+15 
+===== PAGE 6 =====
+iv 
+ 
+BIL. PERKARA MUKA SURAT 
+ 5.1 Tentukan Program Latihan 16 
+ 5.2 Pilih CU  16 
+ 5.3 Tentukan Nilai Kredit CU Dipilih 
+ 
+16 
+  5.3.1   Pengiraan Nilai Kredit (Nominal Training Hours) 
+ 
+19 
+  5.3.2 Pengiraan Nilai Kredit (Competency Weightage) 
+ 
+21 
+ 5.4 Tentukan Bilangan Soalan 23 
+ 5.5 Bangunkan Jadual Spesifikasi Ujian (JSU) 
+ 
+26 
+  5.5.1 JSU Standard 26 
+  5.5.2 JSU Individu 26 
+  5.5.3 Kepentingan Pembangunan JSU 27 
+  5.5.4 Kandungan JSU 27 
+  5.5.5 Tatacara Pembangunan JSU Standard 27 
+  5.5.6 Tatacara Pembangunan JSU Subjektif 32 
+  5.5.7 Tatacara Pembangunan JSU Individu 34 
+ 5.6 Bangunkan SPLK 37 
+  5.6.1 Pembangunan Soalan Penilaian melalui Modul 
+TIA 
+37 
+  5.6.2 Format Penulisan Soalan Penilaian Pengetahuan 37 
+  5.6.3 Tatacara Pe mbangunan Soalan Penilaian 
+Pengetahuan (Objektif) 
+37 
+  5.6.4 Contoh Soalan Penilaian Pengetahuan (Objektif) 46 
+  5.6.5 Contoh Paparan Soalan Pinilaian TIA 54 
+  5.6.6 Tatacara Pe mbangunan S oalan Penilaian  
+Pengetahuan (Subjektif) 
+ 
+55 
+  5.6.7 Contoh Soalan Penilaian Pengetahuan (Subjektif) 
+dan Skema Jawapan 
+58 
+===== PAGE 7 =====
+v 
+ 
+BIL. PERKARA MUKA SURAT 
+  5.6.8 Format Soalan Penilaian Pre stasi dan Skema 
+Pemarkahan 
+ 
+63 
+  5.6.9 Tatacara Pembangunan Soalan Penilaian Prestasi 69 
+  5.6.10 Ketetapan dan Komponen Soalan Penilaian  
+Prestasi 
+70 
+  5.6.11 Skema Pemarkahan 76 
+  5.6.12 Peraturan Pemarkahan 78 
+  5.6.13 Contoh Soalan Penilaian Prestasi  dan Skema 
+Pemarkahan 
+ 
+80 
+ 5.7 Sahkan SPLK 103 
+  5.7.1 Aturan Pengesahan SPLK 104 
+6.0 PANDUAN PEMBANGUNAN SOALAN PENILAIAN LATIHAN 
+KEMAHIRAN ATAS TALIAN 
+ 
+104 
+7.0 PEMAKAIAN 104 
+8.0 PEMBATALAN 105 
+9.0 TARIKH KUAT KUASA 105 
+ 
+ 
+===== PAGE 8 =====
+vi 
+ 
+  SENARAI AKRONIM 
+ 
+CPC Competency Profile Chart 
+CU Competency Unit 
+CP Competency Profile 
+CoCU Curriculum of Competency Unit 
+COPTPA Code Of Practice for TVET Programme Accreditation 
+DKM Diploma Kemahiran Malaysia 
+DLKM 
+JKTPS 
+Diploma Lanjutan Kemahiran Malaysia 
+Jawatankuasa Teknikal Pengesah Soalan 
+JPK Jabatan Pembangunan Kemahiran  
+JSU Jadual Spesifikasi Ujian  
+NOSS National Occupational Skills Standard 
+PA Penilaian Akhir 
+PB Pusat Bertauliah  
+PP 
+PPA 
+PPPB 
+PPD 
+PPL 
+PPT 
+Pegawai Penilai 
+Pusat Penilaian Amali 
+Panel Penilaian Pusat Bertauliah 
+Pegawai Pengesah Dalaman 
+Pegawai Pengesah Luaran 
+Pengiktirafan Pencapaian Terdahulu 
+SKM Sijil Kemahiran Malaysia 
+SLaPB 
+SLDN 
+Sistem Latihan Program Bertauliah 
+Sistem Latihan Dual Nasional 
+SPKM 
+SPLK 
+Sistem Persijilan Kemahiran Malaysia 
+Soalan Penilaian Latihan Kemahiran  
+TAC 
+TIA 
+Technical Advisory Committee 
+TVET Integrated Assessement 
+TVET Technical and Vocational Education and Training 
+WA Work Activities 
+===== PAGE 9 =====
+vii 
+ 
+GLOSARI 
+“Akta P embangunan Kema hiran Kebangsa an 2006 (Akta 652) ” ertinya suatu 
+akta untuk me nggalakkan melalui l atihan kemah iran pembangunan dan perbaikan 
+keupayaan seseor ang yang d iperlukan untuk kerjaya da n untuk mengadak an 
+peruntukan bagi perkara lain yang berkaitan dengannya. 
+ 
+“Calon” ertinya seseoran g yang mendaftar untuk  mendapatkan kelayakan 
+kemahiran melalui Sistem Persijilan Kemahiran Malaysia (SPKM). 
+ 
+“Kecukupcakupan” merujuk kepada ciri skor item y ang dibangunkan mewakili 
+konstruk apa yang pelatih, perantis atau calon pelajari bersandarkan kurikulum.  
+ 
+“Kemahiran” ertinya suatu kebolehan yang diperolehi da n yang diamalkan untuk  
+menjalankan sesuatu tugas atau kerja dengan cekap. 
+ 
+“Kurikulum Unit Kompetensi (Curriculum of Competency Unit - CoCU)” ertinya 
+kurikulum y ang dibangunkan bera saskan Competency P rofile (CP) bagi  sesuatu 
+Competency Unit (CU) yang mengandungi komponen pengetahuan, kemahiran dan 
+sikap serta temp oh latihan  dan nilai kredit kemahiran bagi  tujuan pe ngajaran dan 
+pembelajaran. 
+ 
+“Latihan Kemahira n” ertinya ak tiviti yang berasaskan k erja da n berorientasikan 
+industri yang bertujuan untuk mengadakan pengetahuan, kemahiran dan sikap yang 
+dikehendaki bagi pelaksanaan sesuatu tugasan atau kerja deng an berkesan, cekap 
+dan termasuklah latihan ulang kaji, lanjutan, pengemaskinian dan khusus yang 
+berkaitan dengan kerja. 
+ 
+“Jawatankuasa Teknikal Pengesah So alan (JKTPS)” ertinya jawatankuasa yang 
+bertanggungjawab da lam melaks anakan pengesahan Soalan Penilai an Latihan 
+Kemahiran (S PLK) bagi tujuan penilaian akhir verifikasi P PL SLaPB, SLD N dan 
+penilaian amali PPT. 
+ 
+===== PAGE 10 =====
+viii 
+ 
+“Micro Credential” ertinya kelayakan mikro yan g dianugerahkan bagi program 
+latihan yang dilaksanakan seca ra modular  dalam tempoh yang lebih singkat . Ia 
+dibangunkan berasaskan kepada C ompetency Unit (CU) atau Work A ctivity (WA) 
+atau gabungan CU atau gabungan WA bagi kompetensi spesifik sesuatu NOSS. 
+ 
+“Pelatih” ertinya seseorang yang menerima latihan kemahiran yang disediakan oleh 
+penyedia latihan kemahiran. 
+ 
+“Penilaian Peng etahuan” ertinya mekanisma atau kaedah ya ng d igunakan bagi  
+menilai pengetahuan dan pemahaman  pelatih, perantis atau calon  mengenai a pa 
+yang telah dipelajari. 
+ 
+“Penilaian Prestasi” ertinya mekanisma atau kaedah yang digunakan bagi meni lai 
+kemahiran se rta sikap da n amalan keselamatan dalam melak sanakan tugasan, 
+praktikal atau kerja amali yang ditugaskan. 
+ 
+“Perantis” ertinya seseorang yan g mendaftar untuk mendapatkan kelayakan 
+kemahiran melalui Sistem Latihan Dual Nasional (SLDN). 
+ 
+“Pusat Bert auliah” ertinya suatu p enyedia latihan yang diberi kuas a o leh Ketua 
+Pengarah untuk menjalankan suat u program bertauliah seh ingga kepada 
+penganugerahan suatu Sijil. 
+ 
+“Pemeriksa” ertinya merupakan personel pent auliahan m erangkumi Pegawai 
+Penilai (PP), Pegawa i Pe ngesah Dalaman (PPD ) dan Pegawai Pengesah Luaran 
+(PPL). 
+ 
+“Respons” ertinya jawapan atau tindakb alas yang diberikan oleh pelatih, perantis 
+atau calon terhadap sesuatu soalan. 
+ 
+“Soalan” ertinya alat yang di gunakan un tuk menilai pengetahuan, kemahiran dan  
+sikap/keselamatan/Alam sekit ar pada seseorang pelatih, pe rantis ata u calon  yang 
+boleh dijadi kan bukti ketera mpilan pelatih, perantis atau calon  yang mengandungi 
+tugasan dan skema pemarkahan. 
+===== PAGE 11 =====
+ix 
+ 
+“Standard” ertinya Standa rd Kemahiran Pekerjaan Kebangsaan (SKPK) y ang 
+diwujudkan di bawah Akta Pembangunan Kemahiran Kebangsaan 2006 [Akta 652]. 
+ 
+“Standard Kemah iran Peker jaan Keb angsaan (SKPK)/ National Occupatio nal 
+Skills Standard (NOSS)” ertinya satu d okumen yang mengg ariskan k eterampilan 
+yang perlu  dimiliki oleh seseo rang pe kerja d alam sesuatu bidang pek erjaan serta 
+laluan untuk mencapai keterampilan tersebut. 
+ 
+“Terampil” ertinya kebolehan mengap likasi pengetahuan, kemahiran, keselamatan 
+dan sikap yang dipelajari bagi melaksanakan sesuatu tugasan diberikan. 
+ 
+“Unit Komp etensi (CU)” ertinya satu fungsi kerj a utama bagi sesu atu b idang 
+pekerjaan. Setiap CU mengandun gi beberap a aktivi ti/tugasan bagi me lengkapkan 
+fungsi kerja utama yang boleh dinilai dan dipersijilkan secara berasingan. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 12 =====
+x 
+ 
+ SENARAI RAJAH 
+ 
+ 
+NO. RAJAH NAMA RAJAH MUKA 
+SURAT 
+1 Carta Alir Pembangunan SPLK Melalui SLaPB 
+dan SLDN 
+15 
+2(i) Contoh 1 - JSU Standard (Objektif) 30 
+2(ii) Contoh 2 – JSU Standard (Objektif) 31 
+3 Contoh JSU Standard - Subjektif 33 
+4(i) Contoh 1 - JSU Individu (Objektif) 35 
+4(ii) Contoh 2 - JSU Individu (Objektif) 36 
+5 Format Penulisan Soalan Penilaian Pengetahuan 38 
+6 Format Maklumat Soalan 39 
+7 Format Pengesahan Soalan 45 
+8(i) Contoh Soalan Objektif (Satu Pilihan – Radio 
+Button) 
+46 
+8(ii) Contoh Soalan Objektif (Satu Pilihan – Radio 
+Button) Dengan Penggunaan Simbol 
+47 
+8(iii) Contoh Soalan Objektif (Satu pilihan – Radio 
+Button) Dengan Stimulus Rajah  
+48 
+8(iv) Contoh Soalan Objektif (Satu pilihan – Radio 
+Button) Dengan Stimulus Penyataan 
+49 
+8(v) Contoh Soalan Objektif (Satu pilihan – Radio 
+Button) Berbentuk Susun Mengikut Turutan 
+50 
+8(vi) Contoh Soalan Objektif (Aneka Gabungan – 
+Radio Button) 
+51 
+8(vii & viii) Contoh Soalan Objektif (Aneka Pilihan – Check 
+box) 
+52 - 53 
+9 Format Maklumat Soalan Subjektif 55 
+10(i) Contoh Soalan Struktur 58 
+10(ii) Contoh Skema Jawapan Soalan Struktur 60 
+11 (i) Contoh Soalan Esei 61 
+11(ii) Contoh Skema Jawapan Soalan Esei 63 
+12 Contoh Format Soalan Penilaian Prestasi Akhir 65 
+===== PAGE 13 =====
+xi 
+ 
+13 Contoh Skema Pemarkahan Penilaian Prestasi 
+SLaPB & SLDN 
+66 
+14 Format Skema Pemarkahan Penilaian Prestasi 
+PPT 
+68 
+15 Format Maklumat Soalan Penilaian Prestasi 69 
+16(i) Contoh Soalan Penilaian Prestasi – G452-001-
+2:2017 – C02 
+83 
+16(ii) Contoh Skema Pemarkahan Penilaian Prestasi– 
+G452-001-2:2017 – C02 
+87 
+16(iii) Contoh Soalan Penilaian Prestasi – T982-001-
+3:2017 – C01 
+97 
+16(iv) Contoh Skema Pemarkahan Penilaian Prestasi – 
+T982-001-3:2017 – C01 
+103 
+17 Format Pengesahan SPLK (Jawatankuasa 
+Pengesah) 
+103 
+ 
+ 
+===== PAGE 14 =====
+xii 
+ 
+ 
+ 
+SENARAI JADUAL  
+NO. JADUAL NAMA JADUAL MUKA SURAT 
+1 Sembilan (9) Ciri SPLK 5 
+2 Aras Kesukaran SPLK 7 
+3 Contoh Tempoh Lati han Dalam Nominal Training 
+Hours 
+17 
+4 Contoh Tempoh L atihan Dalam Competency 
+Weightage 
+18 
+5 Nominal Training Hours Bagi S960-002-2:2020-C01 19 
+6 Nominal Training Hours Bagi S960-002-2:2020 20 
+7 Jadual Penentuan Nilai Kredit 21 
+8 Competency Weightage Bagi S960-002-2:2020-C01 21 
+9 Nilai Kredit Yang Ditetapkan (Mengikut Taha p – 
+Tanpa Penjajaran) 
+22 
+10 Nilai Kredit bagi Standard/NOSS pada tahap 2 atau 
+3 atau 4 (tanpa penjajaran) 
+22 
+11 Competency Weightage Bagi C259-008-3:2022-C01 23 
+12 Penyediaan Set Soalan Penilaian Akhir (PA) 
+Berdasarkan Nilai Kredit CU dan Tahap 
+24 
+13 Penyediaan Set Soalan PA Berdasarkan Nilai Kredit 
+Bagi M C-CU at au Kiraan Jam Bagi MC -WA 
+Mengikut Tahap 
+25 
+14 Rujukan Pecahan Soalan Mengikut Aras Kesukaran 28 
+15 Pecahan Soalan Subjektif Mengikut Nilai Kredit 32 
+16 Contoh Format Jadual Senarai Bahan 72 
+17 Contoh Format Jadual Peralatan/Kelengkapan 73 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 15 =====
+xiii 
+ 
+ SENARAI LAMPIRAN 
+ 
+ 
+NO. LAMPIRAN NAMA LAMPIRAN MUKA SURAT 
+A Penjelasan Bagi Kata Tugas Yang Boleh 
+Digunakan Untuk Pembangunan SPLK 
+107 
+B Contoh Perbandingan Soalan Objektif (Aneka 
+Pilihan) Yang Salah Dan Soalan Objektif 
+(Aneka Pilihan) Yang Betul 
+111 
+C Contoh Kulit Depan Bagi Penilaian 
+Pengetahuan Akhir Tahap 1, 2, 3, 4 Dan 5 
+118 
+D Contoh Kulit Depan Bagi Penilaian Prestasi 
+Akhir Tahap 1, 2, 3, 4 Dan 5 
+119 
+E Contoh Kulit Depan Bagi Penilaian Prestasi 
+Akhir Tahap 1, 2, 3, 4 dan 5 (PPT) 
+120 
+F Contoh Kulit Depan Bagi Skema Pemarkahan 121 
+G Senarai Jawatankuasa Pembangun 122 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 16 =====
+1 
+ 
+1.0 PENDAHULUAN 
+ 
+Panduan ini be rtujuan memberi penerangan mengenai tatacara pembangunan 
+Soalan Penilaian Latihan Kemahiran (SPLK) bagi memenuhi keperl uan Unit 
+Kompetensi ( CU) dan K urikulum Unit Kompete nsi (CoCU) dalam Standard 
+Kemahiran Pekerjaan Keb angsaan (SKPK)/(NOSS). Objektif pand uan ini 
+adalah: 
+ 
+a) Memandu arah pembangun soalan dalam membangunkan SPLK; 
+b) Membangunkan SPLK mengikut format yang terkini; dan 
+c) Memastikan SPLK yang d ibangunkan adalah sah, boleh percay a dan 
+cukup cakup (representatives). 
+ 
+2.0 LATAR BELAKANG 
+ 
+Penilaian secara amny a merupakan suatu proses membu at keputusan yang 
+sistematik melibatkan pengenalpastian, pe merolehan dan pentafsiran 
+maklumat ya ng be rguna bagi pert imbangan keputusan berasaskan kepada 
+sesuatu objektif  pembelajaran. Manakala penilaian d alam kon teks Sistem 
+Persijilan Kemahiran Malaysia (S PKM), adalah satu proses menilai tahap 
+pengetahuan, kemahiran, sikap, amalan keselama tan dan kesedaran kepada 
+alam sekitar terhadap pelatih, perantis atau calon . Penilaian boleh dilakukan 
+dengan mengg unakan pelba gai kaedah bag i mengesahkan keterampilan 
+seseorang pelatih, perantis atau calon. 
+ 
+Kesahan, kebolehpercaya an d an kecukupcakupan adalah prinsi p penting 
+penilaian, selain daripada fleksibiliti dan keadilan untuk memastikan penilaian 
+boleh memberikan bukti yang mencukupi mengenai kompetensi pelajar.  
+ 
+2.1. Kesahan Penilaian 
+ 
+Kesahan merujuk kepada keupayaan penilaian untuk mengukur apa yang 
+sepatutnya diukur. Di antara tiga jenis kesahan; kesahan kandungan, 
+===== PAGE 17 =====
+2 
+ 
+kesahan konstruk dan kesahan kriteria, kesahan kandungan adalah 
+paling penting dalam membangunkan dokumen penilaian.  
+ 
+Kesahan kandungan adalah berdasarkan sejauh m ana pengukuran 
+mencerminkan domain kandungan khusus y ang i ngin d icapai dalam 
+sesuatu penilaian. Dalam erti kata lain, ia juga menunjukkan sejauh mana 
+pengukuran sepa dan dengan hasil pembelajaran. Oleh kerana  liputan 
+item ujian hanya merupakan satu sampel i si k andungan yang  diliputi 
+dalam kursus, kesahan kandungan menunjukkan sejauh mana item ujian 
+yang dipilih mencerminkan keseluruh an isi kan dungan. Kesahan 
+kandungan dokumen penilaian perlu diputuskan oleh satu jawatankuasa 
+penyelarasan penilaian. Jawatanku asa penyelarasan penilaian juga perlu 
+mengadili keadilan dari segi taburan markah bagi setiap tugas penilaian.  
+ 
+Beberapa fakto r utama unt uk menentuka n kesahan dalam penilaian 
+adalah seperti berikut:  
+i. Kaedah penilaian dan instrumen penilaian mesti sesuai dengan tahap 
+hasil pembelajaran yang ingin dicapai; 
+ii. Penilaian pe rlu dibuat  dalam pelbagai bentuk (seperti ujian, kerja 
+kursus, p embentangan) untuk meni lai domain pem belajaran yang 
+berbeza-beza dan Learning Outcome yang ditetapkan. Lebih daripada 
+satu tugas dan sumber bukti diperlukan sebagai asas untuk mengadili 
+kompetensi pelajar;  
+iii. Ujian hendaklah berpadanan dengan penekanan dalam  hasil 
+pembelajaran; dan 
+iv. Kaedah penilaian dan instrumen penilaian perlu disahka n oleh pihak 
+yang mempunyai kepakaran dalam bidang yang dinilai.  
+ 
+2.2. Kebolehpercayaan Penilaian 
+  
+Kebolehpercayaan merujuk kepada darjah ketekalan dan ketepatan hasil 
+penilaian dalam penilai an dan pengg redan. Ia menc erminkan sejauh 
+===== PAGE 18 =====
+3 
+ 
+mana penilaian oleh pemeriksa adalah tepat, konsisten, boleh dipercayai, 
+adil dan boleh diterima bagi pelatih, perantis atau calon yang mempunyai 
+kecekapan y ang sama pada masa yang berlainan atau tempat yang 
+berbeza, tanpa men gambil kira pe nilai yang menjalankan penilaian . Ini 
+boleh dipastikan dengan mengambil kira pematuhan kepada rubrik (satu 
+set skala pemarkahan yang digunakan untuk menilai kerja atau tugasan 
+pelatih, perantis atau calon).  
+ 
+Beberapa faktor utama  untuk menen tukan ke bolehpercayaan dalam 
+penilaian adalah seperti berikut:  
+ 
+i. Arahan yang jelas perlu dinyatakan dalam dokumen ujian; 
+ii. Garis panduan yang khusus dip erlukan bagi tujuan penyediaan 
+tugasan atau projek. Garis panduan ini perlu merangkumi keperlu an, 
+jangkaan dan maklumat tentang bagaimana tugasan perlu 
+dilaksanakan; 
+iii. Rubrik disediakan sebagai panduan untuk memas tikan keseragaman 
+semasa menanda; dan 
+iv. Tempoh masa penilaian yang bersesuaian.  
+ 
+2.3. Kecukupcakupan Penilaian 
+ 
+Konsep kecukupcakupan didefinisikan sebagai amount of the information 
+received and its perceived relevance. Dalam konteks penilaian , ia 
+merujuk kepada meaningful organized data. Maklumat yang teratur dan 
+relevan akan diukur berdasarkan kepada tahap kecukup cakupan 
+maklumat. 
+ 
+Faktor yang mempengaruhi kecukupcakupan dalam pembangunan SPLK 
+adalah memenuhi kehendak related skills , related knowledge  dan 
+assesment criteria yang ditetapkan dalam Standard/NOSS atau NCS.  
+ 
+ 
+ 
+===== PAGE 19 =====
+4 
+ 
+3.0 PENGGUNAAN BAHASA 
+ 
+Soalan yang dibangunkan hendaklah menggunakan bahasa Melayu. Jika ingin 
+menggunakan bahasa Inggeris, soalan tersebut hendaklah d isediakan dalam 
+dwibahasa dengan bahasa Me layu hendaklah diutamakan dari segi  susunan 
+(bahasa Mel ayu di atas diikuti bahasa Inggeris ). Penggunaan bahasa selain 
+daripada bahasa Melayu dan Inggeris adalah tidak dibenarkan. 
+ 
+4.0 SOALAN PENILAIAN LATIHAN KEMAHIRAN (SPLK) 
+ 
+SPLK ialah instrumen yang diban gunkan untuk menilai ta hap keteramp ilan 
+pelatih, perantis atau calon dalam bidang kemahiran tertentu bagi 
+penganugerahan Sijil di bawah sek syen 3 4 Akta Pembangunan Kemahiran 
+Kebangsaan 2006 [Ak ta 652]. SPLK dibangunkan ber pandukan 
+Standard/NOSS dan selaras dengan keperluan pekerjaan di industri. 
+ 
+4.1. Klasifikasi SPLK 
+ 
+SPLK diklasifikasikan berdasarkan keterampila n iaitu  perkara yang 
+dikenal pas ti untu k dinilai berdasarkan CoCU bagi C U yang dipilih. 
+Dalam konteks latiha n kemahiran, keterampilan terdiri daripad a lima (5) 
+kategori iaitu fak ta, te ori, prose dur dan sikap, keselamatan atau alam 
+sekitar. 
+ 
+a. Fakta – fakta membawa maksud kepada sesuatu mak lumat yang 
+mempunyai kesahan yang sah berdasarkan bukti-bukti yang jelas. 
+ 
+b. Teori – teori adalah perihal perbuatan  yang me ndorong kepada  
+merumus penyataan yang ringkas serta tepat. 
+ 
+c. Prosedur – prosedur adalah tatacara/proses /kaedah untuk 
+menyelesaikan sesua tu tugasan b erdasarkan p eraturan yang 
+telah ditetapkan. 
+===== PAGE 20 =====
+5 
+ 
+d. Sikap – sikap mempe rlihatkan bagaimana seseorang pelatih, 
+perantis a tau calon  itu bertindak , m emberi respo ns dan 
+berkelakuan mengikut keadaan tertentu semasa melaksanakan 
+tugas yang diberikan. 
+ 
+e. Keselamatan atau Alam Sekitar – keselamatan m erangkumi 
+tingkah laku dan  langkah keselama tan yang perlu dipatuhi 
+dengan mengambil kira kesan terhadap keselamatan diri se ndiri, 
+tempat kerja dan alam sekitar semasa melaksanakan tugasan. 
+ 
+4.2. Ciri-ciri SPLK 
+ 
+Untuk memenuhi prinsip penting penilai an i aitu k esahan, 
+kebolehpercayaan dan kecukupcakupan, SPLK yang dibangunkan 
+hendaklah mematuhi sembilan (9) ciri yang dinyatakan dalam Jadual 1 
+berikut: 
+ 
+Jadual 1 : Sembilan (9) Ciri SPLK 
+Perkara Ciri Penerangan 
+Keakuran 1. Akur 
+Standard 
+- perkara yang dinila i hendaklah 
+merujuk kepad a CoCU bagi CU 
+dalam NOSS; 
+2. Akur 
+Spesifikasi 
+- spesifikasi soal an yang 
+dibangunkan hendaklah menepati 
+JSU supay a penil aian y ang 
+dilaksanakan adalah setara dan 
+seragam; dan 
+3. Akur Peluang - peluang merujuk ke pada 
+pengetahuan, latihan a mali yang 
+diperolehi d i PB , pengalaman 
+pembelajaran atau penga laman 
+kerja yang diperolehi oleh pelatih, 
+perantis atau calon . Soalan yang 
+dibangunkan hendaklah 
+mengambil kira bahawa pelatih, 
+===== PAGE 21 =====
+6 
+ 
+Perkara Ciri Penerangan 
+perantis atau calon  telah diberi 
+peluang yang setar a untuk 
+mempelajari/mengalami perkara 
+yang hendak dinilai 
+Ketepatan 
+dan 
+Kejelasan 
+4. Tepat 
+Keterampilan 
+- soalan yang dibangunkan 
+hendaklah menepati keterampilan 
+yang ditetapkan; 
+5. Tepat 
+Kandungan 
+- soalan yang dibangunkan 
+hendaklah menepati kandunga n 
+CoCU bagi CU; dan 
+6. Kejelasan - istilah, perkataan, ayat atau grafik 
+yang digunakan semasa 
+membangunkan s oalan 
+hendaklah jelas, tid ak 
+mengelirukan dan m udah 
+difahami. 
+Kesesuaian 7. Penting - soalan yang dibangunkan 
+hendaklah menyatakan perkara 
+penting yang per lu dikuasai oleh 
+pelatih, perantis atau calon; 
+8. Keadilan - soalan yang dibangunkan tidak 
+memihak k epada kelompok 
+tertentu (jantina, bangsa , aga ma, 
+lokasi institut dan seumpamanya) 
+serta tidak menyinggung emosi, 
+peribadi, kepercayaan, 
+kebudayaan dan perkara sensitif 
+sesuatu kaum; dan 
+9. Aras 
+Kesukaran 
+- soalan ya ng d ibangunkan 
+hendaklah menepati aras 
+kesukaran yang ditetapkan, iaitu: 
+R – Aras Rendah 
+S – Aras Sederhana 
+T – Aras Tinggi 
+Jadual 2 memperincikan aras 
+kesukaran. 
+ 
+===== PAGE 22 =====
+7 
+ 
+Jadual 2: Aras Kesukaran SPLK 
+Aras Kesukaran Contoh Kata Tugas (Active 
+Verb) Kehendak Contoh 
+Aras Rendah: 
+Pengetahuan dan kebolehan 
+mengingat semula 
+kandungan yang dipelajari. 
+ 
+- Apakah  
+- Berapakah  
+- Berikan  
+- Bilakah 
+- Isikan  
+- Labelkan  
+- Namakan  
+- Nyatakan 
+- Pilih 
+- Takrifkan 
+- Senaraikan 
+ 
+ 
+- Mengingat kembali 
+semua fakta/maklumat/ 
+pemerhatian/prosedur/ 
+idea/takrif. 
+- Menulis semula ingatan 
+tentang sesuatu perkara. 
+Soalan Objektif: 
+Bagaimanakah cara saiz kabel 
+elektrik ditentukan? 
+ 
+A. Mengira perkadaran antara arus 
+dan voltan. 
+B. Merujuk kepada label pada 
+kelengkapan elektrik. 
+C. Mengira anggaran permintaan 
+beban maksimum. 
+D. Melihat panduan pengguna yang 
+dibekalkan oleh pengeluar. 
+ 
+Soalan Subjektif: 
+Nyatakan faktor-faktor yang 
+menentukan saiz kabel elektrik.  
+ 
+ 
+===== PAGE 23 =====
+8 
+ 
+Aras Kesukaran Contoh Kata Tugas (Active Verb) Kehendak Contoh 
+Aras Sederhana: 
+Pemahaman dan 
+kebolehan 
+menggunakan 
+pengetahuan serta 
+tidak 
+memperlihatkan 
+implikasi terhadap 
+pengetahuan 
+tersebut. 
+ 
+ 
+- Apakah  
+- Bagaimanakah 
+- Berapakah 
+- Berikan contoh 
+- Bezakan 
+- Bilakah 
+- Hitung 
+- Huraikan 
+- Isikan 
+- Jelaskan  
+ 
+- Kirakan 
+- Labelkan 
+- Mengapakah 
+- Namakan 
+- Nyatakan 
+- Pilih 
+- Senaraikan 
+- Takrifkan 
+- Terangkan   
+ 
+- Menunjukkan 
+pemahaman tentang 
+maklumat yang 
+diperolehi. 
+- Dapat membezakan 
+sesuatu. 
+- Mentafsir idea. 
+- Mengaplikasi 
+maklumat. 
+Soalan Objektif: 
+Apakah hubungan antara arus, 
+voltan dan rintangan? 
+A. Arus berkadar terus dengan 
+voltan dan rintangan. 
+B. Arus berkadar songsang 
+dengan voltan dan rintangan. 
+C. Arus berkadar songsang 
+dengan voltan dan berkadar 
+terus dengan rintangan. 
+D. Arus berkadar terus dengan 
+voltan dan berkadar 
+songsang dengan rintangan. 
+ 
+Soalan Subjektif: 
+Jelaskan hubungan antara arus, 
+voltan dan rintangan.  
+ 
+===== PAGE 24 =====
+9 
+ 
+Aras Kesukaran Contoh Kata Tugas (Active Verb) Kehendak Contoh 
+Aras Tinggi: 
+Kebolehan untuk 
+membuat 
+pertimbangan, 
+merancang, 
+mereka/mencipta 
+dan meghasilkan 
+sesuatu yang kreatif 
+dari gabungan 
+pelbagai unsur. Ini 
+termasuk 
+penghasilan sesuatu 
+rancangan, rumusan, 
+kaedah/prosedur 
+atau cadangan. 
+ 
+ 
+- Berikan 
+pendapat   
+- Bincangkan  
+- Justifikasikan 
+- Nilaikan 
+- Rancangkan  
+ 
+- Rumuskan 
+- Sarankan 
+- Susunkan 
+- Ulaskan  
+ 
+ 
+- Mengingat, 
+memahami dan 
+mengkaji sesuatu 
+perkara 
+- Menganalisa atau 
+membuat 
+pertimbangan 
+sesuatu perkara yang 
+sahih. 
+Soalan Objektif: 
+Susunkan langkah pelarasan 
+defrost timer 24 jam mengikut 
+turutan yang betul. 
+I. Laras segmen defrost timer. 
+II. Setkan masa pada defrost 
+timer. 
+III. Tentukan kekerapan dan 
+tempoh defrost. 
+IV. Tekan butang ujian bagi 
+menguji kefungsian defrost 
+timer. 
+ 
+A. I, II, III, IV 
+B. II, III, I, IV 
+C. III, I, II, IV 
+D. IV, II, III, I 
+ 
+ 
+===== PAGE 25 =====
+10 
+ 
+ 
+SoalanSubjektif: 
+Sarankan langkah yang betul 
+bagi melaras defrost timer 24 
+jam. 
+ 
+Nota: 
+1. Penerangan bagi contoh kata tugas (active verb) boleh merujuk kepada Lampiran 1. 
+2. Contoh kata tugas (active verb) tidak terhad kepada yang disenaraikan. Contoh lain boleh merujuk kepada Taksonomi Bloom 
+(Domain kognitif, psikomotor atau afektif), namun demikian penggunaan kata tugas (active verb) bergantung kepada 
+kesesuaian keterampilan yang hendak dinilai. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 26 =====
+11 
+ 
+4.3. Kategori SPLK 
+ 
+SPLK boleh dikategorikan kepada dua (2) iaitu: 
+a. Penilaian Pengetahuan – merangkumi soalan objektif dan subjektif; 
+dan 
+b. Penilaian Prestasi – merangkumi soalan amali. 
+ 
+4.3.1. Penilaian Pengetahuan 
+Penilaian pengetahuan adalah sa tu mekanisma untuk menguji 
+kefahaman teori pelatih, perantis atau cal on. Penilaian ini boleh 
+dilaksanakan melalui instrumen yang terdiri daripada soalan 
+objektif dan soalan subjektif. 
+ 
+4.3.1.1  Soalan Objektif 
+Soalan objektif me rupakan soalan yang mempu nyai 
+hanya satu jawapan sahaja dan jawapan kepa da soalan 
+tersebut henda klah tida k d ipengaruhi ol eh faktor 
+kemahiran pemeriksa.  Soalan jenis ini  memerlukan 
+pelatih, perantis atau calon  memilih berdasar kan 
+jawapan yang disediakan. Bentuk soal an boleh terdiri 
+daripada kategori berikut: 
+ 
+a. Soalan Aneka Pilihan – soalan jenis ini terbahagi  
+kepada dua (2) bentuk, iaitu: 
+i. Soalan Satu Pilihan - soalan jeni s ini 
+mempunyai satu pilihan jawapan yang tepat  
+atau paling sesuai. 
+ii. Soalan Aneka Gabung an – membuat pi lihan 
+satu gab ungan j awapan yang betul ata u 
+terbaik. 
+Peratusan s oalan negatif yang dibenar kan adalah 
+10% daripada jumlah soalan yang di bangunkan 
+dengan berdasarkan nilai kredit. 
+===== PAGE 27 =====
+12 
+ 
+b. Soalan ‘Benar atau Palsu’ – soalan jenis ini terdiri 
+daripada beb erapa pernyataa n lengkap dan 
+memerlukan pelatih, perantis atau calon  untuk 
+menentukan ‘benar atau palsu’ penyataan yang 
+diberi. 
+ 
+c. Soalan Padanan – soalan jenis ini terdiri daripada 
+senarai stimulus da n respons sert a me ngandungi 
+arahan untuk memadankan kedua-duanya. 
+ 
+Hanya kategori soalan aneka pilihan digunakan bagi 
+pembangunan soalan objektif penilaian akhir. 
+ 
+4.3.1.2    Soalan Subjektif 
+Soalan s ubjektif merupakan  soalan untuk menguji 
+pengetahuan, pengalaman, kemahiran serta tahap 
+kebolehan kogni tif pelatih, peran tis atau ca lon melalui 
+respons se cara tulisan atau lisan  samada respons 
+terbuka atau respons terhad.   
+ 
+Respons T erbuka merupakan penyataan pelbagai 
+kemungkinan jawapan daripada pelatih, perantis atau 
+calon dan memberikan k ebebasan yang l uas kepada  
+pelatih, p erantis atau calon  untuk menjawabnya.  
+Jawapan y ang diberikan adalah berdasarkan kepada 
+pengetahuan, la tihan a mali yang diperole hi di pusat 
+bertauliah, pengalam an pemb elajaran atau 
+pengalaman kerja yang diperolehi oleh pelatih, perantis 
+atau calon. 
+ 
+Respons Terhad merupakan penyataan yang  
+menghadkan jawapan pelatih, perantis atau calon  
+melalui sko p yang dis oal.  Respons yang diberikan 
+adalah terhad yang ma na pelatih, perantis atau calon  
+===== PAGE 28 =====
+13 
+ 
+memberikan ja wapan tanpa huraian atau jawapan 
+dengan h uraian ringkas. Soalan je nis ini di bangunkan 
+bermula dari aras rendah hingga aras tingg i bagi 
+menilai pengetahuan dan kemahir an pelatih, perantis 
+atau calon 
+ 
+Soalan subjektif terdiri daripada empat (4) kategori 
+soalan iaitu: 
+  
+a. Soalan Struktur 
+Soalan yang  meliputi beberapa kategori 
+keterampilan dan aras  kesukaran yang berbeza 
+serta memerlukan kemahiran berfikir.  
+ 
+b. Soalan Label 
+Soalan yang mempunyai r ajah perlu dijawab 
+berdasarkan label/tanda yang dised iakan tanpa 
+huraian. 
+ 
+c. Soalan Jawapan Pendek 
+Soalan yang memerlukan jawapan pendek, ringkas 
+dan tepat. 
+ 
+d. Soalan Esei 
+Soalan yang memerlukan ja wapan dalam bentuk 
+huraian atau karangan. 
+ 
+Hanya kategori soalan struktur dan esei  digunakan 
+bagi pembangunan soalan subjektif penilaian akhir. 
+ 
+4.3.2. Penilaian Prestasi 
+Soalan Penilaian Prestasi digunakan untuk menilai keterampilan 
+pelatih, perantis a tau calon  dalam melaksanaka n kerja/tu gasan 
+yang diarahkan dan terdiri daripada komponen seperti berikut: 
+===== PAGE 29 =====
+14 
+ 
+A. Tempoh; 
+B. Keterampilan; 
+C. Tugasan; 
+D. Senarai Bahan; 
+E. Senarai Peralatan/Kelengkapan; dan 
+F. Kriteria Penilaian. 
+ 
+4.4. Panel Pembangun Soalan 
+Panel pembangun soalan terdiri daripada personel yang berpengalaman 
+dalam bidang berdasarkan Standard/NOSS. 
+ 
+4.5. Pengesahan Soalan 
+Soalan yang dibangunkan henda klah disahk an mengikut aturan  yang 
+telah ditetapkan seperti berikut: 
+ 
+4.5.1. Soalan yang dibangunkan oleh JPK disahkan oleh Jawatankuasa 
+Teknikal Pengesah Soalan (JKTPS). 
+ 
+4.5.2. Soalan yang diba ngunkan oleh PB SLaPB hendaklah disahka n 
+mengikut aturan berikut: 
+a. CU Dominan hendaklah disahkan oleh Technical Advisory 
+Committee (TAC) yang dilantik oleh PB; dan 
+ 
+b. CU yang bukan D ominan hendak lah di sahkan oleh 
+Mesyuarat Panel Penilai Pusat Bertauliah (PPPB) 
+ 
+4.5.3. Soalan yan g di bangunkan oleh PB SLDN hendaklah disahkan 
+oleh Jawatankuasa Penilaian yang terdiri daripada Pengurus PB, 
+Coach dan Pengajar. 
+ 
+4.5.4. Soalan Penilaian Latihan Kemahiran  amali melalui kaedah PPT 
+yang dibangunka n oleh Pusat Pe nilaian Amali  (PPA) hendaklah 
+disahkan melalui Jawatankuasa Pengesahan Soalan PPA. 
+ 
+===== PAGE 30 =====
+15 
+ 
+5.0 PEMBANGUNAN SOALAN PENILAIAN LATIHAN KEMAHIRAN (SPLK) 
+ 
+Proses pembangunan SPLK ditunjukkan dalam carta alir pembangunan SPLK 
+melalui SLaPB dan SLDN di Rajah 1. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Rajah 1 : Carta Alir Pembangunan SPLK melalui SLaPB dan SLDN. 
+ 
+Ya 
+Mula 
+Tentukan Program 
+Bertauliah  
+Pilih CU  
+Tentukan Nilai Kredit CU 
+Dipilih 
+Bangunkan SPLK 
+Tamat 
+Sahkan 
+SPLK 
+Tidak 
+Bangunkan JSU Standard & 
+Individu 
+Tentukan Bilangan Soalan 
+Simpan 
+===== PAGE 31 =====
+16 
+ 
+Proses Pembangunan SPLK hendaklah mematuhi perkara-perkara berikut:- 
+ 
+5.1. Tentukan Program Bertauliah 
+Tatacara menentukan program bertauliah adalah seperti berikut: 
+5.1.1. Rujuk Da ftar Standard /NOSS terkini atau r ujuk progra m yang 
+ditauliahkan. 
+5.1.2. Kenal pasti jenis program bertauliah yang hend ak dilaksan akan 
+sama ada: 
+a. Program Mengikut Tahap; 
+b. Program Tahap Tunggal; 
+c. Pengiktirafan Pencapaian Terdahulu (PPT) atau 
+d. Micro Credential. 
+5.1.3. Dapatkan Standard/NOSS b agi program bertauliah yang hendak 
+dilaksanakan; 
+5.1.4. Kaji kandung an Standard/NOSS bagi menent ukan k eperluan 
+soalan bagi program bertauliah tersebut deng an merujuk perkara 
+berikut:  
+a. Competency Profile Chart (CPC); 
+b. Competency Profile (CP); dan 
+c. CoCU. 
+ 
+5.2. Pilih CU 
+Soalan dibang unkan hendaklah berdasarkan CU  dalam Standard/NOSS 
+untuk mengukur ke terampilan p elatih. Perantis atau calon  bagi sesuatu 
+program dan tahap berkenaan. 
+ 
+5.3. Tentukan nilai kredit CU dipilih 
+Bilangan soalan bagi CU yang dipilih hendaklah dibangunkan 
+berdasarkan nilai kredit CU berkenaan. Pengiraan nilai kredit bagi setiap 
+CU adalah berdasarkan tempoh latihan dalam Standard/NOSS sama ada 
+yang dinyatakan dalam Nominal Train ing Hou rs atau Competency 
+Weightage. 
+ 
+ 
+===== PAGE 32 =====
+17 
+ 
+Jadual 3: Contoh Tempoh Latihan Dalam Nominal Training Hours 
+Beauty Therapy Services/Perkhidmatan Terapi Kecantikan 
+Tahap 2 
+ 
+CU CODE 
+COMPETENCY UNIT 
+TITLE 
+WORK ACTIVITY 
+WORK ACTIVITY 
+TRAINING 
+DURATION 
+(HOURS) 
+TRAINING DURATION 
+(HOURS) 
+KNOELEDGE 
+SKILLS 
+S960-002-2:2020-C01 
+Facial Electrotherapy 
+1. Carry out facial 
+electrotherapy client 
+consultation. 
+12 24 
+180 
+2. Carry out facial 
+electrotherapy services 
+preparation. 
+6 12 
+3. Carry out facial faradic 
+services. 
+6 12 
+4. Carry out facial galvanism 
+services. 
+6 12 
+5. Carry out facial vacuum 
+suction services. 
+6 12 
+6. Carry out facial high 
+frequency services. 
+6 12 
+7. Carry out facial micro-current 
+services. 
+6 12 
+8. Carry out post facial 
+electrotherapy advice. 
+6 12 
+9. Upkeep facial electrotherapy 
+service area. 
+6 12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 33 =====
+18 
+ 
+Jadual 4: Contoh Tempoh Latihan Dalam Competency Weightage 
+Beauty Therapy Services/Perkhidmatan Terapi Kecantikan 
+Tahap 2 
+ 
+CU CODE 
+COMPETENCY 
+UNIT TITLE 
+COMPETENCY 
+UNIT 
+WEIGHTAGE 
+WORK ACTIVITY 
+WORK 
+ACTIVITIES 
+WEIGHTAGE 
+S960-002-2:2020-C01 
+Facial Electrotherapy 
+30% 
+1. Carry out facial electrotherapy 
+client consultation. 20% 
+2. Carry out facial electrotherapy 
+services preparation. 10% 
+3. Carry out facial faradic services. 10% 
+4. Carry out facial galvanism 
+services. 10% 
+5. Carry out facial vacuum suction 
+services. 10% 
+6. Carry out facial high frequency 
+services. 10% 
+7. Carry out facial micro-current 
+services. 10% 
+8. Carry out post facial 
+electrotherapy advice. 10% 
+9. Upkeep facial electrotherapy 
+service area. 10% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 34 =====
+19 
+ 
+5.3.1. Pengiraan nilai kredit tempoh latihan  yang dinyatakan dal am 
+Nominal Training Hours:  
+ 
+a. Tentukan Nominal Training Hours bagi CU dipilih. Contoh untuk 
+S960-002-2:2020-C01 ditunjukkan dalam Jadual 5. 
+ 
+Jadual 5: Nominal Training Hours Bagi S960-002-2:2020-C01 
+ 
+CU CODE 
+COMPETENCY UNIT TITLE 
+WORK ACTIVITY 
+WORK 
+ACTIVITY 
+TRAINING 
+DURATION 
+(HOURS) 
+TRAINING DURATION 
+(HOURS) 
+SKILL CREDIT (HOURS) 
+KNOELEDGE 
+SKILLS 
+S960-002-2:2020-C01 
+Facial Electrotherapy 
+1. Carry out facial 
+electrotherapy client 
+consultation. 
+12 24 
+180 4.5 
+2. Carry out facial 
+electrotherapy services 
+preparation. 
+6 12 
+3. Carry out facial faradic 
+services. 
+6 12 
+4. Carry out facial galvanism 
+services. 
+6 12 
+5. Carry out facial vacuum 
+suction services. 
+6 12 
+6. Carry out facial high 
+frequency services. 
+6 12 
+7. Carry out facial micro-current 
+services. 
+6 12 
+8. Carry out post facial 
+electrotherapy advice. 
+6 12 
+9. Upkeep facial electrotherapy 
+service area. 
+6 12 
+ 
+            Nota  :  Nilai Kredit 4.5 hendaklah dibundarkan kepada 5 kredit. 
+ 
+ 
+ 
+ 
+===== PAGE 35 =====
+20 
+ 
+b.  Senaraikan dan jumlahkan Nominal Training Hours bagi semua   
+CU seperti contoh dalam Jadual 6. 
+ 
+Jadual 6: Nominal Training Hours Bagi S960-002-2:2020 
+ 
+CU CODE COMPETENCY UNIT TITLE 
+TRAINING 
+DURATION 
+(HOURS) 
+S960-002-2:2020-
+C01 
+Facial Electrotherapy 180 
+S960-002-2:2020-
+C02 
+Specialised Facial Mask 
+Therapy 90 
+S960-002-2:2020-
+C03 
+Eyelash And Eyeb row 
+Enhancement 120 
+S960-002-2:2020-
+C04 
+Eye Contour Services 90 
+S960-002-2:2020-
+C05 
+Superfluous Hair Depilation 120 
+S960-002-2:2020-
+E01 
+Superfluous Hair Lightening 60 
+TOTAL 
+600 
+(tanpa 
+mengambilkira 
+Elektfif) 
+ 
+Contoh untuk  program S960-002-2:2020, tempoh latiha n yang 
+dipilih adalah tempoh latihan pada tahap 2 sahaja iaitu 600 jam 
+kerana program S960-002-2:2020 bermula pada tahap 1.  
+ 
+c.  Kira nilai kredit CU yang dipilih.  
+• (1 kred it be rsamaan dengan 40 jam notional [1 kredit = 4 0 
+jam notional])  
+ 
+ Formula yang digunakan adalah seperti berikut: 
+ 
+ 
+ 
+ 
+Contoh pengi raan kr edit bagi S960-002-2:2020-C01 
+menggunakan formula: 
+ 
+ 
+ 
+   
+Nilai Kredit = tempoh Latihan (jam) 
+           40 jam 
+ 
+Nilai Kredit (C01) =  180 jam = 4.5 kredit (bundarkan kepada 5) 
+                                 40 jam 
+ 
+===== PAGE 36 =====
+21 
+ 
+Jadual 7: Jadual Penentuan Nilai Kredit 
+ 
+Pengiraan Kredit Nilai Kredit 
+0 – 3.4 3 
+3.5 – 6.4 4 - 6 
+6.5 ke atas 7 ke atas 
+ 
+ 
+5.3.2. Pengiraan nilai kredit te mpoh latihan yang dinyatakan dal am 
+Competency Weightage: 
+ 
+a. Tentukan Competency Weightage bagi CU dipilih. Contoh untuk 
+S960-002-2:2020-C01 ditunjukkan dalam Jadual 8. 
+ 
+Jadual 8: Competency Weightage Bagi S960-002-2:2020-C01 
+ 
+CU CODE 
+COMPETENCY 
+UNIT TITLE 
+COMPETENCY 
+UNIT 
+WEIGHTAGE 
+WORK ACTIVITY 
+WORK 
+ACTIVITIES 
+WEIGHTAGE 
+S960-002-2:2020-C01 
+Facial Electrotherapy 
+30% 
+1. Carry out facial electrotherapy 
+client consultation. 20% 
+2. Carry out facial electrotherapy 
+services preparation. 10% 
+3. Carry out facial faradic 
+services. 10% 
+4. Carry out facial galvanism 
+services. 10% 
+5. Carry out facial vacuum 
+suction services. 10% 
+6. Carry out facial high frequency 
+services. 10% 
+7. Carry out facial micro-current 
+services. 10% 
+8. Carry out post facial 
+electrotherapy advice. 10% 
+9. Upkeep facial electrotherapy 
+service area. 10% 
+ 
+b. Tentukan nilai kredit yang ditetapkan mengikut  tahap dengan 
+merujuk Jadual 9  
+===== PAGE 37 =====
+22 
+ 
+Jadual 9: Nilai Kredit Yang Ditetapkan (Mengikut Tahap) 
+ 
+ 
+ 
+ 
+ 
+ 
+Contoh untuk program S960 -002-2:2020, kredit yang dipil ih 
+adalah kredit NOSS pada tahap 2 sahaja iaitu 13 kredit kerana 
+program S960-002-2:2020 bermula pada tahap 1. 
+ 
+c. Kira nilai kredit CU dipilih dengan menggunakan formula: 
+ 
+Nilai kredit (CU) = Competency Weightage x Kredit Yang 
+Ditetapkan Mengikut Tahap 
+ 
+Contoh pengira an bagi  S960-002-2:2020-C01 menggu nakan 
+formula: 
+ 
+Nilai kredit (C01) = 30% x 13 = 3.9 (bundarkan kepada 4) 
+ 
+Jika Standard/NOSS bermula pa da tahap 2, 3 , 4 atau 5 kredit 
+yang dipilih adalah berdasarkan kepada Jadual 10 di bawah.  
+ 
+Jadual 10: Nilai kredit bagi Standard/NOSS bermula pada tahap 
+2 atau 3 atau 4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tahap Kredit NOSS Tempoh Latihan NOSS (Jam) 
+L1 13 520 
+L2 13 520 
+L3 20 800 
+L4 15 600 
+L5 20 800 
+Tahap Kredit NOSS Tempoh Latihan NOSS (Jam) 
+L1   
+L2 26 1,040 
+L3 46 1,840 
+L4 61 2,440 
+L5   
+===== PAGE 38 =====
+23 
+ 
+Jadual 11: Competency Weightage Bagi C259-008-3:2022 - C01 
+CU CODE 
+COMPETENCY 
+UNIT TITLE 
+COMPETENCY 
+UNIT 
+WEIGHTAGE 
+WORK ACTIVITY 
+WORK 
+ACTIVITY 
+WEIGHTAGE 
+C259-008-3:2022-
+C01 
+PERFORM SMAW 
+1F, 2F, 3F AND 4F 
+FILLET WELDING 
+10% 
+Carry Out SMAW 1F Plate Fillet 
+Welding 20% 
+Carry Out SMAW 2F Plate Fil let 
+Welding 20% 
+Carry Out SMAW 3F Plate Fille t 
+Welding 25% 
+Carry O ut SMAW 4F Plate Fi llet 
+Welding 35% 
+ 
+Contoh pengiraan nilai kredit bagi Standard/NOSS yang bermula 
+pada tahap 3 program C259-008-3:2022 - C01 menggunak an 
+formula: 
+ 
+Nilai kredit  
+(C01)  
+= Weightage x Jumlah Kredit 
+= 10% x 46 kredit (Rujuk Jadual 10) 
+= 4.6 Jam Kredit (Bundarkan kepada 5) 
+ 
+5.4. Tentukan Bilangan Soalan 
+ 
+5.4.1. Bilangan soalan ditentukan dengan merujuk kepada Jadual 12 untuk 
+program bertauliah penuh da n Ja dual 1 3 untuk pr ogram latihan 
+micro-credential (MC). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 39 =====
+24 
+ 
+Jadual 12: Penyediaan Set Soalan Penilaian Akhir (PA) Berdasarkan Nilai 
+Kredit CU dan Tahap 
+ 
+Perkara Tahap 1 Tahap 2 Tahap 3 Tahap 4 Tahap 5 
+Bentuk soalan 
+Objektif 
+(Recall & 
+Pemahaman) 
+Objektif 
+(Recall, 
+Pemahaman 
+& Aplikasi) 
+Objektif & Subjektif 
+(Pemahaman & Analisa) 
+Bilangan soalan 
+berdasarkan  
+nilai kredit 
+Pengetahuan 
+≤ 3 kredit = 20 soalan 
+ 
+4 – 6 kredit = 30 soalan 
+ 
+≥ 7 kredit = 40 soalan 
+ 
+Objektif = 40 soalan 
+ 
+Subjektif 
+≤ 3 kredit = 1 soalan 
+(struktur) 
+4 – 6 kredit = 2 soalan  
+(1 struktur, 1 esei) 
+≥ 7 kredit = 3 soalan  
+(2 struktur, 1 esei) 
+ 
+Tempoh masa penilaian 
+Pengetahuan 1.5 minit/soalan 
+ 
+≤ 3 kredit = 30 minit 
+ 
+4 - 6 kredit = 45 minit 
+ 
+≥ 7 kredit = 60 minit 
+ 
+Objektif = 1 jam 
+ 
+Subjektif 
+≤ 3 kredit = 30 minit 
+4 – 6 kredit = 1 jam 
+≥ 7 kredit = 1 jam 30 
+minit 
+Prestasi 2 hingga 8 jam 
+ 
+===== PAGE 40 =====
+25 
+ 
+Jadual 13: Penyediaan Set Soalan PA Berdasarkan Nilai Kredit Bagi MC-CU 
+Atau Kiraan Jam Bagi MC-WA Mengikut Tahap 
+ 
+RUJUKAN PECAHAN SOALAN TAHAP 1 HINGGA 3 
+SOALAN OBJEKTIF (ANEKA PILIHAN) 
+MC-CU atau  
+MC-WA Jumlah Soalan Tempoh Masa 
+1 kredit 20 - 79 jam 10 soalan 15 min 
+2 - 3 kredit 80 - 159 jam 20 soalan 30 min 
+4- 6 kredit 160 - 279 jam 30 soalan 45 min 
+≥ 7 kredit ≥ 280 jam 40 soalan 1 jam 
+ 
+RUJUKAN PECAHAN SOALAN TAHAP 4 & 5 
+SOALAN OBJEKTIF DAN SUBJEKTIF 
+MC-CU atau 
+MC-WA Jumlah Soalan Tempoh Masa 
+1 kredit 20 - 79 jam 20 soalan Objektif & 
+1 Soalan Subjektif (struktur) 1 jam 
+2 - 3 kredit 80 - 159 jam 40 soalan Objektif & 
+1 soalan Subjektif (struktur) 1 jam 30 minit 
+4- 6 kredit 160 - 279 jam 
+40 soalan Objektif & 
+2 soalan Subjektif (1 soalan 
+struktur & 1 soalan esei) 
+2 jam 
+≥ 7 kredit ≥ 280 jam 
+40 soalan Objektif & 
+3 soalan Subjektif (2 soalan 
+struktur & 1 soalan esei) 
+2 jam 30 min 
+ 
+5.4.2. Bagi semua program bertauliah tahap 1  – 5, sekurang-kurangnya 
+dua (2) set soalan penilaian pengetahuan dan soalan penilaian 
+prestasi hendaklah disediakan. 
+ 
+ 
+ 
+===== PAGE 41 =====
+26 
+ 
+Contoh penentuan bilangan soalan bagi S960-002-2:2020-C01: 
+ 
+Nilai Kredit = 5 
+Tahap NOSS = 2 
+Berdasarkan Jadual 12, bilangan soalan yang hendak dibangunkan 
+ialah 30 soalan penilaian pengetahuan bagi membentuk satu (1) set 
+soalan yang len gkap dan satu (1) soalan penilaian  prestasi. 
+Penentuan soalan  hendaklah merujuk kepada JSU yang telah 
+dibangunkan. 
+ 
+5.5. Bangunkan Jadual Spesifikasi Ujian (JSU) 
+JSU merupakan dokumen yang menentukan s oalan dibangunkan 
+mencapai objektif pembelajaran yang ditetapkan.  JSU mengandungi 
+maklumat mengenai  ujian, tahap kesukaran, jenis keterampilan, tem poh 
+penilaian dan taburan bilangan soalan yang mencakupi semua WA dalam 
+standard/NOSS. JSU hendaklah dibangunkan bagi setiap CU . Terdapat 
+dua (2) JSU yang perlu dibangunkan iaitu: 
+ 
+5.5.1. JSU Standard  
+Dibangunkan sebagai p anduan untuk  menyediakan set  soalan 
+penilaian pengetahuan dan prestasi. Setiap JSU  Standard 
+hendaklah mematuhi Jadual Rujukan Pecahan Soalan seperti yang 
+dinyatakan dalam Jadual 14. 
+ 
+5.5.2. JSU Individu  
+Dibangunkan sebagai panduan kepada personel untuk menentukan 
+bilangan soalan penilaian  pengetahuan dan pen ilaian prestasi .  
+Bilangan soalan hendaklah dua (2) kali g anda d aripada JSU 
+Standard. Walau bagaimanapun  bilangan soalan yang 
+dibangunkan boleh m elebihi dua (2) kali ganda darip ada JSU 
+Standard. 
+ 
+Taburan bilangan soalan hendaklah be rdasarkan keutamaan WA bagi 
+setiap CU. 
+===== PAGE 42 =====
+27 
+ 
+5.5.3. Kepentingan pembangunan JSU adalah seperti berikut: 
+a) Memastikan bila ngan soa lan adalah merujuk  kepada 
+kepentingan tajuk atau objektif sesuatu CoCU bagi CU 
+berkenaan; 
+b) Memastikan penilaian dijalankan secara sistematik;  
+c) Menjamin kesahan , kebolehpercayaan dan ke cukupcakupan 
+penilaian; 
+d) Membentuk kertas soalan dengan be rdasarkan JSU St andard; 
+dan 
+e) Bilangan soalan yang dibangunkan hendaklah berdasarkan JSU 
+Individu. 
+ 
+5.5.4. Kandungan JSU hendaklah merangkumi perkara berikut: 
+a) Kod dan Nama CU; 
+b) Nilai kredit;  
+c) Objektif pembelajaran/learning outcome; 
+d) Work Activities (WA); 
+e) Kategori soalan; 
+f) Aras kesukaran; 
+g) Keterampilan; 
+h) Tempoh penilaian; dan 
+i) Bilangan soalan. 
+ 
+5.5.5. Tatacara Pembangunan JSU Standard (Penentuan soalan 
+penilaian pengetahuan dan soalan penilaian prestasi) 
+a) Masukkan kod dan nama CU; 
+b) Kira jumlah nilai kredit; 
+c) Masukkan Objektif Program/Learning Outcome CU; 
+d) Senaraikan semua WA mengi kut turutan yang dinyatakan dalam 
+Standard/NOSS; 
+e) Tentukan bilangan soalan mengikut jumlah nilai kredit;  
+ 
+===== PAGE 43 =====
+28 
+ 
+Jadual 14: Rujukan Pecahan Soalan Mengikut Aras Kesukaran 
+TAHAP 1 - 3 
+SOALAN OBJEKTIF (ANEKA PILIHAN) 
+JULAT JAM 
+KREDIT 
+RENDAH 
+(R) 
+SEDERHANA 
+(S) 
+TINGGI  
+(T) JUMLAH 
+SOALAN 50% 30% 20% 
+≤ 3 10 6 4 20 
+4 – 6 15 9 6 30 
+≥ 7 20 12 8 40 
+ 
+ 
+TAHAP 4 & 5 
+SOALAN OBJEKTIF (ANEKA PILIHAN) 
+JULAT NILAI 
+KREDIT 
+RENDAH 
+(R) 
+SEDERHANA 
+(S) 
+TINGGI  
+(T) JUMLAH SOALAN 
+50% 30% 20% 
+Jumlah Nilai 
+Kredit bagi 
+tahap 4 dan 5 
+adalah ≥ 7 dan 
+ke atas. 
+20 12 8 
+40 
+(Bilangan soalan 
+aneka pilihan 
+adalah sama bagi 
+Standard/NOSS 
+tahap 4 dan 5) 
+ 
+f) Tentukan bilangan soalan bagi setiap WA mengikut keutamaan 
+WA; 
+i. Pengiraan bilangan soalan bagi WA berdasarkan weightage  
+Bil. soalan (WA) = weightage x jumlah soalan CU 
+ 
+Contoh bagi S960-002-2:2020-C01-WA1 (rujuk Jadual 4) 
+Bil soalan (WA1) = 20% x 30 soalan = 6 soalan 
+ 
+ 
+ 
+ 
+===== PAGE 44 =====
+29 
+ 
+ii. Pengiraan bil angan soalan bagi WA berd asarkan Nominal 
+Training Hours 
+Bil. soalan/(WA)= Training Hours WA x Jumlah Soalan CU 
+   Training Hours CU 
+ 
+Contoh bagi S960-002-2:2020-C01-WA1 (rujuk Jadual 5) 
+ 
+Bil. soalan (WA1) =  36 jam  x 30 soalan = 6 soalan 
+      180 jam 
+ 
+g) Tentukan bilangan soalan mengikut aras kesukaran berdasarkan 
+ketetapan berikut: 
+ 
+Rendah = 50%, Sederhana = 30% dan Tinggi = 20% 
+ 
+h) Taburkan bilangan soalan pada setiap aras mengikut 
+keterampilan bagi setiap WA berdasarkan ketetapan berikut: 
+ 
+Bil. Soalan Prosedur > Bil. Soalan Fakta/Teori > Bil. Soalan 
+Sikap/Keselamatan/Alam Sekitar 
+ 
+i) Soalan penilaian pengetahuan hendaklah merangkumi 
+semua WA. Taburan bilangan soalan hendaklah mengik ut 
+keutamaan WA dan berdasarkan kesesuaian aras kesukaran 
+dan keterampilan. Rujuk contoh JSU standard seperti yang 
+dinyatakan dalam Rajah 2 (i & ii). 
+ 
+ 
+ 
+===== PAGE 45 =====
+30 
+ 
+Rajah 2 (i): Contoh 1 - JSU Standard (Objektif) 
+JADUAL SPESIFIKASI UJIAN (JSU) 
+S960-002-2:2020-C01 
+Facial Electrotherapy 
+4 KREDIT 
+ 
+The le arning out comes of th is c ompetency u nit are the trainees enable to improve and e nhance client’s skin  condition in acco rdance with c lient’s ski n 
+requirements and satisfaction. 
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Carry out facial electrotherapy client consultation.   6. Carry out facial high frequency services. 
+2. Carry out facial electrotherapy services preparation.   7. Carry out facial micro-current services. 
+3. Carry out facial faradic services.     8. Carry out post facial electrotherapy advice. 
+4. Carry out facial galvanic services.     9. Upkeep facial electrotherapy service area. 
+5. Carry out facial vacuum suction services.. 
+ 
+WORK ACTIVITIES (WA) 
+WA WEIGHTAGE 
+BIL. SOALAN 
+PENILAIAN PENGETAHUAN 
+PENILAIAN 
+PRESTASI 
+ARAS 
+KESUKARAN KETERAMPILAN 
+Rendah 
+Sederhana 
+Tinggi 
+Prosidur 
+Fakta/Teori 
+Sikap/ 
+Keselamatan/ 
+Alam Sekitar 
+1. Carry out facial electrotherapy client consultation. 20% 6 3 2 1 3 2 1 / 
+2. Carry out facial electrotherapy services preparation. 10% 3 2 1 0 1 1 1 / 
+3. Carry out facial faradic services. 10% 3 1 1 1 1 1 1 / 
+4. Carry out facial galvanism services. 10% 3 1 1 1 2 1 0 / 
+5. Carry out facial vacuum suction services. 10% 3 1 1 1 2 0 1 / 
+6. Carry out facial high frequency services. 10% 3 2 1 0 2 1 0 / 
+7. Carry out facial micro-current services. 10% 3 1 1 1 1 1 1 / 
+8. Carry out post facial electrotherapy advice. 10% 3 2 0 1 2 1 0 / 
+9. Upkeep facial electrotherapy service area. 10% 3 2 1 0 2 1 0 / 
+JUMLAH 100% 
+30 
+15 9 6 16 9 5 1 JUMLAH SOALAN KESELURUHAN 30 30 
+TEMPOH PENILAIAN 45 MINIT 3 JAM 
+ 
+20% x Jumlah keseluruhan soalan      10% x Jumlah keseluruhan soalan 
+20/100 x 30 = 6        10/100 x 30  = 3 
+===== PAGE 46 =====
+31 
+ 
+Rajah 2 (ii): Contoh 2 - JSU Standard (Objektif) 
+JADUAL SPESIFIKASI UJIAN (JSU) 
+C259-006-4:2020-C01 
+Computer Aided Design (CAD) Data & Product Drawing Analysis 
+4 KREDIT 
+ 
+The learning outcomes of this competency unit are trainees enable to convert CAD data in conforma nce to operation/ production capability in accordance 
+with machining process requirements. 
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Perform CAD data assessment. 
+2. Identify product drawing specifications. 
+3. Perform CAD data analysis. 
+4. Perform CAD data conversion. 
+ 
+WORK ACTIVITIES (WA) 
+WA WEIGHTAGE 
+BIL. SOALAN 
+PENILAIAN PENGETAHUAN 
+PENILAIAN 
+PRESTASI 
+ARAS 
+KESUKARAN KETERAMPILAN 
+Rendah 
+Sederhana 
+Tinggi 
+Prosedur 
+Fakta/Teori 
+Sikap/ 
+Keselamatan/ 
+Alam Sekitar 
+1. Perform CAD data assessment. 25% 10 5 3 2 6 2 2 / 
+2. Identify product drawing specifications 25% 10 4 5 1 5 4 1 / 
+3. Perform CAD data analysis 25% 10 5 2 3 6 3 1 / 
+4. Perform CAD data conversion. 25% 10 6 2 2 7 2 1 / 
+JUMLAH 100% 
+40 
+20 12 8 24 11 5 1 JUMLAH SOALAN KESELURUHAN 40 40 
+TEMPOH PENILAIAN 60 MINIT 3 JAM 
+ 
+25% x Jumlah keseluruhan soalan 
+25/100 x 40 = 10 
+===== PAGE 47 =====
+32 
+ 
+5.5.6. Tatacara Pembangunan JSU (Penentuan soalan subjektif) 
+a) Masukkan CU (nama dan kod CU); 
+b) Tentukan nilai kredit; 
+c) Masukkan Objektif Program/Learning Outcome CU; 
+d) Senaraikan semua WA dalam Standard/NOSS; 
+e) Tentukan bilangan soalan  mengikut nilai kredit merujuk kepada 
+Jadual 15. 
+ 
+Jadual 15: Pecahan Soalan Subjektif Mengikut Nilai Kredit 
+ 
+RUJUKAN PECAHAN SOALAN SUBJEKTIF 
+JULAT NILAI KREDIT JUMLAH 
+≤ 3 1 (struktur) 
+4 – 6 2 (1 struktur dan 1 esei) 
+≥ 7 3 (2 struktur dan 1 esei) 
+ 
+f) Tentukan pemilihan WA bagi setiap soalan struktur dan esei; 
+i. Tentukan soalan struktur mengi kut pecahan soa lan dan aras 
+kesukaran bagi setiap WA.  Penetapan aras k esukaran bagi  
+soalan struktur he ndaklah me rangkumi keseluru han aras.  
+Setiap soalan struktur hendaklah ter diri s ekurang-kurangnya 
+tiga (3) sub -soalan struktur dan maksimum empat (4) sub-
+soalan struktur. Pecahan soalan str uktur boleh terdiri daripada 
+gabungan beberapa WA atau hubungkait antara WA. 
+ii. Soalan stru ktur dan esei hendaklah me rangkumi semua WA . 
+Rujuk Contoh JSU Subjektif di Rajah 3. 
+ 
+ 
+===== PAGE 48 =====
+33 
+ 
+ 
+Rajah 3 : Contoh JSU Standard - Subjektif 
+J620-001-5:2016-C01 
+COMPUTER NETWORK PROTOCOL ANALYSIS 
+9 KREDIT 
+ 
+The outcome of this competency is to ensu re computer network protocol analysis activities are carried out completely in accordance with organisational 
+requirements and standard operating procedures. 
+ 
+Upon completion of this competency unit, trainees will be able to: 
+1. Manage IP network 
+2. Plan IP addressing schemes & subnet masks 
+3. Configure network settings on multiple vendor platforms 
+4. Analyse secure communications 
+5. Troubleshoot IP networks infrastructure 
+ 
+  
+WA 
+WEIGHTAGE 
+STRUKTUR 1 STRUKTUR 2 
+ESEI 1 
+sub soalan a b c d a b c d 
+aras kesukaran R S T R S T R S T R S T R S T R S T R S T R S T T 
+WA 
+1 Manage IP network 15%                                                 / 
+2 Plan IP network 20%                                                 / 
+3 Configure network settings on 
+multiple vendor platforms 15%       
+                                          
+/ 
+4 Analyse secure communications 20%       
+                                          
+/ 
+5 Troubleshoot IP networks 
+infrastructure 30%       
+                                          
+/ 
+JUMLAH 100%                                                   
+Tempoh Penilaian 30 MINIT 30 MINIT 
+30 
+MINIT 
+ 
+===== PAGE 49 =====
+34 
+ 
+5.5.7. Tatacara Pembangunan JSU (Individu) 
+a) Masukkan CU (nama dan kod CU); 
+b) Tentukan nilai kredit; 
+c) Masukkan Objektif Program/Learning Outcome CU; 
+d) Senaraikan semua WA dalam Standard/NOSS; dan 
+Tentukan WA bagi pembangunan soalan penilaian prestasi. Penentuan 
+dan pemilihan W A ba gi pembangunan soalan penilaian  prestasi boleh 
+merangkumi kesemua , atau ditentukan gabungan daripada sekurang-
+kurangnya 50 % darip ada keseluruhan  WA mengikut keu tamaan dalam 
+CU berkenaan.  
+e) Gandakan bilangan soalan yan g telah ditentukan pada JSU Standard 
+(minima 2 kali ganda) . Rujuk Contoh JSU Individu seperti yang 
+dinyatakan dalam Rajah 4 (i & ii). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 50 =====
+35 
+ 
+Rajah 4 (i): Contoh 1 - JSU Individu (Objektif) 
+JADUAL SPESIFIKASI UJIAN (JSU) 
+S960-002-2:2020-C01 
+Facial Electrotherapy 
+4 KREDIT 
+ 
+The learning outcomes of this competency unit are the trainee s en able to improve  and enhance client’s skin co ndition in accorda nce with c lient’s skin 
+requirements and satisfaction. 
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Carry out facial electrotherapy client consultation.   6. Carry out facial high frequency services. 
+2. Carry out facial electrotherapy services preparation.   7. Carry out facial micro-current services. 
+3. Carry out facial faradic services.     8. Carry out post facial electrotherapy advice. 
+4. Carry out facial galvanic services.     9. Upkeep facial electrotherapy service area. 
+5. Carry out facial vacuum suction services 
+ 
+WORK ACTIVITIES (WA) 
+BIL. SOALAN 
+PENILAIAN PENGETAHUAN 
+PENILAIAN PRESTASI ARAS 
+KESUKARAN KETERAMPILAN 
+Rendah 
+Sederhana 
+Tinggi 
+Prosedur 
+Fakta/Teori 
+Sikap/ 
+Keselamatan/ 
+Alam Sekitar 
+R S T R S T R S T 
+1. Carry out facial electrotherapy client consultation. 12 6 4 2 5 3 1 1 1 0 0 0 1 /  
+2. Carry out facial electrotherapy services preparation. 6 4 2 0 2 1 0 1 1 0 1 0 0 /  
+3. Carry out facial faradic services. 6 2 2 2 1 1 1 0 1 1 1 0 0 /  
+4. Carry out facial galvanism services. 6 2 2 2 1 1 1 1 1 1 0 0 0 /  
+5. Carry out facial vacuum suction services. 6 2 2 2 1 1 1 1 0 1 0 1 0 / / 
+6. Carry out facial high frequency services. 6 4 2 0 1 1 0 3 1 0 0 0 0  / 
+7. Carry out facial micro-current services. 6 2 2 2 1 1 1 1 0 1 0 1 0  / 
+8. Carry out post facial electrotherapy advice. 6 4 0 2 2 0 1 2 0 1 0 0 0  / 
+9. Upkeep facial electrotherapy service area. 6 4 2 0 1 1 0 3 1 0 0 0 0  / 
+JUMLAH RST 60 30 18 12 15 10 6 13 6 5 2 2 1 1 1 JUMLAH 60 31 24 5 
+JUMLAH SOALAN KESELURUHAN 60 
+3 
+JAM 
+3 
+JAM 
+TEMPOH PENILAIAN 45 MINIT 
+===== PAGE 51 =====
+36 
+ 
+Rajah 4 (ii): Contoh 2 - JSU Individu (Objektif) 
+ 
+JADUAL SPESIFIKASI UJIAN (JSU) 
+C259-006-4:2020-C01 
+Computer Aided Design (CAD) Data & Product Drawing Analysis 
+4 KREDIT 
+ 
+The learning outcomes of this competency unit are trainees enable to convert CAD data in conformance to operation/ production capability in accordance 
+with machining process requirements. 
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Perform CAD data assessment. 
+2. Identify product drawing specifications. 
+3. Perform CAD data analysis. 
+4. Perform CAD data conversion. 
+ 
+WORK ACTIVITIES (WA) 
+BIL. SOALAN 
+PENILAIAN PENGETAHUAN 
+PENILAIAN PRESTASI ARAS 
+KESUKARAN KETERAMPILAN 
+Rendah 
+Sederhana 
+Tinggi 
+Prosedur 
+Fakta/Teori 
+Sikap/ 
+Keselamatan/ 
+Alam Sekitar 
+R S T R S T R S T 
+1. Perform CAD data assessment. 20 10 6 4 6 3 2 3 2 1 1 1 1 / / 
+2. Identify product drawing specifications 20 8 10 2 4 4 1 3 2 2 1 2 1 / / 
+3. Perform CAD data analysis 20 10 4 6 5 2 3 4 1 2 1 1 1 / / 
+4. Perform CAD data conversion. 20 12 4 4 7 1 2 3 2 1 2 1 1 / / 
+JUMLAH RST 80 40 24 16 22 10 8 13 7 6 5 5 4 1 1 JUMLAH 80 40 26 14 
+JUMLAH SOALAN KESELURUHAN 80 
+3 
+JAM 
+3 
+JAM 
+TEMPOH PENILAIAN 60 MINIT 
+ 
+ 
+===== PAGE 52 =====
+37 
+ 
+5.6. Bangunkan SPLK 
+ 
+5.6.1. Pembangunan Soalan Peni laian melalui modul TVET Int egrated 
+Assessemant (TIA).  
+ 
+TIA merupakan satu modul yang boleh digunakan untuk men yimpan 
+soalan dengan menggunakan platform  MySPIKE di bawah  Sistem 
+Persijilan Kemahiran Malaysia (SPKM). Modul TIA mengandungi dua 
+(2) sub modul berikut: 
+ 
+a. Sub-modul TIA – pembangunan soalan. 
+Sub-modul ini memberikan akses kepada pegawai penilai  untuk 
+mengunci mas uk SPLK yang dibangunkan ke dalam sistem 
+MySPIKE. 
+ 
+b. Sub-modul TIA – penilaian. 
+Sub modul ini membole hkan pel aksanaan penilaian akhir 
+dijalankan secara dalam talian. 
+ 
+5.6.2. Format Penulisan Soalan Penilaian Pengetahuan 
+Format yang digunakan untuk pem bangunan soalan penilaian  
+pengetahuan adalah seperti yang ditunjukkan dalam Rajah 5. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 53 =====
+38 
+ 
+SOALAN PENILAIAN PENGETAHUAN 
+ 
+NAMA :        KOD CU : 
+Jenis Soalan Keterampilan No & Tajuk WA Aras Kesukaran 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+         
+         
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA  SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+ 
+ 
+ 
+Rajah 5: Format Penulisan Soalan Penilaian Pengetahuan 
+ 
+ 
+===== PAGE 54 =====
+39 
+ 
+5.6.3. Tatacara Pembangunan Soalan Penilaian Pengetahuan (Objektif) 
+a. Rujuk JSU Individu untuk menentu kan bilangan soalan, 
+keterampilan dan aras kesukaran yang hendak dibangunkan.  
+b. Lengkapkan maklumat soalan seperti Format Maklumat Soalan 
+pada Rajah 6. 
+ 
+SOALAN PENILAIAN PENGETAHUAN 
+ 
+NAMA : (i)      KOD CU : (ii) 
+Jenis Soalan Keterampilan No & Tajuk WA Aras Kesukaran 
+ 
+(iii) 
+ 
+(iv) (v) (vi) 
+ 
+Rajah 6: Format Maklumat Soalan 
+ 
+i. Tulis Nama pembangun. 
+ii. Tulis Kod CU yang dipilih. 
+iii. Tulis Jenis Soa lan sama ada Objektif  (satu pilihan – radio 
+button) atau Obje ktif (Ane ka Gab ungan – radio button atau 
+check box). 
+iv. Tulis Ket erampilan (Prosedur, Fakta/Teori atau Sikap/ 
+Keselamatan/Alam Sekitar) 
+v. Tulis No & Tajuk WA. 
+vi. Tulis Aras Kesukaran (Rendah, Sederhana atau Tinggi) 
+ 
+c. Soalan penilaian pengetahuan hen daklah dibang unkan 
+berdasarkan Related Sk ills, Related Knowledge  dan Si kap 
+Keselamatan dan Alam Sekitar serta memenuhi Assessment 
+Criteria yang dinyatakan dalam CoCU. 
+ 
+ 
+ 
+===== PAGE 55 =====
+40 
+ 
+d. Soalan Benar  atau Palsu – soalan jenis in i terdiri daripada 
+beberapa pernyataa n lengkap dan memerl ukan calon untu k 
+menentukan benar atau palsu pernyataan yang diberi. 
+ 
+Contoh: 
+Arahan: T andakan ( √) pada pernyataan yang BENAR dan (X) 
+pada pernyataan yang PALSU dalam ruangan yang disediakan. 
+ 
+a. Pengudaraan yang bagus a dalah persekitaran yang 
+kondusif untuk tidur dan rehat kanak-kanak 
+  
+b. Buaian adalah pendekatan yang sesuai untuk aktiviti 
+kanak-kanak 
+  
+c. Baca buku cerita adalah aktiviti  untuk menidur dan 
+merehatkan kanak-kanak 
+  
+d. Rutin t idur siang kanak -kanak berumur 3 hingga 4 
+tahun adalah selama 1 hingga 2 jam. 
+  
+e. Tilam bayi, bantal dan mobile music  merupakan 
+peralatan yang sesuai untuk menidurkan bayi. 
+  
+ 
+e. Soalan Padanan – soalan jenis ini terdiri daripada senarai 
+stimulus dan res pons serta mengandung i arahan untuk 
+memadankan kedua-duanya. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 56 =====
+41 
+ 
+Contoh: 
+Arahan:  Padankan simbol dan nama simbol di bawah.  
+ 
+ SIMBOL   NAMA SIMBOL 
+1 
+ 
+ 
+ 
+ A Pemutus litar kenit 
+2 
+ 
+  B Unit penyaman udara 
+3 
+ 
+  C Penyambung neutral 
+4 
+ 
+  D Kipas dinding 
+5 
+ 
+ 
+ 
+ E Meter kilowatt jam 
+ 
+f. Komponen soalan hendaklah menepati ketetapan berikut: 
+ 
+Komponen 
+Soalan 
+Keterangan 
+Stimulus Stimulus adalah rangsangan (jika perlu ) yang 
+berbentuk teks atau grafik bagi memb eri 
+gambaran kepada situasi tugasan. Stimulus 
+hendaklah berkait rapat  dengan tuga san. 
+Sekiranya soalan memerlukan stimulus; 
+i) Ia hendaklah mengandungi maklumat yang 
+jelas dan relevan dengan tugasan; dan 
+ii) dinyatakan sama a da dalam bentuk 
+penyataan, rajah, jadual atau grafik. 
+A C 
+===== PAGE 57 =====
+42 
+ 
+Komponen 
+Soalan 
+Keterangan 
+Arahan i. Penyataan bagaimana sesuatu respons itu 
+harus diberikan atau disampaikan kepada 
+pelatih, perantis atau calon;  
+ii. Dalam bentuk kata tugas. 
+iii. Jelas, tepat dan ringkas, t iada pembaz iran 
+perkataan se bagai hia san ( window 
+dressing) serta menepati keterampilan; 
+iv. Mudah difahami dan bersifat tidak 
+memerangkap (non-tricky); 
+v. Tidak mengambil terus frasa daripada buku; 
+vi. Tidak memberikan bayangan k epada 
+jawapan seperti p enggunaan perta lian 
+perkataan (words association); 
+vii. Elakkan tugasan dalam bentuk negati f dan 
+sekiranya perlu, penggunaannya hendaklah 
+ditebalkan (bold); 
+viii. Idea utama sesuatu soalan dan bukan pada 
+stimulus atau pilihan jawapan; dan 
+ix. Tidak berasaskan pendapat. 
+Pilihan 
+Jawapan 
+i) Mengandungi empat pil ihan j awapan 
+sahaja; 
+ii) Homogen dan selari dengan pi lihan 
+jawapan yang lain; 
+iii) Menggunakan tatabahasa yang sesuai; 
+iv) Disusun secara logik berdasarkan: 
+•  urutan nombor kecil kep ada n ombor 
+besar;  
+•  Penyataan pendek kepa da p enyataan 
+panjang; atau 
+•  Kronologi peristiwa. 
+v) Tidak bercanggah atau mempunyai makna 
+yang sama; 
+===== PAGE 58 =====
+43 
+ 
+Komponen 
+Soalan 
+Keterangan 
+vi) Tidak digalakkan mengulang perkataan 
+yang serupa dalam semua pilihan 
+jawapan; 
+vii) Tidak menggunakan jawapan negatif;  
+viii)  Tidak men ggunakan perkataan penen tu 
+seperti selalu, sangat, lebih kurang, hanya 
+dan lain-lain; 
+ix) Distraktor yang digunakan hendaklah logic, 
+homogen, rel even, pilihan yang biasa 
+(familiar) dan tidak menggunakan 
+penyataan yang sensitif; dan 
+x) Serupa dan dalam kumpulan yang sama. 
+Jawapan • Tepat dan tidak boleh dipertikaikan;  
+• Tidak ketara se bagai jawapan seperti 
+sentiasa panjang atau diiring i dengan 
+penjelasan; dan 
+• Pilihan jawapan aneka gab ungan 
+hendaklah seragam. 
+ 
+ 
+g. Format soalan yang dibangunkan hendaklah memenuhi kriteria 
+berikut: 
+ 
+Perkara  Format 
+Soalan - Font (Arial, Saiz 11, Spacing 1.5). 
+- Tanda soal (?) di hujung soalan apabila ada 
+soalan pertanyaa n dan dirapatkan dengan 
+perkataan terakhir.  
+- Tanda nok tah (.) di huj ung soalan yang 
+merupakan penyataan, arahan atau 
+tugasan. 
+- Perkataan selain Bah asa Melayu mesti 
+ditulis Italic. 
+- Soalan yang menggunakan sti mulus 
+===== PAGE 59 =====
+44 
+ 
+Perkara  Format 
+bergambar: 
+- Semua stimulus bergambar mesti d ilabel 
+dengan perkataan Rajah. 
+- Rajah hendaklah dinamakan . Format nama  
+rajah hendaklah menggunak an huruf besar 
+pada setiap permulaan perkataan (Capitalize 
+Each Word). 
+- Rajah hendaklah diletakkan pada bahagian 
+atas dan tengah tugasan. 
+- Rajah hendaklah hitam pu tih. Sekiranya 
+soalan y ang dibangunkan menggunakan 
+modul TVET Integra ted Assessment (TIA) 
+menggunakan platform MySPIKE , raj ah 
+hendaklah disediakan dalam papar an 
+berwarna. 
+- Penekanan perkataan negatif hendaklah 
+ditebalkan (bold). Contohnya  bukan, tidak, 
+salah dan lain-lain. 
+- Penggunaan perkataan ”kecuali”, ”adalah”, 
+”isi tempat ko song” dan seumpamanya 
+adalah tidak dibenarkan (rujuk contoh soalan 
+di Lampiran B) 
+Jawapan - Font (Arial, Saiz 11, Spacing 1.5). 
+- Tanda noktah diletakkan pada setiap pilihan 
+jawapan kecuali jawapan yang bera ngka 
+(termasuk angka roman) , kata nam a atau 
+kata nama khas. 
+- Setiap pilihan jawapan ber mula dengan 
+huruf besar. 
+- Angka roman (I, II, III, IV) dan huruf (A, B, 
+C, D) hendaklah menggunakan huruf besar. 
+- Mesti letak perkataan ‘ dan’ pada pilihan 
+jawapan roman kecuali bagi pilihan jawapan 
+yang melibatkan susunan. 
+- Jawapan hendaklah dituli s dengan font 
+berwarna merah. 
+ 
+===== PAGE 60 =====
+45 
+ 
+h. Setiap s oalan yang dibangunk an hendaklah disahkan sebel um 
+digunakan bagi memastikan kesahan, kebolehpercayaan dan 
+kecukupcakupan soala n tersebut. Bagi tujuan pengesahan , 
+format Pengesahan S oalan seperti yang di nyatakan dalam 
+Rajah 7 di bawah hendaklah dilengkapkan seperti berikut: 
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+         
+         
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA  SOALAN DITERIMA DENGAN 
+PINDAAN  SOALAN DITOLAK  
+ 
+Rajah 7: Format Pengesahan Soalan 
+ 
+i. Pembangun hendaklah melengkapkan lajur yang be rtanda (i) 
+dan mer ujuk kepada Rajah 7  untuk mengesahkan bahawa 
+soalan yang dibangunkan mematuhi sembilan (9) ciri so alan 
+yang ditetapkan; 
+ii. Pemurni hendaklah melengkapkan l ajur yang bertanda (ii)  
+semasa sesi pemurn ian dan merujuk kepada Rajah 7  untuk 
+mengesahkan soalan yang  dibangunkan m ematuhi sembilan 
+(9) ciri soalan yang ditetapkan; dan 
+iii. Jawatankuasa Teknikal Pengesah Soalan (JKTPS), Technical 
+Advisory C ommittee (TAC), Jawatankuasa Penilaian , 
+Jawatankuasa Pengesah  Soalan PPT (soalan yang 
+dibangunkan oleh PPA) atau Panel Penilaian Pusat Bertauliah 
+(PPPB) hendaklah memb uat keputusan dan melengk apkan 
+ruangan RUMUSAN samada soalan diterima sepenuhnya, 
+terima dengan pindaan atau ditolak. 
+ 
+ 
+ 
+(i) 
+(ii) 
+(iii) 
+===== PAGE 61 =====
+46 
+ 
+5.6.4. Contoh Soalan Penilaian Pengetahuan (Objektif) 
+Contoh soalan penilaian pengetahuan (ob jektif) yang dibangunkan 
+melalui modul TVET Intergreted Assessment (TIA) menggunakan 
+platform MySPIKE adalah seperti yang ditunjukkan dalam  Rajah 8(i) 
+hingga (viii) di bawah. 
+ 
+ 
+CONTOH 1 – SOALAN PENILAIAN PENGETAHUAN (OBJEKTIF) 
+ 
+NAMA : (Nama Pembangun)                         KOD CU : (Kod Standard/NOSS & CU) 
+Jenis Soalan Keterampilan No & Tajuk WA Aras Kesukaran 
+Objektif 
+(Satu Pilihan – Radio 
+Button) 
+Fakta/Teori (No WA) 
+(Tajuk WA) 
+Rendah 
+ 
+Apakah kod warna bagi pengalir bumi di dalam kabel boleh lentur (flexible 
+cable)? 
+ 
+A. Hijau berjalur biru. 
+B. Hijau berjalur hitam. 
+C. Hijau berjalur merah. 
+D. Hijau berjalur kuning. 
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+Rajah 8(i): Contoh Soalan Objektif (Satu Pilihan – Radio Button) 
+ 
+===== PAGE 62 =====
+47 
+ 
+CONTOH 2 – SOALAN PENILAIAN PENGETAHUAN (OBJEKTIF) 
+ 
+Contoh soalan pengiraan dan mempunyai stimulus dalam bentuk 
+kenyataan. 
+ 
+NAMA : (Nama Pembangun)              KOD CU : (Kod Standard/NOSS & CU) 
+Jenis Soalan Keterampilan No & Tajuk WA Aras Kesukaran 
+Objektif 
+(Satu Pilihan – Radio 
+Button) 
+Fakta/Teori (No WA) 
+(Tajuk WA) 
+Sederhana 
+ 
+Dalam satu litar elektrik, arus yang mengalir adalah 2A dan voltan bekalan 
+adalah 6V. 
+ 
+Hitungkan nilai rintangan litar tersebut. 
+A. 3 Ω 
+B. 4 Ω 
+C. 8 Ω 
+D. 12 Ω 
+ 
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+ 
+Rajah 8(ii): Contoh Soalan Objektif (Satu Pilihan – Radio Button) Dengan 
+Penggunaan Simbol. 
+ 
+Semasa mengunci masuk soalan kedalam Sistem TIA 
+MySPIKE, penggunaan simbol hendaklah 
+menggunakan copy dan paste dari HTML SYMBOL 
+===== PAGE 63 =====
+48 
+ 
+CONTOH 3 – SOALAN PENILAIAN PENGETAHUAN (OBJEKTIF) 
+ 
+Contoh soalan yang mempunyai stimulus dalam bentuk graf. 
+ 
+NAMA : (Nama Pembangun)         KOD CU : (Kod Standard/NOSS & CU) 
+Jenis Soalan Keterampilan No & Tajuk WA Aras Kesukaran 
+Objektif 
+(Satu Pilihan – Radio 
+Button) 
+Prosedur (No WA) 
+(Tajuk WA) 
+Tinggi 
+ 
+ 
+Rajah Graf Kitaran Ekonomi 
+ 
+Berdasarkan Rajah Graf Kitaran Ekonomi, apakah tindakan pengurusan di 
+sebuah syarikat jualan alat ga nti kenderaan apabila kitaran ekonomi 
+berada pada Fasa II? 
+ 
+A. Tambah bilangan tenaga kerja. 
+B. Bayar gaji dan elaun yang tinggi. 
+C. Laksanakan latihan kemahiran pekerja. 
+D. Arah semua pekerja bekerja lebih masa. 
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+Rajah 8(iii): Contoh Soalan  Objektif (Sat u Pil ihan – Radio Button) Dengan 
+Stimulus Rajah. 
+===== PAGE 64 =====
+49 
+ 
+CONTOH 4 – SOALAN PENILAIAN PENGETAHUAN (OBJEKTIF) 
+ 
+Contoh soalan mempunyai stimulus dalam bentuk kenyataan 
+ 
+NAMA : (Nama Pembangun)   KOD CU : (Kod Standard/NOSS & CU) 
+Jenis Soalan Keterampilan No & Tajuk WA Aras Kesukaran 
+Objektif 
+(Satu Pilihan – Radio 
+Button) 
+Prosedur (No WA) 
+(Tajuk WA) 
+Tinggi 
+ 
+Pada 30 Jun 20 18, Syarikat RTY membeli alat ganti  kenderaan berharga 
+RM600 secara kredit dengan syarat pe mbayaran semula dilaksa nakan 
+dalam tempoh 10 hari, rebet 15% akan diberikan manakala pem bayaran 
+dalam tempoh 11 -15 hari, rebet sebanyak 10% akan diberikan. 
+ 
+Berdasarkan perny ataan di atas, berapakah jumlah bayaran y ang perlu 
+dibayar sekiranya pembayaran dibuat pada 9 Julai 2018? 
+ 
+A. RM 450 
+B. RM 510 
+C. RM 540 
+D. RM 600 
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+ 
+Rajah 8(iv): Contoh Soalan Objektif (Satu Pilihan – Radio Button) Dengan 
+Stimulus Penyataan. 
+===== PAGE 65 =====
+50 
+ 
+CONTOH 5 – SOALAN PENILAIAN PENGETAHUAN (OBJEKTIF) 
+ 
+Contoh soalan yang memerlukan susunan mengikut turutan  hendaklah 
+menggunakan bentuk soalan dalam format Radio Button sahaja. 
+ 
+NAMA : (Nama Pembangun)              KOD CU : (Kod Standard/NOSS & CU) 
+Jenis Soalan Keterampilan No & Tajuk WA Aras Kesukaran 
+Objektif 
+(Aneka Gabungan – 
+Radio Button) 
+Prosedur (No WA) 
+(Tajuk WA) 
+Tinggi 
+ 
+Susunkan langkah kerja  pemasangan kad mem ori (RAM) me ngikut 
+turutan yang betul. 
+ 
+I. Pasang semula casing. 
+II. Pasang kad memori yang baharu. 
+III. Pilih jenis kad memori yang sesuai. 
+IV. Tanggal casing dan kad memori sedia ada. 
+ 
+A. I, II, III, IV 
+B. II, III, IV, I 
+C. III, IV, I, II 
+D. IV, III, II, I 
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+Rajah 8(v): Contoh Soa lan Objektif (S atu Pil ihan – Radio Button) 
+Berbentuk Susun Mengikut Turutan 
+===== PAGE 66 =====
+51 
+ 
+CONTOH 6 – SOALAN PENILAIAN PENGETAHUAN (OBJEKTIF) 
+ 
+Contoh soalan aneka gabungan, jika hendaklah disediakan dalam bentuk 
+Radio Button 
+ 
+NAMA : (Nama Pembangun)      KOD CU : (Kod Standard/NOSS & CU) 
+Jenis Soalan Keterampilan No & Tajuk WA Aras Kesukaran 
+Objektif 
+(Aneka Gabungan – 
+Radio Button) 
+Prosedur (No WA) 
+(Tajuk WA) 
+Tinggi 
+ 
+Berdasarkan Piramid Makana n Malaysia, apakah lang kah yang 
+perlu diambil dalam menentukan me nu yang leng kap?  
+ 
+I. Kena lpasti kuantiti air.  
+II. Tentukan gizi makanan.  
+III.  Kenal  pasti jenis masaka n. 
+IV. Sediakan pelbaga i jenis hida ngan.  
+ 
+A. I dan II 
+B. I, dan I II 
+C. II dan IV 
+D. III dan IV  
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+Rajah 8(vi): Contoh Soalan Objektif (Aneka Gabungan – Radio Button) 
+ 
+Jika soalan aneka gab ungan 
+disediakan menggunakan 
+format Radio Button, pilihan 
+jawapan (I, I I, II dan  IV) 
+hendaklah dijadikan sebahagian 
+dari soalan. 
+===== PAGE 67 =====
+52 
+ 
+CONTOH 7 – SOALAN PENILAIAN PENGETAHUAN (OBJEKTIF) 
+ 
+Contoh soalan aneka g abungan yang disediak an menggunakan format  
+Check Box 
+ 
+NAMA : (Nama Pembangun)            KOD CU : (Kod Standard/NOSS & CU) 
+Jenis Soalan Keterampilan No & Tajuk WA Aras Kesukaran 
+Objektif 
+(Aneka Gabungan – 
+Check Box) 
+Fakta/Teori (No WA) 
+(Tajuk WA) 
+Rendah 
+ 
+Apakah 2 Personel Pro tective Equipment  (PPE) utama yang hendak 
+dipakai ketika menggunakan hot seal machine? 
+ 
+I. Topi Keselamatan. 
+II. Kasut keselamatan. 
+III. Sarung tangan termal. 
+IV. Cermin Mata Keselamatan. 
+ 
+A. I dan II 
+B. I dan IV 
+C. II dan III 
+D. III dan IV 
+ 
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+Rajah 8(vii): Contoh Soalan Objektif (Aneka Gabungan – Check Box) 
+===== PAGE 68 =====
+53 
+ 
+CONTOH 8 – SOALAN PENILAIAN PENGETAHUAN (OBJEKTIF) 
+ 
+Contoh soalan aneka gabungan yang disediak an menggunakan f ormat 
+Check Box. 
+ 
+NAMA : (Nama Pembangun)            KOD CU : (Kod Standard/NOSS & CU) 
+Jenis Soalan Keterampilan No & Tajuk WA Aras Kesukaran 
+Objektif 
+(Aneka Gabungan – 
+Check Box) 
+`Prosedur (No WA) 
+(Tajuk WA) 
+Rendah 
+ 
+Apakah 3 kaedah untuk mengurangkan rintangan bumi? 
+ 
+I. Tabur garam di sekeliling elektrod. 
+II. Pacak elektrod di tempat yang lembab. 
+III. Tanam 2 batang elektrod secara selari. 
+IV. Tuang larutan asid di sekeliling elektrod. 
+ 
+A. I, II, dan III 
+B. I, II dan IV 
+C. I, III dan IV 
+D. II, III dan IV 
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+Rajah 8(viii): Contoh Soalan Objektif (Aneka Gabungan – Check Box) 
+ 
+ 
+===== PAGE 69 =====
+54 
+ 
+5.6.5. Contoh Paparan Soalan Penilaian TIA 
+Contoh p aparan soalan penilaian  pengetahuan melalui TIA  
+menggunakan platform MySPIKE adalah seperti contoh berikut: 
+ 
+Contoh 1 – Radio Button 
+Dalam satu li tar e lektrik, arus yang meng alir ada lah 2 A dan volt an 
+bekalan adalah 6V. 
+ 
+Hitungkan nilai rintangan litar tersebut. 
+ 
+3 Ω 
+4 Ω 
+8 Ω 
+12 Ω 
+ 
+ 
+Contoh 2 – Radio Button 
+Susunkan cara proses pemasangan kad memori (RAM ) mengikut 
+turutan yang betul. 
+ 
+I. Pasangkan semula casing. 
+II. Gantikan memori yang baru. 
+III. Tanggalkan casing, menanggalkan kad memori sedia ada. 
+IV. Tentukan jenis kad memori yang disokong oleh papan induk. 
+ 
+I, II, III, IV 
+II, III, IV, I 
+III, IV, I, II 
+IV, III, II, I 
+ 
+===== PAGE 70 =====
+55 
+ 
+Contoh 3 – Check Box 
+Apakah 3 kaedah untuk mengurangkan rintangan bumi? 
+ 
+Tabur garam di sekeliling elektrod. 
+Pacak elektrod di tempat yang lembab  
+Tanam 2 batang elektrod secara selari. 
+Tabur larutan asid di sekeliling elektrod 
+ 
+Contoh 4 – Check Box 
+Berdasarkan Piramid Makanan Malaysia, apakah 2 langkah 
+yang perlu diambil dalam menentukan menu yang lengkap?  
+ 
+Kenal pasti kuanti ti air.  
+Tentukan gizi makanan.  
+Kenal  pasti jenis masakan.  
+Sediakan pelbagai jenis hidangan.  
+ 
+5.6.6. Tatacara pembangunan Soalan Penilaian Pengetahuan (Subjektif).   
+a. Rujuk JSU untuk me nentukan bilangan , jenis, keterampilan dan 
+aras kesukaran soalan yang hendak dibangunkan.  
+b. Lengkapkan maklumat mengikut format di Rajah 9. 
+ 
+SOALAN PENILAIAN PENGETAHUAN (SUBJEKTIF) 
+ 
+NAMA : (i)        KOD CU : (ii) 
+ 
+Jenis Soalan Keterampilan No. & tajuk WA Aras Kesukaran 
+ 
+(iii) 
+ 
+(iv) (v) (vi) 
+ 
+Rajah 9 : Format Maklumat Soalan Subjektif 
+ 
+i. Tulis Nama pembangun. 
+ii. Tulis Kod CU yang dipilih. 
+===== PAGE 71 =====
+56 
+ 
+iii. Tuliskan Jenis Soalan sama ada Subjektif (Struktur) 
+atau Subjektif (Esei). 
+iv. Tulis Keterampilan. 
+v. Tulis No & Tajuk WA. 
+vi. Tulis Aras Kesukaran. 
+ 
+c. Komponen soalan subjektif hendakla h mematuhi ketetapan 
+berikut: 
+Stimulus Menyediakan stimulus bagi soalan jenis esei 
+mengikut kesesuaian 
+Arahan Arahan dalam soalan hendakla h jelas dengan 
+menggunakan kata tugas yang sesuai  serta 
+bahasa d an istilah yang be tul dan spe sifik.  
+Antara co ntoh kata tugas yang b oleh 
+digunakan adalah seperti 
+• Huraikan; 
+• Terangkan; 
+• Bincangkan; 
+• Namakan; atau 
+• Bezakan 
+Contoh - Huraikan dua (2) prosedur back up 
+yang akan dilakukan. 
+Skema 
+Pemarkahan 
+Markah bagi setiap so alan boleh dit entukan 
+mengikut ben tuk soalan . Pemarkahan yang 
+boleh diberikan, disyorkan seperti berikut: 
+• Jawapan pendek – 1 markah 
+• Huraian jawapan – 2 atau 3 markah 
+Skema 
+Jawapan 
+i. Skema j awapan yang disediakan 
+hendaklah lengkap dan menyeluruh; dan 
+ii. Semua j awapan yang betul hendaklah 
+disenaraikan dalam skema jawapan. 
+ 
+ 
+===== PAGE 72 =====
+57 
+ 
+ 
+d. Format penulisan soalan subjektif: 
+Soalan - Font (Arial, Saiz 11, Spacing 1.5). 
+- Tanda soal (? ) di hujung soal an apabila 
+ada soalan  pertanyaan dan dirapa tkan 
+dengan perkataan terakhir.  
+- Tanda nok tah (.) di h ujung soalan yang  
+merupakan penyataan , arahan atau 
+tugasan. 
+- Soalan ya ng me nggunakan stimulus 
+bergambar: 
+• Semua stimulus ber gambar me sti 
+dilabel dengan perkataan Rajah. 
+• Rajah hendak lah dinamakan . Format 
+nama rajah hendaklah mengg unakan 
+huruf besar  pada setiap permulaan 
+perkataan (Capitalize each word). 
+• Rajah hendaklah diletakkan pada 
+bahagian atas dan tengah tugasan. 
+• Rajah hendaklah hitam pu tih.  
+Sekiranya soalan y ang dibangunkan 
+menggunakan modul TVET Integrated 
+Assessment (TIA), raj ah hendaklah 
+disediakan dalam paparan berwarna 
+Skema 
+pemarkahan 
+- Markah hendaklah dile takkan p ada 
+bahagian bawah sebelah kanan tugasan. 
+- Skema jawapan ditulis menggunakan font 
+berwarna merah. 
+- Senarai jawapan berangka menggunakan 
+roman kecil. 
+- Skema jawapan dan markah hendaklah di 
+dalam jadual. 
+- Markah keseluruhan dinyatakan mengikut 
+format. 
+===== PAGE 73 =====
+58 
+ 
+5.6.7. Contoh Soalan Penilaian (Subjektif) dan Skema Jawapan. 
+Contoh beberapa soalan penilaian pengetahuan (subjektif) dan 
+skema jawapan adalah seperti Rajah 10(i) - (iv) di bawah. 
+ 
+CONTOH SOALAN PENILAIAN PENGETAHUAN (SUBJEKTIF) 
+SOALAN PENILAIAN PENGETAHUAN (STRUKTUR) 
+NAMA :        KOD CU : 
+Jenis 
+Soalan 
+Keterampilan No. & Tajuk WA Aras Kesukaran 
+Struktur 1 
+Fakta/Teori/Prosedur/ 
+sikap/keselamatan/Alam 
+sekitar 
+No & Tajuk WA 
+No & Tajuk WA 
+No & Tajuk WA 
+Rendah/Sederhana/Tinggi 
+ 
+Sebagai seorang Pembantu Eks ekutif Sistem Komp uter, anda ditugaskan 
+untuk menjaga dan mengawasi penggunaan bilik server di syarikat. Sekiranya 
+berlaku kerosakan pada server, anda harus membaiki  sistem di dalam server 
+tersebut.  
+ 
+a. Berikan 2 proses pembaikan sistem server. 
+(2 Markah) 
+b. Jelaskan 4 prosedur back up yang akan dilakukan. 
+(8 Markah) 
+c. Berikan 2 sebab mengapakah pemulihan sistem perlu dilakukan sekiranya 
+berlaku kerosakan pada sistem tersebut? 
+(4 Markah) 
+d. Cadangkan 2 tindakan yang boleh dil akukan untuk pelan pemulihan 
+sistem beserta contoh untuk setiap cadangan tersebut. 
+(6 Markah) 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+Rajah 10(i): Contoh Soalan Struktur 
+===== PAGE 74 =====
+59 
+ 
+CONTOH SKEMA JAWAPAN STRUKTUR 
+ 
+Skema Jawapan: 
+a. Terdapat 2 proses pembaikan sistem server. 
+i. prosedur back up; dan 
+ii. prosedur baik pulih 
+Kiraan Markah: 1 jawapan X 1 markah = 1 Markah 
+Keseluruhan: 2 jawapan X 1 markah = 2 Markah 
+ 
+b. Terdapat 6 prosedur back up yang dilakukan. 
+(*mana-mana 4 daripada jawapan) 
+ 
+BIL JAWAPAN MARKAH 
+i 
+Back up kepada keseluruhan server semua data dan 
+aplikasi termasuk Operating System (OS) dibuat pada 
+setiap malam untuk semua server. 
+2 
+ii 
+Back up salinan data ke dalam pi ta atau media lain perlu 
+dilakukan setiap hari untuk mengelakkan kehilangan data 
+sekiranya berlaku kerosakan hard disk. 
+2 
+iii Labelkan setiap media storan backup yang digunakan 
+bagi memudahkan proses baikpulih dilaksanakan. 2 
+iv 
+Back up sistem aplikasi d an sistem operasi perlu 
+diadakan sekurang-kurangnya sekali bagi setiap keluaran  
+versi terbaharu. 
+2 
+v 
+Back up untuk d ata dan sistem aplikasi/sistem op erasi 
+dicadangkan dibuat dalam tiga (3) salinan dan setiap satu 
+disimpan di lokasi yang berlainan. 
+2 
+vi 
+Penetapan lokasi simpanan back up  ini a dalah untuk 
+memastikan   data -data   kritik al/penting   mas ih   boleh 
+diselamatkan. 
+2 
+ 
+Kiraan Markah: 1 jawapan x 2 markah = 2 Markah 
+Keseluruhan: 4 jawapan X 2 markah = 8 Markah 
+ 
+===== PAGE 75 =====
+60 
+ 
+c. Sebab dilaksanakan pemulihan sistem: 
+BIL JAWAPAN MARKAH 
+i Objektif utama adala h untuk meminimumkan sebarang 
+gangguan atau kerugian akibat ketidaksediaan. 2 
+ii Pemulihan sist em amat perlu untu k memastikan 
+kebolehsediaan dan kebolehpercapaian. 2 
+Kiraan Markah: 1 huraian X 2 markah = 2 Markah 
+Keseluruhan: 2 huraian X 2 markah = 4 Markah 
+ 
+d. Antara tindakan yang boleh dilakukan untuk pemulihan sistem: 
+BIL JAWAPAN MARKAH 
+i 
+Merumus dan me nguji Pelan Pemuli han Bencana 
+(Disaster Recovery Plan). 
+2 
+Contoh:  
+Rancangan pelan pemulihan bencana selepas 
+perlaksanaan system pengurusan pengauditan. 
+1 
+ii 
+Mengamalkan langkah-langkah Salinan data dan lain-lain 
+amalan baik dalam penggunaan ICT. 
+2 
+Contoh: 
+Menghapuskan virus, langkah -langkah pe ncegahan 
+kebakaran dan amalan clean desk. 
+1 
+ 
+Kiraan Markah: 1 jawapan x 2 markah = 2 Markah 
+1 contoh x 1 markah = 1 Markah 
+Keseluruhan: (2 jawapan x 2 markah) + (2 contoh x 1 markah)  
+= 6 Markah 
+ 
+Rajah 10(ii) Contoh Skema Jawapan Soalan Struktur 
+ 
+ 
+===== PAGE 76 =====
+61 
+ 
+SOALAN PENILAIAN PENGETAHUAN (ESEI) 
+NAMA :        KOD CU : 
+Jenis Soalan Keterampilan No. & tajuk WA Aras Kesukaran 
+Esei 1 
+Fakta/Teori/Prosedur/ 
+sikap/keselamatan/Alam 
+sekitar 
+No & Tajuk WA 
+No & Tajuk WA 
+No & Tajuk WA 
+Tinggi 
+ 
+Sebuah syarikat telah menerima maklu m balas daripada pelanggan berkaitan 
+kualiti perkhidmatan pelangaan kura ng memuaskan.  Terdapat beberapa 
+langkah yang boleh diambil bagi mengatasi masalah tersebut. 
+  
+Berikan 4 langkah dalam menil ai kuali ti p erkhidmatan serta kepuasan 
+pelanggan dan berikan  2 huraian bagi setiap lang kah untuk m enentukan 
+keberkesanan perkhidmatan. 
+(20 Markah) 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+Rajah 11(i): Contoh Soalan Esei 
+ 
+Contoh Skema Jawapan Esei: 
+ 
+BIL JAWAPAN MARKAH MARKAH 
+PENUH 
+i Langkah 1: Mengetahui persepsi pelanggan 1 
+5 
+Huraian 1:  
+Pelanggan menta fsirkan sesuatu den gan 
+cara yang berbeza walaupun berada dalam 
+situasi yang sama. 
+2 
+ 
+===== PAGE 77 =====
+62 
+ 
+BIL JAWAPAN MARKAH MARKAH 
+PENUH 
+Huraian 2: 
+(*mana-mana 1 daripada jawapan) 
+Persepsi yang perlu dikenal pasti: 
+- Perkara yang pelanggan harapkan 
+dalam perniagaan. 
+- Sebab pelanggan berurusniaga dengan 
+syarikat anda. 
+- Punca ya ng menyebabkan pelanggan 
+bertukar pembekal pada masa yang lalu 
+- Perkara yang pela nggan tetapkan 
+sebagai prestasi kualiti perkhidmatan. 
+- Perkara yang boleh diterima oleh 
+pelnggan sebagai kepuasan minimum. 
+2 
+ii Langkah 2: 
+Menentukan kehendak , jangkaan, 
+permintaan dan harapan pelanggan. 
+1 
+5 
+Huraian 1: 
+Penilaian kepuasan pelanggan mesti 
+merangkumi dan mencakupi apa yan g 
+pelanggan perlu dan in ginkan darip ada 
+perkhidmatan yang ditawarkan. 
+ 
+Huraian 2: 
+Untuk menjayakan penilaian, amat penting 
+mengetahui dan mempelajari apa kehendak 
+pelanggan pada masa kini dan masa yang  
+akan datang. 
+ 
+2 
+ 
+ 
+ 
+ 
+ 
+2 
+ 
+ 
+ Langkah 3: 
+Merapatkan jurang  yang wu jud antara 
+pelanggan dengan pembekal. 
+1 
+5 
+iii Huraikan 3: 
+(*mana-mana 2 daripada jawapan) 
+- Banyak jurang yang wujud antara 
+pelanggan dan pembekal. Menilai 
+perbezaan ini merupakan satu kaedah 
+untuk merapatkan jurang. 
+- Semua perbezaan jurang adalah 
+berdasarkan perbezaan persepsi antara 
+ 
+ 
+2 
+ 
+ 
+ 
+2 
+ 
+===== PAGE 78 =====
+63 
+ 
+BIL JAWAPAN MARKAH MARKAH 
+PENUH 
+apa yang pembekal fikir telah disediakan 
+dengan apa yang pelanggan fahami dan 
+terima. 
+- Gunakan kaedah penilaian anda untuk 
+memaklumkan kepada pelanggan apa 
+yang anda fikir tentang keperluan 
+mereka.  Pastikan pelanggan maklumkan 
+secara   khusus   tentang   kehendak 
+mereka. 
+- Perbezaan tanggapan merupakan jurang 
+yang perlu diharapkan. 
+ 
+ 
+ 
+2 
+ 
+ 
+ 
+ 
+2 
+iv Langkah 4: 
+Menilai tahap kepuasan  pelanggan 
+terhadap sesuatu perkhidmatan. 
+1 
+5 
+iv Huraian 1: 
+Menjalankan kaji s elidik ( survey) bentuk  
+soalan, skala dan komen  untuk tujuan 
+penambahbaikan perkhidmatan. 
+ 
+Huraian 2: 
+Peningkatan dapat dilihat apabila penyedia 
+perkhidmatan memperbaiki kualiti dan 
+perkhidmatan pelanggan. 
+ 
+2 
+ 
+ 
+ 
+ 
+2 
+ 
+Kiraan Markah: 1 jawapan x 1 markah = 1 Markah 
+Jawapan: 1 huraian X 2 markah = 2 Markah 
+Keseluruhan: (1 jawapan x 1 markah) + (1 huraian x 2 markah)  
+= 20 Markah 
+Rajah 11(ii): Contoh Skema Jawapan Soalan Esei 
+ 
+5.6.8. Format Soalan Penilaian Prestasi dan Skema Pemarkahan 
+Format y ang dig unakan untuk pembang unan soalan penilaian 
+prestasi adalah seperti yang dinyatakan dalam Rajah 12 manakala 
+skema pemarkahan pre stasi adalah sepert i yang dinyatakan dalam 
+Rajah 13. 
+ 
+ 
+===== PAGE 79 =====
+64 
+ 
+FORMAT SOALAN PENILAIAN PRESTASI 
+ 
+NAMA : PEMBANGUN      KOD CU :  
+ 
+A. TEMPOH  : 3 JAM 
+ 
+B. KETERAMPILAN  : SERVIS SISTEM BREK RODA BELAKANG 
+ 
+C. TUGASAN 
+ 
+ 
+ 
+D. SENARAI BAHAN 
+BIL BAHAN UKURAN 
+KUANTITI 
+(Bahan : Pelatih) 
+1.    
+ 
+E. PERALATAN/KELENGKAPAN 
+BIL PERALATAN/KELENGKAPAN UKURAN 
+KUANTITI 
+(Peralatan : Pelatih) 
+1.    
+ 
+F. KRITERIA PENILAIAN 
+Prestasi anda akan dinilai berasaskan kriteria berikut: 
+1. Perkara Kritikal: 
+2. Proses Kerja 
+3. Hasil Kerja 
+4. Sikap/Keselamatan dan Alam Sekitar 
+ 
+PERINGATAN: 
+Sekiranya didapati perkara kritikal ini tidak dilaksanakan maka calon dianggap tidak terampil 
+bagi keseluruhan penilaian. 
+Jenis 
+Soalan 
+Keterampilan No. Work Activities (WA) Tempoh 
+Prestasi 
+Fakta/ Teori/ Prosedur/ 
+Sikap/ Keselamatan 
+WA 1, 2, 5 3 Jam 
+===== PAGE 80 =====
+65 
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan Aras Kesukaran Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+Rajah 12 : Contoh format Soalan Penilaian Prestasi Akhir 
+ 
+ 
+CONTOH FORMAT SKEMA PEMARKAHAN PENILAIAN PRESTASI (SLaPB & SLDN) 
+ 
+SKEMA PEMARKAHAN PENILAIAN AKHIR PRESTASI 
+ 
+NAMA PELATIH/PERANTIS: NO K/P: 
+MASA MULA: MASA TAMAT:  TARIKH: 
+         Pengiraan Pemarkahan: 
+ 
+ 
+ 
+BHGN KRITERIA PENILAIAN MARKAH 
+1. 
+Perkara kritikal (50%) 
+Tandakan (/) pada ruangan 
+Terima atau Tidak Terima bagi 
+perkara kritikal berikut: 
+Terima  Tidak Terima 
+1.1    
+1.2    
+1.3    
+(*Kriteria kritikal: Markah 50 diberi sekiranya semua perkara kritikal di atas diterima dan markah 0 sekiranya 
+terdapat 1 atau lebih perkara kritikal tidak diterima) 
+Markah Diperoleh (%) 50 
+2. 
+Proses kerja (30%) % Pemberat * Markah  
+2.1  
+i.  3 
+%  
+ii. . 2 
+iii.  1 
+iv.  0 
+2.2  
+i. . 3 
+%  ii.  2 
+iii.  1 
+Markah Diperoleh 
+   Markah Penuh 
+X  % Pemberat * % Pemberat akan ditentukan  
+oleh pakar yang membangunkan 
+soalan 
+ 
+Markah Penuh 
+===== PAGE 81 =====
+66 
+ 
+iv. . 0 
+Jumlah markah diperoleh  
+3. 
+Hasil kerja (15%) 
+3.1 . 
+i.  3 
+%  
+ii.  2 
+iii.  1 
+iv.  0 
+3.2  
+i.  3 
+%  
+ii.  2 
+iii.  1 
+iv.  0 
+Jumlah markah diperoleh  
+4. 
+Sikap/keselamatan/alam sekitar (5%) 
+4.1  
+i.  3 
+%  
+ii.  2 
+iii.  1 
+iv.  0 
+Jumlah markah diperoleh  
+JUMLAH MARKAH KESELURUHAN 
+(Bahagian 1 + Bahagian 2 + Bahagian 3 + Bahagian 4)  
+ 
+ 
+Keputusan: Terampil/ Belum Terampil* 
+(*Potong yang mana tidak berkenaan) 
+ 
+NAMA PEGAWAI PENGESAH LUARAN  
+TANDATANGAN PEGAWAI PENGESAH 
+LUARAN  
+TARIKH  
+ULASAN 
+(jika ada)  
+ 
+Rajah 13: Contoh Skema Pemarkahan Penilaian Prestasi SLaPB & SLDN 
+ 
+===== PAGE 82 =====
+67 
+ 
+CONTOH FORMAT SKEMA PEMARKAHAN PENILAIAN PRESTASI (PPT) 
+ 
+SKEMA PEMARKAHAN PENILAIAN PRESTASI AKHIR 
+ 
+SKALA PEMARKAHAN 
+0 = Tidak Dilakukan/Salah 1 = Tidak Memuaskan 2 = Memuaskan 3 = Sangat Memuaskan 
+Pengiraan Pemarkahan: 
+ 
+ 
+ 
+BHGN KRITERIA PENILAIAN MARKAH 
+1. 
+Perkara kritikal (Wajib Lulus) 
+Tandakan (/) pada ruangan 
+Terima atau Tidak Terima bagi 
+perkara kritikal berikut: 
+Terima  Tidak Terima 
+1.1    
+1.2    
+1.3    
+1.4    
+1.5    
+BHGN KRITERIA PENILAIAN MARKAH 
+2. 
+Proses kerja (60%) % Pemberat * Markah  
+2.1  
+i.  3 
+%  
+ii. . 2 
+iii.  1 
+iv.  0 
+2.2  
+i. . 3 
+%  
+ii.  2 
+iii.  1 
+iv. . 0 
+Jumlah markah diperoleh  
+3. 
+Hasil kerja (10%) 
+3.1 . 
+i.  3 
+%  
+ii.  2 
+iii.  1 
+iv.  0 
+3.2  
+i.  3 
+%  
+ii.  2 
+iii.  1 
+iv.  0 
+Jumlah markah diperoleh  
+Markah Diperoleh 
+   Markah Penuh 
+X   % Pemberat * % Pemberat akan ditentukan  
+oleh pakar yang membangunkan 
+soalan 
+ 
+Markah Penuh 
+===== PAGE 83 =====
+68 
+ 
+4. 
+Sikap/keselamatan/alam sekitar (10%) 
+4.1  
+i.  3 
+%  
+ii.  2 
+iii.  1 
+iv.  0 
+Jumlah markah diperoleh  
+5 
+(Diisi 
+oleh 
+PPL 
+PPT) 
+SESI SOAL JAWAB (20%) 10 Soalan disediakan oleh penilai  
+Soalan 1  
+Soalan 2  
+Soalan 3  
+Jumlah Markah Diberi (x)  
+Jumlah Markah Diberi (y)  
+ Jumlah Markah Bahagian 5 = (x+y x 20%  
+JUMLAH MARKAH KESELURUHAN (100%) 
+(Bahagian 2 + Bahagian 3 + Bahagian 4 + Bahagian 5)  
+ 
+ 
+Keputusan: Terampil/ Belum Terampil* 
+(*Potong yang mana tidak berkenaan) 
+ 
+TANDATANGAN PPL, PPT  KEPUTUSAN PENILAIAN 
+NAMA PPL, PPT  TERAMPIL  
+TARIKH  BELUM 
+TERAMPIL 
+ 
+ULASAN 
+(jika ada)  
+SILA TANDAKAN (/) PADA 
+RUANGAN YANG 
+DISEDIAKAN 
+ 
+Rajah 14: Format Skema Pemarkahan Penilaian Prestasi PPT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 84 =====
+69 
+ 
+5.6.9. Tatacara Pembangunan Soalan Penilaian Prestasi. 
+a. Lengkapkan maklumat soalan seperti yang dinyatakan dalam 
+Rajah 15. 
+ 
+NAMA : (i)             KOD CU : (ii) 
+ 
+ 
+ 
+ 
+ 
+Rajah 15: Format Maklumat Soalan Penilaian Prestasi 
+ 
+i. Tulis nama pembangun 
+ii. Tulis kod CU 
+iii. Tulis Jenis Soalan (Prestasi)  
+iv. Tulis Keterampilan (Fakta/ Teori/ Prosedur/ Sikap/ 
+Keselamatan dan Alam Sekitar). 
+v. Tulis No. WA: dan 
+vi. Tulis Tempoh. 
+ 
+b. SLaPB dan SLDN – sekurang-kurangnya 50% gabungan WA 
+dalam CU yang sama  dan hendaklah lengkap b agi suatu 
+proses kerja untuk m enghasilkan produk, perkhidmatan, 
+keputusan atau proses kerja. 
+ 
+c. PPT – gabungan beberapa CU daripada NOSS yan g sama  
+(sekurang-kurangnya merangkumi 50% daripada keseluruh an 
+CU bagi suatu program bertauliah). 
+ 
+d. Micro Credential terdiri daripada - 
+i. Penilaian kredit (MC -CU) hendaklah terdiri dari pada 
+sekurang-kurangnya 50% g abungan WA dalam CU yang 
+sama; 
+Jenis 
+Soalan 
+Keterampilan 
+No. Work 
+Activities (WA) 
+Tempoh 
+Prestasi (iii) 
+Fakta/Teori/Prosedur/ 
+Sikap/Keselamatan (iv) 
+(v) Jam (vi) 
+===== PAGE 85 =====
+70 
+ 
+ii. Penilaian bukan kredit (MC-WA) hendaklah terdiri daripada 
+gabungan beberapa WA yang bersesuaian; atau 
+iii. 1 WA (sekiranya ditauliahkan 1 WA sahaja). 
+ 
+5.6.10. Ketetapan dan Komponen Soalan Penilaian Prestasi 
+Soalan penilaian prestasi yang dibangunkan hendaklah mematuhi 
+komponen soalan dan ketetapan yang berikut: 
+ 
+a. TEMPOH ialah merujuk kepada tempoh penil aian di  mana 
+pelatih, perantis atau calon dikehendaki melaksanakan tugasan 
+yang diarahkan. Tempoh penilaian hendaklah: 
+i. dua (2) hingga l apan (8) jam  untuk pe nilaian pre stasi 
+SLaPB dan S LDN, manakala untuk penilaian prestasi PPT 
+minimum dua (2)  jam bergantun g kepada  tugasan yang 
+dilaksanakan. Tempoh pe nilaian diten tukan oleh 
+pembangun soalan berdasarkan kepada: 
+• penilaian pakar; 
+• pra-uji; dan 
+• amalan industri. 
+ii. Penetapan tempoh penilaian prestasi menggunakan nisbah 
+1:2 ( pakar:pelatih/perantis) bagi SLaPB dan SLDN . 
+Pembangun soalan hendaklah membuat pra-uji soalan bagi 
+menentukan tempoh masa penila ian prest asi.  Sekiranya 
+pakar mengambil  masa 2 jam untuk menyeles aikan 
+tugasan, maka temp oh penilaian p restasi bagi pelatih, 
+perantis atau calon hendaklah ditetapkan selama 4 jam. 
+iii. Manakala p enetapan t empoh penilaian prestasi PPT 
+menggunakan nisbah 1:1 (pakar:calon). 
+iv. Jumlah masa hendaklah diny atakan secara spe sifik dan 
+bukan dalam bentuk julat masa seperti berikut: 
+• masa spesi fik: 3 ja m 30 minit ( penentuan masa yang 
+betul) 
+• julat masa: 3 hingga 4 jam (penentuan masa yang salah) 
+ 
+===== PAGE 86 =====
+71 
+ 
+b. KETERAMPILAN ialah perkara yang dikenal pasti untuk dinilai 
+berdasarkan CU dan hendaklah lengkap bagi suatu proses 
+kerja untuk menghasilkan produk, perkhidmatan, keputusan 
+atau proses kerja. Keterampilan adalah ta juk yang dinyatakan 
+dalam bentuk y ang me menuhi tiga (3) perkara utama; kata 
+kerja, objek dan qualifer untuk menilai kemahiran yang dikenal 
+pasti.  
+ 
+Contoh Keterampilan:  
+i. Kemas bilik tetamu; 
+ii. Jahit sehelai seluar panjang. 
+iii. Buat choux paste dan krim pastri; 
+iv. Servis sistem brek roda belakang; 
+v. Sediakan laporan pengeluaran harian; atau 
+vi. Laksanakan aktiviti rutin harian kanak-kanak 
+ 
+c. TUGASAN adalah peny ataan yang lengkap, jelas dan mudah  
+difahami supaya pelatih, perantis atau calon mengetahui kerja 
+yang p erlu dilaksanakan  sama a da menghasil kan p roduk, 
+perkhidmatan, keputusan atau proses ke rja.  Penyataan 
+hendaklah: 
+i. mengandungi stimulus jika perlu.  
+ii. menggunakan kata kerja (arahan).  
+iii. merujuk related skills  dan assessment criteria 
+(psychomotor) mengikut tahap  keterampilan yan g dinilai 
+seperti mana yang dinyatakan dalam CoCU bagi CU yang 
+dipilih. 
+iv. merujuk kepada CU dan WA yang berkaitan bagi penilaian 
+SLaPB, SLDN dan PPT bagi melengkapkan tugasan yan g 
+telah ditetapkan. 
+v. tugasan hendaklah disesuaikan dengan tempoh  penilaian 
+yang telah ditetapkan. 
+ 
+===== PAGE 87 =====
+72 
+ 
+d. SENARAI BAHAN – senarai bahan ad alah bahan guna hab is 
+yang digunakan untuk  melaksanakan tugasan dalam 
+menghasilkan p roduk, perkhid matan, keputusan atau proses 
+kerja. Nisbah bahan dengan pelatih, perantis atau calon  yang 
+digunakan hendak lah d isenaraikan merujuk ke pada format 
+contoh yang terdapat dalam Jadual 16 di bawah. 
+ 
+Jadual 16: Contoh Format Jadual Senarai Bahan 
+Bil Bahan Ukuran 
+Kuantiti : (Bahan 
+Calon / Pelatih / 
+Perantis) 
+1 Minyak pelincir 1 Liter 1:1 
+2 Kertas A4 warna putih 
+(keping) - 2:1 
+3 Paip C/S 10 inch sch 80  100 mm 5:1 
+4 Wire 0.5 mm blue 2 m 2:1 
+ 
+Senarai bahan hendaklah dinyatakan seperti berikut: 
+i. nama baha n yang perlu digunak an bagi melaksanakan 
+tugasan perlu dilengkapkan dalam lajur bahan. Spesifikasi 
+khas untuk s esuatu bahan hendaklah dinyatakan da lam 
+ruangan bahan. Contoh: ke rtas A4 wa rna putih d an paip 
+C/S 10-inch sch 80. 
+ii. ukuran bahan yang perlu digunakan bagi melaksanakan 
+tugasan perlu dilengkapkan dalam laju r ukuran. Ukuran 
+dinyatakan dalam unit SI seperti meter, gram, liter dan lain-
+lain; dan 
+iii. nisbah keperluan bahan kepada bilangan pelatih, perantis 
+atau calon  hendaklah dilengkapkan dalam la jur kuantiti 
+(bahan: calon/pelatih/ perantis). 
+ 
+e. PERALATAN/KELENGKAPAN – senarai peralatan, 
+kelengkapan atau mesin yang  diperlukan untuk melakukan 
+tugasan yang  diberikan dalam menghasilkan  produk, 
+perkhidmatan, keputusan atau proses kerja .  Nisbah 
+Peralatan/Kelengkapan dengan pelatih, pe rantis atau calon  
+===== PAGE 88 =====
+73 
+ 
+yang digun akan hendak lah disenaraikan merujuk ke pada 
+format contoh yang terdapat dalam Jadual 17 di bawah. 
+ 
+Jadual 17: Contoh Format Jadual Peralatan/Kelengkapan 
+Bil Peralatan / 
+Kelengkapan Ukuran 
+Kuantiti : 
+(Peralatan / 
+Kelengkapan : 
+Calon / Pelatih / 
+Perantis) 
+1 Touque wrench (150-300 
+Nm) - 1:1 
+2 Multimeter - 1:1 
+3 Pemotong sisi (Side 
+cutter) - 1:1 
+ 
+Senarai Peralatan/Kelengkapan hendaklah dinyatakan seperti 
+berikut: 
+i. nama p eralatan/kelengkapan yang perlu di gunakan dalam 
+melaksanakan tugasan perlu dilengkapkan dal am laj ur 
+Peralatan/Kelengkapan. Spesifikasi k has un tuk sesuatu  
+peralatan/kelengkapan hendaklah din yatakan dalam 
+ruangan Peralatan/Kelengkapan. Contoh: tangga 6 steps , 
+alat uji pe nebatan (Insulation t ester) 500V  dan 12-ton 
+Hydraulic Press Machine.  
+ii. Ukuran peralatan/kelengkapan yang perlu digunakan dalam 
+melaksanakan tugasan perlu dilengkapk an dalam laju r 
+ukuran. Ukuran merujuk kepada m eter, gram, lite r, saat, 
+ampere, oC bagi sebarang bahan yang menggun akan unit 
+SI; dan 
+iii. Nisbah keperluan peral atan/kelengkapan kepada bilangan 
+pelatih, perantis atau calon  hendaklah dilengkapkan dalam 
+lajur kuantiti (Peralatan / Kelengkapan: Calon / pelatih / 
+perantis). 
+ 
+f. KRITERIA PENILAIAN adalah pe rkara yang dinilai semasa 
+pelatih, perantis atau calon  melakukan tugasan yang diber i. 
+Kriteria penilaian hendaklah terdiri dari pada komponen perkara 
+===== PAGE 89 =====
+74 
+ 
+kritikal, proses kerja, hasil kerja dan sikap/keselamatan dan 
+alam sekitar. Ketetapan bagi setiap komponen krite ria penilaian 
+adalah seperti di bawah: 
+ 
+i. Perkara Kritikal 
+• Merupakan matlamat uta ma tugasan dan hendaklah 
+dinyatakan dengan jelas, mudah difahami, boleh diukur 
+dan ditentukan dengan sahih; 
+• Merupakan kriteria utama yan g dinilai semasa pelatih, 
+perantis atau calon  melaksanakan arahan ba gi 
+mencapai tugasan y ang d iberi dan ak an menentukan 
+sama ada pelatih, perantis a tau calon  terampil ata u 
+belum terampil; 
+• Bilangan kri teria bagi  perkara kritikal boleh terdiri 
+daripada satu (1) atau lebih berdasarkan kepada  
+tugasan dengan merujuk kepada  proses atau h asil 
+kerja un tuk menghasilkan produk, perkh idmatan, 
+keputusan atau proses kerja bagi sesuatu tugasan; 
+• Perkara kritikal adalah bergantun g kep ada jenis 
+kerja/tugasan yang diberikan iaitu 
+ 
+Produk kefungsian, meng ikut ukuran, bentuk, 
+dan sebagainya 
+Perkhidmatan kefungsian, kepu asan pe langgan, 
+prestasi, pe nyelesaian masalah, 
+keputusan dan sebagainya. 
+Keputusan kefungsian, kandungan laporan dan 
+mengikut ukuran. 
+Proses kerja bagi bidang yang menjadikan prosedur 
+sebagai perkara yang menentukan 
+kritikal k eterampilan pelatih, perantis 
+atau calon.  
+ 
+===== PAGE 90 =====
+75 
+ 
+• Kegagalan calon m ematuhi SOP sehingga 
+menyebabkan kerosakan teruk kepada mesin dan 
+peralatan atau kecederaan terhadap diri atau orang lain 
+boleh mengakibatkan pelatih, perantis atau calon  gagal 
+dalam keseluruhan penilaian; 
+• Perkara yang dinilai  pada P erkara Kritikal tidak boleh 
+diulang pada Proses Kerja, Hasil Kerja dan Sikap, 
+Keselamatan atau Alam Sekitar; dan 
+• Kriteria kategori ini hendaklah dinyatakan dalam bentuk 
+ayat yang lengkap dan boleh diukur. 
+ 
+ii. Proses Kerja; 
+• Proses kerja hendaklah ditulis secara um um 
+merangkumi langkah kerja uta ma bermula dari  
+persediaaan dan pelaksanaan sehingga menghasilkan 
+produk, perkhidmatan, keputusan atau proses k erja 
+mengikut prosedur yang ditetapkan. 
+• Kriteria kategori ini hendaklah dinyatakan dalam bentuk 
+ayat pasif yang lengkap dan boleh diukur. 
+ 
+iii. Hasil Kerja;  
+• Hasil k erja boleh d alam bentuk  produk, perkhidmatan , 
+keputusan atau proses kerja; 
+• Hasil kerja h endaklah d inyatakan d engan ringkas  dan 
+padat (dalam bentuk point form); dan 
+• Kriteria kategori ini hendaklah dinyatakan dalam bentuk 
+ayat yang lengkap dan boleh diukur. 
+ 
+iv. Sikap, Keselamatan atau Alam Sekitar. 
+• Sikap, keselamatan atau alam sekitar adalah a ktiviti 
+pematuhan te rhadap Standard Opera ting Procedure  
+(SOP) bagi memastikan  keselamatan diri, bahan, 
+===== PAGE 91 =====
+76 
+ 
+mesin, peralatan atau kelengkapan dan kesan terhadap 
+alam sekitar;  
+• Sikap, keselamatan atau alam s ekitar hendaklah 
+dinyatakan de ngan ringkas dan padat ( dalam b entuk 
+point form); dan 
+• Kriteria kategori ini hendaklah dinyatakan dalam bentuk 
+ayat yang lengkap dan boleh diukur. 
+ 
+5.6.11. Skema Pemarkahan 
+Skema Pemarkahan disediakan bagi memberi pand uan kepada 
+penilai untuk memberi markah kepada pelatih, perantis atau calon  
+mengikut kriteria yang telah ditetapkan. 
+ 
+Kriteria penilaian yang dinilai adalah berdasarkan kepada empat (4) 
+komponen seperti berikut: 
+a. Perkara Kritikal  
+i. Penilaian perkara kritikal bagi SLaPB dan S LDN membawa 
+kepada pemarkahan 50% daripada keseluruhan penilaian. 
+ii. Pelatih atau perantis layak mem perolehi 50% se kiranya 
+kesemua p erkara kritikal yang ditetapk an diterima dan 
+markah 0% sekiranya terdapat satu (1) atau lebih perkara 
+kritikal tidak diterima. 
+iii. Calon hendaklah lulus perkara kritikal bagi penilaian 
+prestasi PPT. 
+ 
+b. Proses Kerja  
+i. Perkara yang dinilai adalah langkah kerja utama dari mula 
+hingga tugasan selesai dilaksanakan. 
+ii. Langkah kerja disusun mengikut aturan kerja. 
+iii. Kesemua langk ah kerja he ndaklah d inyatakan dalam 
+bentuk ayat pasif yang lengkap dan boleh dinilai. 
+===== PAGE 92 =====
+77 
+ 
+iv. Penilaian proses kerja yang melibatkan penyediaan bahan 
+dan perala tan boleh dilaksanakan tertakluk kepada 
+keperluan tugasan.  
+v. Penetapan peratus (%) pemberat bagi setiap proses kerja 
+hendaklah bersesuaian dengan kepentingan langkah kerja.  
+vi. Penetapan peratus pr oses kerja ba gi SLaPB dan SLDN 
+membawa kepada pemarkahan 30 %, manakala PPT 
+membawa kepada pemarkahan 60%. 
+ 
+c. Hasil Kerja  
+i. Hasil kerja samada ada produk, perkhidmatan, keputusan 
+atau proses kerja yang dihasilkan  dinilai berdasarkan 
+tugasan seperti kekemasan, ukuran, kepuasan  pelanggan 
+atau persembahan merujuk kepada keterampilan CU yang 
+berkenaan; 
+ii. Hasil kerja hen daklah dinyata kan dalam b entuk a yat pasif 
+yang lengkap dan boleh diukur; 
+iii. Penetapan peratus (%) pemberat pada hasil kerja 
+hendaklah b ersesuaian mengikut kepentingan 
+kesempurnaan hasil kerja; dan 
+iv. Penetapan peratus hasil kerja bagi SLaPB  dan S LDN 
+membawa k epada pemarkahan 15%, manakala PPT 
+membawa kepada pemarkahan 10% daripada keseluruhan 
+penilaian 
+ 
+d. Sikap, Keselamatan dan Alam Sekitar  
+i. Sikap, Keselamatan dan Alam Sekitar melibatkan penilaian 
+terhadap sikap , pematuhan keselamatan dan ke bersihan 
+sebelum, semasa dan selepas menjalankan tugasan; 
+ii. Sikap, keselamatan dan alam sekitar hendaklah dinyatakan 
+dalam bentuk ayat pasif yang lengkap dan boleh diukur; 
+iii. Penilaian bagi sikap, keselamatan dan alam sekitar 
+hendaklah diolah mengikut keperluan tugasan; 
+===== PAGE 93 =====
+78 
+ 
+iv. Penetapan peratus (%) pember at bagi sikap, keselamatan 
+dan alam sekitar hendaklah bersesuaian; dan 
+v. Penetapan peratus hasil ke rja bagi SLaPB da n SLDN 
+membawa kepada pemarkahan 5%, manakala PPT 
+membawa kepada pemarkahan 10% daripada keseluruhan 
+penilaian. 
+ 
+e. Soalan Lisan PPT (20%) 
+i. Bilangan soalan l isan bagi Pe nilaian Prestasi  PPT 
+hendaklah dibangunkan sebanyak 10 soalan; dan 
+ii. Soalan lisan yan g dibangunk an hendaklah merang kumi 
+CU/WA yang tidak dinilai dalam penilaian prestasi serta 
+perlu mengambil kira keterampilan fakta/teori, pros edur, 
+sikap, keselamatan dan alam sekitar. 
+ 
+f. Komponen penil aian yang dinilai  hendaklah dinilai hanya 
+sekali sama ada dalam aspek perkara kritikal, proses kerja, 
+hasil kerja atau sikap, keselamatan atau alam sekitar. 
+ 
+5.6.12. Peraturan pemarkahan 
+a. Penentuan pemarkahan prestasi terhadap komponen yang 
+dinilai ad alah merujuk k epada skema pemar kahan yang 
+disediakan.  Nilai markah yang ditetapkan adalah berdasarkan 
+pertimbangan berikut: 
+0 : Pelatih, perantis atau cal on tidak mencapai 
+pengetahuan dan k emahiran minimum dalam  
+melaksanakan perkara yang dinilai. 
+1 : Pelatih, perantis  atau calon  mencapai pengetahuan 
+dan kemahiran  minimum d alam melaksanakan  
+perkara yang dinilai. 
+2 : Pelatih, perantis atau calon  mencapai pengetahuan 
+dan kemahiran dalam melak sanakan perkara yang 
+dinilai melepasi pengetahua n dan  kemahiran 
+===== PAGE 94 =====
+79 
+ 
+minimum tetapi tidak mencapai pen getahuan d an 
+kemahiran maksimum. 
+3 : Pelatih, perantis atau calon  mencapai pengetahuan 
+dan kemahiran yang maksimum dalam melaksanakan 
+perkara yang dinilai. 
+ 
+b. Format penulisan soalan penilaian prestasi. 
+Perkara Format 
+Soalan - Font (Arial, Saiz 11, Spacing 1.5). 
+- Tanda soal ( ?) di h ujung soalan 
+dirapatkan dengan perkataan terakhir.  
+- Tanda noktah (.) d i hujung soalan  yang 
+merupakan penyataa n, arahan atau 
+tugasan. 
+- Soalan yang menggunakan stimulus 
+bergambar: 
+• Semua stimul us berga mbar mesti 
+dilabel dengan perkataan Rajah. 
+• Rajah hen daklah dinamakan. Format 
+nama raj ah he ndaklah mengg unakan 
+huruf besar pada setiap permulaan 
+perkataan (Capitalize each word). 
+• Rajah hendaklah diletakkan pada 
+bahagian atas dan tengah tugasan. 
+• Rajah hendaklah hitam putih.   
+Sekiranya soalan y ang diba ngunkan 
+menggunakan modul TVET 
+Integrated Assessment (TIA), rajah 
+hendaklah disediakan dalam paparan 
+berwarna 
+Skema 
+pemarkahan 
+- Hendaklah men ggunakan template 
+format pemarkahan yang ditetapkan. 
+- Hendaklah ditulis menggunakan font 
+berwarna hitam. 
+===== PAGE 95 =====
+80 
+ 
+Perkara Format 
+- Senarai sub-proses/hasil kerja 
+menggunakan huruf kecil. 
+- Markah keseluruhan dinyatakan 
+mengikut format. 
+ 
+5.6.13. Contoh Soalan Penilaian Prestasi dan Skema Pemarkahan. 
+Contoh soalan penilaian prestasi dan skema pemarkahan adalah 
+seperti Rajah 16(i) - (iv) di bawah. 
+ 
+CONTOH 1 – SOALAN PENILAIAN PRESTASI AKHIR 
+ 
+NAMA : (Nama Pembangun)                           KOD CU : (Kod Standard/NOSS & CU) 
+ 
+A.  TEMPOH  : 3 JAM 
+ 
+B. KETERAMPILAN  : SERVIS SISTEM BREK RODA BELAKANG 
+ 
+C. TUGASAN 
+ 
+1. Anda dik ehendaki me rombak rawa t sistem brek  roda belakang pada kender aan dan 
+memastikan berfungsi mengikut spesifikasi pengeluar dengan mematuhi kriteria berikut: 
+ 
+i. Pepasangan brek belakang pada satu bahagian roda sahaja; dan 
+ii. Pelarasan brek tangan (parking brake). 
+ 
+2. Buat pemeriksaan visual dan pengukuran pada komponen sistem brek. Catatkan segala 
+maklumat pada borang laporan di Lampiran 1. 
+ 
+3. Buat pengujian pada sistem brek tersebut. 
+ 
+Jenis 
+Soalan 
+Keterampilan No. Work Activities (WA) Tempoh 
+Prestasi 
+Fakta/ Teori/ Prosedur/ Sikap/ 
+Keselamatan 
+WA 1, 2, 5 3 Jam 
+===== PAGE 96 =====
+81 
+ 
+D. SENARAI BAHAN 
+ 
+BIL BAHAN UKURAN 
+KUANTITI 
+(Bahan : Pelatih) 
+1. Brake fluid (Dot 4) 1 Litre 1 : 1 
+2. Rubber grease  200 gram 1 : 1 
+3. Rear brake system repair kit  
+(Refer vehicle model) 
+- 1 : 1 
+4. Sand paper P800 (keping) - 1 : 1 
+5. Dust mask (keping) - 1 : 1 
+6. Cotton waste (helai) - 1 : 1 
+ 
+E. PERALATAN/KELENGKAPAN 
+ 
+BIL PERALATAN/KELENGKAPAN UKURAN 
+KUANTITI 
+(Peralatan : Pelatih) 
+1. Lorry (3 Ton) - 1 : 1 
+2. Hand tools - 1 : 1 
+3. Service manual (Refer vehicle model) - 1 : 1 
+4. Service special tools - 1 : 1 
+5. Brake bleeder hose and bottle - 1 : 1 
+6. Flare nut wrench set - 1 : 1 
+7. Oil can - 1 : 1 
+8. Torque wrench (150-300 Nm) - 1 : 1 
+9. Safety google - 1 : 1 
+10. Tray - 1 : 1 
+11. Safety stand - 2 :1 
+12. 10 ton hydraulic floor jack - 1 : 1 
+13. Tyre choke - 2 :1 
+14. Seat and steering cover  - 1 : 1 
+16. Floor mat - 1 : 1 
+17. Vernier caliper  0 - 100cm 1 : 1 
+ 
+F. KRITERIA PENILAIAN 
+ 
+Prestasi anda akan dinilai berasaskan kriteria berikut: 
+===== PAGE 97 =====
+82 
+ 
+1. Perkara Kritikal:  
+a. Sistem brek berfungsi mengikut spesifikasi yang ditetapkan. 
+• Roda terkunci dengan menekan pedal brek sekali sahaja. 
+• Kedudukan pedal brek kekal apabila roda terkunci. 
+• Roda boleh dipusing setelah pedal brek dilepaskan. 
+• Tiada kebocoran bendalir brek. 
+ 
+2. Proses Kerja 
+Proses kerja be rmula da ri pemeriksaan , penggunaan bahan dan peralatan 
+sehingga operasi  sistem brek diuji dengan mengikut car a kerja  dan hendaklah 
+mematuhi aspek-aspek keselamatan. 
+ 
+3. Hasil Kerja 
+a. Kuantiti bendalir brek di dalam takungan;  
+b. Maklumat pada Borang Laporan Pemeriksaan Visual; dan 
+c. Maklumat pada Borang Laporan Pengukuran Komponen. 
+ 
+4. Sikap, Keselamatan atau Alam Sekitar 
+a. Mesin/Peralatan; dan 
+b. Diri sendiri dan persekitaran. 
+ 
+PERINGATAN: 
+Sekiranya didapati perkara kritikal ini tidak dilaksanakan maka calon dianggap tidak terampil 
+bagi keseluruhan penilaian. 
+ 
+RUMUSAN (Tandakan ( / ) pada ruangan yang berkenaan): 
+SOALAN DITERIMA  
+SOALAN DITERIMA 
+DENGAN PINDAAN 
+ SOALAN DITOLAK  
+ 
+Keakuran Ketepatan dan Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan Kandungan Kejelasan Tempoh Penting Keadilan 
+         
+         
+===== PAGE 98 =====
+83 
+ 
+Lampiran 1 
+Name:_________________________________________ 
+IC no :_________________________________________ 
+ 
+Brake Component Measurement 
+No Inspection item Specification 
+Actual 
+Result 
+Justification 
+Serviceable Not Serviceable 
+1 Brake shoes thickness     
+2 Drum brake inner 
+diameter 
+    
+3 Drum brake run-out     
+4 Wheel bearing end     
+Brake Component Visual Inspection 
+No Inspection Item Comment 
+Justification 
+Serviceable Not Serviceable 
+1 Backing plate    
+2 Return spring    
+3 Brake shoes    
+4 Brake shoe adjuster    
+5 
+Wheel cylinder 
+housing 
+   
+6 
+Wheel cylinder 
+piston 
+   
+7 Brake drum    
+8 Parking brake lever    
+ 
+Rajah 16(i): Contoh Soalan Penilaian Prestasi – G452-001-2:2017 – C02 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 99 =====
+84 
+ 
+CONTOH 1 - SKEMA PEMARKAHAN PENILAIAN PRESTASI AKHIR 
+ 
+NAMA PELATIH/PERANTIS: NO K/P: 
+MASA MULA: MASA TAMAT:  TARIKH: 
+         Pengiraan Pemarkahan: 
+ 
+ 
+ 
+BHGN KRITERIA PENILAIAN MARKAH 
+1. 
+Perkara kritikal (50%) 
+Tandakan (/) pada ruangan 
+Terima atau Tidak Terima bagi 
+perkara kritikal berikut: 
+Terima  Tidak Terima 
+1.1 Sistem brek berfungsi mengikut spesifikasi yang ditetapkan. 
+ 
+a) Roda terkunci dengan menekan pedal brek sekali sahaja. 
+b) Kedudukan pedal brek kekal apabila roda terkunci. 
+c) Roda boleh dipusing setelah pedal brek dilepaskan. 
+d) Tiada kebocoran bendalir brek. 
+ 
+  
+(*Kriteria kritikal: Markah 50 diberi sekiranya semua perkara kritikal di atas diterima dan markah 0 sekiranya 
+terdapat 1 atau lebih perkara kritikal tidak diterima) 
+Markah Diperoleh (%) 50 
+2. 
+Proses kerja (30%) % Pemberat * Markah  
+2.1 Kenderaan disangga dengan mematuhi prosedur yang ditetapkan. 
+ 
+a. Kenderaan diangkat (lifted) menggunakan jack pada jack point yang ditetapkan. 
+b. Safety stand diletakkan di tempat yang betul. 
+c. Ketinggian kenderaan pada bahagian kiri dan kanan dipastikan seimbang. 
+ 
+i. Kenderaan disa ngga dengan mematuhi  semua prosedur yang 
+ditetapkan. 3 
+2%  
+ii. Kenderaan disangga dengan  mematuhi mana-mana dua (2) 
+prosedur sahaja. 2 
+iii. Kenderaan disangga d engan mematu hi mana-mana satu (1) 
+prosedur sahaja. 1 
+iv. Kenderaan disa ngga t anpa mematuhi semua pr osedur ya ng 
+ditetapkan atau kenderaan tidak disangga. 0 
+2.2 Komponen pada pepasangan brek ditanggalkan mengikut kaedah yang betul. 
+ 
+a) Rear wheel 
+b) Brake drum  
+c) Return spring  
+d) Lock pin  
+e) Hand brake cable  
+f) Brake shoes  
+g) Brake fluid pipe  
+h) Wheel cylinder  
+ 
+i. Semua komponen ditanggalkan mengikut kaedah yang betul. 3 
+5%  
+ii. Enam (6) atau tujuh (7) kompon en sahaja ditanggalkan mengikut 
+kaedah yang betul. 2 
+iii. Tiga (3) hingga lima (5) k omponen sahaja ditanggalkan mengikut 
+kaedah yang betul. 1 
+iv. Satu (1 ) atau du a (2) kom ponen sahaja ditangg alkan mengikut 
+kaedah yang betul atau komponen tidak ditanggalkan. 0 
+2.3 Wheel cylinder dirombak rawat dengan mematuhi kriteria yang ditetapkan. 
+ 
+a) Semua komponen ditanggalkan mengikut kaedah yang betul. 
+b) Semua komponen dicuci sehingga bersih. 
+c) Komponen wheel cylinder diperiksa secara visual. 
+d) Semua komponen dipasang mengikut kaedah yang betul. 
+ 
+Markah Diperoleh 
+   Markah Penuh 
+X  % Pemberat * % Pemberat akan ditentukan  
+oleh pakar yang membangunkan 
+soalan 
+ 
+Markah Penuh 
+===== PAGE 100 =====
+85 
+ 
+i. Wheel c ylinder dirombak rawat dengan mematuhi se mua kriteria 
+yang ditetapkan. 3 
+4%  
+ii. Wheel cylinder dirombak rawat dengan me matuhi kriteria (a), (c) 
+dan (d) sahaja. 2 
+iii. Wheel cylinder dirombak rawat dengan mematuhi kriteria (a), ( b) 
+dan (d) sahaja. 1 
+iv. Wheel cylinder dirombak rawat dengan mematuhi kriteria (a) dan 
+(d) sahaja atau tidak dirombak rawat. 0 
+2.4 Komponen brek diperiksa secara visual berpandukan borang laporan pemeriksaan di Lampiran 1 
+ 
+a)  Backing plate  
+b) Return spring  
+c) Brake shoes  
+d) Brake shoes adjuster 
+e) Brake drum  
+f) Parking brake lever 
+ 
+i. Semua komponen diperiksa secara visual. 3 
+3%  
+ii. Empat (4) atau lima (5) komponen sahaja diperiksa secara visual. 2 
+iii. Satu (1) hingga tiga (3) komponen sahaja diperiksa secara visual. 1 
+iv. Semua komponen tidak diperiksa. 0 
+2.5 Komponen brek diukur berpandukan borang laporan pemeriksaan di Lampiran 1. 
+ 
+a) Brake shoes thickness 
+b) Drum brake inner diameter 
+c) Drum brake run-out 
+d) Wheel bearing end play 
+ 
+i. Semua komp onen brek diukur berpandukan borang laporan 
+pemeriksaan. 3 
+5%  
+ii. Tiga (3)  komponen brek  diukur berpandukan borang lapor an 
+pemeriksaan. 2 
+iii. Satu (1) hingga dua (2) ko mponen brek  diukur berpandukan 
+borang laporan pemeriksaan. 1 
+iv. Semua komponen brek tida k diukur berpandukan borang laporan 
+pemeriksaan 0 
+2.6 Komponen brek dipasang mengikut kaedah yang betul. 
+ 
+a) Rear wheel 
+b) Brake drum 
+c) Return spring 
+d) Lock pin 
+e) Hand brake cable 
+f) Brake shoes  
+g) Brake fluid pipe 
+h) Wheel cylinder 
+ 
+i. Semua komponen dipasang mengikut kaedah yang betul. 3 
+6%  
+ii. Enam (6) atau tu juh ( 7) k omponen sahaja dipasa ng mengikut 
+kaedah yang betul. 2 
+iii. Tiga (3) hingga lima (5) komponen sahaja dipasang mengikut 
+kaedah yang betul. 1 
+iv. Satu (1) a tau dua ( 2) ko mponen sahaja d ipasang mengikut 
+kaedah yang betul atau komponen tidak dipasang. 0 
+2.7 Sistem brek dijujus (bleeding) dengan mematuhi langkah kerja yang ditetapkan. 
+ 
+a) Bendalir brek diisi ke dalam takungan secukupnya. 
+b) Enjin dihidupkan. 
+c) Pedal brek dipam beberapa kali. 
+d) Pedal brek ditahan.  
+e) Bleeding nipple dibuka untuk mengeluarkan gelembung udara. 
+f) Bleeding nipple diikat setelah gelembung udara dikeluarkan. 
+g) Semua roda dijujus mengikut aturan yang ditetapkan dalam manual servis. 
+ 
+i. Sistem br ek dijujus (bleeding) d engan mematuhi semua langkah 
+kerja yang ditetapkan. 3 
+3%  
+ii. Sistem brek dijujus (bleeding) dengan mematuhi langkah kerja (a), 
+(b), (c), (d), (e) dan (f) sahaja. 2 
+iii. Sistem brek dijujus (bleeding) dengan mematuhi langkah kerja (a), 
+(c), (d), (e), (f) dan (g) sahaja. 1 
+iv. Sistem brek tidak dijujus. 0 
+===== PAGE 101 =====
+86 
+ 
+2.8 Parking brake dilaras dengan mematuhi langkah kerja yang ditetapkan. 
+ 
+a) Brake drum dipastikan bebas berpusing. 
+b) Parking brake dilaras mengikut teknik yang betul. 
+c) Parking brake diaplikasikan dan brake drum dipastikan terkunci. 
+d) Parking brake dilepaskan dan brake drum dipastikan bebas berpusing. 
+ 
+i. Parking brake  dilaras dengan mematuhi semua  langkah kerja 
+yang ditetapkan. 3 
+2%  
+ii. Parking brake dilaras dengan mematuhi langkah kerja (b), (c) dan 
+(d) sahaja. 2 
+iii. Parking brake  dilaras dengan me matuhi langkah kerja (b) dan 
+mana-mana satu (1) langkah kerja yang lain. 1 
+iv. Parking brake tidak dilaras. 0 
+Jumlah markah diperoleh  
+3. 
+Hasil kerja (15%) 
+3.1 Kuantiti bendalir brek di dalam takungan mematuhi spesifikasi yang ditetapkan. 
+i. Kuantiti bendalir brek berada pada tahap maksimum. 3 
+3%  
+ii. Kuantiti bendalir brek berada di antara paras maksimum  dan 
+minimum  2 
+iii. Kuantiti bendalir brek kurang dari paras minimum. 1 
+iv. Kuantiti bendalir brek tidak isi. 0 
+3.2 Maklumat pada borang laporan pemeriksaan visual di Lampiran 1 betul dan lengkap merangkumi semua komponen 
+terlibat. 
+ 
+a) Backing plate  
+b) Return spring  
+c) Brake shoes  
+d) Brake shoes adjuster 
+e) Brake drum  
+f) Parking brake lever  
+ 
+i. Maklumat pada b orang laporan pemer iksaan vi sual betul dan 
+lengkap merangkumi semua komponen terlibat. 3 
+6%  
+ii. Maklumat pada bora ng lap oran pemeriksaan visual betul d an 
+lengkap merangkumi empat (4) atau lima (5) komponen sahaja. 2 
+iii. Maklumat pada borang lapor an pemeriks aan vi sual betul da n 
+lengkap merangkumi satu (1) hingga tiga (3) komponen sahaja 1 
+iv. Semua maklumat pada borang  laporan p emeriksaan visual ti dak 
+betul atau tidak lengkap. 0 
+3.3 Maklumat pada borang laporan pengukuran komponen di Lampiran 1 betul dan lengkap merangkumi semua kriteria 
+ditetapkan. 
+ 
+a) Brake shoes thickness 
+b) Drum brake inner diameter 
+c) Drum brake run-out 
+d) Wheel bearing end play 
+ 
+i. Maklumat pada borang laporan pengukuran komponen betul dan 
+lengkap merangkumi semua kriteria yang ditetapkan.  3 
+6%  
+ii. Maklumat pada borang laporan pengukuran komponen betul dan 
+lengkap merangkumi tiga (3) kriteria sahaja. 2 
+iii. Maklumat pada borang laporan pengu kuran k omponen betul dan 
+lengkap merangkumi satu (1) atau dua (2) kriteria sahaja 1 
+iv. Semua maklumat  pada boran g lapo ran pengukuran komponen 
+tidak betul atau tidak lengkap. 0 
+Jumlah markah diperoleh  
+4. 
+Sikap/keselamatan/alam sekitar (5%) 
+4.1 Hadir sesi penilaian tepat pada masa yang ditetapkan. 
+i. Hadir sesi penilaian tepat pada masa yang ditetapkan. 3 
+1%  
+ii. Hadir ses i pe nilaian lewat dala m lingkungan 10 mini t dar i masa 
+mula ujian. 2 
+iii. Hadir sesi penilaian lewat 15 minit selepas masa ujian berjalan. 1 
+iv. Hadir sesi penilaian lewat 16 minit dan ke atas selepas masa ujian 
+berjalan. 0 
+===== PAGE 102 =====
+87 
+ 
+4.2 Peralatan/mesin dikendalikan mengikut teknik yang betul dengan menitikberatkan aspek keselamatan 
+i. Peralatan/mesin dikendalikan mengik ut teknik yang betul dengan 
+menitikberatkan aspek keselamatan. 3 
+1%  
+ii. Peralatan/mesin dikendalikan mengi kut teknik ya ng betul tetapi 
+tidak menitikberatkan aspek keselamatan.  2 
+iii. Peralatan/mesin d ikendalikan tidak mengikut teknik yang betul 
+tetapi menitikberatkan aspek keselamatan 1 
+iv. Peralatan/mesin dikendalikan tidak mengikut teknik yang betul dan 
+tidak menitikberatkan aspek keselamatan 0 
+4.3 Memakai Peralatan Perlindungan Diri (PPE) yang mematuhi prosedur keselamatan yang ditetapkan semasa 
+melakukan kerja 
+ 
+a) Pemakaian Memakai topi. 
+b) Pemakaian kasut keselamatan. 
+c) Pemakaian baju kerja. 
+d) Pemakaian sarung tangan 
+ 
+i. Memakai Peralatan Perlindungan Diri (PPE) lengkap dan  kemas 
+mematuhi prosedur kesela matan yang ditetapkan semasa 
+melakukan kerja. 
+3 
+2%  
+ii. Memakai Peralatan Perlindungan Diri (P PE) le ngkap mematuhi 
+prosedur keselamatan tetapi cara pemakaian tidak kemas. 2 
+iii. Memakai Peralatan Perlindungan Diri (PPE) tidak kemas dan tidak 
+mematuhi prosedur keselamatan semasa melakukan kerja. 1 
+iv. Tidak memak ai Peralatan Perl indungan Diri  (PPE) semasa 
+melakukan kerja. 0 
+4.4 Persekitaran kerja dan peralatan diuruskan setelah kerja/tugasan dilaksanakan 
+ 
+a) Ruang kerja dibersihkan mematuhi aspek kebersihan dan kekemasan. 
+b) Kerja pembersihan peralatan mengikut kaedah yang betul  
+c) Susun dan simpan peralatan mengikut kaedah yang betul 
+ 
+i. Persekitaran kerja dan p eralatan diuruskan setelah kerja/tugasan 
+dilaksanakan. 3 
+1%  
+ii. Persekitaran kerja dan peralatan diuruskan setelah kerja/tugasan 
+ddilaksanakan mematuhi mana-mana dua (2) kriteria sahaja. 2 
+iii. Persekitaran ker ja da n peralatan diuru skan s etelah 
+kerja/tugasandilaksanakan mematuhi mana-mana satu (1) kriteria 
+sahaja. 
+1 
+iv. Persekitaran kerj a dan per alatan ti dak dibuat setelah 
+kerja/tugasan dilaksanakan.. 0 
+Jumlah markah diperoleh  
+JUMLAH MARKAH KESELURUHAN 
+(Bahagian 1 + Bahagian 2 + Bahagian 3 + Bahagian 4)  
+ 
+ 
+Keputusan: Terampil/ Belum Terampil* 
+(*Potong yang mana tidak berkenaan) 
+ 
+NAMA PEGAWAI PENGESAH LUARAN  
+TANDATANGAN PEGAWAI PENGESAH 
+LUARAN  
+TARIKH  
+ULASAN 
+(jika ada)  
+ 
+Rajah 16(ii) Contoh Skema Pemarkahan Penilaian Prestasi – G452-001-2:2017 – C02 
+ 
+===== PAGE 103 =====
+88 
+ 
+CONTOH 2 – SOALAN PENILAIAN PRESTASI AKHIR 
+ 
+Nama :  (Nama Pembangun)                                         KOD CU: T982-001-3:2017-C01 
+ 
+A. TEMPOH  : 3 JAM 
+ 
+B. KETERAMPILAN : LAKSANAKAN AKTIVITI RUTIN HARIAN KANAK-KANAK 
+ 
+C. TUGASAN :  
+ 
+1. Anda d ikehendaki laksanakan ak tiviti ruti n harian k anak-kanak di TASKA yang 
+merangkumi tugasan-tugasan berikut:  
+ 
+i. Menyambut kedatangan seorang kanak-kanak dalam kump ulan umur 2 – 3 
+tahun daripada ibu bapa mengikut Standard Operating Procedure (SOP) yang 
+ditetapkan; dan 
+ii. Pemeriksaan fizikal menyeluruh k e atas  kanak-kanak tersebut mengi kut 
+Standard Operating Procedure (SOP) yang ditetapkan; dan 
+iii. Lengkapkan Lampiran 1 dan Lampiran 2 yang telah disediakan. 
+ 
+2. Anda dikehendaki mengendalikan barangan peribadi kanak-kanak yang diterima dari ibu 
+bapa mengikut Standard Operating Procedure (SOP) yang ditetapkan dan lengkapkan 
+Lampiran 3. 
+ 
+3. Anda dikehendaki pilih salah satu aktiviti rutin kurikulum P ERMATA di ba wah dan 
+jalankan bersama kumpulan kanak-kanak berumur 2 hingga 3 tahun di TASKA (bilangan 
+kanak-kanak  3 orang) 
+a. Morning Circle 
+b. Nature walk 
+c. Main bebas 
+4. Anda d ikehendaki mengemaskini rekod dengan meng gunakan Lampiran 4, 5 dan 6 
+yang disediakan. 
+Jenis 
+Soalan 
+Keterampilan No. Work Activities (WA) Tempoh 
+Prestasi 
+Fakta/Teori/Prosedur/Sikap/ 
+Keselamatan 
+WA 1, 2, 5 3 Jam 
+===== PAGE 104 =====
+89 
+ 
+D. SENARAI BAHAN 
+BIL BAHAN 
+UKURAN 
+(UNIT) 
+KUANTITI 
+(Bahan:Pelatih, 
+perantis atau 
+calon) 
+1 Hand sanitizer (botol) - 1:1 
+2 Tisu basah atau tisu kotak - 1:1 
+3 Gel mandian - 1:1 
+4 Syampu - 1:1 
+5 Berus gigi kanak-kanak - 1:1 
+6 Ubat gigi kanak-kanak - 1:1 
+7 
+Bahan penjagaan diri kanak-kanak (contoh: 
+sikat, bedak, losyen, minyak) 
+- 1:1 
+8 
+Bekas susu formula (compartment) – untuk 
+kanak-kanak yang masih minum susu 
+- 1:1 
+9 Buku kedatangan kanak-kanak - 1:1 
+10 Lampin pakai buang - 5:1 
+11 Masking tape - 1:1 
+13 Marker pen (hitam) - 1:1 
+14 Buku log harian kanak-kanak - 1:1 
+ 
+E. PERALATAN DAN KELENGKAPAN 
+BIL PERALATAN/KELENGKAPAN 
+UKURAN 
+(UNIT) 
+NISBAH 
+(Peralatan:Calon 
+/pelatih/ perantis) 
+1 Kanak-kanak berusia 2 hingga 3 tahun - 3:1 
+2 Alat tulis - 1:1 
+3 Jangkasuhu digital - 1:1 
+4 Tuala tangan atau tuala muka  - 1:1 
+5 Set pakaian kanak-kanak (1 set) - 1:1 
+6 Tuala mandi - 1:1 
+7 Botol susu (untuk umur kanak-kanak yang - 1:1 
+===== PAGE 105 =====
+90 
+ 
+BIL PERALATAN/KELENGKAPAN 
+UKURAN 
+(UNIT) 
+NISBAH 
+(Peralatan:Calon 
+/pelatih/ perantis) 
+menyusu botol sahaja) 
+8 Beg pakaian  - 1:1 
+9 Apron - 1:1 
+10 Buku cerita pelbagai saiz - 1:1 
+11 Pelbagai bahan permainan - 1:1 
+12 Tong sampah bertutup - 1:1 
+13 Ibu bapa sebenar atau secara role play - 1:1 
+ 
+F. KRITERIA PENILAIAN 
+ 
+Prestasi anda akan dinilai berasaskan kriteria berikut: 
+ 
+1. Perkara Kritikal 
+a. Aktiviti bersama kanak-kanak berusia 2 hingga 3 tahun. 
+b. Kanak-kanak disambut awal dengan kata sapaan dan mimik muka yang mesra. 
+c. Saringan kesihatan dijalankan sebelum kanak-kanak memasuki ruang operasi TASKA.  
+d. Pemeriksaan fizikal dijalankan  ke atas kanak -kanak sebelum dibenarkan terus berada 
+di TASKA. 
+ 
+2. Proses Kerja 
+Proses kerja bermula dari perancangan dan persiapan tugasan sehin gga semua 
+langkah tugas an siap dan hendaklah memat uhi ta tacara k erja, amalan 
+keselamatan dan prosedur yang telah ditetapkan dengan betul dan selamat. 
+ 
+3. Hasil Kerja 
+a. Borang saringan kesihatan; 
+b. Maklumat buku log harian kanak-kanak; dan 
+c. Kekemasan borang dan rekod kanak-kanak. 
+ 
+4. Sikap, Keselamatan atau Alam Sekitar 
+a) Hadir penilaian; 
+b) Kekemasan dan susunan peralatan; 
+c) Berpakaian sesuai sebagai pendidik awal kanak-kanak. 
+d) Persekitaran kerja dibersih dan dikemaskan selepas kerja dilaksanakan. 
+===== PAGE 106 =====
+91 
+ 
+PERINGATAN: 
+Sekiranya didapati perkara kritikal ini tidak dilaksanakan maka calon d ianggap tidak terampil 
+bagi keseluruhan penilaian. 
+ 
+RUMUSAN (Tandakan ( / ) pada ruangan yang berkenaan): 
+SOALAN DITERIMA  
+SOALAN DITERIMA 
+DENGAN PINDAAN 
+ SOALAN DITOLAK  
+ 
+Keakuran Ketepatan dan Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan Kandungan Kejelasan Tempoh Penting Keadilan 
+         
+         
+===== PAGE 107 =====
+92 
+ 
+Lampiran 1 
+ 
+BUKU LOG HARIAN KANAK-KANAK 
+ 
+NAMA  : ________________________________________________________________________ 
+TARIKH  : _____________________  HARI :  ISNIN/SELASA/RABU/KHAMIS/JUMAAT 
+DIISI  OLEH IBU BAPA/PENJAGA 
+ 
+1. Tiba  jam __________________ yang menghantar  ___________________________________ 
+2. Anak tidur nyenyak semalam?  YA/TIDAK.  
+Jika tidak kenapa? __________________________________________________________________ 
+ 
+3. Anak sudah mandi/dibersihkan. YA/TIDAK. 
+4. Alatan/bahan yang dibawa; (isi dan lengkapkan di bwah) 
+ 
+Perkara Kuantiti Perkara Kuantiti Perkara Kuantiti 
+Botol Susu/Sip 
+Cup 
+ Botol Air  Pakaian  
+Lampin pakai 
+buang 
+ Tuala  Plastik (baju kotor)  
+      
+      
+      
+      
+ 
+ 
+5. Anak anda sihat?  Ya/Tidak. Jika tidak: (item 5 dan 6 diisi oleh ibu bapa dan pendidik) 
+Jika tidak, kenapa? _________________; Suhu ________ ; Ubat (jika ada) ______________________ 
+ 
+6. Keadaan fizikal (tanda dan catat dibahagian berkaitan). 
+   
+                                  
+                      
+                 Depan                                                           Belakang 
+ 
+Catatan:___________________________________________________________________________ 
+ 
+TARIKH  :  ___________________    Tarikh : _____________________ 
+ 
+____________________________    ____________________________ 
+TANDATANGAN   PENDIDIK        TANDATANGAN IBU BAPA  
+NAMA :        NAMA : 
+            
+masa kuantiti 
+  
+  
+  
+Tulis masa dan 
+kekerapan 
+pemberian (jika 
+berkaitan 
+Ubat (jika ada) 
+===== PAGE 108 =====
+93 
+ 
+Lampiran 2 
+ 
+BORANG SARINGAN KESIHATAN KANAK-KANAK 
+ 
+TARIKH NAMA KANAK-KANAK UMUR 
+BACAAN 
+SUHU 
+TAHAP KESIHATAN 
+(Tulis masalah kesihatan 
+kanak-kanak hasil saringan) 
+UBAT 
+Ada/Tiada 
+    
+ 
+ 
+ 
+  
+    
+ 
+ 
+ 
+  
+    
+ 
+ 
+ 
+  
+    
+ 
+ 
+ 
+  
+    
+ 
+ 
+ 
+  
+    
+ 
+ 
+ 
+  
+ 
+ 
+===== PAGE 109 =====
+94 
+ 
+Lampiran 3 
+ 
+BORANG SENARAI SEMAK BARANGAN PERIBADI KANAK-KANAK 
+ 
+Nama Kanak-Kanak : _____________________________________________________ 
+Umur    : __________________ 
+ 
+ 
+ 
+Bil. Kelengkapan Peribadi Kanak-Kanak 
+(Tuliskan semua peralatan/bahan berkaitan 
+yang diperlukan untuk 1 hari) 
+Ada 
+(Catatan, 
+jika ada) 
+Tiada 
+(Catatan, 
+jika ada) 
+1.     
+2.     
+3.     
+4.    
+5.     
+6.     
+7.      
+8.    
+9.     
+10.    
+11.    
+12.    
+13.    
+14.    
+15.    
+16.    
+===== PAGE 110 =====
+95 
+ 
+Lampiran 4 
+ 
+REKOD KEDATANGAN KANAK-KANAK 
+ 
+TARIKH MASA NAMA KANAK-
+KANAK UMUR 
+YANG 
+MENGHANTAR 
+IBU/BAPA/PENJAGA 
+ 
+TANDA 
+TANGAN 
+YANG 
+MENGHANTAR 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+   
+ 
+ 
+ 
+  
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+===== PAGE 111 =====
+96 
+ 
+Lampiran 5 
+ 
+REKOD KESIHATAN KANAK-KANAK 
+ 
+TARIKH NAMA KANAK-
+KANAK UMUR 
+MASALAH 
+KESIHATAN 
+KANAK-
+KANAK 
+UBATAN 
+DITERIMA 
+(Ada/tiada) 
+CATATAN/ 
+TINDAKAN 
+PENDIDIK 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+     
+ 
+===== PAGE 112 =====
+97 
+ 
+Lampiran 6 
+ 
+REKOD PEMERIKSAAN FIZIKAL KANAK-KANAK 
+ 
+TARIKH NAMA KANAK-KANAK UMUR 
+CATATAN 
+PEMERIKSAAN 
+FIZIKAL 
+TINDAKAN 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+ 
+    
+ 
+Rajah 16(iii) Contoh Soalan Penilaian Prestasi – T982-001-3:2017 – C01 
+===== PAGE 113 =====
+98 
+ 
+CONTOH 2 - SKEMA PEMARKAHAN PENILAIAN PRESTASI AKHIR 
+ 
+ 
+NAMA PELATIH, PERANTIS ATAU CALON: NO K/P: 
+MASA MULA: MASA TAMAT:  TARIKH: 
+         Pengiraan Pemarkahan: 
+ 
+ 
+ 
+BHGN KRITERIA PENILAIAN MARKAH 
+1. 
+Perkara kritikal (50%) 
+Tandakan (/) pada ruangan 
+Terima atau Tidak Terima 
+bagi perkara kritikal berikut: 
+Terima  Tidak Terima 
+1.1 Aktiviti dijalankan bersama kanak-kanak berusia antara 2 hingga 3 tahun   
+1.2 Kanak-kanak disambut awal dengan kata sapaan dan mimik muka yang 
+mesra. 
+a. Senyum dan berwajah ceria. 
+b. Ucap salam kepada kanak-kanak. 
+c. Ucap salam kepada ibu bapa. 
+d. Sapa kanak-kanak dengan perkataan yang baik dan mesra. 
+e. Gunakan intonasi suara sesuai. 
+  
+1.3 Saringan k esihatan dijal ankan sebelum kanak-kanak memasuk i ruang 
+operasi TASKA.  
+a. Saringan kesihatan dibuat di ruang yang disediakan. 
+b. Tanyakan keadaan kesihatan kanak-kanak kepada ibu bapa. 
+c. Tanyakan jika kanak-kanak ada mengalami sebarang kecederaan. 
+d. Ambil suhu badan kanak-kanak 
+e. Maklumat saringan kesi hatan dicatat kan d alam borang saringan 
+kesihatan. 
+ 
+  
+1.4 Pemeriksaan fi zikal ada dijalankan ke atas kanak -kanak sebel um 
+dibenarkan terus berada di TASKA. 
+a. Dijalankan di ruang yang disediakan. 
+b. Minta ibu bapa untuk menunggu semasa pemeriksaan dibuat. 
+ 
+  
+(*kriteria kritikal: Markah 50 diberi sekiranya semua perkara kritikal di atas diterima dan markah 0 
+sekiranya terdapat 1 atau lebih perkara kritikal tidak diterima) 
+Markah Diperolehi (%) 50 
+BHGN KRITERIA PENILAIAN MARKAH 
+2. 
+ 
+Proses kerja (30%) % Pemberat * Markah  
+2.1 Bahan dan kelengkapan dipilih dan dimasukkan ke dalam beg pakaian mengikut keperluan harian kanak-
+kanak. 
+a. Gel mandian 
+b. Syampu 
+c. Berus gigi kanak-kanak 
+d. Ubat gigi kanak-kanak 
+e. Bahan penjagaan kanak-kanak 
+f. Bekas susu formula 
+g. Lampin pakai buang 
+h. Tuala tangan atau tuala muka 
+i. Set pakaian kanak-kanak 
+j. Tuala mandi 
+k. Botol susu kanak-kanak. 
+ 
+Markah Diperoleh 
+    Markah Penuh 
+X  % Pemberat 
+* % Pemberat akan ditentukan  
+oleh pakar yang membangunkan 
+soalan 
+ 
+===== PAGE 114 =====
+99 
+ 
+i. Semua baha n dan kelengkapan dipilih dan dimasukkan 
+ke dalam beg pakaian mengikut keperluan harian kanak-
+kanak. 
+3 
+2%  
+ii. 6 hingga 10 baha n da n kelengkapan dipilih dan 
+dimasukkan ke dalam be g pakaian mengiku t keperluan 
+harian kanak-kanak. 
+2 
+iii. 1 hingga 5 bahan da n kelengkapan dipilih dan 
+dimasukkan ke dal am beg pakaian m engikut keperluan 
+harian kanak-kanak. 
+1 
+iv. Bahan dan kelengkapan dipilih t etapi tidak di masukkan 
+ke dalam beg pakaian mengikut keperluan harian kanak-
+kanak. 
+0 
+2.2 Persediaan dibuat sebelum kedatangan kanak-kanak mengikut SOP TASKA. 
+a. Ruang saringan kanak-kanak. 
+b. Meja dan peralatan (alat tulis, sanitizer, buku log, buku kehadiran dan rekod-rekod lain perlu ada di 
+atas meja) 
+c. Ruang pemeriksaan fizikal. 
+d. Jangkasuhu berfungsi.  
+e. Jangkasuhu diletakkan di kawasan saringan kesihatan. 
+ 
+i. Semua persediaan dibuat sebelum kedatangan kanak-
+kanak mengikut SOP TASKA. 
+3 
+2%  
+ii. 3 hingga 4 persediaan dibuat sebelum kedatangan 
+kanak-kanak mengikut SOP TASKA. 
+2 
+iii. 1 hingga 2 persediaan dibuat sebelum kedatangan 
+kanak-kanak mengikut SOP TASKA. 
+1 
+iv. Persediaan tidak dibuat sebelum kedatangan kanak-
+kanak atau tidak mengikut SOP TASKA. 
+0 
+2.3 Rekod maklumat dalam borang berkaitan kanak-kanak diisi dan dilengkapkan dengan betul (Jadikan 2.4) 
+ 
+a. Rekod kedatangan 
+b. Rekod kesihatan 
+c. Rekod pemeriksaan fizikal 
+d. Borang saringan kesihatan  
+e. Buku log harian kanak-kanak 
+f. Borang senarai semak barangan peribadi kanak-kanak 
+ 
+i. Semua rekod maklumat dalam borang berkaitan kanak-
+kanak diisi dan dilengkapkan dengan betul  
+3 
+2%  
+ii. 3 hingga 5 rekod maklumat dalam borang berkaitan 
+kanak-kanak diisi dan dilengkapkan dengan betul 
+2 
+iii. 1 hingga 2 rekod maklumat dalam borang berkaitan 
+kanak-kanak diisi dan dilengkapkan dengan betul 
+1 
+iv. Semua rekod maklumat dalam borang berkaitan kanak-
+kanak tidak diisi atau tidak dilengkapkan dengan betul. 
+ 
+0 
+2.4 Kanak-kanak disambut dengan langkah yang betul mengikut SOP TASKA. (Jadikan 2.3) 
+ 
+a. Tanyakan khabar kanak-kanak secara spontan. 
+b. Tarik perhatian kanak-kanak. 
+c. Ambil kanak-kanak dari ibu bapa. 
+d. Minta kanak-kanak susun kasut ditempat yang disediakan. 
+e. Kendalikan sebarang kerenah anak dengan baik. (jika ada). 
+f. Minta ibu bapa catatkan kehadiran anak. 
+g. Ibu bapa serahkan buku log harian kanak-kanak. 
+h. Bawa kanak-kanak ke ruang saringan kesihatan dan pemeriksaan fizikal. 
+i. Minta kanak-kanak membawa beg dan letakkan di tempat yang disediakan. 
+j. Serahkan kanak-kanak kepada pengasuh. 
+ 
+i. Kanak-kanak disambut dengan semua langkah yang betul 
+mengikut SOP TASKA. 
+3 
+4%  
+ii. Kanak-kanak disambut de ngan 6 hingga 9 langkah yang 
+betul mengikut SOP TASKA. 
+2 
+iii. Kanak-kanak dis ambut dengan 3 hingga 5 langkah y ang 
+betul mengikut SOP TASKA. 
+1 
+iv. Kanak-kanak disambut den gan 2 langkah mengikut SOP 
+TASKA (c dan j sahaja) 
+0 
+2.5 Fizikal kanak-kanak diperiksa dengan langkah yang betul mengikut SOP TASKA. 
+ 
+a. Cuci atau sanitasi tangan sebelum jalankan pemeriksaan fizikal. 
+b. Minta kanak-kanak berdiri. 
+c. Bimbing kanak-kanak menanggalkan pakaian (kecuali seluar atau lampin pakai buang) 
+d. Periksa bahagian kepala dan muka. 
+e. Periksa bahagian depan anggota badan. 
+===== PAGE 115 =====
+100 
+ 
+f. Periksa bahagian belakang anggota badan. 
+g. Periksa bahagian tangan. 
+h. Periksa bahagian kaki.  
+i. Bimbing kanak-kanak memakai pakaian semula. 
+j. Cuci atau sanitasi tangan selepas habis jalankan pemeriksaan fizikal. 
+ 
+i. Fizikal kanak-kanak diperiksa deng an semua langka h 
+yang betul mengikut SOP TASKA. 
+3 
+5%  
+ii. Fizikal kanak-kanak diperiksa dengan 6 hingga 9 langkah 
+yang betul mengikut SOP TASKA. 
+2 
+iii. Fizikal kanak-kanak diperiksa dengan 1 hingga 5 langkah 
+yang betul dan tepat mengikut SOP TASKA. 
+1 
+iv. Fizikal kanak-kanak tidak diperiksa 0 
+2.6 Barang peribadi kanak-kanak dikendalikan dengan betul mengikut SOP TASKA. 
+ 
+a. Terima barangan peribadi daripada ibu bapa. 
+b. Semak barangan peribadi kanak-kanak seperti yang telah dicatatkan oleh ibu bapa di dalam buku log. 
+c. Tandakan barangan yang diterima dalam borang senarai semak barangan peribadi. (untuk rekod 
+TASKA). 
+d. Semak sama ada barangan peribadi kanak-kanak ada mempunyai label nama kanak-kanak atau tidak. 
+e. Simpan barangan peribadi di tempat yang disediakan. 
+ 
+i. Semua barang peribadi kanak-kanak diperiksa dengan 
+betul mengikut SOP TASKA 
+3 
+4%  
+ii. Barang peribadi kanak -kanak diperik sa 3 hingga 4 
+langkah  dengan betul  mengikut SOP TASKA 
+2 
+iii. Barang peribadi kanak-kanak diperiksa 1 hi ngga 2 
+langkah dengan betul  mengikut SOP TASKA 
+1 
+iv. Barang peribadi kanak-kanak tidak diperiksa 0 
+2.7 Barang peribadi keperluan harian kanak-kanak disemak berdasarkan Lampiran 3. 
+ 
+a. Gel mandian -1 
+b. Syampu -1 
+c. Berus gigi kanak-kanak -1 
+d. Ubat gigi kanak-kanak -1 
+e. Set bahan penjagaan diri kanak-kanak - 1 
+f. Bekas susu formula -1 
+g. Lampin pakai buang -5 
+h. Tuala tangan atau tuala muka - 1 
+i. Set pakaian kanak-kanak -1 
+j. Tuala mandi - 1 
+k. Botol susu kanak-kanak.- 1 
+ 
+i. Semua 15  barangan peribadi keperluan harian kanak-
+kanak disemak berdasarkan Lampiran 3. 
+3 
+2%  
+ii. 7 – 14 barangan peri badi keperluan harian kanak-kanak 
+disemak berdasarkan Lampiran 3. 
+2 
+iii. 1- 6 barangan pe ribadi keperluan h arian kanak-kanak 
+disemak berdasarkan Lampiran 3. 
+1 
+iv. Barangan peribadi keperluan h arian kanak-kanak tidak  
+disemak berdasarkan Lampiran 3. 
+0 
+2.8 Barangan peribadi kanak-kanak dilabelkan dengan betul. 
+ 
+a. Nama kanak-kanak ditulis pada label dengan jelas. 
+b. Label ditampal pada barangan kanak-kanak 
+c. Nama kanak-kanak mudah dilihat. 
+ 
+i. Semua barangan peribadi kanak-kanak dilabelkan 
+dengan betul. 
+3 
+2%  
+ii. Barangan peribadi kanak-kanak dilabelkan dengan mana-
+mana 2 dengan betul. 
+2 
+iii. Barangan peribadi kanak-kanak dilabelkan dengan mana-
+mana 1 dengan betul. 
+1 
+iv. Barangan peribadi kanak-kanak tidak dilabel.  0 
+2.9 Aktiviti rutin kurikulum PERMATA dijalankan bersama kanak-kanak dengan betul mengikut SOP TASKA. 
+ 
+a. Pilih satu aktiviti (circle time, nature walk, main bebas). 
+b. 2 atau 3 orang kanak-kanak berumur 2 hingga 3 tahun. 
+c. Semua kanak-kanak melaksanakan aktiviti. 
+d. Kendali aktiviti dengan kreatif. 
+e. Cara kendali aktiviti dapat menarik minat kanak-kanak. 
+===== PAGE 116 =====
+101 
+ 
+f. Cara aktiviti rutin dijalankan sesuai dengan peringkat umur. 
+ 
+i. Aktiviti rutin kurikulum PERMATA dijalankan bersama 
+kanak-kanak dengan betul mengikut SOP. 
+3 
+4%  
+ii. 3 hingga 5 langkah aktiviti rutin kurikulum PERMATA  
+dijalankan bersama kanak-kanak betul mengikut SOP. 
+2 
+iii. 1 hingga 2 aktiviti rutin kurikulum PERMATA dijalankan 
+bersama kanak-kanak betul mengikut SOP 
+1 
+iv. Semua aktiviti rutin kurikulum PERMATA tidak dijalankan 
+bersama kanak-kanak. 
+0 
+2.10 Interaksi dan komunikasi bersama kanak-kanak diamalkan dengan baik dan berkesan. 
+ 
+a. Sentiasa peka kepada reaksi dan maklumbalas kanak-kanak. 
+b. Pandai menarik perhatian kanak-kanak. 
+c. Ada memberi pujian dan galakan 
+d. Peka terhadap keperluan asas kanak-kanak (minum susu, pergi tandas, mengantuk, keselesaan) 
+e. Gunakan bahasa mudah difahami oleh kanak-kanak. 
+f. Boleh menangani kerenah kanak-kanak. 
+g. Bercakap dengan nada yang sesuai. 
+ 
+i. Semua lan gkah Interaksi d an komunikasi  bersama 
+kanak-kanak diamalkan dengan baik dan  berkesan. 
+3 
+3%  
+ii. 3 hingga 6 langkah  in teraksi dan ko munikasi  bersama  
+kanak-kanak diamalkan dengan baik teta pi ku rang peka 
+terhadap keperluan asas ka nak-kanak (e  - minum susu, 
+pergi tandas, mengantuk, keselesaan). 
+2 
+iii. 1 hingga 2 langkah intera ksi dan komunikasi bersama 
+kanak-kanak tidak meng ikut amalan ba ik d an  
+memerlukan bantuan pengasuh lain. 
+1 
+iv. Tiada interaksi dan komunikasi bersama kanak-kanak 0 
+Jumlah markah diperoleh  
+3. 
+Hasil kerja (15%) 
+3.1 Borang saringan kesihatan lengkap dan tepat. 
+ 
+a. Nama kanak-kanak 
+b. Umur kanak-kanak 
+c. Bacaan suhu kanak-kanak 
+d. Tahap kesihatan kanak-kanak 
+e. Ubat kanak-kanak sekiranya ada 
+f. Catatan 
+ 
+i. Semua maklumat kanak-kanak pada borang saringan 
+kesihatan lengkap dan tepat 
+3 
+5%  
+ii. 3 hingga 5 maklumat kanak-kanak pada borang saringan 
+kesihatan lengkap dan tepat. 
+2 
+iii. 1 hingga 2 maklumat kanak-kanak pada borang saringan 
+kesihatan lengkap dan tepat. 
+1 
+iv. Borang saringan kesihatan kanak-kanak tidak lengkap dan 
+tidak tepat. 
+0 
+3.2 Maklumat buku log harian kanak-kanak lengkap dan betul. 
+ 
+a. Nama 
+b. Tarikh dan hari 
+c. Masa kanak-kanak dihantar 
+d. Maklumat penghantar 
+e. Maklumat anak 
+f. Maklumat alatan/bahan yang dibawa (hendaklah dilengkapkan) 
+g. Maklumat kesihatan kanak-kanak (hendaklah dilengkapkan) 
+h. Maklumat keadaan fizikal kanak-kanak depan dan belakang. 
+i. Tarikh 
+j. Tandatangan Pendidik 
+k. Nama dan tandatangan Ibu/Bapa 
+ 
+i. Semua maklumat pada buku log harian kanak-kanak 
+lengkap dan betul 
+3 
+6%  
+ii. Maklumat f, g dan mana-mana 4 pada buku log harian 
+kanak-kanak lengkap dan betul. 
+2 
+iii. Maklumat f, g dan mana-mana 2 pada buku log harian 
+kanak-kanak lengkap dan betul. 
+1 
+iv. Tiada maklumat f dan g pada buku log harian kanak 0 
+===== PAGE 117 =====
+102 
+ 
+3.3 Borang dan rekod kanak-kanak kemas, boleh dibaca dan mudah difahami. 
+ 
+a. Buku log harian kanak-kanak 
+b. Borang saringan kesihatan 
+c. Borang senarai barangan peribadi kanak-kanak 
+d. Rekod pemeriksaan fizikal 
+e. Rekod kesihatan 
+f. Rekod kedatangan 
+ 
+i. Semua borang dan rekod kanak-kanak kemas, boleh 
+dibaca dan mudah difahami. 
+3 
+4%  
+ii. 3 – 5 borang dan rekod kanak-kanak kemas, boleh 
+dibaca dan mudah difahami. 
+2 
+iii. 1 – 2 borang dan rekod kanak-kanak kemas, boleh 
+dibaca dan mudah difahami. 
+1 
+iv. Semua borang tidak kemas, tidak boleh dibaca dan tidak 
+difahami. 
+0 
+Jumlah markah diperoleh  
+4. 
+Sikap/keselamatan/alam sekitar (5%) 
+4.1 Hadir penilaian tepat pada masa yang ditetapkan. 
+v. Hadir penil aian lebih awal  5 minit dari masa ya ng 
+ditetapkan. 
+3 
+1%  vi. Hadir penilaian tepat pada masa yang ditetapkan. 2 
+vii. Hadir penila ian lewat dal am tempoh 15 selepas masa 
+ujian berjalan. 
+1 
+viii. Hadir p enilaian lewat se lepas 15 minit m asa ujian 
+berjalan. 
+0 
+4.2 Peralatan disusun dengan betul, kemas dan selamat selepas digunakan mengikut SOP TASKA. 
+v. Semua peralatan d isusun dengan betul, k emas dan 
+selamat selepas digunakan mengikut SOP TASKA. 
+3 
+2%  
+vi. Semua peralatan disusun dengan betul dan selamat tidak 
+kemas selepas digunakan mengikut SOP TASKA. 
+2 
+vii. Semua p eralatan k emas te tapi tidak dis usun dengan 
+betul dan tidak selamat selepas digunakan mengikut SOP 
+TASKA. 
+1 
+viii. Semua pera latan tidak disusun, tidak kemas  dan tidak 
+selamat selepas digunakan mengikut SOP TASKA. 
+0 
+4.3 Berpakaian mengikut keperluan pendidik awal kanak-kanak. 
+ 
+a. Apron  
+b. Sopan (tidak menjolok mata) 
+c. Bersih 
+d. Kemas 
+ 
+i. Berpakaian mengikut keper luan p endidik awal kanak -
+kanak (a, b, c dan d) 
+3 
+1%  
+ii. Berpakaian mengikut keperluan pen didik awal kana k-
+kanak (a, b dan c) 
+2 
+iii. Berpakaian mengikut kep erluan pe ndidik awal kanak -
+kanak (a dan c) 
+1 
+iv. Berpakaian mengikut keperluan pendidik awal kana k-
+kanak (tidak memakai apron) 
+0 
+4.4 Persekitaran kerja dibersih, dikemaskan dan disimpan ditempat asal selepas kerja dilaksanakan. 
+i. Persekitaran kerja dib ersihkan dan dike maskan dan 
+disimpan ditempat asal selepas kerja dilaksanakan. 
+3 
+1%  
+ii. Persekitaran kerj a d ibersihkan da n dikemas te tapi tidak 
+disimpan di tempat asal. 
+2 
+iii. Persekitaran kerja dibe rsihkan tetapi tidak dikema s dan 
+tidak disimpan ditempat asal 
+1 
+iv. Persekitaran kerja tid ak dibersi h, tidak dikemaskan dan 
+tidak disimpan ditempat asal selepas kerja dilaksanakan. 
+0 
+Jumlah markah diperoleh  
+JUMLAH MARKAH KESELURUHAN 
+(Bahagian 1 + Bahagian 2 + Bahagian 3 + Bahagian 4) 
+ 
+ 
+===== PAGE 118 =====
+103 
+ 
+Keputusan: Terampil/ Belum Terampil* 
+(*Potong yang mana tidak berkenaan) 
+NAMA PEGAWAI PENGESAH LUARAN  
+TANDATANGAN PEGAWAI PENGESAH 
+LUARAN  
+TARIKH  
+ULASAN 
+(jika ada) 
+ 
+ 
+ 
+ 
+Rajah 16(iv) Contoh Skema Pemarkahan Penilaian Prestasi – T982-001-3:2017 – C01 
+ 
+5.7. Sahkan SPLK 
+Setiap so alan yang dibangun kan hendaklah disahka n oleh Jawatankua sa 
+Teknikal Pengesah Soalan (JKTPS), Technical Advisory Committee (TAC), 
+Jawatankuasa Penilaian, Jawatankuasa Pengesahan Soalan PPT (soalan 
+yang dibangunkan oleh PPA) atau Mesyuarat Panel Peniaian Pusat 
+Bertauliah (PPPB) sebelum digunakan untuk penilaian pelatih, perantis atau 
+calon bagi memastikan kesahan, kebolehpercayaan dan kecukupcakup an 
+soalan.  Jawatankuasa b ertanggungjawab memastikan set iap soa lan 
+mematuhi s embilan (9) ciri s oalan yang d itetapkan. Hasil s emakan dan 
+keputusan Jawatankua sa hendaklah direkodkan dalam ruangan 
+”RUMUSAN” pada format Pengesahan Soalan  seperti yang ditunjukk an 
+dalam Rajah 17. 
+ 
+Keakuran Ketepatan & Kejelasan Kesesuaian 
+Standard Spesifikasi Peluang Keterampilan kandungan kejelasan 
+Aras 
+Kesukaran 
+Penting Keadilan 
+/ / / / / / / / / 
+/ / / / / / / / / 
+ 
+RUMUSAN (Tandakan (/) pada ruangan yang berkenaan) 
+ 
+SOALAN DITERIMA 
+SEPENUHNYA / SOALAN DITERIMA 
+DENGAN PINDAAN  SOALAN 
+DITOLAK 
+ 
+ 
+Rajah 17: Format Pengesahan SPLK (Jawatankuasa Pengesah) 
+===== PAGE 119 =====
+104 
+ 
+5.7.1. Aturan Pengesahan SPLK 
+a. Dilengkapkan ole h pembangun soalan dengan menandakan 
+(/) dalam r uangan Keakuran, Ke tepatan dan Kejela san serta 
+Kesesuaian bagi m engesahkan soalan ya ng dibangunkan 
+mematuhi sembilan (9) ciri soalan yang ditetapkan.  
+b. Dilengkapkan oleh panel semasa sesi pemurnian dengan 
+menandakan (/) setelah soalan disemak, dinilai dan disah kan 
+mematuhi sembilan (9) ciri soalan yang ditetapkan.  
+c. Dilengkapkan o leh Jawatankuasa Teknikal Pengesah Soalan 
+(JKTPS), Technical Advisory Committee (TAC), Jawatankuasa 
+Penilaian, Jawatankuasa Pengesah Soalan PPT (soalan yang 
+dibangunkan oleh PPA) atau Mesyuarat Panel Peniaian Pusat 
+Bertauliah ( PPPB) sebagai ke putusan sama ada soalan 
+diterima se penuhnya, soalan diterima dengan pindaan atau 
+soalan ditolak. 
+i. Soalan diterima sepenuhnya – tiada sebarang pindaan; 
+ii. Soalan diterima dengan pindaan – diterima dengan pindaan 
+yang dipersetujui mesyuarat; atau 
+iii. Soalan ditolak – tidak mematu hi sembilan (9) ciri soalan 
+yang ditetapkan.  Soalan hendaklah digantikan dengan 
+soalan baharu yang menepati ciri-ciri tersebut. 
+ 
+6.0 PANDUAN PEMBANGUNAN SPLK ATAS TALIAN 
+ 
+Panduan ini dibaca b ersama-sama Manual Penggunaan Sistem MySPIKE yang 
+sedang berkuatkuasa bagi tujuan Pembangunan SPLK di dalam sistem tersebut. 
+Manual tersebut boleh dicapai di pa utan https://www.myspike.my dan klik pada 
+menu panduan. 
+ 
+7.0 PEMAKAIAN  
+ 
+Panduan ini digun akan untuk membangunkan SPLK yang berasaskan 
+Standard/NOSS.  
+===== PAGE 120 =====
+105 
+ 
+8.0 PEMBATALAN 
+ 
+Dengan berku at kua sa Pand uan ini maka P anduan Pembangunan Soalan 
+Penilaian Latihan Kemahiran Edisi 2020 adalah terbatal. 
+ 
+9.0 TARIKH KUATKUASA 
+ 
+Panduan ini b erkuat kuasa mul ai 9 September 2024  dan hendaklah dibaca 
+bersama Panduan Pelaksanaan La tihan Sistem  Latihan Program Ber tauliah 
+(SLaPB) Berasaskan Kod Amalan Pentauliah an Program TVET (Code Of 
+Practice For  TVET Pro gram Accr editation – COPTPA), garis panduan 
+pelaksanaan dan pen ilaian Sistem Latihan Program Bertauliah (SLaPB), Sistem 
+Latihan Du al N asional (SLDN), Pengiktirafan P encapaian Terdahulu ( PPT), 
+Program Micro Credential Melalui SLaPB dan TVET Integrated Assessment (TIA) 
+SLaPB  yang sedang berkuat kuasa. 
+ 
+“BERKHIDMAT UNTUK NEGARA” 
+ 
+KETUA PENGARAH 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+18 SEPTEMBER 2024 
+===== PAGE 121 =====
+106 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LAMPIRAN 
+===== PAGE 122 =====
+107 
+ 
+LAMPIRAN A 
+ 
+PENJELASAN BAGI KATA TUGAS YANG BOLEH DIGUNAKAN UNTUK 
+PEMBANGUNAN SPLK 
+BiL Kata Tugas Respons Yang Diharapkan 
+1. Analisiskan Membuat penyataan terperinci tentang suatu aspek atau perkara 
+yang dikomunikasikan. 
+2. Anggarkan 
+Memberikan nilai kuantitatif yang dianggap sesuai dengan 
+keadaan yang ditetapkan dengan menggunakan ciri–ciri suatu 
+pengetahuan tertentu. 
+3. Apakah Memberikan maklumat yang khusus atau spesifik. 
+4. Bagaimanakah Memerihalkan/memberi penerangan tentang cara/ 
+keadaan/langkah/kejadian. 
+5. Bandingkan Menyatakan persamaan dan perbezaan antara dua atau lebih 
+perkara. 
+6. Berapakah Memberi kuantiti. 
+7. Bezakan Menyatakan kelainan/ketidaksamaan antara 2 atau lebih 
+perkara. 
+8. Bilakah Menyatakan masa atau waktu. 
+9. Binakan Membuat sesuatu menggunakan kaedah atau alat tertentu. 
+10. Bincangkan Memberi penerangan daripada pelbagai aspek atau lebih 
+perkara. 
+11. Buktikan Menyatakan kebenaran dengan dalil/contoh/fakta. 
+12. Cadangkan Memberi pandangan/idea/pendapat dengan mempertimbangkan 
+perkara positif atau negatif. 
+13. Carikan Memberikan nilai tanpa atau dengan hitungan ringkas. 
+14. Cerakinkan Menghuraikan sesuatu kepada bahagian. 
+15. Definisikan Memberikan keterangan yang singkat tetapi jelas tentang makna 
+suatu perkataan khusus, istilah atau terminologi. 
+===== PAGE 123 =====
+108 
+ 
+ 
+BiL Kata Tugas Respons Yang Diharapkan 
+16. Hitungkan Memberikan jawapan dengan kaedah pengiraan. 
+17. Hubungkaitkan Membuat suatu perta lian b erdasarkan b eberapa ciri atau 
+faktor. 
+18. Huraikan Memperihalkan/menceritakan sesuatu dengan panjang  
+lebar/terperinci secara teratur. 
+19. Interpretasikan Memberikan m aklumat atau makna lain  bagi ses uatu 
+komunikasi. 
+20. Jelaskan Memberi penerangan tentang sesuatu su paya mu dah 
+difahami. 
+21. Kelaskan Mengumpulkan ke pada sesuatu kumpulan ber dasarkan 
+kriteria atau ciri tertentu. 
+22. Kemukakan Memberi pendapat sama ada menyokong/ membangkang. 
+23. Kenal pasti Memberi petunjuk atau makluman terhadap suatu benda atau 
+penyataan yang dikenali atau dicam dengan jelas. 
+24. Labelkan 
+Menandakan dan/a tau memberi kan pang gilan yang spes ifik 
+terhadap suatu rujukan pada rajah, graf, carta, ilustrasi dan 
+sebagainya. 
+25. Lukiskan 
+Memberikan persembahan berbentuk rajah/gambar rajah/graf 
+bagi menggambarkan suatu benda atau pe rkara dengan 
+menggunakan alat dan mengikut ukuran atau skala tertentu. 
+26. Membuat hipotesis Mengemukakan p enyataan yang boleh diuji akan  
+kesahannya. 
+27. Mengapakah Memberi sebab. 
+28. Namakan Memberikan panggilan yang s pesifik terh adap suatu benda 
+/istilah /terminologi /proses. 
+29. Nyatakan Memberikan ja wapan yang spes ifik tanpa memerluka n 
+penerangan lanjutan /huraian /sokongan. 
+30. Organisasikan Membuat sesuatu berdasarkan apa yang telah dirancang. 
+ 
+ 
+===== PAGE 124 =====
+109 
+ 
+BiL Kata Tugas Respons Yang Diharapkan 
+31. Pamerkan Menunjukkan persembahan terhada p penguasaa n suatu 
+perkara. 
+32. Ramalkan Memberikan s uatu nilai  yang dija ngkakan berdasarkan pola 
+atau corak tertentu. 
+33. Rekabentuk Membuat garis kasar, pelan t indakan dan melak sanakan 
+sebagaimana perancangan. 
+34. Rekodkan Mencatatkan dapatan kaji an/eksperimen/pemerhatian 
+mengikut format. 
+35. Ringkaskan 
+Memberi penerangan yang lebih padat daripada penyataan 
+asalnya dengan mengekalkan kand ungan utama pen yataan 
+asal itu. 
+36. Rumuskan Membuat sesua tu kesimpulan dengan m empertimbangkan 
+beberapa perkara. 
+37. Sarankan Memberi pandangan /idea / pendapat de ngan 
+mempertimbangkan perkara positif atau negatif. 
+38. Selesaikan Membuat suatu k eputusan untuk m engatasi sesuat u 
+masalah. 
+39. Siapakah Mengenal pasti individu dalam konteks tertentu. 
+40. Susunkan Membuat sesuatu urutan dengan menggunakan kaedah atau 
+prinsip tertentu. 
+41. Syorkan Memberi pandangan/ i dea/ p endapat dengan 
+mempertimbangkan perkara positif atau negatif. 
+42. Senaraikan 
+Memberikan beber apa fakta, ciri, konse p, teori dan  
+sebagainya secara  spesifik/berbentuk po in t anpa mem beri 
+hubungan, perka itan atau penerangan lan jutan bagi setiap 
+satunya. 
+43. Tafsirkan Menerangkan maksud ayat dengan terperinci. 
+44. Takrifkan Memberikan ket erangan yang  singkat tetapi jelas tentang 
+makna suatu perkataan khusus, istilah atau terminologi. 
+ 
+ 
+===== PAGE 125 =====
+110 
+ 
+BiL Kata Tugas Respons Yang Diharapkan 
+45. Tentukan Membuat sesuat u kepu tusan selepas menga mbil kira 
+beberapa perkara sebagai asas pertimbangan. 
+46. Terangkan Menyatakan fakta dengan soko ngan atau me njelaskan 
+sesuatu dengan sebab. 
+47. Terjemahkan 
+Menukarkan s uatu bentuk  komunikasi kepada suatu  
+bentuk komunikasi lain ta npa me ngubah dan 
+memerihalkan makna komunikasi tersebut. 
+48. Tuliskan Memberi maklumat yang khusus/spesifik. 
+49. Ubahsuaikan Membuat sesuatu perubahan  dengan men ggunakan 
+kaedah atau prinsip tertentu. 
+50. Ukurkan Memberi kuantit i dengan unit yang boleh d iperoleh 
+daripada sesuatu alat pengukur. 
+51. Ulaskan Memberi pandangan/pendapat/komen/kritik. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 126 =====
+111 
+ 
+LAMPIRAN B 
+ 
+CONTOH PERBANDINGAN SOALAN OBJEKTIF (ANEKA PILIHAN) YANG SALAH 
+DENGAN SOALAN OBJEKTIF (ANEKA PILIHAN) YANG BETUL 
+ 
+Salah Betul 
+Namakan ikat an pin ggang yang sesuai 
+untuk seluar wanita hamil? 
+ 
+a. Getah keliling. 
+b. Ben pinggang. 
+c. Separa getah sisi. 
+d. Separa getah belakang. 
+Apakah jenis ikatan pinggang yang sesuai 
+untuk seluar wanita hamil? 
+ 
+A. Getah keliling 
+B. Ben pinggang 
+C. Separa getah sisi 
+D. Separa getah belakang 
+Komen 
+- Huruf besar bagi pilihan jawapan A, B, C dan D. 
+- Tidak perlu noktah pada jawapan kata nama, angka/nombor 
+ 
+Salah Betul 
+Namakan bahagian yan g terdapat dalam 
+multimeter? 
+ 
+A. Terminal keluaran 
+B. Amplitude 
+C. Pelaras 0 ohm 
+D. Julat pemilih 
+Namakan bahagian y ang te rdapat dalam 
+multimeter. 
+ 
+A. Amplitude 
+B. Julat pemilih 
+C. Pelaras 0 ohm 
+D. Terminal keluaran 
+Komen 
+- Tidak perlu tanda soal pada soalan. Gantikan dengan tanda noktah. 
+- Susunan pilihan jawapan diatur mengikut bentuk yang pendek di atas dan panjang di 
+bawah. 
+ 
+ 
+===== PAGE 127 =====
+112 
+ 
+Salah Betul 
+Antara berikut, yang manakah komponen 
+sistem penghidup elektrik kecuali 
+ 
+A. Starter relay 
+B. Crank shaft 
+C. Stater motor 
+D. Carbon brush 
+Antara berikut, yang mana kah bukan 
+komponen sistem penghidup elektrik? 
+ 
+A. Starter relay 
+B. Crank shaft 
+C. Stater motor 
+D. Carbon brush 
+Komen 
+- Perkataan negatif pada soalan hendaklah ditebalkan (bold). 
+- Perkataan selain bahasa Melayu hendaklah italic. 
+- Penggunaan perkataan kecuali adalah tidak dibenarkan. 
+ 
+Salah Betul 
+Antara y ang berikut, yan g manakah 
+maklumat yang  perlu dikem as kini dalam 
+menyediakan bancuhan green sand? 
+ 
+A. Berat bahan. 
+B. Tarikh laporan. 
+C. Tandatangan penyelia. 
+D. Jenis bahan yang digunakan. 
+Apakah maklumat yang perlu dikemas kini 
+dalam menyediakan bancuhan green sand 
+untuk dijadikan rujukan? 
+ 
+A. Tarikh laporan dibuat. 
+B. Tandatangan penyelia. 
+C. Berat bahan selepas dibancuh. 
+D. Berat bahan sebelum dibancuh. 
+Komen 
+- Struktur ayat lemah. Perkataan ‘yang” berulang tiga kali. 
+- Pilihan jawapan yang lemah. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 128 =====
+113 
+ 
+Salah Betul 
+Berapakah nilai maksimum r intangan 
+elektrod bumi yang dibenarkan unt uk 
+sistem perlindungan. 
+ 
+A. 2 ohm 
+B. 4 ohm 
+C. 8 ohm 
+D. 10 ohm 
+Berapakah nil ai mak simum rintangan 
+elektrod bumi yang dibenarkan untu k 
+sistem perlindungan? 
+ 
+A. 2 ohm 
+B. 4 ohm 
+C. 8 ohm 
+D. 10 ohm 
+Komen 
+- Tanda soal hendaklah diletakkan apabila ada soalan pertanyaan. 
+- Tanda soal hendaklah dirapatkan dengan perkataan terakhir. 
+ 
+Salah Betul 
+Susunkan lan gkah ker ja m enservis 
+cooling coil mengikut turutan yang betul. 
+ 
+I. Buka cooling coil. 
+II. Masukkan bahan pendingi n ke dalam 
+tiub cooling coil. 
+III. Pastikan tiada ke san miny ak s irip 
+atau tiub cooling coil. 
+IV. Bersihkan siri-sirip tiub cooling coil 
+dengan menggunakan bahan kimia. 
+ 
+A. I, II, III dan IV 
+B. I, II, IV dan III 
+C. I, III, II dan IV 
+D. I, III, IV dan II 
+Susunkan langkah kerja s enggara cooling 
+coil mengikut turutan yang betul. 
+ 
+I. Buka cooling coil. 
+II. Masukkan bahan pendingin ke dalam 
+tiub cooling coil. 
+III. Pastikan tiada kesan  minyak sirip 
+atau tiub cooling coil. 
+IV. Bersihkan siri-sirip tiub cooling coil 
+dengan menggunakan bahan kimia. 
+ 
+A. I, II, III, IV 
+B. I, II, IV, III 
+C. I, III, II, IV 
+E. I, III, IV, II 
+Komen 
+- Arahan susunkan pada soalan tidak perlu perkataan ‘dan’ pada pilihan jawapan. 
+ 
+ 
+===== PAGE 129 =====
+114 
+ 
+Salah Betul 
+Pilih fungsi catalytic converter yang betul 
+dalam sistem kawalan pencemaran udara 
+(emission contr ol system) pada sebuah 
+kenderaan. 
+ 
+A. menapis gas berbahaya seh ingga 
+tiada gas dalam asap ekzos 
+B. menahan gas e kzos keluar sehi ngga 
+gas berbahaya memeluwap 
+C. memeluwapkan gas b erbahaya ke 
+udara dan men inggalkan gas y ang 
+tidak berbahaya 
+D. meneutralkan gas berbahaya kepada 
+gas tidak berbahaya 
+Pilih fungsi catalytic converter yang betul 
+dalam sistem kawalan pencemaran udara 
+(emission con trol s ystem) pada seb uah 
+kenderaan. 
+ 
+A. Menapis ga s ber bahaya sehingga 
+tiada gas dalam asap ekzos 
+B. Menahan gas ekzos keluar sehingga 
+gas berbahaya memeluwap. 
+C. Memeluwapkan gas berbahaya ke 
+udara dan meninggalkan g as yang 
+tidak berbahaya. 
+D. Meneutralkan gas berbahaya kepada 
+gas tidak berbahaya. 
+Komen 
+- Noktah perlu ada pada pilihan jawapan selain dari jawapan kata nama, angka/nombor. 
+- Pilihan jaa pan perlu bermul a den gan huruf besar apabila so alan ter akhir dengan 
+noktah atau tanda soal. 
+ 
+Salah Betul 
+Apakah meter kilowatt jam? 
+ 
+A. Mengukur arus bocor. 
+B. Mengukur kuasa motor. 
+C. Mengukur voltan teraruh. 
+D. Mengukur tenaga elektrik. 
+Apakah fungsi meter kilowatt jam? 
+ 
+A. Mengukur arus bocor. 
+B. Mengukur kuasa motor. 
+C. Mengukur voltan teraruh. 
+D. Mengukur tenaga elektrik. 
+Komen 
+- SPLK hendaklah lengkap dan jelas. 
+ 
+ 
+ 
+ 
+===== PAGE 130 =====
+115 
+ 
+Salah Betul 
+Pilih p erisian yang digunakan untuk 
+megakses internet. 
+ 
+i. Windows XP 
+ii. Mozzila Firefox  
+iii. Google Chrome 
+iv. Internet Explorer 
+ 
+A. II dan III 
+B. I, II, dan IV 
+C. I, III, dan IV 
+D. II, III dan IV  
+Pilih perisian yang digunakan untuk 
+megakses internet. 
+ 
+I. Windows XP 
+II. Mozzila Firefox  
+III. Google Chrome 
+IV. Internet Explorer 
+ 
+A. I, II dan III 
+B. I, II, dan IV 
+C. I, III, dan IV 
+D. II, III dan IV 
+Komen 
+- Pilihan jawapan A, B, C dan D perlu homogeny. 
+- Huruf besar pada pilihan jawapan I, II, III dan IV. 
+ 
+Salah Betul 
+Apakah jenis tenaga yang digunakan oleh 
+sistem mesin bayaran letak kereta? 
+ 
+A. Solar 
+B. Haba  
+C. Suria 
+D. Elektrik  
+Apakah jenis tenaga yang digunaka n oleh 
+sistem mesin bayaran letak kereta? 
+ 
+A. Solar 
+B. Haba  
+C. Magnet 
+D. Elektrik 
+Komen 
+- Pilihan jawapan tidak boleh mempunyai maksud yang sama. 
+ 
+ 
+ 
+ 
+ 
+ 
+===== PAGE 131 =====
+116 
+ 
+Salah Betul 
+Jumlah keuntungan bagi tiga ge rai yang 
+terletak di sebuah  pasar malam ialah 
+RM800. Gerai pertama dan kedua 
+mendapat keuntungan mengikut nisb ah 
+2:3. Jika ge rai keti ga m endapat 
+keuntungan R M350, maka keu ntungan 
+yang diperoleh gerai kedua ialah 
+ 
+A. RM180 
+B. RM210 
+C. RM270 
+D. RM450 
+Jumlah keuntungan gerai J, K dan L  ialah 
+RM800. N isbah keuntungan gerai J 
+kepada K ialah 2:3.  
+ 
+Berapakah keuntungan gerai K jika  
+keuntungan gerai L ialah RM350? 
+ 
+A. RM180 
+B. RM210 
+C. RM270 
+D. RM450 
+Komen 
+- Soalan yang mengandungi ayat sambungan tidak boleh digunakan. 
+- Soalan perlu lengkap dengan kata arahan. 
+- Stimulus dan soalan dipisahkan dengan satu (1) Enter. 
+ 
+Salah Betul 
+Apakah fabrik yan g sesuai diguna kan 
+untuk pakaian pasukan sorak? 
+ 
+A. Knit 
+B. Denim  
+C. Viscos 
+D. Tiada satu pun di atas 
+Apakah fabrik yang s esuai digunakan 
+untuk pakaian pasukan sorak? 
+ 
+A. Knit 
+B. Denim  
+C. Viscos 
+D. Poliester 
+Komen 
+- Pilihan jawapan ‘tiada satu pun di atas’ atau ‘semua di atas’ tidak boleh digunakan. 
+ 
+ 
+ 
+ 
+===== PAGE 132 =====
+117 
+ 
+Salah Betul 
+Apakah tiga ( 3) kaedah untuk 
+mengurangkan rintangan bumi? 
+ 
+Tabur garam di sekeliling elektrod. 
+Pacak elektrod di tempat yang lembab  
+Tanam 2 batang elektrod secara 
+selari. 
+Tabur larutan asid di sekeliling 
+elektrod 
+Apakah 3 kaedah u ntuk mengu rangkan 
+rintangan bumi? 
+ 
+Tabur garam di sekeliling elektrod. 
+Pacak elektrod di tempat yang lembab  
+Tanam 2 b atang elektrod secara 
+selari. 
+Tabur larutan  asid di sekeliling 
+elektrod 
+Komen  
+- Penggunaan huruf dalam soalan hendaklah di tebalkan (bold); dan 
+- Penggunaan perkataan seperti tiga (3) dalam soalan tidak dibenarkan. 
+ 
+ 
+===== PAGE 133 =====
+118 
+ 
+LAMPIRAN C 
+ 
+Soalan yang  dibangunkan oleh J PK, b oleh me nggunakan jata  negara. Soalan yang 
+dibangunkan oleh pusat bertauliah, hendaklah menggunakan logo pusat bertauliah dan pusat 
+bertauliah tidak dibenarkan menggunakan jata negara. 
+ 
+CONTOH KULIT DEPAN BAGI PENILAIAN PENGETAHUAN TAHAP 1, 2, 3, 4 DAN 5 
+ 
+SULIT 
+ 
+ 
+ 
+ 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+ARAS 7 & 8 SETIA PERKASA 4, 
+KOMPLEKS SETIA PERKASA 
+62530 PUTRAJAYA 
+KOD DAN NAMA PUSAT BERTAULIAH  
+PENILAIAN PENGETAHUAN AKHIR 
+KOD UNIT KOMPETENSI  
+NAMA UNIT KOMPETENSI  
+NAMA PELATIH, PERANTIS ATAU CALON  
+NO KAD PENGENALAN  
+MASA  
+TARIKH  
+MARKAH  
+ 
+Arahan Kepada Pelatih, perantis atau calon: 
+1. Tuliskan nama dan nombor kad pengenalan pelatih, perantis atau calon pada ruangan yang 
+disediakan; 
+2. Pelatih, perantis atau calon tidak dibenarkan membuka kertas soalan sehingga dibenarkan; 
+3. Pelatih, perantis atau calon hendaklah menjawab semua soalan; 
+4. Dilarang membawa nota dan sebarang bahan rujukan kecuali yang dibenarkan; 
+5. Dilarang meniru semasa penilaian; dan 
+6. Dilarang membawa keluar kertas soalan dari bilik peperiksaan. 
+ 
+ 
+ 
+KERTAS INI MENGANDUNGI 22 MUKA SURAT BERCETAK 
+===== PAGE 134 =====
+119 
+ 
+LAMPIRAN D 
+ 
+CONTOH KULIT DEPAN BAGI PENILAIAN PRESTASI TAHAP 1, 2, 3, 4 DAN 5 
+ 
+SULIT 
+ 
+ 
+ 
+ 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+ARAS 7 & 8 SETIA PERKASA 4, 
+KOMPLEKS SETIA PERKASA 
+62530 PUTRAJAYA 
+KOD DAN NAMA PUSAT BERTAULIAH  
+PENILAIAN PRESTASI AKHIR 
+KOD UNIT KOMPETENSI  
+NAMA UNIT KOMPETENSI  
+NAMA PELATIH, PERANTIS ATAU CALON  
+NO KAD PENGENALAN  
+MASA  
+TARIKH  
+ 
+Arahan Kepada Pelatih, perantis atau calon: 
+1. Tuliskan nama dan nombor kad pengenalan pelatih, perantis atau calon pada ruangan yang 
+disediakan; 
+2. Pelatih, perantis atau calon tidak dibenarkan membuka kertas soalan sehingga dibenarkan; 
+3. Baca arahan soalan dengan teliti. Rujuk kepada Ketua Pengawas/Pemeriksa/PPL sekiranya 
+terdapat kekeliruan; 
+4. Sebarang kerosakan peralatan/bahan perlu dimaklumkan kepada Ketua Pengawas. 
+5. Dilarang meniru semasa penilaian; dan 
+6. Dilarang membawa keluar kertas soalan dari bilik peperiksaan. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KERTAS INI MENGANDUNGI 5 MUKA SURAT BERCETAK 
+ 
+ 
+ 
+ 
+===== PAGE 135 =====
+120 
+ 
+LAMPIRAN E 
+ 
+CONTOH KULIT DEPAN BAGI PENILAIAN PRESTASI TAHAP 1, 2, 3, 4 DAN 5 (PPT) 
+ 
+SULIT 
+ 
+ 
+ 
+ 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+ARAS 7 & 8 SETIA PERKASA 4, 
+KOMPLEKS SETIA PERKASA 
+62530 PUTRAJAYA 
+KOD DAN NAMA PUSAT 
+BERTAULIAH/SYARIKAT  
+SKEMA PENILAIAN AMALI PPT (SET A) 
+KOD DAN NAMA STANDARD/NOSS  
+SENARAI KOMPETENSI TERAS Senaraikan semua kompetensi teras 
+SENARAI KOMPETENSI ELEKTIF Senaraikan semua kompetensi elektif 
+NAMA CALON  
+NO KAD PENGENALAN  
+TARIKH PEPERIKSAAN  
+MASA MULA  
+MASA TAMAT  
+ 
+Arahan Kepada Calon: 
+7. Tuliskan nama dan nombor kad pengenalan pelatih, perantis atau calon pada ruangan yang 
+disediakan; 
+8. Calon tidak dibenarkan membuka kertas soalan sehingga dibenarkan; 
+9. Baca arahan soalan dengan teliti. Rujuk kepada PPL sekiranya terdapat kekeliruan; 
+10. Sebarang kerosakan peralatan/bahan perlu dimaklumkan kepada Ketua Pengawas. 
+11. Dilarang meniru semasa penilaian; dan 
+12. Dilarang membawa keluar kertas soalan dari bilik peperiksaan. 
+ 
+ 
+ 
+ 
+ 
+KERTAS INI MENGANDUNGI ..... MUKA SURAT BERCETAK 
+ 
+===== PAGE 136 =====
+121 
+ 
+LAMPIRAN F 
+ 
+CONTOH KULIT DEPAN BAGI SKEMA PEMARKAHAN 
+ 
+SULIT 
+ 
+ 
+ 
+ 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+ARAS 7 & 8 SETIA PERKASA 4, 
+KOMPLEKS SETIA PERKASA 
+62530 PUTRAJAYA 
+KOD DAN NAMA PUSAT BERTAULIAH  
+SKEMA PEMARKAHAN 
+KOD UNIT KOMPETENSI  
+NAMA UNIT KOMPETENSI  
+TARIKH  
+ 
+UNTUK KEGUNAAN PEMERIKSA SAHAJA 
+ 
+ 
+AMARAN 
+Skema Pemarkahan ini SULIT. Kegunaannya khusus untuk pemeriksa yang berkenaan sahaja.  
+Sebarang maklumat dalam Skema Pemarkahan ini tidak boleh dimaklumkan kepada sesiapa. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SKEMA PEMARKAHAN INI MENGANDUNGI       MUKA SURAT BERCETAK TERMASUK MUKA 
+HADAPAN 
+ 
+ 
+ 
+ 
+===== PAGE 137 =====
+122 
+ 
+LAMPIRAN G 
+SENARAI JAWATANKUASA PEMBANGUN 
+BUKU PANDUAN PEMBANGUNAN SOALAN PENILAIAN  
+LATIHAN KEMAHIRAN (SPLK) EDISI 2024 
+ 
+BAHAGIAN STANDARD PEKERJAAN DAN KURIKULUM TVET 
+1. Puan Siti Fauziah binti Jumadi 
+2. Ts. Dr. Sulaiha binti Ali 
+3. Puan Siti Rom binti Darman 
+4. Encik Mohamad Uzair bin Mat Deris 
+5. Tuan Haji Eddy Shahrani bin Mohd Saleh 
+6. Encik Ahmad Azran bin Ranaai 
+7. Ts. Faizatun Izzah binti Zohedi 
+8. Encik Hisham bin Taja Ariffin 
+9. Puan Roslailay binti Ab. Rahman 
+10. Puan Hajah Rohaizah binti Mohamaad Taain@Tayen 
+ 
+BAHAGIAN PENSIJILAN KOMPETENSI  
+1. Encik Zulkefli bin Abdullah 
+2. Puan Nurhida binti Shaharuddin 
+3. Encik Yusni Amir bin Dahlan 
+4. Puan Faridah binti Shafiai 
+5. Encik Shaharizal bin Shaharudin 
+6. Ts. Hajah Maserifah binti Mustapha 
+7. Puan Nasriah binti Johaidi 
+ 
+BAHAGIAN PENTAULIAHAN 
+1. Encik Mohamad Aizuddin bin Saedon 
+2. Puan Dayana binti Daiman 
+ 
+CIAST 
+1. Puan Mahani binti Mokhtar 
+2. Encik Mohd Yusri bin Pardi 
+3. Puan Faliza binti Fudzil 

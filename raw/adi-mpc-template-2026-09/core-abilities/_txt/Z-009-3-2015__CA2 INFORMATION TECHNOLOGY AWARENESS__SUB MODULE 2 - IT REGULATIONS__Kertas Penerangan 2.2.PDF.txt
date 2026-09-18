@@ -1,0 +1,336 @@
+# Z-009-3-2015\CA2 INFORMATION TECHNOLOGY AWARENESS\SUB MODULE 2 - IT REGULATIONS\Kertas Penerangan 2.2.PDF
+
+===== PAGE 1 =====
+1 
+ 
+ 
+ 
+ 
+ 
+KOD DAN NAMA  
+PROGRAM /  
+PROGRAM CODE AND 
+NAME 
+Z-009-3:2015  CORE ABILITIES 
+TAHAP / LEVEL 
+3 
+NO. DAN TAJUK 
+KEBOLEHAN TERAS  
+CORE ABILITY NO. AND 
+TITLE 
+ 
+CA02 INFORMATION TECHNOLOGY AWARENESS 
+ 
+NO. DAN PENYATAAN 
+KEBOLEHAN  
+ABILITY NO. AND 
+STATMENT 
+02.01   AWARE OF INFORMATION TECHNOLOGY 
+UPDATE  
+02.02   AWARE OF INFORMATION TECHNOLOGY    
+REGULATORY 
+NO. KOD  / CODE NO. 
+Z-009-3:2015–M02/P(2/2) 
+Mukasurat / Page :   1   
+Drpd          /  of      :   8 
+ 
+ 
+TAJUK/TITLE :  
+IT REGULATORY AWARENESS 
+ 
+ 
+TUJUAN/PURPOSE :  
+This Information Sheet is intended to describe on IT Regulatory Awareness within the 
+organization and its related regulations affecting the usage. The person who is competent 
+in this CA shall be able to be aware of any regulatory acts related to it 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  JABATAN PEMBANGUNAN KEMAHIRAN 
+  KEMENTERIAN SUMBER MANUSIA 
+  ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+  PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN  
+  62530 PUTRAJAYA 
+ 
+  KERTAS PENERANGAN  
+  (INFORMATION SHEET)
+
+===== PAGE 2 =====
+2 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015 –M02/P(2/2) 
+Muka Surat / Page :  2 
+Drpd / of                 :  8 
+ 
+PENERANGAN/INFORMATION :  
+1.   History of Communication and Multimedia Act in Malaysia 
+1.1   With the birth and explosion of a new convergent communications and 
+multimedia industry in Malaysia in the mid 1990s, a new paradigm requiring new 
+approaches in media policies and regulation became a necessity. In line with this, 
+Malaysia adopted a convergence regulation model with regards to the 
+communications and multimedia industry in November 1998.  
+ 
+1.2   Two legislations were enacted to give effect to the new regulatory model: the 
+Communications and Multimedia Act 1998 which set out a new regulatory licensing 
+framework for the industry and the Malaysian Communications and Multimedia 
+Commission Act (1998) which created a new regulatory body, the Malaysian 
+Communications and Multimedia Commission. 
+ 
+1.3   The Communications and Multimedia Act (1998) came into enacted on 1 April 
+1999, while with it; the Telecommunications Act (1950) and the Broadcasting Act 
+(1988) were repealed. 
+ 
+1.4   With it's creation, the Commission set forth 10 national policy objectives to: 
+i) Establish Malaysia as a major global centre and hub for communications 
+and multimedia information and content services; 
+ii) Promote a civil society where information-based services will provide the 
+basis of continuing enhancements to quality of work and life; 
+iii) Grow and nurture local information resources and cultural 
+representation that facilitate the national identity and global diversity; 
+iv) Regulate for the long-term benefit of the end user; 
+v) Promote a high level of consumer confidence in service delivery from the 
+industry; 
+vi) Ensure an equitable provision of affordable services over ubiquitous 
+national infrastructure; 
+vii) Create a robust applications environment for end users; 
+viii) Facilitate the efficient allocation of resources such as skilled labour, 
+capital, knowledge and national assets; 
+ix) Promote the development of capabilities and skills within Malaysia's
+
+===== PAGE 3 =====
+3 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015 –M02/P(2/2) 
+Muka Surat / Page :  3 
+Drpd / of                 :  8 
+convergence industries; and 
+x) Ensure information security and network reliability and integrity 
+1.5   The 10 national policy objectives are the regulatory basis of SKMM's regulatory 
+framework that includes economic regulation, technical regulation, consumer 
+protection and social regulation. On 1 November 2001, MCMC also took over the 
+regulatory functions of the Postal Services Act 1991 and the Digital Signature Act 
+1997. 
+ 
+2.  INSTITUTIONAL FRAMEWORK UNDER THE COMMUNICATION AND  MULTIMEDIA 
+ACTS (CMA) 1998 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Flowchart 2.  Flowchart Of Process Flow Of Institutional Framework Under The  
+ 
+ 
+ 
+Communication And  Multimedia Acts (CMA) 1998 
+ 
+PARLIAMENT 
+CABINET 
+MINISTER 
+MCMC 
+APPEAL 
+TRIBUNAL 
+MINISTRY 
+INDUSTRY 
+PLAYER 
+CONSUMER 
+INDUSTRY FORA 
+(CONSUMER, CONTENT, 
+ASSESS AND TECHNICAL) 
+DIRECTIONS 
+RECOMMENDATION 
+APPEAL 
+REGULATION 
+ENFORCEMENT 
+CONSULTATIV
+E
+
+===== PAGE 4 =====
+4 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015 –M02/P(2/2) 
+Muka Surat / Page :  4 
+Drpd / of                 :  8 
+ 
+ 
+2.1  There are 5 legislation that comes under Malaysian Communications and Multimedia 
+Commision : 
+i)  Malaysian Communications And Multimedia Commission Act 1998 [Act 589] 
+An Act to provide for the establishment of the Malaysian Communications and 
+Multimedia Commission with powers to supervise and regulate the 
+communications and multimedia activities in Malaysia, and to enforce the 
+communications and multimedia laws of Malaysia, and for related matters. 
+ii)  Postal Services Act 2012 [ Act 741] 
+An Act to provide for the licensing of postal services and the regulation of the 
+postal services industry, and for incidental or connected matters. 
+iii)  Communications and Multimedia Act 1998 [Act 588] 
+An Act to provide for and to regulate the converging communications and 
+multimedia industries, and for incidental matters. 
+iv)  Digital Signature Act 1997 [Act 562] 
+An Act to make provision for, and to regulate the use of, digital signatures and 
+to provide for matters connected therewith. 
+v)  Strategic Trade Act 2010 (STA) [Act 708] 
+An Act to provide for control over the export, transshipment, transit and brokering 
+of strategic items, including arms and related material, and other activities that will 
+or may facilitate the design, development and production of weapons of mass 
+destruction and their delivery systems and to provide for other matters connected 
+therewith, consistent with Malaysia’s national security and international obligations
+
+===== PAGE 5 =====
+5 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015 –M02/P(2/2) 
+Muka Surat / Page :  5 
+Drpd / of                 :  8 
+ 
+ 
+3. How does these regulation affects the way we use Information Technology? 
+3.1  In order to make Information Technology used according to rules and regulation set 
+by the governing bodies and to promote IT usage, a few initiatives were introduced 
+such as : 
+i)   Click Wisely (Klik Dengan Bijak).  
+The rapid development of communications and multimedia technology, as well 
+as the positive growth of broadband penetration throughout the country may 
+have an untoward affect on the Malaysian values and culture if immediate steps 
+are 
+not 
+taken 
+to 
+nurture 
+positive 
+internet 
+use 
+based 
+on 
+the 
+country's Rukun Negara (National Principles). The worrisome rise in cybercrime 
+would be best mitigated and reduced through enforcement activities and 
+educational-based approach for the masses. Among the proactive actions taken 
+by MCMC is initiating a Public Awareness on Internet Safety Campaign 
+called Klik dengan Bijak ("Click Wisely") which stresses on safety, security and 
+responsibility of internet users. 
+ii)  1Malaysia Netbooks. 
+MCMC through the Universal Service Provision (USP) programme has 
+allocated one million 1Malaysia netbooks to be distributed to eligible recipients 
+such as secondary school and university students from lower-income groups to 
+ensure that they have the opportunity to access the internet and also to 
+increase broadband usage throughout the country. This will contribute to the 
+nation's broadband penetration rate as well as extend the benefits of broadband 
+to students and the nation. 
+iii)   Wireless Village (Kampung Tanpa Wayar).  
+Wireless Village initiative was inspired by YB Minister of Information, 
+Communications and Culture, as part of ongoing initiatives by MCMC towards 
+realising the USP objectives as outlined under the Communications and 
+Multimedia Act 1998, USP Regulations 2002 (the Regulations) i.e. provisioning 
+of collective and individual access to Internet access service in underserved 
+areas. 
+iv)   U-Library (U-Pustaka). 
+ The role of u-Pustaka in the context of development, national unity and global 
+competitiveness is crucial. It is an innovative information and knowledge
+
+===== PAGE 6 =====
+6 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015 –M02/P(2/2) 
+Muka Surat / Page :  6 
+Drpd / of                 :  8 
+delivery service which also promotes lifelong learning experiences at anytime 
+and anywhere to enhance the quality of work and quality of life on an ongoing 
+basis. 
+v)   Youth Communication Package (Pakej Komunikasi Belia). 
+ Youths aged 21 to 30 able to apply for the RM200 rebate off selected 3G 
+smartphones from celco nominated registered dealers. The Youth 
+Communication Package (YCP) (or Pakej Komunikasi Belia (PKB)) scheme is on 
+a first-come-first served basis and will be for the first 1.5 million eligible youths 
+who may claim their smartphones while stocks last. 
+vi)   1Malaysia Internet Centre (Pusat Internet 1Malaysia).  
+1Malaysia Internet Centre is an ongoing initiative to help increase the socio 
+economic state of undeserved groups within the community by providing network 
+services and applications services in underserved areas. 
+vii)   Get Malaysian Business Online. 
+Announced in Budget 2013, the Get Malaysian Business Online grant is offered 
+on a first-come-first-served basis for up to 50,000 businesses, and ends when 
+the limit is reached or on 31 December 2013. The grant is meant for companies 
+earning not more than RM200,000 a year with less than 10 employees, to help 
+increase earnings of local businesses.
+
+===== PAGE 7 =====
+7 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015 –M02/P(2/2) 
+Muka Surat / Page :  7 
+Drpd / of                 :  8 
+ 
+ 
+SOALAN/QUESTION: 
+ 
+1. What are the two legislations enacted to give effect to the new regulatory model?  
+ 
+.................................................................................................................................... 
+ 
+.................................................................................................................................... 
+ 
+ 
+ 
+2. How many policies were established by the commission? 
+ 
+.................................................................................................................................... 
+ 
+.................................................................................................................................... 
+ 
+ 
+ 
+3. How many legislation comes under Malaysian Communication and Multimedia 
+Commission?  
+ 
+.................................................................................................................................... 
+ 
+....................................................................................................................................
+
+===== PAGE 8 =====
+8 
+ 
+NO. KOD  / CODE NO. 
+Z-009-3:2015 –M02/P(2/2) 
+Muka Surat / Page :  8 
+Drpd / of                 :  8 
+ 
+ 
+ 
+RUJUKAN / REFERENCES: 
+ 
+ 
+1. http://www.kkmm.gov.my/index.php?option=com_content&view=article&id=292&Itemid
+=135&lang=en 
+2. http://www.skmm.gov.my/Legal/Acts/Communications-and-Multimedia-Act-1998-
+Reprint-200.aspx 
+3. http://www.skmm.gov.my/Legal/Acts/Malaysian-Communications-And-Multimedia-
+Commission.aspx 
+4. http://www.agc.gov.my/Akta/Vol.%2012/Act%20588.pdf 
+5. http://www.ubifrance.com/medias/press/mcmc-overview-of-malaysian-communication-
+and-broadcast-industry-24.09.2012_3_10_2012_19_24.pdf 
+6. http://www.greentechmalaysia.my/content.asp?cmscategoryid=202&zoneid=7#.VYN1
+U2CDm_4 
+7. https://www.itu.int/ITU-D/asp/CMS/Events/2010/ITU-ADB/Malaysia/S1-
+Mr_Ooi_Seong_Hoe.pdf 
+8. https://en.wikipedia.org/wiki/Malaysian_Communications_and_Multimedia_Commission 
+9. http://www.jftc.go.jp/eacpf/05/AOTS/malaysia_cheong.pdf 
+10. http://www.austrade.gov.au/Export/Export-
+Markets/Countries/Malaysia/Industries/ICT#.VY7LEvmqpBc 
+11. http://www.itu.int/ITUD/treg/Events/Seminars/2005/Thailand/11%20Regulatory%20Fra
+mework%20-%20Malaysia.pdf

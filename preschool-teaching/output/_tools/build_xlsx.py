@@ -112,7 +112,12 @@ def cmd_lampiran5(cfg):
         for i, pc in enumerate(P_CODES):
             p_col[pc] = 8 + i
     r = 20
-    for cu, cu_title, wa, wa_title, pcode in WA_MATRIX:
+    for i, (cu, cu_title, wa, wa_title, pcode) in enumerate(WA_MATRIX, start=1):
+        ws2.cell(r, 2).value = i                      # B: NO
+        ws2.cell(r, 3).value = cu_title.upper()        # C: COMPETENCY UNIT (CU)
+        ws2.cell(r, 4).value = cu                      # D: KOD CU
+        ws2.cell(r, 5).value = wa_title.upper()        # E: WORK ACTIVITIES (WA)
+        ws2.cell(r, 6).value = wa                      # F: KOD WA
         col = p_col.get(pcode)
         if col:
             ws2.cell(r, col).value = "/"
@@ -126,14 +131,16 @@ def cmd_lampiran5(cfg):
     wb2 = openpyxl.load_workbook(op)
     rb1 = wb2["CU & WA"]["A4"].value
     rb2 = wb2["NOSS vs Proses Kerja"]["J13"].value
+    ws2b = wb2["NOSS vs Proses Kerja"]
+    row20 = [ws2b.cell(20, c).value for c in (2, 3, 4, 5, 6)]
     rb3 = None
     for pc, col in p_col.items():
         if pc == "P01":
-            rb3 = wb2["NOSS vs Proses Kerja"].cell(20, col).value
+            rb3 = ws2b.cell(20, col).value
             rb3 = f"{get_column_letter(col)}20={rb3!r} (P01 x WA1)"
             break
     print(f"lampiran5: wrote {op}")
-    print(f"  read-back: CU&WA!A4={rb1!r}; NOSSvsPK!J13={rb2!r}; {rb3}")
+    print(f"  read-back: CU&WA!A4={rb1!r}; NOSSvsPK!J13={rb2!r}; row20 B..F={row20!r}; {rb3}")
     print(f"  quirk: P-column letters resolved from header rows 17-19 scan (P01..P12); "
           f"fallback H..S used if not found — p_col={ {k: get_column_letter(v) for k, v in p_col.items()} }")
 
@@ -172,8 +179,20 @@ def cmd_jam42(cfg):
     for cu, title in cu_rows:
         set_cell(ws, f"A{r}", cu)
         set_cell(ws, f"B{r}", title)
-        # C/D formulas already reference $C$10/$B$8/ROWS($A$11:$A$15) in this template — leave as-is
+        # Fix formula: template's ROWS($A$11:$A$16) etc. included a leftover 6th-CU row (row16,
+        # "C06 Product Marketing") from the IT-072/other-NOSS fixture this template was built from.
+        # P851 has exactly 5 CU (C01-C05) -> denominator must be 5, not 6.
+        ws[f"C{r}"] = "=($B$8-$C$10)/5"
+        ws[f"D{r}"] = f"=$C${r}/8"
         r += 1
+    # Row 16 was the stray 6th-CU row in the officer template (not part of P851's 5 CU) -> clear it.
+    for col in "ABCDE":
+        ws[f"{col}16"] = None
+    # JUMLAH row: recompute as a formula instead of the stale literal 576 (IT-072's total) left by
+    # the template/fixture.
+    ws["C17"] = "=SUM(C10:C15)"
+    ws["D17"] = "=SUM(D10:D15)"
+    ws["E17"] = "=SUM(E10:E15)"
 
     set_cell(ws, "B24", "1 Hari 8 Jam")
     set_cell(ws, "B25", "1Minggu 5 Hari = 5 x 8 Jam = 40 Jam ")
@@ -460,6 +479,12 @@ def cmd_bukti(cfg):
     r = 3
     seen_p = set()
     for p, ptitle, no, evid, mapping in rows:
+        # Clear A/B first: the blank officer template ships with its own sample P-code/title text
+        # in these rows (e.g. a generic "Proses Kerja 2/3/4" 1-item-per-P layout). Our real P01-P12
+        # mapping has a different number of evidence rows per P, so a naive "only write on first row
+        # of a P-group" leaves stale template placeholder text on the rows it skips.
+        ws[f"A{r}"] = None
+        ws[f"B{r}"] = None
         if p not in seen_p:
             set_cell(ws, f"A{r}", p)
             set_cell(ws, f"B{r}", ptitle)

@@ -1,0 +1,541 @@
+ 
+1 
+ 
+ 
+ 
+KOD DAN NAMA  
+PROGRAM /  
+PROGRAM’S CODE AND 
+NAME 
+  
+Z-009-4: 2015  CORE ABILITIES 
+TAHAP / LEVEL 4 (FOUR) 
+NO.  DAN TAJUK 
+KEBOLEHAN TERAS 
+/CORE ABILITY NO. AND 
+TITLE 
+ 
+CA08 SYSTEM TECHNOLOGY APPLICATION 
+ 
+NO. DAN PENYATAAN 
+KEBOLEHAN  /  
+ABILITY NO. AND 
+STATEMENT 
+08.01   ADOPT APPROPRIATE SOFTWARE   
+APPLICATION 
+08.02    COMPLY TO SYSTEM ANALYSIS APPLICATION 
+08.03    UPDATE IT APPLICATION 
+08.04    ADHERE TO IT RULES & REGULATIONS 
+NO. KOD  / CODE NO. Z-009-4:2015 –M08/P(4/4) Muka Surat / Page :  1 
+Drpd / of                :  15 
+TAJUK / TITLE: IT RULES & REGULATIONS ADHERENCE 
+ 
+TUJUAN/PURPOSE : 
+This Information Sheet is intended to describe on IT Rules and Regulations Adherence  
+requirements to maintain and ensure information technology applications in the 
+organisation are current. 
+ 
+The person who is competent in this CA shall be able to adhere IT rules and regulations in 
+accordance with recommended practices. 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN 
+62530 PUTRAJAYA 
+ 
+KERTAS PENERANGAN 
+(INFORMATION SHEET) 
+ 
+
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  2 
+Drpd / of         :  15 
+ 
+2 
+ 
+PENERANGAN/ INFORMATION: 
+1. PRIVACY & SECURITY 
+1.1. Understanding security and privacy features 
+Internet Bro wsers provides a number of features that help to protect the user’s 
+privacy and make the computer and the personally identifiable information more 
+secure. 
+Privacy features allow the user to protect the personally identifiable information by 
+helping the use r to understand how Web sites the user view may be using this 
+information and by allowing the user to specify privacy settings that determine 
+whether or not the user wants to allow Web sites to save cookies on the computer. 
+Privacy features in Internet Browsers include: 
+i) Privacy settings that specify how the computer deals with cookies. Cookies 
+are files created by a Web site that store information on the computer, such 
+as the preferences when visiting that site. Cookies may also store personally 
+identifiable information, such as the user name or e-mail address. 
+ii) Privacy alerts that let the user know when the user try to gain access to a 
+site that doesn't meet the criteria in the user’s privacy settings.  
+iii) The ability to view a Web site's P3P privacy policy.  
+Security features help to prevent people from gaining access to information that the 
+users have not given them permission to access, such as credit card information 
+the user enters when shopping on the Internet. Security features can also protect 
+computer from unsafe software. 
+Security features in some Internet Browsers include: 
+a) Certificates, which verify the identity of a person or the security of a 
+Web site.  
+b) 128-bit secure connection for using secure Web sites.  
+c) Use security zones to set different levels of security for different areas 
+of the Web to help protect the computer.  
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  3 
+Drpd / of         :  15 
+ 
+3 
+ 
+1.2. Securely sharing personal information 
+There are Internet Browsers that can save the user from having to enter the same 
+information, such as the address or e -mail name, every time the  user visit a new 
+Web site that requests such information. It does this by storing the information on 
+the computer. None of this information can be viewed on the computer, or shared 
+with others, without the user’s permission. 
+When a Web site requests information, the request will tell the user: 
+i) The Internet address of the site requesting the information.  
+ii) What information the site is requesting from Profile Assistant, so the user 
+can choose to exclude information. 
+iii) How this information will be used. 
+iv) Whether this site has a secure connection (Secure Sockets Layer or SSL). If 
+it does, the user can verify the site's certificate 
+1.3. Understanding cookies 
+Internet sites use small files called cookies to keep track of user preferences and 
+information. Internet Browsers  include settings that enable the user to control the 
+storage of cookies on the computer. 
+A cookie is a file created by an Internet site to store information on the user’s 
+computer, such as the user’s preferences when visiting that site. For example, if the 
+user inquires about a flight schedule at an airline's Web site, the site might create a 
+cookie that contains the user’s itinerary. Or it might only contain a record of the 
+pages the user looked at within the site visited, to help the site customize the v iew 
+for the user’s next visit. 
+Cookies can also store personally identifiable information. Personally identifiable 
+information is information that can be used to identify or contact the user, such as 
+the user’s name, e -mail address, home or work address, o r telephone number. 
+However, a Web site only has access to the personally identifiable information that 
+the user provide. For example, a Web site cannot determine the user’s e-mail name 
+unless the user provides it. Also, a Web site cannot gain access to ot her 
+information on the computer. 
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  4 
+Drpd / of         :  15 
+ 
+4 
+ 
+Once a cookie is saved on the computer, only the Web site that created the cookie 
+can read it. 
+There are several types of cookies, and the user can choose whether to allow 
+some, none, or all of them to be saved on the compu ter. If the user does not allow 
+cookies at all, they may not be able to view some Web sites or take advantage of 
+customization features (such as local news and weather, or stock quotes).  
+i) Persistent Cookie 
+A persistent cookie is one stored as a file on the  user’s computer, and it remains 
+there when the user close Internet Explorer. The cookie can be read by the Web 
+site that created it when the user visits that site again. 
+ii) Session Cookie 
+A temporary or session cookie is stored only for the user’s current br owsing 
+session, and is deleted from the computer when the user closes Internet Explorer.  
+iii) First-party cookie 
+A first -party cookie either originates on or is sent to the Web site the user is 
+currently viewing. These cookies are commonly used to store inform ation, such as 
+the user’s preferences when visiting that site. 
+iv) Third-party cookie 
+A third-party cookie either originates on or is sent to a Web site different from the 
+one the user is currently viewing. Third -party Web sites usually provide some 
+content on  the Web site the user are viewing. For example, many sites use 
+advertising from third -party Web sites and those third -party Web sites may use 
+cookies. A common use for this type of cookie is to track the user’s Web page use 
+for advertising or other market ing purposes. Third -party cookies can either be 
+persistent or temporary. 
+ 
+ 
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  5 
+Drpd / of         :  15 
+ 
+5 
+ 
+v) Unsatisfactory cookies 
+Unsatisfactory cookies are cookies that might allow access to personally identifiable 
+information that could be used for a secondary purpose without the user’s consent. 
+1.4. Protecting the computer from unsafe software 
+When downloading or running programs from the Internet, the user want to know 
+that the program comes from a known, reliable source. That's why, when the user 
+chooses to download a program from the Int ernet to their computer, the Internet 
+Browser uses certain technology to verify the identity of the program. Authenticode 
+technology verifies that the program has a valid certificate: that the identity of the 
+software publisher matches the certificate, and  that the certificate is still valid. Note 
+that this does not prevent a poorly written program from being downloaded or run 
+on the computer, but it does reduce the chance of someone misrepresenting a 
+program that is intended to be malicious or intentionally harmful. 
+The user can specify different settings for the way Internet Browser handles 
+downloading programs and files, depending on the zone they are coming from. 
+For example, the user might be confident that anything the user downloads within 
+their corporate intranet is safe. So, the user might set the user security settings for 
+their Local intranet zone to a low level to allow downloading with little or no 
+prompting. If the source is in the ‘Internet Zone’ or the ‘Restricted Sites Zone’, the 
+user might w ant the security levels set to Medium or High. Then, they will be 
+prompted with information about the program's certificate before it is downloaded, 
+or the user might not be able to download it all. 
+1.5. Using Content Advisor to control access 
+The Internet prov ides unique access to a wide variety of information. Some 
+information, however, may not be suitable for every viewer. For example, the user 
+might want to prevent children from seeing Web sites that contain violent or adult 
+content. 
+Content Advisor provides  a way to help control the types of content that the 
+computer can gain access to on the Internet. After turning on Content Advisor, only 
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  6 
+Drpd / of         :  15 
+ 
+6 
+ 
+rated content that meets or exceeds criteria can be viewed. The settings can be 
+adjusted.  
+With Content Advisor, the user can: 
+i) Control access to Content Advisor settings. The user turns Content Advisor 
+on, and views the settings, through the use of a password. The user will 
+need this password to change any Content Advisor settings, so the user 
+might want to write it down for future reference. 
+ii) View and adjust the ratings settings to reflect what the user thinks is 
+appropriate content in each of four areas: language, adult, and violence. 
+iii) Adjust what types of content other people can view, with or without the 
+user’s permission. The user can override content settings on a case -by-case 
+basis. 
+iv) Set up a list of Web sites that other people can never view, regardless of 
+how the sites’ contents are rated.  
+v) Set up a list of Web sites that other people can always view, regardless of 
+how the sites’ contents are rated.  
+vi) View and change the ratings systems and bureaus the user use.  
+Content Advisor is set to the most conservative (least likely to offend) settings when 
+the user first turns it on. The user can adjust these settings to match t he user’s own 
+preferences. 
+Not all Internet content is rated. If the user chooses to allow other people to view 
+unrated sites on their computer, some of those sites could contain inappropriate 
+material. 
+ 
+ 
+ 
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  7 
+Drpd / of         :  15 
+ 
+7 
+ 
+2. THREATS IN NETWORKS 
+2.1. Network Security Issues 
+Networks have security problems for the following reasons: 
+i) Sharing.  
+Because of the resource and workload sharing of networks, more users have 
+potential to access networked systems than single computers. Perhaps worse, 
+access is afforded to more systems, so that access controls for single systems may 
+be inadequate in networks. 
+ii) Complexity of systems.  
+We saw that an operating system is a complicated piece of software. Reliable 
+security is difficult if not impossible on a large operating system, especially one not 
+designed specially for security. A network has two or more possibly dissimilar 
+operating systems. Therefore, a network operating/control system is likely to be 
+more complex than an operating system for a single computing system. This 
+complexity limits confidence in the security of network. 
+iii) Unknown perimeter.  
+The expandability of a network also implies uncertainty about the network 
+boundary. One host may be a node on two different works, so that resources on 
+one network are accessible to the users of the other network as well. Although wide 
+accessibility is an advantage, this unknown or uncontrolled group of possibly 
+malicious users is a security disadvantage. A similar problem occurs when new 
+hosts can be added to the network. Every network node must be abl e to react to 
+the possible presence of new, untrusted hosts. See Figure 11 
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  8 
+Drpd / of         :  15 
+ 
+8 
+ 
+ 
+  
+Fig. 11: Unclear Network Boundaries 
+iv) Many points of attack.  
+A simple computing system is a self -contained unit. Access controls on one 
+machine preserve the secrecy of data on that processor. However, when a 
+file is stored in a network host remote from the user, the file may pass 
+through many hosts to get to the user. Although the administrator of one host 
+may enforce rigorous security policies, that administrator has no cont rol over 
+other hosts in the network. The user has to depend on the access control 
+mechanisms of all of these systems. 
+ 
+ 
+ 
+Network A  
+Network B  Network C  
+Network D  
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  9 
+Drpd / of         :  15 
+ 
+9 
+ 
+ 
+v) Anonymity.  
+An attacker can mount an attack from thousands of miles away and thus 
+never have to touch the system attacked or come into  contact with any of its 
+administrators or users. The attack can be passed through many other 
+hosts, in an effort to disguise from where the attack originated. Finally, 
+computer-to-computer authentication is not the same as for humans to 
+computers. Secure distributed authentication requires thought and attention 
+to detail. 
+2.2. Security Threat Analysis 
+Let us recall how we performed security threat analysis in other situations. We 
+looked at all the parts of a system, considered damage to confidentially, integrit y, 
+availability and hypothesized the kinds of attacks that could cause this damage.  
+So, in a network we have: 
+i) local nodes connected via, 
+ii) local communications link to a  
+iii) local area network, which also has 
+iv) local data storage 
+v) local processes, and 
+vi) local devices.  
+The local area network is also connected to a  
+i) network gateway, which gives access via 
+ii) network communications links to 
+iii) network control resources, 
+iv) network routers, and 
+v) network resources, such as data bases. 
+ 
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  10 
+Drpd / of         :  15 
+ 
+10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 12: Message Routing in a Network 
+For example, in Fig. 13, user A at workstation A wants to communicate with user B 
+at workstation B, to use resources on the LAN to which B is attached, or use 
+resources from LAN C elsewhere in the network. All of those functional needs are 
+typical for users of networks. But let us now add a malicious outsider, M at 
+workstation M, as in Fig. 13, and consider the negative effects M can cause. 
+i) Read communications from A to B. These are exposed inside A’s machine, 
+at all places through the network , and inside Bo’s machine. Thus a 
+confidentiality attack can be mounted from practically any place in the 
+network. 
+ii) Modify communications from A to B. Again, these are exposed at all 
+places through the network. 
+iii) Forge communications  allegedly from A to B. Th is is even easier than 
+modifying a communication, because a forgery can be inserted any place in 
+the network and does not require catching a communication in transit to 
+modify. Because A does not deliver his communications personally, and 
+because B might e ven never have met A. B has little basis for judging 
+whether a communication purportedly from A is authentic. 
+Host A2  
+Network B  
+Host A1  
+Network A  
+Host A2  
+Host A3 
+B1  
+Host B3  
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  11 
+Drpd / of         :  15 
+ 
+11 
+ 
+iv) Inhibit communications from A to B. Here again, M can achieve this result 
+by invading A’s machine, B’s machine, routers between them, or 
+communications links. M can also disrupt communications in general by 
+flooding the network or any unique path on the network. 
+v) Inhibit all communications passing through a point. If the point represents 
+a unique path to or from a node, all traffic to or from that no de is blocked. If 
+the point is not unique, blocking it will shift traffic to other nodes, perhaps 
+overburdening them. 
+vi) Read data at C or D . M can impersonate A (who is authorized to access 
+data at C or D). B might question a message out of character for And y, but 
+machine C and D will just apply the access controls for A. Alternatively, M 
+can invade (run a program at) machines C or D to override access controls. 
+Finally, M can  search the network for machines that have weak or 
+improperly administered access controls. 
+ 
+Fig. 13: Typical Network 
+vii) Modify or destroy data at C or D . Here again M can impersonate A and do 
+anything A could, or M can try to circumvent controls. 
+ 
+ 
+B 
+C 
+A 
+D 
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  12 
+Drpd / of         :  15 
+ 
+12 
+ 
+Thus, in summary, the threats are  
+a) interception of data in transit 
+b) access to programs or data at remote hosts 
+c) modification of programs or data at remote hosts 
+d) modification of data in transit 
+e) insertion of communications impersonating a user 
+f) insertion of a repeat of a previous communication 
+g) blocking of selected traffic 
+h) blocking of all traffic 
+i) running a program at a remote host 
+How are all of these threats accomplished? We can group the potential threats into 
+the following categories: 
+a) wiretapping 
+b) impersonation 
+c) message confidentiality violations 
+d) message integrity violations 
+e) hacking 
+f) code integrity violations 
+g) denial of service  
+3. Network Security Controls 
+i) Encryption 
+Encryption is a very powerful tool for providing privacy, authenticity, integrity, and 
+limited access to data. Because of the greater risks involved, networks often secure 
+data with encryption, perhaps in combination with other controls. 
+In network applications, encryption can be applied either between hosts or between 
+two applications. We consider these two forms of encryption below. Key distribution 
+is always a problem with encryption. E ncryption keys must be delivered to the 
+sender and receiver in a secure manner. 
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  13 
+Drpd / of         :  15 
+ 
+13 
+ 
+ 
+ii) Access Control 
+Encryption is especially good for protecting data within a network. However, access 
+to data, programs and other resources of the network is also a serious conce rn in 
+network security. In a single computing system, the number of authorized users 
+may be limited because of the physical characteristics of the system. Often all 
+users are within the same room or building, or are affiliated with the same 
+organization. However, when a computing system is part of a network, users and 
+even administrators may not know which other users may be connected to the 
+same network. Thus, in a network environment, access control must protect a 
+single system of the network and also pre vent unauthorized users from passing 
+through one system of a network to access other systems of the network. Two 
+aspects of network access control that we consider now are protecting access 
+points and authenticating network nodes. 
+iii) Authentication in Distributed Systems 
+Application is not always completed on the user’s local computer. Several 
+computers joined on a network can share files, applications, and other resources. In 
+this case, a user on one host may be unaware of the fact that a computation uses 
+resources or facilities of some other hosts. Authentication and access control can 
+all be done at the computer -to-computer level. There are then two problems to be 
+solved: 
+a) How can one host be assured of the authenticity of a remote host? 
+Before sending sensitive data to a remote site, the host should be sure 
+of the computer at the destination. 
+b) How can a host be assured of the authenticity of a user on a remote 
+host? Conversely, how can the user be assured of the authenticity of 
+the remote host?  
+iv) Traffic Control 
+We now turn to controls for a fairly sophisticated threat: traffic flow analysis. Few 
+attackers can, or WAN to, monitor and analyze enough traffic to obtain mesh 
+information from this form of attack. Furthermore, there are fairly simple defenses 
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  14 
+Drpd / of         :  15 
+ 
+14 
+ 
+against such analysis. 
+Since an interceptor can tap all blocks of messages passing through the network 
+the interceptor can determine who is communicating frequently with whom. 
+Knowing that many messages are being transmitted between the personnel 
+departmental and company management, a user might be able to infer that some 
+substantial re -organization is about to occur. During wartime, the military has 
+trouble planning surprise offensive because a large volume of messages to a 
+particular place may arouse the suspicio n of the enemy. In both these cases, it is 
+not just the content, but also the mere existence of messages that is sensitive. In 
+both cases, the attack is called a traffic analysis . The standard control is 
+introduction of many spurious messages between point s of low traffic. In this way, 
+communication between the two sensitive places will not seem outstandingly 
+heavy. Of course, this added traffic places an extra burden on the network, and 
+service to all users may be degraded.  
+v) Privacy Enhanced Electronic Mail 
+Privacy enhanced electronic mail addresses the specific problem of confidentiality, 
+integrity, and authenticity in electronic mail (e -mail). It uses a combination of 
+encryption, protocols, and data integrity controls to protect e-mail. 
+vi) Firewall 
+A firewall is a process that filters all traffic between a protected or “inside” network 
+and a less trustworthy or “outside” network. The purpose of a firewall is to keep 
+“bad” things outside a protected environment. Firewalls implement a security policy. 
+The policy might be to prevent any access from outside (while still allowing traffic to 
+pass from the inside to the outside). Alternatively, it might be to permit accesses 
+only from certain places, from certain users, or for certain activities. Part of the 
+challenge of protecting a network with a firewall is determining the security policy 
+that meets the needs of the installation. 
+ 
+ 
+ 
+ 
+ 
+
+----PAGE BREAK----
+
+NO. KOD/ CODE NO  Z-009-4: 2015 M08/P(4/4) Muka Surat / Page :  15 
+Drpd / of         :  15 
+ 
+15 
+ 
+ 
+SOALAN / QUESTIONS: 
+1. List five (5) causes of network security problems. 
+ _____________________________________________________________  
+ _____________________________________________________________  
+ _____________________________________________________________  
+ _____________________________________________________________  
+ _____________________________________________________________  
+2. How to identify Access Control? 
+ _____________________________________________________________  
+ _____________________________________________________________  
+ _____________________________________________________________  
+ _____________________________________________________________  
+3. What is a firewall? 
+ _____________________________________________________________  
+ _____________________________________________________________  
+ _____________________________________________________________  
+ _____________________________________________________________  
+RUJUKAN / REFERENCE: 
+1. Pfleeger, Charles P.(1997). Security in Computing. United States of America. 
+Precision Graphic Services, Inc. Pages 390 – 422 
+2. Crowder, David (1999), Getting on the Internet. IDG Books.  
+3. Windows Help and Support. XP Professional. 

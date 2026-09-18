@@ -1,0 +1,320 @@
+# Z-009-3-2015\CA2 INFORMATION TECHNOLOGY AWARENESS\Soalan penilaian CA02 Vol. 1.pdf
+
+===== PAGE 1 =====
+1 
+ 
+ 
+ 
+KOD DAN NAMA PUSAT 
+BERTAULIAH 
+ 
+ 
+SOALAN PENILAIAN PENGETAHUAN (OBJEKTIF) 
+KOD UNIT CORE ABILITY 
+ 
+NAMA UNIT  ABILITY 
+ 
+NAMA CALON 
+ 
+NO.KAD PENGENALAN 
+ 
+MASA 
+ 
+TARIKH 
+ 
+MARKAH 
+ 
+ 
+Arahan kepada calon: 
+1.  Tulis nama dan nombor kad pengenalan calon pada ruangan yang disediakan; 
+2.   Calon tidak dibenarkan membuka kertas soalan sehingga dibenarkan; 
+3.   Calon hendaklah menjawab semua soalan; 
+4.   Calon dilarang membawa nota atau sebarang bahan rujukan kecuali yang 
+dibenarkan. 
+5.   Dilarang meniru semasa penilian; dan 
+6.   Dilarang membawa keluar kertas soalan dari bilik peperiksaan 
+ 
+KERTAS PENILAIAN INI MENGANDUNGI ....8.... MUKA SURAT BERCETAK 
+  JABATAN PEMBANGUNAN KEMAHIRAN 
+  KEMENTERIAN SUMBER MANUSIA 
+  ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+  PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN  
+  62530 PUTRAJAYA
+
+===== PAGE 2 =====
+2 
+ 
+1.  What is the correct process used in establishing a network flow?  
+ 
+I.      Identify user needs. 
+II.     Plan the Information systems.  
+III.    Establish user requirements. 
+IV.    Establish the system design. 
+ 
+A. I, II, III and IV 
+B. I, II, IV and III 
+C. I, III, II and IV 
+D. I, III, IV and II 
+ 
+2.   What is the early stage procedure in selecting the best software?  
+ 
+I. 
+Feature vs. requirement 
+II. 
+Taking cost/benefit analysis 
+III. 
+Consideraing future upgradability  
+IV. 
+Considering hardware compatibility 
+ 
+A. I, II, III dan IV 
+B. I, II, IV dan III 
+C. I, III, II dan IV 
+D. I, III, IV dan II 
+ 
+3.  What are the steps in understanding IT update?  
+ 
+I. 
+Identify IT usage 
+II. 
+Observe IT evolvement 
+III. 
+Observe latest IT knowledge 
+IV. 
+Understand the interaction between technologies or system 
+ 
+A. I, II, III dan IV 
+B. I, II, IV dan III 
+C. I, III, II dan IV 
+D. I, III, IV dan II
+
+===== PAGE 3 =====
+3 
+ 
+4.  What are the steps in defining future upgradability?  
+ 
+A. Identifying usable software,functionality and cost analysis 
+B. Knowing current specifiation,compatible specification and cost 
+C. Defining initial cost setup,identify usable features and functionality 
+D. Knowing upgradilibity,functionality,cost of upgrade and the need of it 
+ 
+5.  What are the cost/benefit analysis processes?  
+ 
+I. Understand initial setup cost 
+II. Per member surcharge costs 
+III. On-going charge-monthly or annual 
+IV. Transaction charges either per transaction or multiple transaction 
+ 
+A. I, II, III dan IV 
+B. I, II, IV dan III 
+C. I, III, II dan IV 
+D. I, III, IV dan II 
+ 
+ 
+6.  What does a collection of words,symbol or codes for human to interact with 
+computer called?  
+A. Computer 
+B. Operation 
+C. Application 
+D. Programming.
+
+===== PAGE 4 =====
+4 
+ 
+7.  What are the common software used in daily work?  
+I. 
+Microsoft Words 
+II. 
+Microsoft Excel 
+III. 
+Microsoft Scheme 
+IV. 
+Microsoft Power Point 
+ 
+A. I, II, and III 
+B. I, II and IV 
+C. I, III and IV 
+D. II, III and IV 
+ 
+8.  What is the definition of Information Technology?  
+ 
+A. System that connects communication 
+B. Service between computers and human 
+C. Technology that  regulates the usage of data between computer and mobile 
+D. Application of computers and telecommunication equipment to store,retrieve, 
+transmit and manipulate data. 
+ 
+ 
+9.  Which combination of Components of Information System Technology is the 
+most correct?  
+ 
+A. Hardware,data,technology and people 
+B. Software,machine,internet,mobile and networks 
+C. Hardware,software,data,procedure,networks and people 
+D. Procedures,systems,people,computers,technology and mobile
+
+===== PAGE 5 =====
+5 
+ 
+10.  Select the 3 correct considerations in selecting the right software  
+ 
+I.   Features against requirement 
+II.  Cost/benefit analysis 
+III. Printable ability 
+IV.  Hardware requirement 
+ 
+A. I,II dan III 
+B. I,II dan IV 
+C. I,III dan IV 
+D. II,III dan IV 
+ 
+11.  Choose the correct example of a data entry software.  
+ 
+A. Firefox 
+B. Wordpad 
+C. Photo gallery 
+D. Microsoft Access 
+ 
+12.  Why do we need to be aware of IT update?   
+ 
+I. To improve work efficiencies 
+II. To improve work production 
+III. To understand cost affected 
+IV. To improve system analysis 
+ 
+A. I, II, dan III 
+B. I, II dan IV 
+C. I, III dan IV 
+D. II, III dan IV
+
+===== PAGE 6 =====
+6 
+ 
+13.  How do you promote usage of proper use of IT?  
+ 
+A. Introduce IT ethic rules and enforce the regulations 
+B. Promoting online competition, encourage social media usage and initiate 
+campaigns 
+C. Designing IT ethic pamphlets, create IT competition and offer prize for best 
+IT user 
+D. Initiating campaigns,nurturing positive internet use and promote public 
+awareness 
+ 
+14.  What is the method used in promoting business online?  
+ 
+A. Promote Communication Package and offer website hostings 
+B. Create online business registration and assist in registration 
+C. Offering grant,promote registration and assist in increasing earnings 
+D. Promote Click Wisely, setup online registration and offer business grant 
+ 
+15.  What are the steps in getting the Industry Player to follow the policies set by the 
+government?  
+ 
+A. Recommending new acts and enforce the law 
+B. Announcing acts,enforcing regulations and offer advise . 
+C. Create appeal council,recommend new acts and impose new law 
+D. Create consultation avenue,enforce laws and prosecute law-breaker
+
+===== PAGE 7 =====
+7 
+ 
+16.  What are the process flow in Institutional Framework under the Communication 
+and Multimedia Act?  
+ 
+I. Directions from Ministry 
+II. MCMC enforces the acts 
+III. MCMC announces the acts 
+IV. MCMC proposes recommendation based on feedbacks 
+ 
+A. I, II, III dan IV 
+B. I, II, IV dan III 
+C. I, III, II dan IV 
+D. I, III, IV dan II 
+ 
+17.  Who are the regulatory body for communication and multimedia in Malaysia? 
+  
+A. Malaysian Multimedia Commission 
+B. Malaysian Technology Advisory Body 
+C. National Communication and Multimedia Body 
+D. Malaysian Communications and Multimedia Commission 
+ 
+18.  Which legislations are the correct legislation?  
+A. Telecommunications Act (1950) and Broadcasting Act (1998) 
+B. National Policy for Communication and Multimedia Strategy 1997 
+C. Multimedia Communication Act 1999 and Multimedia Commission Act 
+1998 
+D. Communication and Multimedia Act 1998 and Malaysian Communication 
+and Multimedia Comission Act 1998
+
+===== PAGE 8 =====
+8 
+ 
+ 
+19.  Why is there a need  to have Multimedia and Communication legislation in 
+Malaysia?  
+ 
+A. To fill on the required legislation quota 
+B. On request from industry player of Communication and Multimedia 
+C. To fulfill the need to regulate an increasingly convergent communications 
+and multimedia industry 
+D. To fulfill the required procedures structured by external regulatory body 
+which controls internet usage abroad 
+ 
+ 
+20.  Which of the acts conform to the current legislation under Malaysian 
+Communication and Multimedia Commission?  
+ 
+I.   Must use the National Postal Services  
+II.  Avoiding slanders and degaratory terms while online 
+III. Register online business with the Registrar of Company  
+IV.  Secure confidential information accroding to law required 
+ 
+A. I,II dan III 
+B. I,II dan IV 
+C. I,III dan IV 
+D. II,III dan IV
+
+===== PAGE 9 =====
+9 
+ 
+SKEMA JAWAPAN 
+ 
+1. 
+C   
+11. 
+D   
+2. 
+A   
+12. 
+A   
+3. 
+A   
+13. 
+D   
+4. 
+D   
+14. 
+C   
+5. 
+C   
+15. 
+B   
+6. 
+D   
+16. 
+C  
+7. 
+C   
+17. 
+D   
+8. 
+D   
+18. 
+D   
+9. 
+C   
+19. 
+C   
+10. B   
+20. 
+D

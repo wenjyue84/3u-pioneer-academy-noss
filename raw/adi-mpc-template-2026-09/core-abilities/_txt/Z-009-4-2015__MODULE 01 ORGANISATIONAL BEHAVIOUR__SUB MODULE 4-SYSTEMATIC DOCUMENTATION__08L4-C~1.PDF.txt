@@ -1,0 +1,540 @@
+ 
+1 
+ 
+ 
+ 
+ 
+                  
+  
+KOD DAN NAMA  PROGRAM 
+/ PROGRAM’S CODE & NAME Z-009-04:2015  CORE ABILITIES 
+TAHAP / LEVEL 4 (FOUR) 
+NO. DAN TAJUK 
+KEBOLEHAN TERAS  / CORE 
+ABILITY NO. AND TITLE 
+CA01 ORGANISATIONAL BEHAVIOUR  AWARENESS 
+NO. DAN PENYATAAN 
+KEBOLEHAN / ABILITY NO. 
+AND STATEMENT 
+01.01  ADHERE TO CONCEPTUAL FRAMEWORK OF 
+THE ORGANIZATION 
+01.02 ENHANCE TEAMWORK 
+01.03 DEMONSTRATE WORK DELEGATION 
+CAPABILITY 
+01.04 ENSURE SYSTEMATIC DOCUMENTATION 
+01.05 ENCOURAGE ORGANIZATION EVENT 
+COORDINATION  
+01.06 COMPLY WITH TRAINING REQUIREMENT 
+PROCEDURES 
+01.07  RECOGNISE STAFF VERTICAL MOBILITY 
+POTENTIAL 
+NO. KOD  / CODE NO. Z-009-4:2015-M01/P(4/7) 
+Mukasurat / Page  :  1 
+Drpd / of                :  15 
+ 
+ 
+TAJUK / TITLE:  SYSTEMATIC DOCUMENTATION 
+ 
+TUJUAN / PURPOSE:  
+This Information Sheet is intended to describe on  the Organizational Behavior Awareness  
+within organization and its related regulatory affecting the practice . The person who is 
+competent in this CA shall be able to infuse and ensure systematic documentation at 
+workplace and aware of any regulatory acts related to it. 
+JABATAN PEMBANGUNAN KEMAHIRAN 
+KEMENTERIAN SUMBER MANUSIA 
+ARAS 7 & 8 BLOK D4, KOMPLEKS D 
+PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN 
+62530 PUTRAJAYA 
+ 
+KERTAS PENERANGAN 
+ (INFORMATION SHEET) 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     2      
+Drpd / Of :   15 
+ 
+2 
+ 
+ 
+ 
+PENERANGAN / INFORMATION 
+ 
+1. Overview 
+An organization puts their internal documentation controls in place to limit risks, such as 
+losses, poor performance on contracts, poor quality and non -compliance with 
+regulations.  
+ 
+1.1 Documentation Procedures 
+Documentation procedures detail the documents that the organization requires to 
+implement their control systems and assign responsibility personnel for tasks and 
+actions. Small businesses usually require less documentation s or controls because 
+each employee carries out several job functions and responsibilities. 
+ 
+Effective documentation procedures need less efficient controls to come out with 
+businesses competitive advantages. To be effective in documentation procedures it has 
+to cover the followings. 
+i) Documentation procedures usually specify that an employee manual must 
+contain all relevant policy and procedure documentations. 
+ii) The detail ed manual must include  and state clearly the person who is 
+responsible for writing and updating the policies and procedures. 
+iii) How the organization communicates them to the employees. 
+Documentation procedures typically specify that employees receive a copy of the 
+manual when they start work, acknowledged the receipt and agree to adhere to the 
+policies and procedures. They will also receive updates as changes are done from time 
+to time. 
+ 
+1.2 Practice Proper and Systematic Filing 
+A file refers to the physical unit of information contained within a paper or electronic 
+folder. Records are held in files to enhance accessibility and identification. 
+Files are created and included in a filing system to provide formal evidence of the 
+activities dealt with in an organization. The purpose of filings is to capture, maintain and 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     3      
+Drpd / Of :   15 
+ 
+3 
+ 
+provide access to evidence of transactions ove r time in accordance with accountability 
+and work done. 
+The establishment of a coherent filing system provides 
+ i) Faster and systematic filing 
+ ii) Faster retrieval of information 
+ iii) Greater protection of information 
+ iv) Increased administrative stability 
+ v) Continuity and efficiency 
+ 1.3 Good and Systematic Filling Scheme 
+Requirements of a good and systematic filing scheme is by keeping it simple to reduce 
+errors and to facilitate  usability to all level of employees.  It should, therefore, be 
+designed for the no rmal requirements of the organiz ation and not for remote or 
+exceptional possibility. 
+ 1.4 Filling System 
+Files should contain information which is linked to the activities and functions .  The 
+system should have a structured numeric or alphanume ric referencing system in which 
+each element equates with a function of the file title to a maximum of four elements , 
+namely; 
+ i) Alphabetical 
+ ii) Numerical 
+ iii) Alpha-numeric (eg: ABX;cy-12/1) and 
+ iv) Keyword  
+The most commonly used is the alphanumeric. A good point on this system is that, the 
+letters can indicate the function or activities process covered by the files. 
+ 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     4      
+Drpd / Of :   15 
+ 
+4 
+ 
+1.5 Filing Process 
+In systematic filing process it must have the followings; 
+ i) Suitability 
+ The system should meet the individual users / departmental needs. 
+ ii) Good Maintenance 
+ In order to maintain a filing system the followings are required; 
+a. A good follow-up system (e.g. tracer cards) 
+b. Adequate security 
+c. Proper control of record creation and filing additions 
+d. Secure and adequate storage for archived material 
+iii) Adaptability 
+The system should be sufficiently flexible to meet the future needs of the 
+organization. 
+ 
+There are many ways of filing arrangement. One example is illustrated below for a 
+typical method commonly practiced. 
+  
+Figure 1: Filing Method 
+ 
+ 
+2. Implement Proper Indexing 
+Indexing is a way of sorting a number of records on multiple fields. Creating an index on a 
+field in a table creates another data structure which holds the field value, and point er to the 
+record it relates to. This index structure is then sorted, allowing binary searches to be 
+performed on it. 
+Documents Saved in 
+Respective Folders 
+Current Year 
+Documents 
+Previous Year 
+Documents 
+Past Years 
+Documents 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     5      
+Drpd / Of :   15 
+ 
+5 
+ 
+2.1 Data Storage 
+When data is stored in a storage device, it is stored as blocks of data. These blocks are 
+accessed in their entirety, maki ng them the atomic disk access operation. Disk blocks 
+are structured in much the same way as linked lists; both contain a section for data, a 
+pointer to the location of the next node or block, and both need not be stored alongside. 
+Due to the fact that a n umber of records can only be sorted on one field, we can state 
+that searching on a field that isn’t sorted requires a Linear Search which 
+requires N/2 block accesses (on average), where  N is the number of blocks that the 
+table spans. If that field is a non -key field (i.e. doesn’t contain unique entries) then the 
+entire table space must be searched at N block accesses. 
+Whereas with a sorted field, a binary search may be used, this has  log2N block 
+accesses. Also since the data is sorted given a non -key field,  the rest of the table 
+doesn’t need to be searched for duplicate values, once a higher value is found. Thus 
+the performance increase is substantial. 
+2.2 Establish Proper Recording 
+Filing system must have proper recording for easy access and retrieval.  The re are a 
+couple of filing record currently practiced. 
+ 2.3 Electronic Filing 
+Electronic filling secures personnel documents and various other important records into 
+one centralized location  with the necessary added values as needed . It is easily 
+accessible to all approved personnel . If the record has been determined to be 
+completed and additional paperwork is discovered, these documents should be added 
+as appendix. 
+ 2.4 Paper Based System 
+For paper based system, filing of all documents should be part of a complete recording. 
+If there are additional documents to be recorded, care should be taken to verify its 
+status prior to inserting the document in the record. 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     6      
+Drpd / Of :   15 
+ 
+6 
+ 
+2.5 Hybrid System 
+For hybrid system, the facility policies and procedures should determine which parts of 
+the record will be paper based and the other parts are stored in a data repository.  This 
+policy should also determine whether or not additional documents should be added as 
+paper based documents or scanned into the data repository. If documents are added to 
+the electronic portion of the record, these should be added as appendix. 
+In data recording process there are a number of tagging manner is normally practiced, 
+namely vital, important, useful, non-essential, etc. 
+ 2.6 Arrangement Scheme 
+There is no one arrangement scheme that is best for all records. Here are some basic 
+suggestions on the major ones. 
+ i) Chronological 
+ The file is a rranged by date. Most useful for small files and short life 
+span records for easy deleting when no longer needed. 
+ ii) Numeric 
+ The file is a rranged by number  and is the simplest form . It is a serial 
+arrangement beginning with the lowest number and proceeding .  M ore 
+complex systems can be used for large series. Best for case files of one 
+type or another, permits and for ms where numbers have already been 
+assigned. 
+ iii) Alphabetical Order 
+ The file is a rranged in alphabetical order from A  to Z. This is the basic 
+arrangement for most subject files.  Alphabetical subject files are difficult 
+to manage unless they are very fo cused, and the filing and identification 
+of folders is consistent.   Best use for small files or very consistent ones 
+where the folder titles are easily determined, such as a file of all outgoing 
+correspondence arranged by addressee. 
+ 
+ 
+ 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     7      
+Drpd / Of :   15 
+ 
+7 
+ 
+ iv) Alpha-numeric 
+The file is a rranged according to combination letters and numbers. 
+Whenever possible, the alphabetic and numeric parts of the identifier 
+should mean something rather than being arbitrarily assigned. 
+2.7 Filing Tips 
+For safe keeping and easy accessibility of file the following tips may help. 
+  i) Keep the file plan as simple as possible. 
+  ii) Have program staff assist in developing the filing plan 
+  iii) Use color coding for files or special folders to make filing simpler 
+  iv) Do not use alpha-numeric filing scheme for permits that already have 
+     numbers. 
+ 
+2.8 Adopt Proper Document Retrieval 
+It is recommended that a process be in place to track the locations and holders of the 
+record. This can be accomplished through a record check out system.  A reasonable 
+duration should be identified for which a record can be checked out.  
+  2.9 Hybrid or Electronic System  
+Appropriate access levels should be given based on the needs of the operator to 
+perform the job.  In some confidential cases, the records would be locked and available 
+as ‘read-only’, with limited to accessible personnel.  There should be a limited number 
+of operators with printing capabilities. 
+ 2.10  After Hours Retrieval – Paper Based System 
+Every facility should have a process in place for after office hour retrieval of records in 
+case of an emergency.  The supervisor should have keys to access the department and 
+be trained in retrieval, the sign-out process, and other security measures.  Department 
+procedures should track who has keys to the department and documentation of their 
+access on filing and retrieval procedures. 
+ 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     8      
+Drpd / Of :   15 
+ 
+8 
+ 
+3. Acquire And Sort Data 
+ 
+Data acquisition will capture data from an actual system and store the information in a format 
+that can be easily retriev ed. Another requirement is that  data should be able to capture 
+information programmatically or automatically, without any human intervention or guidance. 
+In general there are seven elements or functions that must be in place for a structure in a 
+data acquisition.  If only a number of th ese elements are part of the system, then the module 
+could be defined as components of data. 
+The seven elements are; 
+- Data collection 
+- Measurement  
+- Timing and triggering 
+- Real time clock 
+- System control 
+- Data communication and 
+- Data archives 
+ 
+Data is transferred via logic signal or analog forms based on the system application.  Data 
+hardware is usually interfaces between the signal and a computer. It could be in the form of 
+modules that can be connected to computer ports. 
+ 
+Data sorting is a process of arranging data into meaningful order so that you can analyze it 
+more effectively. For example, if you want to submit sales data by calendar month so that 
+you can produce a graph of sales performance. You may explore to sort data as follows: 
+-      Sort text data into alphabetical order 
+- Sort numeric data into numerical order 
+- Group sorted data to other levels 
+ By area or locality 
+ By month within a year 
+Sorting the data also makes job easier for analysis. For example, you might want to sort 
+sales data from most profitable sales to least profitable sales to show the relative position of 
+your company's best selling products. 
+You may discoverer more flexibility when sorting data within data. You can do this to many 
+different levels. For example, you can sort by cities within a region. 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     9      
+Drpd / Of :   15 
+ 
+9 
+ 
+On table worksheets, you can sort columns individually or in groups. For example, the 
+figure below shows a worksheet sorted on one item (Region) in the order of low to high 
+(i.e. A to Z). 
+ 
+No Region Department Profit Sum (RM) 
+1 Central Spare Parts 87,000.00 
+2 Lube Oil 78,000.00 
+3 East 
+Coast 
+Spare Parts 43,000.00 
+4 Lube Oil 34,000.00 
+5 Northern 
+Region 
+Spare Parts 64,000.00 
+6 Lube Oil 46,000.00 
+ 
+Figure 3: Table Sorted on Region 
+ 
+The following tips are recommended to be adhered to in effort to smoothen operation 
+on data acquisition and sorting. 
+- Eliminate obstacles to make work easy 
+- Eliminate the mistakes of retrieving the wrong items 
+- Avoid unnecessary disturbance by the unwanted items 
+- Prevent accumulation of unnecessary items 
+ 
+ 
+4. Periodically Review Document 
+Document review is a process of identifying both grammatical and functional errors.   This 
+process is important to enhance the quality of the documents and very well fits its needs. At 
+times, documents are often been ignored or forgotten without being reviewed. 
+The current challenges for document review are; 
+- No accountability of the documents 
+- Reviewed comments are not acceptable by the author 
+- Managers are not comfortable with track changes 
+- No proper document checklists available 
+ 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     10      
+Drpd / Of :   15 
+ 
+10 
+ 
+4.1 Review Process 
+There are ways and mean in reviewing a document. The followings are 
+suggested points and checklist for reference 
+ i) Examine the requirements and scope of the document 
+ ii) Check the release date, version and copyright trademark 
+ iii) Estimate required timing for completion 
+ iv) Print the document and do markings to identify changes 
+ v) Integrate changes from other reviewers 
+ vi) Submit the reviewed document to the author 
+ vii) Discuss on reviewed comments or edit if necessary 
+ 
+4.2 Review Checklist 
+The followings are steps to be taken for reviewing the work checklist 
+- Style and Format 
+- Body text 
+- Bullets 
+- Consistency in numbering 
+- Avoid blank space 
+- Update Field 
+- Update the document 
+- Check references 
+- Grammatical Errors 
+- Run spell check 
+- Check logical flow of contents 
+- Check clarity and readability 
+- Keep tenses consistent 
+- Avoid passive statement 
+- Remove abbreviations (e.g., i.e., viz) 
+- Check common misuse wording (Its, It’s, don’t, can’t) 
+- Check for gender specifications 
+- Check for numerical format (ONE to TEN shoul d be in words and 
+the rest are in numeric values) 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     11      
+Drpd / Of :   15 
+ 
+11 
+ 
+5. Advantages 
+The accuracy of the document will benefit your organization and customers by offering  
+the followings; 
+- Credible source of product 
+- Float up the unknown functionalities 
+- Benefit to corporate image of the organization 
+ 
+The stages for document review process are graphically shown in Figure 2. 
+ 
+ 
+ 
+Figure 2: Stages of Document Review Process 
+ 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     12      
+Drpd / Of :   15 
+ 
+12 
+ 
+ 
+6 Update Document Accordingly 
+Once you have indexed the content you need, you will want to start thinking about your 
+strategy for dealing with changes to those documents. Among others there are two 
+approaches in updating documents that have only partially changed. 
+- Atomic Updates 
+This approach allows changing only one or more fields of a document without 
+having to re-index the entire document. 
+- Optimistic Concurrency Or Optimistic Locking 
+It is a feature  of many databases, and allows conditional updating a document 
+based on its version. This approach includes semantics and rules for how to deal 
+with version matches or mismatches. 
+ 
+Atomic Updates and Optimistic Concurrency may be used as independent strate gies for 
+managing changes to documents, or they may be combin ed; you can use optimistic 
+concurrency to conditionally apply an atomic update. 
+ 
+ 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     13      
+Drpd / Of :   15 
+ 
+13 
+ 
+ 
+SOALAN / QUESTION 
+ 
+ 
+Q-1 Why does an organization put their internal documentation controls in place? 
+(15 markah/marks) 
+           ________________________________________________________________ 
+ 
+           ________________________________________________________________ 
+ 
+           ________________________________________________________________ 
+ 
+ 
+Q-2 The purpose of filings is to ___________, ___________ and _____________ to 
+evidence of transactions over time in accordance with accountability and work done. 
+ (3 markah/markah) 
+ 
+ 
+Q-3. Why filing system is designed and implemented within an organization? 
+ (10 markah/marks) 
+________________________________________________________________ 
+ 
+________________________________________________________________ 
+ 
+________________________________________________________________ 
+ 
+ 
+Q-4 How do you separate locations for incomplete records? 
+  
+ (10 markah/marks) 
+________________________________________________________________ 
+ 
+________________________________________________________________ 
+ 
+________________________________________________________________ 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     14      
+Drpd / Of :   15 
+ 
+14 
+ 
+Q-5 What are the current challenges for document review? 
+ (12 markah/marks) 
+ ________________________________________________________________ 
+ 
+________________________________________________________________ 
+ 
+________________________________________________________________ 
+ 
+ 
+Q-6.  State two approaches in updating documents with partial changes. 
+(10 markah/marks) 
+________________________________________________________________ 
+ 
+________________________________________________________________ 
+ 
+________________________________________________________________ 
+ 
+________________________________________________________________ 
+
+----PAGE BREAK----
+
+NO. KOD / CODE NO Z-009-4:2015-M01/P(4/7) Mukasurat / Page :     15      
+Drpd / Of :   15 
+ 
+15 
+ 
+ 
+RUJUKAN / REFERENCES 
+ 
+1. https://www.maynoothuniversity.ie/sites/default/files/assets/document/filingguidelines.pdf 
+2. http://stackoverflow.com/questions/1108/how-does-database-indexing-work 
+3. American Health Information Management Association;  
+4. https://cwiki.apache.org/confluence/display/solr/Updating+Parts+of+Documents 
+5. http://www.slideshare.net/tosujoydutta/document-review-process 
+6. http://docs.oracle.com/html/B13915_04/sorting.htm 
+7. https://www.engineersedge.com/instrumentation/data_acquisition_systems.htm 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,49 @@
+# 4-pelaksanaan-kompilasi\3.1 Bukti Penilaian Pengetahuan.docx
+
+BUKTI REKOD PENILAIAN PENGETAHUAN CU/EU
+NAMA PUSAT LATIHAN:
+NAMA SYARIKAT:
+KOD PROGRAM:		G452-009-3:2022
+NAMA PROGRAM:		MOTOR VEHICLE DAMAGE & REPAIR ASSESSMENT
+OPERATION
+TAHAP PROGRAM:		TAHAP 3
+TARIKH MULA LATIHAN:	1 NOV 2024
+TARIKH TAMAT LATIHAN:	30 APRIL 2026
+NAMA BAKAT:
+NO KAD PENGENALAN:
+PENILAIAN PENGETAHUAN (SETIAP CU)
+| No. | Nama Penilaian | Keputusan markah (100%) | Keterampilan / <60% - Belum Terampil / ≥60% - Terampil |
+| 1. | PENILAIAN PENGETAHUAN  / G452-009-3:2022-C01 |  |  |
+| 2. | PENILAIAN PENGETAHUAN  / G452-009-3:2022-C02 |  |  |
+| 3. | PENILAIAN PENGETAHUAN  / G452-009-3:2022-C03 |  |  |
+| 4. | PENILAIAN PENGETAHUAN  / G452-009-3:2022-C04 |  |  |
+| 5. | PENILAIAN PENGETAHUAN  / G452-009-3:2022-C05 |  |  |
+| 6. | PENILAIAN PENGETAHUAN  / G452-009-3:2022-C06 |  |  |
+
+Pengesahan pegawai penilai / tenaga pengajar:
+________________________________________
+Nama Pengawai Penilai / Tenaga Pengajar:
+Tarikh:
+BUKTI REKOD PENILAIAN PENGETAHUAN CORE ABILITIES
+NAMA PUSAT LATIHAN:
+NAMA SYARIKAT:
+KOD PROGRAM:		Z-009-3:2015
+NAMA PROGRAM:		CORE ABILITIES
+TAHAP PROGRAM:		TAHAP 3
+TARIKH MULA LATIHAN:	1 NOV 2024
+TARIKH TAMAT LATIHAN:	30 APRIL 2026
+NAMA BAKAT:
+NO KAD PENGENALAN:
+PENILAIAN PENGETAHUAN (SETIAP CU)
+| No. | Nama Penilaian | Keputusan markah (100%) | Keterampilan / <60% - Belum Terampil / ≥60% - Terampil |
+| 1. | PENILAIAN PENGETAHUAN  / Z-009-3:2015-CA01 |  |  |
+| 2. | PENILAIAN PENGETAHUAN  / Z-009-3:2015-CA02 |  |  |
+| 3. | PENILAIAN PENGETAHUAN  / Z-009-3:2015-CA03 |  |  |
+| 4. | PENILAIAN PENGETAHUAN  / Z-009-3:2015-CA04 |  |  |
+| 5. | PENILAIAN PENGETAHUAN  / Z-009-3:2015-CA05 |  |  |
+| 6. | PENILAIAN PENGETAHUAN  / Z-009-3:2015-CA06 |  |  |
+
+Pengesahan pegawai penilai / tenaga pengajar:
+________________________________________
+Nama Pengawai Penilai / Tenaga Pengajar:
+Tarikh:
