@@ -94,7 +94,15 @@ def make_break_doc():
 
 def prep_note_doc(f):
     sub = Document(f)
-    wa_text = sub.tables[0].rows[4].cells[1].text.strip() if sub.tables else ""
+    # strip empty <v:imagedata> (no r:id) inside the template's textbox — docxcompose chokes on them
+    for el in sub.element.body.iter():
+        if el.tag.endswith('}imagedata') and not any(k.endswith('}id') for k in el.attrib):
+            el.getparent().remove(el)
+    wa_text = ""
+    if sub.tables:
+        cell = sub.tables[0].rows[4].cells[1]
+        bold = [r.text for para in cell.paragraphs for r in para.runs if r.bold]
+        wa_text = (" ".join(bold) if bold else cell.text).strip()
     if not sub.paragraphs:
         return sub
     first_p = sub.paragraphs[0]

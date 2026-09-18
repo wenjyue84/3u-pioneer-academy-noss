@@ -30,7 +30,7 @@
 | 02 | `02 4.2 Penjajaran Jam Latihan CA-CU/` | 2880 h / 576 h 理论 / CA 80 h / 每 CU 99.2 h（12/12/13/12/13 = 62 天），公式保留 | ✅ |
 | 03 | `03 4.3 Jadual Teori dan Jadual Proses Kerja/` | 理论周表 CA 1–10 → C01 11–22 → C02 23–34 → C03 35–47 → C04 48–59 → C05 60–72；工序周表 P01–P11 | ✅ |
 | 04 | `04 3.3a Rangka Nota Pembelajaran/` | 5 份大纲 docx = 官员 3.3a prompt（Langkah 1）的**回答**：每个 Aktiviti Kerja 一张 Bab/Sub-topik 表；文件里不出现 prompt 文字 | ✅ |
-| 05 | `05 3.3b Nota Pembelajaran (Kertas Penerangan)/` | `CU C01-C05/` 26 份 = 3.3a Langkah 2+3 的回答填进官员 3.3b 模板（每 Bab：Objektif Pembelajaran → 编号小节 → Rumusan）· `Core Abilities L1-L3 (format JPK)/` 47 份 docx+PDF，照 zip 里官方 Kertas Penerangan 版式（JPK 徽标/地址/表头/页眉）· `Core Abilities L1-L3/` 为早期 3.3b 样式版，保留备查 | ✅ |
+| 05 | `05 3.3b Nota Pembelajaran (Kertas Penerangan)/` | `CU C01-C05/` 26 份 = 3.3a Langkah 2+3 的回答填进官员 3.3b 模板；**每份 21–26 页**（Jay 2026-09-18：每 WA 20–40 页）——每 Bab：Objektif → Pengenalan → 概念表 → 技术小节（表格+工作室实例）→ 步骤表 → 常见错误表 → 检查清单 → 案例 → Rumusan；末尾 Glosari、Peta minda、Latihan Pengukuhan；**表头列出该 CU 全部 WA，只加粗当前 WA**· `Core Abilities L1-L3 (format JPK)/` 47 份 docx+PDF，照 zip 里官方 Kertas Penerangan 版式（JPK 徽标/地址/表头/页眉）· `Core Abilities L1-L3/` 为早期 3.3b 样式版，保留备查 | ✅ |
 | 06 | `06 3.2 JSU - Jadual Spesifikasi Ujian/` | 一个 xlsx，5 对 sheet（JSU Cxx + Prompt Cxx），SUM 公式保留 | ✅ |
 | 07 | `07 3.4b Soalan Penilaian Pengetahuan/` | `CU C01-C05/` 5 卷（官员 3.4b 模板）· `Core Abilities L1-L3 (format JPK)/` 14 卷 docx+PDF，用 zip 里官方 `SOALAN PENILAIAN … .docx` 模板填（JPK 徽标、Arahan、MENGANDUNGI 页数、SKEMA）· `Core Abilities L1-L3/` 早期 3.4b 样式版备查 | ✅ |
 | 08 | `08 3.1 Bukti Rekod Penilaian Pengetahuan/` | 成绩记录表（5 CU + 14 CA 行） | ✅ |
@@ -38,7 +38,7 @@
 | 10 | `10 Lampiran 6 Laporan Penilaian Bukti Kekompetenan/` | PPL 核查表，26+26 行预填 | ✅ |
 | 11 | `11 Fail Pelaksanaan ADI (Syarikat)/` | Isi Kandungan、Surat Tawaran、Surat pelantikan | ✅（`[TBD]` 待填） |
 | 12 | `12 Fail Kompilasi Kemahiran Kerja (Bakat)/` | 封面、目录 pptx、分隔页 P01–P11 | ✅ |
-| 13 | `13 Buku Teks (kompilasi Nota)/` | **最终教科书**：26 份 Nota 合订（docx + **180 页 PDF**，目录带页码）+ 每 CU 一册 + Core Abilities 合订（360 页 PDF） | ✅ |
+| 13 | `13 Buku Teks (kompilasi Nota)/` | **最终教科书**：26 份 Nota 合订（docx + **726 页 PDF**，目录带页码；每份 WA 讲义 21–26 页）+ 每 CU 一册 + Core Abilities 合订（360 页 PDF） | ✅ |
 
 `INDEX-fail-pegawai.md` = 每个文件对应的模板、md 来源、剩余 `[TBD:]`。`00-SPEC.md` = 生成规则；`_tools/READABILITY-SPEC.md` = 排版可读性规则（字体 Arial、间距、表格样式；内容零改动，前后文本逐字比对）。`_tools/` = 生成脚本。`_assets/jpk-logo-official.png` = 从官方 PDF 裁出的 JPK 徽标。
 
