@@ -11,7 +11,7 @@
 
 ## Jadual pemetaan templat → sumber → output
 
-| Templat pegawai (raw/adi-mpc-template-2026-09/…) | Sumber kandungan (video-film-editing/…) | Output (12-fail-pegawai/…) |
+| Templat pegawai (raw/adi-mpc-template-2026-09/…) | Sumber kandungan (video-film-editing/…) | Output (output/…) |
 |---|---|---|
 | `2-fail-syarikat/0_Isi Kandungan Fail Pelaksanaan ADI Pekerjaan.docx` | `10-susunan-fail-kompilasi.md` §A | `2. …/0_Isi Kandungan Fail Pelaksanaan ADI Pekerjaan (IT-072).docx` |
 | `1-panduan/lampiran-jpk/LAMPIRAN 5 Borang Matriks Pemetaan Aktiviti Proses Kerja.xlsx` (sheet *NOSS vs Proses Kerja*, juga *CU & WA*) | `02-borang-matriks-lampiran-5.md`, `01-proses-kerja.md` | `2. …/1. Borang Matriks Pemetaan Aktiviti Proses Kerja Syarikat Berdasarkan NOSS_JPK_ADI_02-2024 (IT-072).xlsx` |
