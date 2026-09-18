@@ -29,3 +29,6 @@ raw/adi-mpc-template-2026-09/core-abilities/*.zip
 
 # Git Bash crash dumps
 bash.exe.stackdump
+
+# Office lock files
+~$*
