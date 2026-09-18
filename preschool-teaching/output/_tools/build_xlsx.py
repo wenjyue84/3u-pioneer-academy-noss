@@ -368,6 +368,14 @@ def cmd_jsu(cfg):
     sub_cols = {"a": 4, "b": 5, "c": 6, "d": 7}  # D,E,F,G
     aras_cols = {"R": 8, "S": 9, "T": 10}         # H,I,J
     esei_col = 11                                  # K
+    # Per-CU marks for struktur sub a/b/c/d, from 06-jsu.md "## Semakan silang" (a+b+c+d must = 20):
+    SUB_MARKS = {
+        "C01": {"a": 5, "b": 5, "c": 5, "d": 5},
+        "C02": {"a": 4, "b": 4, "c": 6, "d": 6},
+        "C03": {"a": 4, "b": 5, "c": 5, "d": 6},
+        "C04": {"a": 4, "b": 4, "c": 6, "d": 6},
+        "C05": {"a": 4, "b": 4, "c": 6, "d": 6},
+    }
 
     for seq, cu in enumerate(cfg["cu_order"], start=1):
         cu_data = data.get(cu)
@@ -381,22 +389,50 @@ def cmd_jsu(cfg):
         set_cell(ws, "B3", cu_data["nama"])
         set_cell(ws, "B5", cu_data["lo"])
 
+        # The template's SUBJEKTIF sheet has exactly 4 WA-listing rows (13-16), one per struktur
+        # sub-letter a/b/c/d (Buku Panduan Soalan 2024 §5.5.6: struktur is always a-d regardless
+        # of WA count). A 5-WA CU shares one sub-letter across two WA ("c (gabung WA5)" etc.) —
+        # those two WA must be COMBINED into that one letter's row, never given a 5th row (which
+        # would overflow into the template's JUMLAH row at 17 and corrupt it).
+        marks = SUB_MARKS[cu]
+        by_letter = {"a": [], "b": [], "c": [], "d": []}
+        esei_letter = None
+        for wa_no, wa_title, weight, sub, aras, esei_flag, esei_aras in cu_data["wa_rows"]:
+            # `sub`/`aras` can each hold a comma-separated list for a WA that maps to >1 sub-letter
+            # (e.g. sub="b, d", aras="S, T") — the two lists are POSITIONAL (sub[i] <-> aras[i]),
+            # so pair them by index rather than flat-matching every letter into every sub-letter.
+            sub_groups = [re.findall(r"\b[a-d]\b", part) for part in sub.split(",")]
+            aras_groups = [re.findall(r"\b[RST]\b", part) for part in aras.split(",")]
+            sub_letters = [sl for grp in sub_groups for sl in grp]
+            for i, grp in enumerate(sub_groups):
+                paired_aras = aras_groups[i] if i < len(aras_groups) else (aras_groups[0] if aras_groups else [])
+                for sl in grp:
+                    by_letter[sl].append((wa_no, wa_title.strip(), int(weight or 0), paired_aras))
+            if esei_flag == "1":
+                # esei is attached to whichever sub-letter row this WA also appears on (or 'a' if
+                # it maps to none, e.g. an esei-only WA never listed in struktur).
+                esei_letter = sub_letters[0] if sub_letters else "a"
+                esei_wa_no, esei_wa_title = wa_no, wa_title.strip()
+
         row = 13
         esei_wa_row = None
-        for wa_no, wa_title, weight, sub, aras, esei_flag, esei_aras in cu_data["wa_rows"]:
-            set_cell(ws, f"A{row}", wa_no)
-            set_cell(ws, f"B{row}", wa_title.strip())
-            ws[f"C{row}"] = int(weight)
-            sub_letters = re.findall(r"[a-d]", sub)
-            aras_letters = re.findall(r"[RST]", aras)
-            mark_per_sub = 20 // 4  # 5 marks per struktur sub-item
-            for sl in sub_letters:
-                ws.cell(row, sub_cols[sl]).value = mark_per_sub
-            for al in aras_letters:
-                ws.cell(row, aras_cols[al]).value = mark_per_sub
-            if esei_flag == "1":
+        for letter in ("a", "b", "c", "d"):
+            entries = by_letter[letter]
+            ws.cell(row, 1).value = ", ".join(e[0] for e in entries) or None
+            ws.cell(row, 2).value = "; ".join(e[1] for e in entries) or None
+            ws.cell(row, 3).value = sum(e[2] for e in entries) or None
+            ws.cell(row, sub_cols[letter]).value = marks[letter]
+            row_aras_letters = entries[0][3] if entries else []
+            for al in row_aras_letters:
+                ws.cell(row, aras_cols[al]).value = marks[letter]
+            if letter == esei_letter:
                 ws.cell(row, esei_col).value = 20
                 esei_wa_row = row
+                # esei WA may not itself be one of the struktur WAs on this row (e.g. an esei-only
+                # WA) — append its title so the sheet still names it.
+                if not any(e[0] == esei_wa_no for e in entries):
+                    existing = ws.cell(row, 2).value
+                    ws.cell(row, 2).value = f"{existing} / ESEI: {esei_wa_title}" if existing else f"ESEI: {esei_wa_title}"
             row += 1
         set_cell(ws, f"D17", 1)
         set_cell(ws, f"K17", 1)
