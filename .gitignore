@@ -23,3 +23,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Officer Drive Core Abilities archive (1.87 GB) — extracted L1-L3 docs are tracked, the zip is not
+raw/adi-mpc-template-2026-09/core-abilities/*.zip
+
+# Git Bash crash dumps
+bash.exe.stackdump
