@@ -1,0 +1,5443 @@
+
+
+===== PAGE 1 =====
+ 
+ 
+Jabatan Pembangunan Kemahiran 
+Kementerian Sumber Manusia, Malaysia 
+ 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD 
+(STANDARD KEMAHIRAN PEKERJAAN KEBANGSAAN) 
+ 
+ 
+ 
+ 
+ 
+P851-002-4:2025 
+ 
+PRESCHOOL TEACHING  
+ 
+PENGAJARAN PRASEKOLAH 
+ 
+LEVEL 4 
+ 
+
+
+===== PAGE 2 =====
+ 
+ 
+ 
+ 
+Copyright © DSD 2025  
+ 
+ 
+ 
+ 
+Department of Skills Development (DSD) 
+Federal Government Administrative Centre 
+62530 PUTRAJAYA, MALAYSIA 
+ 
+ 
+ 
+ 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD 
+ 
+ 
+ 
+PRESCHOOL TEACHING  
+ 
+PENGAJARAN PRASEKOLAH 
+ 
+LEVEL 4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+All rights reserved. 
+No part of this publication may be produced, stored in data base, retrieval system, or in any 
+form by any means, electronic, mechanical, photocopying, recording or otherwise without 
+prior written permission from Department of Skills Development (DSD). 
+ 
+
+
+===== PAGE 3 =====
+ 
+TABLE OF CONTENTS 
+Preface ....................................................................................................................................... i 
+Abbreviation ............................................................................................................................ ii 
+Glossary .................................................................................................................................. iii 
+List of Figure ............................................................................................................................v 
+List of Table ..............................................................................................................................v 
+List of Appendix .......................................................................................................................v 
+Acknowledgement .................................................................................................................. vi 
+STANDARD PRACTICE .......................................................................................................1 
+1. Introduction .......................................................................................................................2 
+1.1 Occupation Overview ..............................................................................................2 
+1.2 Rationale of NOSS Development ...........................................................................3 
+1.3 Rationale of Occupational Structure and Occupational Area Structure ...........9 
+1.4 Regulatory/Statutory Body Requirements Related to Occupation ....................9 
+1.5 Occupational Prerequisite ....................................................................................10 
+1.6 General Training Prerequisite for Malaysian Skills Certification System ......10 
+2. Occupational Structure (OS) .........................................................................................11 
+3. Occupational Area Structure (OAS) .............................................................................11 
+4. Definition of Competency Levels ...................................................................................12 
+5. Award of Certificate .......................................................................................................13 
+6. Occupational Competencies ...........................................................................................13 
+7. Work Conditions .............................................................................................................13 
+8. Employment Prospects ...................................................................................................14 
+9. Up Skilling Opportunities ..............................................................................................16 
+10. Organisation Reference for Sources of Additional Information ................................17 
+11. Standard Technical Evaluation Committee .................................................................19 
+12. Standard Development Committee ...............................................................................20 
+STANDARD CONTENT ......................................................................................................22 
+13. Competency Profile Chart (CPC) .................................................................................23 
+14. Competency Profile (CP) ................................................................................................26 
+CURRICULUM OF COMPETENCY UNIT ......................................................................36 
+15. Curriculum of Competency Unit ...................................................................................37 
+15.1 Conduct daily routine activities. ..........................................................................37 
+15.2 Perform preschool teaching and learning activities. ..........................................47 
+15.3 Organise preschool classroom environment. ......................................................58 
+
+===== PAGE 4 =====
+ 
+15.4 Develop pupil’s assessment. ..................................................................................66 
+15.5 Handle parental-community activities. ...............................................................75 
+16. Delivery Mode .................................................................................................................82 
+17. Tools, Equipment and Materials (TEM) ......................................................................83 
+18. Competency Weightage ..................................................................................................86 
+APPENDICES ........................................................................................................................88 
+19. Appendices .......................................................................................................................89 
+19.1 Appendix A: Competency Profile Chart For Teaching & Learning (CPCPdP) 
+ 89 
+19.2 Appendix B: Element Content Weightage ..........................................................93 
+
+===== PAGE 5 =====
+P851-002-4:2025 
+ i 
+Preface 
+ 
+Standard Definition 
+ 
+The National Occupational Skills Standard (NOSS) is a Standard document that outlines the 
+minimum competencies required by a skilled worker working in Malaysia for a particular area 
+and level of occupational, also the path to achieve the competencies. The competencies are 
+based on the needs of employment, according to the career structure for the occupational area 
+and developed by industry experts and skilled workers. 
+ 
+The National Competency Standard (NCS) is a Standard document that outlines the 
+competencies required by a skilled worker in Malaysia. 
+ 
+Description of Standard Components 
+ 
+The document is divided into three (3) components which includes: - 
+ 
+Component I  Standard Practice 
+This component is about the i nformation related to occupational area 
+including introduction to the industry, Standard requirements, occupational 
+structure, levelling of competency, authority and industry requirements as a 
+whole. 
+ 
+Component II  Standard Content 
+This component is a reference to industry employers in assessing and 
+improving the competencies that is required for a skilled worker. The 
+competencies are sp ecific to the occupational area. The component is 
+divided into two (2) section which are the chart (Competency Profile Chart, 
+CPC) and details of the competencies (Competency Profile, CP). 
+ 
+Component III  Curriculum of Competency Unit 
+This component is a reference for the training personnel to identify training 
+requirements, design the curriculum, and develop assessment. The training 
+hours that included in this component is based on the recommendations by 
+the Standard Development Committee (SDC). If there are modifications to 
+the training hours, the Department provides the medium for discussion and 
+consideration for the matter. 
+ 
+  
+
+===== PAGE 6 =====
+P851-002-4:2025 
+ ii 
+Abbreviation 
+ 
+1 DSD Department of Skills Development. 
+2 JAKIM Jabatan Kemajuan Islam Malaysia 
+3 JKM Department of Social Welfare 
+4 JPS Standard Development Committee 
+5 JTPS Standard Technical Evaluation Committee 
+6 JTS Standard Technical Committee 
+7 KEMAS Community Development Department 
+8 MOE Ministry of Education 
+9 MOH Ministry of Health 
+10 MOHLG Ministry of Housing and Local Government 
+11 MOHR Ministry of Human Resources 
+12 MPKK National Skills Development Council. 
+13 MSC Malaysian Skills Certificate 
+14 MSIC Malaysia Standard Industrial Classification 
+15 MWFCD Ministry of Women, Family and Community Development 
+16 NJT No Job Title 
+17 NOSS National Occupational Skills Standard 
+18 PERPADUAN National Unity and Integration Department 
+19 PPPM Pelan Pembangunan Pendidikan Malaysia 
+20 RPT Rancangan Pengajaran Tahunan/Yearly Lesson Plan 
+21 SLaPB Sistem Latihan Program Bertauliah 
+22 SLDN Sistem Latihan Dual Nasional 
+23 SMART Specific Measurable Achievable Relevant Time-bound 
+24 SOP Standard Operating Procedure 
+ 
+  
+
+===== PAGE 7 =====
+P851-002-4:2025 
+ iii 
+Glossary 
+ 
+1 Daily Lesson 
+Plan 
+Also known as Rancangan Pengajaran Harian  (RPH) is a structured 
+instructional document prepared by the teacher that outlines the learning 
+objectives, teaching activities, materials, time allocation, and assessment 
+for a specific day. It ensures that teaching is goal-oriented, organised, and 
+aligned with the curriculum. 
+2 Ergonomic 
+gestures 
+Refer to body movements and postures that are performed in a natural, 
+safe, and efficient manner to reduce physical strain, prevent injury, and 
+promote comfort during daily tasks. In a preschool or teaching context, 
+this includes how teachers lift objects,  move furniture, interact with 
+children at their eye level, or sit and stand during activities. 
+3 National 
+Preschool 
+Curriculum 
+A government-endorsed educational framework that outlines the learning 
+standards, objectives, and outcomes for each subject and educational level. 
+It provides uniform guidelines for curriculum design, teaching, learning, 
+and assessment to ensure consistent educational quality nationwide. 
+4 Pupil learning 
+abilities 
+The range of cognitive, emotional, social, physical, and language 
+capabilities that determine how a pupil processes information, responds to 
+instruction, and demonstrates learning across different contexts and 
+domains. 
+5 Regulatory 
+bodies 
+guideline 
+A set of rules, policies, or standards issued by authorised government or 
+statutory agencies to govern, monitor, and ensure compliance within 
+specific sectors such as education, health, safety, and childcare. These 
+guidelines provide the legal and procedur al framework for institutional 
+operations. 
+6 Stakeholder In the preschool context, stakeholder include parents, teachers, principals, 
+government agencies, community members, and relevant NGOs. 
+7 Structured 
+learning 
+A planned and organised approach to teaching and learning that follows a 
+clear sequence of objectives, content, activities, and assessment, often 
+based on a curriculum or syllabus. Structured learning ensures that pupils 
+progress systematically through developmental stages. 
+8 Traffic flow Refers to the planned and controlled physical movement of pupils and staff 
+within a learning environment. It includes structured routines such as 
+queueing in class, walking to the dining area, washing hands, sitting for 
+meals, cleaning up, re -washing hands , and returning to class. Effective 
+traffic flow ensures safety, discipline, and smooth transitions in daily 
+preschool routines. 
+9 Training 
+provider 
+A training provider refers to an institution, organisation, or company that 
+offers structured skills development and training programmes aligned with 
+national competency standards which includes providers conducting 
+programs under the Sistem Latihan Dual Nasional (SLDN) and Sistem 
+Latihan Program Bertauliah (SLaPB). 
+
+===== PAGE 8 =====
+P851-002-4:2025 
+ iv 
+10 Yearly 
+Lesson Plan 
+Also known as Rancangan Pengajaran Tahunan  (RPT) is a 
+comprehensive yearly instructional framework that outlines learning 
+objectives, content, themes, teaching strategies, and assessment methods 
+for each week or month, based on the national curriculum. It serves as a 
+guide for teachers to ensure balanced and progressive learning throughout 
+the academic year. 
+
+===== PAGE 9 =====
+P851-002-4:2025 
+ v 
+List of Figure 
+ 
+1. Figure 1 Occupational Structure for Pre-primary Teaching. 
+2. Figure 2 Occupational Area Structure for Pre-primary Teaching. 
+ 
+List of Table 
+ 
+1. Table 1 Competency Unit Comparison for P851-002-4:2025 – Preschool Teaching 
+and P854-009-3:2020 - Preschool Teaching and Education Administration. 
+2. Table 2 Competency Unit Comparison for P851-002-4:2025 – Preschool Teaching 
+and ET-012-3:2012 – Preschool Teaching. 
+ 
+List of Appendix 
+ 
+1. Appendix A Competency Profile Chart for Teaching & Learning (CPCPdP). 
+2. Appendix B Element Content Weightage. 
+ 
+  
+
+===== PAGE 10 =====
+P851-002-4:2025 
+ vi 
+Acknowledgement 
+ 
+Director General of Department of Skills Development (DSD) would like to extend gratitude 
+to the National Skills Development Council  (MPKK), Standard Technical Committee (JTS), 
+Standard Technical Evaluation Committee (JTPS), Standard Development Committee  (JPS), 
+and organisation and individuals who have been involved directly or indirectly for the 
+contribution, persistence, and support in the development of this Standard until it is completed. 
+ 
+
+===== PAGE 11 =====
+P851-002-4:2025 
+1 / 94 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STANDARD PRACTICE 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+PRESCHOOL TEACHING  
+ 
+LEVEL 4 
+  
+
+===== PAGE 12 =====
+P851-002-4:2025 
+2 / 94 
+1. Introduction 
+ 
+Preschool sector, plays a pivotal role in the foundational development of children between 
+the ages of 4 to 6 years. It is widely recognised as a critical phase that shapes cognitive, 
+emotional, physical, and social development. In Malaysia, the preschool sector is part of 
+the broader education ecosystem and is governed by several ministries and agencies 
+including the Ministry of Education (MOE), the Department of Social Welfare (JKM), 
+Jabatan Kemajuan Masyarakat also known as KEMAS and Jabatan Perpaduan Negara dan 
+Integrasi Nasional also known as PERPADUAN. 
+ 
+Preschools provide structured learning environments that blend play-based activities with 
+formal teaching to prepare children for primary education. The industry comprises both 
+public and private providers, encompassing government -funded institutions, fait h-based 
+and NGO-run centres, as well as commercial kindergartens and internationally affiliated 
+early childhood centres. With increasing emphasis on quality education and national 
+policies such as the Malaysia Education Blueprint (2013 –2025), the preschool  industry 
+has grown significantly in scope and demand. 
+ 
+The need for qualified and competent educators, principals, and support staff has become 
+more pronounced to ensure that preschool services meet national standards in curriculum, 
+safety, and child development. Moreover, the preschool industry is a vital com ponent in 
+promoting inclusive education, social cohesion, and long -term human capital 
+development. As such, continuous investment in training, professional certification, and 
+regulatory compliance remains central to the sustainable advancement of the presc hool 
+sector in Malaysia. 
+ 
+1.1 Occupation Overview 
+ 
+Preschool teacher profession requires specialized training to ensure effective 
+teaching and child development. Preschool teachers are expected to develop and 
+deliver lesson plans based on the National Preschool Curriculum, incorporating play-
+based and interactive learning techniques. They must manage classrooms efficiently, 
+ensuring a safe, inclusive, and engaging learning environment while encouraging 
+positive behaviour among children. Additionally, they monitor and assess children's 
+development, adapting teaching methods based on individual learning needs. 
+ 
+Beyond academics, preschool teachers also play a key role in nurturing social and 
+emotional development by teaching essential life skills such as sharing, cooperation, 
+and empathy. Regular collaboration with parents is essential to discuss children's 
+progress and provide guidance for continued learning at home. Moreover, ensuring 
+child safety and well -being is a fundamental responsibility, requiring adherence to 
+safety and hygiene regulations and readiness for emergency situations. 
+ 
+The push to professionalize preschool education in Malaysia has been ongoing. The 
+requirement for a diploma became official policy in the 2010, and the year 2020 was 
+the initial deadline by which all practicing preschool teachers needed to be diploma-
+qualified. As 2020 approached, the government provided support such as in -service 
+
+===== PAGE 13 =====
+P851-002-4:2025 
+3 / 94 
+training programs and scholarships to help unqualified teachers upgrade their 
+credentials1.  
+ 
+1.2 Rationale of NOSS Development 
+ 
+As of 28 February 2025, there are 7,577 preschool operating across the country, 
+employing a total of 31,826 teachers. However, only 6,439 of these teachers, which 
+accounts for approximately 20.2%, meet the minimum academic qualification 
+requirements2. This statistic highlights a significant gap in the qualifications of 
+preschool educators in the current landscape. 
+ 
+To address this gap and uplift the quality of education in the sector, the development 
+of the National Occupational Skills Standard (NOSS) for Pre -primary Private 
+Teaching has been identified as a strategic initiative. It is anticipated that this 
+development will contribute to an increase in the number of teachers meeting the 
+minimum academic standards, thereby strengthening the overall quality and 
+professionalism in preschool education nationwide. 
+ 
+This document serves as a strategic initiative to provide an alternative, industry -
+recognised qualification pathway for experienced preschool teachers who possess 
+significant practical expertise but lack formal certification due to financial 
+constraints, time limitations, or limited access to conventional educational routes. 
+ 
+In this context, the NOSS P854 -009-4:2020: Preschool Teaching and Education 
+Administration was originally developed to define the core competencies required 
+within the preschool sector. However, the framework primarily centres around 
+managerial and adminis trative responsibilities such as organisational planning, 
+institutional governance, and supervisory functions rather than encompassing direct 
+teaching practices, pedagogical leadership, or child -centred instructional strategies. 
+While the objective was to standardise qualifications for preschool professionals, its 
+limited emphasis on teaching and learning competencies has resulted in a disconnect 
+from the actual instructional needs encountered in classroom settings. 
+ 
+Given the depth and breadth of leadership functions embedded in P854-009-4:2020, 
+these competencies are more appropriately aligned with a Level 5 qualification, 
+specifically for individuals serving in the role of a preschool principal, rather than 
+early years teaching practitioners. 
+ 
+Consequently, a comprehensive review of the existing standard was undertaken, 
+leading to the development of NOSS P851 -002-4:2025. This revision was aimed at 
+ensuring closer alignment with current industry demands, classroom realities, and 
+contemporary pedagogical expectations. The review also involved redefining 
+occupational titles to better reflect evolving professional rol es and restructuring 
+selected competencies to enhance their relevance to technical, instructional, and 
+developmental aspects of preschool education. The key refinements and updates are 
+presented in Table 1 below.  
+ 
+ 
+1 Ministry of Education Malaysia – Malaysia Education Blueprint 2013-2025 (Preschool Education chapter) 
+2 Ministry of Education – Private Sector 
+
+===== PAGE 14 =====
+P851-002-4:2025 
+4 / 94 
+As part of the curriculum review and alignment with current educational standards, 
+the Competency Unit from ET-012-3:2012 – Preschool Teaching has been upgraded 
+and repositioned to Level 4. This adjustment in line with the Malaysian government's 
+policy to elevate the quality and professional status of preschool education. Table 2 
+shows comparison for competency unit of P851 -002-4:2025 – Preschool Teaching 
+and ET-012-3:2012 – Preschool Teaching. 
+ 
+
+===== PAGE 15 =====
+P851-002-4:2025 
+5 / 94 
+ 
+Table 1: Competency Unit Comparison for P851-002-4:2025 – Preschool Teaching and P854-009-4:2020 - Preschool Teaching and 
+Education Administration 
+ 
+NOSS P851-002-4:2025- Preschool Teaching  
+P854-009-4:2020 Preschool Teaching and Education Administration 
+COMPETENCY 
+UNIT 
+Conduct daily 
+routine 
+activities 
+P851-002-
+4:2025-C01 
+Perform 
+preschool 
+teaching and 
+learning 
+activities 
+P851-002-
+4:2025-C02 
+ 
+Organise 
+preschool 
+classroom 
+environment 
+P851-002-
+4:2025-C03 
+ 
+Develop 
+pupil’s 
+assessment 
+P851-002-
+4:2025-C04 
+Handle 
+parental-
+community 
+activities  
+P851-002-
+4:2025-C05 
+ 
+Remarks 
+Preschool 
+Personnel 
+Professional 
+Development 
+P854-009-4:2020-
+C01  
+     
+This set of competencies 
+corresponds more 
+accurately with Level 5 
+under P851-002-5:2025, 
+reflecting the competency 
+of a preschool principal. 
+Preschool 
+Teaching and 
+Learning 
+Resources 
+Administration 
+P854-009-4:2020-
+C02 
+     This set of competencies 
+corresponds more 
+accurately with Level 5 
+under P851-002-5:2025, 
+reflecting the competency 
+of a preschool principal. 
+Preschool 
+Children’s Well-
+Being Management 
+P854-009-4:2020-
+C03 
+     This set of competencies 
+corresponds more 
+accurately with Level 5 
+under P851-002-5:2025, 
+reflecting the competency 
+of a preschool principal. 
+
+===== PAGE 16 =====
+P851-002-4:2025 
+6 / 94 
+Preschool Early 
+Intervention 
+Administration 
+P854-009-4:2020-
+C04  
+     This set of competencies 
+corresponds more 
+accurately with Level 5 
+under P851-002-5:2025, 
+reflecting the competency 
+of a preschool principal. 
+Parental-
+Community 
+Involvement 
+Programme 
+Organising  
+P854-009-4:2020-
+C05 
+     This set of competencies 
+corresponds more 
+accurately with Level 5 
+under P851-002-5:2025, 
+reflecting the competency 
+of a preschool principal. 
+ 
+  
+
+===== PAGE 17 =====
+P851-002-4:2025 
+7 / 94 
+ 
+Table 2: Competency Unit Comparison for P851-002-4:2025 – Preschool Teaching and ET-012-3:2012 – Preschool Teaching 
+ 
+NOSS  P851-002-4:2025 - Preschool Teaching  
+ET-012-3:2012- Preschool Teaching 
+COMPETENCY 
+UNIT 
+Handle daily 
+routine 
+activities 
+P851-002-
+4:2025-C01 
+ 
+Conduct daily 
+routine 
+activities 
+P851-002-
+4:2025-C02 
+ 
+Perform 
+preschool 
+teaching and 
+learning 
+activities 
+P851-002-
+4:2025-C03 
+ 
+Develop 
+pupil’s 
+assessment 
+P851-002-
+4:2025-C04 
+ 
+Handle 
+parental-
+community 
+activities  
+P851-002-
+4:2025-C05 
+ 
+Remarks 
+Preschool 
+Children’s  
+Health, Safety And  
+Security Assurance  
+ET-012-3:2012-
+C01  
+X     
+Preschool children’s 
+health, safety and security 
+assurance is embedded 
+within the competency of 
+handle daily routine 
+activities 
+ 
+Preschool Teaching  
+And Learning  
+ET-012-3:2012-
+C02 
+ X    
+Teaching and learning are 
+embedded within the 
+competency of conduct 
+daily routine activities 
+Classroom  
+Management 
+ET-012-3:2012-
+C03 
+  X   
+Classroom management 
+embedded within the 
+competency of Perform 
+preschool teaching and 
+learning activities 
+Assessing  
+Preschool Children 
+ET-012-3:2012-
+C04  
+   X  
+Assessing preschool 
+children is embedded 
+within the competency of 
+develop pupil’s 
+assessment 
+
+===== PAGE 18 =====
+P851-002-4:2025 
+8 / 94 
+Child   
+Guidance  
+ET-012-3:2012-
+C05 
+   X  
+Child guidance is 
+embedded within the 
+competency of develop 
+pupil’s assessment 
+Organising  
+Preschool Out-Of 
+School Activities 
+ET-012-3:2012-
+C06 
+    X 
+Organising  
+preschool out of 
+school activities are 
+embedded within the 
+competency of handle 
+parental-community 
+activities 
+Building   
+Family And  
+Community  
+Relationships 
+ET-012-3:2012-
+C07 
+    X 
+Building family and 
+community relationships 
+are embedded within the 
+competency of handle 
+parental-community 
+activities 
+ X = Previous Competency Unit retained/ covered in this NOSS. 
+ 
+ 
+
+===== PAGE 19 =====
+P851-002-4:2025 
+9 / 94 
+ 
+1.3 Rationale of Occupational Structure and Occupational Area Structure 
+ 
+In accordance with the Malaysia Standard Industrial Classification (MSIC), which 
+standardizes the categorization of economic activities within the country, the NOSS 
+development committee has determined that the role of Preschool Teaching falls 
+under Section (P) Education. Given the nature of the work, the complexity of the 
+process, and industry practices, the 3 -digit code that most closely aligns with this 
+NOSS is Group (851), Pre-Primary and Primary Education. 
+ 
+Based on input from industry experts, the revised NOSS is designated at level 4 
+which in line with the Malaysian government's policy to elevate the quality and 
+professional status of preschool education. NOSS development committee identified 
+several key ar eas related to pre-primary and primary education, including Pre -
+primary Teaching Assistance, Pre -primary Public Teaching, Pre -primary Private 
+Teaching, Primary Public Teaching and Primary Private Teaching. However, for the 
+development of this specific NOSS , the committee’s focus was exclusively on Pre -
+primary Private Teaching ensuring a structured and competency -based framework 
+that aligns with national education policies and industry best practices, fostering 
+high-quality early childhood education and professional excellence in the sector.  
+ 
+However, the competency standards for preschool teachers in both private and 
+government institutions remain the same, ensuring uniformity in the quality of early 
+childhood education across different preschool settings. Regardless of whether an 
+educator works in a government -funded preschool or a privately owned institution, 
+they are required to demonstrate the same level of knowledge, skills, and pedagogical 
+competencies in areas such as curriculum implementation, child development, 
+classroom management, as sessment, and child safety. This standardization aligns 
+with national education policies and industry best practices, ensuring that all 
+preschool educators are equipped with the necessary expertise to foster children's 
+holistic development and create a nurturing learning environment. The occupational 
+structure and occupational area structure are shown in Figure 1 and Figure 2. 
+ 
+1.4 Regulatory/Statutory Body Requirements Related to Occupation 
+ 
+The occupation of Preschool Teaching in Malaysia generally subject to the following 
+acts and regulatory requirements:  
+ 
+a) Ministry of Education (MOE)  
+i) Education Policy and Strategic Planning Division 
+• Malaysian Education Act 1996 (Act 550);  
+ii) Private Education Division 
+• Garis Panduan Penubuhan, Pendaftaran Dan Pengoperasian Tadika 
+Swasta Kementerian Pendidikan Malaysia; and 
+iii) School Operational Sector 
+• Garis Panduan Pelaksanaan Standard Kualiti Prasekolah 
+Kebangsaan.  
+ 
+ 
+ 
+
+===== PAGE 20 =====
+P851-002-4:2025 
+10 / 94 
+b) Ministry of Women, Family and Community Development (MWFCD)  
+i) Child Act 2001; and  
+ii) Sexual Offences Against Children Act 2017 SOAC (Amendment 2023).  
+ 
+c) Ministry of Health (MOH)  
+i) Food Act 1983 (Act 281); and  
+ii) Prevention and Control of Infectious Diseases Act 1988 (Amendment 
+2021).  
+ 
+d) Ministry of Human Resources Malaysia (MOHR).  
+i) Department of Labour Peninsular Malaysia:  
+• Employment Act 1955 (Act 265)  
+ii) Department of Labour Sabah:  
+• Sabah Labour Ordinance 1949 (Sabah Cap. 67).  
+iii) Department of Labour Sarawak:  
+• Sarawak Labour Ordinance 1952 (Sarawak Cap. 76).  
+iv) Department of Occupational Safety and Health.  
+• Occupational Safety and Health Act 1994 (Act 514).  
+ 
+e) Ministry of Housing and Local Government (MOHLG) 
+i) Local Government Act 1976; and  
+ii) Fire Service Act 1988 (Act 341). 
+ 
+f) Ministry of Home Affairs 
+i) Immigration Act 1959/63 (Act 155). 
+ 
+1.5 Occupational Prerequisite 
+ 
+The minimum occupational prerequisite for this job position are as follows:  
+a) Subject to the acts and regulation of the Ministry of Education (MOE); 
+b) Able to read and write in Bahasa Malaysia and English; and 
+c) Medically fit report (mentally and physically) certified by medical practitioner. 
+ 
+ 
+1.6 General Training Prerequisite for Malaysian Skills Certification System 
+ 
+The minimum prerequisite to enrol into the Preschool Teaching is able to  
+a) Speak, read and write in Malay and basic English; and 
+b) Have basic mathematical literacy. 
+  
+
+===== PAGE 21 =====
+P851-002-4:2025 
+11 / 94 
+2. Occupational Structure (OS) 
+ 
+Section (P) Education 
+Group (851) Pre-primary and Primary Education 
+Area Pre-primary 
+Teaching 
+Assistance 
+Pre-primary Teaching Primary Teaching 
+Sub Area Public  Private  Public  Private  
+Level 5  NJT Preschool 
+Principal 
+Preschool 
+Principal 
+School 
+Principal 
+School 
+Principal 
+Level 4  NJT Preschool 
+Teacher 
+Preschool 
+Teacher 
+School 
+Teacher 
+School 
+Teacher 
+Level 3  Preschool 
+Teaching 
+Assistant 
+No Job Title No Job Title No Job Title No Job Title 
+Level 2  No Job Title No Job Title No Job Title No Job Title No Job Title 
+Level 1  No Job Title No Job Title No Job Title No Job Title No Job Title 
+ 
+Figure 1: Occupational Structure for Pre-primary Teaching 
+ 
+3. Occupational Area Structure (OAS) 
+ 
+Section (P) Education 
+Group (851) Pre-primary and Primary Education 
+Area Pre-primary 
+Teaching 
+Assistance 
+Pre-primary Teaching Primary Teaching 
+Sub Area Public  Private  Public  Private  
+Level 5  NJT Preschool Operation 
+Administration 
+School 
+Principal 
+School 
+Principal 
+Level 4  NJT Preschool Teaching School 
+Teacher 
+School 
+Teacher 
+Level 3  Preschool 
+Teaching 
+Support 
+No Job Title No Job Title No Job Title No Job Title 
+Level 2  No Job Title No Job Title No Job Title No Job Title No Job Title 
+Level 1  No Job Title No Job Title No Job Title No Job Title No Job Title 
+ 
+Figure 2: Occupational Area Structure for Pre-primary Teaching 
+  
+
+===== PAGE 22 =====
+P851-002-4:2025 
+12 / 94 
+4. Definition of Competency Levels 
+ 
+The NOSS is developed for various occupational areas. Below is a guideline of each 
+NOSS Level as defined by the Department of Skills Development, Ministry of Human 
+Resources, Malaysia. 
+ 
+Level 1:  Competent in performing a range of varied work activities, most of 
+which are routine and predictable. 
+  
+Level 2: Competent in performing a significant range of varied work activities, 
+performed in a variety of contexts. Some of the activities are non -
+routine and required individual responsibility and autonomy. 
+  
+Level 3: Competent in performing a broad range of varied work activities, 
+performed in a variety of contexts, most of which are complex and 
+non-routine. There is considerable responsibility and autonomy and 
+control or guidance of others is often required. 
+  
+Level 4: Competent in performing a broad range of complex technical or 
+professional work activities performed in a wide variety of contexts 
+and with a substantial degree of personal responsibility and 
+autonomy. Responsibility for the work of others and allocation o f 
+resources is often present. 
+  
+Level 5:   Competent in applying a significant range of fundamental principles 
+and complex techniques across a wide and often unpredictable variety 
+of contexts. Very substantial personal autonomy and often significant 
+responsibility for the work of others and for the  allocation of 
+substantial resources features strongly, as do personal accountabilities 
+for analysis, diagnosis, planning, execution and evaluation. 
+ 
+  
+
+===== PAGE 23 =====
+P851-002-4:2025 
+13 / 94 
+5. Award of Certificate 
+ 
+The Director General may award, to any person upon conforming to the Standards the 
+following skills qualifications  as stipulated under the National Skills Development Act  
+2006 (Act 652): 
+ 
+a) Malaysian Skills Diploma (MSD); or 
+b) Statements of Achievement. 
+ 
+6. Occupational Competencies 
+ 
+The Preschool Teaching  Level 4 personnel is competent in performing the following core 
+competencies: 
+ 
+a) Conduct daily routine activities; 
+b) Perform preschool teaching and learning activities; 
+c) Organise preschool classroom environment; 
+d) Develop pupil’s assessment; and 
+e) Handle parental-community activities. 
+ 
+7. Work Conditions 
+ 
+Preschool teacher typically works in preschool, which may be run by the government, 
+private institutions, NGOs or organizations. Their work environment includes classrooms 
+designed to be child-friendly, incorporating colourful decorations, learning materials, and 
+play areas. Lessons are conducted across all pupils development domains includes both 
+indoors and outdoors activities, hands-on activities, storytelling, singing, communicating, 
+reading and writing . Hygiene and safety are major priorities, as preschoolers are more 
+prone to accidents and illnes ses, requiring teachers to maintain a clean and safe learning 
+space. 
+ 
+The working hours for preschool teachers general ly, though this may vary depending on 
+the type of institution. Government -run preschools, such as those under the Ministry of 
+Education (MOE), Jabatan Kemajuan Masyarakat  (KEMAS) and Jabatan Perpaduan 
+Negara dan Integrasi Nasional (PERPADUAN), usually follow school hours and finish 
+earlier, while private preschools may require teachers to stay until 5:00 PM to 
+accommodate extended childcare services. Some international preschools also have 
+longer teaching hours but offer better salaries and benefits. Despite their scheduled hours, 
+many preschool teachers continue working at home, preparing lesson plans, reviewing 
+pupils’ progress, and creating teaching materials. 
+ 
+The role of a preschool teacher is both dynamic and impactful, requiring a balance of 
+creativity, patience, and strong pedagogical skills to foster early childhood development. 
+Working in an engaging and stimulating environment, preschool educators create a 
+structured yet playful atmosphere enriched with visual learning aids, interactive activities, 
+and hands -on experiences. Their primary responsibility extends beyond academic 
+instruction to include the cognitive, social, and motor skill development of young learners 
+through storytelling, music, games, and creative arts. Effective classroom management is 
+essential, as each child presents unique developmental needs and behavioural traits, 
+necessitating adaptability and strong communication skills. 
+
+===== PAGE 24 =====
+P851-002-4:2025 
+14 / 94 
+ 
+Beyond educational instruction, preschool teachers hold a critical duty in ensuring the 
+safety, well -being, and overall care of their pupil. This includes maintaining a secure 
+learning environment, assisting with essential needs, and fostering positive social 
+interactions. A collaborative relationship with parents is fundamental to the holistic 
+development of the child, requiring consistent c ommunication to provide developmental 
+updates, address challenges, and reinforce learning strategies at home. 
+ 
+While direct classroom engagement may constitute a portion of their responsibilities, 
+preschool teachers also dedicate substantial time to lesson planning, curriculum 
+development, pupil assessment  and professional collaboration. Their work demands a 
+high level of organization and commitment, yet it offers profound professional fulfilment. 
+The ability to witness and contribute to a child’s growth  from foundational learning to 
+increased confidence and social engagement is an invaluable reward. Preschool educators 
+serve as the architects of early education, shaping not only academic skills but also 
+essential life foundations, making their role indispensable in a child’s lifelong learning 
+journey. 
+ 
+8. Employment Prospects 
+ 
+As Malaysia moves toward professionalizing the preschool sector, employment prospects 
+for preschool teachers are expected to become more competitive, with institutions 
+preferring teachers who have at least a diploma or degree in early childhood education. 
+This shift encourages educators to pursue further qualifications and professional 
+development to remain competitive in the job market. Apart from traditional teaching 
+roles, experienced preschool teachers can advance into positions such as head teachers,  
+curriculum developers, preschool principals, or early childhood education trainers. 
+Additionally, some educators choose to venture into entrepreneurship by establishing their 
+own kindergartens or childcare centres, contributing to the growing early education 
+industry. 
+ 
+In accordance w ith the Malaysian government’s continuous efforts to improve early 
+childhood education and the increasing number of working parents seeking quality 
+preschool education for their children, the job outlook for preschool teachers remains 
+stable and is expecte d to grow steadily. Those with higher qualifications, specialized 
+training, and experience in innovative teaching methods will have better career 
+opportunities and higher earning potential in the future. 
+ 
+The profession offers structured career progression, with teachers able to advance into 
+leadership roles such as preschool principal, curriculum developer, or education 
+consultant through higher qualifications. Entrepreneurial opportunities also exist for 
+experienced educators seeking to establish their own kindergartens or childcare centres, 
+supported by government incentives for early education businesses. Additionally, 
+educators specializing in special needs education and bilingual instruction (English, 
+Mandarin, Tamil, or Arabic) are increasingly sought after, particularly in private and 
+international preschools where multilingual and inclusive education is a priority. 
+ 
+Preschool teacher salaries are influenced by factors such as qualifications, experience, and 
+the type of institution. At the entry level, preschool teachers may receive a minimum 
+monthly wage of RM1,700. This corresponds to a daily rate ranging from RM65.3 8 to 
+
+===== PAGE 25 =====
+P851-002-4:2025 
+15 / 94 
+RM98.08, depending on the number of working days per week, or RM8.72 per hour 3. 
+Earnings may increase with accumulated experience or specialized competencies. In 
+addition to financial remuneration, preschool teachers enjoy job stability, opportunities 
+for continuous professional development, and exposure to international best practi ces 
+through globally recognized teaching methodologies. 
+ 
+As part of Malaysia’s long-term Education Development Plan (PPPM) 2013 -2025, early 
+childhood education remains a key national priority, ensuring sustained job growth and 
+professional development for preschool educators. With the continuous expansion of 
+preschool education and the rising demand for high -quality early learning experiences, 
+the field presents a rewarding and future -proof career path for those passionate about 
+shaping the next generation. 
+ 
+ 
+  
+ 
+3 Federal Government Gazette - Minimum Wages Order 2024 
+
+===== PAGE 26 =====
+P851-002-4:2025 
+16 / 94 
+9. Up Skilling Opportunities 
+ 
+Beyond formal education, preschool teachers in Malaysia can enhance their skills through 
+professional development programs, workshops, and short courses offered by institutions 
+like the Ministry of Education (MOE), the Department of Social Welfare (JKM), higher 
+training institutions and private training providers. These programs cover areas such as 
+child psychology, special needs education, digital learning integration and classroom 
+management techniques. 
+ 
+Moreover, with the increasing awareness of inclusive education, many teachers are seeking 
+certification in special needs education, allowing them to support children with learning 
+disabilities and expand their career prospects. 
+ 
+  
+
+===== PAGE 27 =====
+P851-002-4:2025 
+17 / 94 
+10. Organisation Reference for Sources of Additional Information 
+ 
+The following organisations can be referred as sources of additional information which 
+can assist in defining the document's contents.  
+ 
+a) Ministry of Education (MOE) 
+Block E8, Complex E, 
+Administration Centre of Federal Government, 
+62604 Putrajaya, Malaysia. 
+03-8884 6456 
+www.moe.gov.my  
+adukpm@moe.gov.my  
+ 
+b) Ministry of Health (MOH)  
+Blok E1, E3, E6, E7 & E10, Complex E  
+Federal Government Administrative Centre,  
+62590 Putrajaya.  
+03-8883 3888  
+www.moh.gov.my  
+kkm@moh.gov.my  
+ 
+c) Ministry of Women, Family and Community Development (MWFCD)  
+No 55, Persiaran Perdana Presint 4,  
+62100 Putrajaya, Malaysia.  
+03-8323 1000  
+www.kpwkm.gov.my  
+info@kpwkm.gov.my  
+ 
+d) Ministry of Natural Resources and Environmental Sustainability 
+Block F11, Kompleks F, 
+Lebuh Perdana Timur, Presint 1, 
+62000 Putrajaya 
+03-8091 7000 
+www.nres.gov.my  
+webmaster@nres.gov.my 
+ 
+e) Jabatan Kemajuan Masyarakat (KEMAS) 
+Aras 5-9,  
+No 47, Persiaran Perdana,  
+Presint 4,  
+Pusat Pentadbiran Kerajaan Persekutuan,  
+62100 Putrajaya. 
+03-8891 2682 
+www.kemas.gov.my 
+info@kemas.gov.my 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 28 =====
+P851-002-4:2025 
+18 / 94 
+ 
+f) Jabatan Perpaduan Negara dan Integrasi Nasional (JPNIN) 
+Aras 7-10,  
+Blok E2, Kompleks E 
+Pusat Pentadbiran Kerajaan Persekutuan,  
+62502 Putrajaya. 
+03-8883 7000  
+webmaster@perpaduan.gov.my 
+www.jpnin.gov.my 
+ 
+g) Prime Ministry Department 
+Jabatan Kemajuan Islam Malaysia (JAKIM),  
+Blok A dan B, Kompleks Islam Putrajaya,  
+No 23, Jalan Tunku Abdul Rahman,  
+Presint 3,  
+62100 Putrajaya.  
+03-8870 7000  
+www.islam.gov.my  
+ukkjakim@islam.gov.my 
+ 
+  
+
+===== PAGE 29 =====
+P851-002-4:2025 
+19 / 94 
+11. Standard Technical Evaluation Committee 
+ 
+NO NAME POSITION & ORGANISATION 
+CHAIRMAN 
+1  Mahazrul bin Kamarrudin 
+ 
+Senior Assistant Director 
+Department of Skills Development 
+2  Mohd Nizam bin Saad Senior Assistant Director 
+Department of Skills Development 
+EVALUATION PANEL 
+1  Mohd Suffian bin Mahmud 
+ 
+Senior Assistant Director 
+Policy and Governance Unit 
+Private Education Division  
+Ministry of Education Malaysia 
+2  Mohammad Afidzi bin Nor 
+Mohammad 
+Assistant Director 
+Policy and Governance Unit 
+Private Education Division  
+Ministry of Education Malaysia 
+3  Siti Norziana binti Abdul Karim 
+ 
+Assistant Director  
+Early Childhood Education Division 
+Community Development Department 
+(KEMAS) 
+4  Mohd Azahar bin Madar 
+ 
+Education Services Officer 
+Sekolah Kebangsaan Panchang Pedena 
+Ministry of Education Malaysia 
+5  Hazman bin Sapawi 
+ 
+Manager 
+RSQ Kids Academy 
+SECRETARIAT 
+1  Markhuza binti Mokhtar Principal Assistant Director 
+Department of Skills Development 
+ 
+  
+
+===== PAGE 30 =====
+P851-002-4:2025 
+20 / 94 
+12. Standard Development Committee 
+ 
+PRESCHOOL TEACHING  
+ 
+LEVEL 4 
+ 
+NO NAME POSITION & ORGANISATION 
+DEVELOPMENT PANEL 
+1  Tajul Effandy bin Hassan Senior Assistant Director 
+Curriculum Development Division 
+Ministry of Education 
+2  Nandakumar a/l Kunasekaran Assistant Director 
+Private Education Division 
+Ministry of Education 
+3  Seri Hana binti Hassan Musi Assistant Officer  
+Community Development Department 
+(KEMAS) Selangor 
+4  Eu Bee Lay President 
+Persatuan Tadika Swasta Kuala Langat 
+Selangor 
+5  Mahanom binti Basri President 
+Persatuan Taska, Tadika & Pusat Jagaan 
+Selangor (PTPGS) 
+6  Sharifah Nor Hayati binti Syed 
+Mohammad 
+President 
+Persatuan Pengusaha-Pengusaha dan 
+Guru-Guru Tadika Swasta Negeri Perak 
+7  Siti Rakiah binti Omar President 
+Majlis Guru Besar Tadika (MGBTI) 
+Negeri Sembilan  
+8  Wan Najmiyah binti Wan Yussof President 
+Persatuan Guru Tadika Swasta Negeri 
+Terengganu (PENTAS) 
+9  Angelique Chua @ Chua Yin Yin Principal 
+Rainbow Hill Educare Sdn. Bhd. 
+Sarawak 
+10  Nurul Sakinah binti Sallehuddin Principal 
+Tadika Nadi Iman 
+Selangor 
+11  Selvi a/p Muniandy Principal 
+Tadika Sri Kreatif Genius 
+Johor 
+12  Safiah binti Sulaiman Academic Supervisor of Taski ABIM 
+ABIM Unit Kajang 
+Selangor 
+  
+
+===== PAGE 31 =====
+P851-002-4:2025 
+21 / 94 
+NO NAME POSITION & ORGANISATION 
+FACILITATOR 
+1  Ts. Khairul Anuar bin Mahmood 
+@ Talib 
+CIAST/PPL/FDS-0013/2012 
+Senior Assistant Director 
+Department of Skills Development 
+2  Markhuza binti Mokhtar Principal Assistant Director 
+Department of Skills Development 
+DOCUMENTOR 
+1  Nik Muslihuddin bin Nik Sulaiman Documentor 
+ 
+  
+
+===== PAGE 32 =====
+P851-002-4:2025 
+22 / 94 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+STANDARD CONTENT 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+PRESCHOOL TEACHING  
+ 
+LEVEL 4 
+ 
+
+===== PAGE 33 =====
+P851-002-4:2025 
+23 / 94 
+13. Competency Profile Chart (CPC) 
+ 
+SECTION (P) EDUCATION 
+GROUP (851) PRE-PRIMARY AND PRIMARY EDUCATION 
+AREA PRE-PRIMARY TEACHING 
+NOSS TITLE PRESCHOOL TEACHING  
+NOSS LEVEL FOUR (4) NOSS CODE P851-002-4:2025 
+ 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+   
+    
+CORE 
+ 
+CONDUCT DAILY 
+ROUTINE 
+ACTIVITIES 
+ HANDLE PUPIL’S 
+ARRIVAL  HANDLE PUPIL’S 
+RECESS TIME  HANDLE PUPIL’S 
+TOILET BREAK  HANDLE PUPIL’S 
+DISMISSAL 
+ P851-002-4:2025-C01  P851-002-4:2025-
+C01-W01  P851-002-4:2025-
+C01-W02  P851-002-4:2025-
+C01-W03  P851-002-4:2025-
+C01-W04 
+          
+ 
+PERFORM 
+PRESCHOOL 
+TEACHING AND 
+LEARNING 
+ACTIVITIES 
+ 
+PREPARE YEARLY 
+LESSON PLAN 
+(RPT) 
+ 
+PREPARE DAILY 
+LESSON PLAN 
+(RPH) 
+ 
+PREPARE 
+TEACHING AND 
+LEARNING 
+MATERIAL 
+ DELIVER DAILY 
+LESSON PLAN 
+ P851-002-4:2025-C02  P851-002-4:2025-
+C02-W01  P851-002-4:2025-
+C02-W02  P851-002-4:2025-
+C02-W03  P851-002-4:2025-
+C02-W04 
+ 
+  
+
+===== PAGE 34 =====
+P851-002-4:2025 
+24 / 94 
+ 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+           
+CORE 
+   ANALYSE LESSON 
+EFFECTIVENESS       
+   P851-002-4:2025-
+C02-W05       
+          
+ 
+ORGANISE 
+PRESCHOOL 
+CLASSROOM 
+ENVIRONMENT 
+ 
+PREPARE 
+LEARNING 
+ENVIRONMENT 
+ HANDLE PUPIL’S 
+ATTENDANCE  
+RECORD 
+CLASSROOM 
+INVENTORY 
+ 
+CONTROL 
+PUPIL’S 
+BEHAVIOUR 
+ P851-002-4:2025-C03  P851-002-4:2025-
+C03-W01  P851-002-4:2025-
+C03-W02  P851-002-4:2025-
+C03-W03  P851-002-4:2025-
+C03-W04 
+          
+ DEVELOP PUPIL’S 
+ASSESSMENT  
+ASSESS PUPIL’S 
+BEHAVIOUR AND 
+ATTITUDE 
+ 
+PREPARE PUPIL’S 
+ASSESSMENT 
+ACTIVITY 
+ 
+EXECUTE 
+OBSERVATION 
+OF PUPIL’S 
+ASSESSMENT 
+ 
+DEVELOP PUPIL’S 
+PROGRESS 
+REPORT 
+ P851-002-4:2025-C04  P851-002-4:2025-
+C04-W01  P851-002-4:2025-
+C04-W02  P851-002-4:2025-
+C04-W03  P851-002-4:2025-
+C04-W04 
+ 
+  
+
+===== PAGE 35 =====
+P851-002-4:2025 
+25 / 94 
+ 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+           
+CORE 
+   
+PRESENT PUPIL’S 
+ASSESSMENT 
+OUTCOME 
+      
+   P851-002-4:2025-
+C04-W05       
+      
+ 
+HANDLE 
+PARENTAL-
+COMMUNITY 
+ACTIVITIES 
+ 
+ 
+ 
+CARRY OUT 
+PRESCHOOL 
+PARENTAL-
+COMMUNITY 
+ACTIVITIES 
+ 
+ENGAGE 
+RELATIONSHIP 
+WITH FAMILY 
+AND 
+COMMUNITY 
+ 
+PREPARE REPORT 
+PARENTAL-
+COMMUNITY 
+ACTIVITIES 
+  
+ P851-002-4:2025-C05  P851-002-4:2025-
+C05-W01  P851-002-4:2025-
+C05-W02  P851-002-4:2025-
+C05-W03   
+  
+
+===== PAGE 36 =====
+P851-002-4:2025 
+26 / 94 
+14. Competency Profile (CP) 
+ 
+SECTION (P) Education 
+GROUP (851) Pre-primary and Primary Education 
+AREA Pre-primary Teaching 
+NOSS TITLE Preschool Teaching  
+NOSS LEVEL Four (4) NOSS CODE P851-002-4:2025 
+ 
+CU TITLE &  
+CU CODE 
+Conduct daily routine activities. 
+P851-002-4:2025-C01 
+CU 
+DESCRIPTOR 
+Conduct daily routine activities describes the process of managing and supporting pupils through their regular school 
+day to ensure their well-being, safety and smooth participation in preschool. 
+ 
+The person who is competent in this CU should be able to handle pupil’s arriving, handle pupil’s recess time, handle 
+pupil’s toilet break and handle pupil’s dismissal. 
+ 
+The outcome of this CU is the ability to carry out daily routines efficiently and responsibly, ensuring that pupils are 
+well-supervised, safe and supported throughout the day. 
+ 
+ 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1. Handle 
+pupil’s 
+arrival. 
+ 
+1.1 Ensure safety and security in 
+and out.  
+1.2 Clean preschool area. 
+1.3 Prepare workstation for 
+physical check.  
+1.4 Greet pupil and 
+parents/guardian.  
+1.5 Conduct physical checks on 
+pupils. 
+1.6 Record pupil health. 
+1.1 Safety and security of indoor and outdoor premises adhered according to 
+preschool own standard operating procedure (SOP). 
+1.2 Preschool area cleanliness maintained according to preschool own SOP. 
+1.3 Workstation for physical check set up according to checklist.  
+1.4 Pupil and parents/guardian welcomed according to preschool own SOP. 
+1.5 Temperature screening, sign of diseases and injury checked according to 
+physical checklist. 
+1.6 Physical check result documented according to preschool own SOP.  
+1.7 Pupil’s health status confirmed by observing symptoms according to 
+preschool own SOP.  
+
+===== PAGE 37 =====
+P851-002-4:2025 
+27 / 94 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1.7 Identify pupil’s health status.  
+1.8 Handover to classroom’s 
+teacher. 
+ 
+1.8 Unfit pupil isolated if needed according to preschool own SOP.  
+1.9 Pupil escorted to classroom to begin learning activities. 
+ 
+2. Handle 
+pupil’s recess 
+time. 
+ 
+2.1 Arrange meal area according 
+to dietary requirements. 
+2.2 Instruct pupils to queue. 
+2.3 Guide pupil for hand wash. 
+2.4 Serve pupil food.  
+2.5 Monitor mealtime. 
+2.6 Clean up meal area. 
+2.7 Guide handwash after meal. 
+2.8 Dispose food waste. 
+ 
+2.1 Meal area prepared with consideration of pupil's allergies and food 
+restrictions. 
+2.2 Pupils line up in following queueing procedure at designated area. 
+2.3 Maintain hygiene and courtesy behaviour during mealtime according to 
+preschool own SOP. 
+2.4 Meals served in an orderly manner to ensure hygiene and prevent cross -
+contamination. 
+2.5 Pupil’s behaviour and table manners during mealtimes facilitated by 
+teacher according to SOP. 
+2.6 Cleanliness of table, chair and floor of meal area maintained according to 
+preschool own SOP. 
+2.7 Hand hygiene after meal facilitated according to SOP. 
+2.8 Food residue and waste disposed into designated bins. 
+ 
+3. Handle 
+pupil’s toilet 
+break. 
+ 
+3.1 Establish regular toilet break. 
+3.2 Supervise toilet use. 
+3.3 Ensure cleanliness of toilet 
+after use. 
+3.4 Ensure pupil’s cleanliness 
+after toilet use. 
+ 
+3.1 Toilet break conducted according to schedule. 
+3.2 Systematically observe pupils’ adherence to safety procedures, hygiene 
+practices, and appropriate behaviour during toilet use according to toilet 
+SOP. 
+3.3 Toilet cleanliness (flush, toilet bowl and floor ) checked after toilet use  
+align to toilet cleaning schedule. 
+3.4 Pupil’s proper hygiene after toilet use maintained. 
+ 
+4. Handle 
+pupil’s 
+dismissal. 
+4.1 Ensure all belongings packed. 
+4.2 Assemble in designated area. 
+4.3 Handover to authorized 
+person. 
+4.1 Pupil’s personal belongings checked according to dismissal SOP. 
+4.2 Pupils guided to designated location in proper manners for dismissal. 
+4.3 Pupils released to parents/caregiver/transporter. 
+4.4 Parents contacted for late pickup promptly. 
+
+===== PAGE 38 =====
+P851-002-4:2025 
+28 / 94 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+4.4 Contact parents or guardian or 
+emergency contact for late 
+pickup. 
+4.5 Record late pick-up. 
+4.6 Cleaning preschool area. 
+4.7 Record daily routine. 
+4.5 Name, times and person of pickup documented for reference and security. 
+4.6 Preschool cleanliness maintained according to duty roster. 
+4.7 Late pickup and daily issue report submitted to principal for verification. 
+ 
+  
+
+===== PAGE 39 =====
+P851-002-4:2025 
+29 / 94 
+CU TITLE &  
+CU CODE 
+Perform preschool teaching and learning activities. 
+P851-002-4:2025-C02 
+CU 
+DESCRIPTOR 
+Perform preschool teaching and learning activities  describes the process of planning, organizing and delivering 
+educational experiences that promote the cognitive, emotional, social and physical development of preschool pupils. 
+ 
+The person who is competent in this CU should be able to  prepare yearly lesson plan (RPT), prepare daily lesson  
+plan (RPH), prepare teaching and learning material, deliver daily lesson plan and analyse lesson effectiveness. 
+ 
+The outcome of this CU is the ability to implement structured and developmentally appropriate teaching and learning 
+activities that support and enhance the holistic growth of preschool pupils. 
+ 
+ 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1. Prepare 
+yearly lesson 
+plan (RPT). 
+ 
+1.1 Identify National Preschool 
+Curriculum. 
+1.2 Plan preschool RPT. 
+1.3 Review preschool RPT. 
+1.4 Produce document RPT. 
+ 
+1.1 Content, learning and teaching strategy complied with National 
+Preschool Curriculum. 
+1.2 Structured learning time frame and approaches aligned with yearly goals. 
+1.3 Content standard and learning standard reviewed based on teaching 
+strategic.  
+1.4 Preschool RPT documents produced according to National Preschool 
+Curriculum. 
+ 
+2. Prepare daily 
+lesson plan 
+(RPH). 
+ 
+2.1 Review preschool RPT. 
+2.2 Create preschool RPH. 
+2.3 Review preschool RPH. 
+2.4 Produce approved RPH. 
+ 
+2.1 Learning and teaching activities planned according to preschool RPT. 
+2.2 Preschool RPH which includes objective, activities and reflection for 
+teaching and learning activities created according to timetable. 
+2.3 Preschool RPH reviewed by principal according to National Preschool 
+Curriculum. 
+2.4 Preschool RPH modified according to principal’s review (if any). 
+2.5 Preschool RPH documents produced according to National Preschool 
+Curriculum. 
+ 
+
+===== PAGE 40 =====
+P851-002-4:2025 
+30 / 94 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+3. Prepare 
+teaching and 
+learning 
+material. 
+ 
+3.1 Identify teaching and learning 
+material. 
+3.2 Select teaching and learning 
+material. 
+3.3 Create teaching and learning 
+material. 
+ 
+3.1 Digital and non -digital t eaching and learning material identified 
+according to lesson plan. 
+3.2 Teaching and learning material selected according to lesson plan.  
+3.3 Teaching and learning material produced according to lesson plan.  
+ 
+4. Deliver daily 
+lesson plan. 
+ 
+4.1 Engage well with pupil. 
+4.2 Arrange pupil by group. 
+4.3 Deliver lesson plan content. 
+4.4 Carry out teaching activities.  
+4.5 Record reflection for teacher. 
+4.6 Record reflection for pupil. 
+ 
+4.1 Induction session conducted to stimulate focus and readiness. 
+4.2 Group of pupils categorised according to pupil learning abilities.  
+4.3 Lesson sequence presented using varied instructional strategies. 
+4.4 Teaching activities conducted according to lesson plan. 
+4.5 Objective, material used and time management effectiveness evaluated 
+according to lesson plan. 
+4.6 Pupils understanding, response and participation evaluated according to 
+lesson plan. 
+ 
+5. Analyse 
+lesson 
+effectiveness. 
+5.1 Evaluate lessons effectiveness. 
+5.2 Compile pupil’s work. 
+5.3 Record pupil assessment. 
+5.4 Review with principal.  
+ 
+5.1 Performance standard s evaluated based on learning areas outlined in 
+National Preschool Curriculum for future improvement. 
+5.2 Pupil’s work organised based on learning area. 
+5.3 Pupil’s learning progress and performance  identified according to pupil 
+learning abilities. 
+5.4 Teaching progress discussed with principal and suggestions noted. 
+ 
+ 
+  
+
+===== PAGE 41 =====
+P851-002-4:2025 
+31 / 94 
+CU TITLE &  
+CU CODE 
+Organise preschool classroom environment. 
+P851-002-4:2025-C03 
+CU 
+DESCRIPTOR 
+Organise preschool classroom environment  describes the process of creating, maintaining, and supervising a safe, 
+organized, and stimulating learning space that supports effective teaching and fosters positive behaviour among 
+preschool pupils. 
+ 
+The person who is competent in this CU should be able to prepare learning environment, handle pupil’s attendance, 
+record classroom inventory and control pupil’s behaviour. 
+ 
+The outcome of this CU is a well-managed, conducive and child -friendly classroom environment that promotes 
+safety, engagement and positive learning experiences. 
+ 
+ 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1. Prepare 
+learning 
+environment. 
+1.1 Identify current timetable. 
+1.2 Plan learning environment.  
+1.3 Create learning environment.  
+1.4 Evaluate effectiveness of 
+learning environment. 
+ 
+1.1 Up-to date timetable confirmed according to lesson plan.  
+1.2 Learning environment planned according to  different learning 
+approaches. 
+1.3 Learning environment set-up according to learning strategies. 
+1.4 Classroom environment effectiveness align ed according to pupil’s 
+movement and conducive which includes well -ventilated, hygiene, 
+furniture age appropriate and free from hazard, learning corners. pupil to 
+space area ratio. 
+ 
+2. Handle 
+pupil’s 
+attendance. 
+2.1 Prepare daily pupil ’s 
+attendance record. 
+2.2 Record daily attendance status. 
+2.3 Check pupil’s absences. 
+2.4 Report to principal for further 
+action. 
+ 
+2.1 Daily pupil’s attendance record prepared according to preschool own 
+SOP. 
+2.2 Daily attendance documented in log attendance  according to preschool 
+own SOP.   
+2.3 Pupil’s absences without parent’s notification listed  according to log 
+attendance. 
+2.4 Pupil’s absences list handover to principal for further action. 
+ 
+
+===== PAGE 42 =====
+P851-002-4:2025 
+32 / 94 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+3. Record 
+classroom 
+inventory. 
+3.1 Verify inventory classroom 
+regularly. 
+3.2 Record inventory classroom. 
+3.3 Report the inventory 
+classroom. 
+ 
+3.1 Condition and quantity of materials and equipment confirmed against 
+inventory record. 
+3.2 Condition and quantity of each item entered into inventory record using 
+standard format. 
+3.3 Report missing or damaged items to the principal. 
+ 
+4. Control 
+pupil’s 
+behaviour. 
+ 
+4.1 Prepare classroom rules. 
+4.2 Maintain classroom rules. 
+4.3 Motivate pupil’s positive 
+attitude. 
+ 
+4.1 Clear rules displayed using age-appropriate visuals and language. 
+4.2 Pupil consistently encouraged to adhere to classroom rules. 
+4.3 Positive reinforcement strategies applied consistently to promote 
+adherence to classroom rules. 
+ 
+ 
+  
+
+===== PAGE 43 =====
+P851-002-4:2025 
+33 / 94 
+CU TITLE &  
+CU CODE 
+Develop pupil’s assessment. 
+P851-002-4:2025-C04 
+CU 
+DESCRIPTOR 
+Develop pupil’s assessment describes the process of planning, conducting and documenting evaluations of pupil ’s 
+behaviour, attitude and learning progress to support their overall development and inform teaching strategies. 
+ 
+The person who is competent in this CU should be able to assess pupil’s behaviour and attitude, prepare pupil’s 
+assessment activity, execute observation of pupil’s assessment, prepare pupil’s progress report and report progress 
+report. 
+ 
+The outcome of this CU is the ability to carry out comprehensive and accurate assessments that reflect each pupil’s 
+development and effectively communicate their progress to stakeholders. 
+ 
+ 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1. Assess 
+pupil’s 
+behaviour and 
+attitude. 
+1.1 Monitor pupil’s behaviour and 
+attitude. 
+1.2 Record pupil’s behaviour and 
+attitude. 
+1.3 Analyse pupil’s behaviour.  
+1.4 Report pupil’s behaviour. 
+1.5 Identify follow-up action. 
+ 
+1.1 Pupil’s behaviour and attitude observed according to assessment tools  
+based on National Preschool Curriculum. 
+1.2 All evidence and samples documented  for future reference according to 
+preschool own guideline. 
+1.3 Pupil’s behaviour analysed according to pupil’s milestone and learning 
+area. 
+1.4 Behaviour and attitude observational report discusse d collaboratively 
+with principal. 
+1.5 Follow-up action determined based on principal’s input and observation 
+analysis. 
+ 
+2. Prepare 
+pupil’s 
+assessment 
+activity. 
+2.1 Identify assessment area. 
+2.2 Prepare assessment tools and 
+material. 
+2.3 Confirm assessment activities. 
+ 
+2.1 Assessment domains selected referring to National Preschool 
+Curriculum. 
+2.2 Digital or non-digital assessments determined according to lesson plan.  
+2.3 Assessment structure and timeline validated with principal  according to 
+lesson plan. 
+ 
+
+===== PAGE 44 =====
+P851-002-4:2025 
+34 / 94 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+3. Execute 
+observation 
+of pupil’s 
+assessment. 
+3.1 Carry out assessment activities.  
+3.2 Monitor assessment process. 
+3.3 Conduct observation 
+assessment. 
+ 
+3.1 Assessment activities such as observation and portfolio conducted 
+according to teaching schedule. 
+3.2 Pupil’s engagement during assessment observed for consistency and 
+involvement. 
+3.3 Assessment on pupil conducted at a ppropriate time based on learning 
+area. 
+ 
+4. Develop 
+pupil’s 
+progress 
+report. 
+ 
+4.1 Record pupil’s progress. 
+4.2 Analyse strength and 
+weakness. 
+4.3 Prepare progress report.   
+ 
+4.1 Pupil’s progress during observation documented.  
+4.2 Learning strengths and gaps identified in relation to curriculum 
+outcomes. 
+4.3 Comprehensive report generated according to analysed data and teacher 
+notes.  
+5. Present 
+pupil’s 
+assessment 
+outcome. 
+ 
+ 
+5.1 Prepare assessment feedback to 
+parents. 
+5.2 Participate parents -teachers 
+meet-up. 
+5.3 Recommend for improvement. 
+ 
+5.1 Assessment outcome communicated to parents via written and verbal 
+means. 
+5.2 Meeting session facilitated to discuss pupil’s development and 
+challenges. 
+5.3 Improvement suggestions shared with stakeholders for follow-up action. 
+ 
+ 
+  
+
+===== PAGE 45 =====
+P851-002-4:2025 
+35 / 94 
+CU TITLE &  
+CU CODE 
+Handle parental-community activities. 
+P851-002-4:2025-C05 
+CU 
+DESCRIPTOR 
+Handle parental-community activities describes the process of fostering strong partnerships between the preschool, 
+parents and the community through meaningful engagement, collaborative activities and effective communication. 
+ 
+The person who is competent in this CU should be able to carry out preschool parental-community activities, engage 
+relationship with family and community, prepare report parental-community activities. 
+ 
+The outcome of this CU is the ability to build supportive relationships and promote active involvement of parents 
+and the community in preschool programs, enhancing the overall development and learning experience of pupils. 
+ 
+ 
+WORK 
+ACTIVITIES WORK STEPS PERFORMANCE CRITERIA 
+1 Carry out 
+preschool 
+parental-
+community 
+activities. 
+1.1 Propose parental-community 
+activity. 
+1.2 Prepare proposal for 
+implementation. 
+1.3 Perform parental-community 
+involvement programme. 
+ 
+1.1 Yearly program identified according to management plan. 
+1.2 Proposal (objective, location, date, budget) proposed according to 
+management approval. 
+1.3 Community involvement programme handled according to program 
+objective. 
+ 
+2 Engage 
+relationship 
+with family 
+and 
+community. 
+2.1 Prepare programme 
+requirement. 
+2.2 Participate in preschool 
+programme. 
+2.3 Handle programme and 
+activities.  
+2.1 Programme requirement formulated according to Specific Measurable 
+Achievable Relevant Time-bound (SMART) principles. 
+2.2 Teacher’s engagement contributing positively to support overall 
+programme goal. 
+2.3 Activities coordinated using approved guidelines. 
+ 
+3 Prepare report 
+parental-
+community 
+activities. 
+3.1 Collect feedback from 
+participant. 
+3.2 Prepare summary report.  
+3.3 Conduct post-mortem meeting. 
+3.1 Feedback is recorded in a format suitable for analysis and documentation 
+purposes.  
+3.2 Comprehensive report content (attendance data, parental -community 
+activity findings) generated according to feedback from participant. 
+3.3 Recommendation and improvements for future activities identified. 
+
+===== PAGE 46 =====
+P851-002-4:2025 
+36 / 94 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CURRICULUM OF COMPETENCY UNIT 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+PRESCHOOL TEACHING  
+ 
+LEVEL 4 
+ 
+
+===== PAGE 47 =====
+P851-002-4:2025 
+37 / 94 
+15. Curriculum of Competency Unit  
+15.1 Conduct daily routine activities. 
+ 
+SECTION (P) Education 
+GROUP (851) Pre-primary and Primary Education 
+AREA Pre-primary Teaching 
+NOSS TITLE Preschool Teaching  
+COMPETENCY UNIT TITLE Conduct daily routine activities. 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to implement daily preschool 
+routines in a safe, organised, and developmentally appropriate manner according to own preschool 
+guidelines.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Handle pupil’s arrival. 
+2. Handle pupil’s recess time. 
+3. Handle pupil’s toilet break. 
+4. Handle pupil’s dismissal. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) 
+Not Available. 
+CU CODE P851-002-4:2025-C01 NOSS LEVEL Four (4) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Handle 
+pupil’s 
+arrival. 
+1.1 Introduction to 
+pupil safety and 
+security: 
+• Social 
+learning 
+theory and 
+1.1 Ensure safety and 
+security in and out.  
+1.2 Clean preschool area. 
+1.3 Prepare workstation 
+for physical check.  
+ATTITUDE 
+1.1 Child-friendly. 
+ 
+SAFETY 
+COGNITIVE DOMAIN 
+1.1 Importance of safety and 
+security in preschool 
+explained. 
+
+===== PAGE 48 =====
+P851-002-4:2025 
+38 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+thoughts 
+from 
+scholars. 
+• SOP Indoor. 
+• SOP 
+Outdoor. 
+• SOP Arrival. 
+1.2 Elements of 
+cleaning 
+activities: 
+• Checklist 
+cleaning 
+area.  
+• Cleaning 
+method. 
+• Cleaning 
+tools.  
+• Cleaning 
+schedule. 
+1.3 Workstation 
+criteria: 
+• Layout. 
+• Tools. 
+• Entrance 
+area. 
+1.4 Welcoming 
+pupils and 
+1.4 Greet pupil and 
+parents/guardian.  
+1.5 Conduct physical 
+checks on pupils. 
+1.6 Record pupil health. 
+1.7 Identify pupils’ health 
+status.  
+1.8 Handover to 
+classroom’s teacher. 
+ 
+1.1 Adhere to health, 
+safety and security 
+rules and regulation. 
+ 
+ENVIRONMENT 
+1.1 Ensure the area is 
+clean and safe. 
+ 
+1.2 Key components of social 
+learning theory and thoughts 
+from scholars described. 
+1.3 Indoor and outdoor safety and 
+hygiene procedures listed. 
+ 
+PSYCHOMOTOR DOMAIN 
+1.1 Proper in and out safety checks 
+demonstrated. 
+1.2 Cleaning routines using correct 
+techniques and tools 
+performed. 
+1.3 Workstation setup arranged 
+according to hygiene and safety 
+procedure. 
+1.4 Friendly and professional 
+greeting executed. 
+1.5 Pupils respectfully handled 
+while checking for health signs 
+(temperature, cleanliness, etc) 
+1.6 Appropriate forms for health 
+documentation used. 
+1.7 Signs of illness or discomfort 
+observed and distinguished 
+using physical cues. 
+1.8 Responsibility transferred with 
+verbal communication. 
+ 
+AFFECTIVE DOMAIN 
+
+===== PAGE 49 =====
+P851-002-4:2025 
+39 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+parents/ 
+guardian: 
+• Greeting 
+procedures. 
+• Proper 
+communicati
+on. 
+1.5 Basic health 
+screening 
+procedures: 
+• Regulatory 
+bodies 
+policy. 
+• MoH Policy 
+& 
+Procedures 
+(Chicken 
+Pox, 
+HFMD). 
+• Common 
+disease 
+symptom. 
+• Tools.  
+1.6 Types of record 
+procedure: 
+• Checklist. 
+• Logbook. 
+• Digital form. 
+1.1 Pupils’ emotional and physical 
+states are observed attentively 
+upon arrival. 
+1.2 Health, safety and security 
+rules and regulation adhered. 
+1.3 Cleanliness and safety of area 
+confirmed. 
+ 
+ 
+
+===== PAGE 50 =====
+P851-002-4:2025 
+40 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1.7 Pupil health 
+condition: 
+• Normal 
+temperature.  
+• Sign and 
+symptoms. 
+1.8 Pupil’s 
+handover: 
+• Classroom 
+listing. 
+• Handover 
+procedures. 
+ 
+2. Handle 
+pupil’s 
+recess 
+time. 
+2.1 Dietary 
+requirement: 
+• Food 
+Pyramid. 
+• Menu 
+Schedule. 
+• Portion. 
+• Food safety. 
+• Food 
+allergies. 
+2.2 SOP meal. 
+2.3 Traffic flow.  
+2.4 SOP Hand 
+Wash (Washing 
+2.1 Arrange meal area 
+according to dietary 
+requirements. 
+2.2 Instruct pupils to 
+queue. 
+2.3 Guide pupil for hand 
+wash. 
+2.4 Serve pupil’s food.  
+2.5 Monitor mealtime. 
+2.6 Clean up meal area. 
+2.7 Guide handwash after 
+meal. 
+2.8 Dispose food waste. 
+ 
+ 
+ATTITUDE 
+2.1 Alert the cleaning of 
+meals area. 
+2.2 Proactive in pupil ’s 
+mealtime. 
+2.3 Patience in handling 
+pupil’s mealtime. 
+ 
+SAFETY 
+2.1 Ensure the safety of 
+the utensil and meal 
+area. 
+2.2 Ensure attention to 
+each pupil ’s food 
+allergic 
+COGNITIVE DOMAIN 
+2.1 Components of dietary 
+requirement identified. 
+2.2 Safe and efficient traffic flow 
+for pupils described. 
+2.3 Correct steps of handwashing 
+based on MoH guidelines 
+demonstrated. 
+2.4 Safe and unsafe food practices 
+differentiated. 
+2.5 Pupil’s eating habits explained. 
+2.6 Various cleaning methods and 
+tools identified. 
+2.7 Items suitable for reduce, reuse 
+and recycle classified. 
+
+===== PAGE 51 =====
+P851-002-4:2025 
+41 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+hand step 
+(MoH)). 
+2.5 MoH 
+procedures 
+(Food Handling 
+procedures). 
+2.6 Monitoring 
+Mealtime (Pupil 
+eating 
+behaviour). 
+2.7 Cleanliness of 
+meal area: 
+• Cleaning 
+Method. 
+• Cleaning 
+Tools. 
+• Cleaning 
+Step. 
+2.8 Waste 
+management 
+principle. 
+ 
+2.3 Ensure hand are 
+washed before and 
+after eating.  
+ 
+ENVIRONMENT 
+2.1 Ensure comply with 
+3R (Recycle, Reuse, 
+reduce). 
+2.2 Monitoring pupil 
+conducive 
+environment. 
+ 
+ 
+2.8 Principles of waste 
+management address. 
+ 
+PSYCHOMOTOR DOMAIN 
+2.1 Tables and eating stations 
+organised following food 
+preferences. 
+2.2 Students guided with physical 
+cues or sign to form a line. 
+2.3 Model correct handwashing 
+technique. 
+2.4 Serving portions controlled 
+based on dietary needs. 
+2.5 Pupils eating habits and posture 
+observed. 
+2.6 Appropriate tools and motions 
+for wiping, sweeping, or 
+disposing of waste used 
+correctly. 
+2.7 Handwashing routines repeated 
+and reinforced through 
+physical guidance. 
+2.8 Waste materials transferred 
+carefully into bins. 
+ 
+AFFECTIVE DOMAIN 
+2.1 Listen and respond to pupil 
+needs during mealtime  
+demonstrated. 
+
+===== PAGE 52 =====
+P851-002-4:2025 
+42 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+2.2 Pupils encouraged to eat 
+independently and healthily. 
+2.3 Respect for each pupil’s dietary 
+requirement and cultural food 
+practices demonstrated. 
+2.4 Care, supervision, and 
+engagement balanced to ensure 
+smooth routines. 
+2.5 Consistent caring, respect, and 
+responsibility are demonstrated 
+during mealtime.  
+ 
+3. Handle 
+pupil’s 
+toilet 
+break. 
+3.1 Toilet SOP: 
+• Rules. 
+• Schedule.  
+3.2 Toilet etiquette. 
+3.3 Aspect of toilet 
+cleanliness 
+practises. 
+3.4 Aspect of pupil 
+cleanliness 
+practises. 
+ 
+3.1 Establish regular toilet 
+break. 
+3.2 Supervise toilet use. 
+3.3 Ensure cleanliness of 
+toilet after use. 
+3.4 Ensure pupil’s 
+cleanliness after toilet 
+use. 
+ 
+ 
+ATTITUDE 
+3.1 Reminder the 
+cleanliness of toilet. 
+3.2 Proactive.  
+3.3 Patience in handling 
+pupil’s toilet time. 
+ 
+SAFETY 
+3.1 Ensure the safety of 
+toilets. 
+ 
+ENVIRONMENT 
+3.1 Monitoring pupil 
+environment. 
+3.2 Reminder the 
+cleanliness of toilet 
+COGNITIVE DOMAIN 
+3.1 Toilet SOP rules, hygiene 
+steps, and safety guidelines 
+explained. 
+3.2 Importance of toilet hygiene 
+and routines to pupils 
+explained. 
+3.3 Schedule and rules to guide 
+consistent and safe toilet and 
+pupil cleanliness habits 
+explained. 
+ 
+PSYCHOMOTOR DOMAIN 
+3.1 Scheduled toilet breaks 
+coordinated and organized 
+efficiently. 
+
+===== PAGE 53 =====
+P851-002-4:2025 
+43 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3.3 Ensure tools and 
+equipment provided. 
+ 
+3.2 Correct usage of toilet by pupil 
+demonstrated. 
+3.3 Toilet cleanliness inspected 
+and maintained through routine 
+checking. 
+3.4 Pupil’s cleanliness on pants, 
+underwear, zip, hands and 
+private part checked according 
+to SOP. 
+ 
+AFFECTIVE DOMAIN 
+3.1 Instructions regarding safety 
+and cleanliness are listened to 
+attentively. 
+3.2 Cleanliness maintained during 
+toilet breaks. 
+3.3 Patience while handling pupil’s 
+toilet time demonstrated. 
+3.4 Consistent self -discipline in 
+following toilet SOP exhibited. 
+3.5 Positive hygiene practice in 
+toilet usage demonstrated. 
+
+===== PAGE 54 =====
+P851-002-4:2025 
+44 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+4. Handle 
+pupil’s 
+dismissal. 
+4.1 Introduction to 
+pupil safety and 
+security: 
+• Social 
+learning and 
+theory 
+thoughts 
+from 
+scholars. 
+• SOP Indoor. 
+• SOP 
+Outdoor. 
+• SOP 
+Dismissal. 
+4.2 Emergency 
+contact 
+procedure: 
+• Late pickup. 
+• Emergency 
+case. 
+4.3 Record 
+procedure: 
+• Late pickup. 
+• Daily 
+routine. 
+4.4 Elements of 
+cleaning 
+activities: 
+4.1 Ensure all belongings 
+packed. 
+4.2 Assemble in 
+designated area. 
+4.3 Handover to 
+authorized person. 
+4.4 Contact parents or 
+guardian or 
+emergency contact for 
+late pickup. 
+4.5 Record late pick-up. 
+4.6 Cleaning preschool 
+area. 
+4.7 Record daily routine. 
+ 
+ 
+ATTITUDE 
+4.1 Meticulous in 
+handling pupils’ 
+dismissal. 
+ 
+SAFETY 
+4.1 Adhere to safety and 
+security rules and 
+regulation. 
+ 
+ENVIRONMENT 
+4.1 Ensure the dismissal 
+area is clean and safe. 
+ 
+COGNITIVE DOMAIN 
+4.1 SOPs during dismissal 
+procedures by following 
+protocols strictly explained. 
+4.2 Discrepancies in pupil pickup 
+details and examine emergency 
+contact for validity elaborated. 
+ 
+PSYCHOMOTOR DOMAIN 
+4.1 All pupils’ belongings safely 
+packed.  
+4.2 Pupils guided and positioned 
+orderly at the waiting area for 
+pick-up. 
+4.3 Cross check and match child 
+with guardian confirmed. 
+4.4 Parents contacted for late 
+pickup promptly. 
+4.5 Name, times and person of 
+pickup documented for 
+reference and security. 
+4.6 Preschool area cleaned 
+according to own preschool 
+guideline. 
+4.7 Daily routine report recorded 
+and submitted to principal. 
+ 
+AFFECTIVE DOMAIN 
+
+===== PAGE 55 =====
+P851-002-4:2025 
+45 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Checklist 
+cleaning 
+area.  
+• Cleaning 
+method. 
+• Cleaning 
+tools.  
+• Cleaning 
+schedule. 
+4.5 Daily routine 
+report: 
+• Format. 
+• Report 
+writing. 
+4.1 Pupils’ dismissal meticulously 
+handled. 
+4.2 Safety and security rules and 
+regulation adhered. 
+4.3 Cleanliness of dismissal area is 
+confirmed. 
+ 
+  
+
+===== PAGE 56 =====
+P851-002-4:2025 
+46 / 94 
+Employability Skills  
+ 
+Core Abilities 
+• Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+• Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 Jabatan Kemajuan Masyarakat. (2020). Modul Latihan Asas Guru TABIKA KEMAS (Edisi ke-2). Kementerian Pembangunan Luar Bandar.  
+2 Kementerian Pendidikan Malaysia. (2017). Kurikulum Standard Prasekolah Kebangsaan (KSPK) . Bahagian  Pembangunan Kurikulum, 
+KPM.  
+3 Mohd Johari, M. Y. (2020). Pengurusan Prasekolah: Teori dan Aplikasi dalam Konteks Malaysia . Penerbit Universiti Teknologi MARA 
+(UiTM Press). ISBN: 9789673637789 
+4 Mohd Salleh, A. (2021). Pendidikan Awal Kanak-kanak: Teori dan Amalan di Malaysia. Penerbit Universiti Pendidikan Sultan Idris (UPSI). 
+ISBN: 9789672395031 
+5 Mustaffa, N., & Ismail, N. (Eds.). (2019). Amalan dan Isu dalam Pendidikan Awal Kanak -kanak di Malaysia . Penerbit Universiti 
+Kebangsaan Malaysia (UKM). ISBN: 9789674124424 
+6 Noraini, A. (2018). Pedagogi dalam Pendidikan Awal Kanak-Kanak. Penerbit Universiti Malaya. ISBN: 9789831009496 
+7 Yahya, A., & Ismail, R. (2017). Pendidikan Prasekolah: Pendekatan Kurikulum dan Pengajaran . Dewan Bahasa dan Pustaka. ISBN: 
+9789834907409 
+8 Al-Ghazali’s Adapted Summary of Ihya Ulum al-Din: The Forty Principles of the Religion. (2016). United Kingdom: Turath Publishing. 
+9 M. Nordin (2023). Pedagogi pendidikan awal kanak-kanak: teori dan praktis taska dan tadika.  Penerbit Universiti Pendidikan Sultan Idris. 
+ISBN: 9786297524115. 
+10 M. Nordin., A. T. M. H. (2024). Pendidikan awal kanak-kanak: penglibatan keluarga dan komuniti di taska dan tadika.  Penerbit Universiti 
+Pendidikan Sultan Idris. ISBN: 9786297524641 
+11 N. U. Abdullah. Tarbiyatul Aulad Jilid 1 & 2. (2015). Malaysia: PTS Publishing House. ISBN: 9789673662852 
+12 Altalib, H., AbuSulayman, A., Altalib, O. (2013). Parent-Child Relations: A Guide to Raising Children.  United Kingdom:  International 
+Institute of Islamic Thought. ISBN: 9781565645820 
+  
+
+===== PAGE 57 =====
+P851-002-4:2025 
+47 / 94 
+15.2 Perform preschool teaching and learning activities. 
+ 
+SECTION (P) Education 
+GROUP (851) Pre-primary and Primary Education 
+AREA Pre-primary Teaching 
+NOSS TITLE Preschool Teaching  
+COMPETENCY UNIT TITLE Perform preschool teaching and learning activities. 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to implement teaching and 
+learning activities based on the preschool curriculum framework to support holistic pupil 
+development and improve instructional effectiveness.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Prepare yearly lesson plan (RPT). 
+2. Prepare daily lesson plan (RPH). 
+3. Prepare teaching and learning material. 
+4. Deliver daily lesson plan. 
+5. Analyse lesson effectiveness. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) 
+Not Available. 
+CU CODE P851-002-4:2025-C02 NOSS LEVEL Four (4) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Prepare 
+yearly 
+lesson plan 
+(RPT). 
+1.1 Introduction to 
+National 
+Preschool 
+Curriculum 
+(NPC): 
+1.1 Ensure National 
+Preschool Curriculum  
+comply. 
+1.2 Plan preschool RPT. 
+1.3 Review preschool 
+RPT. 
+ATTITUDE 
+1.1 Proactive in preparing 
+yearly planning 
+1.2 Meticulous in 
+planning yearly lesson 
+plan. 
+COGNITIVE DOMAIN 
+1.1 Introduction to National 
+Preschool Curriculum  which 
+includes Education Act, 
+philosophy, JERIS, Learning 
+
+===== PAGE 58 =====
+P851-002-4:2025 
+48 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Education 
+Act 1996 
+[550]. 
+• National 
+Education 
+Philosophy. 
+• Jasmani, 
+Emosi, 
+Rohani, 
+Intelektual, 
+Sosial 
+(JERIS 
+Developmen
+t). 
+• Learning 
+Theory. 
+• Developmen
+tally 
+Appropriate 
+Practice 
+(DAP). 
+1.2 National 
+Preschool 
+Curriculum: 
+• Learning 
+Strategy.  
+1.4 Produce preschool 
+RPT document. 
+ 
+ 
+SAFETY 
+1.1 Practise proper 
+ergonomic gestures. 
+ 
+ENVIRONMENT 
+1.1 Practise paperless 
+environment 
+ 
+Theory and DAP well 
+explained. 
+1.2 National Preschool Curriculum 
+which includes Learning 
+Strategy, Methodology and 
+framework well described. 
+1.3 Basic RPT format elaborated.   
+1.4 Ergonomic gestures explained. 
+1.5 Green compliance listed. 
+ 
+PSYCHOMOTOR DOMAIN 
+1.1 Content, learning and teaching 
+strategy presented according to 
+National Preschool 
+Curriculum. 
+1.2 Preschool RPT which includes 
+subject, strategy and months 
+aligned to yearly goals. 
+1.3 Preschool RPT submitted for 
+validation. 
+1.4 Complete preschool RPT 
+documented according to the 
+National Preschool 
+Curriculum. 
+ 
+AFFECTIVE DOMAIN 
+1.1 Proactive in preparing 
+preschool RPT demonstrated.  
+
+===== PAGE 59 =====
+P851-002-4:2025 
+49 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Methodolog
+y 
+approaches. 
+• Yearly Plan 
+Framework 
+such as 
+thematic, 
+project 
+based, learn 
+thru play and 
+learning 
+centre. 
+1.3 Basic RPT 
+Format: 
+• Monthly. 
+• Learning 
+component. 
+• Learning 
+strategies. 
+1.4 Ergonomic 
+gestures. 
+1.5 Green 
+compliance. 
+ 
+1.2 Meticulous in planning 
+preschool RPT demonstrated. 
+1.3 Practise proper ergonomic 
+gestures demonstrated. 
+1.4 Practise paperless environment 
+demonstrated. 
+ 
+ 
+2. Prepare 
+daily 
+lesson plan 
+(RPH). 
+2.1 Introduction to 
+National 
+Preschool 
+Curriculum. 
+2.1 Review preschool 
+RPT. 
+2.2 Create preschool 
+RPH. 
+ATTITUDE 
+2.1 Proactive in preparing 
+daily planning 
+COGNITIVE DOMAIN 
+2.1 Introduction to National 
+Preschool Curriculum  
+explained. 
+
+===== PAGE 60 =====
+P851-002-4:2025 
+50 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+2.2 Preschool 
+Timetable: 
+• Learning 
+area. 
+• Day. 
+• Time 
+allocation. 
+2.3 Basic Format 
+preschool RPH: 
+• Objective. 
+• Activity. 
+• Reflection. 
+2.4 Ergonomic 
+gestures. 
+2.5 Green 
+compliance. 
+ 
+2.3 Review preschool 
+RPH. 
+2.4 Produce approved 
+preschool RPH. 
+ 
+2.2 Meticulous in 
+planning daily lesson 
+plan. 
+ 
+SAFETY 
+2.1 Practise proper 
+ergonomic gestures. 
+ 
+ENVIRONMENT 
+2.1 Practise paperless 
+environment. 
+ 
+2.2 Preschool timetable listed and 
+explained. 
+2.3 Basic Format preschool RPH 
+described. 
+2.4 Ergonomic gestures explained. 
+2.5 Green compliance listed. 
+ 
+ 
+PSYCHOMOTOR DOMAIN 
+2.1 Preschool RPH which includes 
+objective, activity and 
+reflection presented according 
+to preschool RPT. 
+2.2 Preschool RPH submitted for 
+validation. 
+2.3 Complete preschool RPH 
+documented according to 
+preschool RPT. 
+ 
+AFFECTIVE DOMAIN 
+2.1 Proactive in preparing 
+preschool RPH demonstrated. 
+2.2 Meticulous in planning 
+preschool RPH demonstrated. 
+2.3 Practise proper ergonomic 
+gestures demonstrated. 
+2.4 Practise paperless environment 
+demonstrated. 
+ 
+
+===== PAGE 61 =====
+P851-002-4:2025 
+51 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3. Prepare 
+teaching 
+and 
+learning 
+material. 
+3.1 Introduction to 
+teaching and 
+learning 
+material: 
+• Supplementa
+l reading 
+material. 
+• Worksheet. 
+• Charts. 
+• Supplementa
+l reading 
+material. 
+• Audio visual. 
+3.2 Teaching and 
+learning 
+equipment 
+condition: 
+• Safety of the 
+teaching and 
+learning 
+material. 
+• Functionally 
+of audio 
+visual. 
+3.3 Teaching and 
+Learning 
+material 
+requirements: 
+3.1 Identify teaching and 
+learning material. 
+3.2 Select teaching and 
+learning material. 
+3.3 Create teaching and 
+learning material. 
+ 
+ATTITUDE 
+3.1 Creative and 
+innovative in 
+developing teaching 
+and learning material. 
+3.2 Responsible for 
+developing teaching 
+material. 
+3.3 Cost saving in 
+preparing learning 
+material. 
+ 
+SAFETY 
+3.1 Adhere to safety and 
+security rules and 
+regulation. 
+ 
+ENVIRONMENT 
+3.1 Using environment 
+friendly material. 
+COGNITIVE DOMAIN 
+3.1 Teaching and learning material 
+listed and explained. 
+3.2 Teaching and learning 
+equipment conditions defined. 
+3.3 Teaching and Learning 
+material requirements 
+identified. 
+ 
+PSYCHOMOTOR DOMAIN 
+3.1 Teaching and learning material 
+aligned according to preschool 
+RPH. 
+3.2 Teaching and learning material 
+selected based on activity 
+according to preschool RPH. 
+3.3 Teaching and learning material 
+produced based on type of 
+material, size and information 
+communication technology 
+according to preschool RPH. 
+ 
+AFFECTIVE DOMAIN 
+3.1 Creative and innovative in 
+developing teaching and 
+learning material 
+demonstrated. 
+
+===== PAGE 62 =====
+P851-002-4:2025 
+52 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Type of 
+Material. 
+• Size.  
+• Information 
+and 
+Communicat
+ion 
+Technology. 
+• Natural 
+Material. 
+ 
+3.2 Responsible for developing 
+teaching material 
+demonstrated. 
+3.3 Cost saving in preparing 
+learning material presented. 
+3.4 Adhere to safety and security 
+rules and regulation 
+demonstrated. 
+3.5 Using environment friendly 
+material demonstrated. 
+ 
+4. Deliver 
+daily 
+lesson 
+plan. 
+ 
+4.1 Creative 
+teaching 
+techniques 
+(induction 
+strategies). 
+4.2 Learning 
+strategies: 
+• Thematic. 
+• Project 
+approach. 
+• Learning 
+centre. 
+• Documentati
+on.  
+4.3 Special needs 
+pupil: 
+4.1 Engage well with 
+pupil. 
+4.2 Arrange pupil by 
+group. 
+4.3 Deliver lesson plan 
+content. 
+4.4 Carry out teaching 
+activities.  
+4.5 Record reflection for 
+teacher. 
+4.6 Record reflection for 
+pupil. 
+ 
+ATTITUDE 
+4.1 Creative in 
+conducting teaching 
+strategies and learning 
+activities. 
+4.2 Sensitive to pupil 
+need and development 
+domain. 
+4.3 Enthusiastic in 
+conducting activities. 
+ 
+SAFETY 
+4.1 Adhere to safety and 
+security rules and 
+regulation. 
+ 
+ENVIRONMENT 
+COGNITIVE DOMAIN 
+4.1 Creative teaching techniques 
+listed and explained. 
+4.2 Learning strategies described. 
+4.3 Sign, types, characteristic 
+policies and legislation of 
+special needs pupils explained. 
+4.4 Pedagogical method explained. 
+4.5 Learning objectives defined. 
+4.6 Evaluation technique 
+elaborated. 
+4.7 Observation and 
+documentation explained. 
+4.8 Principles of waste 
+management addressed. 
+4.9 Teacher’s ethics and 
+professionalism elaborated. 
+
+===== PAGE 63 =====
+P851-002-4:2025 
+53 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Sign of 
+disabilities. 
+• Type of 
+learning 
+disabilities 
+(dyslexia, 
+dyscalculia, 
+dyspraxia, 
+dysgraphia, 
+dysphasia, 
+ADHD, 
+ADD, mild 
+autism). 
+• Characteristi
+c of pupil 
+with learning 
+disabilities. 
+• Need and 
+interest of 
+pupils with 
+learning 
+disabilities. 
+• Policies and 
+legislation of 
+special need. 
+• Introduction 
+for early 
+4.1 Practise paperless 
+environment. 
+4.2 Practice 3R.  
+ 
+ 
+PSYCHOMOTOR DOMAIN 
+4.1 Engagement between pupils 
+and teachers related to pupil’s 
+response during lessons 
+demonstrated. 
+4.2 Pupil arrangement based on 
+learning abilities demonstrated. 
+4.3 Lesson sequence using varied 
+instructional strategies 
+presented. 
+4.4 Teaching activities 
+demonstrated according to the 
+preschool RPH. 
+4.5 Teaching effectiveness which 
+includes time management, 
+lesson objectives achieved and 
+material recorded. 
+4.6 Pupils understanding, response 
+and participation recorded 
+according to preschool RPH. 
+ 
+AFFECTIVE DOMAIN 
+4.1 Creative in conducting 
+teaching strategies and learning 
+activities demonstrated. 
+4.2 Sensitive to pupil need and 
+development domain 
+demonstrated. 
+
+===== PAGE 64 =====
+P851-002-4:2025 
+54 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+intervention 
+disabilities. 
+• Reference 
+Specialist.  
+4.4 Pedagogical 
+method 
+(Interactive, 
+play-based, and 
+multi-sensory 
+teaching 
+technique). 
+4.5 Learning 
+Objective:  
+• Steps of the 
+activity. 
+• Material 
+needed. 
+• Time 
+management. 
+4.6 Evaluation 
+technique. 
+4.7 Observation and 
+documentation. 
+(cognitive and 
+social 
+emotional). 
+4.8 Waste 
+management 
+principle. 
+4.3 Enthusiastic in conducting 
+activities demonstrated. 
+4.4 Adhere to safety and security 
+rules and regulation 
+demonstrated. 
+4.5 Practise paperless environment 
+demonstrated. 
+4.6 Practice 3R demonstrated. 
+ 
+
+===== PAGE 65 =====
+P851-002-4:2025 
+55 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+4.9 Teacher’s ethics 
+and 
+professionalism
+. 
+ 
+5. Analyse 
+lesson 
+effectivene
+ss. 
+5.1 Reflection 
+writing for 
+teachers and 
+pupils. 
+5.2 Documentation 
+format: 
+• Pupil’s 
+portfolio. 
+• Worksheet. 
+• Others. 
+5.3 Types of 
+records: 
+• Writing. 
+• Observation. 
+• Audio and 
+video. 
+5.4 Milestone 
+development: 
+• Age. 
+• Stage 
+development
+. 
+ 
+5.1 Evaluate lessons 
+effectiveness. 
+5.2 Compile pupil’s work. 
+5.3 Record pupil 
+assessment. 
+5.4 Review with 
+principal.  
+ 
+ATTITUDE 
+5.1 Ethical and 
+professional in 
+analysing lesson 
+effectiveness. 
+5.2 Knowledgeable to 
+analyse lesson plans. 
+5.3 Meticulous in 
+analysing lesson 
+plans. 
+ 
+SAFETY 
+5.1 Maintain 
+confidentiality of 
+documentation. 
+ 
+ENVIRONMENT 
+5.1 Practise paperless 
+environment. 
+ 
+COGNITIVE DOMAIN 
+5.1 Reflection writing for teachers 
+and pupils explained. 
+5.2 Documentation format listed. 
+5.3 Types of records listed and 
+defined. 
+5.4 Milestone development 
+described. 
+ 
+PSYCHOMOTOR DOMAIN 
+5.1 Lessons effectiveness 
+demonstrated according to 
+preschool RPH. 
+5.2 Pupil’s work compiled based 
+on learning activities. 
+5.3 Pupil assessment recorded. 
+5.4 Lesson effectiveness validated.  
+ 
+AFFECTIVE DOMAIN 
+5.1 Ethical and professional in 
+analysing lesson effectiveness 
+demonstrated. 
+5.2 Knowledgeable to analyse 
+lesson plans demonstrated. 
+
+===== PAGE 66 =====
+P851-002-4:2025 
+56 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+5.3 Meticulous in analysing lesson 
+plans demonstrated. 
+5.4 Maintain confidentiality of 
+documentation demonstrated. 
+5.5 Practise paperless environment 
+demonstrated. 
+ 
+ 
+  
+
+===== PAGE 67 =====
+P851-002-4:2025 
+57 / 94 
+Employability Skills  
+ 
+Core Abilities 
+• Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+• Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 Jabatan Kemajuan Masyarakat. (2020). Modul Latihan Asas Guru TABIKA KEMAS (Edisi ke-2). Kementerian Pembangunan Luar Bandar.  
+2 Kementerian Pendidikan Malaysia. (2017). Kurikulum Standard Prasekolah Kebangsaan (KSPK) . Bahagian Pembangunan Kurikulum, 
+KPM.  
+3 Mohd Johari, M. Y. (2020). Pengurusan Prasekolah: Teori dan Aplikasi dalam Konteks Malaysia . Penerbit Universiti Teknologi MARA 
+(UiTM Press). ISBN: 9789673637789 
+4 Mohd Salleh, A. (2021). Pendidikan Awal Kanak-kanak: Teori dan Amalan di Malaysia. Penerbit Universiti Pendidikan Sultan Idris (UPSI). 
+ISBN: 9789672395031 
+5 Mustaffa, N., & Ismail, N. (Eds.). (2019). Amalan dan Isu dalam Pendidikan Awal Kanak -kanak di Malaysia . Penerbit Universiti 
+Kebangsaan Malaysia (UKM). ISBN: 9789674124424 
+6 Noraini, A. (2018). Pedagogi dalam Pendidikan Awal Kanak-Kanak. Penerbit Universiti Malaya. ISBN: 9789831009496 
+7 Yahya, A., & Ismail, R. (2017). Pendidikan Prasekolah: Pendekatan Kurikulum dan Pengajaran . Dewan Bahasa dan Pustaka. ISBN: 
+9789834907409 
+8 Al-Ghazali’s Adapted Summary of Ihya Ulum al-Din: The Forty Principles of the Religion. (2016). United Kingdom: Turath Publishing. 
+9 M. Nordin (2023). Pedagogi pendidikan awal kanak-kanak: teori dan praktis taska dan tadika.  Penerbit Universiti Pendidikan Sultan Idris. 
+ISBN: 9786297524115. 
+10 M. Nordin., A. T. M. H. (2024). Pendidikan awal kanak-kanak: penglibatan keluarga dan komuniti di taska dan tadika.  Penerbit Universiti 
+Pendidikan Sultan Idris. ISBN: 9786297524641 
+11 N. U. Abdullah. Tarbiyatul Aulad Jilid 1 & 2. (2015). Malaysia: PTS Publishing House. ISBN: 9789673662852 
+12 Altalib, H., AbuSulayman, A., Altalib, O. (2013). Parent-Child Relations: A Guide to Raising Children.  United Kingdom:  International 
+Institute of Islamic Thought. ISBN: 9781565645820 
+  
+
+===== PAGE 68 =====
+P851-002-4:2025 
+58 / 94 
+15.3 Organise preschool classroom environment. 
+ 
+SECTION (P) Education 
+GROUP (851) Pre-primary and Primary Education 
+AREA Pre-primary Teaching 
+NOSS TITLE Preschool Teaching  
+COMPETENCY UNIT TITLE Organise preschool classroom environment. 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to maintain an organised, safe, 
+and developmentally appropriate classroom environment that supports daily operations, effective 
+classroom management, and positive pupil behaviour. 
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Prepare learning environment. 
+2. Handle pupil’s attendance. 
+3. Record classroom inventory. 
+4. Control pupil’s behaviour. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) 
+Not Available. 
+CU CODE P851-002-4:2025-C03 NOSS LEVEL Four (4) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Prepare 
+learning 
+environme
+nt. 
+1.1 National 
+Preschool 
+Curriculum 
+content 
+(timetable 
+scheduling). 
+1.1 Identify current 
+timetable. 
+1.2 Plan learning 
+environment.  
+1.3 Create learning 
+environment. 
+ATTITUDE 
+1.1 Responsive to pupils 
+needs, interest and 
+ability. 
+1.2 Proactive in 
+identifying teaching 
+and learning areas. 
+COGNITIVE DOMAIN 
+1.1 National Preschool Curriculum 
+content explained. 
+1.2 Classroom environment layout 
+described according to learning 
+activities. 
+
+===== PAGE 69 =====
+P851-002-4:2025 
+59 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1.2 Classroom 
+environment 
+layout: 
+• Classroom 
+layout. 
+• Emergency 
+exit. 
+1.3 Prepare learning 
+environment:  
+• Set up 
+interactive 
+display. 
+• Resources 
+organisation. 
+• Clean, safe 
+and secure 
+area. 
+• Type of 
+learning 
+approaches. 
+1.4 Learning 
+strategies: 
+• Thematic. 
+• Project 
+approach. 
+• Learning 
+centre. 
+1.4 Evaluate effectiveness 
+of learning 
+environment. 
+ 
+1.3 Resourceful creating 
+the learning 
+environment. 
+1.4 Creative and 
+innovative in setting 
+up learning 
+environment. 
+ 
+SAFETY 
+1.1 Ensure safety of the 
+teaching tools. 
+ 
+ENVIRONMENT 
+1.1 Ensure safety of the 
+learning area. 
+1.3 Learning environment 
+preparation explained 
+according to learning activities. 
+1.4 Learning strategies explained. 
+1.5 Evaluation tools listed and 
+explained.  
+1.6 Health, safety and environment 
+(HSE) standard and policy 
+elaborated. 
+ 
+PSYCHOMOTOR DOMAIN 
+1.1 Timetable is displayed in a 
+clearly visible area. 
+1.2 Layout of learning 
+environment according to the 
+time table demonstrated. 
+1.3 Learning environment setup 
+according to selected learning 
+strategies demonstrated. 
+1.4 Effectiveness of learning 
+environment using layout plan   
+demonstrated.  
+ 
+AFFECTIVE DOMAIN 
+1.1 Responsive to pupil ’s need, 
+interest and ability 
+demonstrated. 
+
+===== PAGE 70 =====
+P851-002-4:2025 
+60 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Documentati
+on.  
+1.5 Evaluation 
+tools: 
+• Checklist 
+(lighting, air 
+ventilation 
+and 
+temperature). 
+• Observation. 
+• Feedback 
+from 
+colleagues. 
+1.6 Health, Safety 
+and 
+Environment 
+(HSE) standard 
+and policy. 
+ 
+1.2 Proactive in identifying 
+teaching and learning areas. 
+demonstrated. 
+1.3 Resourceful creating the 
+learning environment 
+demonstrated. 
+1.4 Creative and innovative in 
+setting up a learning 
+environment demonstrated. 
+1.5 Ensure safety of the teaching 
+tools demonstrated. 
+1.6 Ensure safety of the learning 
+area demonstrated. 
+ 
+2. Handle 
+pupil’s 
+attendance. 
+2.1 Attendance 
+checklist. 
+2.2 Recording 
+format 
+(attendance 
+template). 
+2.3 Attendance 
+analysis.  
+2.1 Prepare daily pupil ’s 
+attendance record. 
+2.2 Record daily 
+attendance status. 
+2.3 Check pupil’s 
+absentees. 
+2.4 Report to principal for 
+further action. 
+ 
+ATTITUDE 
+2.1 Responsible in 
+recording daily 
+attendance. 
+2.2 Alert to pupil’s arrival 
+and any irregularities. 
+ 
+SAFETY 
+COGNITIVE DOMAIN 
+2.1 Pupil’s a ttendance checklist 
+described. 
+2.2 Recording format defined. 
+2.3 Pupil’s a ttendance analysis 
+elaborated 
+2.4 Reporting procedures and 
+documentation explained. 
+ 
+
+===== PAGE 71 =====
+P851-002-4:2025 
+61 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+2.4 Reporting 
+procedures and 
+documentation: 
+● Format. 
+● Rules. 
+● Escalation 
+steps. 
+ 
+2.1 Maintain 
+confidentiality of 
+pupil’s attendance 
+record. 
+ 
+ENVIRONMENT 
+2.1 Maintain safe 
+environment at the 
+receiving area. 
+ 
+PSYCHOMOTOR DOMAIN 
+2.1 Daily pupil’s attendance record 
+which includes basic 
+information such as pupil ’s 
+name, date and month prepared 
+in according to own preschool 
+guidelines. 
+2.2 Daily attendance status 
+documented according to own 
+preschool record requirement. 
+2.3 Pupil’s absentee without 
+parent’s notification listed. 
+2.4 Pupil’s absentee list handover 
+to principal for further action. 
+ 
+AFFECTIVE DOMAIN 
+2.1 Responsible in recording daily 
+attendance demonstrated. 
+2.2 Alertness to pupil’s arrival and 
+any irregularities presented. 
+2.3 Confidentiality of pupil’s 
+attendance record maintained. 
+2.4 Safe environment at the 
+receiving area maintained. 
+ 
+
+===== PAGE 72 =====
+P851-002-4:2025 
+62 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3. Record 
+classroom 
+inventory. 
+3.1 Inventory 
+checklist 
+format. 
+3.2 Elements of 
+inventory 
+inspection: 
+● Schedule. 
+● Quantity. 
+● Condition. 
+3.3 Item of 
+inventory 
+report: 
+● Format. 
+● Verification. 
+ 
+3.1 Verify inventory 
+classroom regularly. 
+3.2 Record inventory 
+classroom. 
+3.3 Report the inventory 
+classroom. 
+ 
+ATTITUDE 
+3.1 Meticulous in 
+recording items to 
+ensure accuracy and 
+avoid discrepancies. 
+3.2 Responsible in 
+managing and 
+updating the inventory 
+regularly. 
+3.3 Adhere to routine 
+schedule check. 
+ 
+SAFETY 
+3.1 Comply to inventory 
+handling safety 
+regulation. 
+ 
+ENVIRONMENT 
+3.1 Comply to 3R. 
+ 
+COGNITIVE DOMAIN 
+3.1 Inventory checklist format 
+identified. 
+3.2 Elements of inventory 
+inspection listed and explained. 
+3.3 Item of inventory report 
+elaborated. 
+ 
+PSYCHOMOTOR DOMAIN 
+3.1 Classroom inventory record 
+checked according to preschool 
+inventory checklist. 
+3.2 Elements of inventory 
+inspection recorded according 
+to own preschool guidelines. 
+3.3 Inventory classroom 
+documented according to own 
+preschool guidelines. 
+ 
+AFFECTIVE DOMAIN 
+3.1 Meticulous in recording items 
+to ensure accuracy and avoid 
+discrepancies. 
+3.2 Responsible in managing and 
+updating the inventory 
+regularly. 
+3.3 Adhere to routine schedule 
+check maintained. 
+
+===== PAGE 73 =====
+P851-002-4:2025 
+63 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3.4 Compliance to inventory 
+handling safety regulation 
+demonstrated. 
+3.5 Compliance to 3R 
+demonstrated. 
+ 
+4. Control 
+pupil’s 
+behaviour. 
+4.1 Fundamental of 
+pupil’s 
+behaviour 
+theory: 
+● Behavioural 
+theory. 
+● Pupil’s 
+behaviour. 
+● Positive 
+reinforcemen
+t strategies. 
+● Reward and 
+punishment. 
+4.2 Values 
+practices.  
+4.3 Effective 
+communication: 
+● Introduction 
+basic 
+communicati
+on theory. 
+4.1 Prepare classroom 
+rules. 
+4.2 Maintain classroom 
+rules. 
+4.3 Motivate pupil 
+positive attitude. 
+ 
+ATTITUDE 
+4.1 Fairness towards 
+pupil. 
+4.2 Maintain good 
+behaviour towards 
+pupil. 
+4.3 Alert to pupil’s 
+emotions. 
+ 
+SAFETY 
+4.1 Comply to safety 
+regulation. 
+ 
+ENVIRONMENT 
+4.1 Establish safe space 
+for pupils. 
+4.2 Establish classroom 
+rules in child -friendly 
+language and visuals. 
+ 
+COGNITIVE DOMAIN 
+4.1 Fundamental of pupil’ s 
+behaviour theory explained. 
+4.2 Values practices explained. 
+4.3 Effective communication 
+demonstrated. 
+ 
+PSYCHOMOTOR DOMAIN 
+4.1 Clear rules displayed using 
+age-appropriate visuals and 
+language.  
+4.2 Pupil consistently encouraged 
+to adhere to classroom rules. 
+4.3 Positive reinforcement 
+strategies applied consistently 
+to promote adherence to 
+classroom rules. 
+ 
+AFFECTIVE DOMAIN 
+4.1 Fairness towards pupil 
+demonstrated. 
+4.2 Good behaviour towards pupil 
+maintained. 
+
+===== PAGE 74 =====
+P851-002-4:2025 
+64 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+● Verbal 
+communi
+cation. 
+● Non-
+verbal 
+communi
+cation. 
+● Active 
+listening. 
+● Speaking 
+manner. 
+ 
+4.3 Alertness to pupil ’s emotions 
+demonstrated. 
+4.4 Safety regulation complied. 
+4.5 Safe space for pupils 
+established. 
+4.6 Child-friendly classroom rules 
+observed. 
+ 
+ 
+  
+
+===== PAGE 75 =====
+P851-002-4:2025 
+65 / 94 
+Employability Skills  
+ 
+Core Abilities 
+• Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+• Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 Jabatan Kemajuan Masyarakat. (2020). Modul Latihan Asas Guru TABIKA KEMAS (Edisi ke-2). Kementerian Pembangunan Luar Bandar.  
+2 Kementerian Pendidikan Malaysia. (2017). Kurikulum Standard Prasekolah Kebangsaan (KSPK) . Bahagian Pembangunan Kurikulum, 
+KPM.  
+3 Mohd Johari, M. Y. (2020). Pengurusan Prasekolah: Teori dan Aplikasi dalam Konteks Malaysia . Penerbit Universiti Teknologi MARA 
+(UiTM Press). ISBN: 9789673637789 
+4 Mohd Salleh, A. (2021). Pendidikan Awal Kanak-kanak: Teori dan Amalan di Malaysia. Penerbit Universiti Pendidikan Sultan Idris (UPSI). 
+ISBN: 9789672395031 
+5 Mustaffa, N., & Ismail, N. (Eds.). (2019). Amalan dan Isu dalam Pendidikan Awal Kanak -kanak di Malaysia . Penerbit Universiti 
+Kebangsaan Malaysia (UKM). ISBN: 9789674124424 
+6 Noraini, A. (2018). Pedagogi dalam Pendidikan Awal Kanak-Kanak. Penerbit Universiti Malaya. ISBN: 9789831009496 
+7 Yahya, A., & Ismail, R. (2017). Pendidikan Prasekolah: Pendekatan Kurikulum dan Pengajaran . Dewan Bahasa dan Pustaka. ISBN: 
+9789834907409 
+8 Al-Ghazali’s Adapted Summary of Ihya Ulum al-Din: The Forty Principles of the Religion. (2016). United Kingdom: Turath Publishing. 
+9 M. Nordin (2023). Pedagogi pendidikan awal kanak-kanak: teori dan praktis taska dan tadika.  Penerbit Universiti Pendidikan Sultan Idris. 
+ISBN: 9786297524115. 
+10 M. Nordin., A. T. M. H. (2024). Pendidikan awal kanak-kanak: penglibatan keluarga dan komuniti di taska dan tadika.  Penerbit Universiti 
+Pendidikan Sultan Idris. ISBN: 9786297524641 
+11 N. U. Abdullah. Tarbiyatul Aulad Jilid 1 & 2. (2015). Malaysia: PTS Publishing House. ISBN: 9789673662852 
+12 Altalib, H., AbuSulayman, A., Altalib, O. (2013). Parent-Child Relations: A Guide to Raising Children.  United Kingdom:  International 
+Institute of Islamic Thought. ISBN: 9781565645820 
+ 
+
+===== PAGE 76 =====
+P851-002-4:2025 
+66 / 94 
+15.4 Develop pupil’s assessment. 
+ 
+SECTION (P) Education 
+GROUP (851) Pre-primary and Primary Education 
+AREA Pre-primary Teaching 
+NOSS TITLE Preschool Teaching  
+COMPETENCY UNIT TITLE Develop pupil’s assessment. 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to conduct preschool pupil 
+assessment through systematic observation, appropriate assessment activities, and progress 
+documentation in alignment with developmental standards.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Assess pupil’s behaviour and attitude. 
+2. Prepare pupil’s assessment activity. 
+3. Execute observation of pupil’s assessment. 
+4. Develop pupil’s progress report. 
+5. Present pupil’s assessment outcome. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) 
+Not Available. 
+CU CODE P851-002-4:2025-C04 NOSS LEVEL Four (4) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Assess 
+pupil’s 
+behaviour 
+and 
+attitude. 
+ 
+1.1 Child 
+Development: 
+• Milestone. 
+• Developmen
+t behaviour. 
+1.1 Monitor pupil’ s 
+behaviour and 
+attitude. 
+1.2 Record children 
+behaviour and 
+attitude. 
+ATTITUDE 
+1.1 Accurate in selecting 
+types of assessment. 
+1.2 Thorough in 
+interpreting Na tional 
+COGNITIVE DOMAIN 
+1.1 Child behaviour development 
+explained.  
+1.2 Type of documentation tools 
+and instruments identified.  
+
+===== PAGE 77 =====
+P851-002-4:2025 
+67 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Method of 
+Assessment. 
+1.2 Type of 
+documentation: 
+• Format and 
+scale 
+measurement
+. 
+• Type of 
+tools. 
+(anecdote 
+and 
+observing). 
+1.3 Performance 
+Standard based 
+on National 
+Curriculum: 
+• Category and 
+interpretatio
+n of pupil 
+attitude. 
+• Common 
+behaviour 
+and 
+emotional 
+indicator. 
+1.3 Analyse pupil’ s 
+behaviour.  
+1.4 Report pupil’s 
+behaviour. 
+1.5 Identify follow -up 
+action. 
+ 
+Preschool 
+Curriculum. 
+ 
+SAFETY 
+1.1 Adhere to health,  
+safety and security, 
+environmental rules 
+and regulation. 
+ 
+ENVIRONMENT 
+1.1 Practice paperless 
+environment. 
+ 
+ 
+1.3 Performance standard based on 
+National Preschool Curriculum 
+explained.  
+1.4 Reporting procedures and 
+documentation explained.   
+ 
+PSYCHOMOTOR DOMAIN 
+1.1 Pupil’s behaviour and attitude 
+observed according to 
+assessment tools. 
+1.2 All evidence and samples 
+documented for future 
+reference. 
+1.3 Pupil’s behaviour analysed 
+according to pupil’s milestone 
+and learning area. 
+1.4 Behaviour and attitude 
+observational report discussed 
+collaboratively with principal. 
+1.5 Follow-up action determined 
+based on principal’s input and 
+observation analysis. 
+ 
+AFFECTIVE DOMAIN 
+1.1 Accurate in selecting types of 
+assessment demonstrated. 
+1.2 Thorough in interpreting 
+National Preschool Curriculum 
+demonstrated. 
+
+===== PAGE 78 =====
+P851-002-4:2025 
+68 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Cause and 
+effect of 
+behaviour. 
+1.4 Reporting 
+procedures and 
+documentation: 
+• Format. 
+• Rules. 
+• Escalation 
+steps. 
+ 
+1.3 Adhere to health,  safety and 
+security, environmental rules 
+and regulation demonstrated. 
+1.4 Practice paperless environment 
+demonstrated. 
+ 
+2. Prepare 
+pupil’s 
+assessment 
+activity. 
+ 
+2.1 National 
+Preschool 
+Curriculum: 
+• Age and 
+development 
+level.  
+• Purpose of 
+assessment. 
+2.2 Age-appropriate 
+assessment 
+method based 
+on National 
+Preschool 
+Curriculum: 
+• Method of 
+assessment. 
+2.1 Identify assessment 
+area. 
+2.2 Prepare assessment 
+tools and material. 
+2.3 Confirm assessment 
+activities. 
+ 
+ATTITUDE 
+2.1 Resourceful in 
+preparing assessment 
+tools and materials. 
+2.2 Accountable for 
+selecting reliable and 
+valid materials for 
+assessment. 
+2.3 Ethical and 
+professional to ensure 
+confidentiality of 
+assessment. 
+ 
+SAFETY 
+2.1 Ensure safety of 
+classroom area. 
+2.2 Ensure safety of tools. 
+COGNITIVE DOMAIN 
+2.1 Age, development level and 
+purpose of assessment is 
+determined according National 
+Preschool Curriculum. 
+2.2 Age-appropriate assessment 
+method based on National 
+Preschool Curriculum  well 
+described. 
+2.3 Assessment Structure and 
+timeline elaborated. 
+2.4 Reporting procedures and 
+documentation described. 
+ 
+PSYCHOMOTOR DOMAIN 
+2.1 Pupil’s assessment area 
+presented. 
+
+===== PAGE 79 =====
+P851-002-4:2025 
+69 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Selection of 
+type of tools 
+and materials 
+(observing, 
+anecdote, 
+running 
+record).  
+2.3 Assessment 
+structure and 
+timeline 
+• Type of 
+assessment 
+structure 
+(digital or 
+non-digital) 
+• Format. 
+• Assessment 
+procedure. 
+• Timeline 
+(regular, on 
+the sport). 
+2.4 Reporting 
+procedures and 
+documentation: 
+• Format. 
+• Rules. 
+• Escalation. 
+ 
+ 
+ENVIRONMENT 
+2.1 Ensure the cleanliness 
+and conducive of 
+assessment area. 
+ 
+2.2 Pupil’s assessment tools and 
+material noted down according 
+to method and tools of 
+assessment. 
+2.3 Assessment activities which 
+include writing, reading and 
+singing in group and individual 
+assignment demonstrated. 
+ 
+ 
+AFFECTIVE DOMAIN 
+2.1 Resourceful in preparing 
+assessment tools and materials 
+demonstrated. 
+2.2 Accountable for selecting 
+reliable and valid materials for 
+assessment demonstrated. 
+2.3 Ethical and professional to 
+ensure confidentiality of 
+assessment demonstrated. 
+2.4 Safety of classroom area 
+demonstrated.  
+2.5 Safety of tools demonstrated. 
+2.6 Cleanliness and conducive of 
+assessment area demonstrated. 
+ 
+
+===== PAGE 80 =====
+P851-002-4:2025 
+70 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3. Execute 
+observation 
+of pupil’s 
+assessment
+. 
+ 
+ 
+3.1 National 
+Preschool 
+Curriculum: 
+• Category of 
+development 
+milestone. 
+• Pupil 
+development 
+in multiple 
+domains 
+based on 
+holistic 
+development
+. 
+3.2 Observation 
+technique. 
+3.3 Type of 
+assessment 
+structure 
+(digital or non-
+digital). 
+ 
+3.1 Carry out assessment 
+activities.  
+3.2 Monitor assessment 
+process. 
+3.3 Conduct observation 
+assessment. 
+ 
+ATTITUDE 
+3.1 Objective in 
+observing pupils and 
+recording. 
+3.2 Sensitive to pupils' 
+responses. 
+ 
+SAFETY 
+3.1 Ensure the safety of 
+the tools and 
+activities. 
+ 
+ENVIRONMENT 
+3.1 Comply with 3R. 
+ 
+COGNITIVE DOMAIN 
+3.1 Category of development 
+milestone and pupil 
+development in multiple 
+domains based on holistic 
+development determined. 
+3.2 Observation technique defined. 
+3.3 Type of assessment structure 
+describe. 
+ 
+PSYCHOMOTOR DOMAIN 
+3.1 Assessment activities 
+determined.  
+3.2 Assessment process presented. 
+3.3 Observation assessment 
+demonstrated. 
+ 
+AFFECTIVE DOMAIN 
+3.1 Objective in observing pupil 
+and recording demonstrated. 
+3.2 Sensitive to pupil ’s responses 
+demonstrated. 
+3.3 Safety of the tools and 
+activities demonstrated. 
+3.4 Comply with 3R application 
+demonstrated. 
+ 
+
+===== PAGE 81 =====
+P851-002-4:2025 
+71 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+4. Develop 
+pupil’s 
+progress 
+report. 
+ 
+4.1 Pupil’s progress 
+report: 
+• Format 
+report. 
+• Proper 
+writing.  
+4.2 Assessment 
+data method: 
+• Observation 
+notes. 
+• Checklist. 
+• Learning 
+pattern. 
+• Behavioural 
+trends. 
+4.3 Report writing 
+effectiveness 
+(Ethical writing 
+styles). 
+4.1 Record pupil’s 
+progress. 
+4.2 Analyse strength and 
+weakness. 
+4.3 Prepare progress 
+report.   
+ 
+ATTITUDE 
+4.1 Meticulous in 
+preparing pupil’s 
+progress. 
+4.2 Fair, unbiased and 
+professional in 
+reporting pupil’s 
+progress. 
+4.3 Ethical and 
+professional to ensure 
+confidentiality of 
+assessment. 
+ 
+SAFETY 
+4.1 Progress result of each 
+pupil should not be 
+exposed to others, 
+only to the parents and 
+appointed party.  
+ 
+ENVIRONMENT 
+4.1 Ensure the cleanliness 
+and conducive area. 
+ 
+COGNITIVE DOMAIN 
+4.1 Pupil’s progress report which is 
+format report and proper 
+writing described. 
+4.2 Assessment data method 
+includes observation notes, 
+checklist, learning pattern and 
+behavioural trends explained. 
+4.3 Report writing effectiveness in 
+a positive writing style  
+elaborated. 
+ 
+PSYCHOMOTOR DOMAIN 
+4.1 Pupil’s progress record 
+determined. 
+4.2 Strength and weakness analysis 
+presented. 
+4.3 Progress report noted down. 
+ 
+AFFECTIVE DOMAIN 
+4.1 Meticulous in preparing pupil’s 
+progress demonstrated. 
+4.2 Fair, unbiased and professional 
+in reporting pupil’s progress 
+demonstrated. 
+4.3 Ethical and professional to 
+ensure confidentiality of 
+assessment demonstrated. 
+
+===== PAGE 82 =====
+P851-002-4:2025 
+72 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+4.4 Progress result of each pupil 
+should not be exposed to 
+others, only to the parents and 
+appointed party demonstrated.  
+4.5 Ensure the cleanliness and 
+conducive area demonstrated. 
+ 
+5. Present 
+pupil’s 
+assessment 
+outcome. 
+ 
+ 
+5.1 Effective 
+communication:  
+• Introduction 
+to basic 
+communicati
+on theory. 
+• Verbal 
+communicati
+on. 
+• Nonverbal 
+communicati
+on. 
+• Active 
+listening. 
+• Speaking 
+manner. 
+5.2 Ethics of 
+confidentiality: 
+• Principal of 
+confidentialit
+y. 
+5.1 Prepare assessment 
+feedback to parents. 
+5.2 Participate parents -
+teachers meet-up. 
+5.3 Recommend for 
+improvement. 
+ 
+ATTITUDE 
+5.1 Knowledgeable and 
+confident in 
+communicating with 
+parents. 
+5.2 Professional and 
+respectful. 
+5.3 Attentive in listening. 
+ 
+SAFETY 
+5.1 Confidentiality of 
+assessment record. 
+ 
+ENVIRONMENT 
+5.1 Ensure the cleanliness 
+and conducive area. 
+ 
+ 
+COGNITIVE DOMAIN 
+5.1 Effective communication  
+explained. 
+5.2 Ethics of confidentiality  
+explained. 
+5.3 Type of improvement support 
+technique explained. 
+ 
+PSYCHOMOTOR DOMAIN 
+5.1 Assessment outcome 
+communicated to parents via 
+written and verbal means. 
+5.2 Meeting session facilitated to 
+discuss pupil’s development 
+and challenges. 
+5.3 Improvement suggestions 
+shared with stakeholders for 
+follow-up action 
+ 
+AFFECTIVE DOMAIN 
+
+===== PAGE 83 =====
+P851-002-4:2025 
+73 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+• Impact.  
+5.3 Type of 
+improvement 
+support 
+technique. 
+• Home based 
+activities. 
+5.1 Knowledgeable and confident 
+in communicating with parents 
+demonstrated. 
+5.2 Professional and respectful  
+demonstrated. 
+5.3 Attentive in listening  
+demonstrated. 
+5.4 Confidentiality of assessment 
+record demonstrated. 
+5.5 Cleanliness and conducive area 
+demonstrated. 
+ 
+ 
+  
+
+===== PAGE 84 =====
+P851-002-4:2025 
+74 / 94 
+Employability Skills  
+ 
+Core Abilities 
+• Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+• Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 Jabatan Kemajuan Masyarakat. (2020). Modul Latihan Asas Guru TABIKA KEMAS (Edisi ke-2). Kementerian Pembangunan Luar Bandar.  
+2 Kementerian Pendidikan Malaysia. (2017). Kurikulum Standard Prasekolah Kebangsaan (KSPK) . Bahagian Pembangunan Kurikulum, 
+KPM.  
+3 Mohd Johari, M. Y. (2020). Pengurusan Prasekolah: Teori dan Aplikasi dalam Konteks Malaysia . Penerbit Universiti Teknologi MARA 
+(UiTM Press). ISBN: 9789673637789 
+4 Mohd Salleh, A. (2021). Pendidikan Awal Kanak-kanak: Teori dan Amalan di Malaysia. Penerbit Universiti Pendidikan Sultan Idris (UPSI). 
+ISBN: 9789672395031 
+5 Mustaffa, N., & Ismail, N. (Eds.). (2019). Amalan dan Isu dalam Pendidikan Awal Kanak -kanak di Malaysia . Penerbit Universiti 
+Kebangsaan Malaysia (UKM). ISBN: 9789674124424 
+6 Noraini, A. (2018). Pedagogi dalam Pendidikan Awal Kanak-Kanak. Penerbit Universiti Malaya. ISBN: 9789831009496 
+7 Yahya, A., & Ismail, R. (2017). Pendidikan Prasekolah: Pendekatan Kurikulum dan Pengajaran . Dewan Bahasa dan Pustaka. ISBN: 
+9789834907409 
+8 Al-Ghazali’s Adapted Summary of Ihya Ulum al-Din: The Forty Principles of the Religion. (2016). United Kingdom: Turath Publishing. 
+9 M. Nordin (2023). Pedagogi pendidikan awal kanak-kanak: teori dan praktis taska dan tadika.  Penerbit Universiti Pendidikan Sultan Idris. 
+ISBN: 9786297524115. 
+10 M. Nordin., A. T. M. H. (2024). Pendidikan awal kanak-kanak: penglibatan keluarga dan komuniti di taska dan tadika.  Penerbit Universiti 
+Pendidikan Sultan Idris. ISBN: 9786297524641 
+11 N. U. Abdullah. Tarbiyatul Aulad Jilid 1 & 2. (2015). Malaysia: PTS Publishing House. ISBN: 9789673662852 
+12 Altalib, H., AbuSulayman, A., Altalib, O. (2013). Parent-Child Relations: A Guide to Raising Children.  United Kingdom:  International 
+Institute of Islamic Thought. ISBN: 9781565645820 
+  
+
+===== PAGE 85 =====
+P851-002-4:2025 
+75 / 94 
+15.5 Handle parental-community activities. 
+ 
+SECTION (P) Education 
+GROUP (851) Pre-primary and Primary Education 
+AREA Pre-primary Teaching 
+NOSS TITLE Preschool Teaching  
+COMPETENCY UNIT TITLE Handle parental-community activities. 
+LEARNING OUTCOMES The learning outcomes of this competency are to enable the trainees to implement parental and 
+community engagement activities to support collaborative partnerships, enhance preschool 
+programme participation, and promote family involvement.  
+ 
+Upon completion of this competency unit, trainees should be able to: 
+1. Carry out preschool parental-community activities. 
+2. Engage relationship with family and community. 
+3. Prepare report parental-community activities. 
+ 
+TRAINING PREREQUISITE 
+(SPECIFIC) 
+Not Available. 
+CU CODE P851-002-4:2025-C05 NOSS LEVEL Four (4) 
+ 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1. Carry out 
+preschool 
+parental-
+community 
+activities. 
+ 
+1.1 Parent and 
+community 
+involvement 
+theory and 
+thoughts from 
+scholars. 
+1.2 Specific, 
+Measurable, 
+1.1 Propose parental -
+community activity. 
+1.2 Prepare proposal for 
+implementation. 
+1.3 Perform parental -
+community 
+involvement 
+programme. 
+ATTITUDE 
+1.1 Approachable and 
+friendly. 
+1.2 Resourceful in 
+preparation of 
+materials and 
+activities. 
+COGNITIVE DOMAIN 
+1.1 Parent and community 
+involvement theory and 
+thoughts from scholars such as 
+ecological system theory 
+explained. 
+1.2 Specific, Measurable, 
+Achievable, Relevant, Time -
+
+===== PAGE 86 =====
+P851-002-4:2025 
+76 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+Achievable, 
+Relevant, Time-
+bond (SMART) 
+goals settings. 
+1.3 Basic project 
+proposal: 
+• Topic. 
+• Objectives. 
+• Audience. 
+• Date. 
+• Place. 
+• Budget. 
+1.4 Risk 
+Assessment: 
+• Potential 
+Hazard. 
+• Risk Level. 
+• Safety Plan. 
+1.5 Programme 
+management: 
+• Effective 
+communicati
+on. 
+• Safety 
+protocols. 
+• Checklist 
+programme. 
+ 1.3 Accountable and 
+responsible in 
+preparing out of 
+school activities. 
+ 
+SAFETY 
+1.1 Adhere to health 
+safety and security, 
+rules and regulations. 
+1.2 Adhere to insurance 
+policies. 
+1.3 Ensure compliance 
+with safety protocols 
+during outdoor 
+activities. 
+ 
+ENVIRONMENT 
+1.1 Ensure suitable 
+environment for 
+outdoor activities.  
+ 
+bond (SMART) goals settings 
+determined. 
+1.3 Basic project proposal include 
+topic, objectives, audience, 
+date, place, budget elaborated. 
+1.4 Risk assessment which is 
+potential hazard, risk level and 
+safety plan listed. 
+1.5 Programme management 
+which is effective 
+communication, safety 
+protocols and checklist 
+programme described. 
+ 
+PSYCHOMOTOR DOMAIN 
+1.1 Parental-community activity 
+determined. 
+1.2 Implementation parental -
+community activities noted 
+down. 
+1.3 Parental-community 
+involvement programme 
+presented. 
+ 
+AFFECTIVE DOMAIN 
+1.1 Approachable and friendly 
+demonstrated. 
+
+===== PAGE 87 =====
+P851-002-4:2025 
+77 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+1.2 Resourceful in preparation of 
+materials and activities 
+demonstrated. 
+1.3 Accountable and responsible in 
+preparing out of school 
+activities demonstrated. 
+1.4 Adhere to health safety and 
+security, rules and regulations 
+demonstrated. 
+1.5 Adhere to insurance policies 
+demonstrated. 
+1.6 Ensure suitable environment 
+for outdoor activities 
+demonstrated. 
+ 
+2. Engage 
+relationshi
+p with 
+family and 
+community
+. 
+ 
+2.1 Information of 
+locality: 
+• Background 
+community. 
+• Participant. 
+2.2 Effective 
+communication: 
+• Parents. 
+• Community. 
+• Pupils. 
+• Special guest 
+(Very 
+Important 
+2.1 Prepare programme 
+requirement. 
+2.2 Participate in 
+preschool 
+programme. 
+2.3 Handle programme 
+and activities.  
+ATTITUDE 
+2.1 Friendly 
+approachable. 
+2.2 Sensitive to families 
+from diverse 
+background. 
+2.3 Sincere and respectful 
+2.4 Efficient in solving 
+problems. 
+ 
+ 
+SAFETY 
+COGNITIVE DOMAIN 
+2.1 Information of locality include 
+background community and 
+participant described. 
+2.2 Effective communication  with 
+parents, community, pupils, 
+special guest elaborated. 
+2.3 Activity procedure which 
+includes resources, checklist 
+and safety precaution listed. 
+ 
+PSYCHOMOTOR DOMAIN 
+
+===== PAGE 88 =====
+P851-002-4:2025 
+78 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+People 
+(VIP), 
+government 
+officer). 
+2.3 Activity 
+procedure: 
+• Resources.  
+• Checklist. 
+• Safety 
+precaution 
+(pupil 
+control). 
+ 
+2.1 Adhere to health 
+safety and security, 
+rules and regulations. 
+2.2 Adhere to insurance 
+policies. 
+ 
+ENVIRONMENT 
+2.1 Comply with 3R 
+application. 
+2.2 Ensure conducive 
+environment during 
+the programme. 
+2.3 Maintain tidiness 
+during programme. 
+ 
+ 
+2.1 Programme requirements 
+engage with family and 
+community determined. 
+2.2 Participate in a preschool 
+programme noted down. 
+2.3 Handle programmes and 
+activities presented. 
+ 
+AFFECTIVE DOMAIN 
+2.1 Friendly approachable 
+demonstrated. 
+2.2 Sensitive to families from 
+diverse background 
+demonstrated. 
+2.3 Sincere and respectful 
+demonstrated. 
+2.4 Efficient in solving problems 
+demonstrated. 
+2.5 Adhere to health safety and 
+security, rules and regulations 
+demonstrated. 
+2.6 Adhere to insurance policies 
+demonstrated. 
+2.7 Comply with 3R application 
+demonstrated. 
+2.8 Ensure conducive environment 
+during the programme 
+demonstrated. 
+
+===== PAGE 89 =====
+P851-002-4:2025 
+79 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+2.9 Maintain tidiness during 
+programme demonstrated. 
+ 
+3. Prepare 
+report 
+parental-
+community 
+activities. 
+ 
+ 
+3.1 Procedure of 
+collecting 
+response. 
+3.2 Summary report 
+(reporting 
+format). 
+3.3 Meeting 
+Procedure. 
+3.1 Collect feedback from 
+participant. 
+3.2 Prepare summary 
+report.  
+3.3 Attend post -mortem 
+meeting. 
+ATTITUDE 
+3.1 Respectful 
+communication. 
+3.2 Helpful and 
+supportive. 
+3.3 Collaborative mindset 
+3.4 Problem solving. 
+ 
+SAFETY 
+3.1 Ethical and 
+professional to ensure 
+of prepare report. 
+3.2 Practise proper 
+ergonomic gestures. 
+ 
+ENVIRONMENT 
+3.1 Ensure conducive 
+environment during 
+the meeting. 
+3.2 Practise paperless 
+environment. 
+ 
+COGNITIVE DOMAIN 
+3.1 Procedure of collecting 
+response defined. 
+3.2 Summary report which is 
+reporting format documented. 
+3.3 Meeting Procedure include 
+meeting protocol, present 
+report, recommendation for 
+future improvements and 
+action planning listed. 
+ 
+PSYCHOMOTOR DOMAIN 
+3.1 Feedback collection from 
+participant determined. 
+3.2 Summary report presented. 
+3.3 Post-mortem meeting 
+presented. 
+ 
+AFFECTIVE DOMAIN 
+3.1 Respectful communication 
+demonstrated. 
+3.2 Helpful and supportive 
+demonstrated. 
+3.3 Collaborative mindset 
+demonstrated. 
+3.4 Problem solving demonstrated. 
+
+===== PAGE 90 =====
+P851-002-4:2025 
+80 / 94 
+WORK 
+ACTIVITIES 
+RELATED 
+KNOWLEDGE RELATED SKILLS ATTITUDE/ SAFETY/ 
+ENVIRONMENT ASSESSMENT CRITERIA 
+3.5 Ethical and professional to 
+ensure of prepare report 
+demonstrated. 
+3.6 Practise proper ergonomic 
+gestures demonstrated. 
+3.7 Ensure conducive environment 
+during the meeting 
+demonstrated. 
+3.8 Practise paperless environment 
+demonstrated. 
+ 
+ 
+  
+
+===== PAGE 91 =====
+P851-002-4:2025 
+81 / 94 
+Employability Skills  
+ 
+Core Abilities 
+• Please refer NCS- Core Abilities latest edition. 
+ 
+Social Values & Social Skills 
+• Please refer Handbook on Social Skills and Social Values in Technical Education and Vocational Training. 
+ 
+References for Learning Material Development 
+ 
+1 Jabatan Kemajuan Masyarakat. (2020). Modul Latihan Asas Guru TABIKA KEMAS (Edisi ke-2). Kementerian Pembangunan Luar Bandar.  
+2 Kementerian Pendidikan Malaysia. (2017). Kurikulum Standard Prasekolah Kebangsaan (KSPK) . Bahagian Pembangunan Kurikulum, 
+KPM.  
+3 Mohd Johari, M. Y. (2020). Pengurusan Prasekolah: Teori dan Aplikasi dalam Konteks Malaysia . Penerbit Universiti Teknologi MARA 
+(UiTM Press). ISBN: 9789673637789 
+4 Mohd Salleh, A. (2021). Pendidikan Awal Kanak-kanak: Teori dan Amalan di Malaysia. Penerbit Universiti Pendidikan Sultan Idris (UPSI). 
+ISBN: 9789672395031 
+5 Mustaffa, N., & Ismail, N. (Eds.). (2019). Amalan dan Isu dalam Pendidikan Awal Kanak -kanak di Malaysia . Penerbit Universiti 
+Kebangsaan Malaysia (UKM). ISBN: 9789674124424 
+6 Noraini, A. (2018). Pedagogi dalam Pendidikan Awal Kanak-Kanak. Penerbit Universiti Malaya. ISBN: 9789831009496 
+7 Yahya, A., & Ismail, R. (2017). Pendidikan Prasekolah: Pendekatan Kurikulum dan Pengajaran . Dewan Bahasa dan Pustaka. ISBN: 
+9789834907409 
+8 Al-Ghazali’s Adapted Summary of Ihya Ulum al-Din: The Forty Principles of the Religion. (2016). United Kingdom: Turath Publishing. 
+9 M. Nordin (2023). Pedagogi pendidikan awal kanak-kanak: teori dan praktis taska dan tadika.  Penerbit Universiti Pendidikan Sultan Idris. 
+ISBN: 9786297524115. 
+10 M. Nordin., A. T. M. H. (2024). Pendidikan awal kanak-kanak: penglibatan keluarga dan komuniti di taska dan tadika.  Penerbit Universiti 
+Pendidikan Sultan Idris. ISBN: 9786297524641 
+11 N. U. Abdullah. Tarbiyatul Aulad Jilid 1 & 2. (2015). Malaysia: PTS Publishing House. ISBN: 9789673662852 
+12 Altalib, H., AbuSulayman, A., Altalib, O. (2013). Parent-Child Relations: A Guide to Raising Children.  United Kingdom:  International 
+Institute of Islamic Thought. ISBN: 9781565645820 
+ 
+  
+
+===== PAGE 92 =====
+P851-002-4:2025 
+82 / 94 
+16. Delivery Mode 
+ 
+The following are the recommended training delivery modes: - 
+ 
+KNOWLEDGE SKILL 
+• Lecture 
+• Group discussion 
+• E-learning, self-paced 
+• E-learning, facilitate 
+• Case study or Problem based learning (PBL) 
+• Self-paced learning, non-electronic 
+• One-on-one tutorial 
+• Shop talk 
+• Seminar 
+• Demonstration 
+• Simulation 
+• Project  
+• Scenario based training (SBT) 
+• Role play 
+• Coaching  
+• Observation 
+• Mentoring 
+ 
+Skills training and skills assessment of trainees should be implemented in accordance with TEM requirements and actual situation. 
+  
+
+===== PAGE 93 =====
+P851-002-4:2025 
+83 / 94 
+17. Tools, Equipment and Materials (TEM)  
+ 
+PRESCHOOL TEACHING  
+ 
+LEVEL 4 
+ 
+CU CU CODE COMPETENCY UNIT TITLE 
+C01 P851-002-4:2025-C01 Conduct daily routine activities. 
+C02 P851-002-4:2025-C02 Perform preschool teaching and learning activities. 
+C03 P851-002-4:2025-C03 Organise preschool classroom environment. 
+C04 P851-002-4:2025-C04 Develop pupil’s assessment. 
+C05 P851-002-4:2025-C05 Handle parental-community activities. 
+ 
+* Items listed refer to TEM’s minimum requirement for skills delivery only. 
+ 
+NO. ITEM* RATIO (TEM : Trainees or AR = As Required) 
+C01 C02 C03 C04 C05 
+A. Tools  
+1  Educational learning resources for language skills 
+(story books, flash cards, puppets)  1:5 1:5   
+2  Educational games for fine motor skills 
+(threading, spooning, clipping, buttoning)  1:3 1:3   
+3  Educational learning resources for cognitive skills 
+(puzzles, matching, memory cards, pola)  1:3 1:3   
+4  Educational learning resources for socio-
+emotional skills (pretend play costume, emotional 
+cards, dolls) 
+ 1:5 1:5   
+5  Educational learning resources for spiritual skills 
+(Prayer items, religious books)  1:3 1:3   
+6  Educational learning resources for creativity and 
+aesthetics (early childhood local musical  1:5 1:5   
+
+===== PAGE 94 =====
+P851-002-4:2025 
+84 / 94 
+instrument, props for music and movement 
+activity, art and craft tools) 
+7  Exercise books (square, single line)  1:1  1:1  
+8  Stationery (staplers, scissors, markers, pens and 
+pencils) 1:1 1:1 1:1 1:1 1:1 
+9  Cleaning tools (dustbin, mop, broom) 1:25 1:25 1:25 1:25 1:25 
+B. Equipment  
+1  AVA system   1:25 1:25 1:25 1:25 
+2  Bookshelves  1:25 1:25   
+3  CCTV 1:25 1:25 1:25   
+4  Computer  1:3 1:3 1:3 1:3 
+5  Easel stand  1:25 1:25   
+6  Laminating machine   1:25 1:25 1:25 
+7  Physical activities equipment (indoor or outdoor) 1:25 1:25    
+8  Printer/photocopy machine 1:25 1:25 1:25 1:25 1:25 
+9  Sick bay utility (stackable cot, mat, pillow, 
+blanket)  1:25     
+10  Utility shelves (toys rack, shoe rack, bag rack) 1:25 1:25 1:25   
+C. Materials  
+1  Art and craft materials (paint, drawing blocks, 
+palettes, crayon, colour pencils, recycled and 
+natural materials) 
+ AR AR   
+2  Cleaning materials and agents AR AR AR AR AR 
+3  Culinary set (crockery, cutlery, table cloth, 
+serviette and other related materials) AR     
+4  Digital and non-digital assessment documentation 
+instruments (record, checklist, guideline, form)    1:1  
+5  Digital and non-digital office documentation 
+(receipt and invoices, file and folders)   AR AR AR 
+6  Fire extinguisher AR AR AR AR AR 
+7  First aid kit set 1:5 1:5 1:5 1:5 1:5 
+
+===== PAGE 95 =====
+P851-002-4:2025 
+85 / 94 
+8  National Preschool Curriculum (NPC) 1:1 1:1 1:1 1:1 1:1 
+9  Paper (A4 paper, multi-colour paper) AR AR AR AR AR 
+10  Parents’ handbook     1:5 
+11  Protective wear (apron, glove, mask) AR AR AR  AR 
+12  Pupil’s portfolio 1:1 1:1  1:1  
+13  Related policies, acts & regulations 1:1 1:1 1:1 1:1 1:1 
+14  RPH template 1:1 1:1  1:1  
+15  RPT template 1:1 1:1  1:1  
+16  Teacher’s guidebook AR AR AR AR AR 
+ 
+ 
+  
+
+===== PAGE 96 =====
+P851-002-4:2025 
+86 / 94 
+18. Competency Weightage 
+ 
+The following table shows the percentage of training priorities based on consensus made by the Standard Development Committee (SDC). 
+ 
+PRESCHOOL TEACHING  
+ 
+LEVEL 4 
+ 
+CU CODE COMPETENCY UNIT TITLE 
+COMPETENCY 
+UNIT 
+WEIGHTAGE 
+WORK ACTIVITIES 
+WORK 
+ACTIVITIES 
+WEIGHTAGE 
+P851-002-
+4:2025-C01 
+Conduct daily routine 
+activities. 15% 
+1. Handle pupil’s arrival. 25% 
+2. Handle pupil’s recess time. 25% 
+3. Handle pupil’s toilet break. 25% 
+4. Handle pupil’s dismissal. 25% 
+P851-002-
+4:2025-C02 
+Perform preschool teaching 
+and learning activities. 35% 
+1. Prepare yearly lesson plan (RPT). 10% 
+2. Prepare daily lesson plan (RPH). 25% 
+3. Prepare teaching and learning 
+material. 25% 
+4. Deliver daily lesson plan. 30% 
+5. Analyse lesson effectiveness. 10% 
+P851-002-
+4:2025-C03 
+Organise preschool classroom 
+environment. 20% 
+1. Prepare learning environment. 35% 
+2. Handle pupil’s attendance. 15% 
+3. Record classroom inventory. 10% 
+4. Control pupil’s behaviour. 40% 
+P851-002-
+4:2025-C04 Develop pupil’s assessment. 20% 
+1. Assess pupil’s behaviour and 
+attitude. 25% 
+2. Prepare pupil’s assessment activity. 15% 
+3. Execute observation of pupil’s 
+assessment. 30% 
+4. Develop pupil’s progress report. 20% 
+
+===== PAGE 97 =====
+P851-002-4:2025 
+87 / 94 
+5. Present pupil’s assessment outcome. 10% 
+P851-002-
+4:2025-C05 
+Handle parental-community 
+activities. 10% 
+1. Carry out preschool parental-
+community activities. 40% 
+2. Engage relationship with family and 
+community. 40% 
+3. Prepare report parental-community 
+activities. 20% 
+TOTAL PERCENTAGE (CORE 
+COMPETENCY) = 100%  
+  
+
+===== PAGE 98 =====
+P851-002-4:2025 
+88 / 94 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDICES 
+ 
+NATIONAL OCCUPATIONAL SKILLS STANDARD (NOSS) FOR: 
+ 
+PRESCHOOL TEACHING  
+ 
+LEVEL 4 
+ 
+
+===== PAGE 99 =====
+P851-002-4:2025 
+89 / 94 
+19. Appendices 
+19.1 Appendix A: Competency Profile Chart For Teaching & Learning (CPCPdP)  
+ 
+i. CU to CUPdP Correlation 
+  
+SECTION (P) EDUCATION 
+GROUP (851) PRE-PRIMARY AND PRIMARY EDUCATION 
+AREA PRE-PRIMARY TEACHING 
+NOSS TITLE PRESCHOOL TEACHING  
+NOSS LEVEL FOUR (4) NOSS CODE P851-002-4:2025 
+ 
+CU CODE CU TITLE CUPdP TITLE  
+For Teaching & Learning 
+P851-002-4:2025-C01 CONDUCT DAILY ROUTINE ACTIVITIES DAILY ROUTINE ACTIVITIES 
+P851-002-4:2025-C02 PERFORM PRESCHOOL TEACHING AND 
+LEARNING ACTIVITIES 
+PRESCHOOL TEACHING AND LEARNING 
+ACTIVITIES 
+P851-002-4:2025-C03 ORGANISE PRESCHOOL CLASSROOM 
+ENVIRONMENT 
+PRESCHOOL CLASSROOM ENVIRONMENT 
+COORDINATION 
+P851-002-4:2025-C04 DEVELOP PUPIL’S ASSESSMENT PUPIL’S ASSESSMENT DEVELOPMENT 
+P851-002-4:2025-C05 HANDLE PARENTAL-COMMUNITY 
+ACTIVITIES PARENTAL-COMMUNITY ACTIVITIES 
+ 
+  
+
+===== PAGE 100 =====
+P851-002-4:2025 
+90 / 94 
+ii. Competency Profile Chart for Teaching & Learning (CPCPdP) 
+ 
+SECTION (P) EDUCATION 
+GROUP (851) PRE-PRIMARY AND PRIMARY EDUCATION 
+AREA PRE-PRIMARY TEACHING 
+NOSS TITLE PRESCHOOL TEACHING  
+NOSS LEVEL FOUR (4) NOSS CODE P851-002-4:2025 
+ 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+   
+    
+CORE 
+ DAILY ROUTINE 
+ACTIVITIES  HANDLE PUPIL’S 
+ARRIVAL  HANDLE PUPIL’S 
+RECESS TIME  HANDLE PUPIL’S 
+TOILET BREAK  HANDLE PUPIL’S 
+DISMISSAL 
+ P851-002-4:2025-C01  P851-002-4:2025-
+C01-W01  P851-002-4:2025-
+C01-W02  P851-002-4:2025-
+C01-W03  P851-002-4:2025-
+C01-W04 
+          
+ 
+PRESCHOOL 
+TEACHING AND 
+LEARNING 
+ACTIVITIES 
+ 
+PREPARE YEARLY 
+LESSON PLAN 
+(RPT) 
+ 
+PREPARE DAILY 
+LESSON PLAN 
+(RPH) 
+ 
+PREPARE 
+TEACHING AND 
+LEARNING 
+MATERIAL 
+ DELIVER DAILY 
+LESSON PLAN 
+ P851-002-4:2025-C02  P851-002-4:2025-
+C02-W01  P851-002-4:2025-
+C02-W02  P851-002-4:2025-
+C02-W03  P851-002-4:2025-
+C02-W04 
+ 
+  
+
+===== PAGE 101 =====
+P851-002-4:2025 
+91 / 94 
+ 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+           
+CORE 
+   ANALYSE LESSON 
+EFFECTIVENESS       
+   P851-002-4:2025-
+C02-W05       
+          
+ 
+PRESCHOOL 
+CLASSROOM 
+ENVIRONMENT 
+COORDINATION 
+ 
+PREPARE 
+LEARNING 
+ENVIRONMENT 
+ HANDLE PUPIL’S 
+ATTENDANCE  
+RECORD 
+CLASSROOM 
+INVENTORY 
+ 
+CONTROL 
+PUPIL’S 
+BEHAVIOUR 
+ P851-002-4:2025-C03  P851-002-4:2025-
+C03-W01  P851-002-4:2025-
+C03-W02  P851-002-4:2025-
+C03-W03  P851-002-4:2025-
+C03-W04 
+          
+ 
+PUPIL’S 
+ASSESSMENT 
+DEVELOPMENT 
+ 
+ASSESS PUPIL’S 
+BEHAVIOUR AND 
+ATTITUDE 
+ 
+PREPARE PUPIL’S 
+ASSESSMENT 
+ACTIVITY 
+ 
+EXECUTE 
+OBSERVATION 
+OF PUPIL’S 
+ASSESSMENT 
+ 
+DEVELOP PUPIL’S 
+PROGRESS 
+REPORT 
+ P851-002-4:2025-C04  P851-002-4:2025-
+C04-W01  P851-002-4:2025-
+C04-W02  P851-002-4:2025-
+C04-W03  P851-002-4:2025-
+C04-W04 
+ 
+  
+
+===== PAGE 102 =====
+P851-002-4:2025 
+92 / 94 
+ 
+↤COMPETENCY UNIT↦  ↤WORK ACTIVITIES↦ 
+           
+CORE 
+   
+PRESENT PUPIL’S 
+ASSESSMENT 
+OUTCOME 
+      
+   P851-002-4:2025-
+C04-W05       
+      
+ 
+PARENTAL-
+COMMUNITY 
+ACTIVITIES 
+ 
+ 
+ 
+CARRY OUT 
+PRESCHOOL 
+PARENTAL-
+COMMUNITY 
+ACTIVITIES 
+ 
+ENGAGE 
+RELATIONSHIP 
+WITH FAMILY 
+AND 
+COMMUNITY 
+ 
+PREPARE REPORT 
+PARENTAL-
+COMMUNITY 
+ACTIVITIES 
+  
+ P851-002-4:2025-C05  P851-002-4:2025-
+C05-W01  P851-002-4:2025-
+C05-W02  P851-002-4:2025-
+C05-W03   
+ 
+Notes:  
+CPCPdP is meant to be used in Teaching and Learning context which is generated by conversion of the action verb in the CU Title to a 
+noun in the CUPdP Title from the given CPC sets. 
+ 
+  
+
+===== PAGE 103 =====
+P851-002-4:2025 
+93 / 94 
+19.2 Appendix B: Element Content Weightage 
+ 
+ 
+OSH - OCCUPATIONAL SAFETY AND HEALTH 
+SD - SUSTAINABLE DEVELOPMENT 
+M&A - MANAGEMENT AND ADMINISTRATION 
+IT - INDUSTRY TECHNOLOGICAL ADVANCES 
+ 
+PRESCHOOL TEACHING  
+LEVEL 4 
+ 
+ 
+CU CODE CU TITLE ELEMENT CONTENT WEIGHTAGE 
+OSH SD M&A IT 
+P851-002-4:2025-
+C01 Conduct daily routine activities 30% 20% 20% 10% 
+P851-002-4:2025-
+C02 
+Perform preschool teaching and 
+learning activities 20% 20% 20% 25% 
+P851-002-4:2025-
+C03 
+Organise preschool classroom 
+environment 20% 25% 20% 15% 
+P851-002-4:2025-
+C04 Develop pupil’s assessment 15% 15% 25% 25% 
+
+===== PAGE 104 =====
+P851-002-4:2025 
+94 / 94 
+CU CODE CU TITLE ELEMENT CONTENT WEIGHTAGE 
+OSH SD M&A IT 
+P851-002-4:2025-
+C05 Handle parental-community activities 15% 20% 15% 25% 
+TOTAL ELEMENT CONTENT WEIGHTAGE 100% 100% 100% 100% 
+NOTES 
+C01 involves 
+managing daily 
+routines such as 
+pupil arrival, 
+mealtime, toilet 
+breaks, and 
+dismissal. Safety 
+and hygiene are 
+highly critical in 
+this context, as 
+educators must 
+ensure hazard-
+free 
+environments, 
+maintain 
+cleanliness, and 
+enforce SOPs 
+consistently. 
+C03 involve 
+Classroom 
+arrangement, 
+resource 
+management, and 
+environmental 
+safety strongly 
+reflect 
+sustainable 
+development 
+values such as 
+resource 
+efficiency, 
+health, and 
+accessibility. 
+C04 involves 
+structured 
+documentation, 
+reporting, data 
+analysis, and 
+systematic 
+review of pupil 
+progress — key 
+components of 
+administrative 
+work. 
+   
+These C02, C04 
+and C05 involve 
+direct use of 
+digital tools for 
+lesson delivery, 
+assessment 
+recording, parent 
+communication, 
+and presentation. 
+IT is central in 
+implementing 
+these tasks. 
+ 
+ 

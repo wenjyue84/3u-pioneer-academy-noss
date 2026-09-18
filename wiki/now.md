@@ -1,6 +1,11 @@
 # now.md — 3U Pioneer Academy / Character Intl. Academy
 
-Last updated: 2026-09-18 09:30 MYT
+Last updated: 2026-09-18 16:40 MYT
+
+## 🆕 2026-09-18 — P851 Preschool Teaching (Level 4 / DKM) · ADI Pekerjaan 套件（`preschool-teaching/`）
+
+Jay 15:43 给了 `NOSS P851-002-4-2025 PRESCHOOL TEACHING.pdf`，要照 `video-film-editing/` 再做一套，重点是 `output/`。已做：00–12 md + `output/` 官员格式文件。**这是 DKM，不是 SKM**：30 个月 / 4800 h，理论考卷是主观题（1 Struktur + 1 Esei，1 小时），Core Abilities 要 L1–L4（120 h），另加 LPKC 项目报告。入口 `preschool-teaching/README.md` 第三节有差异表和出处。
+**待 Jay：** 申请 tadika 是哪家；Bakat 入学资格决定时长（30 月 vs Jadual 3 短版）；Core Abilities 先用官方通用版交件还是做幼教情境版（Phase 2）；CA L4 官方考卷是主观题 vs Panduan 3.3.2 要 20 MCQ 的冲突要问官员。
 
 ## 🆕 2026-09-18 — IT-072 Video/Film Editing · ADI Pekerjaan 套件（`video-film-editing/`）
 

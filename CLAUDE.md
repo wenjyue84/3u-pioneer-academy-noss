@@ -31,6 +31,7 @@ Grant proposals for PTPK Skim TBT and COPTPA accreditation. Deadline-sensitive �
 | `multimedia-interactive-design/` | J582-001-3:2019 | BM/EN — COPTPA 2023, in progress |
 | `creative-multimedia-development/` | J582-001-4:2025 | BM/EN — stub, awaiting NOSS PDF |
 | `video-film-editing/` | IT-072-3:2012 | BM — **ADI Pekerjaan** format (MPC/JPK Lampiran 5 → Jadual → Nota → JSU/Soalan → Bukti), not WIM; no JPK envelope; read its README.md first |
+| `preschool-teaching/` | P851-002-4:2025 | BM — **ADI Pekerjaan, Tahap 4 / DKM**: 30 bulan, theory test is subjective (1 Struktur + 1 Esei), Core Abilities L1–L4, plus LPKC; NOSS has **no hours table** (weightage only); no JPK envelope; read its README.md first |
 
 ## Proposals (Workstream B)
 
